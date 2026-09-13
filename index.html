@@ -2,370 +2,293 @@
 <html lang="ro">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Case cu grădină · Sibiu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2f6d4f">
+<title>Casă + apartament · Sibiu</title>
 <style>
   :root{
-    --bg:#eef1ec; --surface:#ffffff; --surface-2:#f6f8f4;
+    --bg:#eef1ec; --surface:#fff; --surface-2:#f6f8f4;
     --ink:#1b241d; --muted:#5b6a60; --faint:#8a9890;
-    --line:#dde3dc; --line-strong:#c9d2c8;
-    --accent:#2f6d4f; --accent-strong:#245840; --accent-soft:#e2efe7;
-    --terra:#c05a34; --terra-soft:#f6e3da; --gold:#9a7524;
-    --shadow:0 1px 2px rgba(27,36,29,.05),0 8px 24px -12px rgba(27,36,29,.18);
+    --line:#dde3dc; --accent:#2f6d4f; --accent-soft:#e3efe7;
+    --warn:#a8521f; --warn-soft:#fbeee3;
     --radius:14px;
   }
   @media (prefers-color-scheme:dark){
-    :root{
-      --bg:#12170f; --surface:#1a211a; --surface-2:#202821;
-      --ink:#e9efe7; --muted:#9db0a4; --faint:#6f8073;
-      --line:#2a332b; --line-strong:#38443a;
-      --accent:#5aa87b; --accent-strong:#7cc199; --accent-soft:#1f2f26;
-      --terra:#e08a63; --terra-soft:#33241d; --gold:#c9a355;
-      --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px -14px rgba(0,0,0,.6);
+    :root:not([data-theme="light"]){
+      --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+      --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+      --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+      --warn:#e0a16a; --warn-soft:#33281e;
     }
   }
-  :root[data-theme="light"]{
-    --bg:#eef1ec; --surface:#ffffff; --surface-2:#f6f8f4;
-    --ink:#1b241d; --muted:#5b6a60; --faint:#8a9890;
-    --line:#dde3dc; --line-strong:#c9d2c8;
-    --accent:#2f6d4f; --accent-strong:#245840; --accent-soft:#e2efe7;
-    --terra:#c05a34; --terra-soft:#f6e3da; --gold:#9a7524;
-    --shadow:0 1px 2px rgba(27,36,29,.05),0 8px 24px -12px rgba(27,36,29,.18);
-  }
   :root[data-theme="dark"]{
-    --bg:#12170f; --surface:#1a211a; --surface-2:#202821;
-    --ink:#e9efe7; --muted:#9db0a4; --faint:#6f8073;
-    --line:#2a332b; --line-strong:#38443a;
-    --accent:#5aa87b; --accent-strong:#7cc199; --accent-soft:#1f2f26;
-    --terra:#e08a63; --terra-soft:#33241d; --gold:#c9a355;
-    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px -14px rgba(0,0,0,.6);
+    --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+    --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+    --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+    --warn:#e0a16a; --warn-soft:#33281e;
   }
-
   *{box-sizing:border-box}
-  body{margin:0; background:var(--bg); color:var(--ink); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.5; -webkit-font-smoothing:antialiased}
-  .wrap{max-width:1160px; margin:0 auto; padding:clamp(20px,4vw,44px) clamp(14px,4vw,28px) 72px}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    padding-bottom:104px;-webkit-text-size-adjust:100%}
+  .wrap{max-width:960px;margin:0 auto;padding:0 16px}
 
-  header{display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:16px; margin-bottom:6px}
-  .eyebrow{font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); font-weight:700; display:flex; align-items:center; gap:8px}
-  .eyebrow::before{content:""; width:26px; height:2px; background:var(--accent); display:inline-block}
-  h1{font-size:clamp(28px,5vw,44px); line-height:1.03; margin:.28em 0 .12em; letter-spacing:-.02em; text-wrap:balance; font-weight:800}
-  h1 em{font-style:normal; color:var(--accent)}
-  .lede{color:var(--muted); font-size:15.5px; max-width:60ch; margin:0}
-  .themetoggle{border:1px solid var(--line-strong); background:var(--surface); color:var(--muted); border-radius:999px; padding:8px 14px; font-size:13px; font-weight:600; cursor:pointer; white-space:nowrap}
-  .themetoggle:hover{color:var(--ink); border-color:var(--accent)}
+  header{padding-block:22px 6px}
+  .title{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  h1{font-size:22px;margin:0;letter-spacing:-.02em}
+  .stamp{font-size:12px;color:var(--faint)}
+  .lede{color:var(--muted);margin:8px 0 0;font-size:14px}
+  #themeBtn{position:absolute;top:16px;right:16px;border:1px solid var(--line);
+    background:var(--surface);color:var(--muted);border-radius:999px;
+    width:34px;height:34px;font-size:15px;cursor:pointer}
 
-  .criteria{display:flex; flex-wrap:wrap; gap:8px; margin:20px 0 26px}
-  .crit{display:inline-flex; align-items:center; gap:7px; background:var(--surface); border:1px solid var(--line); border-radius:999px; padding:7px 13px; font-size:13.5px; font-weight:600}
-  .crit b{color:var(--accent); font-weight:800}
-  .crit svg{width:15px;height:15px; color:var(--accent)}
+  .tabs{display:flex;gap:6px;background:var(--surface-2);border:1px solid var(--line);
+    border-radius:999px;padding:4px;margin:16px 0 12px}
+  .tabs button{flex:1;border:0;background:none;color:var(--muted);font:inherit;
+    font-weight:600;font-size:14px;padding:9px 6px;border-radius:999px;cursor:pointer}
+  .tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);
+    box-shadow:0 1px 3px rgba(0,0,0,.10)}
 
-  /* filter bar */
-  .filters{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:clamp(14px,2.4vw,20px); margin-bottom:22px; position:sticky; top:8px; z-index:20; backdrop-filter:saturate(1.2)}
-  .ctrl-label{font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; font-weight:700; color:var(--faint); margin:0 0 9px}
-  .chips{display:flex; flex-wrap:wrap; gap:7px}
-  .chip{border:1px solid var(--line-strong); background:var(--surface-2); color:var(--muted); border-radius:999px; padding:6px 13px; font-size:13px; font-weight:600; cursor:pointer; transition:.12s}
-  .chip:hover{border-color:var(--accent); color:var(--ink)}
-  .chip[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff}
-  .chip .n{opacity:.65; font-weight:700; margin-left:4px}
+  .filters{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:14px;margin-bottom:14px}
+  .row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .row+.row{margin-top:12px}
+  label{font-size:13px;color:var(--muted);font-weight:600}
+  input[type=range]{flex:1;min-width:150px;accent-color:var(--accent)}
+  .val{font-variant-numeric:tabular-nums;font-weight:700;min-width:86px;text-align:right}
+  select{background:var(--surface-2);color:var(--ink);border:1px solid var(--line);
+    border-radius:9px;padding:8px 10px;font:inherit;font-size:14px;max-width:100%}
+  .check{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--ink);font-weight:500}
+  .check input{accent-color:var(--accent);width:17px;height:17px}
+  .count{font-size:13px;color:var(--faint);margin:0 0 10px}
 
-  .filter-grid{display:flex; flex-wrap:wrap; align-items:flex-end; gap:22px; margin-top:16px}
-  .price-block{flex:1; min-width:240px}
-  .price-readrow{display:flex; align-items:baseline; gap:8px; margin-bottom:7px}
-  .price-readrow .v{font-size:20px; font-weight:800; letter-spacing:-.02em; font-variant-numeric:tabular-nums}
-  .price-readrow .lbl{font-size:12px; color:var(--faint); font-weight:600; text-transform:uppercase; letter-spacing:.05em}
-  input[type=range]{-webkit-appearance:none; appearance:none; width:100%; height:6px; border-radius:999px; background:linear-gradient(90deg,var(--accent) var(--fill,80%),var(--line-strong) var(--fill,80%)); outline:none}
-  input[type=range]::-webkit-slider-thumb{-webkit-appearance:none; width:21px; height:21px; border-radius:50%; background:var(--surface); border:3px solid var(--accent); cursor:pointer; box-shadow:var(--shadow)}
-  input[type=range]::-moz-range-thumb{width:19px; height:19px; border-radius:50%; background:var(--surface); border:3px solid var(--accent); cursor:pointer}
-  .sort-block{display:flex; flex-direction:column; gap:0}
-  select{border:1px solid var(--line-strong); background:var(--surface-2); color:var(--ink); border-radius:9px; padding:8px 12px; font-size:13.5px; font-weight:600; font-family:inherit; cursor:pointer}
-  .toggle{display:flex; align-items:center; gap:8px; font-size:13.5px; font-weight:600; cursor:pointer; padding-bottom:8px; user-select:none}
-  .toggle input{width:17px; height:17px; accent-color:var(--accent); cursor:pointer}
-  .toggle .hint{color:var(--faint); font-weight:600}
+  .grid{display:grid;gap:10px;grid-template-columns:1fr}
+  @media(min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:13px 14px;display:flex;flex-direction:column;gap:9px}
+  .card.picked{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
+  .price{font-size:20px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+  .zone{font-size:13px;color:var(--muted);font-weight:600}
+  .t{font-size:14px;line-height:1.35}
+  .chips{display:flex;gap:5px;flex-wrap:wrap}
+  .chip{font-size:11.5px;background:var(--surface-2);border:1px solid var(--line);
+    border-radius:999px;padding:3px 8px;color:var(--muted);white-space:nowrap}
+  .chip.own{background:var(--accent-soft);border-color:transparent;color:var(--accent)}
+  .chip.shared{background:var(--warn-soft);border-color:transparent;color:var(--warn)}
+  .acts{display:flex;gap:8px;margin-top:2px}
+  .acts a,.acts button{flex:1;text-align:center;font:inherit;font-size:13px;font-weight:600;
+    padding:9px 8px;border-radius:9px;cursor:pointer;text-decoration:none;border:1px solid var(--line)}
+  .acts a{background:var(--surface-2);color:var(--ink)}
+  .acts button{background:var(--accent);color:#fff;border-color:transparent}
+  .card.picked .acts button{background:var(--surface-2);color:var(--accent);border-color:var(--line)}
 
-  .resbar{display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin:0 2px 14px}
-  .resbar .count{font-size:15px; font-weight:800}
-  .resbar .count span{color:var(--accent)}
-  .resbar .sub{font-size:12.5px; color:var(--faint)}
+  .live{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:14px;margin:18px 0}
+  .live h2{font-size:15px;margin:0 0 4px}
+  .live p{font-size:13px;color:var(--muted);margin:0 0 11px}
+  .portals{display:grid;gap:8px;grid-template-columns:1fr 1fr}
+  @media(min-width:640px){.portals{grid-template-columns:repeat(4,1fr)}}
+  .portal{display:block;text-align:center;text-decoration:none;background:var(--surface-2);
+    border:1px solid var(--line);border-radius:10px;padding:11px 6px;color:var(--ink);
+    font-size:13px;font-weight:600}
+  .portal small{display:block;font-weight:400;color:var(--faint);font-size:11px;margin-top:2px}
 
-  /* cards */
-  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(258px,1fr)); gap:16px}
-  .card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; text-decoration:none; color:inherit; display:flex; flex-direction:column; transition:.14s}
-  .card:hover{border-color:var(--accent); transform:translateY(-3px); box-shadow:var(--shadow)}
-  .card:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
-  .thumb{position:relative; aspect-ratio:16/10; background:var(--surface-2); overflow:hidden}
-  .thumb img{width:100%; height:100%; object-fit:cover; display:block}
-  .thumb .ph{width:100%;height:100%; display:grid; place-items:center; color:var(--faint); background:linear-gradient(135deg,var(--surface-2),var(--surface))}
-  .thumb .ph svg{width:46px;height:46px;opacity:.5}
-  .src-tag{position:absolute; top:9px; left:9px; font-size:10.5px; font-weight:800; text-transform:uppercase; letter-spacing:.05em; color:#fff; padding:3px 8px; border-radius:6px; backdrop-filter:blur(2px)}
-  .src-storia{background:rgba(10,61,98,.92)}
-  .src-olx{background:rgba(0,47,52,.92)}
-  .gtag{position:absolute; bottom:9px; left:9px; font-size:10.5px; font-weight:700; color:#fff; background:rgba(47,109,79,.92); padding:3px 8px; border-radius:6px; display:flex; align-items:center; gap:4px}
-  .gtag svg{width:11px;height:11px}
-  .card-body{padding:13px 14px 15px; display:flex; flex-direction:column; gap:7px; flex:1}
-  .price{font-size:21px; font-weight:800; letter-spacing:-.02em; font-variant-numeric:tabular-nums}
-  .title{font-size:13.5px; font-weight:600; color:var(--ink); line-height:1.32; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; min-height:2.6em}
-  .loc{font-size:12.5px; color:var(--muted); font-weight:600; display:flex; align-items:center; gap:5px}
-  .loc svg{width:12px;height:12px;color:var(--accent);flex:none}
-  .specs{display:flex; flex-wrap:wrap; gap:6px; margin-top:auto; padding-top:4px}
-  .spec{font-size:11.5px; color:var(--muted); background:var(--surface-2); border-radius:6px; padding:3px 8px; font-weight:600}
-  .spec b{color:var(--ink)}
-  .open{font-size:12.5px; font-weight:700; color:var(--accent); display:flex; align-items:center; gap:5px; padding-top:3px}
+  .bar{position:fixed;left:0;right:0;bottom:0;background:var(--surface);
+    border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom));
+    box-shadow:0 -2px 14px rgba(0,0,0,.07);z-index:5}
+  .bar-in{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .sums{flex:1;min-width:200px;font-size:13px;color:var(--muted);line-height:1.45}
+  .sums b{color:var(--ink);font-variant-numeric:tabular-nums}
+  .sums .over{color:var(--warn)}
+  .bar button{border:1px solid var(--line);background:var(--surface-2);color:var(--muted);
+    font:inherit;font-size:13px;padding:8px 12px;border-radius:9px;cursor:pointer}
+  .track{height:6px;border-radius:999px;background:var(--surface-2);overflow:hidden;margin-top:6px}
+  .track i{display:block;height:100%;background:var(--accent);width:0;transition:width .2s}
+  .track i.over{background:var(--warn)}
 
-  .empty{display:none; color:var(--muted); font-size:14px; background:var(--surface); border:1px dashed var(--line-strong); border-radius:var(--radius); padding:22px; text-align:center}
-
-  /* live search */
-  .live{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:clamp(16px,3vw,24px); margin-top:34px}
-  .live h2{font-size:17px; font-weight:800; margin:0 0 4px}
-  .live p{font-size:13.5px; color:var(--muted); margin:0 0 16px; max-width:68ch}
-  .portals{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:11px}
-  .portal{display:flex; align-items:center; gap:12px; text-decoration:none; color:inherit; background:var(--surface-2); border:1px solid var(--line-strong); border-radius:11px; padding:13px 14px; transition:.14s}
-  .portal:hover{border-color:var(--accent); transform:translateY(-2px)}
-  .mark{width:38px; height:38px; flex:none; border-radius:9px; display:grid; place-items:center; font-weight:800; font-size:14px; color:#fff}
-  .m-storia{background:#0a3d62}.m-olx{background:#002f34}.m-imob{background:#c8102e}.m-fb{background:#1877f2}
-  .p-name{font-weight:700; font-size:14px}.p-sub{font-size:12px; color:var(--muted)}
-  .portal .arrow{margin-left:auto; color:var(--faint)}
-  .portal:hover .arrow{color:var(--accent)}
-
-  footer{margin-top:30px; padding-top:18px; border-top:1px solid var(--line); color:var(--faint); font-size:12.5px; line-height:1.6}
-  footer b{color:var(--muted)}
-  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+  footer{color:var(--faint);font-size:12.5px;line-height:1.6;padding:26px 0 10px;
+    border-top:1px solid var(--line);margin-top:22px}
+  footer code{background:var(--surface-2);padding:1px 5px;border-radius:5px;font-size:12px}
+  footer a{color:var(--accent)}
 </style>
 </head>
 <body>
+<button id="themeBtn" title="Schimbă tema">◑</button>
 <div class="wrap">
-  <header>
-    <div>
-      <div class="eyebrow">Anunțuri reale · județul Sibiu</div>
-      <h1>Case cu <em>grădină</em> în Sibiu</h1>
-      <p class="lede">Anunțuri reale de pe Storia și OLX, cu link direct. Filtrează pe zonă și buget; pentru cele mai proaspete deschide căutarea live pe portal, jos.</p>
-    </div>
-    <button class="themetoggle" id="themeBtn" type="button">◐ Temă</button>
-  </header>
 
-  <div class="criteria">
-    <span class="crit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg> <b>casă cu curte</b></span>
-    <span class="crit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c4-4 4-9 0-13-4 4-4 9 0 13z"/><path d="M12 22V9"/></svg> <b>grădină / teren</b></span>
-    <span class="crit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> <b id="critPrice">≤ 275.000 €</b></span>
-    <span class="crit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg> <b>Sibiu + comune</b></span>
+<header>
+  <div class="title"><h1>Casă + apartament · Sibiu</h1><span class="stamp" id="stamp"></span></div>
+  <p class="lede">Buget total <b id="budgetLabel">250.000 €</b> pentru amândouă: o casă mică cu curte, de renovat, pentru noi — și un apartament de 2 camere, de renovat, de închiriat. Alege câte unul din fiecare și vezi jos cât rămâne pentru renovări.</p>
+</header>
+
+<div class="tabs" role="tablist">
+  <button role="tab" data-k="casa" aria-selected="true">Casă cu curte</button>
+  <button role="tab" data-k="ap" aria-selected="false">Apartament</button>
+</div>
+
+<div class="filters">
+  <div class="row">
+    <label for="maxp">Preț max</label>
+    <input type="range" id="maxp" min="50000" max="250000" step="5000" value="250000">
+    <span class="val" id="maxpVal">250.000 €</span>
   </div>
-
-  <div class="filters">
-    <p class="ctrl-label">Zonă</p>
-    <div class="chips" id="chips" role="group" aria-label="Filtru zonă"></div>
-    <div class="filter-grid">
-      <div class="price-block">
-        <div class="price-readrow"><span class="lbl">buget până la</span><span class="v" id="priceOut">275.000 €</span></div>
-        <input type="range" id="price" min="50000" max="275000" step="5000" value="275000" aria-label="Buget maxim">
-      </div>
-      <div class="sort-block">
-        <p class="ctrl-label">Sortare</p>
-        <select id="sort">
-          <option value="new">Cele mai noi</option>
-          <option value="asc">Preț crescător</option>
-          <option value="desc">Preț descrescător</option>
-        </select>
-      </div>
-      <label class="toggle" for="solo"><input type="checkbox" id="solo"> Doar casă individuală <span class="hint">(fără duplex / curte comună)</span></label>
-    </div>
+  <div class="row">
+    <label for="zone">Zonă</label>
+    <select id="zone"><option value="">toate zonele</option></select>
+    <label class="check" id="ownWrap"><input type="checkbox" id="own" checked> doar curte proprie</label>
   </div>
+</div>
 
-  <div class="resbar">
-    <div class="count"><span id="resCount">0</span> anunțuri în filtrul curent</div>
-    <div class="sub">instantaneu · 6 iul. 2026</div>
+<p class="count" id="count">Se încarcă…</p>
+<div class="grid" id="grid"></div>
+
+<section class="live">
+  <h2>Caută la zi</h2>
+  <p>Cardurile de mai sus sunt un instantaneu. Butoanele astea deschid căutarea live, filtrată pe Sibiu și pe bugetul de mai sus. Facebook cere să fii logat.</p>
+  <div class="portals">
+    <a class="portal" id="pStoria" target="_blank" rel="noopener">Storia<small>cele mai noi</small></a>
+    <a class="portal" id="pOlx" target="_blank" rel="noopener">OLX<small>după dată</small></a>
+    <a class="portal" id="pImob" target="_blank" rel="noopener">Imobiliare.ro<small>listă completă</small></a>
+    <a class="portal" id="pFb" target="_blank" rel="noopener">Facebook<small>Marketplace</small></a>
   </div>
+</section>
 
-  <div class="grid" id="grid"></div>
-  <div class="empty" id="empty">Niciun anunț în filtrul ăsta din instantaneul salvat. Ridică bugetul, alege „Toate" sau deschide căutarea live jos.</div>
+<footer>
+  <b>Cum actualizezi.</b> Anunțurile stau în <code>date.json</code>. Deschide fișierul pe GitHub, apasă creionul, editează lista, Commit — pagina arată noile date în ~1 minut.
+  <a href="https://github.com/Ilincescu/case-sibiu-gradina/edit/main/date.json" target="_blank" rel="noopener">Editează date.json →</a>
+  <br>Prețurile sunt cele cerute de vânzător, nu cele negociate. Fiecare card duce la anunțul original.
+</footer>
+</div>
 
-  <section class="live">
-    <h2>Vezi și cele mai noi, direct pe portal</h2>
-    <p>Instantaneul de sus e cules la 6 iul. 2026. Pentru anunțuri apărute între timp, butoanele deschid căutarea deja filtrată (Sibiu + casă + buget). Facebook cere să fii logat.</p>
-    <div class="portals" id="portals">
-      <a class="portal" data-portal="storia" target="_blank" rel="noopener"><span class="mark m-storia">St</span><span><span class="p-name">Storia.ro</span><br><span class="p-sub">cele mai noi + preț</span></span><span class="arrow">→</span></a>
-      <a class="portal" data-portal="olx" target="_blank" rel="noopener"><span class="mark m-olx">olx</span><span><span class="p-name">OLX.ro</span><br><span class="p-sub">sortat după dată</span></span><span class="arrow">→</span></a>
-      <a class="portal" data-portal="imob" target="_blank" rel="noopener"><span class="mark m-imob">im</span><span><span class="p-name">Imobiliare.ro</span><br><span class="p-sub">case & vile</span></span><span class="arrow">→</span></a>
-      <a class="portal" data-portal="fb" target="_blank" rel="noopener"><span class="mark m-fb">f</span><span><span class="p-name">Facebook</span><br><span class="p-sub">Marketplace</span></span><span class="arrow">→</span></a>
+<div class="bar">
+  <div class="bar-in">
+    <div class="sums">
+      <span id="sumText">Alege o casă și un apartament.</span>
+      <div class="track"><i id="fill"></i></div>
     </div>
-  </section>
-
-  <footer>
-    <p><b>Despre datele astea.</b> Cardurile sunt anunțuri reale extrase din Storia și OLX la 6 iul. 2026 — fiecare duce la anunțul lui. Este un <b>instantaneu</b>: nu se actualizează singur, iar unele anunțuri pot fi vândute între timp. Cere-mi „reîmprospătează" ca să iau lista din nou. Numărul de sus reflectă anunțurile din instantaneu care trec de filtre, nu totalul live de pe portal.</p>
-  </footer>
+    <button id="reset">Golește</button>
+  </div>
 </div>
 
 <script>
 (function(){
-  "use strict";
-  var root=document.documentElement, tb=document.getElementById("themeBtn");
-  tb.addEventListener("click",function(){
-    var c=root.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");
-    root.setAttribute("data-theme", c==="dark"?"light":"dark");
-  });
-  function fmt(n){return n.toLocaleString("ro-RO");}
-
-  // zone chips + live-search slug mapping
-  var ZONES=[
-    {id:"all",      label:"Toate",      storia:"sibiu",           olx:"sibiu-judet"},
-    {id:"oras",     label:"Sibiu oraș", storia:"sibiu/sibiu",     olx:"sibiu"},
-    {id:"selimbar", label:"Șelimbăr",   storia:"sibiu/selimbar",  olx:"selimbar"},
-    {id:"cisnadie", label:"Cisnădie",   storia:"sibiu/cisnadie",  olx:"cisnadie"},
-    {id:"cristian", label:"Cristian",   storia:"sibiu/cristian",  olx:"cristian-sibiu"},
-    {id:"suramare", label:"Șura Mare",  storia:"sibiu/sura-mare", olx:"sura-mare"},
-    {id:"suramica", label:"Șura Mică",  storia:"sibiu/sura-mica", olx:"sura-mica"},
-    {id:"alte",     label:"Alte comune",storia:"sibiu",           olx:"sibiu-judet"}
-  ];
-
-  // Real listings scraped from Storia + OLX on 2026-07-06. p=price €, z=zone, r=rooms, a=built m², g=garden/land, src, img
-  var L=[
-    {p:249000,t:"Casă 3 cam singur în curte de 585 mp, Turnisor",u:"https://www.storia.ro/ro/oferta/cas-3-cam-singur-in-curte-de-585-zona-turnisor-IDHO00",l:"Turnisor, Sibiu",z:"oras",r:"3 cam",a:100,g:"curte 585 mp",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjlidGkzcWdzZGpvcTMtQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.l-HGnQT6zWcwKnp4VdDdDfZEtLPzVsSBK51FjVZeVrM/image;s=655x491;q=80"},
-    {p:198990,t:"Casă teren 412 mp, garaj, Terezian — comision 0",u:"https://www.storia.ro/ro/oferta/casa-de-vanzare-teren-412-mp-garaj-terezian-sibiu-comision-0-IDHMCj",l:"Terezian, Sibiu",z:"oras",r:"4 cam",a:163,g:"teren 412 mp",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImM1cHgwbXYzNXczeS1BUk8iLCJ3IjpbeyJmbiI6IjN3NTY2eGdqcHkycDEtQVJPIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.1Xpk_0ZIH_GSi5-GuJCS7r0BVtPRovfLVln3hGfWVbU/image;s=655x491;q=80"},
-    {p:179000,t:"Casă individuală 150 mpu, Gușterița — comision 0",u:"https://www.storia.ro/ro/oferta/exclusivitate-comision-0-casa-individuala-150-mpu-gusterita-IDHNfV",l:"Gușterița, Sibiu",z:"oras",r:"4 cam",a:150,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImFtYnd3MTllc3oxNjMtQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.GHhJyNZ4VuWzRP_0u45gy2EsMqS3U66IPe4P8DQUcBU/image;s=655x491;q=80"},
-    {p:175000,t:"Casă 4 cam duplex, 140 mpu, zona Veterani",u:"https://www.storia.ro/ro/oferta/casa-4-camere-de-tip-duplex-140-mpu-2-bai-zona-veterani-in-sibiu-IDHN8d",l:"Veterani, Sibiu",z:"oras",r:"4 cam",a:140,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImliOXp2ank4am96cS1BUk8iLCJ3IjpbeyJmbiI6IjN3NTY2eGdqcHkycDEtQVJPIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.d2QDptMZ39fX6XKYkzY2yxpNZ7fBqisNPsaDHRFwR-k/image;s=655x491;q=80"},
-    {p:187550,t:"Casă duplex, teren 300 mp, gard + parcări, Centrul Civic",u:"https://www.storia.ro/ro/oferta/casa-duplex-cu-pereti-dublii-teren-300-mp-gard-executat-parcari-IDHMA2",l:"Centrul Civic, Sibiu",z:"oras",r:"4 cam",a:102,g:"teren 300 mp",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Inp5bG5wc2ZqZXR6bzMtQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.z5dUhTdFfPLUOiaB12wsAK9UFSMnSXRqorCAHpY-JOE/image;s=655x491;q=80"},
-    {p:155000,t:"Casă 3 cam, 80 mp, curte comună, zona Ștrand",u:"https://www.storia.ro/ro/oferta/casa-3-camere-80-mp-utili-curte-comuna-si-balcon-3-75-mp-n-trand-IDHNur",l:"Ștrand, Sibiu",z:"oras",r:"3 cam",a:80,g:"curte comună",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ims2c2JubHg5bXlubTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.3CnjjhJb9u4YjYOYOVmgiW0VID93Ck7XnAYxkQc_-vQ/image;s=655x491;q=80"},
-    {p:188000,t:"Casă în Lazaret, curte mare, garaj, curte individuală",u:"https://www.storia.ro/ro/oferta/casa-in-lazaret-curte-mare-la-cheie-garaj-curte-individuala-IDFVfn",l:"Lazaret, Sibiu",z:"oras",r:"—",a:0,g:"curte mare",src:"olx",img:""},
-    {p:207000,t:"Casă individuală Terezian, curte 400 mp — proprietar",u:"https://www.olx.ro/d/oferta/casa-individuala-in-terezian-pta-cluj-curte-400m-direct-de-la-proprietar-IDkJ9xX.html",l:"Terezian, Sibiu",z:"oras",r:"—",a:0,g:"curte 400 mp",src:"olx",img:""},
-    {p:210000,t:"Casă Terezian, 4 camere, 2 băi, curte",u:"https://www.storia.ro/ro/oferta/cas-de-vnzare-n-sibiu-terezian-4-camere-2-bi-curte-IDHzjT",l:"Terezian, Sibiu",z:"oras",r:"4 cam",a:0,g:"curte",src:"olx",img:""},
-    {p:250000,t:"Casă cu potențial comercial, zona Terezian",u:"https://www.storia.ro/ro/oferta/cas-de-vnzare-cu-potenial-comercial-n-zona-terezian-sibiu-IDDZ4p",l:"Terezian, Sibiu",z:"oras",r:"—",a:0,g:"curte",src:"olx",img:""},
-    {p:200000,t:"Casă individuală de vânzare — direct proprietar",u:"https://www.olx.ro/d/oferta/casa-individuala-de-vanzare-direct-de-la-propietar-IDjL6j4.html",l:"Sibiu",z:"oras",r:"—",a:0,g:"curte",src:"olx",img:""},
-
-    {p:129999,t:"Casă individuală în Tocile, Șelimbăr",u:"https://www.storia.ro/ro/oferta/casa-individuala-de-vnzare-n-tocile-IDHOaU",l:"Tocile, Șelimbăr",z:"selimbar",r:"3 cam",a:105,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imw5aDFzNGc5c2dsODEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.AjU42fkInH6g3Nms3ElEF1KZ4kET9w8hIW3_fSBGD00/image;s=655x491;q=80"},
-    {p:198000,t:"Casă duplex, curte individuală, Șelimbăr",u:"https://www.storia.ro/ro/oferta/casa-tip-duplex-curte-individuala-selimbar-sibiu-IDHNmU",l:"Șelimbăr",z:"selimbar",r:"3 cam",a:90,g:"curte individuală",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjFxMDVycmxrazVkODMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.0tNFBtCHVEy5u7AzasWcn4HSsLwjViHCixy26e78w3E/image;s=655x491;q=80"},
-    {p:199900,t:"Casă pe un singur nivel, 135 mp, Șelimbăr",u:"https://www.storia.ro/ro/oferta/casa-pe-un-singur-nivel-de-vanzare-liniste-calmitate-armonie-IDHNfo",l:"Șelimbăr",z:"selimbar",r:"4 cam",a:135,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImpiMzZ1ODFyYjR5ZDEtQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.PKk2E6mtIFrM2lMRRV69fTR1R_kfs7A36FJfWqQDlLc/image;s=655x491;q=80"},
-    {p:184900,t:"Casă 4 cam, 2 băi, încălzire pardoseală, Șelimbăr",u:"https://www.storia.ro/ro/oferta/comision-0-casa-4-camere-2-bai-incalzire-pardoseala-selimbar-sibiu-IDHNdq",l:"Șelimbăr",z:"selimbar",r:"4 cam",a:93,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjMzNnd1d29neHR3ajItQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.GKbzYvNdfC3BBpI9ny6IoZT_EKm2zhhaw42VmjCe7lI/image;s=655x491;q=80"},
-    {p:234900,t:"Casă individuală, strada Bujorului, Șelimbăr",u:"https://www.storia.ro/ro/oferta/exclusivitate-casa-individuala-de-vanzare-in-selimbar-strada-bujorului-IDHME3",l:"Șelimbăr",z:"selimbar",r:"4 cam",a:166,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjhzdHB1ajY5OTBicDEtQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.9KpzVhapU-kBSM5lb4OqltjcQcQFN4t0CSY1gWybZg8/image;s=655x491;q=80"},
-    {p:224900,t:"Casă nouă duplex, 4 camere, Șelimbăr",u:"https://www.storia.ro/ro/oferta/casa-noua-duplex-4-camere-de-vanzare-in-selimbar-sibiu-IDHMy3",l:"Șelimbăr",z:"selimbar",r:"4 cam",a:91,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVzcWpucmdqNzJ0NDMtQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.3KsvCPoSyWIKUeSONR2k9CQ3xhPtM0pVG3pcn1Smz0E/image;s=655x491;q=80"},
-    {p:190000,t:"Quadruplex 3 cam, 88 mp, Cartierul Arhitecților",u:"https://www.storia.ro/ro/oferta/quadruplex-cu-3-camere-88-mp-cartierul-arhitectilor-IDHMt1",l:"Șelimbăr",z:"selimbar",r:"3 cam",a:88,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjgxZHN0bTMyOTZxazEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.kDxTUubs4j-SWXMqwvdS-52QBnkh3KpkWEkT8j7A6Tw/image;s=655x491;q=80"},
-    {p:260000,t:"Casă individuală Bungard, teren 400 mp, garaj, pivniță",u:"https://www.storia.ro/ro/oferta/cas-individual-n-bungard-teren-aprox-400-mp-garaj-i-pivni-IDHN2C",l:"Bungard, Șelimbăr",z:"selimbar",r:"4 cam",a:160,g:"teren 400 mp",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InZ4cnZhN3F6aXFhei1BUk8iLCJ3IjpbeyJmbiI6IjN3NTY2eGdqcHkycDEtQVJPIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.J4s_4xKW1NBG_5uBXkFIOHtVz5DF4ArVlWOpqL4VsJw/image;s=655x491;q=80"},
-    {p:209000,t:"Casă tip duplex, 156 mpu, Șelimbăr",u:"https://www.storia.ro/ro/oferta/casa-tip-duplex-4-camere-156-mpu-selimbar-IDFAia",l:"Șelimbăr",z:"selimbar",r:"4 cam",a:156,g:"curte",src:"olx",img:""},
-    {p:230000,t:"Case tip duplex și single, Șelimbăr",u:"https://www.olx.ro/d/oferta/case-tip-duplex-si-single-selimbar-IDkxwTR.html",l:"Șelimbăr",z:"selimbar",r:"—",a:0,g:"curte",src:"olx",img:""},
-
-    {p:165000,t:"Casă Cartierul Arhitecților, 4 camere, Cisnădie",u:"https://www.storia.ro/ro/oferta/cas-de-vnzare-n-cartierul-arhitecilor-i-cisndie-i-4-camere-IDHNOG",l:"Cisnădie",z:"cisnadie",r:"4 cam",a:85,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImlrOXJwZDNncXJ6cTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.OXbIwdpcU5ZDGhejAXd6ucEdId6HLFeGyNxtvLE9zDc/image;s=655x491;q=80"},
-    {p:205000,t:"Casă individuală eficientă energetic, 130 mpu, Cisnădie",u:"https://www.storia.ro/ro/oferta/casa-individual-eficienta-energetic-130-mp-utili-cisndie-IDHNrU",l:"Cisnădie",z:"cisnadie",r:"4 cam",a:130,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Ijhldmptd2xtc2VydzEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.MlC-DQoIjb_81Af5g56biTM6a1-DUAhQuI4tTeNHETo/image;s=655x491;q=80"},
-    {p:199900,t:"Casă 4 cam duplex, teren liber 230 mp, Cisnădie",u:"https://www.storia.ro/ro/oferta/casa-4-camere-de-tip-duplex-comision-0-teren-liber-230-pivnita-sibiu-IDHMXF",l:"Cisnădie",z:"cisnadie",r:"4 cam",a:120,g:"teren 230 mp",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im00bzg1NXRmbnE1czMtQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.5QiRpFqsyb_5CoZCa0BiQ9k20rTSfQXEbVoSTd18PMA/image;s=655x491;q=80"},
-    {p:180000,t:"Casă tip înșiruit, 117 mpu, teren 136 mp, Arhitecților",u:"https://www.storia.ro/ro/oferta/cas-tip-niruit-117mp-utili-136-mp-teren-arhitectilor-IDFneq",l:"Cisnădie",z:"cisnadie",r:"—",a:117,g:"teren 136 mp",src:"olx",img:""},
-    {p:238000,t:"Casă eficientă energetic, terasă acoperită, pivniță",u:"https://www.storia.ro/ro/oferta/cas-eficient-energetic-teras-acoperit-pivni-mobilat-mobexpert-IDHAL4",l:"Cisnădie",z:"cisnadie",r:"—",a:0,g:"curte",src:"olx",img:""},
-    {p:155000,t:"Casă 4 camere, imobil nou, zonă exclusivă, Cisnădie",u:"https://www.storia.ro/ro/oferta/cas-de-vnzare-n-cisndie-4-camere-imobil-nou-zon-exclusiv-IDGsC9",l:"Cisnădie",z:"cisnadie",r:"4 cam",a:0,g:"curte",src:"olx",img:""},
-
-    {p:229900,t:"Casă 4 cam, vedere panoramică la intrare în Cristian",u:"https://www.storia.ro/ro/oferta/casa-cu-4-camere-si-vedere-panoramica-chiar-la-intrare-in-cristian-IDHO4E",l:"Cristian",z:"cristian",r:"4 cam",a:119,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImZhOWI5czNlYTR3bDEtQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.oCnGA68QetU0_NSlf6hDB-F9FMtJawH2G47Op2V1718/image;s=655x491;q=80"},
-    {p:242000,t:"Casă individuală nouă, 148 mpu, teren 460 mp, Cristian",u:"https://www.storia.ro/ro/oferta/casa-individuala-noua-5-camere-148mpu-teren-460mp-cristian-IDHNAZ",l:"Cristian",z:"cristian",r:"5 cam",a:148,g:"teren 460 mp",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InRyZHI0dzI3YTNsNTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.jU8ZMS_BkODKghtfmqoeIpNqG5wnTpZ8EpSslZYGjGE/image;s=655x491;q=80"},
-    {p:165000,t:"Casă individuală 2 cam, 85 mpu, teren 254 mp, Cristian",u:"https://www.storia.ro/ro/oferta/casa-individuala-2-camere-85-mp-utili-254-mp-teren-cristian-IDHN7m",l:"Cristian",z:"cristian",r:"2 cam",a:85,g:"teren 254 mp",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImJ6dWN1NWh2eDdiazEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.WdJQbApnVwGsuZfEIR_wwYv29PE2IOGyFKBUqcHC6Ns/image;s=655x491;q=80"},
-    {p:215000,t:"Casă individuală, 115 mpu, teren 571 mp, curte 500 mp",u:"https://www.storia.ro/ro/oferta/cas-individual-115-mp-utili-teren-571-mp-curte-500-mp-IDFnoq",l:"Cristian",z:"cristian",r:"—",a:115,g:"curte 500 mp",src:"olx",img:""},
-    {p:240000,t:"Casă premium mobilată, 4 cam, 119 mpu, zonă liniștită",u:"https://www.storia.ro/ro/oferta/casa-premium-mobilata-si-utilata-4-camere-119-mpu-zona-linistita-IDFVWb",l:"Cristian",z:"cristian",r:"4 cam",a:119,g:"curte",src:"olx",img:""},
-    {p:229000,t:"Casă tip duplex, curte liberă 340 mp, Cristian",u:"https://www.storia.ro/ro/oferta/casa-tip-duplex-curte-libera-340-mp-cristian-IDE8iI",l:"Cristian",z:"cristian",r:"—",a:0,g:"curte 340 mp",src:"olx",img:""},
-
-    {p:143500,t:"Duplex mobilat și utilat, Șura Mare",u:"https://www.storia.ro/ro/oferta/duplex-de-vanzare-in-sura-mare-jud-sibiu-IDq6YR",l:"Șura Mare",z:"suramare",r:"3 cam",a:90,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Imgzejh2ZGR2aHdleDEtQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.tv_CwRSQC5N0SnIvpRFg_pPAaXzhohVzKJ-iD0mP74g/image;s=655x491;q=80"},
-    {p:215000,t:"Casă individuală 5 cam, 3 băi, terasă, Șura Mare",u:"https://www.storia.ro/ro/oferta/casa-individuala-cu-5-camere-3-bai-terasa-in-sura-mare-IDHNtk",l:"Șura Mare",z:"suramare",r:"5 cam",a:120,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InYxYTdkdGw4eHlpNS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjN3NTY2eGdqcHkycDEtQVJPIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.eSMZzLJsQ_e57_ex_UlTOR5ZqIdIQA4zYm8-LEOaQxA/image;s=655x491;q=80"},
-    {p:140000,t:"Casă individuală, 500 mpu teren, Șura Mare",u:"https://www.storia.ro/ro/oferta/casade-vanzare-individuala-500mpu-teren-in-sura-mare-sibiu-IDHMXG",l:"Șura Mare",z:"suramare",r:"4 cam",a:210,g:"teren 500 mp",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImdtaWlyMXVhZnhueS1BUk8iLCJ3IjpbeyJmbiI6IjN3NTY2eGdqcHkycDEtQVJPIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.bdP21TJvSSMeNrNCYewtIUaYAnIx_TE33ZB1rx_-0OE/image;s=655x491;q=80"},
-    {p:259900,t:"Casă individuală, 900 mp teren, zona Șura Mare",u:"https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-zona-sura-mare-individuala-900-mp-teren-IDHMUH",l:"Șura Mare",z:"suramare",r:"4 cam",a:190,g:"teren 900 mp",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjNqZDg3NmdxN2ZwOS1BUk8iLCJ3IjpbeyJmbiI6IjN3NTY2eGdqcHkycDEtQVJPIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.rX6zEqfACfhgspEX8UZ5nCbO5tp31jhGtcUSDLPo_WU/image;s=655x491;q=80"},
-    {p:205000,t:"Casă individuală, 180 mpu, teren 700 mp, Șura Mare",u:"https://www.storia.ro/ro/oferta/casa-individuala-180-mpu-teren-700-mp-sura-mare-IDF0Yh",l:"Șura Mare",z:"suramare",r:"—",a:180,g:"teren 700 mp",src:"olx",img:""},
-
-    {p:157000,t:"Casă duplex, teren 220 mp, la 10 min de Sibiu",u:"https://www.storia.ro/ro/oferta/casa-duplex-120-mp-utili-cu-teren-220-mp-la-10-minute-de-sibiu-IDHNgO",l:"Șura Mică",z:"suramica",r:"4 cam",a:120,g:"teren 220 mp",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjVnNXV3eTA1NGF5ZjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.DVXPS60Zi2Xpzb3Bqf6XL-MoHGetimzypxgh5gUi4gk/image;s=655x491;q=80"},
-    {p:207000,t:"Casă individuală 4 cam, pe un nivel, Șura Mică",u:"https://www.storia.ro/ro/oferta/casa-individuala-cu-4-camere-pe-un-singur-nivel-in-sura-mica-IDHN2f",l:"Șura Mică",z:"suramica",r:"4 cam",a:95,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImlxOHZ4N2Jid2RhZjEtQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.5PBiDCN-akVwRr1MzsBRKjUW6KhyuMy_invlVwfsc5w/image;s=655x491;q=80"},
-    {p:157000,t:"Casă direct de la dezvoltator, Șura Mică",u:"https://www.olx.ro/d/oferta/casa-de-vanzare-direct-de-la-dezvoltator-sura-mica-IDj6z7E.html",l:"Șura Mică",z:"suramica",r:"—",a:0,g:"curte",src:"olx",img:""},
-    {p:199900,t:"Casă modernă tip duplex, Șura Mică",u:"https://www.olx.ro/d/oferta/casa-moderna-tip-duplex-IDkA4WP.html",l:"Șura Mică",z:"suramica",r:"—",a:0,g:"curte",src:"olx",img:""},
-
-    {p:148000,t:"Casă / vilă 4 camere, Gura Râului",u:"https://www.storia.ro/ro/oferta/casa-vila-4-camere-IDHOaV",l:"Gura Râului",z:"alte",r:"4 cam",a:144,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InpsdWZ1dDJ3b2lhNC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjN3NTY2eGdqcHkycDEtQVJPIiwicyI6IjE0IiwicCI6IjEwLC0xMCIsImEiOiIwIn1dfQ.IlhfmYQqWdme9dZAxX5ST5jjr-Q0aER23dmlE_3aAIY/image;s=655x491;q=80"},
-    {p:269000,t:"Casă modernă 4 camere, la cheie, Poplaca",u:"https://www.storia.ro/ro/oferta/casa-moderna-cu-4-camere-la-cheie-in-poplaca-IDHNTW",l:"Poplaca",z:"alte",r:"4 cam",a:130,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Im1nOG5wa2ZsZDZtaTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.EpVyW-AtjHvbZ-atmCx_zt9RqDlBXtcgtqTg9nReiNM/image;s=655x491;q=80"},
-    {p:170000,t:"Casă individuală 4 cam, 400 mp teren, Tălmaciu",u:"https://www.storia.ro/ro/oferta/cas-individual-4-camere-tlmaciu-400-teren-IDHNv7",l:"Tălmaciu",z:"alte",r:"4 cam",a:140,g:"teren 400 mp",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6InBsOG5zM3prZm95cDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.R0E0qHJTyBRVPpA6rR1_XlHwQtrWXfni3X8mjni0kUk/image;s=655x491;q=80"},
-    {p:245000,t:"Casă individuală, 2 apartamente + piscină, Roșia",u:"https://www.storia.ro/ro/oferta/casa-individuala-formata-din-2-apartamente-de-vanzare-si-piscina-IDHMXL",l:"Roșia",z:"alte",r:"4 cam",a:166,g:"curte",src:"storia",img:"https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjZtdjB4aWY3NGFvbzEtQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.XzTE_OQIHokio7kXHvNGbo4ECXqDfA7X13OoZWgloFk/image;s=655x491;q=80"},
-    {p:150000,t:"Casă de vânzare în Orlat",u:"https://www.olx.ro/d/oferta/casa-de-vanzare-in-orlat-IDkJO9W.html",l:"Orlat",z:"alte",r:"—",a:0,g:"curte",src:"olx",img:""},
-    {p:104000,t:"Casă la 15 km de Sibiu, Cornățel",u:"https://www.olx.ro/d/oferta/casa-de-vanzare-la-15km-de-orasul-sibiu-IDkEzkv.html",l:"Cornățel",z:"alte",r:"—",a:0,g:"curte",src:"olx",img:""},
-    {p:185000,t:"Casă individuală 119 mpu, 4 cam, la câteva min de Sibiu",u:"https://www.storia.ro/ro/oferta/casa-individuala-la-cateva-min-de-sibiu-119mp-utili-4-camere-2-bai-IDFcD9",l:"Tălmaciu",z:"alte",r:"4 cam",a:119,g:"curte",src:"olx",img:""},
-    {p:133500,t:"Casă duplex, teren 235 mp, curte 150 mp, Tălmaciu",u:"https://www.storia.ro/ro/oferta/cas-tip-duplex-teren-235-mp-curte-liber-150-mp-tlmaciu-IDEMz8",l:"Tălmaciu",z:"alte",r:"—",a:0,g:"curte 150 mp",src:"olx",img:""}
-  ];
-
-  var SRCNAME={storia:"Storia",olx:"OLX"};
-  var state={zone:"all", price:275000, sort:"new", solo:false};
-  // casă individuală = fără duplex/quadruplex/înșiruit/single și fără curte comună
-  var SHARED=/duplex|quadruplex|niruit|nsiruit|insiruit|înșiruit|curte comun|\bsingle\b|apartament/i;
-  function isSolo(x){return !SHARED.test((x.t||"")+" "+(x.g||""));}
-  function matches(x){return (state.zone==="all"||x.z===state.zone) && x.p<=state.price && (!state.solo||isSolo(x));}
-
-  // ---- live search buttons ----
-  function zoneById(id){for(var i=0;i<ZONES.length;i++)if(ZONES[i].id===id)return ZONES[i];return ZONES[0];}
-  function liveUrl(portal){
-    var z=zoneById(state.zone==="alte"?"all":state.zone), p=state.price;
-    if(portal==="storia") return "https://www.storia.ro/ro/rezultate/vanzare/casa/"+z.storia+"?priceMax="+p+"&by=LATEST&direction=DESC";
-    if(portal==="olx") return "https://www.olx.ro/imobiliare/case-de-vanzare/"+z.olx+"/?currency=EUR&search%5Border%5D=created_at%3Adesc&search%5Bfilter_float_price%3Ato%5D="+p;
-    if(portal==="imob") return "https://www.imobiliare.ro/vanzare-case-vile/"+(z.id==="all"?"sibiu":z.storia.split("/").pop());
-    if(portal==="fb"){var q=encodeURIComponent("casa cu curte "+(z.id==="all"?"Sibiu":z.label));return "https://www.facebook.com/marketplace/category/propertyforsale?query="+q;}
-    return "#";
-  }
-  function refreshLive(){document.querySelectorAll(".portal").forEach(function(a){a.href=liveUrl(a.getAttribute("data-portal"));});}
-
-  // ---- chips with live counts ----
-  var chipsEl=document.getElementById("chips");
-  function zoneCount(id){return L.filter(function(x){return (id==="all"||x.z===id) && x.p<=state.price && (!state.solo||isSolo(x));}).length;}
-  function buildChips(){
-    chipsEl.innerHTML="";
-    ZONES.forEach(function(z){
-      var b=document.createElement("button");
-      b.type="button"; b.className="chip"; b.dataset.zone=z.id;
-      b.setAttribute("aria-pressed", z.id===state.zone?"true":"false");
-      b.innerHTML=z.label+' <span class="n">'+zoneCount(z.id)+'</span>';
-      b.addEventListener("click",function(){
-        state.zone=z.id;
-        chipsEl.querySelectorAll(".chip").forEach(function(c){c.setAttribute("aria-pressed", c.dataset.zone===z.id?"true":"false");});
-        refreshLive(); render();
-      });
-      chipsEl.appendChild(b);
-    });
-  }
-  function updateChipCounts(){
-    chipsEl.querySelectorAll(".chip").forEach(function(c){c.querySelector(".n").textContent=zoneCount(c.dataset.zone);});
-  }
-
-  // ---- price ----
-  var slider=document.getElementById("price"), out=document.getElementById("priceOut"), crit=document.getElementById("critPrice");
-  function setFill(){var pct=(slider.value-slider.min)/(slider.max-slider.min)*100; slider.style.setProperty("--fill",pct+"%");}
-  slider.addEventListener("input",function(){
-    state.price=+slider.value;
-    var t=fmt(state.price)+" €"; out.textContent=t; crit.textContent="≤ "+t;
-    setFill(); updateChipCounts(); refreshLive(); render();
+  var root=document.documentElement;
+  document.getElementById("themeBtn").addEventListener("click",function(){
+    var cur=root.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");
+    root.setAttribute("data-theme",cur==="dark"?"light":"dark");
   });
 
-  document.getElementById("sort").addEventListener("change",function(){state.sort=this.value; render();});
-  document.getElementById("solo").addEventListener("change",function(){state.solo=this.checked; updateChipCounts(); render();});
+  var DATA={anunturi:[],buget_total:250000,actualizat:""};
+  var state={k:"casa",maxp:250000,zone:"",own:true,pick:{casa:null,ap:null}};
+  function el(id){return document.getElementById(id)}
+  function eur(n){return n.toLocaleString("ro-RO")+" €"}
 
-  // ---- render ----
-  var grid=document.getElementById("grid"), empty=document.getElementById("empty"), resCount=document.getElementById("resCount");
-  var PIN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>';
-  var LEAF='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/></svg>';
-  var HOUSE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>';
+  function liveUrls(){
+    var p=state.maxp;
+    if(state.k==="casa"){
+      el("pStoria").href="https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu/sibiu/sibiu?priceMax="+p+"&by=LATEST&direction=DESC";
+      el("pOlx").href="https://www.olx.ro/imobiliare/case-de-vanzare/sibiu/?search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Border%5D=created_at%3Adesc";
+      el("pImob").href="https://www.imobiliare.ro/vanzare-case-vile/sibiu";
+      el("pFb").href="https://www.facebook.com/marketplace/sibiu/search?query=casa%20curte%20sibiu&maxPrice="+p;
+    }else{
+      el("pStoria").href="https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/sibiu?priceMax="+p+"&roomsNumber=%5BTWO%5D&by=LATEST&direction=DESC";
+      el("pOlx").href="https://www.olx.ro/imobiliare/apartamente-garsoniere-de-vanzare/sibiu/?search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Border%5D=created_at%3Adesc";
+      el("pImob").href="https://www.imobiliare.ro/vanzare-apartamente/sibiu";
+      el("pFb").href="https://www.facebook.com/marketplace/sibiu/search?query=apartament%202%20camere%20sibiu&maxPrice="+p;
+    }
+  }
+
+  function zones(){
+    var sel=el("zone"),cur=state.zone,seen={},out=[];
+    DATA.anunturi.forEach(function(o){ if(o.k===state.k && !seen[o.z]){seen[o.z]=1;out.push(o.z);} });
+    out.sort();
+    sel.innerHTML='<option value="">toate zonele</option>'+out.map(function(z){
+      return '<option value="'+z+'"'+(z===cur?' selected':'')+'>'+z+'</option>';}).join("");
+    if(out.indexOf(cur)<0){state.zone="";sel.value="";}
+  }
+
+  function visible(){
+    return DATA.anunturi.filter(function(o){
+      if(o.k!==state.k) return false;
+      if(o.p>state.maxp) return false;
+      if(state.zone && o.z!==state.zone) return false;
+      if(state.k==="casa" && state.own && o.c==="comuna") return false;
+      return true;
+    }).sort(function(a,b){return a.p-b.p;});
+  }
+
   function render(){
-    var items=L.filter(matches);
-    if(state.sort==="asc") items.sort(function(a,b){return a.p-b.p;});
-    else if(state.sort==="desc") items.sort(function(a,b){return b.p-a.p;});
-    resCount.textContent=items.length;
-    grid.innerHTML="";
-    empty.style.display=items.length?"none":"block";
-    items.forEach(function(x){
-      var a=document.createElement("a");
-      a.className="card"; a.href=x.u; a.target="_blank"; a.rel="noopener";
-      var specs='';
-      if(x.r&&x.r!=="—") specs+='<span class="spec"><b>'+x.r+'</b></span>';
-      if(x.a) specs+='<span class="spec"><b>'+x.a+'</b> m²</span>';
-      var thumb = x.img
-        ? '<img src="'+x.img+'" alt="" loading="lazy" referrerpolicy="no-referrer">'
-        : '<div class="ph">'+HOUSE+'</div>';
-      a.innerHTML=
-        '<div class="thumb">'+thumb+
-          '<span class="src-tag src-'+x.src+'">'+SRCNAME[x.src]+'</span>'+
-          (x.g?'<span class="gtag">'+LEAF+x.g+'</span>':'')+
-        '</div>'+
-        '<div class="card-body">'+
-          '<div class="price">'+fmt(x.p)+' €</div>'+
-          '<div class="title">'+x.t+'</div>'+
-          '<div class="loc">'+PIN+x.l+'</div>'+
-          '<div class="specs">'+specs+'</div>'+
-          '<div class="open">Deschide anunțul →</div>'+
-        '</div>';
-      grid.appendChild(a);
+    var list=visible(), g=el("grid");
+    el("count").textContent=list.length+(list.length===1?" anunț":" anunțuri")+" sub "+eur(state.maxp);
+    g.innerHTML=list.map(function(o){
+      var i=DATA.anunturi.indexOf(o), picked=state.pick[o.k]===i, chips=[];
+      if(o.r) chips.push(o.r+(o.r===1?" cameră":" camere"));
+      if(o.a) chips.push(o.a+" mp");
+      if(o.g) chips.push(o.g);
+      chips.push(o.src==="olx"?"OLX":"Storia");
+      var yard=o.c==="proprie"?'<span class="chip own">curte proprie</span>'
+             :o.c==="comuna"?'<span class="chip shared">curte comună</span>':'';
+      return '<article class="card'+(picked?' picked':'')+'">'+
+        '<div><div class="price">'+eur(o.p)+'</div><div class="zone">'+o.z+'</div></div>'+
+        '<div class="t">'+o.t+'</div>'+
+        '<div class="chips">'+yard+chips.map(function(c){return '<span class="chip">'+c+'</span>';}).join("")+'</div>'+
+        '<div class="acts"><a href="'+o.u+'" target="_blank" rel="noopener">Vezi anunțul</a>'+
+        '<button data-i="'+i+'">'+(picked?"Ales ✓":"Alege")+'</button></div></article>';
+    }).join("") || '<p class="count">Niciun anunț cu filtrele astea. Urcă prețul sau folosește căutarea live de mai jos.</p>';
+    Array.prototype.forEach.call(g.querySelectorAll("button[data-i]"),function(b){
+      b.addEventListener("click",function(){
+        var i=+b.getAttribute("data-i"), k=DATA.anunturi[i].k;
+        state.pick[k]=(state.pick[k]===i?null:i);
+        render(); sums();
+      });
     });
   }
 
-  buildChips(); setFill(); refreshLive(); render();
+  function sums(){
+    var h=state.pick.casa!=null?DATA.anunturi[state.pick.casa]:null;
+    var a=state.pick.ap!=null?DATA.anunturi[state.pick.ap]:null;
+    var total=(h?h.p:0)+(a?a.p:0), buget=DATA.buget_total, rest=buget-total;
+    var t=el("sumText"), fill=el("fill");
+    if(!h&&!a){ t.textContent="Alege o casă și un apartament."; fill.style.width="0"; fill.className=""; return; }
+    var parts=[];
+    if(h) parts.push("casă <b>"+eur(h.p)+"</b>");
+    if(a) parts.push("apartament <b>"+eur(a.p)+"</b>");
+    var restTxt = rest>=0 ? 'rămân <b>'+eur(rest)+'</b> pentru renovări'
+                          : '<b class="over">depășești cu '+eur(-rest)+'</b>';
+    t.innerHTML=parts.join(" + ")+" = <b>"+eur(total)+"</b> · "+restTxt;
+    fill.style.width=Math.min(100,total/buget*100)+"%";
+    fill.className=rest<0?"over":"";
+  }
+
+  el("maxp").addEventListener("input",function(){
+    state.maxp=+this.value; el("maxpVal").textContent=eur(state.maxp); liveUrls(); render();
+  });
+  el("zone").addEventListener("change",function(){state.zone=this.value;render();});
+  el("own").addEventListener("change",function(){state.own=this.checked;render();});
+  el("reset").addEventListener("click",function(){state.pick={casa:null,ap:null};render();sums();});
+  Array.prototype.forEach.call(document.querySelectorAll('.tabs button'),function(b){
+    b.addEventListener("click",function(){
+      Array.prototype.forEach.call(document.querySelectorAll('.tabs button'),function(x){
+        x.setAttribute("aria-selected","false");});
+      b.setAttribute("aria-selected","true");
+      state.k=b.getAttribute("data-k");
+      el("ownWrap").style.display=state.k==="casa"?"":"none";
+      zones(); liveUrls(); render();
+    });
+  });
+
+  fetch("date.json?v="+Date.now()).then(function(r){return r.json();}).then(function(d){
+    DATA=d;
+    state.maxp=d.buget_total;
+    el("maxp").max=d.buget_total; el("maxp").value=d.buget_total;
+    el("maxpVal").textContent=eur(state.maxp);
+    el("budgetLabel").textContent=eur(d.buget_total);
+    el("stamp").textContent="actualizat "+d.actualizat;
+    zones(); liveUrls(); render(); sums();
+  })["catch"](function(){
+    el("count").textContent="Nu am putut citi date.json — deschide pagina de pe GitHub Pages, nu direct de pe disc.";
+    liveUrls();
+  });
 })();
 </script>
 </body>
