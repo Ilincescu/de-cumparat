@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#2f6d4f">
-<title>Casă + apartament · Sibiu</title>
+<title>Casă, apartament și mașină · Sibiu</title>
 <style>
   :root{
     --bg:#eef1ec; --surface:#fff; --surface-2:#f6f8f4;
@@ -45,7 +45,7 @@
   .tabs{display:flex;gap:6px;background:var(--surface-2);border:1px solid var(--line);
     border-radius:999px;padding:4px;margin:16px 0 12px}
   .tabs button{flex:1;border:0;background:none;color:var(--muted);font:inherit;
-    font-weight:600;font-size:14px;padding:9px 6px;border-radius:999px;cursor:pointer}
+    font-weight:600;font-size:13.5px;padding:9px 4px;border-radius:999px;cursor:pointer}
   .tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);
     box-shadow:0 1px 3px rgba(0,0,0,.10)}
 
@@ -55,7 +55,7 @@
   .row+.row{margin-top:12px}
   label{font-size:13px;color:var(--muted);font-weight:600}
   input[type=range]{flex:1;min-width:150px;accent-color:var(--accent)}
-  .val{font-variant-numeric:tabular-nums;font-weight:700;min-width:86px;text-align:right}
+  .val{font-variant-numeric:tabular-nums;font-weight:700;min-width:92px;text-align:right}
   select{background:var(--surface-2);color:var(--ink);border:1px solid var(--line);
     border-radius:9px;padding:8px 10px;font:inherit;font-size:14px;max-width:100%}
   .check{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--ink);font-weight:500}
@@ -75,6 +75,8 @@
     border-radius:999px;padding:3px 8px;color:var(--muted);white-space:nowrap}
   .chip.own{background:var(--accent-soft);border-color:transparent;color:var(--accent)}
   .chip.shared{background:var(--warn-soft);border-color:transparent;color:var(--warn)}
+  .flag{font-size:12px;background:var(--warn-soft);color:var(--warn);border-radius:9px;
+    padding:7px 9px;line-height:1.35}
   .acts{display:flex;gap:8px;margin-top:2px}
   .acts a,.acts button{flex:1;text-align:center;font:inherit;font-size:13px;font-weight:600;
     padding:9px 8px;border-radius:9px;cursor:pointer;text-decoration:none;border:1px solid var(--line)}
@@ -117,13 +119,14 @@
 <div class="wrap">
 
 <header>
-  <div class="title"><h1>Casă + apartament · Sibiu</h1><span class="stamp" id="stamp"></span></div>
-  <p class="lede">Buget total <b id="budgetLabel">250.000 €</b> pentru amândouă: o casă mică cu curte, de renovat, pentru noi — și un apartament de 2 camere, de renovat, de închiriat. Alege câte unul din fiecare și vezi jos cât rămâne pentru renovări.</p>
+  <div class="title"><h1>Casă, apartament și mașină</h1><span class="stamp" id="stamp"></span></div>
+  <p class="lede" id="lede">Buget <b>250.000 €</b> pentru casă + apartament, separat ~<b>11.000 €</b> pentru mașină. Alege câte unul și vezi jos cât rămâne.</p>
 </header>
 
 <div class="tabs" role="tablist">
   <button role="tab" data-k="casa" aria-selected="true">Casă cu curte</button>
   <button role="tab" data-k="ap" aria-selected="false">Apartament</button>
+  <button role="tab" data-k="masina" aria-selected="false">Mașină</button>
 </div>
 
 <div class="filters">
@@ -132,10 +135,18 @@
     <input type="range" id="maxp" min="50000" max="250000" step="5000" value="250000">
     <span class="val" id="maxpVal">250.000 €</span>
   </div>
+  <div class="row" id="carRow" hidden>
+    <label for="minan">An minim</label>
+    <select id="minan"></select>
+    <label for="maxkm">km max</label>
+    <input type="range" id="maxkm" min="40000" max="200000" step="10000" value="200000">
+    <span class="val" id="maxkmVal">200.000 km</span>
+  </div>
   <div class="row">
-    <label for="zone">Zonă</label>
+    <label for="zone" id="zoneLabel">Zonă</label>
     <select id="zone"><option value="">toate zonele</option></select>
     <label class="check" id="ownWrap"><input type="checkbox" id="own" checked> doar curte proprie</label>
+    <label class="check" id="warnWrap" hidden><input type="checkbox" id="nowarn"> ascunde capcanele</label>
   </div>
 </div>
 
@@ -144,19 +155,20 @@
 
 <section class="live">
   <h2>Caută la zi</h2>
-  <p>Cardurile de mai sus sunt un instantaneu. Butoanele astea deschid căutarea live, filtrată pe Sibiu și pe bugetul de mai sus. Facebook cere să fii logat.</p>
+  <p id="liveNote">Cardurile de mai sus sunt un instantaneu. Butoanele deschid căutarea live, filtrată pe bugetul de mai sus.</p>
   <div class="portals">
-    <a class="portal" id="pStoria" target="_blank" rel="noopener">Storia<small>cele mai noi</small></a>
-    <a class="portal" id="pOlx" target="_blank" rel="noopener">OLX<small>după dată</small></a>
-    <a class="portal" id="pImob" target="_blank" rel="noopener">Imobiliare.ro<small>listă completă</small></a>
-    <a class="portal" id="pFb" target="_blank" rel="noopener">Facebook<small>Marketplace</small></a>
+    <a class="portal" id="p1" target="_blank" rel="noopener"></a>
+    <a class="portal" id="p2" target="_blank" rel="noopener"></a>
+    <a class="portal" id="p3" target="_blank" rel="noopener"></a>
+    <a class="portal" id="p4" target="_blank" rel="noopener"></a>
   </div>
 </section>
 
 <footer>
-  <b>Cum actualizezi.</b> Anunțurile stau în <code>date.json</code>. Deschide fișierul pe GitHub, apasă creionul, editează lista, Commit — pagina arată noile date în ~1 minut.
-  <a href="https://github.com/Ilincescu/case-sibiu-gradina/edit/main/date.json" target="_blank" rel="noopener">Editează date.json →</a>
-  <br>Prețurile sunt cele cerute de vânzător, nu cele negociate. Fiecare card duce la anunțul original.
+  <b>Cum actualizezi.</b> Casele și apartamentele stau în <code>date.json</code>, mașinile în <code>masini.json</code>. Deschizi fișierul pe GitHub, creion, editezi, Commit — pagina arată noile date în ~1 minut.
+  <a href="https://github.com/Ilincescu/case-sibiu-gradina/edit/main/date.json" target="_blank" rel="noopener">date.json →</a>
+  <a href="https://github.com/Ilincescu/case-sibiu-gradina/edit/main/masini.json" target="_blank" rel="noopener">masini.json →</a>
+  <br>Prețurile sunt cele cerute de vânzător. Cardurile portocalii au o condiție ascunsă în preț — predare leasing sau mașină avariată — citește-le înainte să suni.
 </footer>
 </div>
 
@@ -178,116 +190,192 @@
     root.setAttribute("data-theme",cur==="dark"?"light":"dark");
   });
 
-  var DATA={anunturi:[],buget_total:250000,actualizat:""};
-  var state={k:"casa",maxp:250000,zone:"",own:true,pick:{casa:null,ap:null}};
+  var IMO={anunturi:[],buget_total:250000,actualizat:""};
+  var CAR={masini:[],buget:11000,actualizat:""};
+  var state={k:"casa",maxp:250000,maxkm:200000,minan:0,zone:"",own:true,nowarn:false,
+             pick:{casa:null,ap:null,masina:null}};
   function el(id){return document.getElementById(id)}
   function eur(n){return n.toLocaleString("ro-RO")+" €"}
+  function km(n){return n.toLocaleString("ro-RO")+" km"}
+  function isCar(){return state.k==="masina"}
+  function items(){return isCar()?CAR.masini:IMO.anunturi}
+  function budget(){return isCar()?CAR.buget:IMO.buget_total}
 
-  function liveUrls(){
-    var p=state.maxp;
-    if(state.k==="casa"){
-      el("pStoria").href="https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu/sibiu/sibiu?priceMax="+p+"&by=LATEST&direction=DESC";
-      el("pOlx").href="https://www.olx.ro/imobiliare/case-de-vanzare/sibiu/?search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Border%5D=created_at%3Adesc";
-      el("pImob").href="https://www.imobiliare.ro/vanzare-case-vile/sibiu";
-      el("pFb").href="https://www.facebook.com/marketplace/sibiu/search?query=casa%20curte%20sibiu&maxPrice="+p;
+  function setPortals(){
+    var p=state.maxp, a=[];
+    if(isCar()){
+      a=[["Autovit","toate, sub buget","https://www.autovit.ro/autoturisme?search%5Bfilter_float_year%3Afrom%5D="+(state.minan||2015)+"&search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Bfilter_float_mileage%3Ato%5D="+state.maxkm+"&search%5Bcurrency%5D=EUR&search%5Border%5D=created_at_first%3Adesc"],
+         ["Autovit SUV","doar garda inalta","https://www.autovit.ro/autoturisme/suv?search%5Bfilter_float_year%3Afrom%5D="+(state.minan||2015)+"&search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Bfilter_float_mileage%3Ato%5D="+state.maxkm+"&search%5Bcurrency%5D=EUR"],
+         ["OLX","după dată","https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/?search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Bfilter_float_year%3Afrom%5D="+(state.minan||2015)],
+         ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=suv&maxPrice="+p]];
+    }else if(state.k==="casa"){
+      a=[["Storia","cele mai noi","https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu/sibiu/sibiu?priceMax="+p+"&by=LATEST&direction=DESC"],
+         ["OLX","după dată","https://www.olx.ro/imobiliare/case-de-vanzare/sibiu/?search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Border%5D=created_at%3Adesc"],
+         ["Imobiliare.ro","listă completă","https://www.imobiliare.ro/vanzare-case-vile/sibiu"],
+         ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=casa%20curte%20sibiu&maxPrice="+p]];
     }else{
-      el("pStoria").href="https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/sibiu?priceMax="+p+"&roomsNumber=%5BTWO%5D&by=LATEST&direction=DESC";
-      el("pOlx").href="https://www.olx.ro/imobiliare/apartamente-garsoniere-de-vanzare/sibiu/?search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Border%5D=created_at%3Adesc";
-      el("pImob").href="https://www.imobiliare.ro/vanzare-apartamente/sibiu";
-      el("pFb").href="https://www.facebook.com/marketplace/sibiu/search?query=apartament%202%20camere%20sibiu&maxPrice="+p;
+      a=[["Storia","2 camere, noi","https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/sibiu?priceMax="+p+"&roomsNumber=%5BTWO%5D&by=LATEST&direction=DESC"],
+         ["OLX","după dată","https://www.olx.ro/imobiliare/apartamente-garsoniere-de-vanzare/sibiu/?search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Border%5D=created_at%3Adesc"],
+         ["Imobiliare.ro","listă completă","https://www.imobiliare.ro/vanzare-apartamente/sibiu"],
+         ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=apartament%202%20camere%20sibiu&maxPrice="+p]];
+    }
+    for(var i=0;i<4;i++){
+      var n=el("p"+(i+1));
+      n.href=a[i][2]; n.innerHTML=a[i][0]+"<small>"+a[i][1]+"</small>";
     }
   }
 
   function zones(){
     var sel=el("zone"),cur=state.zone,seen={},out=[];
-    DATA.anunturi.forEach(function(o){ if(o.k===state.k && !seen[o.z]){seen[o.z]=1;out.push(o.z);} });
+    items().forEach(function(o){
+      if(!isCar() && o.k!==state.k) return;
+      if(!seen[o.z]){seen[o.z]=1;out.push(o.z);}
+    });
     out.sort();
-    sel.innerHTML='<option value="">toate zonele</option>'+out.map(function(z){
-      return '<option value="'+z+'"'+(z===cur?' selected':'')+'>'+z+'</option>';}).join("");
+    el("zoneLabel").textContent=isCar()?"Județ":"Zonă";
+    sel.innerHTML='<option value="">'+(isCar()?"toată țara":"toate zonele")+'</option>'+
+      out.map(function(z){return '<option value="'+z+'"'+(z===cur?' selected':'')+'>'+z+'</option>';}).join("");
     if(out.indexOf(cur)<0){state.zone="";sel.value="";}
   }
 
+  function years(){
+    var sel=el("minan"),seen={},out=[];
+    CAR.masini.forEach(function(o){ if(!seen[o.an]){seen[o.an]=1;out.push(o.an);} });
+    out.sort();
+    sel.innerHTML='<option value="0">orice an</option>'+out.map(function(y){
+      return '<option value="'+y+'"'+(y===state.minan?' selected':'')+'>din '+y+'</option>';}).join("");
+  }
+
   function visible(){
-    return DATA.anunturi.filter(function(o){
-      if(o.k!==state.k) return false;
+    return items().filter(function(o){
       if(o.p>state.maxp) return false;
       if(state.zone && o.z!==state.zone) return false;
+      if(isCar()){
+        if(state.minan && o.an<state.minan) return false;
+        if(o.km>state.maxkm) return false;
+        if(state.nowarn && o.warn) return false;
+        return true;
+      }
+      if(o.k!==state.k) return false;
       if(state.k==="casa" && state.own && o.c==="comuna") return false;
       return true;
     }).sort(function(a,b){return a.p-b.p;});
   }
 
   function render(){
-    var list=visible(), g=el("grid");
+    var list=visible(), g=el("grid"), all=items();
     el("count").textContent=list.length+(list.length===1?" anunț":" anunțuri")+" sub "+eur(state.maxp);
     g.innerHTML=list.map(function(o){
-      var i=DATA.anunturi.indexOf(o), picked=state.pick[o.k]===i, chips=[];
-      if(o.r) chips.push(o.r+(o.r===1?" cameră":" camere"));
-      if(o.a) chips.push(o.a+" mp");
-      if(o.g) chips.push(o.g);
-      chips.push(o.src==="olx"?"OLX":"Storia");
-      var yard=o.c==="proprie"?'<span class="chip own">curte proprie</span>'
-             :o.c==="comuna"?'<span class="chip shared">curte comună</span>':'';
+      var i=all.indexOf(o), picked=state.pick[state.k]===i, chips=[], head, flag="";
+      if(isCar()){
+        head=o.m;
+        chips.push(o.an); chips.push(km(o.km)); chips.push(o.cp+" CP"); chips.push(o.f);
+        chips.push(o.src==="olx"?"OLX":"Autovit");
+        if(o.warn) flag='<div class="flag">'+o.warn+'</div>';
+      }else{
+        head=o.t;
+        if(o.r) chips.push(o.r+(o.r===1?" cameră":" camere"));
+        if(o.a) chips.push(o.a+" mp");
+        if(o.g) chips.push(o.g);
+        chips.push(o.src==="olx"?"OLX":"Storia");
+        if(o.c==="proprie") flag='';
+      }
+      var yard=(!isCar()&&o.c==="proprie")?'<span class="chip own">curte proprie</span>'
+             :(!isCar()&&o.c==="comuna")?'<span class="chip shared">curte comună</span>':'';
       return '<article class="card'+(picked?' picked':'')+'">'+
         '<div><div class="price">'+eur(o.p)+'</div><div class="zone">'+o.z+'</div></div>'+
-        '<div class="t">'+o.t+'</div>'+
+        '<div class="t">'+head+'</div>'+
         '<div class="chips">'+yard+chips.map(function(c){return '<span class="chip">'+c+'</span>';}).join("")+'</div>'+
+        flag+
         '<div class="acts"><a href="'+o.u+'" target="_blank" rel="noopener">Vezi anunțul</a>'+
         '<button data-i="'+i+'">'+(picked?"Ales ✓":"Alege")+'</button></div></article>';
-    }).join("") || '<p class="count">Niciun anunț cu filtrele astea. Urcă prețul sau folosește căutarea live de mai jos.</p>';
+    }).join("") || '<p class="count">Nimic cu filtrele astea. Urcă prețul sau folosește căutarea live de mai jos.</p>';
     Array.prototype.forEach.call(g.querySelectorAll("button[data-i]"),function(b){
       b.addEventListener("click",function(){
-        var i=+b.getAttribute("data-i"), k=DATA.anunturi[i].k;
-        state.pick[k]=(state.pick[k]===i?null:i);
+        var i=+b.getAttribute("data-i");
+        state.pick[state.k]=(state.pick[state.k]===i?null:i);
         render(); sums();
       });
     });
   }
 
   function sums(){
-    var h=state.pick.casa!=null?DATA.anunturi[state.pick.casa]:null;
-    var a=state.pick.ap!=null?DATA.anunturi[state.pick.ap]:null;
-    var total=(h?h.p:0)+(a?a.p:0), buget=DATA.buget_total, rest=buget-total;
     var t=el("sumText"), fill=el("fill");
+    if(isCar()){
+      var c=state.pick.masina!=null?CAR.masini[state.pick.masina]:null;
+      if(!c){ t.textContent="Alege o mașină."; fill.style.width="0"; fill.className=""; return; }
+      var rest=CAR.buget-c.p;
+      t.innerHTML=c.m+" · <b>"+eur(c.p)+"</b> · "+(rest>=0
+        ? 'sub buget cu <b>'+eur(rest)+'</b>'
+        : '<b class="over">peste buget cu '+eur(-rest)+'</b>');
+      fill.style.width=Math.min(100,c.p/CAR.buget*100)+"%";
+      fill.className=rest<0?"over":"";
+      return;
+    }
+    var h=state.pick.casa!=null?IMO.anunturi[state.pick.casa]:null;
+    var a=state.pick.ap!=null?IMO.anunturi[state.pick.ap]:null;
+    var total=(h?h.p:0)+(a?a.p:0), rest=IMO.buget_total-total;
     if(!h&&!a){ t.textContent="Alege o casă și un apartament."; fill.style.width="0"; fill.className=""; return; }
     var parts=[];
     if(h) parts.push("casă <b>"+eur(h.p)+"</b>");
     if(a) parts.push("apartament <b>"+eur(a.p)+"</b>");
-    var restTxt = rest>=0 ? 'rămân <b>'+eur(rest)+'</b> pentru renovări'
-                          : '<b class="over">depășești cu '+eur(-rest)+'</b>';
-    t.innerHTML=parts.join(" + ")+" = <b>"+eur(total)+"</b> · "+restTxt;
-    fill.style.width=Math.min(100,total/buget*100)+"%";
+    t.innerHTML=parts.join(" + ")+" = <b>"+eur(total)+"</b> · "+(rest>=0
+      ? 'rămân <b>'+eur(rest)+'</b> pentru renovări'
+      : '<b class="over">depășești cu '+eur(-rest)+'</b>');
+    fill.style.width=Math.min(100,total/IMO.buget_total*100)+"%";
     fill.className=rest<0?"over":"";
   }
 
+  function applyTab(){
+    var car=isCar();
+    el("carRow").hidden=!car;
+    el("ownWrap").hidden=car;
+    el("warnWrap").hidden=!car;
+    var slider=el("maxp");
+    if(car){ slider.min=3000; slider.max=15000; slider.step=250; state.maxp=15000; }
+    else { slider.min=50000; slider.max=IMO.buget_total; slider.step=5000; state.maxp=IMO.buget_total; }
+    slider.value=state.maxp;
+    el("maxpVal").textContent=eur(state.maxp);
+    zones(); setPortals(); render(); sums();
+  }
+
   el("maxp").addEventListener("input",function(){
-    state.maxp=+this.value; el("maxpVal").textContent=eur(state.maxp); liveUrls(); render();
+    state.maxp=+this.value; el("maxpVal").textContent=eur(state.maxp); setPortals(); render();
   });
+  el("maxkm").addEventListener("input",function(){
+    state.maxkm=+this.value; el("maxkmVal").textContent=km(state.maxkm); setPortals(); render();
+  });
+  el("minan").addEventListener("change",function(){state.minan=+this.value;setPortals();render();});
   el("zone").addEventListener("change",function(){state.zone=this.value;render();});
   el("own").addEventListener("change",function(){state.own=this.checked;render();});
-  el("reset").addEventListener("click",function(){state.pick={casa:null,ap:null};render();sums();});
+  el("nowarn").addEventListener("change",function(){state.nowarn=this.checked;render();});
+  el("reset").addEventListener("click",function(){
+    state.pick={casa:null,ap:null,masina:null}; render(); sums();
+  });
   Array.prototype.forEach.call(document.querySelectorAll('.tabs button'),function(b){
     b.addEventListener("click",function(){
       Array.prototype.forEach.call(document.querySelectorAll('.tabs button'),function(x){
         x.setAttribute("aria-selected","false");});
       b.setAttribute("aria-selected","true");
-      state.k=b.getAttribute("data-k");
-      el("ownWrap").style.display=state.k==="casa"?"":"none";
-      zones(); liveUrls(); render();
+      state.k=b.getAttribute("data-k"); state.zone="";
+      applyTab();
     });
   });
 
-  fetch("date.json?v="+Date.now()).then(function(r){return r.json();}).then(function(d){
-    DATA=d;
-    state.maxp=d.buget_total;
-    el("maxp").max=d.buget_total; el("maxp").value=d.buget_total;
-    el("maxpVal").textContent=eur(state.maxp);
-    el("budgetLabel").textContent=eur(d.buget_total);
-    el("stamp").textContent="actualizat "+d.actualizat;
-    zones(); liveUrls(); render(); sums();
-  })["catch"](function(){
-    el("count").textContent="Nu am putut citi date.json — deschide pagina de pe GitHub Pages, nu direct de pe disc.";
-    liveUrls();
+  function boot(){
+    el("stamp").textContent="actualizat "+(IMO.actualizat||CAR.actualizat);
+    el("lede").innerHTML="Buget <b>"+eur(IMO.buget_total)+"</b> pentru casă + apartament, separat <b>"+
+      eur(CAR.buget)+"</b> pentru mașină. Alege câte unul și vezi jos cât rămâne.";
+    years(); applyTab();
+  }
+
+  Promise.all([
+    fetch("date.json?v="+Date.now()).then(function(r){return r.json();}),
+    fetch("masini.json?v="+Date.now()).then(function(r){return r.json();})
+  ]).then(function(res){ IMO=res[0]; CAR=res[1]; boot(); })
+  ["catch"](function(){
+    el("count").textContent="Nu am putut citi datele — deschide pagina de pe GitHub Pages, nu direct de pe disc.";
+    setPortals();
   });
 })();
 </script>

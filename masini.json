@@ -1,0 +1,40 @@
+{
+  "actualizat": "2026-09-14",
+  "buget": 11000,
+  "note": "Masini cautate pe Autovit si OLX: buget ~11.000 EUR, garda inalta, drum lung, piese ieftine in Romania. Campuri: m = model, an, km, cp, f = combustibil, p = pret EUR, z = locatie, u = link, warn = capcana de stiut, d = data vazuta.",
+  "masini": [
+    {"m":"Hyundai Kona 1.0 T-GDI Highway","an":2020,"km":78900,"cp":120,"f":"benzina","p":11000,"z":"Oradea","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-120-cp-6mt-2wd-highway-ID7HQE2c.html","warn":null,"d":"2026-09-14"},
+    {"m":"Hyundai Kona 1.0 T-GDI","an":2019,"km":42066,"cp":120,"f":"benzina","p":10100,"z":"Bucuresti","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ID7HQxGM.html","warn":null,"d":"2026-09-14"},
+    {"m":"Hyundai Kona 1.0 T-GDI Style","an":2019,"km":118895,"cp":120,"f":"benzina","p":11490,"z":"Brasov","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-style-ID7HQD6y.html","warn":null,"d":"2026-09-14"},
+    {"m":"Hyundai Kona 1.0 T-GDI Luxury","an":2019,"km":124579,"cp":120,"f":"benzina","p":11500,"z":"Bucuresti","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-2wd-luxury-ID7HQKyf.html","warn":null,"d":"2026-09-14"},
+    {"m":"Hyundai Kona 1.0 T-GDI Highway","an":2021,"km":113000,"cp":120,"f":"benzina","p":11800,"z":"Ploiesti","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-120-cp-6mt-2wd-highway-ID7HQJ4h.html","warn":null,"d":"2026-09-14"},
+    {"m":"Hyundai Tucson 2.0 CRDi","an":2016,"km":119017,"cp":136,"f":"diesel","p":9999,"z":"Pitesti","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/hyundai-tucson-ID7HQGQP.html","warn":null,"d":"2026-09-14"},
+    {"m":"Hyundai Tucson 1.6 benzina","an":2016,"km":141000,"cp":132,"f":"benzina","p":11980,"z":"Bacau","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/hyundai-tucson-ID7HQGlM.html","warn":null,"d":"2026-09-14"},
+
+    {"m":"Kia Sportage 2.0 CRDi 4x4 Style","an":2017,"km":150000,"cp":185,"f":"diesel","p":11000,"z":"Bucuresti","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-2-0-dsl-hp-6mt-4x4-style-ID7HQFlL.html","warn":null,"d":"2026-09-14"},
+    {"m":"Kia Sportage 1.6 GDI Plus","an":2019,"km":151000,"cp":132,"f":"benzina","p":8990,"z":"Brasov","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-gdi-6mt-4x2-plus-ID7HOATu.html","warn":null,"d":"2026-09-14"},
+    {"m":"Kia Sportage 1.6 GDI Classic","an":2016,"km":121000,"cp":132,"f":"benzina","p":10500,"z":"Iasi","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-gdi-6mt-4x2-classic-ID7HQvaB.html","warn":null,"d":"2026-09-14"},
+
+    {"m":"Mazda CX-5 CD150 4x4 AT","an":2016,"km":120585,"cp":150,"f":"diesel","p":9995,"z":"Voluntari","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ID7HKeWM.html","warn":null,"d":"2026-09-14"},
+    {"m":"Mazda CX-5 CD150 4x4 AT Revolution","an":2017,"km":145000,"cp":150,"f":"diesel","p":10450,"z":"Chiajna","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ver-cd150-4x4-at-revolution-ID7HQHwA.html","warn":null,"d":"2026-09-14"},
+    {"m":"Mazda CX-5 CD175 4x4 AT Revolution","an":2015,"km":143000,"cp":175,"f":"diesel","p":10700,"z":"Iasi","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ver-cd175-4x4-at-revolution-ID7HQF5x.html","warn":null,"d":"2026-09-14"},
+    {"m":"Mazda CX-5 Skyactiv-D 175 AWD","an":2016,"km":150000,"cp":175,"f":"diesel","p":10400,"z":"Satu Mare","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ver-skyactiv-d-175-drive-awd-sports-line-ID7HQuAR.html","warn":null,"d":"2026-09-14"},
+    {"m":"Mazda CX-5 CD175 4x4 AT Revolution Top","an":2016,"km":160800,"cp":175,"f":"diesel","p":9490,"z":"Domnesti","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ver-cd175-4x4-at-revolution-top-ID7HQHeS.html","warn":null,"d":"2026-09-14"},
+
+    {"m":"Dacia Duster TCe 100 Comfort","an":2020,"km":58000,"cp":100,"f":"benzina","p":9790,"z":"Pitesti","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-100-comfort-ID7HQsGO.html","warn":null,"d":"2026-09-14"},
+    {"m":"Dacia Duster TCe 100 GPL","an":2021,"km":60800,"cp":100,"f":"benzina + GPL","p":9999,"z":"Bors","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQGJa.html","warn":null,"d":"2026-09-14"},
+    {"m":"Dacia Duster TCe 100 Comfort","an":2020,"km":60000,"cp":100,"f":"benzina","p":10100,"z":"Blaj","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-100-comfort-ID7HQFmi.html","warn":null,"d":"2026-09-14"},
+    {"m":"Dacia Duster TCe 150 Prestige","an":2022,"km":69300,"cp":150,"f":"benzina","p":11000,"z":"Glina","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-150-gpf-prestige-jante-17-ID7HQLls.html","warn":null,"d":"2026-09-14"},
+    {"m":"Dacia Duster TCe 90 2WD Expression","an":2023,"km":89500,"cp":91,"f":"benzina","p":10900,"z":"Piatra Neamt","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-90-2wd-expression-ID7HQJF8.html","warn":null,"d":"2026-09-14"},
+    {"m":"Dacia Duster TCe 90 Essential","an":2021,"km":94708,"cp":90,"f":"benzina","p":10200,"z":"Pitesti","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-90-essential-ID7HQAtY.html","warn":null,"d":"2026-09-14"},
+
+    {"m":"Opel Crossland 1.2 Turbo","an":2021,"km":56122,"cp":110,"f":"benzina","p":9990,"z":"Targu Jiu","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-start-stop-limited-edition-ID7HQLbc.html","warn":"Motor 1.2 PureTech - curea de distributie in baie de ulei, reparatie 1.000-1.500 EUR","d":"2026-09-14"},
+    {"m":"Peugeot 2008 1.5 BlueHDi","an":2020,"km":95757,"cp":102,"f":"diesel","p":10490,"z":"Timisoara","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-fap-active-ID7HOg1k.html","warn":"Curea de distributie in baie de ulei, ca la toate motoarele PSA din generatia asta","d":"2026-09-14"},
+    {"m":"Ford EcoSport 1.0 EcoBoost Titanium","an":2020,"km":86001,"cp":125,"f":"benzina","p":9950,"z":"Bucuresti","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQKvQ.html","warn":"1.0 EcoBoost are tot curea in ulei; garda la sol mai mica decat pare","d":"2026-09-14"},
+    {"m":"Jeep Compass 1.4 MultiAir 4x2","an":2019,"km":80000,"cp":140,"f":"benzina","p":11000,"z":"Bucuresti","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/jeep-compass-ver-1-4-m-air-4x2-longitude-ID7HGyQf.html","warn":"Piese si service peste media clasei, retea mica in Romania","d":"2026-09-14"},
+
+    {"m":"Audi Q5 35 TDI S tronic","an":2024,"km":10278,"cp":163,"f":"diesel","p":10000,"z":"Ilfov","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/audi-q5-ver-35-tdi-s-tronic-advanced-ID7HQKM6.html","warn":"PREDARE LEASING: cei 10.000 EUR sunt avansul, mai preiei 39 rate x 589 EUR + TVA (~23.000 EUR)","d":"2026-09-14"},
+    {"m":"Renault Arkana E-TECH Intens","an":2025,"km":17315,"cp":143,"f":"hibrid","p":6300,"z":"Satu Mare","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/renault-arkana-ver-e-tech-intens-ID7HQLxh.html","warn":"PREDARE LEASING: 6.300 EUR avans + 45 rate x 576 EUR","d":"2026-09-14"},
+    {"m":"Dacia Duster 1.6 140 CP","an":2024,"km":47000,"cp":140,"f":"benzina","p":7400,"z":"Moinesti","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQIxy.html","warn":"AVARIAT - anuntul scrie explicit Avariata: Da","d":"2026-09-14"}
+  ]
+}
