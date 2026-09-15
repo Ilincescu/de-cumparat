@@ -2,6 +2,13 @@
   "actualizat": "2026-09-15",
   "buget_total": 250000,
   "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
+  "observatii_casa": [
+    "Acoperire surse la 15 sep 2026: Storia da, OLX da, imobiliare.ro da (merge doar din browser, blocheaza scripturile), publi24 da (114 case in orasul Sibiu), lajumate.ro da (1.228 anunturi imobiliare Sibiu). Facebook Marketplace: doar anunturile trimise de tine, nu o cautare sistematica.",
+    "OLX si Storia sunt aceeasi companie, iar sectiunea de imobiliare de pe OLX afiseaza in mare parte anunturi Storia. Cand ceva apare pe amandoua, e acelasi anunt, nu doua oferte.",
+    "Anunturile din categoria gresita nu apar in nicio cautare. Casa din Trei Stejari era pusa la Rentals, cu pretul afisat ca RON 190.000 pe luna. Merita aruncata o privire si peste categoriile aiurea.",
+    "Buget: 250.000 EUR pentru casa plus apartamentul de inchiriat. Casa sub 150.000 lasa loc de apartament si renovari; peste 190.000 renunti practic la apartament.",
+    "Criterii fixe: minim 50 mp utili, curte proprie, in orasul Sibiu."
+  ],
   "observatii_ap": [
     "Fara apartamente de la dezvoltator. Contul OLX Dezvoltator Apartamente Sibiu (pe OLX din octombrie 2025) are 9 anunturi care scriu DIRECT PROPIETAR si Persoana fizica, dar descrierea vorbeste de ansamblu rezidential cu cai de acces private si parc interior. Cinci dintre ele au fost scoase din lista pe 15 sep 2026.",
     "Semnul dupa care se recunosc: titlu cu majuscule, COMISION 0%, pret rotund cu EURO in titlu, telefon scris cu cifre incercuite, si acelasi text sablon in mai multe anunturi din zone diferite. Verifica intotdeauna numele vanzatorului, nu ce scrie in titlu.",

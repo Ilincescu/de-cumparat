@@ -94,7 +94,7 @@
   .live h2{font-size:15px;margin:0 0 4px}
   .live p{font-size:13px;color:var(--muted);margin:0 0 11px}
   .portals{display:grid;gap:8px;grid-template-columns:1fr 1fr}
-  @media(min-width:640px){.portals{grid-template-columns:repeat(4,1fr)}}
+  @media(min-width:640px){.portals{grid-template-columns:repeat(3,1fr)}}
   .portal{display:block;text-align:center;text-decoration:none;background:var(--surface-2);
     border:1px solid var(--line);border-radius:10px;padding:11px 6px;color:var(--ink);
     font-size:13px;font-weight:600}
@@ -181,6 +181,8 @@
     <a class="portal" id="p2" target="_blank" rel="noopener"></a>
     <a class="portal" id="p3" target="_blank" rel="noopener"></a>
     <a class="portal" id="p4" target="_blank" rel="noopener"></a>
+    <a class="portal" id="p5" target="_blank" rel="noopener"></a>
+    <a class="portal" id="p6" target="_blank" rel="noopener"></a>
   </div>
 </section>
 
@@ -242,24 +244,32 @@
       a=[["OLX Sibiu","local","https://www.olx.ro/sibiu/q-bicicleta-sosea/?search%5Bfilter_float_price%3Ato%5D="+p],
          ["OLX 56 cm","pe mărimea ta","https://www.olx.ro/oferte/q-cursiera-56/?search%5Bfilter_float_price%3Ato%5D="+p],
          ["OLX mărimea L","toată țara","https://www.olx.ro/oferte/q-bicicleta-sosea-marimea-l/?search%5Bfilter_float_price%3Ato%5D="+p],
-         ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=bicicleta%20sosea&maxPrice="+p]];
+         ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=bicicleta%20sosea&maxPrice="+p],
+         ["Publi24","biciclete Sibiu","https://www.publi24.ro/anunturi/sport-timp-liber/biciclete/sibiu/"],
+         ["Lajumate","Sibiu","https://lajumate.ro/anunturi_sport-timp-liber_in-sibiu-sb.html"]];
     }else if(isCar()){
       a=[["Autovit","toate","https://www.autovit.ro/autoturisme?search%5Bfilter_float_year%3Afrom%5D="+(state.minan||2015)+"&search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Bfilter_float_mileage%3Ato%5D="+state.maxkm+"&search%5Bcurrency%5D=EUR&search%5Border%5D=created_at_first%3Adesc"],
          ["Autovit SUV","gardă înaltă","https://www.autovit.ro/autoturisme/suv?search%5Bfilter_float_year%3Afrom%5D="+(state.minan||2015)+"&search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Bfilter_float_mileage%3Ato%5D="+state.maxkm+"&search%5Bcurrency%5D=EUR"],
          ["OLX","după dată","https://www.olx.ro/auto-masini-moto-ambarcatiuni/autoturisme/?search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Bfilter_float_year%3Afrom%5D="+(state.minan||2015)],
-         ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=suv&maxPrice="+p]];
+         ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=suv&maxPrice="+p],
+         ["Publi24","autoturisme","https://www.publi24.ro/anunturi/auto-moto/autoturisme/sibiu/"],
+         ["Lajumate","auto Sibiu","https://lajumate.ro/anunturi_auto-moto_in-sibiu-sb.html"]];
     }else if(state.k==="casa"){
       a=[["Storia","cele mai noi","https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu/sibiu/sibiu?priceMax="+p+"&by=LATEST&direction=DESC"],
          ["OLX","după dată","https://www.olx.ro/imobiliare/case-de-vanzare/sibiu/?search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Border%5D=created_at%3Adesc"],
-         ["Imobiliare.ro","listă completă","https://www.imobiliare.ro/vanzare-case-vile/sibiu"],
-         ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=casa%20curte%20sibiu&maxPrice="+p]];
+         ["Imobiliare.ro","listă completă","https://www.imobiliare.ro/vanzare-case-vile/judetul-sibiu/sibiu"],
+         ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=casa%20curte%20sibiu&maxPrice="+p],
+         ["Publi24","114 case Sibiu","https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/sibiu/sibiu/"],
+         ["Lajumate","imobiliare Sibiu","https://lajumate.ro/anunturi_imobiliare_in-sibiu-sb.html"]];
     }else{
       a=[["Storia","2 camere, noi","https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/sibiu?priceMax="+p+"&roomsNumber=%5BTWO%5D&by=LATEST&direction=DESC"],
          ["OLX","după dată","https://www.olx.ro/imobiliare/apartamente-garsoniere-de-vanzare/sibiu/?search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Border%5D=created_at%3Adesc"],
-         ["Imobiliare.ro","listă completă","https://www.imobiliare.ro/vanzare-apartamente/sibiu"],
-         ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=apartament%202%20camere%20sibiu&maxPrice="+p]];
+         ["Imobiliare.ro","listă completă","https://www.imobiliare.ro/vanzare-apartamente/judetul-sibiu/sibiu/2-camere"],
+         ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=apartament%202%20camere%20sibiu&maxPrice="+p],
+         ["Publi24","apartamente Sibiu","https://www.publi24.ro/anunturi/imobiliare/de-vanzare/apartamente/sibiu/sibiu/"],
+         ["Lajumate","apartamente Sibiu","https://lajumate.ro/anunturi_apartamente-de-vanzare_in-sibiu-sb.html"]];
     }
-    for(var i=0;i<4;i++){
+    for(var i=0;i<6;i++){
       var n=el("p"+(i+1)); n.href=a[i][2]; n.innerHTML=a[i][0]+"<small>"+a[i][1]+"</small>";
     }
   }
