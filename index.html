@@ -424,9 +424,13 @@
 
   // Observatiile stau in masini.json, ca sa le poti edita de pe telefon ca pe orice alt camp
   function notes(){
-    var list=isCar()?(CAR.observatii||[]):[];
+    var list=[], titlu="De reținut";
+    if(isCar()){ list=CAR.observatii||[]; titlu="De reținut despre mașini"; }
+    else if(isBike()){ list=BIKE.observatii||[]; titlu="De reținut despre biciclete"; }
+    else if(state.k==="ap"){ list=IMO.observatii_ap||[]; titlu="De reținut despre apartamente"; }
+    else { list=IMO.observatii_casa||[]; titlu="De reținut despre case"; }
     el("notes").hidden=!list.length;
-    el("notesTitle").textContent="De reținut despre mașini";
+    el("notesTitle").textContent=titlu;
     el("notesList").innerHTML=list.map(function(t){return "<li>"+t+"</li>";}).join("");
   }
 
