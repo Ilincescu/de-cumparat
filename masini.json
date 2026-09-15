@@ -2,6 +2,14 @@
   "actualizat": "2026-09-14",
   "buget": 11000,
   "note": "Masini cautate pe Autovit si OLX: buget ~11.000 EUR, garda inalta, drum lung, piese ieftine in Romania. Campuri: m = model, an, km, cp, f = combustibil, p = pret EUR, z = locatie, u = link, warn = capcana de stiut, d = data vazuta.",
+  "observatii": [
+    "La 11.000 EUR nu exista Tucson mai nou de 2016. Pe toata tara, sub 12.000 EUR, Autovit avea exact doua Tucsonuri, ambele din 2016, unul cu 119.000 km si unul cu 141.000 km. Un Tucson 2019-2020 pleaca de la ~16.000-20.000 EUR.",
+    "Acelasi lucru la Mazda CX-5 (2015-2017) si Kia Sportage (2016-2019). Alegerea reala e: ori 2020+ cu marca modesta, ori marca premium si mai veche cu 4-6 ani.",
+    "Singura non-Dacia care bifeaza tot (2020, sub 100.000 km, sub 11.000 EUR) e Hyundai Kona 1.0 T-GDI din Oradea, 78.900 km.",
+    "De evitat, desi intra in buget: Opel Crossland 1.2 PureTech, Peugeot 2008 1.2/1.5 si Ford EcoSport 1.0 EcoBoost - toate au curea de distributie in baie de ulei, reparatie 1.000-1.500 EUR.",
+    "Preturile prea mici au mereu o explicatie: predare leasing (preiei ratele) sau masina avariata. Cardurile portocalii de mai sus spun care e care.",
+    "Filtrul An minim e pus pe 2020 din start. Ca sa vezi si Tucson, CX-5 sau Sportage, schimba-l pe orice an."
+  ],
   "masini": [
     {"m":"Hyundai Kona 1.0 T-GDI Highway","an":2020,"km":78900,"cp":120,"f":"benzina","p":11000,"z":"Oradea","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-120-cp-6mt-2wd-highway-ID7HQE2c.html","warn":null,"d":"2026-09-14"},
     {"m":"Hyundai Kona 1.0 T-GDI","an":2019,"km":42066,"cp":120,"f":"benzina","p":10100,"z":"Bucuresti","src":"autovit","u":"https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ID7HQxGM.html","warn":null,"d":"2026-09-14"},

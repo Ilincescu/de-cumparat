@@ -113,6 +113,13 @@
   .track i{display:block;height:100%;background:var(--accent);width:0;transition:width .2s}
   .track i.over{background:var(--warn)}
 
+  .notes{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:14px 16px;margin:18px 0}
+  .notes h2{font-size:15px;margin:0 0 8px}
+  .notes ul{margin:0;padding-left:18px}
+  .notes li{font-size:13px;color:var(--muted);line-height:1.5;margin-bottom:7px}
+  .notes li:last-child{margin-bottom:0}
+
   footer{color:var(--faint);font-size:12.5px;line-height:1.6;padding:26px 0 10px;
     border-top:1px solid var(--line);margin-top:22px}
   footer code{background:var(--surface-2);padding:1px 5px;border-radius:5px;font-size:12px}
@@ -175,6 +182,11 @@
     <a class="portal" id="p3" target="_blank" rel="noopener"></a>
     <a class="portal" id="p4" target="_blank" rel="noopener"></a>
   </div>
+</section>
+
+<section class="notes" id="notes" hidden>
+  <h2 id="notesTitle">De reținut</h2>
+  <ul id="notesList"></ul>
 </section>
 
 <footer>
@@ -407,7 +419,15 @@
     else { s.min=50000; s.max=IMO.buget_total; s.step=5000; state.maxp=IMO.buget_total; }
     s.value=state.maxp;
     el("maxpVal").textContent=money(state.maxp);
-    zones(); setPortals(); render(); sums();
+    notes(); zones(); setPortals(); render(); sums();
+  }
+
+  // Observatiile stau in masini.json, ca sa le poti edita de pe telefon ca pe orice alt camp
+  function notes(){
+    var list=isCar()?(CAR.observatii||[]):[];
+    el("notes").hidden=!list.length;
+    el("notesTitle").textContent="De reținut despre mașini";
+    el("notesList").innerHTML=list.map(function(t){return "<li>"+t+"</li>";}).join("");
   }
 
   el("maxp").addEventListener("input",function(){
