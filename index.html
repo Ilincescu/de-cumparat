@@ -84,6 +84,8 @@
   .acts a,.acts button{flex:1;text-align:center;font:inherit;font-size:13px;font-weight:600;
     padding:9px 8px;border-radius:9px;cursor:pointer;text-decoration:none;border:1px solid var(--line)}
   .acts a{background:var(--surface-2);color:var(--ink)}
+  .acts .star{flex:0 0 46px;background:var(--surface-2);color:var(--faint);font-size:17px;padding:8px 0}
+  .acts .star.on{color:#d9a400;border-color:#d9a400;background:var(--surface-2)}
   .acts button{background:var(--accent);color:#fff;border-color:transparent}
   .card.picked .acts button{background:var(--surface-2);color:var(--accent);border-color:var(--line)}
 
@@ -157,6 +159,7 @@
     <label class="check" id="ownWrap"><input type="checkbox" id="own" checked> doar curte proprie</label>
     <label class="check" id="warnWrap" hidden><input type="checkbox" id="nowarn" checked> ascunde ce nu se potrivește</label>
     <label class="check" id="sizeWrap" hidden><input type="checkbox" id="mysize" checked> doar mărimea mea</label>
+    <label class="check"><input type="checkbox" id="onlyfav"> doar favorite</label>
   </div>
 </div>
 
@@ -206,8 +209,14 @@
   var CAR={masini:[],buget:11000};
   var BIKE={biciclete:[],buget:4000};
   var state={k:"casa",maxp:250000,minmp:50,maxkm:200000,minan:0,zone:"_oras",
-             own:true,nowarn:true,mysize:true,pick:{casa:null,ap:null,masina:null,bike:null}};
+             own:true,nowarn:true,mysize:true,onlyfav:false,pick:{casa:null,ap:null,masina:null,bike:null}};
   function el(id){return document.getElementById(id)}
+
+  // Favoritele stau in browserul de pe care marchezi - nu se sincronizeaza intre telefon si laptop
+  var favs={};
+  try{ favs=JSON.parse(localStorage.getItem("favorite")||"{}")||{}; }catch(e){ favs={}; }
+  function saveFavs(){ try{ localStorage.setItem("favorite",JSON.stringify(favs)); }catch(e){} }
+  function favCount(){ var n=0; for(var k in favs) if(favs[k]) n++; return n; }
   function nr(n){return n.toLocaleString("ro-RO")}
   function isCar(){return state.k==="masina"}
   function isBike(){return state.k==="bike"}
@@ -277,6 +286,7 @@
 
   function visible(){
     return items().filter(function(o){
+      if(state.onlyfav && !favs[o.u]) return false;
       if(o.p>state.maxp) return false;
       // "_oras" = orice cartier din Sibiu; af = anunt din afara orasului
       if(state.zone==="_oras"){ if(o.af) return false; }
@@ -301,7 +311,9 @@
 
   function render(){
     var list=visible(), g=el("grid"), all=items();
-    el("count").textContent=list.length+(list.length===1?" anunț":" anunțuri")+" sub "+money(state.maxp);
+    var n=favCount();
+    el("count").textContent=list.length+(list.length===1?" anunț":" anunțuri")+" sub "+money(state.maxp)+
+      (n?"  ·  "+n+(n===1?" favorit":" favorite")+" salvate pe dispozitivul ăsta":"");
     g.innerHTML=list.map(function(o){
       var i=all.indexOf(o), picked=state.pick[state.k]===i, chips=[], head, flag="", badge="";
       if(isBike()){
@@ -331,13 +343,22 @@
         '<div class="chips">'+badge+chips.map(function(c){return '<span class="chip">'+c+'</span>';}).join("")+'</div>'+
         flag+
         '<div class="acts"><a href="'+o.u+'" target="_blank" rel="noopener">Vezi anunțul</a>'+
-        '<button data-i="'+i+'">'+(picked?"Ales ✓":"Alege")+'</button></div></article>';
+        '<button data-i="'+i+'">'+(picked?"Ales ✓":"Alege")+'</button>'+
+        '<button class="star'+(favs[o.u]?' on':'')+'" data-fav="'+o.u+'" title="Favorit">'+
+        (favs[o.u]?"★":"☆")+'</button></div></article>';
     }).join("") || '<p class="count">Nimic cu filtrele astea. Ridică prețul, scade minimul de mp sau folosește căutarea live de mai jos.</p>';
     Array.prototype.forEach.call(g.querySelectorAll("button[data-i]"),function(b){
       b.addEventListener("click",function(){
         var i=+b.getAttribute("data-i");
         state.pick[state.k]=(state.pick[state.k]===i?null:i);
         render(); sums();
+      });
+    });
+    Array.prototype.forEach.call(g.querySelectorAll("button[data-fav]"),function(b){
+      b.addEventListener("click",function(){
+        var u=b.getAttribute("data-fav");
+        if(favs[u]) delete favs[u]; else favs[u]=1;
+        saveFavs(); render();
       });
     });
   }
@@ -404,6 +425,7 @@
   el("own").addEventListener("change",function(){state.own=this.checked;render();});
   el("nowarn").addEventListener("change",function(){state.nowarn=this.checked;render();});
   el("mysize").addEventListener("change",function(){state.mysize=this.checked;render();});
+  el("onlyfav").addEventListener("change",function(){state.onlyfav=this.checked;render();});
   el("reset").addEventListener("click",function(){
     state.pick={casa:null,ap:null,masina:null,bike:null}; render(); sums();
   });
