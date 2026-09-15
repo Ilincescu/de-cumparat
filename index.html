@@ -208,7 +208,7 @@
   var IMO={anunturi:[],buget_total:250000,actualizat:""};
   var CAR={masini:[],buget:11000};
   var BIKE={biciclete:[],buget:4000};
-  var state={k:"casa",maxp:250000,minmp:50,maxkm:200000,minan:0,zone:"_oras",
+  var state={k:"casa",maxp:250000,minmp:50,maxkm:200000,minan:2020,zone:"_oras",
              own:true,nowarn:true,mysize:true,onlyfav:false,pick:{casa:null,ap:null,masina:null,bike:null}};
   function el(id){return document.getElementById(id)}
 
@@ -276,6 +276,7 @@
     out.sort();
     sel.innerHTML='<option value="0">orice an</option>'+out.map(function(y){
       return '<option value="'+y+'">din '+y+'</option>';}).join("");
+    sel.value=state.minan;
   }
 
   // 55-58 cm sau L: singurele care intra pe 180-181 cm
