@@ -326,7 +326,7 @@
         return true;
       }
       if(o.k!==state.k) return false;
-      if(state.k==="casa" && state.own && o.c==="comuna") return false;
+      if(state.k==="casa" && state.own && o.c!=="proprie") return false;
       if(state.minmp && o.a && o.a<state.minmp) return false;
       return true;
     }).sort(function(a,b){return a.p-b.p;});
@@ -357,7 +357,8 @@
         if(o.g) chips.push(o.g);
         chips.push(o.src==="olx"?"OLX":"Storia");
         badge=o.c==="proprie"?'<span class="chip own">curte proprie</span>'
-             :o.c==="comuna"?'<span class="chip shared">curte comună</span>':'';
+             :o.c==="comuna"?'<span class="chip shared">curte comună</span>'
+             :'<span class="chip shared">curte de verificat</span>';
       }
       if(o.warn) flag='<div class="flag">'+o.warn+'</div>';
       return '<article class="card'+(picked?' picked':'')+'">'+
