@@ -120,6 +120,23 @@
   .notes li{font-size:13px;color:var(--muted);line-height:1.5;margin-bottom:7px}
   .notes li:last-child{margin-bottom:0}
 
+  .card.seen{opacity:.55}
+  .acts .seenb{flex:0 0 46px;background:var(--surface-2);color:var(--faint);font-size:15px;padding:8px 0}
+  .acts .seenb.on{color:var(--accent);border-color:var(--accent)}
+  .acts .noteb{flex:0 0 46px;background:var(--surface-2);color:var(--faint);font-size:15px;padding:8px 0}
+  .acts .noteb.on{color:var(--accent);border-color:var(--accent)}
+  .note{width:100%;border:1px solid var(--line);border-radius:9px;padding:8px 10px;
+    font:inherit;font-size:13px;background:var(--surface-2);color:var(--ink);resize:vertical;min-height:52px}
+  .note-ro{font-size:13px;background:var(--accent-soft);color:var(--ink);border-radius:9px;
+    padding:8px 10px;line-height:1.4}
+  .banner{background:var(--accent-soft);border:1px solid var(--accent);border-radius:var(--radius);
+    padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.5}
+  .banner b{color:var(--ink)}
+  .banner button{margin-top:8px;margin-right:8px;border:1px solid var(--line);background:var(--surface);
+    color:var(--ink);font:inherit;font-size:13px;font-weight:600;padding:7px 12px;border-radius:9px;cursor:pointer}
+  #shareBox{width:100%;margin-top:8px;font-size:12px;padding:8px;border-radius:9px;
+    border:1px solid var(--line);background:var(--surface-2);color:var(--ink)}
+
   footer{color:var(--faint);font-size:12.5px;line-height:1.6;padding:26px 0 10px;
     border-top:1px solid var(--line);margin-top:22px}
   footer code{background:var(--surface-2);padding:1px 5px;border-radius:5px;font-size:12px}
@@ -134,6 +151,8 @@
   <div class="title"><h1>Casă, apartament, mașină, bicicletă</h1><span class="stamp" id="stamp"></span></div>
   <p class="lede" id="lede"></p>
 </header>
+
+<div class="banner" id="banner" hidden></div>
 
 <div class="tabs" role="tablist">
   <button role="tab" data-k="casa" aria-selected="true">Casă</button>
@@ -167,9 +186,12 @@
     <label class="check" id="warnWrap" hidden><input type="checkbox" id="nowarn" checked> ascunde ce nu se potrivește</label>
     <label class="check" id="sizeWrap" hidden><input type="checkbox" id="mysize" checked> doar mărimea mea</label>
     <label class="check"><input type="checkbox" id="onlyfav"> doar favorite</label>
+    <label class="check"><input type="checkbox" id="hideseen" checked> ascunde văzute</label>
+    <button id="shareBtn" type="button">Trimite favoritele</button>
   </div>
 </div>
 
+<textarea id="shareBox" rows="2" hidden readonly></textarea>
 <p class="count" id="count">Se încarcă…</p>
 <div class="grid" id="grid"></div>
 
@@ -223,13 +245,28 @@
   var CAR={masini:[],buget:11000};
   var BIKE={biciclete:[],buget:4000};
   var state={k:"casa",maxp:250000,minmp:50,maxkm:200000,minan:2020,zone:"_oras",
-             own:true,nowarn:true,mysize:true,onlyfav:false,pick:{casa:null,ap:null,masina:null,bike:null}};
+             own:true,nowarn:true,mysize:true,onlyfav:false,hideseen:true,pick:{casa:null,ap:null,masina:null,bike:null}};
   function el(id){return document.getElementById(id)}
 
   // Favoritele stau in browserul de pe care marchezi - nu se sincronizeaza intre telefon si laptop
   var favs={};
   try{ favs=JSON.parse(localStorage.getItem("favorite")||"{}")||{}; }catch(e){ favs={}; }
   function saveFavs(){ try{ localStorage.setItem("favorite",JSON.stringify(favs)); }catch(e){} }
+  var seen={}, notes={};
+  try{ seen=JSON.parse(localStorage.getItem("vazute")||"{}")||{}; }catch(e){ seen={}; }
+  try{ notes=JSON.parse(localStorage.getItem("notite")||"{}")||{}; }catch(e){ notes={}; }
+  function saveSeen(){ try{ localStorage.setItem("vazute",JSON.stringify(seen)); }catch(e){} }
+  function saveNotes(){ try{ localStorage.setItem("notite",JSON.stringify(notes)); }catch(e){} }
+
+  // Lista trimisa de altcineva vine in #s= ca JSON codificat base64url
+  var shared=null;
+  function b64e(txt){ return btoa(unescape(encodeURIComponent(txt))).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,""); }
+  function b64d(txt){ txt=txt.replace(/-/g,"+").replace(/_/g,"/"); return decodeURIComponent(escape(atob(txt))); }
+  function readShared(){
+    var m=(location.hash||"").match(/[#&]s=([A-Za-z0-9\-_]+)/);
+    if(!m) return null;
+    try{ return JSON.parse(b64d(m[1])); }catch(e){ return null; }
+  }
   function favCount(){ var n=0; for(var k in favs) if(favs[k]) n++; return n; }
   function nr(n){return n.toLocaleString("ro-RO")}
   function isCar(){return state.k==="masina"}
@@ -309,7 +346,9 @@
 
   function visible(){
     return items().filter(function(o){
+      if(shared) return !!shared.f[o.u];
       if(state.onlyfav && !favs[o.u]) return false;
+      if(state.hideseen && seen[o.u]) return false;
       if(o.p>state.maxp) return false;
       // "_oras" = orice cartier din Sibiu; af = anunt din afara orasului
       if(state.zone==="_oras"){ if(o.af) return false; }
@@ -361,21 +400,50 @@
              :'<span class="chip shared">curte de verificat</span>';
       }
       if(o.warn) flag='<div class="flag">'+o.warn+'</div>';
-      return '<article class="card'+(picked?' picked':'')+'">'+
+      var nota=shared?(shared.n[o.u]||""):(notes[o.u]||"");
+      var notaHtml=shared
+        ? (nota?'<div class="note-ro">'+nota.replace(/</g,"&lt;")+'</div>':'')
+        : '<textarea class="note" data-note="'+o.u+'" placeholder="Nota ta despre anuntul asta"'+
+          (nota?'':' hidden')+'>'+nota.replace(/</g,"&lt;")+'</textarea>';
+      return '<article class="card'+(picked?' picked':'')+(seen[o.u]&&!shared?' seen':'')+'">'+
         '<div><div class="price">'+money(o.p)+'</div><div class="zone">'+(o.z||"")+'</div></div>'+
         '<div class="t">'+head+'</div>'+
         '<div class="chips">'+badge+chips.map(function(c){return '<span class="chip">'+c+'</span>';}).join("")+'</div>'+
-        flag+
+        flag+notaHtml+
         '<div class="acts"><a href="'+o.u+'" target="_blank" rel="noopener">Vezi anunțul</a>'+
         '<button data-i="'+i+'">'+(picked?"Ales ✓":"Alege")+'</button>'+
         '<button class="star'+(favs[o.u]?' on':'')+'" data-fav="'+o.u+'" title="Favorit">'+
-        (favs[o.u]?"★":"☆")+'</button></div></article>';
+        (favs[o.u]?"★":"☆")+'</button>'+
+        '<button class="seenb'+(seen[o.u]?' on':'')+'" data-seen="'+o.u+'" title="Am vazut-o">'+
+        (seen[o.u]?"✓":"○")+'</button>'+
+        '<button class="noteb'+(nota?' on':'')+'" data-noteb="'+o.u+'" title="Nota">✎</button>'+
+        '</div></article>';
     }).join("") || '<p class="count">Nimic cu filtrele astea. Ridică prețul, scade minimul de mp sau folosește căutarea live de mai jos.</p>';
     Array.prototype.forEach.call(g.querySelectorAll("button[data-i]"),function(b){
       b.addEventListener("click",function(){
         var i=+b.getAttribute("data-i");
         state.pick[state.k]=(state.pick[state.k]===i?null:i);
         render(); sums();
+      });
+    });
+    Array.prototype.forEach.call(g.querySelectorAll("button[data-seen]"),function(b){
+      b.addEventListener("click",function(){
+        var u=b.getAttribute("data-seen");
+        if(seen[u]) delete seen[u]; else seen[u]=1;
+        saveSeen(); render();
+      });
+    });
+    Array.prototype.forEach.call(g.querySelectorAll("button[data-noteb]"),function(b){
+      b.addEventListener("click",function(){
+        var t=g.querySelector('textarea[data-note="'+b.getAttribute("data-noteb")+'"]');
+        if(t){ t.hidden=!t.hidden; if(!t.hidden) t.focus(); }
+      });
+    });
+    Array.prototype.forEach.call(g.querySelectorAll("textarea[data-note]"),function(t){
+      t.addEventListener("input",function(){
+        var u=t.getAttribute("data-note");
+        if(t.value.trim()) notes[u]=t.value; else delete notes[u];
+        saveNotes();
       });
     });
     Array.prototype.forEach.call(g.querySelectorAll("button[data-fav]"),function(b){
@@ -462,6 +530,41 @@
   el("nowarn").addEventListener("change",function(){state.nowarn=this.checked;render();});
   el("mysize").addEventListener("change",function(){state.mysize=this.checked;render();});
   el("onlyfav").addEventListener("change",function(){state.onlyfav=this.checked;render();});
+  el("hideseen").addEventListener("change",function(){state.hideseen=this.checked;render();});
+
+  el("shareBtn").addEventListener("click",function(){
+    var f={}, n={}, k=0;
+    for(var u in favs){ if(favs[u]){ f[u]=1; k++; if(notes[u]) n[u]=notes[u]; } }
+    if(!k){ alert("Nu ai niciun favorit bifat. Apasa steaua pe anunturile care iti plac, apoi trimite lista."); return; }
+    var link=location.origin+location.pathname+"#s="+b64e(JSON.stringify({f:f,n:n}));
+    var box=el("shareBox");
+    box.hidden=false; box.value=link; box.focus(); box.select();
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(link).then(function(){
+        el("count").textContent="Link cu "+k+(k===1?" favorit":" favorite")+" copiat. Trimite-l cu ce vrei.";
+      },function(){});
+    }
+  });
+
+  function showBanner(){
+    var b=el("banner");
+    if(!shared){ b.hidden=true; return; }
+    var k=0, nn=0;
+    for(var u in shared.f){ k++; if(shared.n[u]) nn++; }
+    b.hidden=false;
+    b.innerHTML="<b>Vezi o lista trimisa de altcineva</b> — "+k+(k===1?" anunt":" anunturi")+
+      (nn?" , "+nn+" cu note":"")+". Filtrele tale sunt oprite cat timp esti aici."+
+      "<br><button id=\"impBtn\">Adauga-le la favoritele mele</button>"+
+      "<button id=\"closeShared\">Inapoi la lista mea</button>";
+    el("closeShared").addEventListener("click",function(){
+      shared=null; location.hash=""; showBanner(); applyTab();
+    });
+    el("impBtn").addEventListener("click",function(){
+      for(var u in shared.f){ favs[u]=1; if(shared.n[u] && !notes[u]) notes[u]=shared.n[u]; }
+      saveFavs(); saveNotes();
+      shared=null; location.hash=""; showBanner(); state.onlyfav=true; el("onlyfav").checked=true; applyTab();
+    });
+  }
   el("reset").addEventListener("click",function(){
     state.pick={casa:null,ap:null,masina:null,bike:null}; render(); sums();
   });
@@ -477,6 +580,8 @@
   });
 
   function boot(){
+    shared=readShared();
+    showBanner();
     el("stamp").textContent="actualizat "+IMO.actualizat;
     el("lede").innerHTML="Buget <b>"+nr(IMO.buget_total)+" €</b> pentru casă + apartament, <b>"+
       nr(CAR.buget)+" €</b> pentru mașină, <b>"+nr(BIKE.buget)+" RON</b> pentru bicicletă. "+
