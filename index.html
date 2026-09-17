@@ -252,11 +252,11 @@
   var favs={};
   try{ favs=JSON.parse(localStorage.getItem("favorite")||"{}")||{}; }catch(e){ favs={}; }
   function saveFavs(){ try{ localStorage.setItem("favorite",JSON.stringify(favs)); }catch(e){} }
-  var seen={}, notes={};
+  var seen={}, notite={};
   try{ seen=JSON.parse(localStorage.getItem("vazute")||"{}")||{}; }catch(e){ seen={}; }
-  try{ notes=JSON.parse(localStorage.getItem("notite")||"{}")||{}; }catch(e){ notes={}; }
+  try{ notite=JSON.parse(localStorage.getItem("notite")||"{}")||{}; }catch(e){ notite={}; }
   function saveSeen(){ try{ localStorage.setItem("vazute",JSON.stringify(seen)); }catch(e){} }
-  function saveNotes(){ try{ localStorage.setItem("notite",JSON.stringify(notes)); }catch(e){} }
+  function saveNotes(){ try{ localStorage.setItem("notite",JSON.stringify(notite)); }catch(e){} }
 
   // Lista trimisa de altcineva vine in #s= ca JSON codificat base64url
   var shared=null;
@@ -400,7 +400,7 @@
              :'<span class="chip shared">curte de verificat</span>';
       }
       if(o.warn) flag='<div class="flag">'+o.warn+'</div>';
-      var nota=shared?(shared.n[o.u]||""):(notes[o.u]||"");
+      var nota=shared?(shared.n[o.u]||""):(notite[o.u]||"");
       var notaHtml=shared
         ? (nota?'<div class="note-ro">'+nota.replace(/</g,"&lt;")+'</div>':'')
         : '<textarea class="note" data-note="'+o.u+'" placeholder="Nota ta despre anuntul asta"'+
@@ -442,7 +442,7 @@
     Array.prototype.forEach.call(g.querySelectorAll("textarea[data-note]"),function(t){
       t.addEventListener("input",function(){
         var u=t.getAttribute("data-note");
-        if(t.value.trim()) notes[u]=t.value; else delete notes[u];
+        if(t.value.trim()) notite[u]=t.value; else delete notite[u];
         saveNotes();
       });
     });
@@ -534,7 +534,7 @@
 
   el("shareBtn").addEventListener("click",function(){
     var f={}, n={}, k=0;
-    for(var u in favs){ if(favs[u]){ f[u]=1; k++; if(notes[u]) n[u]=notes[u]; } }
+    for(var u in favs){ if(favs[u]){ f[u]=1; k++; if(notite[u]) n[u]=notite[u]; } }
     if(!k){ alert("Nu ai niciun favorit bifat. Apasa steaua pe anunturile care iti plac, apoi trimite lista."); return; }
     var link=location.origin+location.pathname+"#s="+b64e(JSON.stringify({f:f,n:n}));
     var box=el("shareBox");
@@ -560,7 +560,7 @@
       shared=null; location.hash=""; showBanner(); applyTab();
     });
     el("impBtn").addEventListener("click",function(){
-      for(var u in shared.f){ favs[u]=1; if(shared.n[u] && !notes[u]) notes[u]=shared.n[u]; }
+      for(var u in shared.f){ favs[u]=1; if(shared.n[u] && !notite[u]) notite[u]=shared.n[u]; }
       saveFavs(); saveNotes();
       shared=null; location.hash=""; showBanner(); state.onlyfav=true; el("onlyfav").checked=true; applyTab();
     });
