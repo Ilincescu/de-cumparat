@@ -172,6 +172,11 @@
     <input type="range" id="minmp" min="0" max="150" step="5" value="50">
     <span class="val" id="minmpVal">50 mp</span>
   </div>
+  <div class="row" id="curteRow">
+    <label for="mingm">Minim mp curte</label>
+    <input type="range" id="mingm" min="0" max="500" step="25" value="0">
+    <span class="val" id="mingmVal">oricât</span>
+  </div>
   <div class="row" id="carRow" hidden>
     <label for="minan">An minim</label>
     <select id="minan"></select>
@@ -244,7 +249,7 @@
   var IMO={anunturi:[],buget_total:250000,actualizat:""};
   var CAR={masini:[],buget:11000};
   var BIKE={biciclete:[],buget:4000};
-  var state={k:"casa",maxp:250000,minmp:50,maxkm:200000,minan:2020,zone:"_oras",
+  var state={k:"casa",maxp:250000,minmp:50,mingm:0,maxkm:200000,minan:2020,zone:"_oras",
              own:true,nowarn:true,mysize:true,onlyfav:false,hideseen:true,pick:{casa:null,ap:null,masina:null,bike:null}};
   function el(id){return document.getElementById(id)}
 
@@ -367,6 +372,8 @@
       if(o.k!==state.k) return false;
       if(state.k==="casa" && state.own && o.c!=="proprie") return false;
       if(state.minmp && o.a && o.a<state.minmp) return false;
+      // ca la curte proprie: daca ceri un minim, anunturile fara mp de curte nu se califica
+      if(state.k==="casa" && state.mingm && !(o.gm>=state.mingm)) return false;
       return true;
     }).sort(function(a,b){return a.p-b.p;});
   }
@@ -393,7 +400,7 @@
         head=o.t;
         if(o.r) chips.push(o.r+(o.r===1?" cameră":" camere"));
         if(o.a) chips.push(o.a+" mp"); else chips.push("mp netrecuți");
-        if(o.g) chips.push(o.g);
+        if(o.g) chips.push(o.g); else if(state.k==="casa") chips.push("mp curte netrecuti");
         chips.push(o.src==="olx"?"OLX":"Storia");
         badge=o.c==="proprie"?'<span class="chip own">curte proprie</span>'
              :o.c==="comuna"?'<span class="chip shared">curte comună</span>'
@@ -489,6 +496,7 @@
     var car=isCar(), bike=isBike(), imo=!car&&!bike;
     el("carRow").hidden=!car;
     el("mpRow").hidden=!imo;
+    el("curteRow").hidden=state.k!=="casa";
     el("ownWrap").hidden=state.k!=="casa";
     el("warnWrap").hidden=imo;
     el("sizeWrap").hidden=!bike;
@@ -519,6 +527,11 @@
   el("minmp").addEventListener("input",function(){
     state.minmp=+this.value;
     el("minmpVal").textContent=state.minmp?state.minmp+" mp":"oricat";
+    render();
+  });
+  el("mingm").addEventListener("input",function(){
+    state.mingm=+this.value;
+    el("mingmVal").textContent=state.mingm?state.mingm+" mp":"oricât";
     render();
   });
   el("maxkm").addEventListener("input",function(){
