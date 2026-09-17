@@ -188,6 +188,7 @@
     <label for="zone" id="zoneLabel">Zonă</label>
     <select id="zone"></select>
     <label class="check" id="ownWrap"><input type="checkbox" id="own" checked> doar curte proprie</label>
+    <label class="check" id="d2Wrap"><input type="checkbox" id="nod2" checked> fără case cu 2 corpuri / 2 locuințe</label>
     <label class="check" id="warnWrap" hidden><input type="checkbox" id="nowarn" checked> ascunde ce nu se potrivește</label>
     <label class="check" id="sizeWrap" hidden><input type="checkbox" id="mysize" checked> doar mărimea mea</label>
     <label class="check"><input type="checkbox" id="onlyfav"> doar favorite</label>
@@ -250,7 +251,7 @@
   var CAR={masini:[],buget:11000};
   var BIKE={biciclete:[],buget:4000};
   var state={k:"casa",maxp:250000,minmp:50,mingm:0,maxkm:200000,minan:2020,zone:"_oras",
-             own:true,nowarn:true,mysize:true,onlyfav:false,hideseen:true,pick:{casa:null,ap:null,masina:null,bike:null}};
+             own:true,nod2:true,nowarn:true,mysize:true,onlyfav:false,hideseen:true,pick:{casa:null,ap:null,masina:null,bike:null}};
   function el(id){return document.getElementById(id)}
 
   // Favoritele stau in browserul de pe care marchezi - nu se sincronizeaza intre telefon si laptop
@@ -371,6 +372,7 @@
       }
       if(o.k!==state.k) return false;
       if(state.k==="casa" && state.own && o.c!=="proprie") return false;
+      if(state.k==="casa" && state.nod2 && o.d2) return false;
       if(state.minmp && o.a && o.a<state.minmp) return false;
       // ca la curte proprie: daca ceri un minim, anunturile fara mp de curte nu se califica
       if(state.k==="casa" && state.mingm && !(o.gm>=state.mingm)) return false;
@@ -402,9 +404,10 @@
         if(o.a) chips.push(o.a+" mp"); else chips.push("mp netrecuți");
         if(o.g) chips.push(o.g); else if(state.k==="casa") chips.push("mp curte netrecuti");
         chips.push(o.src==="olx"?"OLX":"Storia");
-        badge=o.c==="proprie"?'<span class="chip own">curte proprie</span>'
+        badge=(o.d2?'<span class="chip shared">2 corpuri / 2 locuințe</span>':'')+
+             (o.c==="proprie"?'<span class="chip own">curte proprie</span>'
              :o.c==="comuna"?'<span class="chip shared">curte comună</span>'
-             :'<span class="chip shared">curte de verificat</span>';
+             :'<span class="chip shared">curte de verificat</span>');
       }
       if(o.warn) flag='<div class="flag">'+o.warn+'</div>';
       var nota=shared?(shared.n[o.u]||""):(notite[o.u]||"");
@@ -498,6 +501,7 @@
     el("mpRow").hidden=!imo;
     el("curteRow").hidden=state.k!=="casa";
     el("ownWrap").hidden=state.k!=="casa";
+    el("d2Wrap").hidden=state.k!=="casa";
     el("warnWrap").hidden=imo;
     el("sizeWrap").hidden=!bike;
     var s=el("maxp");
@@ -540,6 +544,7 @@
   el("minan").addEventListener("change",function(){state.minan=+this.value;setPortals();render();});
   el("zone").addEventListener("change",function(){state.zone=this.value;render();});
   el("own").addEventListener("change",function(){state.own=this.checked;render();});
+  el("nod2").addEventListener("change",function(){state.nod2=this.checked;render();});
   el("nowarn").addEventListener("change",function(){state.nowarn=this.checked;render();});
   el("mysize").addEventListener("change",function(){state.mysize=this.checked;render();});
   el("onlyfav").addEventListener("change",function(){state.onlyfav=this.checked;render();});
