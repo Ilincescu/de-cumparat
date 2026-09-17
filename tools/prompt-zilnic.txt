@@ -15,6 +15,8 @@ Reguli pentru date:
 - Marcheaza af:true pentru orice e in afara orasului Sibiu.
 - c:"proprie" doar daca anuntul confirma curte proprie; altfel lasa c:null si pagina il va arata cu eticheta "curte de verificat".
 - Pune warn cu ce trebuie stiut inainte de sunat (curte comuna, la alb, dezvoltator, pret suspect).
+- d2:true pentru case cu doua corpuri de cladire sau doua locuinte. Titlul nu spune aproape niciodata asta: cauta in DESCRIERE "doua corpuri", "2 corpuri", "doua case", "doua intrari separate". Atentie, "doua intrari" la o singura locuinta nu inseamna doua corpuri.
+- Citeste descrierea si pentru acces: "drept de servitute", "acces comun", "in fata exista o alta casa" inseamna ca treci prin curtea altcuiva. Pune asta in warn, e un criteriu pe care Mihai il refuza.
 - Verifica si anunturile vechi. Cum se face repede: deschide cu Playwright o pagina de pe storia.ro si ruleaza un fetch in bucla peste toate linkurile de storia din date.json - same-origin, deci primesti statusul real. Repeta de pe o pagina olx.ro pentru linkurile OLX. Status 410 inseamna anunt arhivat: sterge-l din lista. Cu curl nu merge, ambele intorc 403 la orice.
 - Actualizeaza campul "actualizat" la data de azi.
 
