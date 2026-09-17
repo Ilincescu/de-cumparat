@@ -1,0 +1,26 @@
+Esti in repo-ul C:\Visma\case-sibiu, care alimenteaza pagina https://ilincescu.github.io/de-cumparat/
+
+Sarcina de azi: baleiaza sursele pentru CASA si APARTAMENT si actualizeaza listele.
+
+Criterii casa: in orasul Sibiu (toate cartierele), curte proprie confirmata, minim 50 mp utili, pana in 250.000 EUR, ideal sub 150.000 ca sa incapa si apartamentul.
+Criterii apartament: 2 camere, orasul Sibiu, fara mansarda, fara anunturi de la dezvoltator, cat mai ieftin, de preferat la casa. Bugetul total pentru casa + apartament e 250.000 EUR.
+
+Surse, in ordinea asta:
+1. Storia si OLX prin WebFetch pe adresele de cautare din index.html (butoanele "Cauta la zi").
+2. publi24.ro - merge prin WebFetch, dar filtrul de pret din URL nu functioneaza, deci citeste paginile si filtreaza tu.
+3. Facebook Marketplace si imobiliare.ro - NUMAI prin Playwright, blocheaza cererile simple. Pe Facebook preturile apar ca RON desi sunt in EURO, iar locatia de pe card e a contului, nu a proprietatii: citeste descrierea inainte sa adaugi ceva.
+
+Reguli pentru date:
+- Adauga in date.json doar anunturi care NU exista deja (compara dupa campul u).
+- Marcheaza af:true pentru orice e in afara orasului Sibiu.
+- c:"proprie" doar daca anuntul confirma curte proprie; altfel lasa c:null si pagina il va arata cu eticheta "curte de verificat".
+- Pune warn cu ce trebuie stiut inainte de sunat (curte comuna, la alb, dezvoltator, pret suspect).
+- Verifica si anunturile vechi: daca un link e mort, sterge-l din lista.
+- Actualizeaza campul "actualizat" la data de azi.
+
+La final:
+- Valideaza JSON-ul cu node.
+- Commit si push pe main.
+- Scrie in tools/ultimul-raport.md ce ai adaugat, ce ai sters si ce ti s-a parut cel mai bun anunt nou, in maximum 10 randuri, in romana.
+
+Daca o sursa pica sau e blocata, noteaza asta in raport si continua cu restul. Nu inventa anunturi si nu adauga nimic fara link.
