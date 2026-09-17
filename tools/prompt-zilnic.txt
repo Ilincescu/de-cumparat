@@ -15,7 +15,7 @@ Reguli pentru date:
 - Marcheaza af:true pentru orice e in afara orasului Sibiu.
 - c:"proprie" doar daca anuntul confirma curte proprie; altfel lasa c:null si pagina il va arata cu eticheta "curte de verificat".
 - Pune warn cu ce trebuie stiut inainte de sunat (curte comuna, la alb, dezvoltator, pret suspect).
-- Verifica si anunturile vechi: daca un link e mort, sterge-l din lista.
+- Verifica si anunturile vechi. Cum se face repede: deschide cu Playwright o pagina de pe storia.ro si ruleaza un fetch in bucla peste toate linkurile de storia din date.json - same-origin, deci primesti statusul real. Repeta de pe o pagina olx.ro pentru linkurile OLX. Status 410 inseamna anunt arhivat: sterge-l din lista. Cu curl nu merge, ambele intorc 403 la orice.
 - Actualizeaza campul "actualizat" la data de azi.
 
 La final:
