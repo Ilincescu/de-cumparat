@@ -12,7 +12,7 @@ Surse, in ordinea asta:
 
 Reguli pentru date:
 - Adauga in date.json doar anunturi care NU exista deja (compara dupa campul u).
-- Marcheaza af:true pentru orice e in afara orasului Sibiu.
+- Marcheaza af:true pentru orice e in afara orasului Sibiu. Eticheta de locatie de pe Storia nu e de incredere: o casa din zona Bavaria era trecuta la Centrul Istoric in eticheta si la Orasul de Sus in titlul paginii. Verifica harta si descrierea; formulari ca "vedere spre oras" inseamna ca esti in afara lui.
 - c:"proprie" doar daca anuntul confirma curte proprie; altfel lasa c:null si pagina il va arata cu eticheta "curte de verificat".
 - Pune warn cu ce trebuie stiut inainte de sunat (curte comuna, la alb, dezvoltator, pret suspect).
 - d2:true pentru case cu doua corpuri de cladire sau doua locuinte. Titlul nu spune aproape niciodata asta: cauta in DESCRIERE "doua corpuri", "2 corpuri", "doua case", "doua intrari separate". Atentie, "doua intrari" la o singura locuinta nu inseamna doua corpuri.
