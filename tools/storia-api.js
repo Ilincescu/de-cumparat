@@ -17,10 +17,11 @@ const CAMERE = {ONE: 1, TWO: 2, THREE: 3, FOUR: 4, FIVE: 5, SIX: 6};
 const buildFile = path.join(__dirname, 'storia-build.json');
 
 async function pagina(buildId, tip, pretMax, nr) {
-  const cale = `vanzare/${tip}/sibiu`;
+  // judet + oras: cu un singur 'sibiu' cauta in tot judetul
+  const cale = `vanzare/${tip}/sibiu/sibiu`;
   const u = `https://www.storia.ro/_next/data/${buildId}/ro/rezultate/${cale}.json`
     + `?priceMax=${pretMax}&by=LATEST&direction=DESC&page=${nr}`
-    + `&searchingCriteria=vanzare&searchingCriteria=${tip}&searchingCriteria=sibiu`;
+    + `&searchingCriteria=vanzare&searchingCriteria=${tip}&searchingCriteria=sibiu&searchingCriteria=sibiu`;
   const r = await fetch(u, {headers: {'User-Agent': 'Mozilla/5.0'}});
   if (r.status === 404) throw new Error('buildId expirat - reimprospateaza-l din browser');
   if (!r.ok) throw new Error('status ' + r.status);

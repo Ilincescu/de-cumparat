@@ -16,7 +16,15 @@ Surse, in ordinea asta:
    verifica orasul fiecarui anunt, iar terenul intors de API nu e de incredere.
 2. OLX prin WebFetch pe adresele din index.html (butoanele "Cauta la zi").
 3. publi24.ro - merge prin WebFetch, dar filtrul de pret din URL nu functioneaza, deci citeste paginile si filtreaza tu.
-4. Facebook Marketplace si imobiliare.ro - NUMAI prin Playwright, blocheaza cererile simple. Pe Facebook preturile apar ca RON desi sunt in EURO, iar locatia de pe card e a contului, nu a proprietatii: citeste descrierea inainte sa adaugi ceva.
+4. Facebook Marketplace si imobiliare.ro - NUMAI prin Playwright, blocheaza cererile simple.
+   Facebook FUNCTIONEAZA fara cont. Pune un dialog de autentificare peste pagina si un buton
+   Log In in colt, dar lista de anunturi e dedesubt si se citeste normal din snapshot. NU trata
+   dialogul ca pe un blocaj si nu renunta: ia snapshot cu target [role="main"] si citeste
+   linkurile /marketplace/item/. Adresa care merge:
+   https://www.facebook.com/marketplace/sibiu/search?query=casa%20de%20vanzare%20curte&maxPrice=200000
+   Apoi deschide fiecare anunt interesant la /marketplace/item/<id>/ si citeste descrierea.
+   Preturile apar ca RON desi sunt in EURO, iar locatia de pe card e a contului care posteaza,
+   nu a proprietatii: citeste descrierea inainte sa adaugi ceva.
 
 Reguli pentru date:
 - Adauga in date.json doar anunturi care NU exista deja (compara dupa campul u).
