@@ -137,6 +137,8 @@
   .banner b{color:var(--ink)}
   .banner button{margin-top:8px;margin-right:8px;border:1px solid var(--line);background:var(--surface);
     color:var(--ink);font:inherit;font-size:13px;font-weight:600;padding:7px 12px;border-radius:9px;cursor:pointer}
+  #token{flex:1;min-width:150px;border:1px solid var(--line);border-radius:9px;padding:8px 10px;
+    font:inherit;font-size:13px;background:var(--surface-2);color:var(--ink)}
   #shareBox{width:100%;margin-top:8px;font-size:12px;padding:8px;border-radius:9px;
     border:1px solid var(--line);background:var(--surface-2);color:var(--ink)}
 
@@ -200,6 +202,8 @@
     <label for="cine">Eu sunt</label>
     <select id="cine"></select>
     <button id="exportBtn" type="button">Salvează în lista comună</button>
+    <input type="password" id="token" placeholder="token GitHub (o singură dată)" autocomplete="off">
+    <button id="tokenBtn" type="button">Uită tokenul</button>
   </div>
 </div>
 
@@ -307,14 +311,14 @@
          ["Publi24","autoturisme","https://www.publi24.ro/anunturi/auto-moto/autoturisme/sibiu/"],
          ["Lajumate","auto Sibiu","https://lajumate.ro/anunturi_auto-moto_in-sibiu-sb.html"]];
     }else if(state.k==="casa"){
-      a=[["Storia","cele mai noi","https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu?priceMax="+p+"&by=LATEST&direction=DESC"],
+      a=[["Storia","cele mai noi","https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu/sibiu?priceMax="+p+"&by=LATEST&direction=DESC"],
          ["OLX","după dată","https://www.olx.ro/imobiliare/case-de-vanzare/sibiu/?search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Border%5D=created_at%3Adesc"],
          ["Imobiliare.ro","listă completă","https://www.imobiliare.ro/vanzare-case-vile/judetul-sibiu/sibiu"],
          ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=casa%20curte%20sibiu&maxPrice="+p],
          ["Publi24","114 case Sibiu","https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/sibiu/sibiu/"],
          ["Lajumate","imobiliare Sibiu","https://lajumate.ro/anunturi_imobiliare_in-sibiu-sb.html"]];
     }else{
-      a=[["Storia","2 camere, noi","https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu?priceMax="+p+"&roomsNumber=%5BTWO%5D&by=LATEST&direction=DESC"],
+      a=[["Storia","2 camere, noi","https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu?priceMax="+p+"&roomsNumber=%5BTWO%5D&by=LATEST&direction=DESC"],
          ["OLX","după dată","https://www.olx.ro/imobiliare/apartamente-garsoniere-de-vanzare/sibiu/?search%5Bfilter_float_price%3Ato%5D="+p+"&search%5Border%5D=created_at%3Adesc"],
          ["Imobiliare.ro","listă completă","https://www.imobiliare.ro/vanzare-apartamente/judetul-sibiu/sibiu/2-camere"],
          ["Facebook","Marketplace","https://www.facebook.com/marketplace/sibiu/search?query=apartament%202%20camere%20sibiu&maxPrice="+p],
@@ -579,24 +583,75 @@
     }
   });
 
-  el("exportBtn").addEventListener("click",function(){
-    var cine=el("cine").value;
+  var REPO="Ilincescu/de-cumparat", FISIER="favorite.json";
+  function tokenul(){ try{ return localStorage.getItem("gh")||""; }catch(e){ return ""; } }
+  el("token").value=tokenul();
+  el("token").addEventListener("change",function(){
+    try{ localStorage.setItem("gh",this.value.trim()); }catch(e){}
+    el("count").textContent=this.value.trim()?"Token salvat in browserul asta. De acum butonul scrie direct pe site.":"Token sters.";
+  });
+  el("tokenBtn").addEventListener("click",function(){
+    try{ localStorage.removeItem("gh"); }catch(e){}
+    el("token").value=""; el("count").textContent="Token uitat. Butonul revine la copiat in clipboard.";
+  });
+
+  // imbina ce am local peste continutul PROASPAT de pe GitHub, ca sa nu sterg ce a pus celalalt
+  function construieste(cine, actual){
     var azi=new Date().toISOString().slice(0,10);
-    var an=JSON.parse(JSON.stringify(SHARE.anunturi||{}));
-    var puse=0, comentarii=0;
+    var an=JSON.parse(JSON.stringify((actual&&actual.anunturi)||{}));
+    var puse=0, com=0;
     function intrare(u){ if(!an[u]) an[u]={fav:[],note:[]}; if(!an[u].fav) an[u].fav=[]; if(!an[u].note) an[u].note=[]; return an[u]; }
     for(var u in favs){ if(favs[u]){ var e=intrare(u); if(e.fav.indexOf(cine)<0){ e.fav.push(cine); puse++; } } }
     for(var v in notite){ if(notite[v]){ var e2=intrare(v);
       var deja=e2.note.some(function(n){ return n.cine===cine && n.text===notite[v]; });
-      if(!deja){ e2.note.push({cine:cine,text:notite[v],d:azi}); comentarii++; } } }
-    var fisier={actualizat:azi, note:SHARE.note||"", persoane:SHARE.persoane||{}, anunturi:an};
-    var box=el("shareBox");
-    box.hidden=false; box.value=JSON.stringify(fisier,null,2); box.focus(); box.select();
-    if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(box.value);
-    el("count").textContent="Continut nou pentru favorite.json, copiat: "+puse+" favorite si "+
-      comentarii+" comentarii adaugate pentru "+(SHARE.persoane[cine]||cine)+
-      ". Lipeste-l peste tot continutul fisierului favorite.json de pe GitHub.";
+      if(!deja){ e2.note.push({cine:cine,text:notite[v],d:azi}); com++; } } }
+    return {fisier:{actualizat:azi, note:(actual&&actual.note)||SHARE.note||"",
+            persoane:(actual&&actual.persoane)||SHARE.persoane||{}, anunturi:an}, puse:puse, com:com};
+  }
+
+  async function salveazaPeSite(cine){
+    var t=tokenul();
+    var api="https://api.github.com/repos/"+REPO+"/contents/"+FISIER;
+    var cap={Authorization:"Bearer "+t, Accept:"application/vnd.github+json"};
+    el("count").textContent="Salvez...";
+    var r=await fetch(api+"?ref=main&t="+Date.now(),{headers:cap});
+    if(r.status===401||r.status===403) throw new Error("Tokenul lipseste, a expirat sau nu are drept de scriere");
+    if(!r.ok) throw new Error("Nu am putut citi fisierul de pe GitHub ("+r.status+")");
+    var meta=await r.json();
+    var curat=meta.content.split(String.fromCharCode(10)).join("");
+    var actual=JSON.parse(decodeURIComponent(escape(atob(curat))));
+    var rez=construieste(cine, actual);
+    var txt=JSON.stringify(rez.fisier,null,2)+String.fromCharCode(10);
+    var w=await fetch(api,{method:"PUT",headers:cap,body:JSON.stringify({
+      message:"Favorite: "+(rez.fisier.persoane[cine]||cine)+" a actualizat lista",
+      content:btoa(unescape(encodeURIComponent(txt))), sha:meta.sha, branch:"main"})});
+    if(w.status===409) throw new Error("A salvat altcineva intre timp. Mai apasa o data.");
+    if(!w.ok) throw new Error("Commitul a esuat ("+w.status+")");
+    SHARE=rez.fisier; render();
+    el("count").textContent="Salvat pe site: "+rez.puse+" favorite si "+rez.com+
+      " comentarii pentru "+(rez.fisier.persoane[cine]||cine)+". Apare pentru toata lumea in circa un minut.";
+  }
+
+  el("exportBtn").addEventListener("click",function(){
+    var cine=el("cine").value;
+    if(tokenul()){
+      salveazaPeSite(cine)["catch"](function(e){
+        el("count").textContent="Nu s-a salvat: "+e.message+" Iti pun continutul in clipboard, ca rezerva.";
+        copiazaLocal(cine);
+      });
+      return;
+    }
+    copiazaLocal(cine);
   });
+
+  function copiazaLocal(cine){
+    var rez=construieste(cine, SHARE);
+    var box=el("shareBox");
+    box.hidden=false; box.value=JSON.stringify(rez.fisier,null,2); box.focus(); box.select();
+    if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(box.value);
+    el("count").textContent="Copiat: "+rez.puse+" favorite si "+rez.com+" comentarii pentru "+
+      (SHARE.persoane[cine]||cine)+". Lipeste-l in favorite.json pe GitHub, sau trimite-l lui Mihai.";
+  }
 
   function showBanner(){
     var b=el("banner");
