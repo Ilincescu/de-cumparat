@@ -1,0 +1,380 @@
+- generic [active] [ref=f392e1]:
+  - generic [ref=f392e3]:
+    - generic [ref=f392e5]:
+      - link "Mergi la pagina principală" [ref=f392e6] [cursor=pointer]:
+        - /url: /
+        - img "Mergi la pagina principală" [ref=f392e7]
+      - generic [ref=f392e8]:
+        - navigation "Navigare principală" [ref=f392e11]:
+          - list [ref=f392e12]:
+            - listitem [ref=f392e13]:
+              - button "De vânzare" [ref=f392e15] [cursor=pointer]
+            - listitem [ref=f392e19]:
+              - button "De închiriat" [ref=f392e21] [cursor=pointer]
+            - listitem [ref=f392e25]:
+              - button "Ansambluri rezidențiale" [ref=f392e27] [cursor=pointer]
+            - listitem [ref=f392e31]:
+              - button "Companii" [ref=f392e33] [cursor=pointer]
+            - listitem [ref=f392e37]:
+              - link "Index Cartiere" [ref=f392e39] [cursor=pointer]:
+                - /url: https://trai.storia.ro
+        - button "Contul meu" [ref=f392e43] [cursor=pointer]
+        - button "Adaugă anunț" [ref=f392e51] [cursor=pointer]
+    - main [ref=f392e53]:
+      - link [ref=f392e56] [cursor=pointer]:
+        - /url: /ro/companii/agentii/vianto-properties-ID5001328
+        - generic [ref=f392e57]:
+          - img "VIANTO Properties" [ref=f392e58]
+          - paragraph [ref=f392e59]: VIANTO Properties
+      - generic [ref=f392e64]:
+        - generic [ref=f392e65]:
+          - button "Înapoi" [ref=f392e66] [cursor=pointer]
+          - generic [ref=f392e71]:
+            - button "Distribuie" [ref=f392e72] [cursor=pointer]
+            - button "Adauga la favorite" [ref=f392e78] [cursor=pointer]:
+              - generic [ref=f392e82]: Salvează
+        - generic [ref=f392e84]:
+          - button [ref=f392e85] [cursor=pointer]:
+            - 'img "Comision 0% Casa Individuala cu Curte si Gradina 260 mp - zona Tiglari - Imagine principală: 1/15" [ref=f392e87]'
+          - button [ref=f392e88] [cursor=pointer]:
+            - 'img "Comision 0% Casa Individuala cu Curte si Gradina 260 mp - zona Tiglari - Imagine principală: 2/15" [ref=f392e90]'
+          - button [ref=f392e91] [cursor=pointer]:
+            - 'img "Comision 0% Casa Individuala cu Curte si Gradina 260 mp - zona Tiglari - Imagine principală: 3/15" [ref=f392e93]'
+          - button [ref=f392e94] [cursor=pointer]:
+            - 'img "Comision 0% Casa Individuala cu Curte si Gradina 260 mp - zona Tiglari - Imagine principală: 4/15" [ref=f392e96]'
+          - 'button "Comision 0% Casa Individuala cu Curte si Gradina 260 mp - zona Tiglari - Imagine principală: 5/15 Toate imaginile (15)" [ref=f392e97] [cursor=pointer]':
+            - 'img "Comision 0% Casa Individuala cu Curte si Gradina 260 mp - zona Tiglari - Imagine principală: 5/15" [ref=f392e99]'
+            - generic [ref=f392e100]: Toate imaginile (15)
+          - list [ref=f392e103]:
+            - listitem [ref=f392e104]:
+              - button "Solicită releveul" [ref=f392e105]
+      - generic [ref=f392e110]:
+        - generic [ref=f392e111]:
+          - generic [ref=f392e112]:
+            - heading "Comision 0% Casa Individuala cu Curte si Gradina 260 mp - zona Tiglari" [level=1] [ref=f392e113]
+            - generic [ref=f392e114]:
+              - strong [ref=f392e116]: 125 000 €
+              - generic "Prețul pe metru pătrat" [ref=f392e118]: 1923,08 €/m²
+            - generic [ref=f392e122]:
+              - text: Publicitate
+              - generic [ref=f392e123]:
+                - button "Informații publicitare" [ref=f392e124]
+                - link "Calculează rata lunară" [ref=f392e134] [cursor=pointer]:
+                  - /url: https://finantare.storia.ro/raiffeisen-bank-credit-ipotecar/?utm_source=casa&utm_medium=Desktop_Adpage_Textlink_under_price&utm_campaign=RFB&utm_content=vanzare&price=125000%20EUR&img=aHR0cHM6Ly9pcmVsYW5kLmFwb2xsby5vbHhjZG4uY29tL3YxL2ZpbGVzL2V5Sm1iaUk2SWpFeWNEQm9kM1ZzZUROeU5USXRSVU5QVTFsVFZFVk5JaXdpZHlJNlczc2labTRpT2lJemR6VTJObmhuYW5CNU1uQXhMVUZTVHlJc0luTWlPaUl4TkNJc0luQWlPaUl4TUN3dE1UQWlMQ0poSWpvaU1DSjlYWDAubjVPbEc4LW5YN2dRZ3kzRkVVUlYwQ3NkTXprNlhYWGxsSVdzSWUzSlVnby9pbWFnZTtzPTY1NXg0OTE7cT04MA==&sum=621250&title=Comision%200%25%20Casa%20Individuala%20cu%20Curte%20si%20Gradina%20260%20mp%20-%20zona%20Tiglari&link=https://www.storia.ro/ro/oferta/comision-0-casa-individuala-cu-curte-si-gradina-260-mp-zona-tiglari-IDIkXM
+            - link "Tiglari, Sibiu, Sibiu" [ref=f392e147] [cursor=pointer]:
+              - /url: "#map"
+          - generic [ref=f392e151]:
+            - heading "Case de vânzare" [level=2] [ref=f392e152]
+            - generic [ref=f392e153]:
+              - generic [ref=f392e154]:
+                - generic [ref=f392e155]: "Suprafață utilă:"
+                - generic [ref=f392e156]: 65 m²
+              - generic [ref=f392e159]:
+                - generic [ref=f392e160]: "Numărul de camere:"
+                - generic [ref=f392e161]: "3"
+              - generic [ref=f392e164]:
+                - generic [ref=f392e165]: "Tip clădire:"
+                - generic [ref=f392e166]: singur in curte
+              - generic [ref=f392e169]:
+                - generic [ref=f392e170]: "Stare:"
+                - generic [ref=f392e171]: de renovat
+              - generic [ref=f392e174]:
+                - generic [ref=f392e175]: "Tip proprietate:"
+                - generic [ref=f392e176]: locuință utilizată
+              - generic [ref=f392e179]:
+                - generic [ref=f392e180]: "Liber de la:"
+                - generic [ref=f392e181]: 2026-09-03
+              - generic [ref=f392e184]:
+                - generic [ref=f392e185]: "Tip vânzător:"
+                - generic [ref=f392e186]: agenție
+              - generic [ref=f392e189]:
+                - generic [ref=f392e190]: "Chirie:"
+                - generic [ref=f392e191]: fără informații
+              - generic [ref=f392e194]:
+                - generic [ref=f392e195]: "Tip încălzire:"
+                - generic [ref=f392e196]: sobă
+              - generic [ref=f392e199]:
+                - generic [ref=f392e200]: "Informații suplimentare:"
+                - generic [ref=f392e201]:
+                  - generic [ref=f392e202]: mansardă
+                  - generic [ref=f392e207]:
+                    - text: garaj
+                    - button [ref=f392e212]:
+                      - img "Algoritmul AI Storia a extras aceste informații din descriere și a populat anunțul pentru a te ajuta." [ref=f392e213]
+            - generic [ref=f392e215]:
+              - button [ref=f392e216] [cursor=pointer]:
+                - paragraph [ref=f392e218]: Detaliile clădirii
+              - button [ref=f392e222] [cursor=pointer]:
+                - paragraph [ref=f392e224]: Parcelă și împrejurimi
+            - generic [ref=f392e229]:
+              - img "Algoritmul AI Storia a extras aceste informații din descriere și a populat anunțul pentru a te ajuta." [ref=f392e231]
+              - generic [ref=f392e233]:
+                - paragraph [ref=f392e234]: Am completat câteva detalii cu ajutorul optimizărilor automate (beta). Ți-a fost util acest lucru?
+                - paragraph [ref=f392e235]: Pe baza descrierii din anunț, algoritmul AI Storia a extras și a populat acest anunț cu mai multe detalii. Datele completate cu ajutorul optimizărilor automate sunt marcate cu pictograma în formă de steluță mov.
+              - generic [ref=f392e236]:
+                - button "Nu" [ref=f392e237] [cursor=pointer]
+                - button "Da" [ref=f392e242] [cursor=pointer]
+          - generic [ref=f392e248]:
+            - text: Publicitate
+            - generic [ref=f392e249]:
+              - button "Informații publicitare" [ref=f392e250]
+              - generic [ref=f392e258]:
+                - generic [ref=f392e259]:
+                  - img "Kaufland_logo" [ref=f392e260]
+                  - generic [ref=f392e261] [cursor=pointer]:
+                    - generic [ref=f392e262]: Te muți în zonă? Vecinii buni te așteaptă cu super oferte
+                    - generic [ref=f392e263]: Hai în vizită
+                - img "Advertisement" [ref=f392e264]
+          - generic [ref=f392e265]:
+            - heading "Descriere" [level=2] [ref=f392e266]
+            - generic [ref=f392e267]: Va propunem spre vanzare o casă individuala cu curte si gradina proprie, la prețul unui apartament, Casa este compusa din trei camere, două băi, hol, curte cu un carport si grădină, cu un teren total de 260 mp. La intrare avem un hol care face accesul catre cele 2 bai, precum si la cele 2 camere, iar bucătăria se poate accesa din una din cele 2 camere sau separat, printr-un hol exterior. Pentru suma cu care alții cumpără un apartament, tu poți intra proprietar al unei case individuale cu teren propriu, fără vecini pe palier, fără asociație de proprietari, fără compromisuri legate de spațiu. Casa are nevoie de renovare, exact asta îți dă libertatea să o construiești după cum vrei, fiecare finisaj, fiecare cameră, exact pe gustul tău. Pentru mai multe detalii, va rugam sa ne contactati la numarul de telefon afisat.
+            - button "Mai mult" [ref=f392e269]
+            - generic [ref=f392e276]:
+              - generic [ref=f392e277]:
+                - paragraph [ref=f392e279]: "ID: 10567018"
+                - button "Raportează" [ref=f392e280]
+              - text: "ID intern: CP3340911"
+          - generic [ref=f392e285]:
+            - generic [ref=f392e290]:
+              - paragraph [ref=f392e291]: Vrei să primești notificări cu anunțuri similare?
+              - paragraph [ref=f392e292]: Activează alertele și nu pierde nicio ofertă
+            - button "Vreau notificări despre anunțuri similare" [ref=f392e293]
+          - generic [ref=f392e295]:
+            - heading "Istoric și statistici" [level=2] [ref=f392e296]
+            - paragraph [ref=f392e297]: "Ultima actualizare: 3.09.2026"
+            - table [ref=f392e298]:
+              - rowgroup [ref=f392e299]:
+                - row [ref=f392e300]:
+                  - columnheader [ref=f392e301]:
+                    - paragraph [ref=f392e303]: Dată
+                  - columnheader [ref=f392e304]:
+                    - paragraph [ref=f392e306]: Modificare
+                  - columnheader [ref=f392e307]:
+                    - paragraph [ref=f392e309]: Preț
+              - rowgroup [ref=f392e310]:
+                - row [ref=f392e311]:
+                  - cell "XXXXXXXX" [ref=f392e312]
+                  - cell "XXXXXXXX" [ref=f392e316]
+                  - cell "XXXXXXXX" [ref=f392e320]
+                - row [ref=f392e324]:
+                  - cell "XXXXXXXX" [ref=f392e325]
+                  - cell "XXXXXXXX" [ref=f392e329]
+                  - cell "XXXXXXXX" [ref=f392e333]
+            - generic [ref=f392e337]:
+              - generic [ref=f392e342]:
+                - generic [ref=f392e343]: XX
+                - text: vizualizări
+              - generic [ref=f392e348]:
+                - generic [ref=f392e349]: XX
+                - text: salvări
+            - paragraph [ref=f392e350]: Conectează-te sau creează un cont pentru a accesa istoricul complet al anunțurilor, inclusiv modificările de preț
+            - button "Autentifică-te și verifică detaliile" [ref=f392e352]
+          - generic [ref=f392e354]:
+            - heading "Harta" [level=2] [ref=f392e355]
+            - generic [ref=f392e356]: ‌
+          - generic [ref=f392e360]:
+            - text: Publicitate
+            - generic [ref=f392e361]:
+              - button "Informații publicitare" [ref=f392e362]
+              - generic [ref=f392e371]:
+                - generic [ref=f392e372]:
+                  - heading "Calculator de împrumut" [level=4] [ref=f392e377]
+                  - generic [ref=f392e378]: Selectează condițiile dorite și descoperă oferta ideală pentru tine.
+                - generic [ref=f392e379]:
+                  - generic [ref=f392e380]:
+                    - generic:
+                      - paragraph [ref=f392e381]: Valoarea proprietatii
+                      - paragraph [ref=f392e382]: Seteaza suma de care ai nevoie
+                      - spinbutton "Valoarea proprietatii" [ref=f392e383]: "125000"
+                      - paragraph [ref=f392e384]: €
+                  - generic [ref=f392e385]:
+                    - generic:
+                      - paragraph [ref=f392e386]: Valoare avans
+                      - paragraph [ref=f392e387]: (Minim 15%)
+                      - spinbutton "Valoare avans" [ref=f392e388]: "25"
+                      - paragraph [ref=f392e389]: "%"
+                      - spinbutton "Valoare avans" [ref=f392e390]: "31250"
+                      - paragraph [ref=f392e391]: €
+                    - slider [ref=f392e392] [cursor=pointer]: "25"
+                  - generic [ref=f392e393]:
+                    - generic:
+                      - paragraph [ref=f392e394]: Pe ce perioadă vrei creditul? (luni)
+                      - paragraph
+                      - spinbutton "Perioadă de împrumut" [ref=f392e395]: "20"
+                      - paragraph [ref=f392e396]: Luni
+                    - slider "Perioadă de împrumut" [ref=f392e397] [cursor=pointer]: "20"
+                  - button "Cere o ofertă" [ref=f392e399] [cursor=pointer]
+          - generic [ref=f392e400]:
+            - heading "Despre agenție" [level=4] [ref=f392e401]
+            - generic [ref=f392e402]:
+              - link [ref=f392e403] [cursor=pointer]:
+                - /url: /ro/companii/agentii/vianto-properties-ID5001328
+                - 'img "Siglă: VIANTO Properties" [ref=f392e404]'
+              - generic [ref=f392e405]:
+                - strong [ref=f392e407]: VIANTO Properties
+                - generic "Tipul agenției" [ref=f392e409]: Agenție imobiliară
+                - generic [ref=f392e410]:
+                  - button "Afișează numărul" [ref=f392e411] [cursor=pointer]
+                  - button "Afișează numărul" [ref=f392e416] [cursor=pointer]
+                - generic "Adresa agenției" [ref=f392e421]: Constantin Noica, Nr.57, 550169, Sibiu
+            - link "Verifică portofoliul" [ref=f392e423] [cursor=pointer]:
+              - /url: /ro/companii/agentii/vianto-properties-ID5001328
+        - generic [ref=f392e428]:
+          - generic [ref=f392e434]:
+            - paragraph [ref=f392e435]: Florina Tudose
+            - link "VIANTO Properties" [ref=f392e436] [cursor=pointer]:
+              - /url: /ro/companii/agentii/vianto-properties-ID5001328
+            - generic [ref=f392e437]:
+              - button "Afișează numărul" [ref=f392e438] [cursor=pointer]
+              - button "Afișează numărul" [ref=f392e443] [cursor=pointer]
+          - generic [ref=f392e448]:
+            - generic [ref=f392e449]: Nume*
+            - textbox "Nume*" [ref=f392e453]:
+              - /placeholder: Nume
+            - generic [ref=f392e454]: E-mail*
+            - textbox "E-mail*" [ref=f392e458]:
+              - /placeholder: Email
+            - generic [ref=f392e459]: Număr de telefon*
+            - generic [ref=f392e460]:
+              - textbox "+" [ref=f392e464]: "+40"
+              - textbox "Număr de telefon*" [ref=f392e468]:
+                - /placeholder: Număr de telefon
+            - generic [ref=f392e471]: Mesajul tău*
+            - textbox "Mesajul tău*" [ref=f392e475]:
+              - /placeholder: Scrie mesajul tău…
+              - text: M-ar interesa detalii suplimentare privind această casă scoasă la vânzare.
+            - button "Autorul anunțului va primi datele tale pentru a permite comunicarea. Administratorul acestor date este S.C. OLX Online Services S.R.L. (Storia) mai mult" [ref=f392e477] [cursor=pointer]:
+              - generic [ref=f392e478]: Autorul anunțului va primi datele tale pentru a permite comunicarea.
+              - text: Administratorul acestor date este S.C. OLX Online Services S.R.L. (Storia) mai mult
+            - button "Trimite mesajul" [ref=f392e479]
+      - generic [ref=f392e485]:
+        - link "Case de vânzare" [ref=f392e486] [cursor=pointer]:
+          - /url: /ro/rezultate/vanzare/casa/toata-romania
+        - link "3 camere" [ref=f392e490] [cursor=pointer]:
+          - /url: /ro/rezultate/vanzare/casa,3-camere/toata-romania
+        - link "Sibiu" [ref=f392e494] [cursor=pointer]:
+          - /url: /ro/rezultate/vanzare/casa,3-camere/sibiu
+        - link "Sibiu" [ref=f392e498] [cursor=pointer]:
+          - /url: /ro/rezultate/vanzare/casa,3-camere/sibiu/sibiu
+        - link "Tiglari" [ref=f392e502] [cursor=pointer]:
+          - /url: /ro/rezultate/vanzare/casa,3-camere/sibiu/sibiu/tiglari
+        - generic [ref=f392e506]: Comision 0% Casa Individuala cu Curte si Gradina 260 mp - zona Tiglari
+    - contentinfo [ref=f392e507]:
+      - generic [ref=f392e511]:
+        - img "Storia" [ref=f392e512]
+        - list [ref=f392e513]:
+          - listitem [ref=f392e514]:
+            - paragraph [ref=f392e515]: DESPRE STORIA
+            - list [ref=f392e516]:
+              - listitem [ref=f392e517]:
+                - link "Despre noi" [ref=f392e518] [cursor=pointer]:
+                  - /url: /ro/info
+              - listitem [ref=f392e519]:
+                - link "Prețuri" [ref=f392e520] [cursor=pointer]:
+                  - /url: /ro/preturi
+              - listitem [ref=f392e521]:
+                - link "Cariere" [ref=f392e522] [cursor=pointer]:
+                  - /url: https://www.olxgroup.com/
+              - listitem [ref=f392e523]:
+                - link "Informații juridice" [ref=f392e524] [cursor=pointer]:
+                  - /url: https://help.storia.ro/storiahelp/s/topic/0TO090000009twJGAQ/informa%C8%9Bii-juridice
+          - listitem [ref=f392e525]:
+            - paragraph [ref=f392e526]: Pentru experții în imobiliare
+            - list [ref=f392e527]:
+              - listitem [ref=f392e528]:
+                - link "Publicitate" [ref=f392e529] [cursor=pointer]:
+                  - /url: https://publicitate.olx.ro/
+              - listitem [ref=f392e530]:
+                - link "Ghid vânzare" [ref=f392e531] [cursor=pointer]:
+                  - /url: "/blog/ghid-vanzare "
+          - listitem [ref=f392e532]:
+            - paragraph [ref=f392e533]: Instrumente utile
+            - list [ref=f392e534]:
+              - listitem [ref=f392e535]:
+                - link "Index cartiere" [ref=f392e536] [cursor=pointer]:
+                  - /url: https://trai.storia.ro/
+              - listitem [ref=f392e537]:
+                - link "Articole despre imobiliare" [ref=f392e538] [cursor=pointer]:
+                  - /url: /blog/
+          - listitem [ref=f392e539]:
+            - paragraph [ref=f392e540]: PLATFORME
+            - list [ref=f392e541]:
+              - listitem [ref=f392e542]:
+                - link "OLX.ro" [ref=f392e543] [cursor=pointer]:
+                  - /url: https://www.olx.ro/
+              - listitem [ref=f392e544]:
+                - link "Autovit.ro" [ref=f392e545] [cursor=pointer]:
+                  - /url: https://www.autovit.ro/
+              - listitem [ref=f392e546]:
+                - link "Otodom.pl" [ref=f392e547] [cursor=pointer]:
+                  - /url: https://otodom.pl/
+              - listitem [ref=f392e548]:
+                - link "Imovirtual.com" [ref=f392e549] [cursor=pointer]:
+                  - /url: https://imovirtual.com/
+          - listitem [ref=f392e550]:
+            - paragraph [ref=f392e551]: Hartă site
+            - list [ref=f392e552]:
+              - listitem [ref=f392e553]:
+                - link "Hartă site" [ref=f392e554] [cursor=pointer]:
+                  - /url: /ro/harta-site
+              - listitem [ref=f392e555]:
+                - link "Localități" [ref=f392e556] [cursor=pointer]:
+                  - /url: /ro/harta-site/regiuni/apartament
+          - listitem [ref=f392e557]:
+            - paragraph [ref=f392e558]: Contact
+            - list [ref=f392e559]:
+              - listitem [ref=f392e560]:
+                - link "Asistență" [ref=f392e561] [cursor=pointer]:
+                  - /url: https://help.storia.ro/storiahelp/s/contactsupport
+              - listitem [ref=f392e562]:
+                - link "Ajutor" [ref=f392e563] [cursor=pointer]:
+                  - /url: https://help.storia.ro/
+              - listitem [ref=f392e564]:
+                - link "DSA" [ref=f392e565] [cursor=pointer]:
+                  - /url: https://help.storia.ro/storiahelp/s/topic/0TO09000000kiXCGAY/digital-services-act-dsa
+      - generic [ref=f392e567]:
+        - generic [ref=f392e568]:
+          - paragraph [ref=f392e569]: "URMĂREȘTE-NE PE:"
+          - list [ref=f392e570]:
+            - listitem [ref=f392e571]:
+              - link "Facebook" [ref=f392e572] [cursor=pointer]:
+                - /url: https://www.facebook.com/storia.ro
+            - listitem [ref=f392e573]:
+              - link "Youtube" [ref=f392e574] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/Storiaro
+            - listitem [ref=f392e575]:
+              - link "Instagram" [ref=f392e576] [cursor=pointer]:
+                - /url: https://www.instagram.com/storia_ro/
+            - listitem [ref=f392e577]:
+              - link "Tiktok" [ref=f392e578] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@storia_ro
+            - listitem [ref=f392e579]:
+              - link "Linkedin" [ref=f392e580] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/79635350
+        - generic [ref=f392e581]:
+          - paragraph [ref=f392e582]: "Aplicații mobile:"
+          - list [ref=f392e583]:
+            - listitem [ref=f392e584]:
+              - link [ref=f392e585] [cursor=pointer]:
+                - /url: https://apps.apple.com/app/storia/id6475397416
+                - img "AppStore" [ref=f392e586]
+            - listitem [ref=f392e587]:
+              - link [ref=f392e588] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.olx.realestate.app.storia&referrer=utm_source%3Dstoria.ro%26utm_medium%3Dcpc%26utm_campaign%3Dandroid-app-footer
+                - img "Google Play" [ref=f392e589]
+      - generic [ref=f392e591]:
+        - paragraph [ref=f392e592]: © 2026 Storia, Grupul OLX
+        - list [ref=f392e593]:
+          - listitem [ref=f392e594]:
+            - link "Condiții de utilizare" [ref=f392e595] [cursor=pointer]:
+              - /url: https://help.storia.ro/storiahelp/s/topic/0TO09000000kiXAGAY/
+          - listitem [ref=f392e596]:
+            - link "Politica de confidențialitate" [ref=f392e597] [cursor=pointer]:
+              - /url: https://help.storia.ro/storiahelp/s/article/kA009000001vPDgCAM
+          - listitem [ref=f392e598]:
+            - button "Setări cookies" [ref=f392e599] [cursor=pointer]
+  - alert [ref=f392e600]
+  - iframe [ref=f392e603]:
+    - generic [ref=f396e6]:
+      - text: protected by
+      - strong [ref=f396e7]: reCAPTCHA

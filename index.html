@@ -129,6 +129,9 @@
     font:inherit;font-size:13px;background:var(--surface-2);color:var(--ink);resize:vertical;min-height:52px}
   .note-ro{font-size:13px;background:var(--accent-soft);color:var(--ink);border-radius:9px;
     padding:8px 10px;line-height:1.4}
+  .note-ro b{display:block;font-size:11.5px;color:var(--accent);margin-bottom:2px}
+  .chip.fav{background:#fdf3d2;border-color:transparent;color:#9a7400;font-weight:700}
+  :root[data-theme="dark"] .chip.fav, :root:not([data-theme="light"]) .chip.fav{background:#3a3117;color:#e3c66a}
   .banner{background:var(--accent-soft);border:1px solid var(--accent);border-radius:var(--radius);
     padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.5}
   .banner b{color:var(--ink)}
@@ -225,6 +228,7 @@
   <a href="https://github.com/Ilincescu/de-cumparat/edit/main/date.json" target="_blank" rel="noopener">date.json (casă + apartament)</a>
   <a href="https://github.com/Ilincescu/de-cumparat/edit/main/masini.json" target="_blank" rel="noopener">masini.json</a>
   <a href="https://github.com/Ilincescu/de-cumparat/edit/main/biciclete.json" target="_blank" rel="noopener">biciclete.json</a>
+  <a href="https://github.com/Ilincescu/de-cumparat/edit/main/favorite.json" target="_blank" rel="noopener"><b>favorite.json (lista comună)</b></a>
   <br>Prețurile sunt cele cerute de vânzător. Cardurile portocalii au ceva de știut înainte să suni — predare leasing, mașină avariată, mărime greșită.
 </footer>
 </div>
@@ -250,6 +254,8 @@
   var IMO={anunturi:[],buget_total:250000,actualizat:""};
   var CAR={masini:[],buget:11000};
   var BIKE={biciclete:[],buget:4000};
+  var SHARE={persoane:{},anunturi:{}};
+  function sharedOf(u){ return SHARE.anunturi[u]||null; }
   var state={k:"casa",maxp:250000,minmp:50,mingm:100,maxkm:200000,minan:2020,zone:"_oras",
              own:true,nod2:true,nowarn:true,mysize:true,onlyfav:false,hideseen:true,pick:{casa:null,ap:null,masina:null,bike:null}};
   function el(id){return document.getElementById(id)}
@@ -353,7 +359,7 @@
   function visible(){
     return items().filter(function(o){
       if(shared) return !!shared.f[o.u];
-      if(state.onlyfav && !favs[o.u]) return false;
+      if(state.onlyfav && !favs[o.u] && !sharedOf(o.u)) return false;
       if(state.hideseen && seen[o.u]) return false;
       if(o.p>state.maxp) return false;
       // "_oras" = orice cartier din Sibiu; af = anunt din afara orasului
@@ -410,6 +416,12 @@
              :'<span class="chip shared">curte de verificat</span>');
       }
       if(o.warn) flag='<div class="flag">'+o.warn+'</div>';
+      var sh=sharedOf(o.u);
+      var shChips=sh&&sh.fav?sh.fav.map(function(cine){
+        return '<span class="chip fav">★ '+(SHARE.persoane[cine]||cine)+'</span>';}).join(""):"";
+      var shNote=sh&&sh.note?sh.note.map(function(x){
+        return '<div class="note-ro"><b>'+(SHARE.persoane[x.cine]||x.cine)+'</b>'+
+               String(x.text).replace(/</g,"&lt;")+'</div>';}).join(""):"";
       var nota=shared?(shared.n[o.u]||""):(notite[o.u]||"");
       var notaHtml=shared
         ? (nota?'<div class="note-ro">'+nota.replace(/</g,"&lt;")+'</div>':'')
@@ -418,8 +430,8 @@
       return '<article class="card'+(picked?' picked':'')+(seen[o.u]&&!shared?' seen':'')+'">'+
         '<div><div class="price">'+money(o.p)+'</div><div class="zone">'+(o.z||"")+'</div></div>'+
         '<div class="t">'+head+'</div>'+
-        '<div class="chips">'+badge+chips.map(function(c){return '<span class="chip">'+c+'</span>';}).join("")+'</div>'+
-        flag+notaHtml+
+        '<div class="chips">'+shChips+badge+chips.map(function(c){return '<span class="chip">'+c+'</span>';}).join("")+'</div>'+
+        flag+shNote+notaHtml+
         '<div class="acts"><a href="'+o.u+'" target="_blank" rel="noopener">Vezi anunțul</a>'+
         '<button data-i="'+i+'">'+(picked?"Ales ✓":"Alege")+'</button>'+
         '<button class="star'+(favs[o.u]?' on':'')+'" data-fav="'+o.u+'" title="Favorit">'+
@@ -610,8 +622,10 @@
   Promise.all([
     fetch("date.json?v="+Date.now()).then(function(r){return r.json();}),
     fetch("masini.json?v="+Date.now()).then(function(r){return r.json();}),
-    fetch("biciclete.json?v="+Date.now()).then(function(r){return r.json();})
-  ]).then(function(res){ IMO=res[0]; CAR=res[1]; BIKE=res[2]; boot(); })
+    fetch("biciclete.json?v="+Date.now()).then(function(r){return r.json();}),
+    fetch("favorite.json?v="+Date.now()).then(function(r){return r.json();})
+      ["catch"](function(){ return {persoane:{},anunturi:{}}; })
+  ]).then(function(res){ IMO=res[0]; CAR=res[1]; BIKE=res[2]; SHARE=res[3]||SHARE; boot(); })
   ["catch"](function(){
     el("count").textContent="Nu am putut citi datele — deschide pagina de pe GitHub Pages, nu direct de pe disc.";
     setPortals();

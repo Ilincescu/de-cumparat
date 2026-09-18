@@ -1,0 +1,465 @@
+- generic [active] [ref=f430e1]:
+  - generic [ref=f430e3]:
+    - generic [ref=f430e5]:
+      - link "Mergi la pagina principală" [ref=f430e6] [cursor=pointer]:
+        - /url: /
+        - img "Mergi la pagina principală" [ref=f430e7]
+      - generic [ref=f430e8]:
+        - navigation "Navigare principală" [ref=f430e11]:
+          - list [ref=f430e12]:
+            - listitem [ref=f430e13]:
+              - button "De vânzare" [ref=f430e15] [cursor=pointer]
+            - listitem [ref=f430e19]:
+              - button "De închiriat" [ref=f430e21] [cursor=pointer]
+            - listitem [ref=f430e25]:
+              - button "Ansambluri rezidențiale" [ref=f430e27] [cursor=pointer]
+            - listitem [ref=f430e31]:
+              - button "Companii" [ref=f430e33] [cursor=pointer]
+            - listitem [ref=f430e37]:
+              - link "Index Cartiere" [ref=f430e39] [cursor=pointer]:
+                - /url: https://trai.storia.ro
+        - button "Contul meu" [ref=f430e43] [cursor=pointer]
+        - button "Adaugă anunț" [ref=f430e51] [cursor=pointer]
+    - main [ref=f430e53]:
+      - link [ref=f430e56] [cursor=pointer]:
+        - /url: /ro/companii/agentii/smart-imobiliare-ID4113855
+        - paragraph [ref=f430e58]: Smart Imobiliare
+      - generic [ref=f430e63]:
+        - generic [ref=f430e64]:
+          - button "Înapoi" [ref=f430e65] [cursor=pointer]
+          - generic [ref=f430e70]:
+            - button "Distribuie" [ref=f430e71] [cursor=pointer]
+            - button "Adauga la favorite" [ref=f430e77] [cursor=pointer]:
+              - generic [ref=f430e81]: Salvează
+        - generic [ref=f430e83]:
+          - button [ref=f430e84] [cursor=pointer]:
+            - 'img "Casa individuala zona Vasile Milea - Imagine principală: 1/6" [ref=f430e86]'
+          - button [ref=f430e87] [cursor=pointer]:
+            - 'img "Casa individuala zona Vasile Milea - Imagine principală: 2/6" [ref=f430e89]'
+          - button [ref=f430e90] [cursor=pointer]:
+            - 'img "Casa individuala zona Vasile Milea - Imagine principală: 3/6" [ref=f430e92]'
+          - button [ref=f430e93] [cursor=pointer]:
+            - 'img "Casa individuala zona Vasile Milea - Imagine principală: 4/6" [ref=f430e95]'
+          - 'button "Casa individuala zona Vasile Milea - Imagine principală: 5/6 Toate imaginile (6)" [ref=f430e96] [cursor=pointer]':
+            - 'img "Casa individuala zona Vasile Milea - Imagine principală: 5/6" [ref=f430e98]'
+            - generic [ref=f430e99]: Toate imaginile (6)
+          - list [ref=f430e102]:
+            - listitem [ref=f430e103]:
+              - button "Solicită releveul" [ref=f430e104]
+      - generic [ref=f430e109]:
+        - generic [ref=f430e110]:
+          - generic [ref=f430e111]:
+            - heading "Casa individuala zona Vasile Milea" [level=1] [ref=f430e112]
+            - generic [ref=f430e113]:
+              - strong [ref=f430e115]: 125 000 €
+              - generic "Prețul pe metru pătrat" [ref=f430e117]: 2500 €/m²
+            - generic [ref=f430e121]:
+              - text: Publicitate
+              - generic [ref=f430e122]:
+                - button "Informații publicitare" [ref=f430e123]
+                - link "Calculează rata lunară" [ref=f430e133] [cursor=pointer]:
+                  - /url: https://finantare.storia.ro/raiffeisen-bank-credit-ipotecar/?utm_source=casa&utm_medium=Desktop_Adpage_Textlink_under_price&utm_campaign=RFB&utm_content=vanzare&price=125000%20EUR&img=aHR0cHM6Ly9pcmVsYW5kLmFwb2xsby5vbHhjZG4uY29tL3YxL2ZpbGVzL2V5Sm1iaUk2SW10alpESnlPVFV4ZGpsemFESXRSVU5QVTFsVFZFVk5JaXdpZHlJNlczc2labTRpT2lJemR6VTJObmhuYW5CNU1uQXhMVUZTVHlJc0luTWlPaUl4TkNJc0luQWlPaUl4TUN3dE1UQWlMQ0poSWpvaU1DSjlYWDAuVk9UWC1TTlRIZDlSNmdvYWxyckhjOGhhZDZlT1dJVk54RGVCcGd0czZOcy9pbWFnZTtzPTY1NXg0OTE7cT04MA==&sum=621250&title=Casa%20individuala%20zona%20Vasile%20Milea&link=https://www.storia.ro/ro/oferta/casa-individuala-zona-vasile-milea-IDIoGl
+            - link "Vasile Aaron, Sibiu, Sibiu" [ref=f430e146] [cursor=pointer]:
+              - /url: "#map"
+          - generic [ref=f430e150]:
+            - heading "Case de vânzare" [level=2] [ref=f430e151]
+            - generic [ref=f430e152]:
+              - generic [ref=f430e153]:
+                - generic [ref=f430e154]: "Suprafață utilă:"
+                - generic [ref=f430e155]: 50 m²
+              - generic [ref=f430e158]:
+                - generic [ref=f430e159]: "Numărul de camere:"
+                - generic [ref=f430e160]: "1"
+              - generic [ref=f430e163]:
+                - generic [ref=f430e164]: "Tip clădire:"
+                - generic [ref=f430e166]:
+                  - text: singur in curte
+                  - button [ref=f430e168]:
+                    - img "Algoritmul AI Storia a extras aceste informații din descriere și a populat anunțul pentru a te ajuta." [ref=f430e169]
+              - generic [ref=f430e173]:
+                - generic [ref=f430e174]: "Stare:"
+                - generic [ref=f430e176]:
+                  - text: de renovat
+                  - button [ref=f430e178]:
+                    - img "Algoritmul AI Storia a extras aceste informații din descriere și a populat anunțul pentru a te ajuta." [ref=f430e179]
+              - generic [ref=f430e183]:
+                - generic [ref=f430e184]: "Tip proprietate:"
+                - generic [ref=f430e185]: locuință utilizată
+              - generic [ref=f430e188]:
+                - generic [ref=f430e189]: "Liber de la:"
+                - generic [ref=f430e190]: fără informații
+              - generic [ref=f430e193]:
+                - generic [ref=f430e194]: "Tip vânzător:"
+                - generic [ref=f430e195]: agenție
+              - generic [ref=f430e198]:
+                - generic [ref=f430e199]: "Chirie:"
+                - generic [ref=f430e200]: fără informații
+              - generic [ref=f430e203]:
+                - generic [ref=f430e204]: "Tip încălzire:"
+                - generic [ref=f430e205]: fără informații
+              - generic [ref=f430e208]:
+                - generic [ref=f430e209]: "Informații suplimentare:"
+                - generic [ref=f430e210]: fără informații
+            - generic [ref=f430e211]:
+              - button [ref=f430e212] [cursor=pointer]:
+                - paragraph [ref=f430e214]: Detaliile clădirii
+              - button [ref=f430e218] [cursor=pointer]:
+                - paragraph [ref=f430e220]: Parcelă și împrejurimi
+            - generic [ref=f430e225]:
+              - img "Algoritmul AI Storia a extras aceste informații din descriere și a populat anunțul pentru a te ajuta." [ref=f430e227]
+              - generic [ref=f430e229]:
+                - paragraph [ref=f430e230]: Am completat câteva detalii cu ajutorul optimizărilor automate (beta). Ți-a fost util acest lucru?
+                - paragraph [ref=f430e231]: Pe baza descrierii din anunț, algoritmul AI Storia a extras și a populat acest anunț cu mai multe detalii. Datele completate cu ajutorul optimizărilor automate sunt marcate cu pictograma în formă de steluță mov.
+              - generic [ref=f430e232]:
+                - button "Nu" [ref=f430e233] [cursor=pointer]
+                - button "Da" [ref=f430e238] [cursor=pointer]
+          - generic [ref=f430e244]:
+            - text: Publicitate
+            - generic [ref=f430e245]:
+              - button "Informații publicitare" [ref=f430e246]
+              - generic [ref=f430e254]:
+                - generic [ref=f430e255]:
+                  - img "Kaufland_logo" [ref=f430e256]
+                  - generic [ref=f430e257] [cursor=pointer]:
+                    - generic [ref=f430e258]: Te muți în zonă? Vecinii buni te așteaptă cu super oferte
+                    - generic [ref=f430e259]: Hai în vizită
+                - img "Advertisement" [ref=f430e260]
+          - generic [ref=f430e261]:
+            - heading "Descriere" [level=2] [ref=f430e262]
+            - generic [ref=f430e263]: Smart Imobiliare propune spre vanzare o casa individuala,singur in curte in zona Vasile Milea.Casa este construita pe un singur nivel si are o amprenta de 60 mp compusi din 2 camere,baie si bucatarie.Proprietatea dispune de o curte proprie de 53 mp si de parcare publica in fata imobilului.Chiar daca necesita renovare la interior, amplasarea o face sa fie foarte interesanta atat pentru locuit dar si pentru un spatiu comercial sau de birouri.Precizam ca acoperisul este nou,complet refacut(pregatit pentru o eventuala mansardare),iar exteriorul casei a fost renovat.Pentru mai multe detalii va rugam sa contactati agentul si sa specificati ID ul proprietatii S27147
+            - button "Mai mult" [ref=f430e264]
+            - generic [ref=f430e271]:
+              - generic [ref=f430e272]:
+                - paragraph [ref=f430e274]: "ID: 10581313"
+                - button "Raportează" [ref=f430e275]
+              - text: "ID intern: 69BE7732"
+          - generic [ref=f430e280]:
+            - generic [ref=f430e285]:
+              - paragraph [ref=f430e286]: Vrei să primești notificări cu anunțuri similare?
+              - paragraph [ref=f430e287]: Activează alertele și nu pierde nicio ofertă
+            - button "Vreau notificări despre anunțuri similare" [ref=f430e288]
+          - generic [ref=f430e290]:
+            - heading "Istoric și statistici" [level=2] [ref=f430e291]
+            - paragraph [ref=f430e292]: "Ultima actualizare: 2.09.2026"
+            - table [ref=f430e293]:
+              - rowgroup [ref=f430e294]:
+                - row [ref=f430e295]:
+                  - columnheader [ref=f430e296]:
+                    - paragraph [ref=f430e298]: Dată
+                  - columnheader [ref=f430e299]:
+                    - paragraph [ref=f430e301]: Modificare
+                  - columnheader [ref=f430e302]:
+                    - paragraph [ref=f430e304]: Preț
+              - rowgroup [ref=f430e305]:
+                - row [ref=f430e306]:
+                  - cell "XXXXXXXX" [ref=f430e307]
+                  - cell "XXXXXXXX" [ref=f430e311]
+                  - cell "XXXXXXXX" [ref=f430e315]
+                - row [ref=f430e319]:
+                  - cell "XXXXXXXX" [ref=f430e320]
+                  - cell "XXXXXXXX" [ref=f430e324]
+                  - cell "XXXXXXXX" [ref=f430e328]
+            - generic [ref=f430e332]:
+              - generic [ref=f430e337]:
+                - generic [ref=f430e338]: XX
+                - text: vizualizări
+              - generic [ref=f430e343]:
+                - generic [ref=f430e344]: XX
+                - text: salvări
+            - paragraph [ref=f430e345]: Conectează-te sau creează un cont pentru a accesa istoricul complet al anunțurilor, inclusiv modificările de preț
+            - button "Autentifică-te și verifică detaliile" [ref=f430e347]
+          - generic [ref=f430e349]:
+            - heading "Harta" [level=2] [ref=f430e350]
+            - generic [ref=f430e351]: ‌
+          - generic [ref=f430e355]:
+            - text: Publicitate
+            - generic [ref=f430e356]:
+              - button "Informații publicitare" [ref=f430e357]
+              - generic [ref=f430e366]:
+                - generic [ref=f430e367]:
+                  - heading "Calculator de împrumut" [level=4] [ref=f430e372]
+                  - generic [ref=f430e373]: Selectează condițiile dorite și descoperă oferta ideală pentru tine.
+                - generic [ref=f430e374]:
+                  - generic [ref=f430e375]:
+                    - generic:
+                      - paragraph [ref=f430e376]: Valoarea proprietatii
+                      - paragraph [ref=f430e377]: Seteaza suma de care ai nevoie
+                      - spinbutton "Valoarea proprietatii" [ref=f430e378]: "125000"
+                      - paragraph [ref=f430e379]: €
+                  - generic [ref=f430e380]:
+                    - generic:
+                      - paragraph [ref=f430e381]: Valoare avans
+                      - paragraph [ref=f430e382]: (Minim 15%)
+                      - spinbutton "Valoare avans" [ref=f430e383]: "25"
+                      - paragraph [ref=f430e384]: "%"
+                      - spinbutton "Valoare avans" [ref=f430e385]: "31250"
+                      - paragraph [ref=f430e386]: €
+                    - slider [ref=f430e387] [cursor=pointer]: "25"
+                  - generic [ref=f430e388]:
+                    - generic:
+                      - paragraph [ref=f430e389]: Pe ce perioadă vrei creditul? (luni)
+                      - paragraph
+                      - spinbutton "Perioadă de împrumut" [ref=f430e390]: "20"
+                      - paragraph [ref=f430e391]: Luni
+                    - slider "Perioadă de împrumut" [ref=f430e392] [cursor=pointer]: "20"
+                  - button "Cere o ofertă" [ref=f430e394] [cursor=pointer]
+          - generic [ref=f430e395]:
+            - heading "Despre agenție" [level=4] [ref=f430e396]
+            - generic [ref=f430e398]:
+              - strong [ref=f430e400]: Smart Imobiliare
+              - generic "Tipul agenției" [ref=f430e402]: Agenție imobiliară
+              - generic [ref=f430e403]:
+                - button "Afișează numărul" [ref=f430e404] [cursor=pointer]
+                - button "Afișează numărul" [ref=f430e409] [cursor=pointer]
+              - generic "Adresa agenției" [ref=f430e414]: Sibiu, Sibiu
+            - link "Verifică portofoliul" [ref=f430e416] [cursor=pointer]:
+              - /url: /ro/companii/agentii/smart-imobiliare-ID4113855
+        - generic [ref=f430e421]:
+          - generic [ref=f430e427]:
+            - paragraph [ref=f430e428]: Ciprian Lepadatu
+            - link "Smart Imobiliare" [ref=f430e429] [cursor=pointer]:
+              - /url: /ro/companii/agentii/smart-imobiliare-ID4113855
+            - generic [ref=f430e430]:
+              - button "Afișează numărul" [ref=f430e431] [cursor=pointer]
+              - button "Afișează numărul" [ref=f430e436] [cursor=pointer]
+          - generic [ref=f430e441]:
+            - generic [ref=f430e442]: Nume*
+            - textbox "Nume*" [ref=f430e446]:
+              - /placeholder: Nume
+            - generic [ref=f430e447]: E-mail*
+            - textbox "E-mail*" [ref=f430e451]:
+              - /placeholder: Email
+            - generic [ref=f430e452]: Număr de telefon*
+            - generic [ref=f430e453]:
+              - textbox "+" [ref=f430e457]: "+40"
+              - textbox "Număr de telefon*" [ref=f430e461]:
+                - /placeholder: Număr de telefon
+            - generic [ref=f430e464]: Mesajul tău*
+            - textbox "Mesajul tău*" [ref=f430e468]:
+              - /placeholder: Scrie mesajul tău…
+              - text: Îmi puteți furniza detalii suplimentare despre această proprietate?
+            - button "Autorul anunțului va primi datele tale pentru a permite comunicarea. Administratorul acestor date este S.C. OLX Online Services S.R.L. (Storia) mai mult" [ref=f430e470] [cursor=pointer]:
+              - generic [ref=f430e471]: Autorul anunțului va primi datele tale pentru a permite comunicarea.
+              - text: Administratorul acestor date este S.C. OLX Online Services S.R.L. (Storia) mai mult
+            - button "Trimite mesajul" [ref=f430e472]
+      - generic [ref=f430e475]:
+        - generic [ref=f430e476]:
+          - generic [ref=f430e477]:
+            - heading "Anunțuri similare" [level=2] [ref=f430e478]
+            - button "Anunțuri similare" [ref=f430e479]
+          - generic [ref=f430e483]:
+            - link [ref=f430e485] [cursor=pointer]:
+              - /url: /ro/oferta/casa-renovata-2-camere-bucatarie-separata-60-mp-piata-cluj-sibiu-IDHzRa
+              - img "Casa renovata 2 camere, bucatarie separata, 60 mp - Piata Cluj Sibiu" [ref=f430e487]
+              - generic [ref=f430e488]:
+                - heading "108.000 EUR" [level=2] [ref=f430e490]
+                - paragraph [ref=f430e491]: Terezian, Sibiu, Sibiu
+                - generic [ref=f430e492]:
+                  - paragraph [ref=f430e494]: 2 camere
+                  - paragraph [ref=f430e496]: 60 m²
+                  - paragraph [ref=f430e498]: 1 800 €/m²
+            - link [ref=f430e500] [cursor=pointer]:
+              - /url: /ro/oferta/casa-individuala-de-vanzare-3-camere-teren-300-mp-zona-turnisor-IDHAdu
+              - img "Casa individuala de vanzare 3 camere teren 300 mp zona Turnisor" [ref=f430e502]
+              - generic [ref=f430e503]:
+                - heading "108.000 EUR" [level=2] [ref=f430e505]
+                - paragraph [ref=f430e506]: Strada Stavilarului, Turnisor, Sibiu, Sibiu
+                - generic [ref=f430e507]:
+                  - paragraph [ref=f430e509]: 3 camere
+                  - paragraph [ref=f430e511]: 64 m²
+                  - paragraph [ref=f430e513]: 1 687,50 €/m²
+            - link [ref=f430e515] [cursor=pointer]:
+              - /url: /ro/oferta/comision-0-casa-individuala-cu-curte-si-gradina-260-mp-zona-tiglari-IDIkXM
+              - img "Comision 0% Casa Individuala cu Curte si Gradina 260 mp - zona Tiglari" [ref=f430e517]
+              - generic [ref=f430e518]:
+                - heading "125.000 EUR" [level=2] [ref=f430e520]
+                - paragraph [ref=f430e521]: Tiglari, Sibiu, Sibiu
+                - generic [ref=f430e522]:
+                  - paragraph [ref=f430e524]: 3 camere
+                  - paragraph [ref=f430e526]: 65 m²
+                  - paragraph [ref=f430e528]: 1 923,08 €/m²
+            - link [ref=f430e530] [cursor=pointer]:
+              - /url: /ro/oferta/casa-3-camere-piata-cibin-sibiu-IDwU5E
+              - img "Casa 3 camere Piata Cibin Sibiu" [ref=f430e532]
+              - generic [ref=f430e533]:
+                - heading "110.000 EUR" [level=2] [ref=f430e535]
+                - paragraph [ref=f430e536]: Centrul Civic, Sibiu, Sibiu
+                - generic [ref=f430e537]:
+                  - paragraph [ref=f430e539]: 3 camere
+                  - paragraph [ref=f430e541]: 85 m²
+                  - paragraph [ref=f430e543]: 1 294,12 €/m²
+        - region [ref=f430e544]:
+          - heading "Mai multe anunțuri de la Smart Imobiliare" [level=2] [ref=f430e546]
+          - generic [ref=f430e547]:
+            - link [ref=f430e549] [cursor=pointer]:
+              - /url: /ro/oferta/inchiriez-apartament-IDIzOR
+              - img "Inchiriez apartament" [ref=f430e551]
+              - generic [ref=f430e552]:
+                - generic [ref=f430e553]:
+                  - heading "560 EUR" [level=2] [ref=f430e554]
+                  - paragraph [ref=f430e555]: /lună
+                - paragraph [ref=f430e556]: Centrul Nou, Brasov, Brasov
+                - generic [ref=f430e557]:
+                  - paragraph [ref=f430e559]: 2 camere
+                  - paragraph [ref=f430e561]: 70 m²
+            - link [ref=f430e563] [cursor=pointer]:
+              - /url: /ro/oferta/apartament-3-camere-IDIzMz
+              - img "Apartament 3 camere" [ref=f430e565]
+              - generic [ref=f430e566]:
+                - heading "189.000 EUR" [level=2] [ref=f430e568]
+                - paragraph [ref=f430e569]: Tractorul, Brasov, Brasov
+                - generic [ref=f430e570]:
+                  - paragraph [ref=f430e572]: 3 camere
+                  - paragraph [ref=f430e574]: 70 m²
+                  - paragraph [ref=f430e576]: 2 700 €/m²
+            - link [ref=f430e578] [cursor=pointer]:
+              - /url: /ro/oferta/spatiu-birouri-zona-ultracentrala-IDIztm
+              - img "Spatiu birouri zona Ultracentrala" [ref=f430e580]
+              - generic [ref=f430e581]:
+                - generic [ref=f430e582]:
+                  - heading "380 EUR" [level=2] [ref=f430e583]
+                  - paragraph [ref=f430e584]: /lună
+                - paragraph [ref=f430e585]: Centrul Istoric, Sibiu, Sibiu
+                - generic [ref=f430e586]:
+                  - paragraph [ref=f430e588]: 80 m²
+                  - paragraph [ref=f430e590]: 4,75 €/m²
+            - link [ref=f430e592] [cursor=pointer]:
+              - /url: /ro/oferta/nchiriere-garsonier-modern-vivamus-42-mp-mobilat-i-utilat-IDIzq6
+              - img "Închiriere garsonieră modernă - Vivamus - 42 mp - Mobilată și utilată" [ref=f430e594]
+              - generic [ref=f430e595]:
+                - generic [ref=f430e596]:
+                  - heading "2.000 RON" [level=2] [ref=f430e597]
+                  - paragraph [ref=f430e598]: /lună
+                - paragraph [ref=f430e599]: Centrul Nou, Brasov, Brasov
+                - generic [ref=f430e600]:
+                  - paragraph [ref=f430e602]: 1 cameră
+                  - paragraph [ref=f430e604]: 42 m²
+        - generic [ref=f430e606]:
+          - link "Case de vânzare" [ref=f430e607] [cursor=pointer]:
+            - /url: /ro/rezultate/vanzare/casa/toata-romania
+          - link "Sibiu" [ref=f430e611] [cursor=pointer]:
+            - /url: /ro/rezultate/vanzare/casa/sibiu
+          - link "Sibiu" [ref=f430e615] [cursor=pointer]:
+            - /url: /ro/rezultate/vanzare/casa/sibiu/sibiu
+          - link "Vasile Aaron" [ref=f430e619] [cursor=pointer]:
+            - /url: /ro/rezultate/vanzare/casa/sibiu/sibiu/vasile-aaron
+          - generic [ref=f430e623]: Casa individuala zona Vasile Milea
+    - contentinfo [ref=f430e624]:
+      - generic [ref=f430e628]:
+        - img "Storia" [ref=f430e629]
+        - list [ref=f430e630]:
+          - listitem [ref=f430e631]:
+            - paragraph [ref=f430e632]: DESPRE STORIA
+            - list [ref=f430e633]:
+              - listitem [ref=f430e634]:
+                - link "Despre noi" [ref=f430e635] [cursor=pointer]:
+                  - /url: /ro/info
+              - listitem [ref=f430e636]:
+                - link "Prețuri" [ref=f430e637] [cursor=pointer]:
+                  - /url: /ro/preturi
+              - listitem [ref=f430e638]:
+                - link "Cariere" [ref=f430e639] [cursor=pointer]:
+                  - /url: https://www.olxgroup.com/
+              - listitem [ref=f430e640]:
+                - link "Informații juridice" [ref=f430e641] [cursor=pointer]:
+                  - /url: https://help.storia.ro/storiahelp/s/topic/0TO090000009twJGAQ/informa%C8%9Bii-juridice
+          - listitem [ref=f430e642]:
+            - paragraph [ref=f430e643]: Pentru experții în imobiliare
+            - list [ref=f430e644]:
+              - listitem [ref=f430e645]:
+                - link "Publicitate" [ref=f430e646] [cursor=pointer]:
+                  - /url: https://publicitate.olx.ro/
+              - listitem [ref=f430e647]:
+                - link "Ghid vânzare" [ref=f430e648] [cursor=pointer]:
+                  - /url: "/blog/ghid-vanzare "
+          - listitem [ref=f430e649]:
+            - paragraph [ref=f430e650]: Instrumente utile
+            - list [ref=f430e651]:
+              - listitem [ref=f430e652]:
+                - link "Index cartiere" [ref=f430e653] [cursor=pointer]:
+                  - /url: https://trai.storia.ro/
+              - listitem [ref=f430e654]:
+                - link "Articole despre imobiliare" [ref=f430e655] [cursor=pointer]:
+                  - /url: /blog/
+          - listitem [ref=f430e656]:
+            - paragraph [ref=f430e657]: PLATFORME
+            - list [ref=f430e658]:
+              - listitem [ref=f430e659]:
+                - link "OLX.ro" [ref=f430e660] [cursor=pointer]:
+                  - /url: https://www.olx.ro/
+              - listitem [ref=f430e661]:
+                - link "Autovit.ro" [ref=f430e662] [cursor=pointer]:
+                  - /url: https://www.autovit.ro/
+              - listitem [ref=f430e663]:
+                - link "Otodom.pl" [ref=f430e664] [cursor=pointer]:
+                  - /url: https://otodom.pl/
+              - listitem [ref=f430e665]:
+                - link "Imovirtual.com" [ref=f430e666] [cursor=pointer]:
+                  - /url: https://imovirtual.com/
+          - listitem [ref=f430e667]:
+            - paragraph [ref=f430e668]: Hartă site
+            - list [ref=f430e669]:
+              - listitem [ref=f430e670]:
+                - link "Hartă site" [ref=f430e671] [cursor=pointer]:
+                  - /url: /ro/harta-site
+              - listitem [ref=f430e672]:
+                - link "Localități" [ref=f430e673] [cursor=pointer]:
+                  - /url: /ro/harta-site/regiuni/apartament
+          - listitem [ref=f430e674]:
+            - paragraph [ref=f430e675]: Contact
+            - list [ref=f430e676]:
+              - listitem [ref=f430e677]:
+                - link "Asistență" [ref=f430e678] [cursor=pointer]:
+                  - /url: https://help.storia.ro/storiahelp/s/contactsupport
+              - listitem [ref=f430e679]:
+                - link "Ajutor" [ref=f430e680] [cursor=pointer]:
+                  - /url: https://help.storia.ro/
+              - listitem [ref=f430e681]:
+                - link "DSA" [ref=f430e682] [cursor=pointer]:
+                  - /url: https://help.storia.ro/storiahelp/s/topic/0TO09000000kiXCGAY/digital-services-act-dsa
+      - generic [ref=f430e684]:
+        - generic [ref=f430e685]:
+          - paragraph [ref=f430e686]: "URMĂREȘTE-NE PE:"
+          - list [ref=f430e687]:
+            - listitem [ref=f430e688]:
+              - link "Facebook" [ref=f430e689] [cursor=pointer]:
+                - /url: https://www.facebook.com/storia.ro
+            - listitem [ref=f430e690]:
+              - link "Youtube" [ref=f430e691] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/Storiaro
+            - listitem [ref=f430e692]:
+              - link "Instagram" [ref=f430e693] [cursor=pointer]:
+                - /url: https://www.instagram.com/storia_ro/
+            - listitem [ref=f430e694]:
+              - link "Tiktok" [ref=f430e695] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@storia_ro
+            - listitem [ref=f430e696]:
+              - link "Linkedin" [ref=f430e697] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/79635350
+        - generic [ref=f430e698]:
+          - paragraph [ref=f430e699]: "Aplicații mobile:"
+          - list [ref=f430e700]:
+            - listitem [ref=f430e701]:
+              - link [ref=f430e702] [cursor=pointer]:
+                - /url: https://apps.apple.com/app/storia/id6475397416
+                - img "AppStore" [ref=f430e703]
+            - listitem [ref=f430e704]:
+              - link [ref=f430e705] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.olx.realestate.app.storia&referrer=utm_source%3Dstoria.ro%26utm_medium%3Dcpc%26utm_campaign%3Dandroid-app-footer
+                - img "Google Play" [ref=f430e706]
+      - generic [ref=f430e708]:
+        - paragraph [ref=f430e709]: © 2026 Storia, Grupul OLX
+        - list [ref=f430e710]:
+          - listitem [ref=f430e711]:
+            - link "Condiții de utilizare" [ref=f430e712] [cursor=pointer]:
+              - /url: https://help.storia.ro/storiahelp/s/topic/0TO09000000kiXAGAY/
+          - listitem [ref=f430e713]:
+            - link "Politica de confidențialitate" [ref=f430e714] [cursor=pointer]:
+              - /url: https://help.storia.ro/storiahelp/s/article/kA009000001vPDgCAM
+          - listitem [ref=f430e715]:
+            - button "Setări cookies" [ref=f430e716] [cursor=pointer]
+  - alert [ref=f430e717]
+  - iframe [ref=f430e720]:
+    - generic [ref=f434e6]:
+      - text: protected by
+      - strong [ref=f434e7]: reCAPTCHA

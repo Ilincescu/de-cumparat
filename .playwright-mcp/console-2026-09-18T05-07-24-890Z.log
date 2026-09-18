@@ -1,0 +1,7 @@
+[     528ms] [INFO] Sentry: {replaysSessionSampleRate: 5e-9, replaysOnErrorSampleRate: 0.1, sampleRate: 0.1} @ https://www.storia.ro/ro/oferta/apartament-la-casa-in-orasul-de-jos-in-sibiu-vanzare-i-IDIqwf:5
+[     853ms] [INFO] [AdvertisingConsent] Cookie consent first view closed {type: not_defined, data: Object} @ https://www.storia.ro/ro/oferta/apartament-la-casa-in-orasul-de-jos-in-sibiu-vanzare-i-IDIqwf:5
+[     976ms] [INFO] [TrackingContext] Ninja script loaded {type: not_defined, data: Object} @ https://www.storia.ro/ro/oferta/apartament-la-casa-in-orasul-de-jos-in-sibiu-vanzare-i-IDIqwf:5
+[    1038ms] [LOG] [OneTrust] loaded @ https://www.storia.ro/ro/oferta/apartament-la-casa-in-orasul-de-jos-in-sibiu-vanzare-i-IDIqwf:5
+[    1636ms] [WARNING] [Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications. @ https://www.storia.ro/ro/oferta/apartament-la-casa-in-orasul-de-jos-in-sibiu-vanzare-i-IDIqwf:5
+[    2024ms] [WARNING] [GPT] Slot.updateTargetingFromMap is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://www.storia.ro/ro/oferta/apartament-la-casa-in-orasul-de-jos-in-sibiu-vanzare-i-IDIqwf:5

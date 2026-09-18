@@ -1,0 +1,6 @@
+[     348ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu/sibiu/sibiu?priceMax=250000&by=LATEST&direction=DESC:0
+[     524ms] [INFO] Sentry: {replaysSessionSampleRate: 5e-9, replaysOnErrorSampleRate: 0.1, sampleRate: 0.1} @ https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu/sibiu/sibiu?priceMax=250000&by=LATEST&direction=DESC:5
+[     838ms] [INFO] [TrackingContext] Ninja script loaded {type: not_defined, data: Object} @ https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu/sibiu/sibiu?priceMax=250000&by=LATEST&direction=DESC:5
+[    1042ms] [LOG] [OneTrust] loaded @ https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu/sibiu/sibiu?priceMax=250000&by=LATEST&direction=DESC:5
+[    2968ms] [LOG] [OneTrust] loaded @ https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu/sibiu/sibiu?priceMax=250000&by=LATEST&direction=DESC:5
+[    2976ms] [INFO] [AdvertisingConsent] Cookie consent first view closed {type: not_defined, data: Object} @ https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu/sibiu/sibiu?priceMax=250000&by=LATEST&direction=DESC:5

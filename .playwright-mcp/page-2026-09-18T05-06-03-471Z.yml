@@ -1,0 +1,369 @@
+- generic [active] [ref=f467e1]:
+  - generic [ref=f467e3]:
+    - generic [ref=f467e5]:
+      - link "Mergi la pagina principală" [ref=f467e6] [cursor=pointer]:
+        - /url: /
+        - img "Mergi la pagina principală" [ref=f467e7]
+      - generic [ref=f467e8]:
+        - navigation "Navigare principală" [ref=f467e11]:
+          - list [ref=f467e12]:
+            - listitem [ref=f467e13]:
+              - button "De vânzare" [ref=f467e15] [cursor=pointer]
+            - listitem [ref=f467e19]:
+              - button "De închiriat" [ref=f467e21] [cursor=pointer]
+            - listitem [ref=f467e25]:
+              - button "Ansambluri rezidențiale" [ref=f467e27] [cursor=pointer]
+            - listitem [ref=f467e31]:
+              - button "Companii" [ref=f467e33] [cursor=pointer]
+            - listitem [ref=f467e37]:
+              - link "Index Cartiere" [ref=f467e39] [cursor=pointer]:
+                - /url: https://trai.storia.ro
+        - button "Contul meu" [ref=f467e43] [cursor=pointer]
+        - button "Adaugă anunț" [ref=f467e51] [cursor=pointer]
+    - main [ref=f467e53]:
+      - link [ref=f467e56] [cursor=pointer]:
+        - /url: /ro/companii/agentii/oglan-imobiliare-ID4008741
+        - paragraph [ref=f467e58]: Oglan Imobiliare
+      - generic [ref=f467e63]:
+        - generic [ref=f467e64]:
+          - button "Înapoi" [ref=f467e65] [cursor=pointer]
+          - generic [ref=f467e70]:
+            - button "Distribuie" [ref=f467e71] [cursor=pointer]
+            - button "Adauga la favorite" [ref=f467e77] [cursor=pointer]:
+              - generic [ref=f467e81]: Salvează
+        - generic [ref=f467e83]:
+          - button [ref=f467e84] [cursor=pointer]:
+            - 'img "Casă tip triplex – Viile Sibiului - Imagine principală: 1/20" [ref=f467e86]'
+          - button [ref=f467e87] [cursor=pointer]:
+            - 'img "Casă tip triplex – Viile Sibiului - Imagine principală: 2/20" [ref=f467e89]'
+          - button [ref=f467e90] [cursor=pointer]:
+            - 'img "Casă tip triplex – Viile Sibiului - Imagine principală: 3/20" [ref=f467e92]'
+          - button [ref=f467e93] [cursor=pointer]:
+            - 'img "Casă tip triplex – Viile Sibiului - Imagine principală: 4/20" [ref=f467e95]'
+          - 'button "Casă tip triplex – Viile Sibiului - Imagine principală: 5/20 Toate imaginile (20)" [ref=f467e96] [cursor=pointer]':
+            - 'img "Casă tip triplex – Viile Sibiului - Imagine principală: 5/20" [ref=f467e98]'
+            - generic [ref=f467e99]: Toate imaginile (20)
+          - list [ref=f467e102]:
+            - listitem [ref=f467e103]:
+              - button "Solicită releveul" [ref=f467e104]
+      - generic [ref=f467e109]:
+        - generic [ref=f467e110]:
+          - generic [ref=f467e111]:
+            - heading "Casă tip triplex – Viile Sibiului" [level=1] [ref=f467e112]
+            - generic [ref=f467e113]:
+              - strong [ref=f467e115]: 130 000 €
+              - generic "Prețul pe metru pătrat" [ref=f467e117]: 2166,67 €/m²
+            - generic [ref=f467e121]:
+              - text: Publicitate
+              - generic [ref=f467e122]:
+                - button "Informații publicitare" [ref=f467e123]
+                - link "Calculează rata lunară" [ref=f467e133] [cursor=pointer]:
+                  - /url: https://finantare.storia.ro/raiffeisen-bank-credit-ipotecar/?utm_source=casa&utm_medium=Desktop_Adpage_Textlink_under_price&utm_campaign=RFB&utm_content=vanzare&price=130000%20EUR&img=aHR0cHM6Ly9pcmVsYW5kLmFwb2xsby5vbHhjZG4uY29tL3YxL2ZpbGVzL2V5Sm1iaUk2SW5Cbk1ITm9kbTA1ZERaa2NUSXRSVU5QVTFsVFZFVk5JaXdpZHlJNlczc2labTRpT2lJemR6VTJObmhuYW5CNU1uQXhMVUZTVHlJc0luTWlPaUl4TkNJc0luQWlPaUl4TUN3dE1UQWlMQ0poSWpvaU1DSjlYWDAuVm1GUkp3RTNCQlhIYzM1SkVsWVJHOUpQYUdta0dlVHN2V09sNHRHSzA4SS9pbWFnZTtzPTY1NXg0OTE7cT04MA==&sum=646100&title=Cas%C3%84%C2%83%20tip%20triplex%20%20%C3%A2%C2%80%C2%93%20Viile%20Sibiului&link=https://www.storia.ro/ro/oferta/cas-tip-triplex-viile-sibiului-IDIoYl
+            - link "Sibiu, Sibiu" [ref=f467e146] [cursor=pointer]:
+              - /url: "#map"
+          - generic [ref=f467e150]:
+            - heading "Case de vânzare" [level=2] [ref=f467e151]
+            - generic [ref=f467e152]:
+              - generic [ref=f467e153]:
+                - generic [ref=f467e154]: "Suprafață utilă:"
+                - generic [ref=f467e155]: 60 m²
+              - generic [ref=f467e158]:
+                - generic [ref=f467e159]: "Numărul de camere:"
+                - generic [ref=f467e160]: "3"
+              - generic [ref=f467e163]:
+                - generic [ref=f467e164]: "Tip clădire:"
+                - generic [ref=f467e165]: singur in curte
+              - generic [ref=f467e168]:
+                - generic [ref=f467e169]: "Stare:"
+                - generic [ref=f467e170]: gata de utilizare
+              - generic [ref=f467e173]:
+                - generic [ref=f467e174]: "Tip proprietate:"
+                - generic [ref=f467e175]: locuință utilizată
+              - generic [ref=f467e178]:
+                - generic [ref=f467e179]: "Liber de la:"
+                - generic [ref=f467e180]: 2026-09-02
+              - generic [ref=f467e183]:
+                - generic [ref=f467e184]: "Tip vânzător:"
+                - generic [ref=f467e185]: agenție
+              - generic [ref=f467e188]:
+                - generic [ref=f467e189]: "Chirie:"
+                - generic [ref=f467e190]: fără informații
+              - generic [ref=f467e193]:
+                - generic [ref=f467e194]: "Tip încălzire:"
+                - generic [ref=f467e195]: fără informații
+              - generic [ref=f467e198]:
+                - generic [ref=f467e199]: "Informații suplimentare:"
+                - generic [ref=f467e200]: fără informații
+            - generic [ref=f467e201]:
+              - button [ref=f467e202] [cursor=pointer]:
+                - paragraph [ref=f467e204]: Detaliile clădirii
+              - button [ref=f467e208] [cursor=pointer]:
+                - paragraph [ref=f467e210]: Parcelă și împrejurimi
+            - generic [ref=f467e215]:
+              - img "Algoritmul AI Storia a extras aceste informații din descriere și a populat anunțul pentru a te ajuta." [ref=f467e217]
+              - generic [ref=f467e219]:
+                - paragraph [ref=f467e220]: Am completat câteva detalii cu ajutorul optimizărilor automate (beta). Ți-a fost util acest lucru?
+                - paragraph [ref=f467e221]: Pe baza descrierii din anunț, algoritmul AI Storia a extras și a populat acest anunț cu mai multe detalii. Datele completate cu ajutorul optimizărilor automate sunt marcate cu pictograma în formă de steluță mov.
+              - generic [ref=f467e222]:
+                - button "Nu" [ref=f467e223] [cursor=pointer]
+                - button "Da" [ref=f467e228] [cursor=pointer]
+          - generic [ref=f467e234]:
+            - text: Publicitate
+            - generic [ref=f467e235]:
+              - button "Informații publicitare" [ref=f467e236]
+              - generic [ref=f467e244]:
+                - generic [ref=f467e245]:
+                  - img "Kaufland_logo" [ref=f467e246]
+                  - generic [ref=f467e247] [cursor=pointer]:
+                    - generic [ref=f467e248]: Te muți în zonă? Vecinii buni te așteaptă cu super oferte
+                    - generic [ref=f467e249]: Hai în vizită
+                - img "Advertisement" [ref=f467e250]
+          - generic [ref=f467e251]:
+            - heading "Descriere" [level=2] [ref=f467e252]
+            - generic [ref=f467e253]:
+              - generic [ref=f467e254]: "Vă propunem spre vânzare , o casă tip triplex situată în zona Viile Sibiului. Casa are o suprafață utilă de 60 mp, este dispusă pe două niveluri și beneficiază de o compartimentare practică și bine organizată. La parter se află livingul , bucătăria și o baie , iar la etaj avem 2 camere si o baie. Proprietatea se vinde partial mobilată și utilată. Casa reprezintă o opțiune pentru cei care caută o locuință compactă, funcțională și pregătită pentru mutare, cu acces facil către Sibiu. Pret: 130.000 euro Pentru mai multe informații sau pentru programarea unei vizionări:"
+              - button "Contactează" [ref=f467e255] [cursor=pointer]
+            - button "Mai mult" [ref=f467e256]
+            - generic [ref=f467e263]:
+              - generic [ref=f467e264]:
+                - paragraph [ref=f467e266]: "ID: 10582429"
+                - button "Raportează" [ref=f467e267]
+              - text: "ID intern: CP3353338"
+          - generic [ref=f467e272]:
+            - generic [ref=f467e277]:
+              - paragraph [ref=f467e278]: Vrei să primești notificări cu anunțuri similare?
+              - paragraph [ref=f467e279]: Activează alertele și nu pierde nicio ofertă
+            - button "Vreau notificări despre anunțuri similare" [ref=f467e280]
+          - generic [ref=f467e282]:
+            - heading "Istoric și statistici" [level=2] [ref=f467e283]
+            - paragraph [ref=f467e284]: "Ultima actualizare: 2.09.2026"
+            - table [ref=f467e285]:
+              - rowgroup [ref=f467e286]:
+                - row [ref=f467e287]:
+                  - columnheader [ref=f467e288]:
+                    - paragraph [ref=f467e290]: Dată
+                  - columnheader [ref=f467e291]:
+                    - paragraph [ref=f467e293]: Modificare
+                  - columnheader [ref=f467e294]:
+                    - paragraph [ref=f467e296]: Preț
+              - rowgroup [ref=f467e297]:
+                - row [ref=f467e298]:
+                  - cell "XXXXXXXX" [ref=f467e299]
+                  - cell "XXXXXXXX" [ref=f467e303]
+                  - cell "XXXXXXXX" [ref=f467e307]
+                - row [ref=f467e311]:
+                  - cell "XXXXXXXX" [ref=f467e312]
+                  - cell "XXXXXXXX" [ref=f467e316]
+                  - cell "XXXXXXXX" [ref=f467e320]
+            - generic [ref=f467e324]:
+              - generic [ref=f467e329]:
+                - generic [ref=f467e330]: XX
+                - text: vizualizări
+              - generic [ref=f467e335]:
+                - generic [ref=f467e336]: XX
+                - text: salvări
+            - paragraph [ref=f467e337]: Conectează-te sau creează un cont pentru a accesa istoricul complet al anunțurilor, inclusiv modificările de preț
+            - button "Autentifică-te și verifică detaliile" [ref=f467e339]
+          - generic [ref=f467e341]:
+            - heading "Harta" [level=2] [ref=f467e342]
+            - generic [ref=f467e343]: ‌
+          - generic [ref=f467e347]:
+            - text: Publicitate
+            - generic [ref=f467e348]:
+              - button "Informații publicitare" [ref=f467e349]
+              - generic [ref=f467e358]:
+                - generic [ref=f467e359]:
+                  - heading "Calculator de împrumut" [level=4] [ref=f467e364]
+                  - generic [ref=f467e365]: Selectează condițiile dorite și descoperă oferta ideală pentru tine.
+                - generic [ref=f467e366]:
+                  - generic [ref=f467e367]:
+                    - generic:
+                      - paragraph [ref=f467e368]: Valoarea proprietatii
+                      - paragraph [ref=f467e369]: Seteaza suma de care ai nevoie
+                      - spinbutton "Valoarea proprietatii" [ref=f467e370]: "130000"
+                      - paragraph [ref=f467e371]: €
+                  - generic [ref=f467e372]:
+                    - generic:
+                      - paragraph [ref=f467e373]: Valoare avans
+                      - paragraph [ref=f467e374]: (Minim 15%)
+                      - spinbutton "Valoare avans" [ref=f467e375]: "25"
+                      - paragraph [ref=f467e376]: "%"
+                      - spinbutton "Valoare avans" [ref=f467e377]: "32500"
+                      - paragraph [ref=f467e378]: €
+                    - slider [ref=f467e379] [cursor=pointer]: "25"
+                  - generic [ref=f467e380]:
+                    - generic:
+                      - paragraph [ref=f467e381]: Pe ce perioadă vrei creditul? (luni)
+                      - paragraph
+                      - spinbutton "Perioadă de împrumut" [ref=f467e382]: "20"
+                      - paragraph [ref=f467e383]: Luni
+                    - slider "Perioadă de împrumut" [ref=f467e384] [cursor=pointer]: "20"
+                  - button "Cere o ofertă" [ref=f467e386] [cursor=pointer]
+          - generic [ref=f467e387]:
+            - heading "Despre agenție" [level=4] [ref=f467e388]
+            - generic [ref=f467e390]:
+              - strong [ref=f467e392]: Oglan Imobiliare
+              - generic "Tipul agenției" [ref=f467e394]: Agenție imobiliară
+              - generic [ref=f467e395]:
+                - button "Afișează numărul" [ref=f467e396] [cursor=pointer]
+                - button "Afișează numărul" [ref=f467e401] [cursor=pointer]
+              - generic "Adresa agenției" [ref=f467e406]: Doamna Stanca 7, 557260, Selimbar, Selimbar, Sibiu
+            - link "Verifică portofoliul" [ref=f467e408] [cursor=pointer]:
+              - /url: /ro/companii/agentii/oglan-imobiliare-ID4008741
+        - generic [ref=f467e413]:
+          - generic [ref=f467e417]:
+            - paragraph [ref=f467e418]: Delia Ciorogariu
+            - link "Oglan Imobiliare" [ref=f467e419] [cursor=pointer]:
+              - /url: /ro/companii/agentii/oglan-imobiliare-ID4008741
+            - generic [ref=f467e420]:
+              - button "Afișează numărul" [ref=f467e421] [cursor=pointer]
+              - button "Afișează numărul" [ref=f467e426] [cursor=pointer]
+          - generic [ref=f467e431]:
+            - generic [ref=f467e432]: Nume*
+            - textbox "Nume*" [ref=f467e436]:
+              - /placeholder: Nume
+            - generic [ref=f467e437]: E-mail*
+            - textbox "E-mail*" [ref=f467e441]:
+              - /placeholder: Email
+            - generic [ref=f467e442]: Număr de telefon*
+            - generic [ref=f467e443]:
+              - textbox "+" [ref=f467e447]: "+40"
+              - textbox "Număr de telefon*" [ref=f467e451]:
+                - /placeholder: Număr de telefon
+            - generic [ref=f467e454]: Mesajul tău*
+            - textbox "Mesajul tău*" [ref=f467e458]:
+              - /placeholder: Scrie mesajul tău…
+              - text: Mi-ar plăcea să primesc informații detaliate despre această locuință.
+            - button "Autorul anunțului va primi datele tale pentru a permite comunicarea. Administratorul acestor date este S.C. OLX Online Services S.R.L. (Storia) mai mult" [ref=f467e460] [cursor=pointer]:
+              - generic [ref=f467e461]: Autorul anunțului va primi datele tale pentru a permite comunicarea.
+              - text: Administratorul acestor date este S.C. OLX Online Services S.R.L. (Storia) mai mult
+            - button "Trimite mesajul" [ref=f467e462]
+      - generic [ref=f467e468]:
+        - link "Case de vânzare" [ref=f467e469] [cursor=pointer]:
+          - /url: /ro/rezultate/vanzare/casa/toata-romania
+        - link "3 camere" [ref=f467e473] [cursor=pointer]:
+          - /url: /ro/rezultate/vanzare/casa,3-camere/toata-romania
+        - link "Sibiu" [ref=f467e477] [cursor=pointer]:
+          - /url: /ro/rezultate/vanzare/casa,3-camere/sibiu
+        - link "Sibiu" [ref=f467e481] [cursor=pointer]:
+          - /url: /ro/rezultate/vanzare/casa,3-camere/sibiu/sibiu
+        - generic [ref=f467e485]: Casă tip triplex – Viile Sibiului
+    - contentinfo [ref=f467e486]:
+      - generic [ref=f467e490]:
+        - img "Storia" [ref=f467e491]
+        - list [ref=f467e492]:
+          - listitem [ref=f467e493]:
+            - paragraph [ref=f467e494]: DESPRE STORIA
+            - list [ref=f467e495]:
+              - listitem [ref=f467e496]:
+                - link "Despre noi" [ref=f467e497] [cursor=pointer]:
+                  - /url: /ro/info
+              - listitem [ref=f467e498]:
+                - link "Prețuri" [ref=f467e499] [cursor=pointer]:
+                  - /url: /ro/preturi
+              - listitem [ref=f467e500]:
+                - link "Cariere" [ref=f467e501] [cursor=pointer]:
+                  - /url: https://www.olxgroup.com/
+              - listitem [ref=f467e502]:
+                - link "Informații juridice" [ref=f467e503] [cursor=pointer]:
+                  - /url: https://help.storia.ro/storiahelp/s/topic/0TO090000009twJGAQ/informa%C8%9Bii-juridice
+          - listitem [ref=f467e504]:
+            - paragraph [ref=f467e505]: Pentru experții în imobiliare
+            - list [ref=f467e506]:
+              - listitem [ref=f467e507]:
+                - link "Publicitate" [ref=f467e508] [cursor=pointer]:
+                  - /url: https://publicitate.olx.ro/
+              - listitem [ref=f467e509]:
+                - link "Ghid vânzare" [ref=f467e510] [cursor=pointer]:
+                  - /url: "/blog/ghid-vanzare "
+          - listitem [ref=f467e511]:
+            - paragraph [ref=f467e512]: Instrumente utile
+            - list [ref=f467e513]:
+              - listitem [ref=f467e514]:
+                - link "Index cartiere" [ref=f467e515] [cursor=pointer]:
+                  - /url: https://trai.storia.ro/
+              - listitem [ref=f467e516]:
+                - link "Articole despre imobiliare" [ref=f467e517] [cursor=pointer]:
+                  - /url: /blog/
+          - listitem [ref=f467e518]:
+            - paragraph [ref=f467e519]: PLATFORME
+            - list [ref=f467e520]:
+              - listitem [ref=f467e521]:
+                - link "OLX.ro" [ref=f467e522] [cursor=pointer]:
+                  - /url: https://www.olx.ro/
+              - listitem [ref=f467e523]:
+                - link "Autovit.ro" [ref=f467e524] [cursor=pointer]:
+                  - /url: https://www.autovit.ro/
+              - listitem [ref=f467e525]:
+                - link "Otodom.pl" [ref=f467e526] [cursor=pointer]:
+                  - /url: https://otodom.pl/
+              - listitem [ref=f467e527]:
+                - link "Imovirtual.com" [ref=f467e528] [cursor=pointer]:
+                  - /url: https://imovirtual.com/
+          - listitem [ref=f467e529]:
+            - paragraph [ref=f467e530]: Hartă site
+            - list [ref=f467e531]:
+              - listitem [ref=f467e532]:
+                - link "Hartă site" [ref=f467e533] [cursor=pointer]:
+                  - /url: /ro/harta-site
+              - listitem [ref=f467e534]:
+                - link "Localități" [ref=f467e535] [cursor=pointer]:
+                  - /url: /ro/harta-site/regiuni/apartament
+          - listitem [ref=f467e536]:
+            - paragraph [ref=f467e537]: Contact
+            - list [ref=f467e538]:
+              - listitem [ref=f467e539]:
+                - link "Asistență" [ref=f467e540] [cursor=pointer]:
+                  - /url: https://help.storia.ro/storiahelp/s/contactsupport
+              - listitem [ref=f467e541]:
+                - link "Ajutor" [ref=f467e542] [cursor=pointer]:
+                  - /url: https://help.storia.ro/
+              - listitem [ref=f467e543]:
+                - link "DSA" [ref=f467e544] [cursor=pointer]:
+                  - /url: https://help.storia.ro/storiahelp/s/topic/0TO09000000kiXCGAY/digital-services-act-dsa
+      - generic [ref=f467e546]:
+        - generic [ref=f467e547]:
+          - paragraph [ref=f467e548]: "URMĂREȘTE-NE PE:"
+          - list [ref=f467e549]:
+            - listitem [ref=f467e550]:
+              - link "Facebook" [ref=f467e551] [cursor=pointer]:
+                - /url: https://www.facebook.com/storia.ro
+            - listitem [ref=f467e552]:
+              - link "Youtube" [ref=f467e553] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/Storiaro
+            - listitem [ref=f467e554]:
+              - link "Instagram" [ref=f467e555] [cursor=pointer]:
+                - /url: https://www.instagram.com/storia_ro/
+            - listitem [ref=f467e556]:
+              - link "Tiktok" [ref=f467e557] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@storia_ro
+            - listitem [ref=f467e558]:
+              - link "Linkedin" [ref=f467e559] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/79635350
+        - generic [ref=f467e560]:
+          - paragraph [ref=f467e561]: "Aplicații mobile:"
+          - list [ref=f467e562]:
+            - listitem [ref=f467e563]:
+              - link [ref=f467e564] [cursor=pointer]:
+                - /url: https://apps.apple.com/app/storia/id6475397416
+                - img "AppStore" [ref=f467e565]
+            - listitem [ref=f467e566]:
+              - link [ref=f467e567] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.olx.realestate.app.storia&referrer=utm_source%3Dstoria.ro%26utm_medium%3Dcpc%26utm_campaign%3Dandroid-app-footer
+                - img "Google Play" [ref=f467e568]
+      - generic [ref=f467e570]:
+        - paragraph [ref=f467e571]: © 2026 Storia, Grupul OLX
+        - list [ref=f467e572]:
+          - listitem [ref=f467e573]:
+            - link "Condiții de utilizare" [ref=f467e574] [cursor=pointer]:
+              - /url: https://help.storia.ro/storiahelp/s/topic/0TO09000000kiXAGAY/
+          - listitem [ref=f467e575]:
+            - link "Politica de confidențialitate" [ref=f467e576] [cursor=pointer]:
+              - /url: https://help.storia.ro/storiahelp/s/article/kA009000001vPDgCAM
+          - listitem [ref=f467e577]:
+            - button "Setări cookies" [ref=f467e578] [cursor=pointer]
+  - alert [ref=f467e579]
+  - iframe [ref=f467e582]:
+    - generic [ref=f471e6]:
+      - text: protected by
+      - strong [ref=f471e7]: reCAPTCHA

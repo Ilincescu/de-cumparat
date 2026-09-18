@@ -1,0 +1,16 @@
+{
+  "actualizat": "2026-09-18",
+  "note": "Lista comuna de favorite si comentarii, vizibila pe toate dispozitivele si la amandoi. Se editeaza direct de pe GitHub. Forma: sub 'anunturi', cheia e linkul exact al anuntului asa cum apare in date.json / masini.json / biciclete.json; 'fav' e lista celor care l-au pus la favorite; 'note' sunt comentariile, fiecare cu autorul lui. Numele afisate vin din 'persoane'.",
+  "persoane": {
+    "mihai": "Mihai",
+    "ana": "Sotia"
+  },
+  "anunturi": {
+    "https://www.storia.ro/ro/oferta/casa-4-camere-cu-teren-503-mp-si-acces-auto-in-curte-comision-0-IDIvrk": {
+      "fav": ["mihai"],
+      "note": [
+        {"cine": "mihai", "text": "Cea mai buna de pana acum: 80 mp utili, 389 mp curte, renovata 2020. Doua camere sunt la gri.", "d": "2026-09-17"}
+      ]
+    }
+  }
+}
