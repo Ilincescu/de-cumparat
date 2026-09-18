@@ -7,9 +7,148 @@
   },
   "anunturi": {
     "https://www.storia.ro/ro/oferta/casa-4-camere-cu-teren-503-mp-si-acces-auto-in-curte-comision-0-IDIvrk": {
-      "fav": ["mihai"],
+      "fav": [
+        "mihai"
+      ],
       "note": [
-        {"cine": "mihai", "text": "Cea mai buna de pana acum: 80 mp utili, 389 mp curte, renovata 2020. Doua camere sunt la gri.", "d": "2026-09-17"}
+        {
+          "cine": "mihai",
+          "text": "Cea mai buna de pana acum: 80 mp utili, 389 mp curte, renovata 2020. Doua camere sunt la gri.",
+          "d": "2026-09-17"
+        },
+        {
+          "cine": "mihai",
+          "text": "Pare pe primul loc",
+          "d": "2026-09-18"
+        }
+      ]
+    },
+    "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-gdi-6mt-4x2-plus-ID7HOATu.html": {
+      "fav": [
+        "mihai"
+      ],
+      "note": []
+    },
+    "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ID7HQxGM.html": {
+      "fav": [
+        "mihai"
+      ],
+      "note": []
+    },
+    "https://www.storia.ro/ro/oferta/cas-2-camere-de-vnzare-sibiu-piaa-cluj-curte-IDIwji": {
+      "fav": [
+        "mihai"
+      ],
+      "note": []
+    },
+    "https://www.storia.ro/ro/oferta/casa-individuala-3-camere-acces-auto-pivnita-i-lupeni-IDHA7D": {
+      "fav": [
+        "mihai"
+      ],
+      "note": []
+    },
+    "https://www.storia.ro/ro/oferta/casa-cu-4-camere-si-garaj-de-vanzare-in-zona-turnisor-sibiu-IDIvbN": {
+      "fav": [
+        "mihai"
+      ],
+      "note": []
+    },
+    "https://www.storia.ro/ro/oferta/casa-individuala-90-mp-utili-4-camere-si-teren-252-mp-in-sibiu-tiglari-IDIcpW": {
+      "fav": [
+        "mihai"
+      ],
+      "note": []
+    },
+    "https://www.storia.ro/ro/oferta/cas-4-camere-de-vnzare-sibiu-turnior-140-mp-IDIbVt": {
+      "fav": [
+        "mihai"
+      ],
+      "note": []
+    },
+    "https://www.storia.ro/ro/oferta/cas-3-camere-de-vnzare-tiglari-sibiu-108-mp-teren-400-mp-IDIbXM": {
+      "fav": [
+        "mihai"
+      ],
+      "note": []
+    },
+    "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-3-camere-teren-300-mp-zona-turnisor-IDHAdu": {
+      "fav": [],
+      "note": [
+        {
+          "cine": "mihai",
+          "text": "trebuie sa intri prin alta curte, complicat cu asta, nu e clar cata curte ai",
+          "d": "2026-09-18"
+        }
+      ]
+    },
+    "https://www.storia.ro/ro/oferta/apartament-spatios-la-casa-77-mp-utili-curte-libera-33-mp-turnisor-IDIcSy": {
+      "fav": [],
+      "note": [
+        {
+          "cine": "mihai",
+          "text": "are doar 33 m curte libera cam putin si arata ciudata curtea nu ai intimitate",
+          "d": "2026-09-18"
+        }
+      ]
+    },
+    "https://www.storia.ro/ro/oferta/casa-2-camere-120-mp-teren-zona-vasile-aaron-IDCj1H": {
+      "fav": [],
+      "note": [
+        {
+          "cine": "mihai",
+          "text": "este curtea cam mica, pare sa fie cu cea de 130 euro doar versiunea mai veche, poze mai vechi, terenul e 120 mp dar curtea e de 50 m",
+          "d": "2026-09-18"
+        }
+      ]
+    },
+    "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-de-vanzare-sibiu-semaforului/925145228eee7h331hi0i4df394g285i.html": {
+      "fav": [],
+      "note": [
+        {
+          "cine": "mihai",
+          "text": "pare sa fie cu cea de 116 euro doar refacuta, aici zice ca curtea e de 53 mp cam mica",
+          "d": "2026-09-18"
+        }
+      ]
+    },
+    "https://www.storia.ro/ro/oferta/casa-cu-gradina-de-vanzare-si-curte-pivnita-zona-terezian-sibiu-IDIxhA": {
+      "fav": [],
+      "note": [
+        {
+          "cine": "mihai",
+          "text": "are tavanul cam jos si pare sa fie la demisol, si o curte mica",
+          "d": "2026-09-18"
+        }
+      ]
+    },
+    "https://www.storia.ro/ro/oferta/casa-de-vanzare-zona-calea-surii-mici-IDIx6O": {
+      "fav": [],
+      "note": [
+        {
+          "cine": "mihai",
+          "text": "pare veche si de investit mult in ea, nu zice cate curte are",
+          "d": "2026-09-18"
+        }
+      ]
+    },
+    "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/vand-casa-in-turnisor-sibiu/5e47194201027g34e027e292he7fd3eg.html": {
+      "fav": [],
+      "note": [
+        {
+          "cine": "mihai",
+          "text": "are 2 cladiri",
+          "d": "2026-09-18"
+        }
+      ]
+    },
+    "https://www.storia.ro/ro/oferta/oportunitate-de-investitie-in-turnisor-casa-cu-teren-de-500-mp-si-IDHSIf": {
+      "fav": [],
+      "note": [
+        {
+          "cine": "mihai",
+          "text": "2 corpuri de cladiri",
+          "d": "2026-09-18"
+        }
       ]
     }
   }
