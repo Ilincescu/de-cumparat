@@ -6,9 +6,17 @@ Criterii casa: in orasul Sibiu (toate cartierele), curte proprie confirmata, min
 Criterii apartament: 2 camere, orasul Sibiu, fara mansarda, fara anunturi de la dezvoltator, cat mai ieftin, de preferat la casa. Bugetul total pentru casa + apartament e 250.000 EUR.
 
 Surse, in ordinea asta:
-1. Storia si OLX prin WebFetch pe adresele de cautare din index.html (butoanele "Cauta la zi").
-2. publi24.ro - merge prin WebFetch, dar filtrul de pret din URL nu functioneaza, deci citeste paginile si filtreaza tu.
-3. Facebook Marketplace si imobiliare.ro - NUMAI prin Playwright, blocheaza cererile simple. Pe Facebook preturile apar ca RON desi sunt in EURO, iar locatia de pe card e a contului, nu a proprietatii: citeste descrierea inainte sa adaugi ceva.
+1. Storia: foloseste tools/storia-api.js, nu WebFetch si nu browserul.
+   node tools/storia-api.js casa 250000 3
+   node tools/storia-api.js apartament 90000 3
+   Scoate JSON cu anunturile care nu sunt deja in date.json. Daca zice "buildId expirat",
+   deschide o data cu Playwright https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu,
+   citeste JSON.parse(document.getElementById('__NEXT_DATA__').textContent).buildId
+   si scrie-l in tools/storia-build.json. Atentie: cautarea acopera tot judetul, deci
+   verifica orasul fiecarui anunt, iar terenul intors de API nu e de incredere.
+2. OLX prin WebFetch pe adresele din index.html (butoanele "Cauta la zi").
+3. publi24.ro - merge prin WebFetch, dar filtrul de pret din URL nu functioneaza, deci citeste paginile si filtreaza tu.
+4. Facebook Marketplace si imobiliare.ro - NUMAI prin Playwright, blocheaza cererile simple. Pe Facebook preturile apar ca RON desi sunt in EURO, iar locatia de pe card e a contului, nu a proprietatii: citeste descrierea inainte sa adaugi ceva.
 
 Reguli pentru date:
 - Adauga in date.json doar anunturi care NU exista deja (compara dupa campul u).
