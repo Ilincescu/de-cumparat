@@ -197,6 +197,9 @@
     <label class="check"><input type="checkbox" id="onlyfav"> doar favorite</label>
     <label class="check"><input type="checkbox" id="hideseen" checked> ascunde văzute</label>
     <button id="shareBtn" type="button">Trimite favoritele</button>
+    <label for="cine">Eu sunt</label>
+    <select id="cine"></select>
+    <button id="exportBtn" type="button">Salvează în lista comună</button>
   </div>
 </div>
 
@@ -576,6 +579,25 @@
     }
   });
 
+  el("exportBtn").addEventListener("click",function(){
+    var cine=el("cine").value;
+    var azi=new Date().toISOString().slice(0,10);
+    var an=JSON.parse(JSON.stringify(SHARE.anunturi||{}));
+    var puse=0, comentarii=0;
+    function intrare(u){ if(!an[u]) an[u]={fav:[],note:[]}; if(!an[u].fav) an[u].fav=[]; if(!an[u].note) an[u].note=[]; return an[u]; }
+    for(var u in favs){ if(favs[u]){ var e=intrare(u); if(e.fav.indexOf(cine)<0){ e.fav.push(cine); puse++; } } }
+    for(var v in notite){ if(notite[v]){ var e2=intrare(v);
+      var deja=e2.note.some(function(n){ return n.cine===cine && n.text===notite[v]; });
+      if(!deja){ e2.note.push({cine:cine,text:notite[v],d:azi}); comentarii++; } } }
+    var fisier={actualizat:azi, note:SHARE.note||"", persoane:SHARE.persoane||{}, anunturi:an};
+    var box=el("shareBox");
+    box.hidden=false; box.value=JSON.stringify(fisier,null,2); box.focus(); box.select();
+    if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(box.value);
+    el("count").textContent="Continut nou pentru favorite.json, copiat: "+puse+" favorite si "+
+      comentarii+" comentarii adaugate pentru "+(SHARE.persoane[cine]||cine)+
+      ". Lipeste-l peste tot continutul fisierului favorite.json de pe GitHub.";
+  });
+
   function showBanner(){
     var b=el("banner");
     if(!shared){ b.hidden=true; return; }
@@ -610,6 +632,12 @@
   });
 
   function boot(){
+    var sel=el("cine"), pers=SHARE.persoane||{};
+    var chei=Object.keys(pers);
+    if(!chei.length){ pers={mihai:"Mihai"}; chei=["mihai"]; }
+    sel.innerHTML=chei.map(function(k){return '<option value="'+k+'">'+pers[k]+'</option>';}).join("");
+    try{ var ultim=localStorage.getItem("cine"); if(ultim && chei.indexOf(ultim)>=0) sel.value=ultim; }catch(e){}
+    sel.addEventListener("change",function(){ try{ localStorage.setItem("cine",this.value); }catch(e){} });
     shared=readShared();
     showBanner();
     el("stamp").textContent="actualizat "+IMO.actualizat;
