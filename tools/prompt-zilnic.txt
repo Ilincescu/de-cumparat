@@ -25,6 +25,10 @@ Surse, in ordinea asta:
    Apoi deschide fiecare anunt interesant la /marketplace/item/<id>/ si citeste descrierea.
    Preturile apar ca RON desi sunt in EURO, iar locatia de pe card e a contului care posteaza,
    nu a proprietatii: citeste descrierea inainte sa adaugi ceva.
+5. imobiliare.ro - Playwright, apoi citit din DOM cu functia din tools/imobiliare-extract.js
+   (copiaz-o ca atare in browser_evaluate). Nu are __NEXT_DATA__, iar /map/listings intoarce
+   doar pinuri de harta, fara titluri. Adresa: /vanzare-case-vile/judetul-sibiu/sibiu, paginile
+   urmatoare cu ?pagina=2. Filtrul de pret din URL NU se aplica: filtreaza dupa pret in cod.
 
 Reguli pentru date:
 - Adauga in date.json doar anunturi care NU exista deja (compara dupa campul u).
