@@ -72,6 +72,10 @@
   {"m": "Peugeot 2008 1.2 PureTech Allure", "an": 2022, "km": 64338, "cp": 100, "f": "benzina", "p": 10990, "z": "Bucuresti", "src": "autovit", "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-l-puretech-stt-allure-ID7HQNag.html", "warn": "Acelasi motor PureTech cu curea in ulei", "d": "2026-09-21"
   },
   {"m": "Opel Crossland X 1.5 diesel", "an": 2020, "km": 100000, "cp": 110, "f": "diesel", "p": 8999, "z": "Timisoara", "src": "autovit", "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ID7HQNz2.html", "warn": "Exact 100.000 km, la limita ta", "d": "2026-09-21"
+  },
+  {"m": "Citroen C3 Aircross 1.2 PureTech Shine", "an": 2020, "km": 133500, "cp": null, "f": "benzina", "p": 8750, "z": "Sibiu", "src": "autovit", "u": "https://www.autovit.ro/autoturisme/anunt/citron-c3-aircross-1-2-puretech-s-s-bvm6-shine-ID7HQM1Q.html", "warn": "133.500 km, peste pragul tau de 100.000. Motor PureTech cu curea in ulei.", "d": "2026-09-21"
+  },
+  {"m": "SsangYong Tivoli", "an": 2020, "km": 154100, "cp": null, "f": "necunoscut", "p": 9200, "z": "Sibiu", "src": "olx", "u": "https://www.olx.ro/d/oferta/ssangyong-tivoli-IDkVg8k.html", "warn": "154.100 km si marca fara retea de service in Romania", "d": "2026-09-21"
   }
  ]
 }
