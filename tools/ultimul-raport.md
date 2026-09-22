@@ -1,25 +1,17 @@
-# Raport 21 sep 2026 (rulat manual, nu de task)
+# Raport 22 sep 2026
 
-Task-ul automat nu a pornit azi: ultima rulare a fost 20 sep 08:08, iar fereastra de 08:00 a fost ratata pentru ca laptopul nu era logat. Intre timp s-a activat `StartWhenAvailable`, deci de maine recupereaza singur.
+**Surse:** toate cinci au raspuns. Storia prin API (3 pagini case + 3 apartamente, 111+111 citite), OLX, publi24, Facebook Marketplace, imobiliare.ro. `buildId`-ul Storia expirase si a fost reinnoit.
 
-**Publicat ce statea nepublicat.** Rularile de vineri si sambata scrisesera 173 de anunturi local, dar nu puteau face commit (allow-list-ul avea doar `git push`). Site-ul era la 162 de anunturi, din 18 sep. Acum allow-list-ul are si `git add`, `git commit`, `git pull` si `node`.
+**Adaugate: 27** (14 case, 13 apartamente). **Sterse: 9** anunturi arhivate, status 410 verificat pe toate cele 279 de linkuri Storia. **Total: 195 case, 169 apartamente.**
 
-**Surse acoperite azi:** toate cinci. Storia prin API (3 pagini case + 3 apartamente), OLX case si apartamente, publi24 case, Facebook Marketplace case, imobiliare.ro case. Plus Autovit si OLX auto pentru masini, OLX pentru biciclete.
+**Cel mai bun anunt nou: 165.000 EUR, Lupeni** - casa individuala, 84 mp utili, teren 309 mp din care 194 curte libera, acces auto in curte. Necesita renovare integrala, dar lasa 85.000 pentru apartament. A doua opinie: 210.000 Lazaret, 7 camere si garaj de la proprietar, dar terenul declarat e de 30 mp, adica fara curte.
 
-**Adaugate azi:** 21 de anunturi dupa filtrare - din 111 citite pe Storia, 14 erau repostari ale acelorasi imobile cu link nou si 60 erau garsoniere sau mansarde. Trei intrari de la dezvoltator (Magnolia, doua "constructie noua") au fost sterse, iar una clasificata gresit ca si casa a fost mutata la apartamente.
+**La apartamente**, cel mai ieftin nou e 68.500 in Mihai Viteazul: 37 mp, etajul 4 dintr-un bloc P+4 de beton din 1972, mobilat complet - ultimul etaj, dar nu mansarda. Urmeaza 68.950 in Vasile Aaron (35,5 mp, parter) si 72.000 in Gusterita (38 mp, parter inalt, balcon si boxa).
 
-**Sterse:** 7 anunturi arhivate (status 410 pe Storia), intre care casa de 137.990 din Lupeni si cea de 180.000 din Turnisor.
+**Capcane prinse azi:** trei case de pe imobiliare.ro etichetate Turnisor sunt in Cristian, la 10 km (209.000 / 235.000 / 245.000, acelasi dezvoltator). Casa de 119.000 din Bavaria nu costa atat: descrierea da 124.000 la rosu, 185.000 la alb si 225.000 la cheie. Casa de 138.000 "din Sibiu" de pe OLX e in satul Tocile. Cea de 249.929 din Veterani se preda la rosu la interior si nu are inca apa si canalizare pe strada.
 
-**Capcane prinse azi, ambele pe Facebook:** casa de 150.000 afisata ca fiind in "Sibiu, Romania" e de fapt in **Boita, la 20 km**; cea de 65.500 "la cheie langa Sibiu" la fel. Locatia de pe cardul Marketplace ramane a contului, nu a proprietatii.
+**Storia redenumeste linkuri pastrand acelasi ID** - trei anunturi pareau noi desi erau deja in lista (IDIvhg, IDIzcp, IDIvbK). Compararea trebuie facuta pe ID, nu pe tot linkul; azi am filtrat manual.
 
-**Nimic nou in oras pe Facebook si imobiliare.ro.** imobiliare.ro are aceleasi 8 case sub 200.000 ca pe 18 sep. Pe Facebook, toate anunturile noi din oras erau deja in lista.
+**Nimic nou in oras pe Facebook** la case: toate cele 6 anunturi noi erau din Sura Mare, Cugir, Cincu, Medias si Sighisoara. La apartamente, Facebook a dat 4 anunturi noi utile (72.000, 75.000, 76.000, 77.000).
 
-**Cel mai relevant anunt nou: 170.000 EUR, Gusterita** - casa individuala, 3 camere, 98 mp utili, "curte mare" dar fara suprafata declarata. Merita un telefon exact pentru intrebarea asta.
-
-**La masini**, primele adaugiri din 14 sep: un Peugeot 2008 din 2021 la 10.290 EUR in Cristian, la 10 km de Sibiu - dar cu motor PureTech, curea in baie de ulei. Restul masinilor gasite in Sibiu au toate peste 100.000 km.
-
-**La biciclete:** Wheeler R-1 cu cadru de titan (56, Dura-Ace, 3.800 RON) si Cannondale SuperSix EVO carbon cu Ultegra Di2 (4.000 RON). Rauler Thron a scazut de la 2.400 la 2.000 RON.
-
-**Total dupa baleiere: 185 de case, 161 de apartamente, 33 de masini, 20 de biciclete.**
-
-**De facut:** verificarea linkurilor moarte s-a facut doar pe Storia (268 verificate). Linkurile OLX, Facebook, imobiliare si publi24 nu au mai fost verificate de vineri.
+**Imbogatite doua anunturi vechi** cu detalii citite azi din descriere: cel de 200.000 din Turnisor (doua apartamente distincte, curte 289 mp din teren 495) si cel de 220.000 din zona Libra (5 camere 140 mp plus 2 camere 66 mp in aceeasi curte, dar curtea are doar 40 mp).
