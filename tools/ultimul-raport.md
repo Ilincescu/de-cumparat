@@ -1,17 +1,11 @@
-# Raport 22 sep 2026
+# Raport 23 sep 2026
 
-**Surse:** toate cinci au raspuns. Storia prin API (3 pagini case + 3 apartamente, 111+111 citite), OLX, publi24, Facebook Marketplace, imobiliare.ro. `buildId`-ul Storia expirase si a fost reinnoit.
+**Surse:** toate cinci au raspuns. Storia prin API (buildId expirat si reinnoit din calea `_buildManifest.js`), OLX si publi24 citite din snapshot Playwright (WebFetch nu era permis), Facebook Marketplace fara cont, imobiliare.ro doar pagina 1 (`?pagina=2` redirectioneaza acum la pagina 1).
 
-**Adaugate: 27** (14 case, 13 apartamente). **Sterse: 9** anunturi arhivate, status 410 verificat pe toate cele 279 de linkuri Storia. **Total: 195 case, 169 apartamente.**
+**Adaugate: 69** (49 case, 20 apartamente), multe fiind copii ale unor anunturi deja in lista, notate in warn. **Sterse: 9** anunturi Storia moarte (8 cu 410, unul redirectionat la cautare), verificate pe toate cele 284 de linkuri. Linkurile OLX nu au fost verificate: `browser_evaluate` nu era permis. **Total: 239 case, 185 apartamente.** 14 linkuri Storia redenumite au fost actualizate, iar la 5 anunturi pretul a scazut.
 
-**Cel mai bun anunt nou: 165.000 EUR, Lupeni** - casa individuala, 84 mp utili, teren 309 mp din care 194 curte libera, acces auto in curte. Necesita renovare integrala, dar lasa 85.000 pentru apartament. A doua opinie: 210.000 Lazaret, 7 camere si garaj de la proprietar, dar terenul declarat e de 30 mp, adica fara curte.
+**Cel mai bun anunt nou: 129.900 EUR, Turnisor (IDIhoz)** - casa individuala de 120 mp pe 475 mp teren, cu 241 mp curte libera si doua intrari, compartimentata ca doua apartamente de cate 2 camere: locuiesti intr-unul si il inchiriezi pe celalalt, iar din buget raman 120.000. Minus: renovare completa, instalatii de apa si canalizare de schimbat, tamplarie de lemn.
 
-**La apartamente**, cel mai ieftin nou e 68.500 in Mihai Viteazul: 37 mp, etajul 4 dintr-un bloc P+4 de beton din 1972, mobilat complet - ultimul etaj, dar nu mansarda. Urmeaza 68.950 in Vasile Aaron (35,5 mp, parter) si 72.000 in Gusterita (38 mp, parter inalt, balcon si boxa).
+**Apartamente:** cele mai ieftine noi sunt 69.900 Vasile Aaron (35,5 mp, parter, Facebook), 70.000 Tiglari (44 mp, etaj 4/4, bloc izolat) si 70.000 Cedonia (Facebook, direct de la proprietar - pretul apare ca RON70, de confirmat). Au fost sarite 8 apartamente la mansarda si 7 de la dezvoltator.
 
-**Capcane prinse azi:** trei case de pe imobiliare.ro etichetate Turnisor sunt in Cristian, la 10 km (209.000 / 235.000 / 245.000, acelasi dezvoltator). Casa de 119.000 din Bavaria nu costa atat: descrierea da 124.000 la rosu, 185.000 la alb si 225.000 la cheie. Casa de 138.000 "din Sibiu" de pe OLX e in satul Tocile. Cea de 249.929 din Veterani se preda la rosu la interior si nu are inca apa si canalizare pe strada.
-
-**Storia redenumeste linkuri pastrand acelasi ID** - trei anunturi pareau noi desi erau deja in lista (IDIvhg, IDIzcp, IDIvbK). Compararea trebuie facuta pe ID, nu pe tot linkul; azi am filtrat manual.
-
-**Nimic nou in oras pe Facebook** la case: toate cele 6 anunturi noi erau din Sura Mare, Cugir, Cincu, Medias si Sighisoara. La apartamente, Facebook a dat 4 anunturi noi utile (72.000, 75.000, 76.000, 77.000).
-
-**Imbogatite doua anunturi vechi** cu detalii citite azi din descriere: cel de 200.000 din Turnisor (doua apartamente distincte, curte 289 mp din teren 495) si cel de 220.000 din zona Libra (5 camere 140 mp plus 2 camere 66 mp in aceeasi curte, dar curtea are doar 40 mp).
+**Capcane prinse azi:** casa de 98.000 si cea de 108.000 de pe str. Livezii din Turnisor sunt una in fata celeilalte, iar vecinul din spate trece prin curte cu drept de servitute. Casa de 152.000 din Lupeni de pe Facebook e aceeasi cu IDI7oh, care pe Storia costa 124.900. IDIvhg (Lazaret) e de fapt in curte comuna cu doi vecini, iar pretul i-a scazut la 209.900.
