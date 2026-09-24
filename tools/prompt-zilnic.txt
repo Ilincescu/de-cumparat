@@ -106,10 +106,20 @@ APARTAMENT  2 camere. Fara mansarda. Fara dezvoltator. Fara garsoniere -
             daca are o singura camera sau sub 30 mp, nu intra in lista.
             Cat mai ieftin, de preferat la casa.
 
-MASINA      pana in 11.500 EUR, an 2020+, sub 100.000 km, garda inalta,
-            piese ieftine si comune. Atentie la motoarele PureTech, care au
-            curea in baie de ulei. Cvadriciclurile (Aixam, Ligier, Chatenet,
-            Aigo, Elaris) nu sunt masini, nu le pune in lista.
+MASINA      pana in 11.500 EUR, an 2020+, sub 100.000 km, piese ieftine si
+            comune. Atentie la motoarele PureTech, care au curea in baie de
+            ulei. Cvadriciclurile (Aixam, Ligier, Chatenet, Aigo, Elaris) nu
+            sunt masini, nu le pune in lista.
+
+            GARDA JOASA E MOTIV DE EXCLUDERE, nu o preferinta. Doar SUV si
+            crossover. Berlinele, hatchback-urile si citadinele nu intra in
+            lista, oricat de bine ar sta la pret, an si kilometri - nici
+            Sandero, nici Logan, nici Polo, nici 208, nici 308, nici Astra,
+            nici Fiat 500, nici Space Star. Intra: Duster, Stepway, 2008,
+            3008, Aircross, Crossland, Grandland, Captur, Juke, Tucson, Kona,
+            Sportage, CX-5, RAV4, X-Trail, Qashqai, Vitara, Tiguan, T-Cross,
+            T-Roc, Karoq, Kodiaq, EcoSport, Kuga, Puma, Tivoli, Compass,
+            Q3/Q5, XC40/XC60 si celelalte SUV-uri.
 
 BICICLETA   cursiera de sosea, sub 4.000 RON, cadru 55-58 cm sau L/XL pentru
             180-181 cm. Fara MTB, fara ghidon drept, fara gravel.

@@ -8,35 +8,10 @@
   "Singura non-Dacia care bifeaza tot (2020, sub 100.000 km, sub 11.000 EUR) e Hyundai Kona 1.0 T-GDI din Oradea, 78.900 km.",
   "De evitat, desi intra in buget: Opel Crossland 1.2 PureTech, Peugeot 2008 1.2/1.5 si Ford EcoSport 1.0 EcoBoost - toate au curea de distributie in baie de ulei, reparatie 1.000-1.500 EUR.",
   "Preturile prea mici au mereu o explicatie: predare leasing (preiei ratele) sau masina avariata. Cardurile portocalii de mai sus spun care e care.",
-  "Filtrul An minim e pus pe 2020 din start. Ca sa vezi si Tucson, CX-5 sau Sportage, schimba-l pe orice an."
+  "Filtrul An minim e pus pe 2020 din start. Ca sa vezi si Tucson, CX-5 sau Sportage, schimba-l pe orice an.",
+  "Garda joasa e motiv de excludere: nu vrea berline, hatchback-uri sau citadine, doar SUV si crossover. Din lista s-au scos 9 masini pe criteriul asta pe 24 septembrie."
  ],
  "masini": [
-  {
-   "m": "Mitsubishi Space Star",
-   "an": 2020,
-   "km": 31831,
-   "cp": null,
-   "f": "benzina",
-   "p": 6600,
-   "z": "Selimbar",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/mitsubishi-space-star-ID7HQIun.html",
-   "warn": null,
-   "d": "2026-09-24"
-  },
-  {
-   "m": "Dacia Sandero",
-   "an": 2021,
-   "km": 50400,
-   "cp": null,
-   "f": "benzina",
-   "p": 7500,
-   "z": "Sibiu",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-ID7HQOrU.html",
-   "warn": null,
-   "d": "2026-09-24"
-  },
   {
    "m": "Citroen C3 Aircross 1.2 PureTech Shine",
    "an": 2020,
@@ -90,19 +65,6 @@
    "d": "2026-09-14"
   },
   {
-   "m": "Peugeot 208",
-   "an": 2021,
-   "km": 67500,
-   "cp": null,
-   "f": "benzina",
-   "p": 9800,
-   "z": "Orastie",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-208-ID7HHdwx.html",
-   "warn": null,
-   "d": "2026-09-24"
-  },
-  {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
    "an": 2020,
    "km": 86001,
@@ -114,19 +76,6 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQKvQ.html",
    "warn": "1.0 EcoBoost are tot curea in ulei; garda la sol mai mica decat pare",
    "d": "2026-09-14"
-  },
-  {
-   "m": "Peugeot 308 1.2 L PureTech Turbo S&S Allure Pack",
-   "an": 2020,
-   "km": 90700,
-   "cp": null,
-   "f": "benzina",
-   "p": 9950,
-   "z": "Sibiu",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-308-ver-1-2-l-puretech-turbo-s-s-allure-pack-ID7HQMtQ.html",
-   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
-   "d": "2026-09-24"
   },
   {
    "m": "Opel Crossland 1.2 Turbo",
@@ -179,19 +128,6 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/audi-q5-ver-35-tdi-s-tronic-advanced-ID7HQKM6.html",
    "warn": "PREDARE LEASING: cei 10.000 EUR sunt avansul, mai preiei 39 rate x 589 EUR + TVA (~23.000 EUR)",
    "d": "2026-09-14"
-  },
-  {
-   "m": "Volkswagen Polo",
-   "an": 2020,
-   "km": 79000,
-   "cp": null,
-   "f": "benzina",
-   "p": 10000,
-   "z": "Selimbar",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-polo-ID7HQIAq.html",
-   "warn": null,
-   "d": "2026-09-24"
   },
   {
    "m": "Hyundai Kona 1.0 T-GDI",
@@ -298,32 +234,6 @@
    "d": "2026-09-14"
   },
   {
-   "m": "Opel Astra",
-   "an": 2022,
-   "km": 92000,
-   "cp": null,
-   "f": "diesel",
-   "p": 10900,
-   "z": "Sibiu",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/opel-astra-ID7HQONh.html",
-   "warn": null,
-   "d": "2026-09-24"
-  },
-  {
-   "m": "Dacia Logan ECO-G 100 MT6 Comfort",
-   "an": 2023,
-   "km": 66000,
-   "cp": null,
-   "f": "benzina+gpl",
-   "p": 10900,
-   "z": "Campulung",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-logan-ver-eco-g-100-mt6-comfort-ID7HMSFR.html",
-   "warn": null,
-   "d": "2026-09-24"
-  },
-  {
    "m": "Peugeot 2008 1.2 PureTech Allure",
    "an": 2022,
    "km": 64338,
@@ -361,32 +271,6 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/jeep-compass-ver-1-4-m-air-4x2-longitude-ID7HGyQf.html",
    "warn": "Piese si service peste media clasei, retea mica in Romania",
    "d": "2026-09-14"
-  },
-  {
-   "m": "Dacia Sandero TCe 90 Essential",
-   "an": 2023,
-   "km": 57744,
-   "cp": null,
-   "f": "benzina",
-   "p": 11200,
-   "z": "Sebes",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-ver-tce-90-essential-ID7HQOMx.html",
-   "warn": null,
-   "d": "2026-09-24"
-  },
-  {
-   "m": "Fiat 500",
-   "an": 2024,
-   "km": 22000,
-   "cp": null,
-   "f": "benzina",
-   "p": 11495,
-   "z": "Blaj",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/fiat-500-ID7HOj7A.html",
-   "warn": null,
-   "d": "2026-09-24"
   },
   {
    "m": "Hyundai Kona 1.0 T-GDI Luxury",
