@@ -4,6 +4,7 @@
 //
 //   node tools/scan.js linkuri     verifica ce anunturi au murit (410/404)
 //   node tools/scan.js storia      scaneaza casele si apartamentele din oras
+//   node tools/scan.js masini      scaneaza Autovit, fara browser
 //   node tools/scan.js dubluri     gaseste anunturi diferite cu aceleasi poze
 //   node tools/scan.js diff        compara ultimul snapshot cu cel dinainte
 //   node tools/scan.js tot         toate, in ordinea de mai sus
@@ -11,6 +12,10 @@
 // buildId-ul Storia se schimba la fiecare deploy. Cand scanarea da 404, se ia
 // unul nou deschizand cu Playwright o pagina de cautare si citind
 // JSON.parse(document.getElementById('__NEXT_DATA__').textContent).buildId
+//
+// Playwright a ramas necesar doar pentru OLX si Facebook. OLX da 403 la un GET
+// simplu, deci bicicletele se iau tot din browser. Autovit raspunde la un GET
+// obisnuit in aproximativ o secunda si are tot JSON-ul in pagina.
 
 const fs = require('fs');
 const path = require('path');
@@ -244,6 +249,82 @@ async function gasesteDubluri(nrPoze = 4) {
   return rez;
 }
 
+// ----------------------------------------------------------------- masini
+
+// Garda joasa e motiv de excludere, nu o preferinta: doar SUV si crossover.
+const GARDA_INALTA = new RegExp([
+  'duster', 'stepway', 'tivoli', 'compass', 'renegade',
+  '2008', '3008', '5008', 'aircross', 'crossland', 'grandland', 'captur', 'juke',
+  'tucson', 'kona', 'santa fe', 'sportage', 'sorento', 'niro',
+  'cx-?[35]', 'rav4', 'x-?trail', 'qashqai', 'koleos', 'arkana',
+  'vitara', 'jimny', 's-?cross', 'ignis',
+  'tiguan', 't-?cross', 't-?roc', 'taigo', 'kamiq', 'karoq', 'kodiaq', 'q[2358]\\b',
+  'ecosport', 'kuga', 'puma', 'bronco',
+  'xc[46]0', 'x[1356]\\b', 'gla', 'glb', 'glc',
+  'dokker', 'caddy', 'berlingo', 'partner', 'rifter', 'combo', 'doblo', 'express',
+].join('|'), 'i');
+
+// Cvadricicluri: se vand pe Autovit, dar nu sunt masini.
+const CVADRICICLU = /aixam|ligier|chatenet|aigo|elaris|suda|allview|microcar/i;
+
+// Autovit pune raspunsul GraphQL in __NEXT_DATA__, sub pageProps.urqlState.
+// Un GET obisnuit il aduce in ~1 secunda, deci nu e nevoie de browser.
+function dinNextData(html) {
+  const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+  if (!m) throw new Error('pagina nu contine __NEXT_DATA__');
+  const j = JSON.parse(m[1]);
+  const urql = ((j.props || {}).pageProps || {}).urqlState || {};
+  for (const k of Object.keys(urql)) {
+    let d = urql[k] && urql[k].data;
+    if (typeof d === 'string') { try { d = JSON.parse(d); } catch (e) { continue; } }
+    if (d && d.advertSearch && d.advertSearch.edges) return d.advertSearch;
+  }
+  throw new Error('nu am gasit advertSearch in urqlState');
+}
+
+async function scaneazaMasini({ anMinim = 2020, pretMax = 11500, kmMax = 100000, raza = 75 } = {}) {
+  const u = `https://www.autovit.ro/autoturisme/de-la-${anMinim}/sibiu`
+    + `?search%5Bfilter_float_price%3Ato%5D=${pretMax}`
+    + `&search%5Bfilter_float_mileage%3Ato%5D=${kmMax}`
+    + `&search%5Bdist%5D=${raza}`;
+  const t0 = Date.now();
+  const r = await fetch(u, { headers: UA });
+  if (!r.ok) throw new Error('autovit status ' + r.status);
+  const cautare = dinNextData(await r.text());
+  console.log(`autovit: ${cautare.totalCount} rezultate, citite in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
+
+  const toate = cautare.edges.map(e => {
+    const n = e.node || {};
+    const p = {};
+    (n.parameters || []).forEach(x => { p[x.key] = x.displayValue || x.value; });
+    return {
+      m: n.title || '',
+      an: parseInt(p.year, 10) || null,
+      km: numar(p.mileage),
+      cp: numar(p.engine_power),
+      f: (p.fuel_type || '').toLowerCase(),
+      p: (n.price && n.price.amount && n.price.amount.units) || null,
+      z: (n.location && n.location.city && n.location.city.name) || '',
+      src: 'autovit',
+      u: n.url,
+      warn: /puretech/i.test(n.title || '')
+        ? 'Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.' : null,
+      d: new Date().toISOString().slice(0, 10),
+    };
+  });
+
+  const masini = toate.filter(x => !CVADRICICLU.test(x.m));
+  const potrivite = masini.filter(x => GARDA_INALTA.test(x.m));
+  const joase = masini.filter(x => !GARDA_INALTA.test(x.m));
+
+  console.log(`  ${toate.length - masini.length} cvadricicluri sarite`);
+  console.log(`  ${joase.length} cu garda joasa, sarite`);
+  console.log(`  ${potrivite.length} potrivite:`);
+  potrivite.sort((a, b) => (a.p || 0) - (b.p || 0)).forEach(x =>
+    console.log(`    ${String(x.p).padStart(6)} ${x.an} ${String(x.km).padStart(6)}km ${String(x.z).padEnd(14)} ${x.m}`));
+  return potrivite;
+}
+
 // ------------------------------------------------------------------- diff
 
 function snapshoturi() {
@@ -288,14 +369,16 @@ function diferente() {
   const cmd = process.argv[2] || 'tot';
   if (cmd === 'linkuri') await verificaLinkuri();
   else if (cmd === 'storia') await scaneazaStoria();
+  else if (cmd === 'masini') await scaneazaMasini();
   else if (cmd === 'dubluri') await gasesteDubluri();
   else if (cmd === 'diff') diferente();
   else if (cmd === 'tot') {
     console.log('--- linkuri moarte ---'); await verificaLinkuri();
     console.log('\n--- scanare storia ---'); await scaneazaStoria();
+    console.log('\n--- masini pe autovit ---'); await scaneazaMasini();
     console.log('\n--- diferente fata de ieri ---'); diferente();
     console.log('\n--- dubluri dupa poze ---'); await gasesteDubluri();
   } else {
-    console.log('comenzi: linkuri | storia | dubluri | diff | tot');
+    console.log('comenzi: linkuri | storia | masini | dubluri | diff | tot');
   }
 })().catch(e => { console.error('EROARE:', e.message); process.exit(1); });

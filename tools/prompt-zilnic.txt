@@ -58,20 +58,27 @@ anunturi cu poze identice sunt acelasi imobil, listat de doua agentii sau
 republicat cu titlu nou. Titlurile si preturile pot diferi; pozele nu mint.
 Marcheaza-l pe cel mai vechi si pastreaza unul singur in lista.
 
-================================ 5. SURSELE CARE CER BROWSER
+================================ 5. MASINI
 
-Storia e acoperita de scanner. Pentru restul, cu Playwright:
+   node tools/scan.js masini
+
+Autovit raspunde la un GET obisnuit in aproximativ o secunda si are tot JSON-ul
+in pagina, deci NU se porneste browserul pentru masini. Datele nu sunt in
+pageProps, ci in pageProps.urqlState: cauta cheia care are data.advertSearch
+.edges si citeste node.parameters (year, mileage, fuel_type, engine_power) plus
+node.price.amount.units. Un anunt sters da 410 la un HEAD simplu.
+
+Scannerul sare singur cvadriciclurile si masinile cu garda joasa.
+
+================================ 6. SURSELE CARE CER BROWSER
+
+Au ramas doua. Restul se iau direct.
 
 OLX     https://www.olx.ro/oferte/q-<cautare>/?search[filter_float_price:to]=N
-        Datele se citesc din DOM: cardurile au [data-cy="l-card"], pretul
+        Un GET simplu da 403, deci aici chiar e nevoie de Playwright. Datele se
+        citesc din DOM: cardurile au [data-cy="l-card"], pretul
         [data-testid="ad-price"], locatia [data-testid="location-date"].
-        API-ul /api/v1/offers da 403. Linkurile au nevoie de sufixul .html .
-
-Autovit https://www.autovit.ro/autoturisme/de-la-2020/sibiu?search[filter_float_price:to]=11500
-        Datele NU sunt in pageProps, ci in pageProps.urqlState. Cauta cheia
-        care are data.advertSearch.edges si citeste node.parameters
-        (year, mileage, fuel_type) plus node.price.amount.units.
-        Un anunt sters da 410 la un HEAD simplu, fara browser.
+        API-ul /api/v1/offers da tot 403. Linkurile au nevoie de sufixul .html .
 
 Facebook Marketplace merge fara cont. ATENTIE: locatia de pe card e a
         contului care posteaza, nu a proprietatii. Preturile scrise RON sunt
@@ -82,7 +89,7 @@ imobiliare.ro nu are __NEXT_DATA__; se extrage din DOM. /map/listings da doar
 
 publi24 se citeste direct din DOM.
 
-================================ 6. CE SE EXCLUDE AUTOMAT
+================================ 7. CE SE EXCLUDE AUTOMAT
 
 Scannerul marcheaza cu "exclus" tot ce contine in titlu sau descriere:
 - localitati din afara orasului (Rasinari, Selimbar, Sura, Cisnadie, Cristian,
@@ -95,7 +102,7 @@ Scannerul marcheaza cu "exclus" tot ce contine in titlu sau descriere:
 Nu le sterge din snapshot, doar nu le propune. Fiecare din regulile astea a
 costat o recomandare data si apoi retrasa.
 
-================================ 7. CRITERII FIXE
+================================ 8. CRITERII FIXE
 
 CASA        oras Sibiu, toate cartierele. Curte PROPRIE confirmata in
             descriere, minim 100 mp. Minim 50 mp utili, dar tinta e o casa
@@ -124,7 +131,7 @@ MASINA      pana in 11.500 EUR, an 2020+, sub 100.000 km, piese ieftine si
 BICICLETA   cursiera de sosea, sub 4.000 RON, cadru 55-58 cm sau L/XL pentru
             180-181 cm. Fara MTB, fara ghidon drept, fara gravel.
 
-================================ 8. LA FINAL
+================================ 9. LA FINAL
 
 - actualizeaza campul "actualizat" in fiecare JSON atins
 - scrie tools/ultimul-raport.md: ce s-a adaugat, ce s-a sters, ce si-a
