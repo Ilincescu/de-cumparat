@@ -325,6 +325,54 @@ async function scaneazaMasini({ anMinim = 2020, pretMax = 11500, kmMax = 100000,
   return potrivite;
 }
 
+// ---------------------------------------------------------------- publi24
+
+// publi24 raspunde la un GET obisnuit si isi tine anunturile in HTML, deci se
+// citesc cu expresii regulate. Nu are JSON in pagina si nici API public.
+function parsePubli24(html) {
+  const out = [];
+  for (const bloc of html.split('class="article-item').slice(1)) {
+    const url = (bloc.match(/href='([^']+\.html)'/) || [])[1];
+    if (!url) continue;
+    const titlu = (bloc.match(/<p class="article-title[^"]*"[^>]*>\s*([^<]+)/)
+      || bloc.match(/alt="([^"]{8,140})"/) || [])[1] || '';
+    const pretTxt = (bloc.match(/class="article-price"[^>]*>\s*([^<]+)/) || [])[1] || '';
+    const pret = numar(pretTxt.replace(/\s/g, ''));
+    out.push({
+      titlu: titlu.replace(/\s+/g, ' ').replace(/&#(\d+);/g, (m, c) => String.fromCharCode(c)).trim(),
+      pret: /EUR|€/i.test(pretTxt) ? pret : null,
+      url,
+    });
+  }
+  return out;
+}
+
+async function scaneazaPubli24(pagini = 3) {
+  const antet = { ...UA, 'Accept-Language': 'ro-RO,ro;q=0.9' };
+  let toate = [];
+  let total = null;
+  for (let p = 1; p <= pagini; p++) {
+    const u = `https://www.publi24.ro/anunturi/imobiliare/de-vanzare/sibiu/${p > 1 ? '?pag=' + p : ''}`;
+    const r = await fetch(u, { headers: antet });
+    if (!r.ok) { console.log(`publi24 pagina ${p}: status ${r.status}`); break; }
+    const html = await r.text();
+    if (total === null) total = numar((html.match(/search-result-total-items" content="(\d+)"/) || [])[1]);
+    const a = parsePubli24(html);
+    if (!a.length) break;
+    toate = toate.concat(a);
+  }
+  const vazute = new Set();
+  toate = toate.filter(x => !vazute.has(x.url) && vazute.add(x.url));
+
+  // pe publi24 apar si terenuri si garsoniere in aceeasi lista
+  const NU = /\bteren\b|garsonier|spatiu comercial|hala|depozit/i;
+  const case_ = toate.filter(x => /\bcas[aă]\b|vil[aă]/i.test(x.titlu) && !NU.test(x.titlu));
+  console.log(`publi24: ${total} anunturi in total, ${toate.length} citite, ${case_.length} case`);
+  case_.filter(x => x.pret && x.pret <= 190000).sort((a, b) => a.pret - b.pret).forEach(x =>
+    console.log(`  ${String(x.pret).padStart(7)} ${x.titlu.slice(0, 64)}\n          ${x.url}`));
+  return case_;
+}
+
 // ------------------------------------------------------------------- diff
 
 function snapshoturi() {
@@ -370,6 +418,7 @@ function diferente() {
   if (cmd === 'linkuri') await verificaLinkuri();
   else if (cmd === 'storia') await scaneazaStoria();
   else if (cmd === 'masini') await scaneazaMasini();
+  else if (cmd === 'publi24') await scaneazaPubli24();
   else if (cmd === 'dubluri') await gasesteDubluri();
   else if (cmd === 'diff') diferente();
   else if (cmd === 'tot') {
@@ -379,6 +428,6 @@ function diferente() {
     console.log('\n--- diferente fata de ieri ---'); diferente();
     console.log('\n--- dubluri dupa poze ---'); await gasesteDubluri();
   } else {
-    console.log('comenzi: linkuri | storia | masini | dubluri | diff | tot');
+    console.log('comenzi: linkuri | storia | masini | publi24 | dubluri | diff | tot');
   }
 })().catch(e => { console.error('EROARE:', e.message); process.exit(1); });
