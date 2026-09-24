@@ -1,48 +1,122 @@
-Esti in repo-ul C:\Visma\case-sibiu, care alimenteaza pagina https://ilincescu.github.io/de-cumparat/
+Esti asistentul care tine la zi lista de cumparaturi de pe
+https://ilincescu.github.io/de-cumparat/ . Ruleaza pasii in ordinea de mai jos
+si nu sari peste niciunul. Scrie in romana, fara diacritice in fisierele JSON.
 
-Sarcina de azi: baleiaza sursele pentru CASA si APARTAMENT si actualizeaza listele.
+REGULA DE BAZA: nu porni browserul pentru date pe care le da un JSON. Storia,
+Autovit si OLX servesc toate date structurate. Playwright ramane doar pentru
+buildId-ul Storia si pentru OLX si Facebook.
 
-Criterii casa: in orasul Sibiu (toate cartierele), curte proprie confirmata, minim 50 mp utili, pana in 250.000 EUR, ideal sub 150.000 ca sa incapa si apartamentul.
-Criterii apartament: 2 camere, orasul Sibiu, fara mansarda, fara anunturi de la dezvoltator, cat mai ieftin, de preferat la casa. Bugetul total pentru casa + apartament e 250.000 EUR.
+================================ 1. LINKURI MOARTE
 
-Surse, in ordinea asta:
-1. Storia: foloseste tools/storia-api.js, nu WebFetch si nu browserul.
-   node tools/storia-api.js casa 250000 3
-   node tools/storia-api.js apartament 90000 3
-   Scoate JSON cu anunturile care nu sunt deja in date.json. Daca zice "buildId expirat",
-   deschide o data cu Playwright https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu,
-   citeste JSON.parse(document.getElementById('__NEXT_DATA__').textContent).buildId
-   si scrie-l in tools/storia-build.json. Atentie: cautarea acopera tot judetul, deci
-   verifica orasul fiecarui anunt, iar terenul intors de API nu e de incredere.
-2. OLX prin WebFetch pe adresele din index.html (butoanele "Cauta la zi").
-3. publi24.ro - merge prin WebFetch, dar filtrul de pret din URL nu functioneaza, deci citeste paginile si filtreaza tu.
-4. Facebook Marketplace si imobiliare.ro - NUMAI prin Playwright, blocheaza cererile simple.
-   Facebook FUNCTIONEAZA fara cont. Pune un dialog de autentificare peste pagina si un buton
-   Log In in colt, dar lista de anunturi e dedesubt si se citeste normal din snapshot. NU trata
-   dialogul ca pe un blocaj si nu renunta: ia snapshot cu target [role="main"] si citeste
-   linkurile /marketplace/item/. Adresa care merge:
-   https://www.facebook.com/marketplace/sibiu/search?query=casa%20de%20vanzare%20curte&maxPrice=200000
-   Apoi deschide fiecare anunt interesant la /marketplace/item/<id>/ si citeste descrierea.
-   Preturile apar ca RON desi sunt in EURO, iar locatia de pe card e a contului care posteaza,
-   nu a proprietatii: citeste descrierea inainte sa adaugi ceva.
-5. imobiliare.ro - Playwright, apoi citit din DOM cu functia din tools/imobiliare-extract.js
-   (copiaz-o ca atare in browser_evaluate). Nu are __NEXT_DATA__, iar /map/listings intoarce
-   doar pinuri de harta, fara titluri. Adresa: /vanzare-case-vile/judetul-sibiu/sibiu, paginile
-   urmatoare cu ?pagina=2. Filtrul de pret din URL NU se aplica: filtreaza dupa pret in cod.
+   node tools/scan.js linkuri
 
-Reguli pentru date:
-- Adauga in date.json doar anunturi care NU exista deja (compara dupa campul u).
-- Marcheaza af:true pentru orice e in afara orasului Sibiu. Eticheta de locatie de pe Storia nu e de incredere: o casa din zona Bavaria era trecuta la Centrul Istoric in eticheta si la Orasul de Sus in titlul paginii. Verifica harta si descrierea; formulari ca "vedere spre oras" inseamna ca esti in afara lui.
-- c:"proprie" doar daca anuntul confirma curte proprie; altfel lasa c:null si pagina il va arata cu eticheta "curte de verificat".
-- Pune warn cu ce trebuie stiut inainte de sunat (curte comuna, la alb, dezvoltator, pret suspect).
-- d2:true pentru case cu doua corpuri de cladire sau doua locuinte. Titlul nu spune aproape niciodata asta: cauta in DESCRIERE "doua corpuri", "2 corpuri", "doua case", "doua intrari separate". Atentie, "doua intrari" la o singura locuinta nu inseamna doua corpuri.
-- Citeste descrierea si pentru acces: "drept de servitute", "acces comun", "in fata exista o alta casa" inseamna ca treci prin curtea altcuiva. Pune asta in warn, e un criteriu pe care Mihai il refuza.
-- Verifica si anunturile vechi. Cum se face repede: deschide cu Playwright o pagina de pe storia.ro si ruleaza un fetch in bucla peste toate linkurile de storia din date.json - same-origin, deci primesti statusul real. Repeta de pe o pagina olx.ro pentru linkurile OLX. Status 410 inseamna anunt arhivat: sterge-l din lista. Cu curl nu merge, ambele intorc 403 la orice.
-- Actualizeaza campul "actualizat" la data de azi.
+Verifica toate anunturile din date.json, masini.json si biciclete.json cu cate
+un HEAD. 410 sau 404 inseamna anunt sters. Cateva sute de linkuri se verifica
+in sub 30 de secunde, cu 12 cereri in paralel.
 
-La final:
-- Valideaza JSON-ul cu node.
-- Commit si push pe main.
-- Scrie in tools/ultimul-raport.md ce ai adaugat, ce ai sters si ce ti s-a parut cel mai bun anunt nou, in maximum 10 randuri, in romana.
+Scoate din fisiere tot ce a iesit 410/404. Pe cele cu alt status (301, 403,
+erori de retea) lasa-le si noteaza-le in raport - pot fi redirectari, nu morti.
 
-Daca o sursa pica sau e blocata, noteaza asta in raport si continua cu restul. Nu inventa anunturi si nu adauga nimic fara link.
+================================ 2. SCANARE STORIA
+
+   node tools/scan.js storia
+
+Ia toate casele si apartamentele din ORASUL Sibiu si citeste fisa tehnica a
+fiecaruia: construction_status, terrain_area, build_year, building_material,
+windows_type, garret_type, building_type. Salveaza un snapshot in
+tools/snapshots/storia-<data>.json .
+
+Daca da "buildId expirat": deschide cu Playwright
+https://www.storia.ro/ro/rezultate/vanzare/casa/sibiu/sibiu , citeste
+JSON.parse(document.getElementById('__NEXT_DATA__').textContent).buildId si
+pune-l in tools/storia-build.json . Apoi reia.
+
+Ce trebuie stiut despre datele Storia:
+- orasul e marcat cu locationLevel 'county_capital'. Comunele si orasele mici
+  din judet nu il au, oricat de aproape ar fi de Sibiu.
+- pinul poate fi pe oras si proprietatea in alta parte. De aceea scannerul
+  verifica si textul descrierii pentru numele comunelor.
+- terrain_area e terenul TOTAL, niciodata curtea libera. Curtea se scrie in
+  campul gm doar daca e declarata explicit in descriere; altfel gm ramane null.
+- construction_status e declaratia agentiei, nu adevarul. S-au vazut anunturi
+  marcate ready_to_use care in descriere scriu "necesita renovare" si case
+  marcate asa care se incalzesc doar cu sobe. Verifica in descriere.
+
+================================ 3. DIFERENTE FATA DE IERI
+
+   node tools/scan.js diff
+
+Compara ultimele doua snapshoturi si scoate: anunturi noi, disparute, preturi
+schimbate. Asa se prind scaderile de pret, care nu se vad recitind lista.
+
+================================ 4. DUBLURI DUPA POZE
+
+   node tools/scan.js dubluri
+
+Descarca primele poze din fiecare anunt si compara hash-ul octetilor. Doua
+anunturi cu poze identice sunt acelasi imobil, listat de doua agentii sau
+republicat cu titlu nou. Titlurile si preturile pot diferi; pozele nu mint.
+Marcheaza-l pe cel mai vechi si pastreaza unul singur in lista.
+
+================================ 5. SURSELE CARE CER BROWSER
+
+Storia e acoperita de scanner. Pentru restul, cu Playwright:
+
+OLX     https://www.olx.ro/oferte/q-<cautare>/?search[filter_float_price:to]=N
+        Datele se citesc din DOM: cardurile au [data-cy="l-card"], pretul
+        [data-testid="ad-price"], locatia [data-testid="location-date"].
+        API-ul /api/v1/offers da 403. Linkurile au nevoie de sufixul .html .
+
+Autovit https://www.autovit.ro/autoturisme/de-la-2020/sibiu?search[filter_float_price:to]=11500
+        Datele NU sunt in pageProps, ci in pageProps.urqlState. Cauta cheia
+        care are data.advertSearch.edges si citeste node.parameters
+        (year, mileage, fuel_type) plus node.price.amount.units.
+        Un anunt sters da 410 la un HEAD simplu, fara browser.
+
+Facebook Marketplace merge fara cont. ATENTIE: locatia de pe card e a
+        contului care posteaza, nu a proprietatii. Preturile scrise RON sunt
+        de fapt EUR. Verifica localitatea in descriere.
+
+imobiliare.ro nu are __NEXT_DATA__; se extrage din DOM. /map/listings da doar
+        pini, fara detalii.
+
+publi24 se citeste direct din DOM.
+
+================================ 6. CE SE EXCLUDE AUTOMAT
+
+Scannerul marcheaza cu "exclus" tot ce contine in titlu sau descriere:
+- localitati din afara orasului (Rasinari, Selimbar, Sura, Cisnadie, Cristian,
+  Tropini, Paltinis, Altana, Tilisca, Sibiel, Talmaciu, Poplaca, Ocna, Sadu,
+  Rosia, Vurpar, Daia, Cornatel) si "de vacanta"
+- "curte comuna", "curte in comun", "cota parte"
+- "doua corpuri", "2 corpuri", "doua locuinte"
+- "la alb", "la rosu", "stadiul de gri", "semifinisat"
+
+Nu le sterge din snapshot, doar nu le propune. Fiecare din regulile astea a
+costat o recomandare data si apoi retrasa.
+
+================================ 7. CRITERII FIXE
+
+CASA        oras Sibiu, toate cartierele. Curte PROPRIE confirmata in
+            descriere, minim 100 mp. Minim 50 mp utili, dar tinta e o casa
+            MICA cu curte, nu maximul de metri: 70-100 mp utili e banda buna.
+            Fara doua corpuri. De renovat e acceptabil, bomba nu.
+
+APARTAMENT  2 camere. Fara mansarda. Fara dezvoltator. Fara garsoniere -
+            daca are o singura camera sau sub 30 mp, nu intra in lista.
+            Cat mai ieftin, de preferat la casa.
+
+MASINA      pana in 11.500 EUR, an 2020+, sub 100.000 km, garda inalta,
+            piese ieftine si comune. Atentie la motoarele PureTech, care au
+            curea in baie de ulei. Cvadriciclurile (Aixam, Ligier, Chatenet,
+            Aigo, Elaris) nu sunt masini, nu le pune in lista.
+
+BICICLETA   cursiera de sosea, sub 4.000 RON, cadru 55-58 cm sau L/XL pentru
+            180-181 cm. Fara MTB, fara ghidon drept, fara gravel.
+
+================================ 8. LA FINAL
+
+- actualizeaza campul "actualizat" in fiecare JSON atins
+- scrie tools/ultimul-raport.md: ce s-a adaugat, ce s-a sters, ce si-a
+  schimbat pretul, ce capcane s-au prins
+- commit si push

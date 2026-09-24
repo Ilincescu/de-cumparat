@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2f6d4f">
+<title>Comparație case</title>
+<style>
+  :root{
+    --bg:#eef1ec; --surface:#fff; --surface-2:#f6f8f4;
+    --ink:#1b241d; --muted:#5b6a60; --faint:#8a9890;
+    --line:#dde3dc; --accent:#2f6d4f; --accent-soft:#e3efe7;
+    --warn:#a8521f; --warn-soft:#fbeee3;
+    --good:#2f6d4f; --good-soft:#e3efe7;
+    --bad:#a8321f; --bad-soft:#fbe6e3;
+    --radius:14px;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+      --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+      --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+      --warn:#e0a16a; --warn-soft:#33281e;
+      --good:#6fbf92; --good-soft:#22322a;
+      --bad:#e08a7a; --bad-soft:#33211e;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+    --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+    --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+    --warn:#e0a16a; --warn-soft:#33281e;
+    --good:#6fbf92; --good-soft:#22322a;
+    --bad:#e08a7a; --bad-soft:#33211e;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    padding-bottom:60px;-webkit-text-size-adjust:100%}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+  a{color:var(--accent)}
+
+  header{padding-block:22px 6px;position:relative}
+  h1{font-size:21px;margin:0;letter-spacing:-.02em}
+  .stamp{font-size:12px;color:var(--faint);margin-top:4px}
+  .lede{color:var(--muted);margin:10px 0 0;font-size:14px}
+  #themeBtn{position:absolute;top:18px;right:0;border:1px solid var(--line);
+    background:var(--surface);color:var(--muted);border-radius:999px;
+    width:34px;height:34px;font-size:15px;cursor:pointer}
+
+  h2{font-size:16px;margin:26px 0 10px;letter-spacing:-.01em}
+  .card{background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:14px;margin-bottom:12px}
+
+  .scroller{overflow-x:auto;-webkit-overflow-scrolling:touch;
+    border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);
+    margin-top:14px}
+  table{border-collapse:collapse;width:100%;min-width:720px;font-size:13px}
+  th,td{padding:9px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+  th{background:var(--surface-2);color:var(--muted);font-weight:600;font-size:12px}
+  td:first-child,th:first-child{text-align:left;white-space:normal;min-width:180px;
+    position:sticky;left:0;background:var(--surface);border-right:1px solid var(--line)}
+  th:first-child{background:var(--surface-2);z-index:2}
+  tbody tr:last-child td{border-bottom:0}
+  tr.visited td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
+  .rank{display:inline-block;min-width:19px;height:19px;line-height:19px;
+    text-align:center;border-radius:5px;background:var(--accent-soft);
+    color:var(--accent);font-size:11px;font-weight:700;margin-right:6px}
+  .name{font-weight:600;color:var(--accent);text-decoration:none}
+  .name:hover{text-decoration:underline}
+  .zone{color:var(--faint);font-size:12px;display:block;margin-top:2px}
+  .best{background:var(--good-soft);color:var(--good);font-weight:600}
+  .worst{background:var(--bad-soft);color:var(--bad)}
+  input.reno{width:80px;text-align:right;border:1px solid var(--line);
+    background:var(--surface-2);color:var(--ink);border-radius:7px;
+    padding:4px 6px;font:inherit;font-size:13px}
+  .legend{font-size:12px;color:var(--faint);margin-top:8px}
+
+  .links{margin:0;padding:0;list-style:none}
+  .links li{padding:7px 0;border-bottom:1px solid var(--line);font-size:13px}
+  .links li:last-child{border-bottom:0}
+  .links b{display:block}
+  .links a{word-break:break-all;font-size:12.5px}
+
+  .house{background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:14px 15px;margin-bottom:12px}
+  .house.visited{border-color:var(--accent)}
+  .house h3{margin:0;font-size:15px;display:flex;flex-wrap:wrap;
+    align-items:baseline;gap:8px}
+  .price{color:var(--accent);font-weight:700}
+  .tag{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;
+    background:var(--accent-soft);color:var(--accent)}
+  .house .meta{color:var(--faint);font-size:12px;margin:5px 0 0}
+  .verdict{margin:9px 0 12px;font-size:14px;color:var(--ink);
+    border-left:3px solid var(--accent);padding-left:11px}
+  .cols{display:grid;grid-template-columns:1fr;gap:12px}
+  @media(min-width:720px){.cols{grid-template-columns:1fr 1fr 1fr}}
+  .col h4{margin:0 0 5px;font-size:12px;text-transform:uppercase;
+    letter-spacing:.05em;color:var(--faint);font-weight:700}
+  .col ul{margin:0;padding-left:16px}
+  .col li{margin-bottom:4px;font-size:13.5px;color:var(--muted)}
+  .col.good h4{color:var(--good)}
+  .col.bad h4{color:var(--bad)}
+  .col.ask h4{color:var(--warn)}
+  .col.good li::marker{color:var(--good)}
+  .col.bad li::marker{color:var(--bad)}
+  .col.ask li::marker{color:var(--warn)}
+
+  .note{background:var(--warn-soft);border:1px solid var(--line);
+    border-radius:var(--radius);padding:12px 14px;font-size:13px;color:var(--ink)}
+  .note b{color:var(--warn)}
+  footer{margin:28px 0 0;font-size:12px;color:var(--faint)}
+  footer p{margin:5px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <button id="themeBtn" type="button" title="Temă">◐</button>
+  <h1>Comparație case — Sibiu</h1>
+  <div class="stamp">22 septembrie 2026 · <a href="index.html">înapoi la listă</a></div>
+  <p class="lede">De ce una e mai bună decât alta și cât te costă în total.
+    Sumele de renovare sunt estimările mele — editează-le în tabel și totalul se recalculează.</p>
+</header>
+
+<div class="scroller">
+<table id="tbl">
+  <thead>
+    <tr>
+      <th>Casa</th>
+      <th>Preț</th>
+      <th>mp utili</th>
+      <th>Curte</th>
+      <th>Renovare €</th>
+      <th>Total investit</th>
+      <th>€/mp la final</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+</div>
+<p class="legend">Ordinea e clasamentul meu, nu al prețului.
+  „€/mp la final" = totalul investit împărțit la mp utili — cât te costă în realitate un metru pătrat locuibil.
+  Verde = cel mai bun din coloană, roșu = cel mai slab.</p>
+
+<h2>De ce în ordinea asta</h2>
+<div id="fise"></div>
+
+<h2>Linkuri</h2>
+<div class="card"><ul id="linkuri" class="links"></ul></div>
+
+<div class="note">
+  <b>Ce nu e în tabel.</b> Niciun număr nu acoperă vecinii, zgomotul sau cum se simte
+  Raluca în zonă. Nicio estimare de renovare nu e ofertă — cere două devize
+  scrise înainte să te bazezi pe ele. Și <b>nicio casă de aici n-are structura verificată</b>:
+  tot ce scriu despre fisuri, acoperiș sau ziduri vine din fotografiile din anunț.
+  Fundația, șarpanta și zidăria se văd doar la fața locului, iar verdictul îl dă un expert.
+</div>
+
+<footer>
+  <p>Suprafețele și prețurile sunt cele din anunțuri, la 22 septembrie 2026.</p>
+  <p>Observațiile din poze sunt ale mele, de pe fotografiile publicate — nu înlocuiesc o vizionare.</p>
+</footer>
+
+</div>
+
+<script>
+var CASE = [
+  {
+    loc:4, id:"turnisor", nume:"Turnișor, 4 camere", zona:"Turnișor", vizitata:false,
+    pret:139000, mpu:120, curte:241, teren:475, reno:95000,
+    url:"https://www.storia.ro/ro/oferta/cas-individual-de-vnzare-turnior-sibiu-IDIhoz",
+    meta:"4 camere, baie cu geam, pivniță 30 mp, pod peste tot · pe piață din 21 august",
+    verdict:"Pe hârtie e cea mai bună: 120 mp utili, 241 mp curte, două intrări separate care ar rezolva și casa, și apartamentul de închiriat, la cel mai mic preț. În poze e altceva — o cameră e deja decopertată, cu ferestrele scoase și șapa goală, tencuiala e complet căzută în zona bucătăriei, tavanul are o gaură, iar pereții au igrasie la bază. E o renovare totală, nu una de finisaje: am urcat estimarea de la 55.000 la 95.000. Merită doar dacă vrei proiectul, nu casa.",
+    bun:[
+      "120 mp utili, cei mai mulți din listă, la cel mai mic preț",
+      "241 mp curte liberă, declarată explicit în descriere, din 475 mp teren",
+      "Două intrări din curte, compartimentată ca două apartamente de câte 2 camere",
+      "Baie cu geam, pivniță de ~30 mp, pod peste toate cele patru camere",
+      "Gaz racordat, vizibil pe fațadă; canalizare stradală pe stradă",
+      "Baia cu geam se confirmă în poze: chiuvetă, faianță, ferestruică de aerisire",
+      "Ferestre PVC deja montate în camere",
+      "1.450 € pe metru pătrat locuibil la final — de departe cel mai bun raport"
+    ],
+    rau:[
+      "Necesită renovare, scris în anunț fără ocolișuri",
+      "Instalațiile de apă și canalizare trebuie înlocuite complet",
+      "În zona de bucătărie, tencuiala e complet căzută pe o porțiune mare de perete, cu priza atârnând și un furtun tras pe jos",
+      "Pete de umezeală la baza pereților, în camera cu parchet mozaic",
+      "O cameră e deja decopertată: ferestrele de lemn demontate și sprijinite de perete, șapă goală, saci de tencuială pe jos. Lucrările au început și s-au oprit",
+      "Gaură deschisă în tavan lângă bucătărie, cu lemnul la vedere",
+      "Parchet mozaic uzat, cu bucăți lipsă lângă pereți",
+      "Acoperișul e vechi, cu mușchi, deși linia coamei arată dreaptă",
+      "Tencuiala e căzută pe colț și pe porțiuni din fațadă",
+      "Anexe gospodărești vechi în curte"
+    ],
+    intreb:[
+      "Cele două apartamente au contoare separate, sau se pot separa?",
+      "Ce înseamnă exact „instalațiile necesită înlocuire\" — până unde merge?",
+      "Curtea de 241 mp e a ta singur, sau se împarte între cele două locuințe?",
+      "Cere extrasul de carte funciară și releveul"
+    ]
+  },
+  {
+    loc:1, id:"lutului", nume:"Strada Lutului", zona:"Țiglari", vizitata:false,
+    pret:179000, mpu:88, curte:185, teren:252, reno:12000,
+    url:"https://www.storia.ro/ro/oferta/casa-individuala-d-p-pod-teren-252-mp-baie-cu-geam-si-curte-in-sibiu-IDHW8J",
+    meta:"D+P, 88 mp utili la parter plus 29 la demisol, 1974, cărămidă · pe piață din 17 iulie",
+    verdict:"Singura din listă marcată în fișa tehnică drept gata de locuit, și în poze chiar arată așa: camere mari și curate, parchet laminat, pereți fără fisuri, curte pavată impecabil cu viță de vie pe structură metalică și jgheaburi noi. Te muți și trăiești. Două minusuri reale: se încălzește cu sobe de teracotă, nu cu centrală — n-am văzut niciun calorifer în poze — iar curtea e pavată, nu grădină.",
+    bun:[
+      "Declarată gata de locuit în fișa tehnică, singura din listă",
+      "3 dormitoare, fiecare peste 18 mp; bucătărie închisă de 16 mp; baie cu fereastră",
+      "Demisol cu bucătărie de vară de 16 mp și pivniță — 29 mp utili în plus",
+      "Toate cele patru utilități, inclusiv canalizare",
+      "Curte pavată și foarte bine întreținută, cu foișor, afumătoare și 2 locuri de parcare",
+      "Stradă recent asfaltată, zonă exclusiv de case, lângă Lacul lui Binder",
+      "În poze: camere mari, parchet laminat, pereți și tavane fără fisuri, uși interioare întregi",
+      "Preț negociabil, scris în anunț"
+    ],
+    rau:[
+      "Se încălzește cu sobe de teracotă. În pozele de interior nu apare niciun calorifer, deci probabil nu există centrală — de întrebat",
+      "Curtea e pavată, nu grădină — din 252 mp teren rămân vreo 150 liberi",
+      "Tâmplăria e de lemn, de schimbat la un moment dat",
+      "Podul e declarat neutilizabil, deci fără potențial de mansardare",
+      "Cel mai mic teren dintre toate candidatele",
+      "Nu am verificat actele în niciun fel"
+    ],
+    intreb:[
+      "Există centrală sau se încălzește doar cu sobe?",
+      "Cere extrasul de carte funciară",
+      "Demisolul e intabulat ca suprafață utilă sau doar ca pivniță?",
+      "Cât e curtea liberă efectiv, după amprenta casei?"
+    ]
+  },
+  {
+    loc:2, id:"pcluj", nume:"Piața Cluj", zona:"Piața Cluj / Terezian", vizitata:false,
+    pret:164900, mpu:90, curte:223, teren:313, reno:55000,
+    url:"https://www.storia.ro/ro/oferta/casa-individuala-cu-curte-in-sibiu-zona-p-cluj-IDIyxc",
+    meta:"un singur nivel, 3 camere, de renovat · pe piață din 16 septembrie",
+    verdict:"Singura unde agenția scrie explicit „fără părți comune\" și „CF fără sarcini\" — dar asta e afirmația vânzătorului într-un anunț, nu un act pe care l-a văzut cineva. Ferestrele și parchetul sunt deja făcute, utilitățile sunt toate racordate. Minusul mare e acoperișul, care în poza de aproape arată a înlocuire completă.",
+    bun:[
+      "Anunțul spune explicit „fără părți comune\" și „CF fără sarcini\" — neverificat, e afirmația agenției",
+      "Toate utilitățile racordate, inclusiv canalizare",
+      "Tâmplăria PVC e deja schimbată, cu glafuri montate",
+      "Parchet laminat în camere, în stare bună",
+      "Un singur nivel, fără demisol; loc de parcare în curte",
+      "Grădină lucrată, vecin cu casă nouă și gard bordurat",
+      "Postată abia pe 16 septembrie"
+    ],
+    rau:[
+      "Acoperișul e de schimbat integral: țigle solzi decolorate cu mușchi, bucăți deplasate și sparte, mortarul de la coamă căzut, cărămidă expusă la racord, jgheab ruginit și peticit",
+      "Fisură pe tavanul livingului și una verticală pe fațadă",
+      "Aragazul apare în holul de la intrare, deși descrierea promite bucătărie separată",
+      "Anexe vechi de tablă în fundul curții, de demolat",
+      "Cablaj electric improvizat pe fațadă",
+      "Încălzirea nu e menționată nicăieri"
+    ],
+    intreb:[
+      "Cere extrasul de carte funciară — „CF fără sarcini\" e deocamdată doar scris în anunț",
+      "Suprafața din CF e aceeași cu cei 90 mp utili din anunț?",
+      "Există centrală?",
+      "Bucătăria e separată sau e în hol?",
+      "Fisurile sunt doar în tencuială sau merg în zidărie?"
+    ]
+  },
+  {
+    loc:3, id:"terezian", nume:"Terezian", zona:"Terezian", vizitata:false,
+    pret:177000, mpu:95, curte:313, teren:413, reno:60000,
+    url:"https://www.storia.ro/ro/oferta/casa-individuala-413-mp-teren-zona-terezian-IDHFt4",
+    meta:"decomandat, 3 camere, pivniță pe toată suprafața · pe piață din 22 iunie",
+    verdict:"Cea mai mare grădină din listă și singura cu hol central adevărat. Dar structura nu e verificată de nimeni, iar camerele goale sunt proaspăt văruite, ceea ce ascunde exact ce ai căuta. Renovarea poate fi 52.000 sau 75.000, iar ce decide e acoperișul — se lămurește în zece minute, urcând în pod.",
+    bun:[
+      "Grădină de 313 mp liberi, lată și însorită, nu o fâșie îngustă",
+      "Glafuri adânci la ferestre și tavane înalte, deci pereți groși — dedus din poze, nu măsurat",
+      "Pivniță pe toată suprafața casei, conform descrierii",
+      "Decomandat confirmat în poze: hol central vitrat spre curte, cu uși în camere de o parte și de alta",
+      "Calorifere și țevi de cupru deja montate, inclusiv pe hol",
+      "Gaz racordat, cutia contorului e pe fațadă",
+      "Casă de colț, la stradă asfaltată cu trotuar și canalizare stradală",
+      "Dușumea masivă de lemn în toate camerele, se poate șlefui și păstra",
+      "Există WC și o zonă de bucătărie cu faianță, deci instalațiile au un traseu"
+    ],
+    rau:[
+      "Acoperișul e la capăt de viață: țigle decolorate cu mușchi, coama deranjată, lemn înnegrit la streașină, jgheab lipsă pe colț",
+      "Tencuiala de la soclu e crăpată și căzută pe porțiuni mari, la stradă și în curte",
+      "Baia e de fapt un WC vechi cu rezervor înalt. Nici cadă, nici duș — baia se face de la zero",
+      "Camerele goale sunt proaspăt văruite; lipsa fisurilor din poze nu dovedește nimic",
+      "Pe peretele din spate, lângă anexă, o fisură verticală cu tencuiala căzută",
+      "Tâmplăria e de lemn cu obloane, toată de schimbat",
+      "Canalizarea nu e menționată: se declară doar apă, gaz și curent",
+      "Curtea din față e betonată complet cu dale mari",
+      "Stă pe piață de trei luni"
+    ],
+    intreb:[
+      "Expertiză tehnică înainte de ofertă — structura nu e verificată de nimeni",
+      "Ce e în anexa cu ușa verde și în cea cu ușa albastră?",
+      "Peretele din spate, cu fisura: e doar tencuială sau merge în zid?",
+      "Când s-a văruit ultima dată înăuntru?",
+      "Este racordată la canalizare sau are fosă?",
+      "Cere să urci în pod: șarpanta nu se vede în nicio poză"
+    ]
+  },
+  {
+    loc:5, id:"gusterita170", nume:"Gușterița, 3 camere", zona:"Gușterița", vizitata:false,
+    pret:170000, mpu:98, curte:246, teren:320, reno:65000,
+    url:"https://www.storia.ro/ro/oferta/cas-individual-3-camere-curte-mare-zon-linitit-gusterita-IDGY6n",
+    meta:"parter, tip vagon, 1978 · pe piață din 15 aprilie",
+    verdict:"Fișa tehnică o dă drept gata de locuit, dar pozele spun altceva: plan vagon, în care camerele se trec una prin alta, și încălzire numai cu sobe. Eticheta agenției nu e de încredere — e al doilea caz din scanare unde „ready_to_use\" contrazice realitatea. Cinci luni pe piață fără nicio scădere de preț confirmă.",
+    bun:[
+      "98 mp utili la un preț sub 180.000",
+      "Construcție solidă din cărămidă cu fundație de beton",
+      "Garaj și pivniță generoasă"
+    ],
+    rau:[
+      "Tip vagon: camerele se trec una prin alta, fără hol",
+      "Încălzire numai cu sobe de teracotă, niciun calorifer",
+      "Fisură verticală lângă ușă și crăpături la îmbinarea perete-tavan",
+      "Pată de umezeală lângă tavan, tencuială sărită la baza fațadei",
+      "Curte îngustă, umbrită de un zid înalt de cărămidă al vecinului",
+      "Stă pe piață de cinci luni, fără scădere de preț"
+    ],
+    intreb:[
+      "Se poate recompartimenta ca să apară un hol?",
+      "Adresa exactă: descrierea zice Gușterița, Storia o afișează la Orașul de Sus"
+    ]
+  },
+  {
+    loc:6, id:"tiglari", nume:"Țiglari, 3 camere", zona:"Țiglari", vizitata:false,
+    pret:125000, mpu:65, curte:180, teren:260, reno:55000,
+    url:"https://www.storia.ro/ro/oferta/comision-0-casa-individuala-cu-curte-si-gradina-260-mp-zona-tiglari-IDIkXM",
+    meta:"3 camere, 2 băi, carport, pod · pe piață din 27 august",
+    verdict:"Cea mai ieftină de cumpărat și cea mai scumpă pe metru pătrat locuibil: 2.769 €/mp la final. Cei 65 mp utili sunt doar cu 15 peste apartamentul în care stai acum, iar bucătăria se ajunge doar printr-o cameră sau printr-o verandă improvizată și neîncălzită — asta nu e finisaj, e recompartimentare.",
+    bun:[
+      "Cel mai mic preț de cumpărare din listă",
+      "Acoperișul arată sănătos: coamă dreaptă, țigle întregi",
+      "Pod cu fereastră, deci potențial de mansardare",
+      "Există calorifere în camere, nu doar sobe",
+      "Două băi și carport; gaz racordat, vizibil pe gard"
+    ],
+    rau:[
+      "Bucătăria se ajunge doar prin altă cameră sau printr-un hol exterior improvizat, cu geamuri vechi de lemn și tavan de OSB, neizolat",
+      "Doar 65 mp utili",
+      "Parchet mozaic uzat într-o cameră, dușumea veche în alta, tencuieli vechi peste tot",
+      "Tavanul din hol are vopseaua și tencuiala cojite, cu bucăți căzute",
+      "Sub un calorifer e pusă o cârpă pe jos — cineva aduna picături",
+      "Mașina se parchează lipit de veranda vitrată, sub geamurile camerei",
+      "Cei 260 mp sunt terenul total, nu curtea — rămân în jur de 180"
+    ],
+    intreb:[
+      "Există centrală? În poze apare un calorifer, dar anunțul zice sobă",
+      "Cât e curtea reală, după amprenta casei?",
+      "Podul se poate mansarda? Ce înălțime are?"
+    ]
+  },
+  {
+    loc:7, id:"inului", nume:"Inului 21", zona:"Gușterița", vizitata:true,
+    pret:129990, mpu:80, curte:389, teren:503, reno:45000,
+    url:"https://www.storia.ro/ro/oferta/casa-4-camere-cu-teren-503-mp-si-acces-auto-in-curte-comision-0-IDIvrk",
+    meta:"1971, cărămidă, renovată 2020 · vizionată pe 22 septembrie",
+    verdict:"Ieșită din discuție. Pe cifre era foarte bună — cea mai mare curte, centrală proprie, 2.187 € pe metru pătrat locuibil la final. O scot două lucruri care n-au legătură cu prețul: actele, unde lipsește chiar suprafața utilă și trei construcții nu sunt intabulate, și vecinii, văzuți la vizionare. Al doilea motiv e suficient singur.",
+    bun:[
+      "Cea mai mare curte din listă: 389 mp liberi, cu acces auto și două fronturi stradale de câte 10 m",
+      "Are centrală proprie și calorifere, clasă energetică B",
+      "Dormitoarele chiar sunt renovate: parchet laminat, pereți albi, tâmplărie nouă",
+      "Acoperișul trebuie schimbat doar pe jumătate, ~60 mp"
+    ],
+    rau:[
+      "Vecinii — văzuți la vizionarea din 22 septembrie, impresie proastă. Singurul motiv care nu se rezolvă cu bani sau cu hârtii",
+      "Suprafața utilă nu apare deloc în acte — trebuie releveu și cadastru nou",
+      "Extinderea de 15 mp și două anexe nu sunt intabulate, una construită în 2021",
+      "Cinci moștenitori care trebuie să semneze toți în aceeași zi",
+      "Bucătăria e în holul de la intrare, cu două frigidere și cămara alături",
+      "La cei 15 mp se intră pe afară — legarea cere spart un perete portant",
+      "Izolația termică e pusă pe interior, nu pe exterior: risc de condens la colțuri",
+      "Tâmplăria e de aluminiu, nu PVC",
+      "În pozele din curte, jur-împrejur sunt ziduri degradate, acoperișuri de tablă și garduri improvizate"
+    ],
+    intreb:[
+      "Nu mai e cazul — zona a decis."
+    ]
+  }
+];
+
+function euro(n){
+  if(n===null||n===undefined||isNaN(n)) return "—";
+  return Math.round(n).toLocaleString("ro-RO")+" €";
+}
+
+function deseneaza(){
+  var randuri = CASE.map(function(c){
+    var total = c.pret + c.reno;
+    return { c:c, total:total, ppmFinal: total / c.mpu };
+  });
+
+  function extrem(vals, maiMareEBun){
+    var max = Math.max.apply(null, vals), min = Math.min.apply(null, vals);
+    return { bun: maiMareEBun ? max : min, rau: maiMareEBun ? min : max };
+  }
+  var exTotal = extrem(randuri.map(function(r){ return r.total; }), false);
+  var exPpm   = extrem(randuri.map(function(r){ return r.ppmFinal; }), false);
+  var exMpu   = extrem(CASE.map(function(c){ return c.mpu; }), true);
+  var exCurte = extrem(CASE.map(function(c){ return c.curte; }), true);
+
+  function cls(v, e){ return v===e.bun ? "best" : (v===e.rau ? "worst" : ""); }
+
+  var tb = document.querySelector("#tbl tbody");
+  tb.innerHTML = "";
+  randuri.forEach(function(r){
+    var c = r.c;
+    var tr = document.createElement("tr");
+    if(c.vizitata) tr.className = "visited";
+    tr.innerHTML =
+      '<td><span class="rank">'+c.loc+'</span>'+
+        '<a class="name" href="'+c.url+'" target="_blank" rel="noopener">'+
+        c.nume+(c.vizitata?' ★':'')+' ↗</a>'+
+        '<span class="zone">'+c.zona+'</span></td>'+
+      '<td>'+euro(c.pret)+'</td>'+
+      '<td class="'+cls(c.mpu,exMpu)+'">'+c.mpu+'</td>'+
+      '<td class="'+cls(c.curte,exCurte)+'">'+c.curte+' mp</td>'+
+      '<td><input class="reno" type="number" step="1000" data-id="'+c.id+'" value="'+c.reno+'"></td>'+
+      '<td class="'+cls(r.total,exTotal)+'">'+euro(r.total)+'</td>'+
+      '<td class="'+cls(r.ppmFinal,exPpm)+'">'+Math.round(r.ppmFinal).toLocaleString("ro-RO")+'</td>';
+    tb.appendChild(tr);
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll("input.reno"), function(inp){
+    inp.addEventListener("change", function(){
+      var c = CASE.filter(function(x){ return x.id === inp.dataset.id; })[0];
+      if(c){ c.reno = +inp.value || 0; deseneaza(); }
+    });
+  });
+}
+
+function fise(){
+  var gazda = document.getElementById("fise");
+  gazda.innerHTML = "";
+  CASE.forEach(function(c){
+    var d = document.createElement("div");
+    d.className = "house" + (c.vizitata ? " visited" : "");
+    function lista(titlu, cheie, klass){
+      return '<div class="col '+klass+'"><h4>'+titlu+'</h4><ul>'+
+        c[cheie].map(function(x){ return "<li>"+x+"</li>"; }).join("") +
+        '</ul></div>';
+    }
+    d.innerHTML =
+      '<h3><span class="rank">'+c.loc+'</span>'+c.nume+
+        ' <span class="price">'+euro(c.pret)+'</span>'+
+        (c.vizitata ? ' <span class="tag">vizitată azi</span>' : '')+'</h3>'+
+      '<div class="meta">'+c.mpu+' mp utili · '+c.curte+' mp curte'+
+        (c.teren ? ' din '+c.teren+' mp teren' : '')+' · '+c.meta+
+        ' · <a href="'+c.url+'" target="_blank" rel="noopener">anunțul</a></div>'+
+      '<p class="verdict">'+c.verdict+'</p>'+
+      '<div class="cols">'+
+        lista("Ce e bun","bun","good")+
+        lista("Ce e prost","rau","bad")+
+        lista("De întrebat","intreb","ask")+
+      '</div>';
+    gazda.appendChild(d);
+  });
+}
+
+function linkuri(){
+  document.getElementById("linkuri").innerHTML = CASE.map(function(c){
+    return '<li><b>'+c.loc+'. '+c.nume+' — '+euro(c.pret)+
+      (c.vizitata?' · vizitată azi':'')+'</b>'+
+      '<a href="'+c.url+'" target="_blank" rel="noopener">'+c.url+'</a></li>';
+  }).join("");
+}
+
+document.getElementById("themeBtn").addEventListener("click", function(){
+  var r = document.documentElement;
+  var acum = r.getAttribute("data-theme");
+  var inchis = acum ? acum === "dark"
+    : window.matchMedia("(prefers-color-scheme:dark)").matches;
+  r.setAttribute("data-theme", inchis ? "light" : "dark");
+  try{ localStorage.setItem("tema", r.getAttribute("data-theme")); }catch(e){}
+});
+try{
+  var t = localStorage.getItem("tema");
+  if(t) document.documentElement.setAttribute("data-theme", t);
+}catch(e){}
+
+deseneaza();
+fise();
+linkuri();
+</script>
+</body>
+</html>
