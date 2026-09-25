@@ -89,6 +89,22 @@ async function verificaLinkuri() {
     const lista = (j[camp] || []).filter(o => o.u);
     const t0 = Date.now();
     const stari = await paralel(lista, 12, o => stare(o.u));
+
+    // Storia limiteaza cererile paralele si intoarce 403 sau 429 pentru o parte
+    // din ele. Ce nu a raspuns clar se reia incet, altfel anunturi vii ajung
+    // numarate ca incerte si ai crede ca lista e mai moarta decat e.
+    const deReluat = [];
+    stari.forEach((s, k) => { if (s !== 200 && s !== 410 && s !== 404) deReluat.push(k); });
+    if (deReluat.length) {
+      process.stdout.write(`  ${deReluat.length} raspunsuri neclare, le reiau incet`);
+      for (const k of deReluat) {
+        await new Promise(r => setTimeout(r, 250));
+        stari[k] = await stare(lista[k].u);
+        process.stdout.write('.');
+      }
+      console.log();
+    }
+
     const morti = [];
     let vii = 0, incerte = 0;
     stari.forEach((s, k) => {
