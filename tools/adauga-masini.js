@@ -60,7 +60,7 @@ function dinNextData(html) {
   console.log(`autovit: ${cautare.totalCount} rezultate in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
 
   const azi = new Date().toISOString().slice(0, 10);
-  const gasite = cautare.edges.map(e => {
+  let gasite = cautare.edges.map(e => {
     const n = e.node || {};
     const p = {};
     (n.parameters || []).forEach(x => { p[x.key] = x.displayValue || x.value; });
@@ -75,7 +75,8 @@ function dinNextData(html) {
         ? 'Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.' : null,
       d: azi,
     };
-  }).filter(x => !CVADRICICLU.test(x.m) && GARDA_INALTA.test(x.m));
+  }).filter(x => !CVADRICICLU.test(x.m));
+  gasite.forEach(x => { x.gj = !GARDA_INALTA.test(x.m); });
 
   const j = JSON.parse(fs.readFileSync(path.join(RADACINA, 'masini.json'), 'utf8'));
   const existente = new Set(j.masini.map(m => m.u));

@@ -194,6 +194,7 @@
     <select id="zone"></select>
     <label class="check" id="ownWrap"><input type="checkbox" id="own" checked> doar curte proprie</label>
     <label class="check" id="d2Wrap"><input type="checkbox" id="nod2" checked> fără case cu 2 corpuri / 2 locuințe</label>
+    <label class="check" id="gjWrap" hidden><input type="checkbox" id="nogj" checked> ascunde gardă joasă</label>
     <label class="check" id="warnWrap" hidden><input type="checkbox" id="nowarn" checked> ascunde ce nu se potrivește</label>
     <label class="check" id="sizeWrap" hidden><input type="checkbox" id="mysize" checked> doar mărimea mea</label>
     <label class="check"><input type="checkbox" id="onlyfav"> doar favorite</label>
@@ -264,7 +265,7 @@
   var SHARE={persoane:{},anunturi:{}};
   function sharedOf(u){ return SHARE.anunturi[u]||null; }
   var state={k:"casa",maxp:250000,minmp:50,mingm:100,maxkm:200000,minan:2020,zone:"_oras",
-             own:true,nod2:true,nowarn:true,mysize:true,onlyfav:false,hideseen:true,pick:{casa:null,ap:null,masina:null,bike:null}};
+             own:true,nod2:true,nogj:true,nowarn:true,mysize:true,onlyfav:false,hideseen:true,pick:{casa:null,ap:null,masina:null,bike:null}};
   function el(id){return document.getElementById(id)}
 
   // Favoritele stau in browserul de pe care marchezi - nu se sincronizeaza intre telefon si laptop
@@ -380,6 +381,8 @@
       if(isCar()){
         if(state.minan && o.an<state.minan) return false;
         if(o.km>state.maxkm) return false;
+        // gj = garda joasa; masinile joase raman in lista, doar ascunse
+        if(state.nogj && o.gj) return false;
         if(state.nowarn && o.warn) return false;
         return true;
       }
@@ -521,6 +524,7 @@
     el("curteRow").hidden=state.k!=="casa";
     el("ownWrap").hidden=state.k!=="casa";
     el("d2Wrap").hidden=state.k!=="casa";
+    el("gjWrap").hidden=state.k!=="masina";
     el("warnWrap").hidden=imo;
     el("sizeWrap").hidden=!bike;
     var s=el("maxp");
@@ -564,6 +568,7 @@
   el("zone").addEventListener("change",function(){state.zone=this.value;render();});
   el("own").addEventListener("change",function(){state.own=this.checked;render();});
   el("nod2").addEventListener("change",function(){state.nod2=this.checked;render();});
+  el("nogj").addEventListener("change",function(){state.nogj=this.checked;render();});
   el("nowarn").addEventListener("change",function(){state.nowarn=this.checked;render();});
   el("mysize").addEventListener("change",function(){state.mysize=this.checked;render();});
   el("onlyfav").addEventListener("change",function(){state.onlyfav=this.checked;render();});
