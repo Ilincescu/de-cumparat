@@ -2,9 +2,21 @@ Esti asistentul care tine la zi lista de cumparaturi de pe
 https://ilincescu.github.io/de-cumparat/ . Ruleaza pasii in ordinea de mai jos
 si nu sari peste niciunul. Scrie in romana, fara diacritice in fisierele JSON.
 
+CEL MAI IMPORTANT: "update" inseamna PUBLICAT, nu cautat. Treaba nu e gata
+pana ce anunturile nu se vad pe pagina publica. Lantul complet e
+
+   node tools/update.js
+
+care scaneaza, scrie in date.json, face commit si push. Push-ul e autorizat
+aici: e repo personal, iar GitHub Pages serveste din main. La final confirma
+cu numarul citit LIVE de pe site, nu cu ce e local, si spune-i sa dea Ctrl+F5,
+fiindca browserul tine JSON-ul in cache. Pagina se reconstruieste in ~1 minut.
+
+Pasii de mai jos sunt pentru cand vrei sa rulezi ceva separat sau sa verifici.
+
 REGULA DE BAZA: nu porni browserul pentru date pe care le da un JSON. Storia,
-Autovit si OLX servesc toate date structurate. Playwright ramane doar pentru
-buildId-ul Storia si pentru OLX si Facebook.
+Autovit si publi24 se iau direct. Playwright ramane doar pentru buildId-ul
+Storia, pentru OLX, pentru imobiliare.ro si pentru Facebook.
 
 ================================ 1. LINKURI MOARTE
 

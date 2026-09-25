@@ -20,6 +20,34 @@ const SCRIE = process.argv.includes('--scrie');
 
 const idAnunt = u => ((String(u).match(/-(ID[A-Za-z0-9]+)(?:\.html)?$/) || [])[1]) || u;
 
+// Pagina filtreaza implicit pe curte proprie confirmata si pe minim 100 mp de
+// curte, iar un anunt cu gm sau c pe null nu trece niciunul din filtre - adica
+// e pe site dar nu se vede. De aceea suprafata curtii si tipul ei se scot din
+// descriere, nu se lasa necompletate.
+function curteDinDescriere(text) {
+  if (!text) return null;
+  const tipare = [
+    /(?:teren|curte|gr[aă]din[aă])\s+liber[aă]?\s*(?:de|:)?\s*(\d{2,4})\s*(?:mp|m2|m²)/i,
+    /(?:curte|gr[aă]din[aă])\s+(?:proprie\s+)?(?:de|cu)\s*(\d{2,4})\s*(?:mp|m2|m²)/i,
+    /(\d{2,4})\s*(?:mp|m2|m²)\s+(?:de\s+)?(?:teren\s+liber|curte|gr[aă]din[aă])/i,
+  ];
+  for (const re of tipare) {
+    const m = text.match(re);
+    if (m) {
+      const v = parseInt(m[1], 10);
+      if (v >= 20 && v <= 5000) return v;
+    }
+  }
+  return null;
+}
+
+function tipCurte(text) {
+  if (!text) return null;
+  if (/curte\s+comun|[iî]n\s+comun|cot[aă]\s+parte/i.test(text)) return 'comuna';
+  if (/curte\s+proprie|curte\s+privat|curte\s+individual|singur\s+[iî]n\s+curte|f[aă]r[aă]\s+p[aă]r[tț]i\s+comune/i.test(text)) return 'proprie';
+  return null;
+}
+
 async function stare(u) {
   try { return (await fetch(u, { method: 'HEAD', redirect: 'manual', headers: UA })).status; }
   catch (e) { return 0; }
@@ -71,11 +99,15 @@ function ultimulSnapshot() {
       if (x.tip === 'casa' && x.pret > 250000) continue;
       if (x.tip === 'apartament' && (x.camere !== 'TWO' || x.pret > 110000)) continue;
       existente.add(idAnunt(x.url));
+      const text = `${x.titlu} ${x.descriere || ''}`;
+      const gm = curteDinDescriere(text);
       noi.push({
         k: x.tip === 'casa' ? 'casa' : 'ap',
         p: x.pret, t: x.titlu, z: x.zona || 'Sibiu',
         r: { ONE: 1, TWO: 2, THREE: 3, FOUR: 4, FIVE: 5, SIX: 6 }[x.camere] || null,
-        a: x.mpu || null, g: x.teren ? `teren ${x.teren} mp` : null, gm: null, c: null,
+        a: x.mpu || null,
+        g: gm ? `curte libera ${gm} mp` : (x.teren ? `teren ${x.teren} mp` : null),
+        gm, c: tipCurte(text),
         src: 'storia', u: x.url,
         warn: x.stare === 'to_renovation' ? 'Declarata de renovat in fisa tehnica.' : null,
         d: AZI,
