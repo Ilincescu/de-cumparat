@@ -41,10 +41,14 @@ function curteDinDescriere(text) {
   return null;
 }
 
-function tipCurte(text) {
-  if (!text) return null;
-  if (/curte\s+comun|[iî]n\s+comun|cot[aă]\s+parte/i.test(text)) return 'comuna';
-  if (/curte\s+proprie|curte\s+privat|curte\s+individual|singur\s+[iî]n\s+curte|f[aă]r[aă]\s+p[aă]r[tț]i\s+comune/i.test(text)) return 'proprie';
+// building_type 'detached' se afiseaza pe Storia ca 'Tip clădire: singur in
+// curte'. E un camp completat de vanzator, deci trece drept confirmare, nu
+// absenta mentiunii - exact ce cere filtrul de curte proprie.
+function tipCurte(text, formaCladire) {
+  const t = text || '';
+  if (/curte\s+comun|[iî]n\s+comun|cot[aă]\s+parte/i.test(t)) return 'comuna';
+  if (formaCladire === 'detached') return 'proprie';
+  if (/curte\s+proprie|curte\s+privat|curte\s+individual|singur\s+[iî]n\s+curte|f[aă]r[aă]\s+p[aă]r[tț]i\s+comune/i.test(t)) return 'proprie';
   return null;
 }
 
@@ -107,7 +111,7 @@ function ultimulSnapshot() {
         r: { ONE: 1, TWO: 2, THREE: 3, FOUR: 4, FIVE: 5, SIX: 6 }[x.camere] || null,
         a: x.mpu || null,
         g: gm ? `curte libera ${gm} mp` : (x.teren ? `teren ${x.teren} mp` : null),
-        gm, c: tipCurte(text),
+        gm, c: tipCurte(text, x.formaCladire),
         src: 'storia', u: x.url,
         warn: x.stare === 'to_renovation' ? 'Declarata de renovat in fisa tehnica.' : null,
         d: AZI,

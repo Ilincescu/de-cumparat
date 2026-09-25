@@ -27,19 +27,25 @@ function curteDinDescriere(text) {
   return null;
 }
 
-function tipCurte(text) {
-  if (!text) return null;
-  if (/curte\s+comun|[iî]n\s+comun|cot[aă]\s+parte/i.test(text)) return 'comuna';
-  if (/curte\s+proprie|curte\s+privat|curte\s+individual|singur\s+[iî]n\s+curte|f[aă]r[aă]\s+p[aă]r[tț]i\s+comune/i.test(text)) return 'proprie';
+// building_type 'detached' se afiseaza pe Storia ca 'Tip clădire: singur in
+// curte'. E un camp completat de vanzator, deci trece drept confirmare, nu
+// absenta mentiunii - exact ce cere filtrul de curte proprie.
+function tipCurte(text, formaCladire) {
+  const t = text || '';
+  if (/curte\s+comun|[iî]n\s+comun|cot[aă]\s+parte/i.test(t)) return 'comuna';
+  if (formaCladire === 'detached') return 'proprie';
+  if (/curte\s+proprie|curte\s+privat|curte\s+individual|singur\s+[iî]n\s+curte|f[aă]r[aă]\s+p[aă]r[tț]i\s+comune/i.test(t)) return 'proprie';
   return null;
 }
 
 const dosar = path.join(__dirname, 'snapshots');
 const descrieri = new Map();
+const forme = new Map();
 if (fs.existsSync(dosar)) {
   for (const f of fs.readdirSync(dosar).filter(x => x.startsWith('storia-')).sort()) {
     for (const x of JSON.parse(fs.readFileSync(path.join(dosar, f), 'utf8'))) {
       descrieri.set(idAnunt(x.url), `${x.titlu} ${x.descriere || ''}`);
+      forme.set(idAnunt(x.url), x.formaCladire);
     }
   }
 }
@@ -55,7 +61,7 @@ for (const o of j.anunturi) {
   const text = descrieri.get(idAnunt(o.u)) || o.t || '';
   if (!descrieri.has(idAnunt(o.u))) faraDescriere++;
   if (o.gm == null) { const v = curteDinDescriere(text); if (v) { o.gm = v; o.g = `curte libera ${v} mp`; completateGm++; } }
-  if (o.c == null) { const t = tipCurte(text); if (t) { o.c = t; completateC++; } }
+  if (o.c == null) { const t = tipCurte(text, forme.get(idAnunt(o.u))); if (t) { o.c = t; completateC++; } }
 }
 
 const case_ = j.anunturi.filter(o => o.k === 'casa');
