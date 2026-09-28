@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-27",
+ "actualizat": "2026-09-28",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -793,21 +793,6 @@
    "u": "https://www.facebook.com/marketplace/item/1025510910548435/",
    "warn": "Detalii neverificate. Locatia de pe Marketplace e a contului, nu a casei - citeste descrierea, poate fi un sat din judet",
    "d": "2026-09-16"
-  },
-  {
-   "k": "casa",
-   "p": 139990,
-   "t": "Casa individuala 2 camere, 50 mp utili, teren 105 mp cu curte proprie, mobilata si utilata",
-   "z": "Gusterita",
-   "r": 2,
-   "a": 50,
-   "g": "teren 105 mp",
-   "c": "proprie",
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/casa-de-vnzare-sibiu-2-camere-gusteria-50-mp-curte-IDI2ZO",
-   "warn": null,
-   "d": "2026-09-18",
-   "gm": 105
   },
   {
    "k": "casa",
@@ -1686,20 +1671,6 @@
    "u": "https://www.facebook.com/marketplace/item/5376467442579205/",
    "d": "2026-09-15",
    "gm": 390
-  },
-  {
-   "k": "casa",
-   "p": 190000,
-   "t": "Casa individuala P+1, 137 mp utili, 4 camere, acces auto, zona Lac",
-   "z": "Tiglari",
-   "r": 4,
-   "a": 137,
-   "g": null,
-   "c": "proprie",
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/cas-individual-p-1-137-mp-utili-4-camere-acces-auto-zona-lac-IDHZPP",
-   "warn": "Detalii neverificate in descriere.",
-   "d": "2026-09-18"
   },
   {
    "k": "casa",
@@ -2707,21 +2678,6 @@
    "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-pe-un-nivel-in-turnisor-sibiu-IDIE1I",
    "warn": "Str. Ogorului. Aceeasi casa ca IDHZBV si IDIcUe (tot 235.000, 585 mp), republicata de Paltinul Imobiliare. Singur in curte, bucatarie de vara, pivnita boltita.",
    "d": "2026-09-24"
-  },
-  {
-   "k": "casa",
-   "p": 239000,
-   "t": "Casa duplex, 125 mp utili, 4 camere",
-   "z": "Gusterita",
-   "r": 4,
-   "a": 125,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/cas-duplex-125-mpu-4-camere-guteria-IDHZQS",
-   "warn": "Duplex, deci lipita de vecin. Detalii neverificate in descriere.",
-   "d": "2026-09-20",
-   "d2": true
   },
   {
    "k": "casa",
@@ -7287,6 +7243,21 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-i-utilat-proprietar-0-comisioane-IDIeio",
    "warn": null,
    "d": "2026-09-27"
+  },
+  {
+   "k": "ap",
+   "p": 94000,
+   "t": "Apartament 2 camere Turnisor",
+   "z": "Turnisor, Sibiu",
+   "r": 2,
+   "a": 58,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-turnisor-IDIrEJ",
+   "warn": null,
+   "d": "2026-09-28"
   }
  ]
 }
