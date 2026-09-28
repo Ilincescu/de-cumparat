@@ -55,6 +55,7 @@ function numara() {
   ruleaza('node', ['tools/scan.js', 'storia']);
   ruleaza('node', ['tools/scan.js', 'masini'], true);
   ruleaza('node', ['tools/publica.js', '--scrie']);
+  ruleaza('node', ['tools/istoric.js'], true);
 
   const dupa = numara();
   const schimbari = ruleaza('git', ['status', '--porcelain']);
@@ -69,7 +70,7 @@ function numara() {
     + `apartamente ${inainte.ap} -> ${dupa.ap}.\n\n`
     + 'Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>';
 
-  ruleaza('git', ['add', 'date.json', 'masini.json', 'biciclete.json', 'tools/snapshots']);
+  ruleaza('git', ['add', 'date.json', 'masini.json', 'biciclete.json', 'istoric-preturi.json', 'tools/snapshots']);
   ruleaza('git', ['commit', '-q', '-m', mesaj]);
   ruleaza('git', ['push', '-q', 'origin', 'HEAD:main']);
 
