@@ -1057,7 +1057,7 @@
   },
   {
    "k": "casa",
-   "p": 158000,
+   "p": 165000,
    "t": "Casa duplex 4 camere, 123 mp, curte 200 mp, Tropini - Rasinari",
    "z": "Rasinari",
    "af": true,
@@ -1069,7 +1069,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-intabulata-tip-duplex-curte-libera-200mp-sibiu-IDIDom",
    "warn": "E in Rasinari (zona Tropini), nu in Sibiu - pinul pus pe str. Nicolae Balcescu e fals. Se preda la alb, ultimele unitati ale unui dezvoltator, gazul inca neracordat.",
-   "d": "2026-09-24"
+   "d": "2026-09-28"
   },
   {
    "k": "casa",
@@ -1297,7 +1297,7 @@
   },
   {
    "k": "casa",
-   "p": 177000,
+   "p": 163000,
    "t": "Casa individuala decomandata, 3 camere, 95 mp utili, teren 413 mp din care 313 mp teren liber, pivnita pe toata suprafata, 2 anexe, front stradal 12 m",
    "z": "Terezian",
    "r": 3,
@@ -1307,7 +1307,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-413-mp-teren-zona-terezian-IDHFt4",
    "warn": "Tamplarie de LEMN, de schimbat. Apa, gaz si curent declarate - canalizarea nu e mentionata, intreaba. Calorifere si tevi de cupru montate, casa e goala si zugravita alb. Dusumea masiva, pereti grosi. Pe piata din 22 iunie.",
-   "d": "2026-09-18",
+   "d": "2026-09-28",
    "gm": 313
   },
   {
@@ -1833,7 +1833,7 @@
   },
   {
    "k": "casa",
-   "p": 199990,
+   "p": 185000,
    "t": "Casa 3 camere, 108 mp, teren 400 mp",
    "z": "Tiglari",
    "r": 3,
@@ -1842,7 +1842,7 @@
    "c": "proprie",
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/cas-3-camere-de-vnzare-tiglari-sibiu-108-mp-teren-400-mp-IDIbXM",
-   "d": "2026-09-18",
+   "d": "2026-09-28",
    "gm": 400
   },
   {
@@ -3426,7 +3426,7 @@
   },
   {
    "k": "ap",
-   "p": 68000,
+   "p": 77000,
    "t": "Garsoniera etaj 1, balcon + boxa, 25 mp",
    "z": "Vasile Aaron",
    "r": 1,
@@ -3435,7 +3435,7 @@
    "c": null,
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/garsonier-de-vnzare-vasile-aaron-balcon-buctrie-separat-IDIqsz",
-   "d": "2026-09-23"
+   "d": "2026-09-28"
   },
   {
    "k": "ap",
@@ -3745,7 +3745,7 @@
   },
   {
    "k": "ap",
-   "p": 75000,
+   "p": 92000,
    "t": "Apartament 2 camere, 37 mp, etaj 3",
    "z": "Mihai Viteazu",
    "r": 2,
@@ -3755,7 +3755,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-terezian-sibiu-52-mp-balcon-IDIxDw",
    "warn": null,
-   "d": "2026-09-23"
+   "d": "2026-09-28"
   },
   {
    "k": "ap",
@@ -3942,7 +3942,7 @@
   },
   {
    "k": "ap",
-   "p": 77000,
+   "p": 110000,
    "t": "Comision 0% Apartament modern 2 camere etaj 1 zona Vasile Aaron Sibiu",
    "z": "Sibiu",
    "r": 2,
@@ -3951,7 +3951,7 @@
    "c": null,
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/comision-0-apartament-modern-2-camere-etaj-1-zona-vasile-aaron-sibiu-IDIAlx",
-   "d": "2026-09-21",
+   "d": "2026-09-28",
    "warn": "Titlu cu Comision 0% - verifica daca vanzatorul e dezvoltator sau agentie"
   },
   {
@@ -4012,7 +4012,7 @@
   },
   {
    "k": "ap",
-   "p": 78000,
+   "p": 75000,
    "t": "Apartament 2 camere, 40 mp, etaj 3, Bd. Mihai Viteazu",
    "z": "Mihai Viteazu",
    "r": 2,
@@ -4022,7 +4022,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-3-bulevardul-mihai-viteazu-IDItRP",
    "warn": null,
-   "d": "2026-09-18"
+   "d": "2026-09-28"
   },
   {
    "k": "ap",
@@ -4498,7 +4498,7 @@
   },
   {
    "k": "ap",
-   "p": 85900,
+   "p": 81990,
    "t": "Apartament 2 camere, 45 mp, parter",
    "z": "Terezian",
    "r": 2,
@@ -4508,7 +4508,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-parter-terezian-IDIzgQ",
    "warn": "Detalii neverificate in descriere.",
-   "d": "2026-09-18"
+   "d": "2026-09-28"
   },
   {
    "k": "ap",
@@ -4704,20 +4704,6 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-balcon-6-mp-pivni-cireica-IDId1B",
    "d": "2026-09-18"
-  },
-  {
-   "k": "ap",
-   "p": 87000,
-   "t": "Apartament 2 camere decomandat, Hipodrom IV, 43 mp",
-   "z": "Hipodrom 4",
-   "r": 2,
-   "a": 43,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-in-zona-hipodrom-iv-IDItzi",
-   "warn": "Zona Ciresica / Hipodrom IV are mai multe anunturi aproape identice la 87.000 (IDIy5h, IDIxiz, IDItzi) - probabil acelasi apartament.",
-   "d": "2026-09-20"
   },
   {
    "k": "ap",

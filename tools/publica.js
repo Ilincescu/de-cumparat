@@ -91,11 +91,22 @@ function ultimulSnapshot() {
     return true;
   });
 
-  // 2. anunturi noi din ultimul snapshot
+  // 2. anunturi noi din ultimul snapshot, plus preturile schimbate la cele
+  // existente - fara asta, o scadere de pret nu ajunge niciodata pe site
   const snap = ultimulSnapshot();
   const noi = [];
+  const schimbate = [];
   if (snap) {
     const s = JSON.parse(fs.readFileSync(snap, 'utf8'));
+    const dupaId = new Map(s.filter(x => x.pret).map(x => [idAnunt(x.url), x]));
+    for (const o of vii) {
+      const x = dupaId.get(idAnunt(o.u));
+      if (x && x.pret !== o.p) {
+        schimbate.push({ t: o.t, vechi: o.p, nou: x.pret });
+        o.p = x.pret;
+        o.d = AZI;
+      }
+    }
     const existente = new Set(vii.map(o => idAnunt(o.u)));
     for (const x of s) {
       if (x.exclus || !x.pret) continue;
@@ -121,6 +132,11 @@ function ultimulSnapshot() {
 
   console.log(`date.json: ${inainte} anunturi`);
   console.log(`  ${morti.length} moarte, de scos`);
+  console.log(`  ${schimbate.length} cu pret schimbat`);
+  schimbate.sort((a, b) => (a.nou - a.vechi) - (b.nou - b.vechi)).forEach(x => {
+    const d = x.nou - x.vechi;
+    console.log(`    ${String(x.vechi).padStart(7)} -> ${String(x.nou).padStart(7)} (${d > 0 ? '+' : ''}${d})  ${String(x.t).slice(0, 52)}`);
+  });
   console.log(`  ${noi.length} noi, de adaugat`);
   noi.forEach(x => console.log(`    ${x.k === 'casa' ? 'casa' : 'ap  '} ${String(x.p).padStart(7)} ${String(x.a || '?').padStart(4)}mpu ${String(x.z).padEnd(18)} ${String(x.t).slice(0, 56)}`));
   console.log(`  rezultat: ${vii.length + noi.length} anunturi`);
