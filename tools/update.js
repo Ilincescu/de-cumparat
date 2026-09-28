@@ -55,6 +55,7 @@ function numara() {
   ruleaza('node', ['tools/scan.js', 'storia']);
   ruleaza('node', ['tools/scan.js', 'masini'], true);
   ruleaza('node', ['tools/publica.js', '--scrie']);
+  ruleaza('node', ['tools/curata.js', '--scrie']);
   ruleaza('node', ['tools/istoric.js'], true);
 
   const dupa = numara();
