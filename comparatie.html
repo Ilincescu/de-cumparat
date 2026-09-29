@@ -141,6 +141,7 @@
   <tbody></tbody>
 </table>
 </div>
+<p class="legend" id="sincronizare">se citesc prețurile din listă…</p>
 <p class="legend">Ordinea e clasamentul meu, nu al prețului.
   „€/mp la final" = totalul investit împărțit la mp utili — cât te costă în realitate un metru pătrat locuibil.
   Verde = cel mai bun din coloană, roșu = cel mai slab.</p>
@@ -170,7 +171,7 @@
 var CASE = [
   {
     loc:4, id:"turnisor", nume:"Turnișor, 4 camere", zona:"Turnișor", vizitata:false,
-    pret:139000, mpu:120, curte:241, teren:475, reno:95000,
+    pret:129900, mpu:120, curte:241, teren:475, reno:95000,
     url:"https://www.storia.ro/ro/oferta/cas-individual-de-vnzare-turnior-sibiu-IDIhoz",
     meta:"4 camere, baie cu geam, pivniță 30 mp, pod peste tot · pe piață din 21 august",
     verdict:"Pe hârtie e cea mai bună: 120 mp utili, 241 mp curte, două intrări separate care ar rezolva și casa, și apartamentul de închiriat, la cel mai mic preț. În poze e altceva — o cameră e deja decopertată, cu ferestrele scoase și șapa goală, tencuiala e complet căzută în zona bucătăriei, tavanul are o gaură, iar pereții au igrasie la bază. E o renovare totală, nu una de finisaje: am urcat estimarea de la 55.000 la 95.000. Merită doar dacă vrei proiectul, nu casa.",
@@ -267,7 +268,7 @@ var CASE = [
   },
   {
     loc:3, id:"terezian", nume:"Terezian", zona:"Terezian", vizitata:false,
-    pret:177000, mpu:95, curte:313, teren:413, reno:60000,
+    pret:163000, mpu:95, curte:313, teren:413, reno:60000,
     url:"https://www.storia.ro/ro/oferta/casa-individuala-413-mp-teren-zona-terezian-IDHFt4",
     meta:"decomandat, 3 camere, pivniță pe toată suprafața · pe piață din 22 iunie",
     verdict:"Cea mai mare grădină din listă și singura cu hol central adevărat. Dar structura nu e verificată de nimeni, iar camerele goale sunt proaspăt văruite, ceea ce ascunde exact ce ai căuta. Renovarea poate fi 52.000 sau 75.000, iar ce decide e acoperișul — se lămurește în zece minute, urcând în pod.",
@@ -414,14 +415,17 @@ function deseneaza(){
     tr.innerHTML =
       '<td><span class="rank">'+c.loc+'</span>'+
         '<a class="name" href="'+c.url+'" target="_blank" rel="noopener">'+
-        c.nume+(c.vizitata?' ★':'')+' ↗</a>'+
+        c.nume+(c.vizitata?' ★':'')+(c.scosDinLista?' (scos)':'')+' ↗</a>'+
         '<span class="zone">'+c.zona+'</span></td>'+
       '<td>'+euro(c.pret)+'</td>'+
       '<td class="'+cls(c.mpu,exMpu)+'">'+c.mpu+'</td>'+
       '<td class="'+cls(c.curte,exCurte)+'">'+c.curte+' mp</td>'+
       '<td><input class="reno" type="number" step="1000" data-id="'+c.id+'" value="'+c.reno+'"></td>'+
       '<td class="'+cls(r.total,exTotal)+'">'+euro(r.total)+'</td>'+
-      '<td class="'+cls(r.ppmFinal,exPpm)+'">'+Math.round(r.ppmFinal).toLocaleString("ro-RO")+'</td>';
+      // fara verde pe €/mp: coloana asta premiaza casa mare si daramata si
+      // pedepseste casa mica si terminata, iar verdele o facea sa para
+      // castigatoare desi totalul de plata era printre cele mai mari
+      '<td>'+Math.round(r.ppmFinal).toLocaleString("ro-RO")+'</td>';
     tb.appendChild(tr);
   });
 
@@ -485,6 +489,35 @@ try{
 deseneaza();
 fise();
 linkuri();
+
+// Preturile scrise aici se invechesc: la 29 septembrie pagina arata inca
+// 177.000 la Terezian, care scazuse la 163.000. Asa ca se citesc din
+// date.json, care se actualizeaza zilnic, si se potrivesc dupa ID-ul de la
+// capatul linkului, fiindca Storia redenumeste linkul pastrand ID-ul.
+function idAnunt(u){
+  var m = String(u).match(/-(ID[A-Za-z0-9]+)(?:\.html)?$/);
+  return m ? m[1] : String(u);
+}
+fetch("date.json?v=" + Date.now()).then(function(r){ return r.json(); }).then(function(d){
+  var dupaId = {};
+  (d.anunturi || []).forEach(function(o){ if(o.u) dupaId[idAnunt(o.u)] = o; });
+  var schimbate = 0, disparute = 0;
+  CASE.forEach(function(c){
+    var o = dupaId[idAnunt(c.url)];
+    if(!o){ c.scosDinLista = true; disparute++; return; }
+    if(o.p && o.p !== c.pret){ c.pret = o.p; schimbate++; }
+  });
+  if(schimbate || disparute){ deseneaza(); fise(); linkuri(); }
+  var s = document.getElementById("sincronizare");
+  if(s){
+    s.textContent = "Preturile vin din lista de pe site, actualizata " + (d.actualizat || "?") +
+      (schimbate ? " · " + schimbate + (schimbate === 1 ? " pret corectat" : " preturi corectate") : "") +
+      (disparute ? " · " + disparute + (disparute === 1 ? " anunt scos de pe Storia" : " anunturi scoase de pe Storia") : "");
+  }
+}).catch(function(){
+  var s = document.getElementById("sincronizare");
+  if(s) s.textContent = "Nu am putut citi date.json - preturile de mai jos pot fi vechi.";
+});
 </script>
 </body>
 </html>
