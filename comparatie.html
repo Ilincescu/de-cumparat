@@ -486,6 +486,10 @@ try{
   if(t) document.documentElement.setAttribute("data-theme", t);
 }catch(e){}
 
+// randarea merge pe ordinea din lista, nu pe campul loc, asa ca lista se
+// sorteaza o data: altfel o casa retrogradata ramane prima pe pagina
+CASE.sort(function(a, b){ return a.loc - b.loc; });
+
 deseneaza();
 fise();
 linkuri();
