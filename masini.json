@@ -28,20 +28,6 @@
    "gj": false
   },
   {
-   "m": "Nissan Qashqai 2.0 CVT Tekna",
-   "an": 2009,
-   "km": 134500,
-   "cp": 140,
-   "f": "benzina",
-   "p": 4795,
-   "z": "Sibiu",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-2-0-cvt-tekna-ID7HQLRd.html",
-   "warn": null,
-   "d": "2026-09-24",
-   "gj": false
-  },
-  {
    "m": "Nissan Qashqai",
    "an": 2010,
    "km": 136480,
@@ -126,20 +112,6 @@
    "gj": true
   },
   {
-   "m": "Mazda CX-5",
-   "an": 2013,
-   "km": 141900,
-   "cp": 150,
-   "f": "diesel",
-   "p": 6650,
-   "z": "Miercurea-Ciuc",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ID7HQJJX.html",
-   "warn": null,
-   "d": "2026-09-24",
-   "gj": false
-  },
-  {
    "m": "Nissan Qashqai",
    "an": 2012,
    "km": 137000,
@@ -205,20 +177,6 @@
    "z": "Bucuresti",
    "src": "autovit",
    "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-tiguan-ver-2-0-tdi-dpf-4motion-life-ID7HQAND.html",
-   "warn": null,
-   "d": "2026-09-24",
-   "gj": false
-  },
-  {
-   "m": "Kia Sportage 2.0 DSL MT 4x4 PREMIUM",
-   "an": 2012,
-   "km": 147311,
-   "cp": 136,
-   "f": "diesel",
-   "p": 7500,
-   "z": "Bucuresti",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-2-0-dsl-mt-4x4-premium-ID7HISWE.html",
    "warn": null,
    "d": "2026-09-24",
    "gj": false
@@ -389,48 +347,6 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/citron-c3-aircross-1-2-puretech-s-s-bvm6-shine-ID7HQM1Q.html",
    "warn": "133.500 km, peste pragul tau de 100.000. Motor PureTech cu curea in ulei.",
    "d": "2026-09-21",
-   "gj": false
-  },
-  {
-   "m": "Kia Sportage 2.0 CRDI 4WD Automatik Spirit",
-   "an": 2012,
-   "km": 137452,
-   "cp": 136,
-   "f": "diesel",
-   "p": 8890,
-   "z": "Braila",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-2-0-crdi-4wd-automatik-spirit-ID7HQH6L.html",
-   "warn": null,
-   "d": "2026-09-24",
-   "gj": false
-  },
-  {
-   "m": "Nissan Qashqai 1.2 DIG-T Start/Stop X-TRONIC Acenta",
-   "an": 2016,
-   "km": 60300,
-   "cp": 115,
-   "f": "benzina",
-   "p": 8900,
-   "z": "Bucuresti",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-2-dig-t-start-stop-x-tronic-acenta-ID7HLkMM.html",
-   "warn": null,
-   "d": "2026-09-24",
-   "gj": false
-  },
-  {
-   "m": "Nissan Qashqai 1.5 DCI DPF Acenta",
-   "an": 2014,
-   "km": 130000,
-   "cp": 110,
-   "f": "diesel",
-   "p": 8950,
-   "z": "Cluj-Napoca",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-5-dci-dpf-acenta-ID7HQGM4.html",
-   "warn": null,
-   "d": "2026-09-24",
    "gj": false
   },
   {
@@ -672,20 +588,6 @@
    "gj": false
   },
   {
-   "m": "Hyundai Tucson 2.0 CRDi",
-   "an": 2016,
-   "km": 119017,
-   "cp": 136,
-   "f": "diesel",
-   "p": 9999,
-   "z": "Pitesti",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-tucson-ID7HQGQP.html",
-   "warn": null,
-   "d": "2026-09-14",
-   "gj": false
-  },
-  {
    "m": "Nissan Qashqai 1.2 DIG-T Start/Stop Acenta",
    "an": 2015,
    "km": 99791,
@@ -781,20 +683,6 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ID7HQM6G.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
-  },
-  {
-   "m": "Hyundai Kona 1.0 T-GDI",
-   "an": 2019,
-   "km": 42066,
-   "cp": 120,
-   "f": "benzina",
-   "p": 10100,
-   "z": "Bucuresti",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ID7HQxGM.html",
-   "warn": null,
-   "d": "2026-09-14",
    "gj": false
   },
   {
@@ -907,34 +795,6 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-gdi-6mt-4x2-classic-ID7HQvaB.html",
    "warn": null,
    "d": "2026-09-14",
-   "gj": false
-  },
-  {
-   "m": "Suzuki Vitara",
-   "an": 2017,
-   "km": 129850,
-   "cp": 120,
-   "f": "diesel",
-   "p": 10500,
-   "z": "Mamaia-Sat",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ID7HQGy3.html",
-   "warn": null,
-   "d": "2026-09-24",
-   "gj": false
-  },
-  {
-   "m": "Suzuki Vitara",
-   "an": 2019,
-   "km": 104411,
-   "cp": 111,
-   "f": "benzina",
-   "p": 10500,
-   "z": "Arad",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ID7HQNYm.html",
-   "warn": null,
-   "d": "2026-09-24",
    "gj": false
   },
   {
@@ -1092,20 +952,6 @@
    "gj": false
   },
   {
-   "m": "Volkswagen Tiguan 2.0 TDI 4Motion DSG Trend & Fun",
-   "an": 2013,
-   "km": 120091,
-   "cp": 140,
-   "f": "diesel",
-   "p": 10980,
-   "z": "Braila",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-tiguan-ver-2-0-tdi-4motion-dsg-trend-fun-ID7HQyxZ.html",
-   "warn": null,
-   "d": "2026-09-24",
-   "gj": false
-  },
-  {
    "m": "Peugeot 2008 1.2 PureTech Allure",
    "an": 2022,
    "km": 64338,
@@ -1246,34 +1092,6 @@
    "gj": false
   },
   {
-   "m": "Suzuki Vitara S 1.4 Boosterjet 4X4",
-   "an": 2016,
-   "km": 136283,
-   "cp": 140,
-   "f": "benzina",
-   "p": 11000,
-   "z": "Timisoara",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ver-s-1-4-boosterjet-4x4-ID7HQstt.html",
-   "warn": null,
-   "d": "2026-09-24",
-   "gj": false
-  },
-  {
-   "m": "Nissan Qashqai 1.6 DCI Start/Stop 4X4-i Tekna",
-   "an": 2017,
-   "km": 102462,
-   "cp": 130,
-   "f": "diesel",
-   "p": 11000,
-   "z": "Timisoara",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-6-dci-start-stop-4x4-i-tekna-ID7HPd3L.html",
-   "warn": null,
-   "d": "2026-09-24",
-   "gj": false
-  },
-  {
    "m": "Kia Sportage 1.6 GDI 6MT 4x2 Style",
    "an": 2017,
    "km": 115000,
@@ -1316,20 +1134,6 @@
    "gj": false
   },
   {
-   "m": "Suzuki Vitara 1.6 4X4 Passion",
-   "an": 2015,
-   "km": 57361,
-   "cp": 120,
-   "f": "benzina",
-   "p": 11300,
-   "z": "Odorheiu Secuiesc",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ver-1-6-4x4-passion-ID7HQLAE.html",
-   "warn": null,
-   "d": "2026-09-24",
-   "gj": false
-  },
-  {
    "m": "Nissan Qashqai",
    "an": 2017,
    "km": 119000,
@@ -1341,20 +1145,6 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ID7HQLaN.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
-  },
-  {
-   "m": "Hyundai Kona 1.0 T-GDI Luxury",
-   "an": 2019,
-   "km": 124579,
-   "cp": 120,
-   "f": "benzina",
-   "p": 11500,
-   "z": "Bucuresti",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-2wd-luxury-ID7HQKyf.html",
-   "warn": null,
-   "d": "2026-09-14",
    "gj": false
   },
   {
@@ -1428,20 +1218,6 @@
    "gj": false
   },
   {
-   "m": "Mazda CX-5 CD175 4x4 AT Revolution Top",
-   "an": 2015,
-   "km": 141000,
-   "cp": 175,
-   "f": "diesel",
-   "p": 11500,
-   "z": "Bucuresti",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ver-cd175-4x4-at-revolution-top-ID7HQKkT.html",
-   "warn": null,
-   "d": "2026-09-24",
-   "gj": false
-  },
-  {
    "m": "Suzuki Vitara",
    "an": 2017,
    "km": 122321,
@@ -1453,20 +1229,6 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ID7HQKk6.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
-  },
-  {
-   "m": "Hyundai Tucson 1.6 benzina",
-   "an": 2016,
-   "km": 141000,
-   "cp": 132,
-   "f": "benzina",
-   "p": 11980,
-   "z": "Bacau",
-   "src": "autovit",
-   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-tucson-ID7HQGlM.html",
-   "warn": null,
-   "d": "2026-09-14",
    "gj": false
   },
   {

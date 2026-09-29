@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-28",
+ "actualizat": "2026-09-29",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -399,6 +399,10 @@
     {
      "d": "2026-09-18",
      "p": 83000
+    },
+    {
+     "d": "2026-09-29",
+     "p": 80000
     }
    ]
   },
@@ -5313,6 +5317,10 @@
     {
      "d": "2026-09-18",
      "p": 195000
+    },
+    {
+     "d": "2026-09-29",
+     "p": 190000
     }
    ]
   },
@@ -9483,6 +9491,66 @@
     {
      "d": "2026-09-24",
      "p": 2550
+    }
+   ]
+  },
+  "IDIGWq": {
+   "u": "https://www.storia.ro/ro/oferta/ap-triplex-4-camere-2-bai-garaj-84-mpteren-turnisor-sibiu-vest-IDIGWq",
+   "t": "Ap.TRIPLEX 4 camere 2 bai/ garaj/ 84 mpteren Turnisor SIBIU VEST",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 174990
+    }
+   ]
+  },
+  "IDIHcN": {
+   "u": "https://www.storia.ro/ro/oferta/confort-si-calitate-garsoniera-perfecta-pentru-investitie-IDIHcN",
+   "t": "Confort si calitate - Garsoniera perfecta pentru investitie",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 97710
+    }
+   ]
+  },
+  "IDIHcM": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-si-utilat-38-mp-facultatea-de-drept-IDIHcM",
+   "t": "Apartament 2 camere, mobilat si utilat - 38 mp - Facultatea de Drept",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 103990
+    }
+   ]
+  },
+  "IDIHcI": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-43-63-mp-utili-gradina-lacul-lui-binder-IDIHcI",
+   "t": "Apartament 2 camere - 43,63 mp utili + gradina - Lacul lui Binder",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 94500
+    }
+   ]
+  },
+  "IDIH4o": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-54mpu-2-camere-si-balcon-zona-brana-selimbar-IDIH4o",
+   "t": "Apartament decomandat 54mpu 2 camere si balcon zona Brana Selimbar",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 94000
+    }
+   ]
+  },
+  "IDIGYQ": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-de-vanzare-mobilat-pivnita-vasile-aaron-sibiu-IDIGYQ",
+   "t": "Apartament decomandat de vanzare mobilat pivnita Vasile Aaron Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 109990
     }
    ]
   }
