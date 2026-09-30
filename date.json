@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-29",
+ "actualizat": "2026-09-30",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -1355,20 +1355,6 @@
   {
    "k": "casa",
    "p": 215000,
-   "t": "Casa insiruita 4 camere, 100 mp utili",
-   "z": "Turnisor",
-   "r": 4,
-   "a": 100,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/casa-insiruita-4-camere-100-mp-utili-zona-turnisor-sibiu-IDHBGU",
-   "d": "2026-09-18",
-   "d2": true
-  },
-  {
-   "k": "casa",
-   "p": 215000,
    "t": "Casa 2 camere decomandate, 56 mp, teren 335 mp, zona Parcul Tineretului",
    "z": "Lazaret",
    "r": 2,
@@ -2241,7 +2227,7 @@
   },
   {
    "k": "ap",
-   "p": 64000,
+   "p": 59500,
    "t": "Apartament 2 camere, 54 mp utili si balcon",
    "z": "Terezian",
    "r": 2,
@@ -2251,7 +2237,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-54-mp-utili-si-balcon-de-vanzare-terezian-sibiu-IDIy9C",
    "warn": "Cel mai mult spatiu pe leu din lista de apartamente. Detalii neverificate in descriere.",
-   "d": "2026-09-18"
+   "d": "2026-09-30"
   },
   {
    "k": "ap",
@@ -2504,20 +2490,6 @@
   },
   {
    "k": "ap",
-   "p": 73800,
-   "t": "Apartament 2 camere cu pivnita, zona Rahovei, 41 mp",
-   "z": "Hipodrom 3",
-   "r": 2,
-   "a": 41,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-pivnita-sibiu-rahovei-IDIkv2",
-   "warn": "Detalii neverificate in descriere.",
-   "d": "2026-09-20"
-  },
-  {
-   "k": "ap",
    "p": 73900,
    "t": "Apartament 2 camere cu balcon, 36 mp, zona Rahovei",
    "z": "Rahovei",
@@ -2655,20 +2627,6 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-in-sibiu-ultracentral-str-dealului-IDIyEV",
    "warn": "Detalii neverificate in descriere.",
    "d": "2026-09-18"
-  },
-  {
-   "k": "ap",
-   "p": 75000,
-   "t": "Apartament 2 camere, 46 mp, zona Cedonia",
-   "z": "Hipodrom 3",
-   "r": 2,
-   "a": 46,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-sibiu-cedonia-IDItUe",
-   "warn": "Detalii neverificate in descriere.",
-   "d": "2026-09-20"
   },
   {
    "k": "ap",
@@ -3104,20 +3062,6 @@
   },
   {
    "k": "ap",
-   "p": 81999,
-   "t": "Apartament 2 camere, balcon, lift si parcare, Calea Surii Mici, 38 mp",
-   "z": "Calea Surii Mici",
-   "r": 2,
-   "a": 38,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-lift-si-parcare-calea-surii-mici-sibiu-IDIn1l",
-   "warn": "Bloc cu lift si parcare pe Calea Surii Mici - verifica daca e ansamblu nou de la dezvoltator.",
-   "d": "2026-09-20"
-  },
-  {
-   "k": "ap",
    "p": 82500,
    "t": "Apartament 2 camere renovat, etaj 3/5, Mihai Viteazu, 37 mp",
    "z": "Mihai Viteazu",
@@ -3467,19 +3411,6 @@
   {
    "k": "ap",
    "p": 86990,
-   "t": "Apartament 2 camere decomandat, pivnita, balcon, 43 mp",
-   "z": "Hipodrom 4",
-   "r": 2,
-   "a": 43,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-pivnita-balcon-hipodrom-4-sibiu-IDIde7",
-   "d": "2026-09-18"
-  },
-  {
-   "k": "ap",
-   "p": 86990,
    "t": "Apartament 2 camere decomandat, 45 mp + balcon 8 mp, pivnita 10 mp, etaj 4 din 4, mobilat",
    "z": "Hipodrom 4",
    "r": 2,
@@ -3696,20 +3627,6 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-utilat-decomandat-45mp-terezian-sibiu-IDIt4E",
    "warn": "Acelasi apartament apare si ca IDInDX si IDIm9O, toate 89.000, 45 mp, Terezian.",
-   "d": "2026-09-20"
-  },
-  {
-   "k": "ap",
-   "p": 89000,
-   "t": "Apartament 2 camere, 55 mp utili, Terezian",
-   "z": "Terezian",
-   "r": 2,
-   "a": 55,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-terezian-55-mpu-IDIoMn",
-   "warn": "Detalii neverificate in descriere.",
    "d": "2026-09-20"
   },
   {
@@ -4781,21 +4698,6 @@
    "c": null,
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandate-in-sibiu-str-rahovei-IDHT3k",
-   "warn": null,
-   "d": "2026-09-25"
-  },
-  {
-   "k": "ap",
-   "p": 58000,
-   "t": "Apartamentul care iti ofera mai mult decat 47 mp – doua niveluri, de",
-   "z": "Vasile Aaron, Sibiu",
-   "r": 2,
-   "a": 47,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartamentul-care-iti-ofera-mai-mult-decat-47-mp-doua-niveluri-de-IDHZFE",
    "warn": null,
    "d": "2026-09-25"
   },
@@ -6073,6 +5975,111 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-de-vanzare-mobilat-pivnita-vasile-aaron-sibiu-IDIGYQ",
    "warn": null,
    "d": "2026-09-29"
+  },
+  {
+   "k": "casa",
+   "p": 189900,
+   "t": "Casă de vânzare Sibiu | 3 camere | Tiglari | 159 mp | anexă",
+   "z": "Tiglari, Sibiu",
+   "r": 3,
+   "a": 159,
+   "g": "teren 369 mp",
+   "gm": null,
+   "c": "proprie",
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/cas-de-vnzare-sibiu-3-camere-tiglari-159-mp-anex-IDIHFT",
+   "warn": null,
+   "d": "2026-09-30"
+  },
+  {
+   "k": "ap",
+   "p": 73764,
+   "t": "Apartament cu 2 camere de vanzare zona Calea Surii Mici",
+   "z": "Sibiu",
+   "r": 2,
+   "a": 37,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-de-vanzare-zona-calea-surii-mici-IDII1l",
+   "warn": "Declarata de renovat in fisa tehnica.",
+   "d": "2026-09-30"
+  },
+  {
+   "k": "ap",
+   "p": 89000,
+   "t": "Apartament 2 camere la vilă – Turnișor, Sibiu",
+   "z": "Turnisor, Sibiu",
+   "r": 2,
+   "a": 54,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-la-vil-turnior-sibiu-IDIHVx",
+   "warn": "Declarata de renovat in fisa tehnica.",
+   "d": "2026-09-30"
+  },
+  {
+   "k": "ap",
+   "p": 80000,
+   "t": "Apartament de vanzare 2 camere Sibiu Magnolia",
+   "z": "Turnisor, Sibiu",
+   "r": 2,
+   "a": 38,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-sibiu-magnolia-IDIHM7",
+   "warn": null,
+   "d": "2026-09-30"
+  },
+  {
+   "k": "ap",
+   "p": 81999,
+   "t": "Apartament 2 camere balcon lift si parcare Calea Surii Mici Sibiu",
+   "z": "Sibiu",
+   "r": 2,
+   "a": 38,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-lift-si-parcare-calea-surii-mici-sibiu-IDIHJE",
+   "warn": null,
+   "d": "2026-09-30"
+  },
+  {
+   "k": "ap",
+   "p": 82900,
+   "t": "Apartament 2 Camere de Vanzare – Bulevardul Mihai Viteazu, Sibiu",
+   "z": "Hipodrom III, Sibiu",
+   "r": 2,
+   "a": 52.7,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-bulevardul-mihai-viteazu-sibiu-IDIHpK",
+   "warn": null,
+   "d": "2026-09-30"
+  },
+  {
+   "k": "ap",
+   "p": 86990,
+   "t": "Apartament 2 camere de vanzare mobilat pivnita balcon Siretului Sibiu",
+   "z": "Hipodrom II, Sibiu",
+   "r": 2,
+   "a": 45,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-mobilat-pivnita-balcon-siretului-sibiu-IDIHkw",
+   "warn": null,
+   "d": "2026-09-30"
   }
  ]
 }

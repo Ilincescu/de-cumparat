@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-29",
+ "actualizat": "2026-09-30",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -2491,6 +2491,10 @@
     {
      "d": "2026-09-25",
      "p": 44990
+    },
+    {
+     "d": "2026-09-30",
+     "p": 42990
     }
    ]
   },
@@ -3143,6 +3147,10 @@
     {
      "d": "2026-09-18",
      "p": 64000
+    },
+    {
+     "d": "2026-09-30",
+     "p": 59500
     }
    ]
   },
@@ -3463,6 +3471,10 @@
     {
      "d": "2026-09-25",
      "p": 79000
+    },
+    {
+     "d": "2026-09-30",
+     "p": 75000
     }
    ]
   },
@@ -9317,6 +9329,10 @@
     {
      "d": "2026-09-15",
      "p": 2200
+    },
+    {
+     "d": "2026-09-29",
+     "p": 2700
     }
    ]
   },
@@ -9551,6 +9567,356 @@
     {
      "d": "2026-09-29",
      "p": 109990
+    }
+   ]
+  },
+  "IDIHFT": {
+   "u": "https://www.storia.ro/ro/oferta/cas-de-vnzare-sibiu-3-camere-tiglari-159-mp-anex-IDIHFT",
+   "t": "Casă de vânzare Sibiu | 3 camere | Tiglari | 159 mp | anexă",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 189900
+    }
+   ]
+  },
+  "IDGogC": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-in-sibiu-teren-503-mp-zona-gusterita-IDGogC",
+   "t": "Casa individuala de vanzare in Sibiu, teren 503 mp zona Gusterita",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 165000
+    }
+   ]
+  },
+  "IDII6Y": {
+   "u": "https://www.storia.ro/ro/oferta/de-vanzare-mansarda-72-mpu-2-dormitoare-zona-de-interes-tilisca-IDII6Y",
+   "t": "De vanzare mansarda 72 mpu 2 dormitoare zona de interes Tilisca",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 105000
+    }
+   ]
+  },
+  "IDII1l": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-de-vanzare-zona-calea-surii-mici-IDII1l",
+   "t": "Apartament cu 2 camere de vanzare zona Calea Surii Mici",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 73764
+    }
+   ]
+  },
+  "IDIHVx": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-la-vil-turnior-sibiu-IDIHVx",
+   "t": "Apartament 2 camere la vilă – Turnișor, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 89000
+    }
+   ]
+  },
+  "IDIHN7": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-renovata-loc-de-parcare-comision-0-zona-vasile-aaron-sibiu-IDIHN7",
+   "t": "Garsoniera renovata loc de parcare Comision 0 zona Vasile Aaron Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 54900
+    }
+   ]
+  },
+  "IDIHM7": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-sibiu-magnolia-IDIHM7",
+   "t": "Apartament de vanzare 2 camere Sibiu Magnolia",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 80000
+    }
+   ]
+  },
+  "IDIHJE": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-lift-si-parcare-calea-surii-mici-sibiu-IDIHJE",
+   "t": "Apartament 2 camere balcon lift si parcare Calea Surii Mici Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 81999
+    }
+   ]
+  },
+  "IDIHJ4": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-de-vnzare-sibiu-broscrie-26-mp-renovat-IDIHJ4",
+   "t": "Garsonieră de vânzare | Sibiu, Broscărie | 26 mp | renovată",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 40500
+    }
+   ]
+  },
+  "IDIHBS": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-98-mpu-4-camere-cu-balcon-zona-terezian-sibiu-IDIHBS",
+   "t": "Apartament 98 mpu  4 camere cu balcon zona Terezian Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 99900
+    }
+   ]
+  },
+  "IDIHAs": {
+   "u": "https://www.storia.ro/ro/oferta/sibiu-hipdrom-1-apartament-3-camere-etaj-4-si-mansarda-IDIHAs",
+   "t": "Sibiu, Hipdrom 1, Apartament 3 camere, etaj 4 si mansarda.",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 79500
+    }
+   ]
+  },
+  "IDIHyN": {
+   "u": "https://www.storia.ro/ro/oferta/studio-regim-hotelier-ultracentral-IDIHyN",
+   "t": "Studio regim hotelier Ultracentral",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 56895
+    }
+   ]
+  },
+  "IDIHpK": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-bulevardul-mihai-viteazu-sibiu-IDIHpK",
+   "t": "Apartament 2 Camere de Vanzare – Bulevardul Mihai Viteazu, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 82900
+    }
+   ]
+  },
+  "IDIHoh": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-decomandata-de-vanzare-27-mpu-mobilata-in-terezian-sibiu-IDIHoh",
+   "t": "Garsoniera decomandata de vanzare 27 mpu mobilata in Terezian Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 65000
+    }
+   ]
+  },
+  "IDIHkw": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-mobilat-pivnita-balcon-siretului-sibiu-IDIHkw",
+   "t": "Apartament 2 camere de vanzare mobilat pivnita balcon Siretului Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 86990
+    }
+   ]
+  },
+  "IDIHkn": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-57-mpu-cu-2-parcari-si-gradina-in-lazaret-sibiu-IDIHkn",
+   "t": "Apartament decomandat 57 mpu cu 2 parcari si gradina in Lazaret Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 105000
+    }
+   ]
+  },
+  "IDIHjN": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-la-mansarda-cu-balcon-vasile-aaron-IDIHjN",
+   "t": "Garsoniera la mansarda cu balcon - Vasile Aaron",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 59500
+    }
+   ]
+  },
+  "IDIHfe": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-4-camere-zona-rahovei-sibiu-IDIHfe",
+   "t": "Apartament de vanzare 4 camere zona Rahovei Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 69900
+    }
+   ]
+  },
+  "IDIx58": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-3-camere-de-vnzare-sibiu-turnior-curte-privat-IDIx58",
+   "t": "Apartament 3 camere de vânzare Sibiu | Turnișor | curte privată",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 107000
+    }
+   ]
+  },
+  "IDIvvV": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-3-camere-de-vnzare-sibiu-turnior-88-mp-etaj-1-IDIvvV",
+   "t": "Apartament 3 camere de vânzare | Sibiu, Turnișor | 88 mp | etaj 1",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 107000
+    }
+   ]
+  },
+  "ID7HQFjE": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ID7HQFjE.html",
+   "t": "Suzuki Vitara",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 3390
+    }
+   ]
+  },
+  "ID7HPd67": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ID7HPd67.html",
+   "t": "Suzuki Vitara",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 3400
+    }
+   ]
+  },
+  "ID7HQDqP": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ID7HQDqP.html",
+   "t": "Suzuki Vitara",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 3999
+    }
+   ]
+  },
+  "ID7HQOOb": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ID7HQOOb.html",
+   "t": "Suzuki Vitara",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 4000
+    }
+   ]
+  },
+  "ID7HQNpe": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-2-0i-crdi-4x4-6mt-ex-comfortplus-ID7HQNpe.html",
+   "t": "Kia Sportage 2.0i CRDI 4x4 6MT EX Comfort+",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 4400
+    }
+   ]
+  },
+  "ID7HQOTj": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-6-cvt-acenta-ID7HQOTj.html",
+   "t": "Nissan Qashqai 1.6 CVT Acenta",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 6999
+    }
+   ]
+  },
+  "ID7HQIz6": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-2-dig-t-teknaplus-ID7HQIz6.html",
+   "t": "Nissan Qashqai 1.2 DIG-T TEKNA+",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 7100
+    }
+   ]
+  },
+  "ID7HQEXa": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-2-dig-t-start-stop-acenta-ID7HQEXa.html",
+   "t": "Nissan Qashqai 1.2 DIG-T Start/Stop Acenta",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 7800
+    }
+   ]
+  },
+  "ID7HQolF": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-2-dig-t-start-stop-x-tronic-tekna-ID7HQolF.html",
+   "t": "Nissan Qashqai 1.2 DIG-T Start/Stop X-TRONIC Tekna",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 9390
+    }
+   ]
+  },
+  "ID7HQjrc": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-gdi-6mt-4x2-classic-ID7HQjrc.html",
+   "t": "Kia Sportage 1.6 GDI 6MT 4x2 Classic",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 10250
+    }
+   ]
+  },
+  "ID7HQPjK": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ID7HQPjK.html",
+   "t": "Kia Sportage",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 10500
+    }
+   ]
+  },
+  "ID7HQIz9": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ID7HQIz9.html",
+   "t": "Nissan Qashqai",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 10900
+    }
+   ]
+  },
+  "ID7HQP7g": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-tucson-ID7HQP7g.html",
+   "t": "Hyundai Tucson",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 10951
+    }
+   ]
+  },
+  "ID7HQneA": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-swift-ver-1-2-dualjet-12v-mhev-passion-ID7HQneA.html",
+   "t": "Suzuki Swift 1.2 Dualjet 12V MHEV Passion",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 11000
+    }
+   ]
+  },
+  "ID7HQOyd": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-dsl-7dct-hp-4x2-gt-line-ID7HQOyd.html",
+   "t": "Kia Sportage 1.6 DSL 7DCT HP 4x2 GT Line",
+   "preturi": [
+    {
+     "d": "2026-09-29",
+     "p": 17300
     }
    ]
   }
