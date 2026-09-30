@@ -2705,6 +2705,10 @@
     {
      "d": "2026-09-25",
      "p": 109000
+    },
+    {
+     "d": "2026-09-30",
+     "p": 107000
     }
    ]
   },
@@ -9917,6 +9921,76 @@
     {
      "d": "2026-09-29",
      "p": 17300
+    }
+   ]
+  },
+  "IDIIy4": {
+   "u": "https://www.storia.ro/ro/oferta/casa-noua-pe-un-nivel-pivnita-si-curte-mare-800-mp-IDIIy4",
+   "t": "Casa noua pe un nivel, pivnita si curte mare 800 mp",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 155000
+    }
+   ]
+  },
+  "IDIIkJ": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-116-mp-utili-in-zona-moara-de-scoarta-IDIIkJ",
+   "t": "Casa individuala 116 mp utili in zona Moara de scoarta",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 135999
+    }
+   ]
+  },
+  "IDIIL0": {
+   "u": "https://www.storia.ro/ro/oferta/ap-superb-2-camere-parcare-et-2-str-oncesti-sibiu-IDIIL0",
+   "t": "Ap.SUPERB 2 camere& parcare Et.2 str.Oncesti SIBIU",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 101990
+    }
+   ]
+  },
+  "IDIIsr": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-36mpu-cu-balcon-inchis-hipodrom-iii-IDIIsr",
+   "t": "APARTAMENT 2 CAMERE 36MPU,  CU BALCON INCHIS - HIPODROM III",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 67900
+    }
+   ]
+  },
+  "IDIInV": {
+   "u": "https://www.storia.ro/ro/oferta/comision-0-garsoniera-renovata-complet-de-30-mpu-zona-centrala-sibiu-IDIInV",
+   "t": "COMISION 0 Garsoniera renovata complet de 30 mpu zona Centrala Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 76000
+    }
+   ]
+  },
+  "IDIIll": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-etaj-1-zona-centrala-IDIIll",
+   "t": "Apartament 2 camere decomandat etaj 1 zona Centrala",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 85000
+    }
+   ]
+  },
+  "IDI0zS": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-3-camere-decomandate-cartier-vasile-aaorn-sibiu-IDI0zS",
+   "t": "Apartament 3 camere decomandate, cartier Vasile Aaorn, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 94000
     }
    ]
   }
