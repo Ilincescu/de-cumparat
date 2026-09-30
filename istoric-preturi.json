@@ -771,6 +771,10 @@
     {
      "d": "2026-09-21",
      "p": 170000
+    },
+    {
+     "d": "2026-09-30",
+     "p": 162990
     }
    ]
   },
@@ -4373,6 +4377,10 @@
     {
      "d": "2026-09-28",
      "p": 170000
+    },
+    {
+     "d": "2026-09-30",
+     "p": 162990
     }
    ]
   },
@@ -4503,6 +4511,10 @@
     {
      "d": "2026-09-28",
      "p": 83990
+    },
+    {
+     "d": "2026-09-30",
+     "p": 88990
     }
    ]
   },
@@ -4593,6 +4605,10 @@
     {
      "d": "2026-09-13",
      "p": 200000
+    },
+    {
+     "d": "2026-09-30",
+     "p": 160000
     }
    ]
   },
@@ -7647,6 +7663,10 @@
     {
      "d": "2026-09-23",
      "p": 250000
+    },
+    {
+     "d": "2026-09-30",
+     "p": 240000
     }
    ]
   },
@@ -9991,6 +10011,596 @@
     {
      "d": "2026-09-30",
      "p": 94000
+    }
+   ]
+  },
+  "IDIII7": {
+   "u": "https://www.storia.ro/ro/oferta/proiect-autorizat-de-reabilitare-casa-individuala-in-centrul-sibiului-IDIII7",
+   "t": "Proiect autorizat de reabilitare casa individuala in centrul Sibiului",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 199000
+    }
+   ]
+  },
+  "IDIHAn": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-cu-4-camere-curte-si-garaj-sibiu-zona-lupeni-IDIHAn",
+   "t": "Casa individuala cu 4 camere  ,curte si garaj  Sibiu zona Lupeni",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 204990
+    }
+   ]
+  },
+  "IDIEWv": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-reabilitat-cu-autorizatie-str-pielarilor-centru-IDIEWv",
+   "t": "Casa de reabilitat cu autorizatie, Str Pielarilor-Centru",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 199000
+    }
+   ]
+  },
+  "IDIGER": {
+   "u": "https://www.storia.ro/ro/oferta/comision-0-casa-de-vanzare-pe-strada-bujorului-nr-8-in-selimbar-IDIGER",
+   "t": "COMISION 0 - Casa de vanzare pe strada Bujorului nr 8 in Selimbar",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 228900
+    }
+   ]
+  },
+  "IDIGhO": {
+   "u": "https://www.storia.ro/ro/oferta/casa-renovata-hala-productie-garaj-2-corpuri-casa-cristian-IDIGhO",
+   "t": "Casa Renovata | Hala Productie / Garaj | 2 Corpuri Casa | Cristian",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 230000
+    }
+   ]
+  },
+  "IDIFZE": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-5-camere-garaj-veteranilor-sibiu-IDIFZE",
+   "t": "Casa individuala - 5 camere, garaj - Veteranilor/Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 250000
+    }
+   ]
+  },
+  "IDIFEJ": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-3-camere-sibiu-lazaret-IDIFEJ",
+   "t": "Casa de vanzare 3 camere Sibiu Lazaret",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 200000
+    }
+   ]
+  },
+  "IDHKAv": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-pe-un-nivel-in-turnisor-sibiu-IDHKAv",
+   "t": "Casa de vanzare pe un nivel in Turnisor, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDHX6m": {
+   "u": "https://www.storia.ro/ro/oferta/casa-3-camere-i-acces-auto-i-curte-i-gusterita-IDHX6m",
+   "t": "Casa 3 Camere I Acces Auto I Curte I Gusterita",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 205000
+    }
+   ]
+  },
+  "IDHVAq": {
+   "u": "https://www.storia.ro/ro/oferta/cas-4-camere-duplex-ura-mare-teren-334-mp-teras-IDHVAq",
+   "t": "Casă 4 camere duplex | Șura Mare | teren 334 mp, terasă",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 200000
+    }
+   ]
+  },
+  "IDHW2K": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-in-sibiu-teren-428-mp-IDHW2K",
+   "t": "Casa individuala de vanzare in Sibiu | teren 428 mp",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 219000
+    }
+   ]
+  },
+  "IDHOT8": {
+   "u": "https://www.storia.ro/ro/oferta/vanzare-teren-cu-casa-in-terezian-IDHOT8",
+   "t": "vanzare teren cu casa in terezian",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDHM9h": {
+   "u": "https://www.storia.ro/ro/oferta/casa-tip-duplex-cu-4-camere-112mp-utili-parcare-zona-gusterita-IDHM9h",
+   "t": "Casa tip duplex cu 4 camere, 112mp utili,  parcare, zona Gusterita",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDHM4l": {
+   "u": "https://www.storia.ro/ro/oferta/cas-3-camere-de-vnzare-lupeni-sibiu-garaj-pivni-IDHM4l",
+   "t": "Casă 3 camere de vânzare | Lupeni, Sibiu | garaj, pivniță",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 239000
+    }
+   ]
+  },
+  "IDHLJz": {
+   "u": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-de-vanzare-si-garaj-zona-lazaret-din-sibiu-IDHLJz",
+   "t": "Casa cu 4 camere de vanzare si garaj zona Lazaret din Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 209900
+    }
+   ]
+  },
+  "IDHKlr": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-amplasata-spitalul-judetean-si-promenada-mall-sibiu-IDHKlr",
+   "t": "Casa de vanzare, amplasata Spitalul Judetean si Promenada Mall, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDHK1t": {
+   "u": "https://www.storia.ro/ro/oferta/cas-tip-duplex-curte-350-mp-120-mp-utili-terasa-22-mp-sura-mare-IDHK1t",
+   "t": "Casă tip duplex curte 350 mp 120 mp utili terasa 22 mp Sura Mare",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 215000
+    }
+   ]
+  },
+  "IDHAHo": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-tip-duplex-110-mp-utili-curte-de-175-mp-calea-cisnadiei-IDHAHo",
+   "t": "Casa de tip duplex - 110 mp utili, curte de 175 mp - Calea Cisnadiei",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDHxP5": {
+   "u": "https://www.storia.ro/ro/oferta/casa-tip-duplex-cu-4-camere-112mp-utili-parcare-zona-gusterita-IDHxP5",
+   "t": "Casa tip duplex cu 4 camere, 112mp utili,  parcare, zona Gusterita",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDHvT8": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-200-mp-cu-spatiu-comercial-la-parter-strada-lunga-IDHvT8",
+   "t": "Casa de vanzare 200 mp cu spatiu comercial la parter, strada Lunga",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 250000
+    }
+   ]
+  },
+  "IDHvNG": {
+   "u": "https://www.storia.ro/ro/oferta/cas-n-zona-gusterita-concept-modern-privelite-deosebit-137-mp-IDHvNG",
+   "t": "Casă în  zona Gusterita –concept modern, priveliște deosebită – 137 mp",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 225000
+    }
+   ]
+  },
+  "IDHlFB": {
+   "u": "https://www.storia.ro/ro/oferta/cas-cu-2-apartamente-140-mp-utili-pivnita-si-curte-289-mp-in-turnior-IDHlFB",
+   "t": "Casă cu 2 apartamente 140 mp utili pivnita si curte 289 mp in Turnișor",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 200000
+    }
+   ]
+  },
+  "IDHnNE": {
+   "u": "https://www.storia.ro/ro/oferta/cas-versatila-intretinuta-143-mp-utili-5-camere-3-bai-pivnita-lazaret-IDHnNE",
+   "t": "Casă versatila intretinuta 143 mp utili 5 camere 3 bai pivnita Lazaret",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 245000
+    }
+   ]
+  },
+  "IDHl6w": {
+   "u": "https://www.storia.ro/ro/oferta/casa-3-camere-100mpu-teren-413mp-terezian-IDHl6w",
+   "t": "Casa 3 Camere | 100MPU | Teren 413MP | Terezian",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 200000
+    }
+   ]
+  },
+  "IDHiTW": {
+   "u": "https://www.storia.ro/ro/oferta/duplex-modern-cu-4-camere-si-gradina-n-guterita-IDHiTW",
+   "t": "Duplex Modern cu 4 camere si gradina, în Gușterita",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDH9vo": {
+   "u": "https://www.storia.ro/ro/oferta/casa-in-sibiu-137-mp-utili-concept-modern-priveliste-deosebita-IDH9vo",
+   "t": "Casa in Sibiu, 137 mp utili, concept modern, priveliste deosebita",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 225000
+    }
+   ]
+  },
+  "IDH8ru": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-concept-modern-priveliste-deosebita-147-mp-utili-IDH8ru",
+   "t": "Casa de vanzare – concept modern, priveliste deosebita – 147 mp utili",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 225000
+    }
+   ]
+  },
+  "IDH72n": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-in-sibiu-concept-modern-panorama-deosebita-137-mpu-IDH72n",
+   "t": "Casa de vanzare in Sibiu, concept modern, panorama deosebita, 137 mpu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 211000
+    }
+   ]
+  },
+  "IDGQeF": {
+   "u": "https://www.storia.ro/ro/oferta/casa-si-spatiu-comercial-de-vanzare-in-terezian-la-cheie-disp-imediat-IDGQeF",
+   "t": "Casa si spatiu comercial de vanzare in Terezian, la cheie,disp imediat",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 250000
+    }
+   ]
+  },
+  "IDGNpb": {
+   "u": "https://www.storia.ro/ro/oferta/duplex-modern-4-camere-zona-gusterita-comision-0-IDGNpb",
+   "t": "Duplex modern | 4 camere |  Zona Gusterita | Comision 0",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDGGUk": {
+   "u": "https://www.storia.ro/ro/oferta/casa-pentru-investitie-8-camere-215mp-p-m-zona-garii-IDGGUk",
+   "t": "Casa pentru investitie | 8 camere | 215MP | P+M | Zona Garii",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 219990
+    }
+   ]
+  },
+  "IDGH7l": {
+   "u": "https://www.storia.ro/ro/oferta/casa-in-centrul-vechi-i-4-camere-i-108-mp-i-70-mp-teren-IDGH7l",
+   "t": "Casa in centrul vechi I 4 Camere I 108 mp I 70 mp teren",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 214000
+    }
+   ]
+  },
+  "IDGFC3": {
+   "u": "https://www.storia.ro/ro/oferta/duplex-nou-zona-gusterita-IDGFC3",
+   "t": "Duplex nou, zona Gusterita!!",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDGF2Q": {
+   "u": "https://www.storia.ro/ro/oferta/casa-4-camere-tip-duplex-de-vanzare-calea-cisnadiei-sibiu-IDGF2Q",
+   "t": "Casa 4 camere, tip duplex, de vanzare, Calea Cisnadiei, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDGptL": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-teren-359-mp-pivnita-lazaret-IDGptL",
+   "t": "Casa individuala | Teren 359 MP | Pivnita | Lazaret",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 250000
+    }
+   ]
+  },
+  "IDGlyd": {
+   "u": "https://www.storia.ro/ro/oferta/casa-tip-duplex-cu-4-camere-128mp-utili-parcare-zona-gusterita-IDGlyd",
+   "t": "Casa tip duplex cu 4 camere, 128mp utili,  parcare, zona Gusterita",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 240000
+    }
+   ]
+  },
+  "IDGgCF": {
+   "u": "https://www.storia.ro/ro/oferta/casa-4-camere-i-garaj-i-pivnita-i-zona-promenada-mall-IDGgCF",
+   "t": "Casa 4 camere I Garaj I Pivnita I Zona Promenada Mall",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 215000
+    }
+   ]
+  },
+  "IDGgfJ": {
+   "u": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-in-sibiu-3-bai-137-mp-utili-2-locuri-de-parcare-IDGgfJ",
+   "t": "Casa cu 4 camere in Sibiu, 3 bai, 137 mp utili, 2 locuri de parcare",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 211000
+    }
+   ]
+  },
+  "IDGfGB": {
+   "u": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-3-bai-teren-de-284-mp-2-locuri-de-parcare-IDGfGB",
+   "t": "Casa cu 4 camere, 3 bai, teren de 284 mp, 2 locuri de parcare",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 225000
+    }
+   ]
+  },
+  "IDGdKt": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-la-cas-5-camere-91-mpu-regim-hotelier-ultracentra-IDGdKt",
+   "t": "Apartament la casă  | 5 camere | 91 MPU | Regim Hotelier | Ultracentra",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 200000
+    }
+   ]
+  },
+  "IDG7t2": {
+   "u": "https://www.storia.ro/ro/oferta/vand-casa-cu-2-cladiri-curte-si-2-intrari-IDG7t2",
+   "t": "Vand casa cu 2 cladiri , curte si 2 intrari",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 210000
+    }
+   ]
+  },
+  "IDG2Dy": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-cu-gradina-acces-auto-si-garaj-terezian-IDG2Dy",
+   "t": "Casa individuala de vanzare cu gradina acces auto si garaj Terezian",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 219000
+    }
+   ]
+  },
+  "IDG0CW": {
+   "u": "https://www.storia.ro/ro/oferta/casa-tip-duplex-de-vanzare-in-sibiu-pe-calea-cisnadiei-IDG0CW",
+   "t": "Casa tip duplex de vanzare in Sibiu pe Calea Cisnadiei",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDFVv0": {
+   "u": "https://www.storia.ro/ro/oferta/casa-4-camere-100-mpu-gradina-acces-auto-terezian-IDFVv0",
+   "t": "Casa 4 camere | 100 MPU | Gradina | Acces Auto | Terezian",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 230000
+    }
+   ]
+  },
+  "IDFVgr": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-5-camere-2-bai-zona-terezian-IDFVgr",
+   "t": "Casa individuala 5 camere 2 bai zona Terezian",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDDZ4p": {
+   "u": "https://www.storia.ro/ro/oferta/cas-de-vnzare-cu-potenial-comercial-n-zona-terezian-sibiu-IDDZ4p",
+   "t": "Casă de vânzare cu potențial comercial în zona Terezian, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 250000
+    }
+   ]
+  },
+  "IDFKQb": {
+   "u": "https://www.storia.ro/ro/oferta/cas-i-184-mpu-i-teras-i-curte-privat-panouri-fotovoltaice-i-cires-IDFKQb",
+   "t": "Casă I 184 MPU I Terasă I Curte Privată | Panouri Fotovoltaice I Cires",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 250000
+    }
+   ]
+  },
+  "IDFI3p": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-5-camere-finalizata-mobilata-est-sibiu-teren-372mp-IDFI3p",
+   "t": "Casa individuala 5 camere finalizata mobilata Est Sibiu teren 372mp",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 212000
+    }
+   ]
+  },
+  "IDFxVR": {
+   "u": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-decomandate-si-gradina-in-zona-bavaria-in-sibiu-IDFxVR",
+   "t": "Casa cu 4 camere decomandate si gradina in zona Bavaria in Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 245000
+    }
+   ]
+  },
+  "IDFx8Q": {
+   "u": "https://www.storia.ro/ro/oferta/cas-tip-duplex-de-vnzare-n-sibiu-120-mp-utili-teren-403-mp-IDFx8Q",
+   "t": "Casă tip duplex de vânzare în Sibiu – 120 mp utili, teren 403 mp",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 205000
+    }
+   ]
+  },
+  "IDF9wI": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-cu-5-camere-in-bavaria-sibiu-IDF9wI",
+   "t": "Casa individuala cu 5 camere in Bavaria Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 210000
+    }
+   ]
+  },
+  "IDEY4g": {
+   "u": "https://www.storia.ro/ro/oferta/duplex-premium-i-sibiu-i-3-niveluri-i-4-camere-i-comision-zero-IDEY4g",
+   "t": "Duplex premium I Sibiu I 3 niveluri I 4 camere I COMISION ZERO",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 220000
+    }
+   ]
+  },
+  "IDEqhl": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-i-4-camere-i-acces-auto-i-curte-i-terezian-IDEqhl",
+   "t": "Casa Individuala I 4 Camere I Acces auto I Curte I Terezian",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 217000
+    }
+   ]
+  },
+  "IDDRAy": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-3-bai-de-vanzare-in-sibiu-zona-ciresica-IDDRAy",
+   "t": "Casa individuala 4 camere 3 bai de vanzare in Sibiu zona Ciresica",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 250000
+    }
+   ]
+  },
+  "IDDaIr": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-cu-pompa-de-caldura-si-panouri-fotovoltaice-IDDaIr",
+   "t": "Casa individuala 4 camere cu pompa de caldura si panouri fotovoltaice",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 244990
+    }
+   ]
+  },
+  "IDCHLJ": {
+   "u": "https://www.storia.ro/ro/oferta/casa-formata-din-2-apartamente-pivnita-zona-turnisor-IDCHLJ",
+   "t": "Casa formata din 2 apartamente pivnita zona Turnisor",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 215000
+    }
+   ]
+  },
+  "IDCh0K": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-la-casa-demisol-3-camere-pivnita-89-mpu-sub-arini-IDCh0K",
+   "t": "Apartament la casa | Demisol | 3 camere | Pivnita | 89 MPU | Sub Arini",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 210000
+    }
+   ]
+  },
+  "IDC2GX": {
+   "u": "https://www.storia.ro/ro/oferta/casa-cu-spatiu-comercial-strada-lunga-195-mp-utili-pivnita-vid-IDC2GX",
+   "t": "Casa cu spatiu comercial | Strada Lunga | 195 mp utili | Pivnita | Vid",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 250000
+    }
+   ]
+  },
+  "IDIITG": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-2-balcoane-pivni-i-box-sibiu-IDIITG",
+   "t": "Apartament 2 camere decomandat, 2 balcoane, pivniță și boxă – Sibiu",
+   "preturi": [
+    {
+     "d": "2026-09-30",
+     "p": 95000
     }
    ]
   }

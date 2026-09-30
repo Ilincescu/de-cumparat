@@ -23,7 +23,11 @@ const crypto = require('crypto');
 
 const RADACINA = path.join(__dirname, '..');
 const UA = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)', 'Accept': 'text/html' };
-const PRAG_PRET = { casa: 190000, apartament: 110000 };
+// Plafonul taie cautarea, nu doar afisarea: o casa peste prag nu mai e citita
+// deloc, deci nici pretul ei nu se mai actualizeaza. Cea de pe Ogorului a stat
+// asa cu 235.000 in lista dupa ce scazuse la 220.000. Pragul sta la bugetul
+// total, ca sa prinda si casele de care se negociaza in jos.
+const PRAG_PRET = { casa: 250000, apartament: 110000 };
 const DOSAR_SNAPSHOT = path.join(__dirname, 'snapshots');
 
 // Localitati din judet care nu sunt orasul Sibiu. Anuntul poate avea pinul in
@@ -40,9 +44,25 @@ const EXCLUDERI = [
 
 function citesteJson(p) { return JSON.parse(fs.readFileSync(p, 'utf8')); }
 
+let BUILD_ID = null;
+
 function buildId() {
-  const f = path.join(__dirname, 'storia-build.json');
-  return citesteJson(f).buildId;
+  if (BUILD_ID) return BUILD_ID;
+  BUILD_ID = citesteJson(path.join(__dirname, 'storia-build.json')).buildId;
+  return BUILD_ID;
+}
+
+// Se ia din pagina normala de cautare, care nu depinde de buildId. Asa scanarea
+// nu mai trebuie oprita si repornita de mana la fiecare deploy Storia.
+async function reimprospateazaBuildId() {
+  const r = await fetch('https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu', { headers: UA });
+  const m = (await r.text()).match(/"buildId":"([^"]+)"/);
+  if (!m) throw new Error('nu am gasit buildId in pagina Storia');
+  BUILD_ID = m[1];
+  fs.writeFileSync(path.join(__dirname, 'storia-build.json'),
+    JSON.stringify({ buildId: BUILD_ID, actualizat: new Date().toISOString().slice(0, 10) }) + '\n');
+  console.log('buildId nou:', BUILD_ID);
+  return BUILD_ID;
 }
 
 function numar(s) {
@@ -123,13 +143,17 @@ async function verificaLinkuri() {
 
 // ----------------------------------------------------------------- storia
 
-async function cautare(tip, pagina) {
+async function cautare(tip, pagina, aDouaIncercare) {
   const b = buildId();
   const u = `https://www.storia.ro/_next/data/${b}/ro/rezultate/vanzare/${tip}/sibiu/sibiu.json`
     + `?priceMax=${PRAG_PRET[tip]}&limit=72&page=${pagina}`
     + `&searchingCriteria=vanzare&searchingCriteria=${tip}&searchingCriteria=sibiu&searchingCriteria=sibiu`;
   const r = await fetch(u, { headers: UA });
-  if (r.status === 404) throw new Error('buildId expirat - ia unul nou din browser si pune-l in tools/storia-build.json');
+  if (r.status === 404) {
+    if (aDouaIncercare) throw new Error('cautare 404 si dupa buildId nou');
+    await reimprospateazaBuildId();
+    return cautare(tip, pagina, true);
+  }
   if (!r.ok) throw new Error('cautare status ' + r.status);
   const j = await r.json();
   return (((j.pageProps || {}).data || {}).searchAds || {}).items || [];
