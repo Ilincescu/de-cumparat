@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-30",
+ "actualizat": "2026-10-01",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -2560,20 +2560,6 @@
   },
   {
    "k": "ap",
-   "p": 74900,
-   "t": "Apartament 2 camere, balcon, etaj 4, str. Biruintei, 46 mp",
-   "z": "Hipodrom 3",
-   "r": 2,
-   "a": 46,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-balcon-i-etaj-4-i-biruinei-IDInQa",
-   "warn": "Ultimul etaj - intreaba de acoperis si izolatie.",
-   "d": "2026-09-20"
-  },
-  {
-   "k": "ap",
    "p": 74998,
    "t": "Studio ultracentral, 37 mp, modern",
    "z": "Centrul Istoric",
@@ -3187,20 +3173,6 @@
   {
    "k": "ap",
    "p": 85000,
-   "t": "Apartament 2 camere, 70 mp, str. Semaforului",
-   "z": "Vasile Aaron",
-   "r": 2,
-   "a": 70,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/de-vanzare-apartament-cu-2-camere-pe-str-semaforului-sibiu-IDIo1i",
-   "warn": null,
-   "d": "2026-09-18"
-  },
-  {
-   "k": "ap",
-   "p": 85000,
    "t": "Apartament 2 camere decomandat, 55 mp",
    "z": "Terezian",
    "r": 2,
@@ -3683,20 +3655,6 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-la-casa-2-camere-zona-orasul-de-jos-sibiu-IDAVBw",
    "warn": "Acelasi apartament apare republicat si ca IDIva8, la acelasi pret.",
    "d": "2026-09-18"
-  },
-  {
-   "k": "ap",
-   "p": 89990,
-   "t": "Apartament 2 camere, 66 mp, Terezian",
-   "z": "Terezian",
-   "r": 2,
-   "a": 66,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-terezian-66-mp-IDIo59",
-   "warn": "Cel mai mult spatiu pe leu dintre apartamentele noi gasite azi. Detalii neverificate in descriere.",
-   "d": "2026-09-20"
   },
   {
    "k": "ap",
