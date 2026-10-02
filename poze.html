@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2f6d4f">
+<title>Poze — Berzelor 3</title>
+<style>
+  :root{
+    --bg:#eef1ec; --surface:#fff; --surface-2:#f6f8f4;
+    --ink:#1b241d; --muted:#5b6a60; --faint:#8a9890;
+    --line:#dde3dc; --accent:#2f6d4f; --accent-soft:#e3efe7;
+    --radius:14px;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+      --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+      --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+    --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+    --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    padding-bottom:50px;-webkit-text-size-adjust:100%}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+  a{color:var(--accent)}
+
+  header{padding-block:22px 6px;position:relative}
+  h1{font-size:21px;margin:0;letter-spacing:-.02em;padding-right:44px}
+  .stamp{font-size:12px;color:var(--faint);margin-top:4px}
+  .lede{color:var(--muted);margin:10px 0 0;font-size:14px}
+  #themeBtn{position:absolute;top:18px;right:0;border:1px solid var(--line);
+    background:var(--surface);color:var(--muted);border-radius:999px;
+    width:34px;height:34px;font-size:15px;cursor:pointer}
+
+  .filtre{display:flex;flex-wrap:wrap;gap:7px;margin:16px 0 4px}
+  .filtre button{border:1px solid var(--line);background:var(--surface);
+    color:var(--muted);border-radius:999px;padding:6px 13px;font:inherit;
+    font-size:13px;cursor:pointer;white-space:nowrap}
+  .filtre button[aria-pressed="true"]{background:var(--accent);color:#fff;
+    border-color:var(--accent);font-weight:600}
+  .numar{font-size:12px;color:var(--faint);margin:10px 0 0}
+
+  h2{font-size:15px;margin:26px 0 9px;display:flex;align-items:baseline;
+    gap:9px;flex-wrap:wrap}
+  h2 .cat{font-size:12px;color:var(--faint);font-weight:400}
+
+  .grid{display:grid;gap:7px;
+    grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+  .grid figure{margin:0;position:relative;cursor:zoom-in;
+    border-radius:9px;overflow:hidden;background:var(--surface-2);
+    border:1px solid var(--line)}
+  .grid img{width:100%;height:135px;object-fit:cover;display:block}
+  .grid figcaption{position:absolute;left:0;right:0;bottom:0;
+    background:linear-gradient(transparent,#000c);color:#fff;
+    font-size:11px;padding:14px 7px 5px;line-height:1.25}
+
+  dialog{border:0;padding:0;background:transparent;max-width:100vw;max-height:100vh}
+  dialog::backdrop{background:#000e}
+  .lb{position:relative;display:flex;flex-direction:column;align-items:center;
+    gap:10px;padding:10px}
+  .lb img{max-width:min(1100px,94vw);max-height:82vh;border-radius:9px;display:block}
+  .lb p{margin:0;color:#fff;font-size:13px;text-align:center;max-width:90vw}
+  .lb p a{color:#9fe0bb}
+  .lbnav{display:flex;gap:10px;align-items:center}
+  .lbnav button{border:1px solid #fff4;background:#fff2;color:#fff;
+    border-radius:999px;width:42px;height:42px;font-size:18px;cursor:pointer}
+  .lbnav span{color:#fff9;font-size:12px;min-width:72px;text-align:center}
+  footer{margin:28px 0 0;font-size:12px;color:var(--faint)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <button id="themeBtn" type="button" title="Temă">◐</button>
+  <h1>Poze — Berzelor 3, Terezian</h1>
+  <div class="stamp">2 octombrie 2026 ·
+    <a href="berzelor.html">dosarul casei</a> ·
+    <a href="index.html">lista</a></div>
+  <p class="lede">Toate pozele la un loc: ale mele de la vizionare, plus cele din
+    cele șase anunțuri ale aceleiași case. Agențiile fotografiază separat, deci
+    fiecare are cadre pe care celelalte nu le au.</p>
+</header>
+
+<div class="filtre" id="filtre"></div>
+<p class="numar" id="numar"></p>
+
+<div id="galerie"></div>
+
+<footer>
+  <p>Pozele agențiilor sunt descărcate de pe Storia la 2 octombrie 2026 și păstrate
+    aici pentru că anunțurile dispar. Fiecare grup are linkul anunțului din care vine.</p>
+</footer>
+
+</div>
+
+<dialog id="lb">
+  <div class="lb">
+    <img id="lbimg" alt="">
+    <p id="lbtxt"></p>
+    <div class="lbnav">
+      <button type="button" id="prev" title="Înapoi">‹</button>
+      <span id="lbnr"></span>
+      <button type="button" id="next" title="Înainte">›</button>
+      <button type="button" id="close" title="Închide">✕</button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  var T = localStorage.getItem("tema");
+  if(T) document.documentElement.setAttribute("data-theme", T);
+  document.getElementById("themeBtn").addEventListener("click", function(){
+    var d = document.documentElement;
+    var nou = d.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    d.setAttribute("data-theme", nou);
+    try{ localStorage.setItem("tema", nou); }catch(e){}
+  });
+})();
+
+var POZE = [], GRUPURI = [], filtru = null, curent = 0, vizibile = [];
+
+function el(id){ return document.getElementById(id); }
+
+function deseneaza(){
+  vizibile = filtru ? POZE.filter(function(p){ return p.g === filtru; }) : POZE;
+  var pe = {};
+  vizibile.forEach(function(p){ (pe[p.g] = pe[p.g] || []).push(p); });
+
+  el("galerie").innerHTML = Object.keys(pe).map(function(g){
+    var lot = pe[g];
+    var link = lot[0].s
+      ? ' <span class="cat"><a href="' + lot[0].s + '" target="_blank" rel="noopener">vezi anunțul</a></span>'
+      : '';
+    return '<h2>' + g + ' <span class="cat">' + lot.length + ' poze</span>' + link + '</h2>'
+      + '<div class="grid">' + lot.map(function(p){
+          var i = vizibile.indexOf(p);
+          return '<figure data-i="' + i + '"><img loading="lazy" src="poze/berzelor/'
+            + p.f + '" alt="' + (p.t || p.f) + '">'
+            + (p.t ? '<figcaption>' + p.t + '</figcaption>' : '') + '</figure>';
+        }).join("") + '</div>';
+  }).join("");
+
+  el("numar").textContent = vizibile.length + " poze"
+    + (filtru ? " în „" + filtru + "”" : " în total");
+
+  el("galerie").querySelectorAll("figure").forEach(function(f){
+    f.addEventListener("click", function(){ arata(Number(f.dataset.i)); });
+  });
+}
+
+function deseneazaFiltre(){
+  var b = ['<button type="button" data-g="" aria-pressed="true">Toate</button>'];
+  GRUPURI.forEach(function(g){
+    b.push('<button type="button" data-g="' + g + '" aria-pressed="false">' + g + '</button>');
+  });
+  el("filtre").innerHTML = b.join("");
+  el("filtre").querySelectorAll("button").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      filtru = btn.dataset.g || null;
+      el("filtre").querySelectorAll("button").forEach(function(x){
+        x.setAttribute("aria-pressed", String(x === btn));
+      });
+      deseneaza();
+      window.scrollTo({top:0, behavior:"smooth"});
+    });
+  });
+}
+
+function arata(i){
+  if(i < 0) i = vizibile.length - 1;
+  if(i >= vizibile.length) i = 0;
+  curent = i;
+  var p = vizibile[i];
+  el("lbimg").src = "poze/berzelor/" + p.f;
+  el("lbtxt").innerHTML = (p.t ? p.t + " · " : "") + p.g
+    + (p.s ? ' · <a href="' + p.s + '" target="_blank" rel="noopener">anunțul</a>' : '');
+  el("lbnr").textContent = (i + 1) + " / " + vizibile.length;
+  if(!el("lb").open) el("lb").showModal();
+}
+
+el("prev").addEventListener("click", function(){ arata(curent - 1); });
+el("next").addEventListener("click", function(){ arata(curent + 1); });
+el("close").addEventListener("click", function(){ el("lb").close(); });
+el("lb").addEventListener("click", function(e){ if(e.target === el("lb")) el("lb").close(); });
+document.addEventListener("keydown", function(e){
+  if(!el("lb").open) return;
+  if(e.key === "ArrowLeft") arata(curent - 1);
+  if(e.key === "ArrowRight") arata(curent + 1);
+});
+
+fetch("poze/berzelor/manifest.json?v=" + Date.now())
+  .then(function(r){ return r.json(); })
+  .then(function(d){
+    POZE = d;
+    GRUPURI = [];
+    d.forEach(function(p){ if(GRUPURI.indexOf(p.g) < 0) GRUPURI.push(p.g); });
+    deseneazaFiltre();
+    deseneaza();
+  })
+  .catch(function(){
+    el("galerie").innerHTML = '<p class="numar">Nu am putut citi lista de poze.</p>';
+  });
+</script>
+</body>
+</html>
