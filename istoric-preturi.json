@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-01",
+ "actualizat": "2026-10-02",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -131,6 +131,10 @@
     {
      "d": "2026-09-23",
      "p": 137000
+    },
+    {
+     "d": "2026-10-02",
+     "p": 136990
     }
    ]
   },
@@ -805,6 +809,10 @@
     {
      "d": "2026-09-25",
      "p": 137000
+    },
+    {
+     "d": "2026-10-02",
+     "p": 136990
     }
    ]
   },
@@ -1285,6 +1293,10 @@
     {
      "d": "2026-09-13",
      "p": 116000
+    },
+    {
+     "d": "2026-10-02",
+     "p": 130000
     }
    ]
   },
@@ -2445,6 +2457,10 @@
     {
      "d": "2026-09-22",
      "p": 84000
+    },
+    {
+     "d": "2026-10-02",
+     "p": 83000
     }
    ]
   },
@@ -2723,6 +2739,10 @@
     {
      "d": "2026-09-25",
      "p": 49999
+    },
+    {
+     "d": "2026-10-02",
+     "p": 50999
     }
    ]
   },
@@ -7653,6 +7673,10 @@
     {
      "d": "2026-09-23",
      "p": 250000
+    },
+    {
+     "d": "2026-10-02",
+     "p": 240000
     }
    ]
   },
@@ -10625,6 +10649,176 @@
     {
      "d": "2026-10-01",
      "p": 74000
+    }
+   ]
+  },
+  "IDIJNK": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-vacanta-cu-vedere-spre-munti-curte-de-640-mp-in-tropinii-noi-IDIJNK",
+   "t": "Casa de vacanta cu vedere spre munti curte de 640 mp in Tropinii Noi",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 77500
+    }
+   ]
+  },
+  "IDIJD2": {
+   "u": "https://www.storia.ro/ro/oferta/comision-0-casa-individuala-cu-curte-si-gradina-260-mp-terezian-tig-IDIJD2",
+   "t": "Comision 0% Casa Individuala cu Curte si Gradina 260 mp - Terezian/tig",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 125000
+    }
+   ]
+  },
+  "IDIJPh": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-decomandat-parcare-balcon-doamna-stanca-in-sibiu-IDIJPh",
+   "t": "Apartament de vanzare decomandat parcare balcon Doamna Stanca in Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 109900
+    }
+   ]
+  },
+  "IDIJLJ": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-moderna-32mp-de-vanzare-in-centrul-istoric-al-sibiului-IDIJLJ",
+   "t": "Garsoniera moderna 32mp de vanzare in centrul istoric al Sibiului",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 92900
+    }
+   ]
+  },
+  "IDIJL4": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-43mp-utili-balcon-lift-lacul-lui-binder-IDIJL4",
+   "t": "Apartament cu 2 camere, 43mp utili+balcon, lift - Lacul lui Binder",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 96000
+    }
+   ]
+  },
+  "IDIJIN": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-43-mpu-pivnita-zona-orasul-de-jos-din-sibiu-IDIJIN",
+   "t": "Garsoniera de vanzare 43 mpu pivnita zona Orasul de Jos din Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 105000
+    }
+   ]
+  },
+  "IDIJGM": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-rahovei-IDIJGM",
+   "t": "Apartament 2 camere zona Rahovei",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 79000
+    }
+   ]
+  },
+  "IDIJDe": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-de-vnzare-sibiu-vasile-aaron-23-mp-balcon-IDIJDe",
+   "t": "Garsonieră de vânzare Sibiu | Vasile Aaron | 23 mp | balcon",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 59000
+    }
+   ]
+  },
+  "IDIJCN": {
+   "u": "https://www.storia.ro/ro/oferta/comision-0-apartament-2-camere-mobilat-si-utilat-etaj-1-IDIJCN",
+   "t": "COMISION 0% Apartament 2 camere mobilat si utilat etaj 1",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 53500
+    }
+   ]
+  },
+  "IDIJrT": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-3-camere-aleea-sevis-IDIJrT",
+   "t": "Apartament 3 Camere Aleea Sevis",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 110000
+    }
+   ]
+  },
+  "IDIJnM": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-27-mp-mobilata-si-utilata-terezian-IDIJnM",
+   "t": "Garsoniera de vanzare, 27 mp, mobilata si utilata – Terezian",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 65000
+    }
+   ]
+  },
+  "IDIJnL": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-50-mp-balcon-si-parcare-arhitectilor-IDIJnL",
+   "t": "Apartament 2 camere, 50 mp, balcon si parcare – Arhitectilor",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 110000
+    }
+   ]
+  },
+  "IDIJnK": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-balcon-inchis-si-41-mp-total-cedonia-IDIJnK",
+   "t": "Apartament cu 2 camere, balcon inchis si 41 mp total – Cedonia",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 73000
+    }
+   ]
+  },
+  "IDIJf2": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-zona-strand2-poiana-sibiului-IDIJf2",
+   "t": "Garsoniera de vanzare zona Strand2-Poiana Sibiului",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 43000
+    }
+   ]
+  },
+  "IDIJ91": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-mobilata-si-utilata-27-mp-utili-zona-terezian-IDIJ91",
+   "t": "Garsoniera mobilata si utilata, 27 mp utili - Zona Terezian",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 65000
+    }
+   ]
+  },
+  "IDIJ7M": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-etaj-1-parcare-insorit-zona-supeco-IDIJ7M",
+   "t": "Apartament 2 camere ,decomandat, etaj 1,parcare, insorit , zona Supeco",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 100500
+    }
+   ]
+  },
+  "IDIJ6E": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-targul-fanului-IDIJ6E",
+   "t": "Apartament 2 camere Targul Fanului",
+   "preturi": [
+    {
+     "d": "2026-10-02",
+     "p": 109500
     }
    ]
   }
