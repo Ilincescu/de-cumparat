@@ -63,11 +63,17 @@ Când o casă "gata de locuit" e pusă față în față cu una de renovat, casa
 
 **Citește descrierea alternativei până la capăt și adaugă-i costurile ascunse înainte de a compara totalurile.**
 
-### 7. Prețul cerut nu e prețul pieței
+### 7. Prețul cerut nu e prețul pieței — și mediana se calculează pe anunțurile greșite
 
-Toate medianele din Storia, VDI și presă sunt prețuri cerute. Ce spune adevărul e **de cât timp stă anunțul**. O casă pe piață de paisprezece luni la 217.000 nu valorează 217.000.
+Toate medianele din Storia, VDI și presă sunt prețuri cerute, **de anunțuri care încă stau pe piață, adică tocmai cele care nu se vând**. Am construit tot raționamentul pe ele până mi-a zis el: „ai văzut pe cele care au fost vândute? ai istoric la partea asta?".
 
-Orice mediană merge însoțită de `n` și de vechimea anunțurilor. Sub 10 comparabile, spune că eșantionul e subțire.
+**Rulează `node tools/vandute.js` înainte de orice mediană.** El compară snapshoturile cu lista de azi, cere pagina fiecărui anunț dispărut și citește câmpul `status`: `removed_by_user` (scos de proprietar), `expired` (a expirat singur), `active` (doar a ieșit din filtre). Apoi compară `createdAt` cu `modifiedAt` ca să afle câte zile a stat.
+
+Ce a ieșit la case, în Sibiu, pe 2 octombrie 2026: **23 de case scoase în sub 60 de zile, preț median 180.000 €, mediana zilelor 22.** Și **10 case scoase după peste 60 de zile, preț median 215.000 €, mediana 117 zile.** Mediana cerută a celor rămase pe piață era 207.500 € — adică exact zona în care nu se vinde nimic.
+
+Avertismentul care merge cu cifra: `removed_by_user` nu dovedește o vânzare. Poate fi și retragere sau consolidarea anunțurilor între agenții. Spune asta de fiecare dată. Prețul tranzacției nu e public nicăieri.
+
+Orice mediană merge însoțită de `n`, de vechimea anunțurilor și de contra-mediana celor dispărute. Sub 10 comparabile, spune că eșantionul e subțire.
 
 ### 8. Același imobil apare la prețuri diferite (de 2 ori)
 

@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2f6d4f">
+<title>Berzelor 3 — Terezian</title>
+<style>
+  :root{
+    --bg:#eef1ec; --surface:#fff; --surface-2:#f6f8f4;
+    --ink:#1b241d; --muted:#5b6a60; --faint:#8a9890;
+    --line:#dde3dc; --accent:#2f6d4f; --accent-soft:#e3efe7;
+    --warn:#a8521f; --warn-soft:#fbeee3;
+    --good:#2f6d4f; --good-soft:#e3efe7;
+    --bad:#a8321f; --bad-soft:#fbe6e3;
+    --radius:14px;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+      --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+      --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+      --warn:#e0a16a; --warn-soft:#33281e;
+      --good:#6fbf92; --good-soft:#22322a;
+      --bad:#e08a7a; --bad-soft:#33211e;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+    --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+    --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+    --warn:#e0a16a; --warn-soft:#33281e;
+    --good:#6fbf92; --good-soft:#22322a;
+    --bad:#e08a7a; --bad-soft:#33211e;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    padding-bottom:60px;-webkit-text-size-adjust:100%}
+  .wrap{max-width:900px;margin:0 auto;padding:0 16px}
+  a{color:var(--accent)}
+
+  header{padding-block:22px 6px;position:relative}
+  h1{font-size:22px;margin:0;letter-spacing:-.02em;padding-right:44px}
+  .stamp{font-size:12px;color:var(--faint);margin-top:4px}
+  .lede{color:var(--muted);margin:10px 0 0;font-size:14px}
+  #themeBtn{position:absolute;top:18px;right:0;border:1px solid var(--line);
+    background:var(--surface);color:var(--muted);border-radius:999px;
+    width:34px;height:34px;font-size:15px;cursor:pointer}
+
+  h2{font-size:17px;margin:30px 0 10px;letter-spacing:-.01em}
+  h3{font-size:14px;margin:18px 0 7px}
+  p{margin:9px 0}
+  .card{background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:15px;margin-bottom:12px}
+
+  .hero{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:baseline;
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:15px;margin-top:14px}
+  .hero .big{font-size:28px;font-weight:700;color:var(--accent);letter-spacing:-.02em}
+  .hero dl{margin:0;display:flex;flex-wrap:wrap;gap:4px 20px}
+  .hero dt{font-size:11px;text-transform:uppercase;letter-spacing:.05em;
+    color:var(--faint);font-weight:700;margin:0}
+  .hero dd{margin:0 0 0 0;font-size:14px;font-weight:600}
+  .hero .pair{display:flex;flex-direction:column}
+
+  .scroller{overflow-x:auto;-webkit-overflow-scrolling:touch;
+    border:1px solid var(--line);border-radius:var(--radius);
+    background:var(--surface);margin-top:12px}
+  table{border-collapse:collapse;width:100%;min-width:560px;font-size:13px}
+  th,td{padding:9px 10px;text-align:right;border-bottom:1px solid var(--line);
+    vertical-align:top}
+  th{background:var(--surface-2);color:var(--muted);font-weight:600;font-size:12px;
+    white-space:nowrap}
+  td:first-child,th:first-child{text-align:left;min-width:150px}
+  tbody tr:last-child td{border-bottom:0}
+  td small{display:block;color:var(--faint);font-size:11.5px;font-weight:400;
+    white-space:normal;margin-top:2px}
+  tfoot td{font-weight:700;background:var(--surface-2)}
+  .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+
+  .legend{font-size:12px;color:var(--faint);margin-top:8px}
+  .note{background:var(--warn-soft);border:1px solid var(--line);
+    border-radius:var(--radius);padding:12px 14px;font-size:13.5px;margin:12px 0}
+  .note b{color:var(--warn)}
+  .ok{background:var(--good-soft)}
+  .ok b{color:var(--good)}
+
+  .cols{display:grid;grid-template-columns:1fr;gap:14px}
+  @media(min-width:700px){.cols{grid-template-columns:1fr 1fr}}
+  .col h4{margin:0 0 6px;font-size:12px;text-transform:uppercase;
+    letter-spacing:.05em;color:var(--faint);font-weight:700}
+  .col ul{margin:0;padding-left:17px}
+  .col li{margin-bottom:5px;font-size:13.5px;color:var(--muted)}
+  .col.good h4{color:var(--good)} .col.good li::marker{color:var(--good)}
+  .col.bad h4{color:var(--bad)}   .col.bad li::marker{color:var(--bad)}
+
+  .opt{border:1px solid var(--line);border-radius:var(--radius);
+    background:var(--surface);padding:14px 15px;margin-bottom:11px}
+  .opt.pick{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent)}
+  .opt h3{margin:0 0 3px;font-size:15px;display:flex;flex-wrap:wrap;
+    gap:9px;align-items:baseline}
+  .opt .cost{color:var(--accent);font-weight:700;font-variant-numeric:tabular-nums}
+  .opt .tag{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;
+    background:var(--accent-soft);color:var(--accent)}
+  .opt p{margin:7px 0 0;font-size:13.5px;color:var(--muted)}
+  .opt .holds{font-size:12px;color:var(--faint);margin-top:7px}
+
+  .checks{margin:0;padding:0;list-style:none}
+  .checks li{padding:9px 0 9px 26px;border-bottom:1px solid var(--line);
+    font-size:13.5px;position:relative}
+  .checks li:last-child{border-bottom:0}
+  .checks li::before{content:"";position:absolute;left:3px;top:13px;
+    width:11px;height:11px;border:1.5px solid var(--faint);border-radius:3px}
+  .checks b{display:block;font-size:13.5px}
+  .checks small{color:var(--faint);font-size:12px}
+
+  input.calc{width:86px;text-align:right;border:1px solid var(--line);
+    background:var(--surface-2);color:var(--ink);border-radius:7px;
+    padding:4px 7px;font:inherit;font-size:13px;font-variant-numeric:tabular-nums}
+  footer{margin:30px 0 0;font-size:12px;color:var(--faint)}
+  footer p{margin:5px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <button id="themeBtn" type="button" title="Temă">◐</button>
+  <h1>Berzelor 3 — Terezian</h1>
+  <div class="stamp">actualizat 2 octombrie 2026 ·
+    <a href="index.html">lista</a> · <a href="comparatie.html">comparație</a></div>
+  <p class="lede">Dosarul casei vizitate. Primul lucru de lămurit e mucegaiul din demisol:
+    ce opțiuni există, cât costă fiecare și cât ține.</p>
+</header>
+
+<div class="hero">
+  <span class="big">163.000 €</span>
+  <dl>
+    <div class="pair"><dt>Utili</dt><dd>95 mp*</dd></div>
+    <div class="pair"><dt>Teren</dt><dd>413 mp</dd></div>
+    <div class="pair"><dt>Curte liberă</dt><dd>313 mp</dd></div>
+    <div class="pair"><dt>Construită</dt><dd>1971</dd></div>
+    <div class="pair"><dt>Front stradal</dt><dd>12 m</dd></div>
+    <div class="pair"><dt>Pe piață din</dt><dd>22 iunie</dd></div>
+  </dl>
+</div>
+<p class="legend">* Cifra agenției. Vezi mai jos — alte trei agenții dau alte suprafețe
+  pentru aceeași casă. <a href="https://www.storia.ro/ro/oferta/casa-individuala-413-mp-teren-zona-terezian-IDHFt4" target="_blank" rel="noopener">Anunțul</a></p>
+
+<div class="note"><b>Adresa nu e confirmată.</b>
+  Anunțul trece strada <b>Calea Șurii Mari</b>, iar pinul de pe hartă cade la
+  <a href="https://www.google.com/maps?q=45.812164,24.149195" target="_blank" rel="noopener">45.812164, 24.149195</a>,
+  adică Calea Șurii Mari nr. 1. Ție ți s-a spus <b>Berzelor 3</b>, care e la
+  <a href="https://www.google.com/maps?q=45.8114427,24.1505418" target="_blank" rel="noopener">45.8114, 24.1505</a> —
+  cam 130 m mai încolo, același cod poștal. Contează: Calea Șurii Mari e arteră cu
+  trafic, Berzelor e stradă laterală. Cere adresa exactă înainte de ofertă.</div>
+
+<h2 id="mucegai">Mucegaiul din demisol</h2>
+
+<p>Ce se vede în poze: bandă de mucegai dreaptă, la 80–100 cm pe tot peretele,
+  crustă albă de sare deasupra ei, tencuială umflată și căzută în plăci, și cel
+  puțin patru petice de mortar nou peste care mucegaiul a trecut deja.</p>
+
+<div class="note"><b>Nu e condens, e apă care urcă prin zid.</b>
+  Condensul face pete neregulate prin colțuri. O linie orizontală dreaptă, cu sare
+  albă deasupra, înseamnă igrasie ascensională — apă trasă din fundație prin
+  capilaritate, pentru că o casă din 1971 nu are barieră orizontală în zid.
+  <b>Subzidirea nu rezolvă asta.</b> Subzidirea întărește fundația; igrasia e altă
+  lucrare. Poți subzidi perfect și rămâi cu același mucegai.</div>
+
+<p>Petecele de mortar sunt detaliul care contează cel mai mult: cineva a mai
+  încercat o dată și a revenit. Întreabă-i când au reparat și cu ce.</p>
+
+<div id="optiuni"></div>
+
+<h2>Cât te costă, în total</h2>
+<p>Editează orice sumă — totalul se recalculează. Cifrele de pornire sunt estimările
+  mele, iar coloana din dreapta spune pe ce se sprijină fiecare.</p>
+
+<div class="scroller">
+<table id="buget">
+  <thead><tr>
+    <th>Lucrare</th><th>Minim €</th><th>Complet €</th><th>Din ce</th>
+  </tr></thead>
+  <tbody></tbody>
+  <tfoot><tr>
+    <td>Total renovare</td>
+    <td class="num" id="tMin"></td><td class="num" id="tMax"></td><td></td>
+  </tr><tr>
+    <td>Plus prețul casei</td>
+    <td class="num" id="gMin"></td><td class="num" id="gMax"></td>
+    <td><input class="calc" id="pretCasa" type="number" step="1000" value="163000"></td>
+  </tr></tfoot>
+</table>
+</div>
+<p class="legend" id="verdictBuget"></p>
+
+<h2>Aceeași casă, patru prețuri</h2>
+<p>Patru agenții o vând în paralel, fiecare cu altă suprafață și alt preț. Toate au
+  413 mp teren, garaj, demisol de 65 mp și pivniță. Descrierea TABOO se potrivește
+  exact cu releveul fotografiat.</p>
+
+<div class="scroller">
+<table id="anunturi">
+  <thead><tr><th>Agenție</th><th>Preț</th><th>Cum o descrie</th></tr></thead>
+  <tbody></tbody>
+</table>
+</div>
+<p class="legend">Anunțul cel mai ieftin a scăzut singur de la 177.000 la 163.000 pe
+  28 septembrie. În același timp alte două agenții o vând și azi cu 177.000.
+  Împreună înseamnă un singur lucru: nu se vinde la niciun preț de patru luni.</p>
+
+<h2>Ce zice releveul</h2>
+<p>Planul fotografiat la vizionare spune mai mult decât toate anunțurile la un loc.</p>
+
+<div class="cols">
+  <div class="col good">
+    <h4>Ce primești</h4>
+    <ul>
+      <li>Parter cu două zone: una la <b>h = 2,65 m</b>, alta la <b>h = 2,30 m</b> — casa a fost construită în două etape</li>
+      <li>Două bucătării și două grupuri sanitare la parter</li>
+      <li>Garsonieră cu intrare separată — <b>asta se poate închiria</b></li>
+      <li>Garaj zidărie 26,40 mp și magazie 16,76 mp</li>
+      <li>Demisol 65 mp: două camere serviciu, spațiu centrală, două pivnițe</li>
+      <li>Centrală nouă și instalație de încălzire refăcută, <i>declarate</i> în anunțul de 177.000</li>
+    </ul>
+  </div>
+  <div class="col bad">
+    <h4>Ce te costă</h4>
+    <ul>
+      <li><b>Demisolul are h = 2,00 m</b> — sub minimul legal, deci nu poate fi niciodată locuință. De-asta scrie „cam serviciu", nu „cameră"</li>
+      <li>Casa e, în acte și în fapt, <b>două locuințe</b> — exact ce ai zis că nu vrei</li>
+      <li>Fisuri în tavanul demisolului, vizibile în poză</li>
+      <li>Învelitoarea e terminată: licheni, coamă crăpată, jgheaburi ruginite complet</li>
+      <li>Tâmplărie de lemn peste tot</li>
+      <li>Curtea din față e betonată; cea din spate rămâne de văzut</li>
+    </ul>
+  </div>
+</div>
+
+<h2>De verificat înainte de ofertă</h2>
+<ul class="checks" id="dever"></ul>
+
+<h2 id="vandute">Ce se vinde de fapt</h2>
+
+<p>Medianele de mai jos sunt prețuri <i>cerute</i>, de anunțuri care încă stau pe
+  piață — adică tocmai cele care nu se vând. Semnalul adevărat e în anunțurile care
+  au <b>dispărut</b>. Le-am luat pe toate casele din Sibiu pe care le-am văzut
+  vreodată, am cerut pagina fiecăreia și am citit starea ei.</p>
+
+<div class="scroller">
+<table id="vand">
+  <thead><tr><th>Grup</th><th>Câte</th><th>Preț median</th><th>Zile pe piață</th></tr></thead>
+  <tbody></tbody>
+</table>
+</div>
+
+<div class="note ok"><b>Casele de ~180.000 € pleacă în trei săptămâni. Cele de ~215.000 € stau patru luni și apoi se retrag.</b>
+  Mediana cerută a celor rămase pe piață e 207.500 € — exact zona în care nu se
+  mișcă nimic. Asta e banda ta de negociere, nu mediana anunțurilor active.</div>
+
+<p class="legend"><b>Avertisment onest:</b> „scos de proprietar" nu dovedește o vânzare.
+  Poate fi și retragere, sau consolidarea anunțurilor între agenții — cum s-a
+  întâmplat chiar cu duplicatele casei ăsteia. Prețul tranzacției nu e public
+  nicăieri în România. Ce se poate citi e cât a stat anunțul și cine l-a scos.
+  Rulează din nou cu <code>node tools/vandute.js</code>.</p>
+
+<h2>Partea legală</h2>
+
+<div class="cols">
+  <div class="col bad">
+    <h4>Demisolul, definitiv</h4>
+    <ul>
+      <li>Legea locuinței cere <b>2,55 m</b> înălțime liberă pentru o cameră de locuit. Demisolul are 2,00 m — cu 55 cm sub minim</li>
+      <li>Nu se rezolvă cu avize. Doar coborând pardoseala cu 55 cm, adică exact o subzidire reală, cu proiect de rezistență</li>
+      <li>Deci cei 65 mp de demisol rămân pivniță, spălătorie, atelier. Niciodată cameră, bucătărie sau dormitor</li>
+      <li><a href="https://legislatie.just.ro/Public/DetaliiDocumentAfis/8597" target="_blank" rel="noopener">Legea 114/1996, Anexa 1</a></li>
+    </ul>
+  </div>
+  <div class="col bad">
+    <h4>Terezian e parțial zonă protejată</h4>
+    <ul>
+      <li>Partea de sud-est e zonă construită protejată. Dacă imobilul cade în ea, <b>orice lucrare, inclusiv la fațadă, cere aviz</b> de la Direcția Județeană pentru Cultură</li>
+      <li>Asta ar schimba complet calendarul renovării</li>
+      <li>Certificatul de urbanism spune explicit dacă ești în ZCP</li>
+      <li><a href="https://pug2021.sibiu.ro/zona-3/" target="_blank" rel="noopener">PUG Sibiu, zona 3</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="note"><b>Subzidirea nu e remediu pentru igrasie — confirmat din surse tehnice.</b>
+  Subzidirea se face când fundația <i>a cedat</i>: fisuri mari în ziduri, pardoseli
+  înclinate, acoperiș în formă de șa. Sursele care o descriu nu pomenesc umiditatea
+  deloc, iar executată greșit <b>slăbește</b> casa și produce fisuri noi.
+  <a href="https://proiectderezistenta.ro/subzidirea-fundatiei/" target="_blank" rel="noopener">proiectderezistenta.ro</a> ·
+  <a href="https://drdeco.ro/totul-despre-subzidire/" target="_blank" rel="noopener">drdeco.ro</a><br>
+  Întrebarea de pus agentului: <b>cine a stabilit că e nevoie de subzidire și pe ce document?</b>
+  Fără expertiză scrisă, afirmația n-are acoperire.</div>
+
+<h3>Certificatul de urbanism — ieftin, și îți răspunde la întrebarea de 50.000 €</h3>
+<p>Pentru 413 mp, taxa la Primăria Sibiu e <b>11 lei</b>. Termenul legal e 5–10 zile
+  lucrătoare pentru cel de informare, dar presa locală a documentat întârzieri reale
+  de până la șase luni. Se depune la Centrul de Informații pentru Cetățeni, camera P08.</p>
+<p>El îți spune POT și CUT pentru parcelă — adică dacă poți construi un al doilea corp
+  pe cei 313 mp liberi. Ăla e singurul scenariu în care casa asta face bani. Orientativ,
+  pentru locuințe cu regim redus la Sibiu se vehiculează POT 35% și CUT 0,70, dar
+  valoarea care contează juridic e cea din certificat, pentru parcela ta.</p>
+<p class="legend">
+  <a href="https://e-administratie.sibiu.ro/cmsSE/acte-necesare-primaria-sibiu/acte-necesare-pentru-obtinerea-certificatului-de-urbanism" target="_blank" rel="noopener">Acte necesare</a> ·
+  <a href="https://sibiu.ro/primaria/formular/180" target="_blank" rel="noopener">Formulare</a> ·
+  <a href="https://hcl.usr.ro/sibiu/2025/h125" target="_blank" rel="noopener">Taxele, HCL 125/2025</a> ·
+  <a href="https://www.sibiu.ro/primaria/pug" target="_blank" rel="noopener">PUG Sibiu</a><br>
+  De știut: din 25 august 2026 e în vigoare <b>Legea 169/2026, Codul urbanismului</b>,
+  care a abrogat Legea 50/1991 și 350/2001. Orice ghid online mai vechi de august 2026
+  e depășit.</p>
+
+<h3>Expertiza tehnică — cine și cât</h3>
+<p>O poate face doar un <b>expert tehnic atestat MDLPA</b>. Prețuri publicate pentru
+  2026: casă parter 2.000–2.500 lei, casă P+1 2.500–3.500 lei, expertiză pentru
+  extindere sau mansardare 3.000–5.000 lei. Onorariile nu sunt reglementate.</p>
+<p>În județul Sibiu sunt listați 97 de experți tehnici. Cere copia atestatului și
+  verifică-i valabilitatea — profilurile de pe directoare sunt auto-înregistrate.</p>
+<p class="legend">
+  <a href="https://verificatori.ro/experti/sibiu" target="_blank" rel="noopener">Experți tehnici, Sibiu</a> ·
+  <a href="https://brig.ro/cat-costa/expertiza-tehnica-constructii" target="_blank" rel="noopener">Prețuri publicate</a><br>
+  Cere explicit ca expertiza să acopere trei lucruri: cauza umidității (capilaritate,
+  infiltrație sau condens), starea fundației și a zidăriei de la demisol, și dacă
+  există sau nu tasare.</p>
+
+<h2>Cu ce o compari</h2>
+<p>Case gata de locuit în Terezian, 85–140 mp. Mediana cerută e 207.500 €, dar
+  coloana „pe piață din" spune adevărul: la prețurile astea nu se vinde nimic.</p>
+
+<div class="scroller">
+<table id="comp">
+  <thead><tr><th>Casa</th><th>Preț</th><th>mp / teren</th><th>Pe piață din</th></tr></thead>
+  <tbody></tbody>
+</table>
+</div>
+<p class="legend">Opt comparabile. Eșantion subțire — mediana se mișcă cu 20.000 €
+  dacă se vinde una. Sunt prețuri cerute, nu prețuri de vânzare.</p>
+
+<footer>
+  <p>Sursele de preț pentru manoperă și materiale sunt listate în fiecare opțiune de
+    mai sus. Nicio cifră de aici nu înlocuiește un deviz pe teren.</p>
+  <p id="stamp"></p>
+</footer>
+
+</div>
+<script>
+(function(){
+  var T = localStorage.getItem("tema");
+  if(T) document.documentElement.setAttribute("data-theme", T);
+  document.getElementById("themeBtn").addEventListener("click", function(){
+    var d = document.documentElement;
+    var nou = d.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    d.setAttribute("data-theme", nou);
+    try{ localStorage.setItem("tema", nou); }catch(e){}
+  });
+})();
+
+var euro = function(n){ return Math.round(n).toLocaleString("ro-RO"); };
+
+/* ---------- optiunile pentru mucegai ---------- */
+var OPTIUNI = [];
+
+/* ---------- bugetul ---------- */
+var BUGET = [
+  {ce:"Acoperiș — învelitoare, folie, șipci, jgheaburi, demolare", min:15000, max:22000,
+   sursa:"~105 mp suprafață în pantă peste 80 mp amprentă. Minimul presupune șarpanta sănătoasă; maximul, structură parțial refăcută. Se lămurește urcând în pod."},
+  {ce:"Mucegai / igrasie demisol", min:3000, max:12000,
+   sursa:"Minimul = curățare, biocid, tencuială de asanare pe peretele afectat. Maximul = plus injectare chimică pe perimetru. Drenajul exterior nu e inclus: demisolul oricum nu poate fi locuință."},
+  {ce:"Baie de la zero", min:8000, max:10000, sursa:"Releveul arată baie 4,61 mp plus WC 2,58 mp."},
+  {ce:"Bucătărie", min:8000, max:12000, sursa:"Mobilier, electrocasnice, instalații, finisaje."},
+  {ce:"Instalație electrică", min:3000, max:8000,
+   sursa:"Minimul doar corpul principal (~60 mp), maximul toată casa. Anunțul de 177.000 declară curent trifazic."},
+  {ce:"Instalație sanitară", min:3000, max:6000, sursa:"Trasee noi, fără obiecte."},
+  {ce:"Tâmplărie", min:3500, max:9000,
+   sursa:"Toată e de lemn. Minimul = doar ferestrele corpului principal."},
+  {ce:"Încălzire", min:0, max:10000,
+   sursa:"Zero DACĂ e adevărat ce scrie în anunțul de 177.000 — centrală nouă și instalație refăcută. Verifică la fața locului."},
+  {ce:"Finisaje, tencuieli, pardoseli, zugrăveli", min:5000, max:15000,
+   sursa:"Minimul = 60 mp cu dușumeaua existentă șlefuită. Maximul = toată casa, pardoseli noi."},
+  {ce:"Expertiză tehnică + certificat de urbanism", min:700, max:1200,
+   sursa:"Expertiză 2.000–5.000 lei, CU 11 lei pentru 413 mp. Se cer ÎNAINTE de ofertă."}
+];
+
+/* ---------- anunturile aceleiasi case ---------- */
+var ANUNTURI = [
+  {ag:"Home Consult", pret:163000, desc:"„95 mp utili, 3 camere\" — nu pomenește garsoniera",
+   u:"https://www.storia.ro/ro/oferta/casa-individuala-413-mp-teren-zona-terezian-IDHFt4"},
+  {ag:"TABOO", pret:162990, desc:"„duplex, 163 mp utili, 5 camere, 3 bucătării, 2 băi, 2 pivnițe, garaj, 1971\"",
+   u:"https://www.storia.ro/ro/oferta/casa-de-vanzare-cu-teren-412-mp-pivnita-garaj-in-terezian-sibiu-IDHlw7"},
+  {ag:"—", pret:177000, desc:"„101 mp utili + demisol 65 mp, casă cu 2 camere și garsonieră cu intrare separată\". Tot aici scrie centrală nouă și curent trifazic",
+   u:"https://www.storia.ro/ro/oferta/casa-individuala-si-garsoniere-101mp-utili-demisol-65mp-terezian-IDHEFT"},
+  {ag:"—", pret:177000, desc:"la fel, dar „115 mp utili\"",
+   u:"https://www.storia.ro/ro/oferta/casa-individuala-si-garsoniere-115mp-utili-demisol-65mp-terezian-IDHEPE"},
+  {ag:"MAAC", pret:200000, desc:"„casă cu 2 corpuri de locuință\"",
+   u:"https://www.storia.ro/ro/oferta/casa-3-camere-100mpu-teren-413mp-terezian-IDHl6w"}
+];
+
+/* ---------- de verificat ---------- */
+var DEVER = [
+  ["Adresa exactă — Berzelor 3 sau Calea Șurii Mari?",
+   "Diferență de 130 m între ce scrie în anunț și ce ți-au spus. Una e stradă laterală, cealaltă arteră."],
+  ["Extras de carte funciară, actualizat",
+   "Suprafața utilă din acte. Garsoniera e unitate separată în CF? Anexele, garajul și magazia sunt intabulate?"],
+  ["Expertiză tehnică — fundație, igrasie, fisurile din tavanul demisolului, șarpantă",
+   "500–1.500 €. Cere-le lor s-o plătească, sau plătește-o tu și scade-o din preț. E singurul document care închide discuția despre bani."],
+  ["Urcă în pod",
+   "Zece minute acolo decid între 12.000 și 30.000 € la acoperiș. Bate în grinzi, uită-te la capetele lor unde intră în zid, caută rumeguș."],
+  ["Certificat de urbanism pentru cei 413 mp",
+   "Cu 12 m front stradal: se poate construi un al doilea corp? Ăsta e singurul scenariu în care faci bani pe casa asta."],
+  ["Centrala nouă și instalația refăcută chiar există?",
+   "Scrie doar în anunțul de 177.000. Dacă e adevărat, scazi 7.000–10.000 € din renovare."],
+  ["Curtea din spate: verde sau betonată?",
+   "Cea din față e beton. Cei 313 mp liberi nu-ți folosesc dacă sunt tot placă."],
+  ["Când au reparat ultima oară mucegaiul și cu ce?",
+   "Peticele de mortar din poze au deja mucegai peste. Au încercat și n-a ținut."],
+  ["Canalizare la rețea sau fosă?",
+   "Descrierea declară doar apă, gaz și curent. Lipsa canalizării din listă e suspectă."],
+  ["Câți proprietari semnează, fără sarcini?",
+   "Moștenitori, ipoteci, litigii, drept de uz."]
+];
+
+/* ---------- ce a disparut de pe piata ---------- */
+var VANDUTE = [
+  {g:"Scoase de proprietar în sub 60 de zile", n:23, p:180000, z:"22 mediana"},
+  {g:"Scoase după peste 60 de zile", n:10, p:215000, z:"117 mediana"},
+  {g:"Încă pe piață, în Terezian, gata de locuit", n:8, p:207500, z:"una stă de 2 ani"}
+];
+
+/* ---------- comparabile ---------- */
+var COMP = [
+  {n:"Terezian, 4 camere, renovată", p:145000, mp:95, t:422, d:"sep 2025",
+   u:"https://www.storia.ro/ro/oferta/casa-individuala-413-mp-teren-zona-terezian-IDHFt4"},
+  {n:"Terezian, 3 camere", p:153000, mp:120, t:270, d:"ian 2026", u:""},
+  {n:"Obor, 2 camere, teren 450", p:190000, mp:90, t:450, d:"sep 2024",
+   u:"https://www.storia.ro/ro/oferta/casa-cu-2-camere-curte-zona-terezian-IDBsmy"},
+  {n:"Gușterița, casă cu etaj", p:205000, mp:113, t:450, d:"iul 2026",
+   u:"https://www.storia.ro/ro/oferta/casa-cu-etaj-113-mp-utili-curte-libera-350mp-garaj-cu-pod-gusterita-IDHYdw"},
+  {n:"Gușterița, 3 camere", p:205000, mp:120, t:400, d:"iul 2026",
+   u:"https://www.storia.ro/ro/oferta/casa-3-camere-i-acces-auto-i-curte-i-gusterita-IDHX6m"},
+  {n:"Terezian, Petru Maior, renovată", p:210000, mp:90, t:209, d:"sep 2026",
+   u:"https://www.storia.ro/ro/oferta/cas-individual-de-vnzare-terezian-sibiu-4-camere-curte-proprie-IDItjs"},
+  {n:"Terezian, deschidere 15 m", p:217000, mp:112, t:450, d:"iul 2025",
+   u:"https://www.storia.ro/ro/oferta/casa-individuala-i-4-camere-i-acces-auto-i-curte-i-terezian-IDEqhl"},
+  {n:"Terezian, 5 camere, renovată 2022", p:219990, mp:130, t:120, d:"aug 2026",
+   u:"https://www.storia.ro/ro/oferta/cas-5-camere-de-vnzare-terezian-sibiu-130-mp-IDI5OI"}
+];
+
+function el(id){ return document.getElementById(id); }
+
+function deseneazaOptiuni(){
+  var g = el("optiuni");
+  if(!OPTIUNI.length){ g.innerHTML = ""; return; }
+  g.innerHTML = OPTIUNI.map(function(o){
+    return '<div class="opt' + (o.pick ? ' pick' : '') + '">'
+      + '<h3>' + o.nume + ' <span class="cost">' + o.cost + '</span>'
+      + (o.pick ? ' <span class="tag">recomandat</span>' : '') + '</h3>'
+      + '<p>' + o.ce + '</p>'
+      + '<p class="holds">Ține: ' + o.tine + (o.sursa ? ' · ' + o.sursa : '') + '</p>'
+      + '</div>';
+  }).join("");
+}
+
+function deseneazaBuget(){
+  var tb = el("buget").querySelector("tbody");
+  tb.innerHTML = BUGET.map(function(b, i){
+    return '<tr><td>' + b.ce + '</td>'
+      + '<td><input class="calc" type="number" step="500" data-i="' + i + '" data-k="min" value="' + b.min + '"></td>'
+      + '<td><input class="calc" type="number" step="500" data-i="' + i + '" data-k="max" value="' + b.max + '"></td>'
+      + '<td><small>' + b.sursa + '</small></td></tr>';
+  }).join("");
+  tb.addEventListener("input", function(e){
+    var t = e.target; if(!t.dataset.k) return;
+    BUGET[t.dataset.i][t.dataset.k] = Number(t.value) || 0;
+    totaluri();
+  });
+  totaluri();
+}
+
+function totaluri(){
+  if(!BUGET.length) return;
+  var min = BUGET.reduce(function(s,b){ return s + b.min; }, 0);
+  var max = BUGET.reduce(function(s,b){ return s + b.max; }, 0);
+  var pret = Number(el("pretCasa").value) || 0;
+  el("tMin").textContent = euro(min);
+  el("tMax").textContent = euro(max);
+  el("gMin").textContent = euro(min + pret);
+  el("gMax").textContent = euro(max + pret);
+  var plafon = 207500;
+  var t = "Mediana cerută pentru o casă gata de locuit în Terezian e " + euro(plafon) + " €. ";
+  if(min + pret > plafon){
+    t += "Chiar și în varianta minimă ieși peste ea cu " + euro(min + pret - plafon)
+       + " € — adică plătești mai mult decât cere piața pentru una deja terminată.";
+  } else {
+    t += "În varianta minimă rămâi sub ea cu " + euro(plafon - min - pret) + " €.";
+  }
+  el("verdictBuget").textContent = t;
+}
+
+function deseneazaAnunturi(){
+  el("anunturi").querySelector("tbody").innerHTML = ANUNTURI
+    .slice().sort(function(a,b){ return a.pret - b.pret; })
+    .map(function(a){
+      return '<tr><td><a href="' + a.u + '" target="_blank" rel="noopener">' + a.ag + '</a></td>'
+        + '<td class="num">' + euro(a.pret) + ' €</td>'
+        + '<td style="text-align:left"><small style="color:var(--muted)">' + a.desc + '</small></td></tr>';
+    }).join("");
+}
+
+function deseneazaDever(){
+  el("dever").innerHTML = DEVER.map(function(d){
+    return '<li><b>' + d[0] + '</b><small>' + d[1] + '</small></li>';
+  }).join("");
+}
+
+function deseneazaVandute(){
+  el("vand").querySelector("tbody").innerHTML = VANDUTE.map(function(v){
+    return '<tr><td>' + v.g + '</td>'
+      + '<td class="num">' + v.n + '</td>'
+      + '<td class="num">' + euro(v.p) + ' €</td>'
+      + '<td class="num">' + v.z + '</td></tr>';
+  }).join("");
+}
+
+function deseneazaComp(){
+  el("comp").querySelector("tbody").innerHTML = COMP.map(function(c){
+    var nume = c.u ? '<a href="' + c.u + '" target="_blank" rel="noopener">' + c.n + '</a>' : c.n;
+    return '<tr><td>' + nume + '</td>'
+      + '<td class="num">' + euro(c.p) + ' €</td>'
+      + '<td class="num">' + c.mp + ' / ' + c.t + '</td>'
+      + '<td class="num">' + c.d + '</td></tr>';
+  }).join("");
+}
+
+deseneazaOptiuni();
+deseneazaBuget();
+deseneazaAnunturi();
+deseneazaDever();
+deseneazaVandute();
+deseneazaComp();
+el("pretCasa").addEventListener("input", totaluri);
+el("stamp").textContent = "Pagina se actualizează manual. Ultima dată: 2 octombrie 2026.";
+</script>
+</body>
+</html>
