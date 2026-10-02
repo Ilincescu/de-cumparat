@@ -173,7 +173,31 @@
 <p>Petecele de mortar sunt detaliul care contează cel mai mult: cineva a mai
   încercat o dată și a revenit. Întreabă-i când au reparat și cu ce.</p>
 
+<div class="note"><b>Dezumidificatorul nu e soluția, și poate înrăutăți lucrurile.</b>
+  Ți-am spus mai devreme că e cel mai ieftin lucru cu cel mai mare efect. Greșit,
+  pentru igrasie capilară: dezumidificarea agresivă <b>accelerează sărurarea zidului</b> —
+  exact eflorescențele albe care se văd deja în poze — iar aparatele sunt
+  „în general nepotrivite pentru dezumidificarea pe termen lung a clădirilor vechi"
+  (<a href="https://www.haustrocknung.de/en/guide/humidity-wall/" target="_blank" rel="noopener">haustrocknung.de</a>).
+  Un aparat e util <b>după</b> ce bariera e făcută, ca să țină condensul în frâu — nu în locul ei.
+  Și tot atunci contează tipul: la 10–15 °C un compresor de 30 l/zi e aproape inutil,
+  trebuie unul cu desicant.</div>
+
 <div id="optiuni"></div>
+
+<h3>Pe cine suni</h3>
+<p><b>Nicio firmă din Sibiu nu declară injectare anti-igrasie ca serviciu și niciuna
+  nu publică preț.</b> Toate cer ofertă la fața locului. Cei mai apropiați specialiști
+  cu metodă proprie:</p>
+<div class="scroller">
+<table id="firme">
+  <thead><tr><th>Firmă</th><th>Unde</th><th>Metodă</th><th>Telefon</th></tr></thead>
+  <tbody></tbody>
+</table>
+</div>
+<p class="legend">Cere de la fiecare: preț pe metru liniar, ce cremă folosesc,
+  garanție scrisă și pe câți ani. Diferența dintre o ofertă de 150 și una de 300 lei/ml
+  pe 42 m e de 1.200 €, deci merită trei oferte.</p>
 
 <h2>Cât te costă, în total</h2>
 <p>Editează orice sumă — totalul se recalculează. Cifrele de pornire sunt estimările
@@ -364,14 +388,47 @@
 var euro = function(n){ return Math.round(n).toLocaleString("ro-RO"); };
 
 /* ---------- optiunile pentru mucegai ---------- */
-var OPTIUNI = [];
+/* Preturile pe ml si pe mp sunt cele publicate, convertite la cursul BNR din
+   2 octombrie 2026, 1 EUR = 5,3447 lei. Cantitatile: 12 ml perete spre strada,
+   42 ml perimetru, 63 mp tencuiala pe o banda de 1,5 m inaltime. */
+var OPTIUNI = [
+  {nume:"1 · Curățare și zugrăvit", cost:"400–800 €",
+   ce:"Răzuiești, dai biocid, zugrăvești. Nu atinge cauza — apa continuă să urce prin zid.",
+   tine:"câteva luni",
+   sursa:"estimare proprie, fără sursă publicată"},
+
+  {nume:"2 · Tencuială de asanare, fără barieră", cost:"1.120–1.470 €",
+   ce:"Decopertezi tencuiala până la cărămidă pe o bandă de 1,5 m, pui tencuială de asanare certificată WTA — poroasă, rezistentă la săruri. 63 mp: decopertare 35–45 lei/mp, asanare 60–80 lei/mp.",
+   tine:"2–5 ani, apoi revine",
+   sursa:'Ghidul european WTA 2-9-04/D spune explicit că <b>uscarea zidăriei nu e posibilă nici cu tencuieli de asanare, nici cu altele, fără măsuri suplimentare</b> · <a href="https://www.daibau.ro/preturi/tencuiala_mecanizata" target="_blank" rel="noopener">prețuri daibau</a>'},
+
+  {nume:"3 · Injectare pe tot perimetrul + asanare", cost:"2.300–3.830 €", pick:true,
+   ce:"Se găuresc rosturile la bază, Ø12 mm din 10–12 cm, și se injectează cremă hidrofobă care formează bariera orizontală pe care casa n-a avut-o niciodată. 42 ml × 150–300 lei. Apoi decopertare și tencuială de asanare pe 63 mp. Uscarea zidului durează săptămâni, nu zile.",
+   tine:"permanent, dacă nu intră apă lateral",
+   sursa:'<b>Pe tot perimetrul, nu doar pe peretele de la stradă — capilaritatea nu se oprește la colț.</b> 150–300 lei/ml material+manoperă · <a href="https://siro.ro/hidroizolatie-fundatie/" target="_blank" rel="noopener">siro.ro</a>'},
+
+  {nume:"4 · Varianta ta, cu mâna ta", cost:"~1.400 € materiale",
+   ce:"SikaMur InjectoCream-100: 151,52 lei unipacul de 560 ml, ~21 unipac pentru 42 m de zid de 30 cm ≈ 595 €. Tencuială Baumit SanovaMonoTrass certificată WTA: 79,82 lei sacul, ~53 saci pentru 63 mp la 2 cm ≈ 791 €. Plus un pistol de ~71 lei și o bormașină.",
+   tine:"la fel ca varianta 3, dacă e executată corect",
+   sursa:'Dedeman, Leroy și Hornbach <b>nu țin creme de injectare</b> · <a href="https://www.macostore.ro/hidroizolatii/hidroizolatie-injectabila-sikamur-injectocream-100-600-ml.html" target="_blank" rel="noopener">macostore</a> · <a href="https://www.tehnoconstruct.ro/cumpara/baumit-sanovamonotrass-tencuiala-monostrat-tras-var-sac-25-kg-7696042" target="_blank" rel="noopener">tehnoconstruct</a>'},
+
+  {nume:"5 · Plus drenaj exterior pe laturile din curte", cost:"+600–1.300 €",
+   ce:"Sapi până la talpa fundației pe cele trei laturi dinspre curte, pui membrană și conductă de drenaj cu pietriș. 30 ml × (60–100 lei drenaj + 50–130 lei săpătură).",
+   tine:"permanent",
+   sursa:'<a href="https://economisi.ro/energie/solutii-casa/hidroizolatie-fundatie" target="_blank" rel="noopener">economisi.ro</a>'},
+
+  {nume:"6 · Și peretele dinspre stradă, pe exterior", cost:"+1.000–2.500 €",
+   ce:"Aici se sapă în trotuar, adică pe domeniul public. Ai nevoie de aviz de săpătură de la Primăria Sibiu, cerut de firma executantă, cu certificat de urbanism, proiect și contract de refacere a zonei.",
+   tine:"permanent",
+   sursa:'Săpătură fără aviz: <b>amendă 2.000–2.500 lei</b>; nerefacerea trotuarului, încă 500–2.000 lei · <a href="https://spadpp.sibiu.ro/domeniul_public/detaliu/17" target="_blank" rel="noopener">SPADPP Sibiu</a>'}
+];
 
 /* ---------- bugetul ---------- */
 var BUGET = [
   {ce:"Acoperiș — învelitoare, folie, șipci, jgheaburi, demolare", min:15000, max:22000,
    sursa:"~105 mp suprafață în pantă peste 80 mp amprentă. Minimul presupune șarpanta sănătoasă; maximul, structură parțial refăcută. Se lămurește urcând în pod."},
-  {ce:"Mucegai / igrasie demisol", min:3000, max:12000,
-   sursa:"Minimul = curățare, biocid, tencuială de asanare pe peretele afectat. Maximul = plus injectare chimică pe perimetru. Drenajul exterior nu e inclus: demisolul oricum nu poate fi locuință."},
+  {ce:"Mucegai / igrasie demisol", min:2300, max:7600,
+   sursa:"Minimul = varianta 3 de mai sus, injectare pe tot perimetrul plus tencuială de asanare, la prețurile publicate. Maximul = plus drenaj exterior pe toate laturile, inclusiv săpătura avizată în trotuar. Nu include conversia demisolului — oricum nu poate fi locuință la 2,00 m."},
   {ce:"Baie de la zero", min:8000, max:10000, sursa:"Releveul arată baie 4,61 mp plus WC 2,58 mp."},
   {ce:"Bucătărie", min:8000, max:12000, sursa:"Mobilier, electrocasnice, instalații, finisaje."},
   {ce:"Instalație electrică", min:3000, max:8000,
@@ -423,6 +480,22 @@ var DEVER = [
    "Descrierea declară doar apă, gaz și curent. Lipsa canalizării din listă e suspectă."],
   ["Câți proprietari semnează, fără sarcini?",
    "Moștenitori, ipoteci, litigii, drept de uz."]
+];
+
+/* ---------- firme ---------- */
+var FIRME = [
+  {n:"Cadisola Plus", u:"https://cadisola-sebes.ro/solutii-igrasie-capilaritate-case-vechi/",
+   o:"Sebeș — 25 km", m:"Injectare silan/siloxan, mortare hidroizolante", t:"0727 831 863"},
+  {n:"DryHouse Vision", u:"https://dryhouse.ro/tratarea-igrasiei-si-mucegaiului-la-pereti-din-caramida-cladire-istorica/",
+   o:"Brașov", m:"Cremă Dryzone injectată + tencuială cu aditiv, 15+ ani experiență", t:"0728 984 551"},
+  {n:"DryWallTeam", u:"https://www.igrasie-mucegai.ro/intrebari-frecvente.php",
+   o:"franciză, acoperă Sibiul", m:"Cremă Ultracure în primul rost + mortar hidrofob, garanție 10 ani", t:"0725 533 074"},
+  {n:"BioDry România", u:"https://biodryromania.ro/",
+   o:"Târgu Mureș", m:"Aparat electromagnetic, fără găuri și fără substanțe", t:"0770 765 537"},
+  {n:"SNG Imperial (hidroizol)", u:"https://hidroizol.ro/bariera-orizontala-injectare/",
+   o:"Ilfov, lucrează în toată țara", m:"Barieră orizontală prin injectare, hidroizolații subsol", t:"0722 449 800"},
+  {n:"Hidroizolatii Sibiu", u:"https://www.facebook.com/hidroizolatiisibiu/",
+   o:"Șelimbăr", m:"Hidroizolații generale — întreabă explicit dacă fac injectare", t:"0736 361 899"}
 ];
 
 /* ---------- ce a disparut de pe piata ---------- */
@@ -518,6 +591,15 @@ function deseneazaDever(){
   }).join("");
 }
 
+function deseneazaFirme(){
+  el("firme").querySelector("tbody").innerHTML = FIRME.map(function(f){
+    return '<tr><td><a href="' + f.u + '" target="_blank" rel="noopener">' + f.n + '</a></td>'
+      + '<td style="text-align:left">' + f.o + '</td>'
+      + '<td style="text-align:left"><small style="color:var(--muted)">' + f.m + '</small></td>'
+      + '<td class="num">' + f.t + '</td></tr>';
+  }).join("");
+}
+
 function deseneazaVandute(){
   el("vand").querySelector("tbody").innerHTML = VANDUTE.map(function(v){
     return '<tr><td>' + v.g + '</td>'
@@ -541,6 +623,7 @@ deseneazaOptiuni();
 deseneazaBuget();
 deseneazaAnunturi();
 deseneazaDever();
+deseneazaFirme();
 deseneazaVandute();
 deseneazaComp();
 el("pretCasa").addEventListener("input", totaluri);
