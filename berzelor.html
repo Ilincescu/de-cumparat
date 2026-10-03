@@ -168,14 +168,32 @@
   tot cu renovare completă în față</b>. Singurul ei avantaj e grădina verde și mare.
   Berzelor o bate: are 413 mp în loc de 320, centrală nouă, baia deja făcută, și costă
   cu 7.000 mai puțin.<br><br>
-  <b><a href="https://www.storia.ro/ro/oferta/casa-individuala-d-p-pod-teren-252-mp-baie-cu-geam-si-curte-in-sibiu-IDHW8J" target="_blank" rel="noopener">Țiglari, 179.000 €</a> — asta rămâne.</b>
-  În poze arată chiar îngrijită: fațadă proaspătă, obloane verzi, stradă nou asfaltată,
-  camere curate cu tapet învechit dar intact, baie completă și funcțională. <b>Te muți
-  în ea.</b> Ce dai la schimb: 252 mp teren în loc de 413, <b>curte complet pavată</b>,
-  tâmplărie tot de lemn, și un demisol cu cărămidă la vedere.<br><br>
-  <b>Deci alegerea e între două lucruri, nu trei:</b> 179.000 € și te muți mâine, într-o
-  casă fără grădină. Sau 163.000 plus 30.000–66.000 și un șantier, pentru 66 mp folosiți
-  — dar cu 413 mp teren și curte verde în spate.<br><br>
+  <b><a href="https://www.storia.ro/ro/oferta/casa-individuala-d-p-pod-teren-252-mp-baie-cu-geam-si-curte-in-sibiu-IDHW8J" target="_blank" rel="noopener">Țiglari, 179.000 €</a> — nici ea nu e „gata de locuit".</b>
+  Casă din 1974. Anunțul <b>nu pomenește încălzirea nicăieri</b> — nici câmp în fișă, nici
+  o vorbă în descriere, doar „gaz" ca utilitate. Tâmplărie de lemn. Tapet din anii '90,
+  chiuvetă veche, neon pe tavan. Curte complet pavată, 252 mp teren în loc de 413.<br><br>
+  <b>Deci niciuna dintre cele trei nu se poate locui fără lucrări.</b> Berzelor e singura
+  cu centrală nouă și baie făcută, verificate la fața locului.<br><br>
+  <b>Reperul corect e o casă din 2026, nu una din 1974.</b> Vezi tabelul de mai jos.</div>
+
+<div class="scroller">
+<table id="epoci">
+  <thead><tr><th>&nbsp;</th><th>Berzelor 1971</th><th>Țiglari 1974</th><th>Casă nouă 2026</th></tr></thead>
+  <tbody></tbody>
+</table>
+</div>
+
+<div class="note"><b>Alegerea reală: 413 mp de teren și grădină verde, sau o casă modernă.</b><br><br>
+  O casă din 2026 la 214.000 € costă cu 51.000 mai mult decât cere Berzelor — dar Berzelor
+  are nevoie de 30.000–66.000 de lucrări, deci <b>se întâlnesc</b>. La punctul ăla, casa
+  nouă îți dă izolație termică, încălzire în pardoseală cu pompă de căldură și tâmplărie
+  PVC. Lucruri pe care Berzelor nu le va avea niciodată fără bani mult mai mulți.<br><br>
+  Ce nu-ți dă nicio casă nouă: <b>teren.</b> Toate sunt pe 207–300 mp, duplexuri, cu curte
+  pavată și o fâșie de verde. Berzelor are 413 mp și grădină în spate.<br><br>
+  <b>Și niciuna dintre cele noi nu e gata nici ea</b> — se predau „finisate la alb" sau sunt
+  încă în execuție.</div>
+
+
   <b>Ce rămâne real:</b> curtea verde din spate — singura din toate alternativele. Dacă
   aia singură face diferența pentru tine, atunci e o decizie de viață, nu una de bani,
   și e în regulă să fie așa. Dar atunci prețul trebuie să coboare sub 150.000, nu la 150.000.</div>
@@ -934,6 +952,21 @@ var INCALZIRE = [
   {ce:"Toată casa, ~115 mp", stare:"cu termopane și pod izolat", min:160, max:210, mp:115}
 ];
 
+/* ---------- comparatie pe epoci ---------- */
+var EPOCI = [
+  {ce:"Preț cerut",        a:"163.000 €", b:"179.000 €", c:"214.000–220.000 €"},
+  {ce:"mp utili",          a:"66 folosiți", b:"88", c:"110–120"},
+  {ce:"Teren",             a:"<b>413 mp</b>", b:"252 mp", c:"207–300 mp"},
+  {ce:"Curte",             a:"<b>verde în spate</b>", b:"complet pavată", c:"pavaj + fâșie verde"},
+  {ce:"Tâmplărie",         a:"lemn", b:"lemn", c:"<b>PVC</b>"},
+  {ce:"Încălzire",         a:"centrală nouă", b:"<b>nespecificată</b>", c:"<b>pardoseală, pompă de căldură</b>"},
+  {ce:"Izolație termică",  a:"nu", b:"nu", c:"<b>da</b>"},
+  {ce:"Stare la predare",  a:"de renovat", b:"de renovat", c:"la alb sau în execuție"},
+  {ce:"Tip",               a:"2 corpuri", b:"2 intrări", c:"duplex"}
+];
+
+/* ---------- comparatie pe epoci: sfarsit ---------- */
+
 /* ---------- seriile publice, luate live cu tools/indici.js ---------- */
 var SERII = [
   {ce:"Apartamente Sibiu, €/mp util<br><small>imobiliare.ro, lunar</small>", a:"1.941 € <small>dec 2025</small>", b:"2.034 € <small>sep 2026</small>", d:"+4,8%", sus:true},
@@ -1084,6 +1117,13 @@ function deseneazaIncalzire(){
   }).join("");
 }
 
+function deseneazaEpoci(){
+  el("epoci").querySelector("tbody").innerHTML = EPOCI.map(function(r){
+    return '<tr><td>' + r.ce + '</td><td class="num">' + r.a + '</td>'
+      + '<td class="num">' + r.b + '</td><td class="num">' + r.c + '</td></tr>';
+  }).join("");
+}
+
 function deseneazaSerii(){
   el("serii").querySelector("tbody").innerHTML = SERII.map(function(r){
     var cls = r.sus === true ? ' style="color:var(--good);font-weight:600"'
@@ -1141,6 +1181,7 @@ deseneazaOptiuni();
 deseneazaBuget();
 deseneazaAnunturi();
 deseneazaDever();
+deseneazaEpoci();
 deseneazaSerii();
 deseneazaSerie();
 deseneazaRitm();
