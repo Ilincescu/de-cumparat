@@ -399,6 +399,35 @@
   cu o curte de beton. <b>Curtea verde din spate e singurul lucru pe care Berzelor îl are
   și ea nu.</b></div>
 
+<h3>Cum s-a mișcat piața în 2026</h3>
+
+<p>Nu am prețuri de tranzacție — nimeni nu le publică în România. Dar Wayback Machine
+  a salvat pagina de rezultate Storia pentru casele din Sibiu de câteva ori pe an.
+  Am citit fiecare captură cu <b>aceeași metodă</b> și am filtrat la banda ta,
+  120.000–250.000 €, case în oraș.</p>
+
+<div class="scroller">
+<table id="serie">
+  <thead><tr><th>Data</th><th>n</th><th>Mediană bandă</th><th>€/mp</th></tr></thead>
+  <tbody></tbody>
+</table>
+</div>
+
+<div class="note"><b>De la începutul anului, banda ta a scăzut cu ~10%, apoi s-a stabilizat.</b>
+  217.450 € în martie, 190.000 în iunie, 187.500 în iulie, și pe la 195.000–199.000 din
+  septembrie încoace. €/mp a urmat aceeași curbă: 1.986 → 1.779.<br><br>
+  <b>Ce înseamnă pentru tine:</b> cei 163.000 € ceruți pe Berzelor sunt deja sub mediana
+  benzii. Nu e scumpă față de ce cer vecinii ei — e scumpă față de <b>ce costă s-o faci
+  locuibilă</b>. Argumentul tău rămâne costul de renovare, nu comparația cu piața.<br><br>
+  <b>Și scăderea s-a oprit.</b> Dacă speri că mai așteptând pică prețul de la sine,
+  ultimele patru luni spun că nu.</div>
+
+<p class="legend"><b>Limitele seriei, ca să n-o iei drept lege:</b> sunt prețuri
+  <b>cerute</b>, nu de tranzacție. Fiecare punct e un singur ecran de rezultate, deci
+  <b>n e între 9 și 16</b> — eșantion mic. Capturile din februarie și august n-au putut fi
+  citite (archive.org a dat 429). Metoda e însă identică la fiecare dată, ceea ce face
+  seria comparabilă cu ea însăși. Se reface cu <code>node tools/istoric-piata.js</code>.</p>
+
 <h3>Cât trebuie să te grăbești</h3>
 
 <p>Am numărat casele din banda ta și de cât timp stau. Filtre: oraș Sibiu,
@@ -759,6 +788,15 @@ var INCALZIRE = [
   {ce:"Toată casa, ~115 mp", stare:"cu termopane și pod izolat", min:160, max:210, mp:115}
 ];
 
+/* ---------- seria de preturi 2026, din capturi archive.org ---------- */
+var SERIE = [
+  {d:"2 martie",      n:16, med:217450, ppm:1986},
+  {d:"1 iunie",       n:14, med:190000, ppm:1881},
+  {d:"14 iulie",      n:10, med:187500, ppm:1779},
+  {d:"22 septembrie", n:13, med:195000, ppm:1822},
+  {d:"3 octombrie",   n:9,  med:199000, ppm:null}
+];
+
 /* ---------- ritmul de aparitie in banda lui ---------- */
 var RITM = [
   {f:"ultimele 30 de zile", n:4, r:"4,0 case noi pe lună"},
@@ -892,6 +930,14 @@ function deseneazaIncalzire(){
   }).join("");
 }
 
+function deseneazaSerie(){
+  el("serie").querySelector("tbody").innerHTML = SERIE.map(function(r){
+    return '<tr><td>' + r.d + ' 2026</td><td class="num">' + r.n + '</td>'
+      + '<td class="num">' + euro(r.med) + ' €</td>'
+      + '<td class="num">' + (r.ppm ? euro(r.ppm) : "–") + '</td></tr>';
+  }).join("");
+}
+
 function deseneazaRitm(){
   el("ritm").querySelector("tbody").innerHTML = RITM.map(function(r){
     return '<tr><td>' + r.f + '</td><td class="num">' + r.n + '</td>'
@@ -931,6 +977,7 @@ deseneazaOptiuni();
 deseneazaBuget();
 deseneazaAnunturi();
 deseneazaDever();
+deseneazaSerie();
 deseneazaRitm();
 deseneazaIncalzire();
 deseneazaFirme();

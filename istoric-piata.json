@@ -1,0 +1,34 @@
+{
+ "actualizat": "2026-10-03",
+ "sursa": "capturi archive.org ale paginii Storia de case din orasul Sibiu",
+ "avertisment": "Preturi CERUTE, nu de tranzactie. Un singur ecran de rezultate per data, aceeasi metoda la fiecare. Esantion mic - citeste n.",
+ "serie": [
+  {
+   "data": "2025-08-13",
+   "peEcran": 36,
+   "totalPeSite": null,
+   "pretMedian": 285000,
+   "pretMin": 107000,
+   "pretMax": 800000,
+   "eurPeMpMedian": 2107
+  },
+  {
+   "data": "2025-12-04",
+   "peEcran": 36,
+   "totalPeSite": null,
+   "pretMedian": 292495,
+   "pretMin": 134500,
+   "pretMax": 2500000,
+   "eurPeMpMedian": 1823
+  },
+  {
+   "data": "2026-04-30",
+   "peEcran": 33,
+   "totalPeSite": null,
+   "pretMedian": 279000,
+   "pretMin": 84500,
+   "pretMax": 2500000,
+   "eurPeMpMedian": 1841
+  }
+ ]
+}
