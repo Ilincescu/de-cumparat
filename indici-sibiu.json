@@ -1,0 +1,4283 @@
+{
+ "actualizat": "2026-10-03",
+ "avertisment": "Ambele sunt preturi CERUTE, nu de tranzactie. Pentru Sibiu nu exista nicio sursa publica de preturi de tranzactie.",
+ "imobiliare_ro": {
+  "tip": "asking",
+  "ce": "apartamente, EUR/mp util",
+  "serie": [
+   {
+    "luna": "7/2012",
+    "eurPeMp": 733
+   },
+   {
+    "luna": "8/2012",
+    "eurPeMp": 727
+   },
+   {
+    "luna": "9/2012",
+    "eurPeMp": 724
+   },
+   {
+    "luna": "10/2012",
+    "eurPeMp": 722
+   },
+   {
+    "luna": "11/2012",
+    "eurPeMp": 728
+   },
+   {
+    "luna": "12/2012",
+    "eurPeMp": 730
+   },
+   {
+    "luna": "1/2013",
+    "eurPeMp": 733
+   },
+   {
+    "luna": "2/2013",
+    "eurPeMp": 714
+   },
+   {
+    "luna": "3/2013",
+    "eurPeMp": 711
+   },
+   {
+    "luna": "4/2013",
+    "eurPeMp": 718
+   },
+   {
+    "luna": "5/2013",
+    "eurPeMp": 720
+   },
+   {
+    "luna": "6/2013",
+    "eurPeMp": 715
+   },
+   {
+    "luna": "7/2013",
+    "eurPeMp": 714
+   },
+   {
+    "luna": "8/2013",
+    "eurPeMp": 708
+   },
+   {
+    "luna": "9/2013",
+    "eurPeMp": 703
+   },
+   {
+    "luna": "10/2013",
+    "eurPeMp": 703
+   },
+   {
+    "luna": "11/2013",
+    "eurPeMp": 708
+   },
+   {
+    "luna": "12/2013",
+    "eurPeMp": 707
+   },
+   {
+    "luna": "1/2014",
+    "eurPeMp": 705
+   },
+   {
+    "luna": "2/2014",
+    "eurPeMp": 703
+   },
+   {
+    "luna": "3/2014",
+    "eurPeMp": 700
+   },
+   {
+    "luna": "4/2014",
+    "eurPeMp": 700
+   },
+   {
+    "luna": "5/2014",
+    "eurPeMp": 696
+   },
+   {
+    "luna": "6/2014",
+    "eurPeMp": 695
+   },
+   {
+    "luna": "7/2014",
+    "eurPeMp": 692
+   },
+   {
+    "luna": "8/2014",
+    "eurPeMp": 712
+   },
+   {
+    "luna": "9/2014",
+    "eurPeMp": 712
+   },
+   {
+    "luna": "10/2014",
+    "eurPeMp": 713
+   },
+   {
+    "luna": "11/2014",
+    "eurPeMp": 701
+   },
+   {
+    "luna": "12/2014",
+    "eurPeMp": 696
+   },
+   {
+    "luna": "1/2015",
+    "eurPeMp": 690
+   },
+   {
+    "luna": "2/2015",
+    "eurPeMp": 684
+   },
+   {
+    "luna": "3/2015",
+    "eurPeMp": 684
+   },
+   {
+    "luna": "4/2015",
+    "eurPeMp": 684
+   },
+   {
+    "luna": "5/2015",
+    "eurPeMp": 684
+   },
+   {
+    "luna": "6/2015",
+    "eurPeMp": 683
+   },
+   {
+    "luna": "7/2015",
+    "eurPeMp": 690
+   },
+   {
+    "luna": "8/2015",
+    "eurPeMp": 693
+   },
+   {
+    "luna": "9/2015",
+    "eurPeMp": 692
+   },
+   {
+    "luna": "10/2015",
+    "eurPeMp": 686
+   },
+   {
+    "luna": "11/2015",
+    "eurPeMp": 686
+   },
+   {
+    "luna": "12/2015",
+    "eurPeMp": 691
+   },
+   {
+    "luna": "1/2016",
+    "eurPeMp": 692
+   },
+   {
+    "luna": "2/2016",
+    "eurPeMp": 685
+   },
+   {
+    "luna": "3/2016",
+    "eurPeMp": 700
+   },
+   {
+    "luna": "4/2016",
+    "eurPeMp": 704
+   },
+   {
+    "luna": "5/2016",
+    "eurPeMp": 718
+   },
+   {
+    "luna": "6/2016",
+    "eurPeMp": 714
+   },
+   {
+    "luna": "7/2016",
+    "eurPeMp": 722
+   },
+   {
+    "luna": "8/2016",
+    "eurPeMp": 728
+   },
+   {
+    "luna": "9/2016",
+    "eurPeMp": 732
+   },
+   {
+    "luna": "10/2016",
+    "eurPeMp": 740
+   },
+   {
+    "luna": "11/2016",
+    "eurPeMp": 750
+   },
+   {
+    "luna": "12/2016",
+    "eurPeMp": 750
+   },
+   {
+    "luna": "1/2017",
+    "eurPeMp": 758
+   },
+   {
+    "luna": "2/2017",
+    "eurPeMp": 750
+   },
+   {
+    "luna": "3/2017",
+    "eurPeMp": 760
+   },
+   {
+    "luna": "4/2017",
+    "eurPeMp": 760
+   },
+   {
+    "luna": "5/2017",
+    "eurPeMp": 760
+   },
+   {
+    "luna": "6/2017",
+    "eurPeMp": 763
+   },
+   {
+    "luna": "7/2017",
+    "eurPeMp": 790
+   },
+   {
+    "luna": "8/2017",
+    "eurPeMp": 811
+   },
+   {
+    "luna": "9/2017",
+    "eurPeMp": 833
+   },
+   {
+    "luna": "10/2017",
+    "eurPeMp": 847
+   },
+   {
+    "luna": "11/2017",
+    "eurPeMp": 869
+   },
+   {
+    "luna": "12/2017",
+    "eurPeMp": 883
+   },
+   {
+    "luna": "1/2018",
+    "eurPeMp": 881
+   },
+   {
+    "luna": "2/2018",
+    "eurPeMp": 899
+   },
+   {
+    "luna": "3/2018",
+    "eurPeMp": 900
+   },
+   {
+    "luna": "4/2018",
+    "eurPeMp": 905
+   },
+   {
+    "luna": "5/2018",
+    "eurPeMp": 915
+   },
+   {
+    "luna": "6/2018",
+    "eurPeMp": 932
+   },
+   {
+    "luna": "7/2018",
+    "eurPeMp": 940
+   },
+   {
+    "luna": "8/2018",
+    "eurPeMp": 930
+   },
+   {
+    "luna": "9/2018",
+    "eurPeMp": 928
+   },
+   {
+    "luna": "10/2018",
+    "eurPeMp": 924
+   },
+   {
+    "luna": "11/2018",
+    "eurPeMp": 940
+   },
+   {
+    "luna": "12/2018",
+    "eurPeMp": 936
+   },
+   {
+    "luna": "1/2019",
+    "eurPeMp": 933
+   },
+   {
+    "luna": "2/2019",
+    "eurPeMp": 925
+   },
+   {
+    "luna": "3/2019",
+    "eurPeMp": 928
+   },
+   {
+    "luna": "4/2019",
+    "eurPeMp": 941
+   },
+   {
+    "luna": "5/2019",
+    "eurPeMp": 953
+   },
+   {
+    "luna": "6/2019",
+    "eurPeMp": 961
+   },
+   {
+    "luna": "7/2019",
+    "eurPeMp": 963
+   },
+   {
+    "luna": "8/2019",
+    "eurPeMp": 988
+   },
+   {
+    "luna": "9/2019",
+    "eurPeMp": 991
+   },
+   {
+    "luna": "10/2019",
+    "eurPeMp": 988
+   },
+   {
+    "luna": "11/2019",
+    "eurPeMp": 992
+   },
+   {
+    "luna": "12/2019",
+    "eurPeMp": 998
+   },
+   {
+    "luna": "1/2020",
+    "eurPeMp": 1000
+   },
+   {
+    "luna": "2/2020",
+    "eurPeMp": 1024
+   },
+   {
+    "luna": "3/2020",
+    "eurPeMp": 1037
+   },
+   {
+    "luna": "4/2020",
+    "eurPeMp": 1046
+   },
+   {
+    "luna": "5/2020",
+    "eurPeMp": 1061
+   },
+   {
+    "luna": "6/2020",
+    "eurPeMp": 1078
+   },
+   {
+    "luna": "7/2020",
+    "eurPeMp": 1089
+   },
+   {
+    "luna": "8/2020",
+    "eurPeMp": 1092
+   },
+   {
+    "luna": "9/2020",
+    "eurPeMp": 1095
+   },
+   {
+    "luna": "10/2020",
+    "eurPeMp": 1094
+   },
+   {
+    "luna": "11/2020",
+    "eurPeMp": 1100
+   },
+   {
+    "luna": "12/2020",
+    "eurPeMp": 1103
+   },
+   {
+    "luna": "1/2021",
+    "eurPeMp": 1125
+   },
+   {
+    "luna": "2/2021",
+    "eurPeMp": 1139
+   },
+   {
+    "luna": "3/2021",
+    "eurPeMp": 1157
+   },
+   {
+    "luna": "4/2021",
+    "eurPeMp": 1180
+   },
+   {
+    "luna": "5/2021",
+    "eurPeMp": 1194
+   },
+   {
+    "luna": "6/2021",
+    "eurPeMp": 1200
+   },
+   {
+    "luna": "7/2021",
+    "eurPeMp": 1200
+   },
+   {
+    "luna": "8/2021",
+    "eurPeMp": 1216
+   },
+   {
+    "luna": "9/2021",
+    "eurPeMp": 1231
+   },
+   {
+    "luna": "10/2021",
+    "eurPeMp": 1250
+   },
+   {
+    "luna": "11/2021",
+    "eurPeMp": 1280
+   },
+   {
+    "luna": "12/2021",
+    "eurPeMp": 1294
+   },
+   {
+    "luna": "1/2022",
+    "eurPeMp": 1316
+   },
+   {
+    "luna": "2/2022",
+    "eurPeMp": 1346
+   },
+   {
+    "luna": "3/2022",
+    "eurPeMp": 1363
+   },
+   {
+    "luna": "4/2022",
+    "eurPeMp": 1387
+   },
+   {
+    "luna": "5/2022",
+    "eurPeMp": 1403
+   },
+   {
+    "luna": "6/2022",
+    "eurPeMp": 1412
+   },
+   {
+    "luna": "7/2022",
+    "eurPeMp": 1427
+   },
+   {
+    "luna": "8/2022",
+    "eurPeMp": 1430
+   },
+   {
+    "luna": "9/2022",
+    "eurPeMp": 1440
+   },
+   {
+    "luna": "10/2022",
+    "eurPeMp": 1438
+   },
+   {
+    "luna": "11/2022",
+    "eurPeMp": 1450
+   },
+   {
+    "luna": "12/2022",
+    "eurPeMp": 1448
+   },
+   {
+    "luna": "1/2023",
+    "eurPeMp": 1447
+   },
+   {
+    "luna": "2/2023",
+    "eurPeMp": 1443
+   },
+   {
+    "luna": "3/2023",
+    "eurPeMp": 1441
+   },
+   {
+    "luna": "4/2023",
+    "eurPeMp": 1444
+   },
+   {
+    "luna": "5/2023",
+    "eurPeMp": 1456
+   },
+   {
+    "luna": "6/2023",
+    "eurPeMp": 1464
+   },
+   {
+    "luna": "7/2023",
+    "eurPeMp": 1472
+   },
+   {
+    "luna": "8/2023",
+    "eurPeMp": 1464
+   },
+   {
+    "luna": "9/2023",
+    "eurPeMp": 1487
+   },
+   {
+    "luna": "10/2023",
+    "eurPeMp": 1491
+   },
+   {
+    "luna": "11/2023",
+    "eurPeMp": 1500
+   },
+   {
+    "luna": "12/2023",
+    "eurPeMp": 1511
+   },
+   {
+    "luna": "1/2024",
+    "eurPeMp": 1535
+   },
+   {
+    "luna": "2/2024",
+    "eurPeMp": 1555
+   },
+   {
+    "luna": "3/2024",
+    "eurPeMp": 1589
+   },
+   {
+    "luna": "4/2024",
+    "eurPeMp": 1616
+   },
+   {
+    "luna": "5/2024",
+    "eurPeMp": 1631
+   },
+   {
+    "luna": "6/2024",
+    "eurPeMp": 1661
+   },
+   {
+    "luna": "7/2024",
+    "eurPeMp": 1679
+   },
+   {
+    "luna": "8/2024",
+    "eurPeMp": 1691
+   },
+   {
+    "luna": "9/2024",
+    "eurPeMp": 1704
+   },
+   {
+    "luna": "10/2024",
+    "eurPeMp": 1720
+   },
+   {
+    "luna": "11/2024",
+    "eurPeMp": 1736
+   },
+   {
+    "luna": "12/2024",
+    "eurPeMp": 1744
+   },
+   {
+    "luna": "1/2025",
+    "eurPeMp": 1755
+   },
+   {
+    "luna": "2/2025",
+    "eurPeMp": 1785
+   },
+   {
+    "luna": "3/2025",
+    "eurPeMp": 1803
+   },
+   {
+    "luna": "4/2025",
+    "eurPeMp": 1824
+   },
+   {
+    "luna": "5/2025",
+    "eurPeMp": 1847
+   },
+   {
+    "luna": "6/2025",
+    "eurPeMp": 1857
+   },
+   {
+    "luna": "7/2025",
+    "eurPeMp": 1857
+   },
+   {
+    "luna": "8/2025",
+    "eurPeMp": 1877
+   },
+   {
+    "luna": "9/2025",
+    "eurPeMp": 1894
+   },
+   {
+    "luna": "10/2025",
+    "eurPeMp": 1905
+   },
+   {
+    "luna": "11/2025",
+    "eurPeMp": 1927
+   },
+   {
+    "luna": "12/2025",
+    "eurPeMp": 1941
+   },
+   {
+    "luna": "1/2026",
+    "eurPeMp": 1950
+   },
+   {
+    "luna": "2/2026",
+    "eurPeMp": 1968
+   },
+   {
+    "luna": "3/2026",
+    "eurPeMp": 1977
+   },
+   {
+    "luna": "4/2026",
+    "eurPeMp": 2000
+   },
+   {
+    "luna": "5/2026",
+    "eurPeMp": 2014
+   },
+   {
+    "luna": "6/2026",
+    "eurPeMp": 2016
+   },
+   {
+    "luna": "7/2026",
+    "eurPeMp": 2021
+   },
+   {
+    "luna": "8/2026",
+    "eurPeMp": 2031
+   },
+   {
+    "luna": "9/2026",
+    "eurPeMp": 2034
+   }
+  ]
+ },
+ "vdi_ro": {
+  "tip": "asking",
+  "ce": "case, apartamente, terenuri - trimestrial",
+  "brut": {
+   "meta": {
+    "source": "VDI.ro",
+    "license": "CC BY 4.0",
+    "attribution": "Date imobiliare Sibiu furnizate de VDI.ro",
+    "page_url": "https://vdi.ro/indici-imobiliari/sibiu",
+    "last_update": "2026-10-02",
+    "cite_as": "Conform datelor VDI.ro (2026-10-02), pretul median pentru un apartament cu 2 camere in Sibiu este de 106.000 EUR.",
+    "discontinuitati": {
+     "avertisment": "Seria nu este continua ca metoda de calcul. Peste datele de mai jos, variatia nu reprezinta o miscare a pietei. Graficele si seriile sunt agregate pe trimestre, deci trimestrul in care cade o schimbare nu se compara cu vecinii lui.",
+     "momente": [
+      {
+       "data": "25-29 august 2026",
+       "ce_s_a_schimbat": "numărul de oferte",
+       "explicatie": "Au intrat în platformă circa 34.000 de anunțuri noi (auditul bazei din 5 septembrie 2026 măsoară 36.666 de anunțuri adăugate în 30 de zile, din care doar 2.842 în ultimele 7). Oferta afișată aproape s-a dublat pentru că a crescut VDI.ro, nu piața."
+      },
+      {
+       "data": "27 august 2026",
+       "ce_s_a_schimbat": "prețurile",
+       "explicatie": "Am trecut de la preț mediu la preț median (mai aproape de tranzacția obișnuită, nemaifiind trasă în sus de proprietățile de lux) și am corectat modul de calcul pentru spații comerciale, birouri, spații industriale și terenuri. Seriile pentru apartamente noi și vechi încep tot de atunci."
+      },
+      {
+       "data": "8 septembrie 2026",
+       "ce_s_a_schimbat": "și numărul de oferte, și prețurile, pe fiecare localitate",
+       "explicatie": "Până atunci o localitate își aduna anunțurile după NUME, din toată țara: rândul ei prindea și cartierele cu același nume din alte orașe, iar orașele care poartă numele județului lor (Brașov, Iași, Sibiu, Constanța și altele) afișau de fapt tot județul. Același anunț era numărat de mai multe ori. Acum fiecare anunț se numără cel mult o dată, în localitatea lui. Se schimbă și prețurile, nu doar numărul de oferte: mediana se calculează pe exact aceeași mulțime de anunțuri, deci un oraș care afișa până acum județul întreg va arăta de aici înainte doar orașul. Anunțurile cu localitatea sau județul scrise altfel decât în nomenclator și fără identificatorul localității nu intră deloc în indice."
+      }
+     ],
+     "trimestre_neconcludente": [
+      "2026-Q3"
+     ]
+    }
+   },
+   "city": "Sibiu",
+   "snapshot_date": "2026-10-02",
+   "current_prices": {
+    "apartamente_2cam_vanzare_eur": 106000,
+    "apartamente_2cam_vanzare_eur_mp": 2071.77,
+    "apartamente_3cam_vanzare_eur": 135000,
+    "apartamente_3cam_vanzare_eur_mp": 2015.66,
+    "apartamente_2cam_chirie_eur_luna": 400,
+    "apartamente_2cam_chirie_eur_mp_luna": 7.92,
+    "case_vanzare_eur": 275000,
+    "case_vanzare_eur_mp": 1999.94,
+    "terenuri_eur_mp": 90,
+    "garsoniere_vanzare_eur": 57000,
+    "spatii_comerciale_eur_mp": 1970.99,
+    "birouri_eur_mp": 1671.42
+   },
+   "totals": {
+    "apartamente_active_vanzare": 1577,
+    "case_active_vanzare": 379,
+    "terenuri_active": 282,
+    "garsoniere_active": 165
+   },
+   "time_series": [
+    {
+     "metric": "Garsoniere — vânzare",
+     "unit": "EUR",
+     "category": "garsoniere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 43191.65
+      },
+      {
+       "month": "2022-Q1",
+       "value": 43191.65
+      },
+      {
+       "month": "2022-Q2",
+       "value": 44458.93
+      },
+      {
+       "month": "2022-Q3",
+       "value": 46180.83
+      },
+      {
+       "month": "2022-Q4",
+       "value": 47641.74
+      },
+      {
+       "month": "2023-Q1",
+       "value": 48459.06
+      },
+      {
+       "month": "2023-Q2",
+       "value": 49957.78
+      },
+      {
+       "month": "2023-Q3",
+       "value": 51699.15
+      },
+      {
+       "month": "2023-Q4",
+       "value": 52758.72
+      },
+      {
+       "month": "2024-Q1",
+       "value": 54374.89
+      },
+      {
+       "month": "2024-Q2",
+       "value": 56403.62
+      },
+      {
+       "month": "2024-Q3",
+       "value": 57637.07
+      },
+      {
+       "month": "2024-Q4",
+       "value": 58819.92
+      },
+      {
+       "month": "2025-Q1",
+       "value": 59820.31
+      },
+      {
+       "month": "2025-Q2",
+       "value": 59617.23
+      },
+      {
+       "month": "2025-Q3",
+       "value": 60707.73
+      },
+      {
+       "month": "2025-Q4",
+       "value": 62439.01
+      },
+      {
+       "month": "2026-Q1",
+       "value": 63650.91
+      },
+      {
+       "month": "2026-Q2",
+       "value": 63637.95
+      },
+      {
+       "month": "2026-Q3",
+       "value": 62952.55
+      },
+      {
+       "month": "2026-Q4",
+       "value": 61166.79
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Garsoniere — EUR/mp",
+     "unit": "EUR/mp",
+     "category": "garsoniere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 1554.2
+      },
+      {
+       "month": "2022-Q1",
+       "value": 1554.2
+      },
+      {
+       "month": "2022-Q2",
+       "value": 1579.51
+      },
+      {
+       "month": "2022-Q3",
+       "value": 1607.62
+      },
+      {
+       "month": "2022-Q4",
+       "value": 1627.41
+      },
+      {
+       "month": "2023-Q1",
+       "value": 1639.61
+      },
+      {
+       "month": "2023-Q2",
+       "value": 1655.7
+      },
+      {
+       "month": "2023-Q3",
+       "value": 1658.09
+      },
+      {
+       "month": "2023-Q4",
+       "value": 1639.42
+      },
+      {
+       "month": "2024-Q1",
+       "value": 1662.52
+      },
+      {
+       "month": "2024-Q2",
+       "value": 1685.29
+      },
+      {
+       "month": "2024-Q3",
+       "value": 1732.64
+      },
+      {
+       "month": "2024-Q4",
+       "value": 1785.21
+      },
+      {
+       "month": "2025-Q1",
+       "value": 1857.65
+      },
+      {
+       "month": "2025-Q2",
+       "value": 1895.11
+      },
+      {
+       "month": "2025-Q3",
+       "value": 1943.77
+      },
+      {
+       "month": "2025-Q4",
+       "value": 1999.51
+      },
+      {
+       "month": "2026-Q1",
+       "value": 2038.53
+      },
+      {
+       "month": "2026-Q2",
+       "value": 2054.07
+      },
+      {
+       "month": "2026-Q3",
+       "value": 2048.92
+      },
+      {
+       "month": "2026-Q4",
+       "value": 2021.56
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Apartamente 1 cameră — vânzare",
+     "unit": "EUR",
+     "category": "apartamente_vanzare",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 48386.95
+      },
+      {
+       "month": "2022-Q1",
+       "value": 49054.98
+      },
+      {
+       "month": "2022-Q2",
+       "value": 49274.87
+      },
+      {
+       "month": "2022-Q3",
+       "value": 50255.35
+      },
+      {
+       "month": "2022-Q4",
+       "value": 49700.09
+      },
+      {
+       "month": "2023-Q1",
+       "value": 49306.14
+      },
+      {
+       "month": "2023-Q2",
+       "value": 49769.63
+      },
+      {
+       "month": "2023-Q3",
+       "value": 49704.43
+      },
+      {
+       "month": "2023-Q4",
+       "value": 50867.75
+      },
+      {
+       "month": "2024-Q1",
+       "value": 51530.69
+      },
+      {
+       "month": "2024-Q2",
+       "value": 52233.59
+      },
+      {
+       "month": "2024-Q3",
+       "value": 56046.98
+      },
+      {
+       "month": "2024-Q4",
+       "value": 58606.1
+      },
+      {
+       "month": "2025-Q1",
+       "value": 61115.67
+      },
+      {
+       "month": "2025-Q2",
+       "value": 64875.07
+      },
+      {
+       "month": "2025-Q3",
+       "value": 68039.5
+      },
+      {
+       "month": "2025-Q4",
+       "value": 70254.61
+      },
+      {
+       "month": "2026-Q1",
+       "value": 71805.18
+      },
+      {
+       "month": "2026-Q2",
+       "value": 72890.58
+      },
+      {
+       "month": "2026-Q3",
+       "value": 73650.36
+      },
+      {
+       "month": "2026-Q4",
+       "value": 74182.21
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Apartamente 1 cameră — EUR/mp",
+     "unit": "EUR/mp",
+     "category": "apartamente_vanzare",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 1576.17
+      },
+      {
+       "month": "2022-Q1",
+       "value": 1593.07
+      },
+      {
+       "month": "2022-Q2",
+       "value": 1568.72
+      },
+      {
+       "month": "2022-Q3",
+       "value": 1565.33
+      },
+      {
+       "month": "2022-Q4",
+       "value": 1519.39
+      },
+      {
+       "month": "2023-Q1",
+       "value": 1477.66
+      },
+      {
+       "month": "2023-Q2",
+       "value": 1455.2
+      },
+      {
+       "month": "2023-Q3",
+       "value": 1422.41
+      },
+      {
+       "month": "2023-Q4",
+       "value": 1399.45
+      },
+      {
+       "month": "2024-Q1",
+       "value": 1411.4
+      },
+      {
+       "month": "2024-Q2",
+       "value": 1413.13
+      },
+      {
+       "month": "2024-Q3",
+       "value": 1461.73
+      },
+      {
+       "month": "2024-Q4",
+       "value": 1547.88
+      },
+      {
+       "month": "2025-Q1",
+       "value": 1672.88
+      },
+      {
+       "month": "2025-Q2",
+       "value": 1792.27
+      },
+      {
+       "month": "2025-Q3",
+       "value": 1901.77
+      },
+      {
+       "month": "2025-Q4",
+       "value": 1953.3
+      },
+      {
+       "month": "2026-Q1",
+       "value": 2029.3
+      },
+      {
+       "month": "2026-Q2",
+       "value": 2082.5
+      },
+      {
+       "month": "2026-Q3",
+       "value": 2103.81
+      },
+      {
+       "month": "2026-Q4",
+       "value": 2130.79
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Apartamente 2 camere — vânzare",
+     "unit": "EUR",
+     "category": "apartamente_vanzare",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 70381.5
+      },
+      {
+       "month": "2022-Q1",
+       "value": 70381.5
+      },
+      {
+       "month": "2022-Q2",
+       "value": 72163.9
+      },
+      {
+       "month": "2022-Q3",
+       "value": 73757.18
+      },
+      {
+       "month": "2022-Q4",
+       "value": 74513.74
+      },
+      {
+       "month": "2023-Q1",
+       "value": 75228.12
+      },
+      {
+       "month": "2023-Q2",
+       "value": 75688.96
+      },
+      {
+       "month": "2023-Q3",
+       "value": 76173.13
+      },
+      {
+       "month": "2023-Q4",
+       "value": 77004.02
+      },
+      {
+       "month": "2024-Q1",
+       "value": 79078.77
+      },
+      {
+       "month": "2024-Q2",
+       "value": 81970.69
+      },
+      {
+       "month": "2024-Q3",
+       "value": 84360.27
+      },
+      {
+       "month": "2024-Q4",
+       "value": 86199.92
+      },
+      {
+       "month": "2025-Q1",
+       "value": 88137.3
+      },
+      {
+       "month": "2025-Q2",
+       "value": 90801.79
+      },
+      {
+       "month": "2025-Q3",
+       "value": 92815.89
+      },
+      {
+       "month": "2025-Q4",
+       "value": 95565.18
+      },
+      {
+       "month": "2026-Q1",
+       "value": 97974.85
+      },
+      {
+       "month": "2026-Q2",
+       "value": 100149.9
+      },
+      {
+       "month": "2026-Q3",
+       "value": 101904.93
+      },
+      {
+       "month": "2026-Q4",
+       "value": 103133.45
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Apartamente 2 camere — EUR/mp",
+     "unit": "EUR/mp",
+     "category": "apartamente_vanzare",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 1361.52
+      },
+      {
+       "month": "2022-Q1",
+       "value": 1361.52
+      },
+      {
+       "month": "2022-Q2",
+       "value": 1394.21
+      },
+      {
+       "month": "2022-Q3",
+       "value": 1427.09
+      },
+      {
+       "month": "2022-Q4",
+       "value": 1441.91
+      },
+      {
+       "month": "2023-Q1",
+       "value": 1453.67
+      },
+      {
+       "month": "2023-Q2",
+       "value": 1455.92
+      },
+      {
+       "month": "2023-Q3",
+       "value": 1457.96
+      },
+      {
+       "month": "2023-Q4",
+       "value": 1460.86
+      },
+      {
+       "month": "2024-Q1",
+       "value": 1487.66
+      },
+      {
+       "month": "2024-Q2",
+       "value": 1533.71
+      },
+      {
+       "month": "2024-Q3",
+       "value": 1578.41
+      },
+      {
+       "month": "2024-Q4",
+       "value": 1625.27
+      },
+      {
+       "month": "2025-Q1",
+       "value": 1676.23
+      },
+      {
+       "month": "2025-Q2",
+       "value": 1736.29
+      },
+      {
+       "month": "2025-Q3",
+       "value": 1790.18
+      },
+      {
+       "month": "2025-Q4",
+       "value": 1839.25
+      },
+      {
+       "month": "2026-Q1",
+       "value": 1881.18
+      },
+      {
+       "month": "2026-Q2",
+       "value": 1922.01
+      },
+      {
+       "month": "2026-Q3",
+       "value": 1967.49
+      },
+      {
+       "month": "2026-Q4",
+       "value": 1999.33
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Apartamente 3 camere — vânzare",
+     "unit": "EUR",
+     "category": "apartamente_vanzare",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 95338.6
+      },
+      {
+       "month": "2022-Q1",
+       "value": 95338.6
+      },
+      {
+       "month": "2022-Q2",
+       "value": 97121.28
+      },
+      {
+       "month": "2022-Q3",
+       "value": 99411.47
+      },
+      {
+       "month": "2022-Q4",
+       "value": 100684.83
+      },
+      {
+       "month": "2023-Q1",
+       "value": 101463.41
+      },
+      {
+       "month": "2023-Q2",
+       "value": 102542.01
+      },
+      {
+       "month": "2023-Q3",
+       "value": 103442.66
+      },
+      {
+       "month": "2023-Q4",
+       "value": 104286.52
+      },
+      {
+       "month": "2024-Q1",
+       "value": 105817.03
+      },
+      {
+       "month": "2024-Q2",
+       "value": 108580.18
+      },
+      {
+       "month": "2024-Q3",
+       "value": 111136.76
+      },
+      {
+       "month": "2024-Q4",
+       "value": 113815.65
+      },
+      {
+       "month": "2025-Q1",
+       "value": 117302.69
+      },
+      {
+       "month": "2025-Q2",
+       "value": 120864.82
+      },
+      {
+       "month": "2025-Q3",
+       "value": 124255.14
+      },
+      {
+       "month": "2025-Q4",
+       "value": 127030.77
+      },
+      {
+       "month": "2026-Q1",
+       "value": 129090.55
+      },
+      {
+       "month": "2026-Q2",
+       "value": 131840.35
+      },
+      {
+       "month": "2026-Q3",
+       "value": 133765.21
+      },
+      {
+       "month": "2026-Q4",
+       "value": 134135.65
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Apartamente 3 camere — EUR/mp",
+     "unit": "EUR/mp",
+     "category": "apartamente_vanzare",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 1319.63
+      },
+      {
+       "month": "2022-Q1",
+       "value": 1319.63
+      },
+      {
+       "month": "2022-Q2",
+       "value": 1345.25
+      },
+      {
+       "month": "2022-Q3",
+       "value": 1379.45
+      },
+      {
+       "month": "2022-Q4",
+       "value": 1398.69
+      },
+      {
+       "month": "2023-Q1",
+       "value": 1413.24
+      },
+      {
+       "month": "2023-Q2",
+       "value": 1426.62
+      },
+      {
+       "month": "2023-Q3",
+       "value": 1438.53
+      },
+      {
+       "month": "2023-Q4",
+       "value": 1450.7
+      },
+      {
+       "month": "2024-Q1",
+       "value": 1474.96
+      },
+      {
+       "month": "2024-Q2",
+       "value": 1505.62
+      },
+      {
+       "month": "2024-Q3",
+       "value": 1537.83
+      },
+      {
+       "month": "2024-Q4",
+       "value": 1578.78
+      },
+      {
+       "month": "2025-Q1",
+       "value": 1626.93
+      },
+      {
+       "month": "2025-Q2",
+       "value": 1680.74
+      },
+      {
+       "month": "2025-Q3",
+       "value": 1733.64
+      },
+      {
+       "month": "2025-Q4",
+       "value": 1778.95
+      },
+      {
+       "month": "2026-Q1",
+       "value": 1816.84
+      },
+      {
+       "month": "2026-Q2",
+       "value": 1864.36
+      },
+      {
+       "month": "2026-Q3",
+       "value": 1909.64
+      },
+      {
+       "month": "2026-Q4",
+       "value": 1941.34
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Apartamente 4+ camere — vânzare",
+     "unit": "EUR",
+     "category": "apartamente_vanzare",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 123635.14
+      },
+      {
+       "month": "2022-Q1",
+       "value": 123635.14
+      },
+      {
+       "month": "2022-Q2",
+       "value": 127464.56
+      },
+      {
+       "month": "2022-Q3",
+       "value": 132475.44
+      },
+      {
+       "month": "2022-Q4",
+       "value": 136790.55
+      },
+      {
+       "month": "2023-Q1",
+       "value": 143385.94
+      },
+      {
+       "month": "2023-Q2",
+       "value": 149432.81
+      },
+      {
+       "month": "2023-Q3",
+       "value": 151601.45
+      },
+      {
+       "month": "2023-Q4",
+       "value": 155000.23
+      },
+      {
+       "month": "2024-Q1",
+       "value": 162784.4
+      },
+      {
+       "month": "2024-Q2",
+       "value": 167480.41
+      },
+      {
+       "month": "2024-Q3",
+       "value": 169643.37
+      },
+      {
+       "month": "2024-Q4",
+       "value": 172949.58
+      },
+      {
+       "month": "2025-Q1",
+       "value": 175437.16
+      },
+      {
+       "month": "2025-Q2",
+       "value": 177884.13
+      },
+      {
+       "month": "2025-Q3",
+       "value": 179512.33
+      },
+      {
+       "month": "2025-Q4",
+       "value": 176419.65
+      },
+      {
+       "month": "2026-Q1",
+       "value": 177728.99
+      },
+      {
+       "month": "2026-Q2",
+       "value": 179488.41
+      },
+      {
+       "month": "2026-Q3",
+       "value": 179342.92
+      },
+      {
+       "month": "2026-Q4",
+       "value": 175040.05
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Apartamente 4+ camere — EUR/mp",
+     "unit": "EUR/mp",
+     "category": "apartamente_vanzare",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 1244.9
+      },
+      {
+       "month": "2022-Q1",
+       "value": 1244.9
+      },
+      {
+       "month": "2022-Q2",
+       "value": 1288.13
+      },
+      {
+       "month": "2022-Q3",
+       "value": 1340.98
+      },
+      {
+       "month": "2022-Q4",
+       "value": 1382.2
+      },
+      {
+       "month": "2023-Q1",
+       "value": 1429.97
+      },
+      {
+       "month": "2023-Q2",
+       "value": 1456.74
+      },
+      {
+       "month": "2023-Q3",
+       "value": 1462.23
+      },
+      {
+       "month": "2023-Q4",
+       "value": 1473.11
+      },
+      {
+       "month": "2024-Q1",
+       "value": 1516.09
+      },
+      {
+       "month": "2024-Q2",
+       "value": 1538.82
+      },
+      {
+       "month": "2024-Q3",
+       "value": 1554.32
+      },
+      {
+       "month": "2024-Q4",
+       "value": 1587.74
+      },
+      {
+       "month": "2025-Q1",
+       "value": 1618.31
+      },
+      {
+       "month": "2025-Q2",
+       "value": 1650.04
+      },
+      {
+       "month": "2025-Q3",
+       "value": 1676.1
+      },
+      {
+       "month": "2025-Q4",
+       "value": 1682.93
+      },
+      {
+       "month": "2026-Q1",
+       "value": 1712
+      },
+      {
+       "month": "2026-Q2",
+       "value": 1738.72
+      },
+      {
+       "month": "2026-Q3",
+       "value": 1765.44
+      },
+      {
+       "month": "2026-Q4",
+       "value": 1784.14
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Apartamente noi (după 2000) — EUR/mp",
+     "unit": "EUR/mp",
+     "category": "apartamente_vanzare",
+     "data": [
+      {
+       "month": "2026-Q3",
+       "value": 2084.98
+      },
+      {
+       "month": "2026-Q4",
+       "value": 2083.99
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Apartamente vechi (până în 2000) — EUR/mp",
+     "unit": "EUR/mp",
+     "category": "apartamente_vanzare",
+     "data": [
+      {
+       "month": "2026-Q3",
+       "value": 1987.97
+      },
+      {
+       "month": "2026-Q4",
+       "value": 1984.89
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie garsoniere",
+     "unit": "EUR/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 270.34
+      },
+      {
+       "month": "2022-Q1",
+       "value": 271.71
+      },
+      {
+       "month": "2022-Q2",
+       "value": 271.3
+      },
+      {
+       "month": "2022-Q3",
+       "value": 275.24
+      },
+      {
+       "month": "2022-Q4",
+       "value": 288.71
+      },
+      {
+       "month": "2023-Q1",
+       "value": 291.42
+      },
+      {
+       "month": "2023-Q2",
+       "value": 295.66
+      },
+      {
+       "month": "2023-Q3",
+       "value": 312.88
+      },
+      {
+       "month": "2023-Q4",
+       "value": 323.52
+      },
+      {
+       "month": "2024-Q1",
+       "value": 332.03
+      },
+      {
+       "month": "2024-Q2",
+       "value": 335.05
+      },
+      {
+       "month": "2024-Q3",
+       "value": 332.43
+      },
+      {
+       "month": "2024-Q4",
+       "value": 339.08
+      },
+      {
+       "month": "2025-Q1",
+       "value": 340.08
+      },
+      {
+       "month": "2025-Q2",
+       "value": 344.43
+      },
+      {
+       "month": "2025-Q3",
+       "value": 340.74
+      },
+      {
+       "month": "2025-Q4",
+       "value": 340.68
+      },
+      {
+       "month": "2026-Q1",
+       "value": 337.24
+      },
+      {
+       "month": "2026-Q2",
+       "value": 334.47
+      },
+      {
+       "month": "2026-Q3",
+       "value": 331.14
+      },
+      {
+       "month": "2026-Q4",
+       "value": 321.8
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie garsoniere — EUR/mp",
+     "unit": "EUR/mp/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 7.65
+      },
+      {
+       "month": "2022-Q1",
+       "value": 7.65
+      },
+      {
+       "month": "2022-Q2",
+       "value": 7.74
+      },
+      {
+       "month": "2022-Q3",
+       "value": 7.87
+      },
+      {
+       "month": "2022-Q4",
+       "value": 8.11
+      },
+      {
+       "month": "2023-Q1",
+       "value": 8.1
+      },
+      {
+       "month": "2023-Q2",
+       "value": 8.16
+      },
+      {
+       "month": "2023-Q3",
+       "value": 8.37
+      },
+      {
+       "month": "2023-Q4",
+       "value": 8.49
+      },
+      {
+       "month": "2024-Q1",
+       "value": 8.86
+      },
+      {
+       "month": "2024-Q2",
+       "value": 9.13
+      },
+      {
+       "month": "2024-Q3",
+       "value": 9.49
+      },
+      {
+       "month": "2024-Q4",
+       "value": 9.75
+      },
+      {
+       "month": "2025-Q1",
+       "value": 9.85
+      },
+      {
+       "month": "2025-Q2",
+       "value": 9.94
+      },
+      {
+       "month": "2025-Q3",
+       "value": 9.83
+      },
+      {
+       "month": "2025-Q4",
+       "value": 9.82
+      },
+      {
+       "month": "2026-Q1",
+       "value": 9.87
+      },
+      {
+       "month": "2026-Q2",
+       "value": 9.84
+      },
+      {
+       "month": "2026-Q3",
+       "value": 9.8
+      },
+      {
+       "month": "2026-Q4",
+       "value": 9.66
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie apartamente 1 cameră",
+     "unit": "EUR/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 332.86
+      },
+      {
+       "month": "2022-Q1",
+       "value": 335.35
+      },
+      {
+       "month": "2022-Q2",
+       "value": 328.74
+      },
+      {
+       "month": "2022-Q3",
+       "value": 339.84
+      },
+      {
+       "month": "2022-Q4",
+       "value": 339.89
+      },
+      {
+       "month": "2023-Q1",
+       "value": 343.67
+      },
+      {
+       "month": "2023-Q2",
+       "value": 334.57
+      },
+      {
+       "month": "2023-Q3",
+       "value": 337.2
+      },
+      {
+       "month": "2023-Q4",
+       "value": 353.54
+      },
+      {
+       "month": "2024-Q1",
+       "value": 357.03
+      },
+      {
+       "month": "2024-Q2",
+       "value": 353.59
+      },
+      {
+       "month": "2024-Q3",
+       "value": 356.85
+      },
+      {
+       "month": "2024-Q4",
+       "value": 368.24
+      },
+      {
+       "month": "2025-Q1",
+       "value": 371.13
+      },
+      {
+       "month": "2025-Q2",
+       "value": 372.96
+      },
+      {
+       "month": "2025-Q3",
+       "value": 377.05
+      },
+      {
+       "month": "2025-Q4",
+       "value": 382.38
+      },
+      {
+       "month": "2026-Q1",
+       "value": 385.71
+      },
+      {
+       "month": "2026-Q2",
+       "value": 376.04
+      },
+      {
+       "month": "2026-Q3",
+       "value": 368.9
+      },
+      {
+       "month": "2026-Q4",
+       "value": 363.23
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie apartamente 1 cameră — EUR/mp",
+     "unit": "EUR/mp/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 8.51
+      },
+      {
+       "month": "2022-Q1",
+       "value": 8.37
+      },
+      {
+       "month": "2022-Q2",
+       "value": 7.97
+      },
+      {
+       "month": "2022-Q3",
+       "value": 8.11
+      },
+      {
+       "month": "2022-Q4",
+       "value": 8.23
+      },
+      {
+       "month": "2023-Q1",
+       "value": 8.37
+      },
+      {
+       "month": "2023-Q2",
+       "value": 7.97
+      },
+      {
+       "month": "2023-Q3",
+       "value": 8.36
+      },
+      {
+       "month": "2023-Q4",
+       "value": 8.77
+      },
+      {
+       "month": "2024-Q1",
+       "value": 8.77
+      },
+      {
+       "month": "2024-Q2",
+       "value": 8.63
+      },
+      {
+       "month": "2024-Q3",
+       "value": 8.44
+      },
+      {
+       "month": "2024-Q4",
+       "value": 8.91
+      },
+      {
+       "month": "2025-Q1",
+       "value": 9.05
+      },
+      {
+       "month": "2025-Q2",
+       "value": 9.11
+      },
+      {
+       "month": "2025-Q3",
+       "value": 9.24
+      },
+      {
+       "month": "2025-Q4",
+       "value": 9.56
+      },
+      {
+       "month": "2026-Q1",
+       "value": 9.78
+      },
+      {
+       "month": "2026-Q2",
+       "value": 9.8
+      },
+      {
+       "month": "2026-Q3",
+       "value": 9.74
+      },
+      {
+       "month": "2026-Q4",
+       "value": 9.67
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie apartamente 2 camere",
+     "unit": "EUR/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 341.56
+      },
+      {
+       "month": "2022-Q1",
+       "value": 341.56
+      },
+      {
+       "month": "2022-Q2",
+       "value": 347.73
+      },
+      {
+       "month": "2022-Q3",
+       "value": 358.27
+      },
+      {
+       "month": "2022-Q4",
+       "value": 390.2
+      },
+      {
+       "month": "2023-Q1",
+       "value": 409.49
+      },
+      {
+       "month": "2023-Q2",
+       "value": 421.44
+      },
+      {
+       "month": "2023-Q3",
+       "value": 429.92
+      },
+      {
+       "month": "2023-Q4",
+       "value": 440.36
+      },
+      {
+       "month": "2024-Q1",
+       "value": 445.6
+      },
+      {
+       "month": "2024-Q2",
+       "value": 438.31
+      },
+      {
+       "month": "2024-Q3",
+       "value": 441.07
+      },
+      {
+       "month": "2024-Q4",
+       "value": 439.75
+      },
+      {
+       "month": "2025-Q1",
+       "value": 444.47
+      },
+      {
+       "month": "2025-Q2",
+       "value": 446.59
+      },
+      {
+       "month": "2025-Q3",
+       "value": 448.23
+      },
+      {
+       "month": "2025-Q4",
+       "value": 449.62
+      },
+      {
+       "month": "2026-Q1",
+       "value": 449.26
+      },
+      {
+       "month": "2026-Q2",
+       "value": 443.67
+      },
+      {
+       "month": "2026-Q3",
+       "value": 436.79
+      },
+      {
+       "month": "2026-Q4",
+       "value": 425.75
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie apartamente 2 camere — EUR/mp",
+     "unit": "EUR/mp/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 6.22
+      },
+      {
+       "month": "2022-Q1",
+       "value": 6.22
+      },
+      {
+       "month": "2022-Q2",
+       "value": 6.3
+      },
+      {
+       "month": "2022-Q3",
+       "value": 6.46
+      },
+      {
+       "month": "2022-Q4",
+       "value": 6.79
+      },
+      {
+       "month": "2023-Q1",
+       "value": 7
+      },
+      {
+       "month": "2023-Q2",
+       "value": 7.21
+      },
+      {
+       "month": "2023-Q3",
+       "value": 7.39
+      },
+      {
+       "month": "2023-Q4",
+       "value": 7.56
+      },
+      {
+       "month": "2024-Q1",
+       "value": 7.74
+      },
+      {
+       "month": "2024-Q2",
+       "value": 7.79
+      },
+      {
+       "month": "2024-Q3",
+       "value": 7.89
+      },
+      {
+       "month": "2024-Q4",
+       "value": 7.97
+      },
+      {
+       "month": "2025-Q1",
+       "value": 8.13
+      },
+      {
+       "month": "2025-Q2",
+       "value": 8.22
+      },
+      {
+       "month": "2025-Q3",
+       "value": 8.27
+      },
+      {
+       "month": "2025-Q4",
+       "value": 8.34
+      },
+      {
+       "month": "2026-Q1",
+       "value": 8.37
+      },
+      {
+       "month": "2026-Q2",
+       "value": 8.32
+      },
+      {
+       "month": "2026-Q3",
+       "value": 8.28
+      },
+      {
+       "month": "2026-Q4",
+       "value": 8.18
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie apartamente 3 camere",
+     "unit": "EUR/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 481.51
+      },
+      {
+       "month": "2022-Q1",
+       "value": 481.55
+      },
+      {
+       "month": "2022-Q2",
+       "value": 481.54
+      },
+      {
+       "month": "2022-Q3",
+       "value": 488.06
+      },
+      {
+       "month": "2022-Q4",
+       "value": 502.55
+      },
+      {
+       "month": "2023-Q1",
+       "value": 519.67
+      },
+      {
+       "month": "2023-Q2",
+       "value": 537.96
+      },
+      {
+       "month": "2023-Q3",
+       "value": 555.37
+      },
+      {
+       "month": "2023-Q4",
+       "value": 567.8
+      },
+      {
+       "month": "2024-Q1",
+       "value": 577.24
+      },
+      {
+       "month": "2024-Q2",
+       "value": 584.56
+      },
+      {
+       "month": "2024-Q3",
+       "value": 585.28
+      },
+      {
+       "month": "2024-Q4",
+       "value": 590.19
+      },
+      {
+       "month": "2025-Q1",
+       "value": 593.2
+      },
+      {
+       "month": "2025-Q2",
+       "value": 589.06
+      },
+      {
+       "month": "2025-Q3",
+       "value": 588.84
+      },
+      {
+       "month": "2025-Q4",
+       "value": 589.13
+      },
+      {
+       "month": "2026-Q1",
+       "value": 582.72
+      },
+      {
+       "month": "2026-Q2",
+       "value": 577.19
+      },
+      {
+       "month": "2026-Q3",
+       "value": 571.52
+      },
+      {
+       "month": "2026-Q4",
+       "value": 560.57
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie apartamente 3 camere — EUR/mp",
+     "unit": "EUR/mp/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 6.09
+      },
+      {
+       "month": "2022-Q1",
+       "value": 6.11
+      },
+      {
+       "month": "2022-Q2",
+       "value": 6.1
+      },
+      {
+       "month": "2022-Q3",
+       "value": 6.13
+      },
+      {
+       "month": "2022-Q4",
+       "value": 6.28
+      },
+      {
+       "month": "2023-Q1",
+       "value": 6.46
+      },
+      {
+       "month": "2023-Q2",
+       "value": 6.68
+      },
+      {
+       "month": "2023-Q3",
+       "value": 6.9
+      },
+      {
+       "month": "2023-Q4",
+       "value": 7.04
+      },
+      {
+       "month": "2024-Q1",
+       "value": 7.23
+      },
+      {
+       "month": "2024-Q2",
+       "value": 7.38
+      },
+      {
+       "month": "2024-Q3",
+       "value": 7.49
+      },
+      {
+       "month": "2024-Q4",
+       "value": 7.58
+      },
+      {
+       "month": "2025-Q1",
+       "value": 7.68
+      },
+      {
+       "month": "2025-Q2",
+       "value": 7.75
+      },
+      {
+       "month": "2025-Q3",
+       "value": 7.8
+      },
+      {
+       "month": "2025-Q4",
+       "value": 7.82
+      },
+      {
+       "month": "2026-Q1",
+       "value": 7.81
+      },
+      {
+       "month": "2026-Q2",
+       "value": 7.8
+      },
+      {
+       "month": "2026-Q3",
+       "value": 7.78
+      },
+      {
+       "month": "2026-Q4",
+       "value": 7.7
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie apartamente 4+ camere",
+     "unit": "EUR/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 521.87
+      },
+      {
+       "month": "2022-Q1",
+       "value": 534.92
+      },
+      {
+       "month": "2022-Q2",
+       "value": 584.32
+      },
+      {
+       "month": "2022-Q3",
+       "value": 560.37
+      },
+      {
+       "month": "2022-Q4",
+       "value": 559.71
+      },
+      {
+       "month": "2023-Q1",
+       "value": 543.15
+      },
+      {
+       "month": "2023-Q2",
+       "value": 591.2
+      },
+      {
+       "month": "2023-Q3",
+       "value": 637.31
+      },
+      {
+       "month": "2023-Q4",
+       "value": 658.27
+      },
+      {
+       "month": "2024-Q1",
+       "value": 756.5
+      },
+      {
+       "month": "2024-Q2",
+       "value": 825.26
+      },
+      {
+       "month": "2024-Q3",
+       "value": 822.77
+      },
+      {
+       "month": "2024-Q4",
+       "value": 787.16
+      },
+      {
+       "month": "2025-Q1",
+       "value": 742.62
+      },
+      {
+       "month": "2025-Q2",
+       "value": 722.44
+      },
+      {
+       "month": "2025-Q3",
+       "value": 726.48
+      },
+      {
+       "month": "2025-Q4",
+       "value": 772.15
+      },
+      {
+       "month": "2026-Q1",
+       "value": 763.95
+      },
+      {
+       "month": "2026-Q2",
+       "value": 760.34
+      },
+      {
+       "month": "2026-Q3",
+       "value": 759.9
+      },
+      {
+       "month": "2026-Q4",
+       "value": 734.43
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie apartamente 4+ camere — EUR/mp",
+     "unit": "EUR/mp/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 5.41
+      },
+      {
+       "month": "2022-Q1",
+       "value": 5.52
+      },
+      {
+       "month": "2022-Q2",
+       "value": 5.88
+      },
+      {
+       "month": "2022-Q3",
+       "value": 5.74
+      },
+      {
+       "month": "2022-Q4",
+       "value": 5.84
+      },
+      {
+       "month": "2023-Q1",
+       "value": 5.76
+      },
+      {
+       "month": "2023-Q2",
+       "value": 6.11
+      },
+      {
+       "month": "2023-Q3",
+       "value": 6.51
+      },
+      {
+       "month": "2023-Q4",
+       "value": 6.77
+      },
+      {
+       "month": "2024-Q1",
+       "value": 7.37
+      },
+      {
+       "month": "2024-Q2",
+       "value": 7.8
+      },
+      {
+       "month": "2024-Q3",
+       "value": 7.58
+      },
+      {
+       "month": "2024-Q4",
+       "value": 7.4
+      },
+      {
+       "month": "2025-Q1",
+       "value": 7.13
+      },
+      {
+       "month": "2025-Q2",
+       "value": 6.89
+      },
+      {
+       "month": "2025-Q3",
+       "value": 6.9
+      },
+      {
+       "month": "2025-Q4",
+       "value": 7.33
+      },
+      {
+       "month": "2026-Q1",
+       "value": 7.3
+      },
+      {
+       "month": "2026-Q2",
+       "value": 7.25
+      },
+      {
+       "month": "2026-Q3",
+       "value": 7.48
+      },
+      {
+       "month": "2026-Q4",
+       "value": 7.47
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Case — vânzare",
+     "unit": "EUR",
+     "category": "case",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 253985.88
+      },
+      {
+       "month": "2022-Q1",
+       "value": 254079.96
+      },
+      {
+       "month": "2022-Q2",
+       "value": 259458.79
+      },
+      {
+       "month": "2022-Q3",
+       "value": 258585.09
+      },
+      {
+       "month": "2022-Q4",
+       "value": 257981.38
+      },
+      {
+       "month": "2023-Q1",
+       "value": 255089.01
+      },
+      {
+       "month": "2023-Q2",
+       "value": 250657.73
+      },
+      {
+       "month": "2023-Q3",
+       "value": 247555.83
+      },
+      {
+       "month": "2023-Q4",
+       "value": 245487.67
+      },
+      {
+       "month": "2024-Q1",
+       "value": 245562.51
+      },
+      {
+       "month": "2024-Q2",
+       "value": 249820.55
+      },
+      {
+       "month": "2024-Q3",
+       "value": 253024.91
+      },
+      {
+       "month": "2024-Q4",
+       "value": 260129.71
+      },
+      {
+       "month": "2025-Q1",
+       "value": 266437.14
+      },
+      {
+       "month": "2025-Q2",
+       "value": 275568.93
+      },
+      {
+       "month": "2025-Q3",
+       "value": 284924.07
+      },
+      {
+       "month": "2025-Q4",
+       "value": 296290.3
+      },
+      {
+       "month": "2026-Q1",
+       "value": 304246.67
+      },
+      {
+       "month": "2026-Q2",
+       "value": 307954.55
+      },
+      {
+       "month": "2026-Q3",
+       "value": 305012.6
+      },
+      {
+       "month": "2026-Q4",
+       "value": 296008.82
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Case — EUR/mp",
+     "unit": "EUR/mp",
+     "category": "case",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 1399.48
+      },
+      {
+       "month": "2022-Q1",
+       "value": 1399.48
+      },
+      {
+       "month": "2022-Q2",
+       "value": 1440.27
+      },
+      {
+       "month": "2022-Q3",
+       "value": 1457.95
+      },
+      {
+       "month": "2022-Q4",
+       "value": 1476.95
+      },
+      {
+       "month": "2023-Q1",
+       "value": 1495.51
+      },
+      {
+       "month": "2023-Q2",
+       "value": 1517.04
+      },
+      {
+       "month": "2023-Q3",
+       "value": 1530.73
+      },
+      {
+       "month": "2023-Q4",
+       "value": 1543.6
+      },
+      {
+       "month": "2024-Q1",
+       "value": 1564.66
+      },
+      {
+       "month": "2024-Q2",
+       "value": 1604.06
+      },
+      {
+       "month": "2024-Q3",
+       "value": 1636.89
+      },
+      {
+       "month": "2024-Q4",
+       "value": 1680.98
+      },
+      {
+       "month": "2025-Q1",
+       "value": 1730.73
+      },
+      {
+       "month": "2025-Q2",
+       "value": 1770.66
+      },
+      {
+       "month": "2025-Q3",
+       "value": 1809.88
+      },
+      {
+       "month": "2025-Q4",
+       "value": 1857.81
+      },
+      {
+       "month": "2026-Q1",
+       "value": 1903.69
+      },
+      {
+       "month": "2026-Q2",
+       "value": 1935.8
+      },
+      {
+       "month": "2026-Q3",
+       "value": 1942.41
+      },
+      {
+       "month": "2026-Q4",
+       "value": 1959.67
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie case",
+     "unit": "EUR/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 1039.22
+      },
+      {
+       "month": "2022-Q1",
+       "value": 1039.22
+      },
+      {
+       "month": "2022-Q2",
+       "value": 1085.55
+      },
+      {
+       "month": "2022-Q3",
+       "value": 1107.15
+      },
+      {
+       "month": "2022-Q4",
+       "value": 1212.84
+      },
+      {
+       "month": "2023-Q1",
+       "value": 1256.22
+      },
+      {
+       "month": "2023-Q2",
+       "value": 1317.19
+      },
+      {
+       "month": "2023-Q3",
+       "value": 1287.68
+      },
+      {
+       "month": "2023-Q4",
+       "value": 1320.04
+      },
+      {
+       "month": "2024-Q1",
+       "value": 1337.49
+      },
+      {
+       "month": "2024-Q2",
+       "value": 1340.38
+      },
+      {
+       "month": "2024-Q3",
+       "value": 1310.22
+      },
+      {
+       "month": "2024-Q4",
+       "value": 1269.68
+      },
+      {
+       "month": "2025-Q1",
+       "value": 1238.74
+      },
+      {
+       "month": "2025-Q2",
+       "value": 1225.85
+      },
+      {
+       "month": "2025-Q3",
+       "value": 1224.68
+      },
+      {
+       "month": "2025-Q4",
+       "value": 1206.6
+      },
+      {
+       "month": "2026-Q1",
+       "value": 1177.35
+      },
+      {
+       "month": "2026-Q2",
+       "value": 1167.97
+      },
+      {
+       "month": "2026-Q3",
+       "value": 1175.12
+      },
+      {
+       "month": "2026-Q4",
+       "value": 1182.58
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie case — EUR/mp",
+     "unit": "EUR/mp/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 6.52
+      },
+      {
+       "month": "2022-Q1",
+       "value": 6.52
+      },
+      {
+       "month": "2022-Q2",
+       "value": 6.75
+      },
+      {
+       "month": "2022-Q3",
+       "value": 6.94
+      },
+      {
+       "month": "2022-Q4",
+       "value": 7.26
+      },
+      {
+       "month": "2023-Q1",
+       "value": 7.37
+      },
+      {
+       "month": "2023-Q2",
+       "value": 7.34
+      },
+      {
+       "month": "2023-Q3",
+       "value": 7.31
+      },
+      {
+       "month": "2023-Q4",
+       "value": 7.3
+      },
+      {
+       "month": "2024-Q1",
+       "value": 7.4
+      },
+      {
+       "month": "2024-Q2",
+       "value": 7.43
+      },
+      {
+       "month": "2024-Q3",
+       "value": 7.3
+      },
+      {
+       "month": "2024-Q4",
+       "value": 7.33
+      },
+      {
+       "month": "2025-Q1",
+       "value": 7.37
+      },
+      {
+       "month": "2025-Q2",
+       "value": 7.5
+      },
+      {
+       "month": "2025-Q3",
+       "value": 7.51
+      },
+      {
+       "month": "2025-Q4",
+       "value": 7.42
+      },
+      {
+       "month": "2026-Q1",
+       "value": 7.33
+      },
+      {
+       "month": "2026-Q2",
+       "value": 7.22
+      },
+      {
+       "month": "2026-Q3",
+       "value": 7.33
+      },
+      {
+       "month": "2026-Q4",
+       "value": 7.53
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Terenuri — vânzare",
+     "unit": "EUR",
+     "category": "terenuri",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 367765.84
+      },
+      {
+       "month": "2022-Q1",
+       "value": 366011.55
+      },
+      {
+       "month": "2022-Q2",
+       "value": 361613.29
+      },
+      {
+       "month": "2022-Q3",
+       "value": 353363.19
+      },
+      {
+       "month": "2022-Q4",
+       "value": 369883.65
+      },
+      {
+       "month": "2023-Q1",
+       "value": 386400.95
+      },
+      {
+       "month": "2023-Q2",
+       "value": 380192.16
+      },
+      {
+       "month": "2023-Q3",
+       "value": 357938.29
+      },
+      {
+       "month": "2023-Q4",
+       "value": 337128.72
+      },
+      {
+       "month": "2024-Q1",
+       "value": 336867.37
+      },
+      {
+       "month": "2024-Q2",
+       "value": 346140.33
+      },
+      {
+       "month": "2024-Q3",
+       "value": 349600.86
+      },
+      {
+       "month": "2024-Q4",
+       "value": 344435.43
+      },
+      {
+       "month": "2025-Q1",
+       "value": 330363.66
+      },
+      {
+       "month": "2025-Q2",
+       "value": 336892.33
+      },
+      {
+       "month": "2025-Q3",
+       "value": 353160.18
+      },
+      {
+       "month": "2025-Q4",
+       "value": 375866.67
+      },
+      {
+       "month": "2026-Q1",
+       "value": 391761.22
+      },
+      {
+       "month": "2026-Q2",
+       "value": 349458.78
+      },
+      {
+       "month": "2026-Q3",
+       "value": 318567.58
+      },
+      {
+       "month": "2026-Q4",
+       "value": 296943.75
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Terenuri — EUR/mp",
+     "unit": "EUR/mp",
+     "category": "terenuri",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 131.35
+      },
+      {
+       "month": "2022-Q1",
+       "value": 131.35
+      },
+      {
+       "month": "2022-Q2",
+       "value": 131.35
+      },
+      {
+       "month": "2022-Q3",
+       "value": 131.35
+      },
+      {
+       "month": "2022-Q4",
+       "value": 131.35
+      },
+      {
+       "month": "2023-Q1",
+       "value": 131.35
+      },
+      {
+       "month": "2023-Q2",
+       "value": 117.91
+      },
+      {
+       "month": "2023-Q3",
+       "value": 107.31
+      },
+      {
+       "month": "2023-Q4",
+       "value": 99.89
+      },
+      {
+       "month": "2024-Q1",
+       "value": 96.08
+      },
+      {
+       "month": "2024-Q2",
+       "value": 94.27
+      },
+      {
+       "month": "2024-Q3",
+       "value": 93.39
+      },
+      {
+       "month": "2024-Q4",
+       "value": 91.52
+      },
+      {
+       "month": "2025-Q1",
+       "value": 89.98
+      },
+      {
+       "month": "2025-Q2",
+       "value": 91.14
+      },
+      {
+       "month": "2025-Q3",
+       "value": 92.74
+      },
+      {
+       "month": "2025-Q4",
+       "value": 93.74
+      },
+      {
+       "month": "2026-Q1",
+       "value": 95.05
+      },
+      {
+       "month": "2026-Q2",
+       "value": 94.68
+      },
+      {
+       "month": "2026-Q3",
+       "value": 92.48
+      },
+      {
+       "month": "2026-Q4",
+       "value": 91.73
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Spații comerciale — vânzare",
+     "unit": "EUR",
+     "category": "spatii_comerciale",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 377307.22
+      },
+      {
+       "month": "2022-Q1",
+       "value": 377307.22
+      },
+      {
+       "month": "2022-Q2",
+       "value": 338547.3
+      },
+      {
+       "month": "2022-Q3",
+       "value": 298936.6
+      },
+      {
+       "month": "2022-Q4",
+       "value": 271209.12
+      },
+      {
+       "month": "2023-Q1",
+       "value": 291191.76
+      },
+      {
+       "month": "2023-Q2",
+       "value": 284685.78
+      },
+      {
+       "month": "2023-Q3",
+       "value": 274930.99
+      },
+      {
+       "month": "2023-Q4",
+       "value": 270557.04
+      },
+      {
+       "month": "2024-Q1",
+       "value": 257122.22
+      },
+      {
+       "month": "2024-Q2",
+       "value": 254363.53
+      },
+      {
+       "month": "2024-Q3",
+       "value": 253837.48
+      },
+      {
+       "month": "2024-Q4",
+       "value": 257654.77
+      },
+      {
+       "month": "2025-Q1",
+       "value": 273129.76
+      },
+      {
+       "month": "2025-Q2",
+       "value": 291473.9
+      },
+      {
+       "month": "2025-Q3",
+       "value": 307736.38
+      },
+      {
+       "month": "2025-Q4",
+       "value": 328607.64
+      },
+      {
+       "month": "2026-Q1",
+       "value": 343217.51
+      },
+      {
+       "month": "2026-Q2",
+       "value": 353444.43
+      },
+      {
+       "month": "2026-Q3",
+       "value": 356334.93
+      },
+      {
+       "month": "2026-Q4",
+       "value": 316679.45
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Spații comerciale — EUR/mp",
+     "unit": "EUR/mp",
+     "category": "spatii_comerciale",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 1441.42
+      },
+      {
+       "month": "2022-Q1",
+       "value": 1437.15
+      },
+      {
+       "month": "2022-Q2",
+       "value": 1434.16
+      },
+      {
+       "month": "2022-Q3",
+       "value": 1446.8
+      },
+      {
+       "month": "2022-Q4",
+       "value": 1447.46
+      },
+      {
+       "month": "2023-Q1",
+       "value": 1468.87
+      },
+      {
+       "month": "2023-Q2",
+       "value": 1515.71
+      },
+      {
+       "month": "2023-Q3",
+       "value": 1524.45
+      },
+      {
+       "month": "2023-Q4",
+       "value": 1566.98
+      },
+      {
+       "month": "2024-Q1",
+       "value": 1620.22
+      },
+      {
+       "month": "2024-Q2",
+       "value": 1671.29
+      },
+      {
+       "month": "2024-Q3",
+       "value": 1734.76
+      },
+      {
+       "month": "2024-Q4",
+       "value": 1799.97
+      },
+      {
+       "month": "2025-Q1",
+       "value": 1843.77
+      },
+      {
+       "month": "2025-Q2",
+       "value": 1877.33
+      },
+      {
+       "month": "2025-Q3",
+       "value": 1907.07
+      },
+      {
+       "month": "2025-Q4",
+       "value": 1915.44
+      },
+      {
+       "month": "2026-Q1",
+       "value": 1933.74
+      },
+      {
+       "month": "2026-Q2",
+       "value": 1943.17
+      },
+      {
+       "month": "2026-Q3",
+       "value": 1927.65
+      },
+      {
+       "month": "2026-Q4",
+       "value": 1940.65
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie spații comerciale",
+     "unit": "EUR/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 1356.66
+      },
+      {
+       "month": "2022-Q1",
+       "value": 1371.22
+      },
+      {
+       "month": "2022-Q2",
+       "value": 1415.09
+      },
+      {
+       "month": "2022-Q3",
+       "value": 1587.78
+      },
+      {
+       "month": "2022-Q4",
+       "value": 1662.7
+      },
+      {
+       "month": "2023-Q1",
+       "value": 1707.27
+      },
+      {
+       "month": "2023-Q2",
+       "value": 1718.12
+      },
+      {
+       "month": "2023-Q3",
+       "value": 1772.59
+      },
+      {
+       "month": "2023-Q4",
+       "value": 1819.2
+      },
+      {
+       "month": "2024-Q1",
+       "value": 1884.99
+      },
+      {
+       "month": "2024-Q2",
+       "value": 1908.29
+      },
+      {
+       "month": "2024-Q3",
+       "value": 1923.38
+      },
+      {
+       "month": "2024-Q4",
+       "value": 1963.25
+      },
+      {
+       "month": "2025-Q1",
+       "value": 2020.27
+      },
+      {
+       "month": "2025-Q2",
+       "value": 1995.62
+      },
+      {
+       "month": "2025-Q3",
+       "value": 2003.06
+      },
+      {
+       "month": "2025-Q4",
+       "value": 2048.13
+      },
+      {
+       "month": "2026-Q1",
+       "value": 2069.05
+      },
+      {
+       "month": "2026-Q2",
+       "value": 2063.12
+      },
+      {
+       "month": "2026-Q3",
+       "value": 1958.91
+      },
+      {
+       "month": "2026-Q4",
+       "value": 1778.24
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie spații comerciale — EUR/mp",
+     "unit": "EUR/mp/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 10.64
+      },
+      {
+       "month": "2022-Q1",
+       "value": 10.93
+      },
+      {
+       "month": "2022-Q2",
+       "value": 11.21
+      },
+      {
+       "month": "2022-Q3",
+       "value": 11.44
+      },
+      {
+       "month": "2022-Q4",
+       "value": 11.25
+      },
+      {
+       "month": "2023-Q1",
+       "value": 11.07
+      },
+      {
+       "month": "2023-Q2",
+       "value": 10.99
+      },
+      {
+       "month": "2023-Q3",
+       "value": 11.13
+      },
+      {
+       "month": "2023-Q4",
+       "value": 11.43
+      },
+      {
+       "month": "2024-Q1",
+       "value": 11.78
+      },
+      {
+       "month": "2024-Q2",
+       "value": 12.06
+      },
+      {
+       "month": "2024-Q3",
+       "value": 12.15
+      },
+      {
+       "month": "2024-Q4",
+       "value": 12.48
+      },
+      {
+       "month": "2025-Q1",
+       "value": 12.76
+      },
+      {
+       "month": "2025-Q2",
+       "value": 12.9
+      },
+      {
+       "month": "2025-Q3",
+       "value": 12.93
+      },
+      {
+       "month": "2025-Q4",
+       "value": 12.97
+      },
+      {
+       "month": "2026-Q1",
+       "value": 13.1
+      },
+      {
+       "month": "2026-Q2",
+       "value": 13.07
+      },
+      {
+       "month": "2026-Q3",
+       "value": 12.9
+      },
+      {
+       "month": "2026-Q4",
+       "value": 12.58
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Spații industriale — vânzare",
+     "unit": "EUR",
+     "category": "spatii_industriale",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 803747.78
+      },
+      {
+       "month": "2022-Q1",
+       "value": 803747.78
+      },
+      {
+       "month": "2022-Q2",
+       "value": 972073.44
+      },
+      {
+       "month": "2022-Q3",
+       "value": 1023555.41
+      },
+      {
+       "month": "2022-Q4",
+       "value": 1060952.12
+      },
+      {
+       "month": "2023-Q1",
+       "value": 1050388.48
+      },
+      {
+       "month": "2023-Q2",
+       "value": 1017963.94
+      },
+      {
+       "month": "2023-Q3",
+       "value": 1019424.76
+      },
+      {
+       "month": "2023-Q4",
+       "value": 993277.13
+      },
+      {
+       "month": "2024-Q1",
+       "value": 1110218.99
+      },
+      {
+       "month": "2024-Q2",
+       "value": 1175465.79
+      },
+      {
+       "month": "2024-Q3",
+       "value": 1187226.05
+      },
+      {
+       "month": "2024-Q4",
+       "value": 1241241.57
+      },
+      {
+       "month": "2025-Q1",
+       "value": 1194839.1
+      },
+      {
+       "month": "2025-Q2",
+       "value": 1084987.37
+      },
+      {
+       "month": "2025-Q3",
+       "value": 1241739.83
+      },
+      {
+       "month": "2025-Q4",
+       "value": 1351466.54
+      },
+      {
+       "month": "2026-Q1",
+       "value": 1428275.25
+      },
+      {
+       "month": "2026-Q2",
+       "value": 1482041.34
+      },
+      {
+       "month": "2026-Q3",
+       "value": 1502121.34
+      },
+      {
+       "month": "2026-Q4",
+       "value": 1292609.27
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Spații industriale — EUR/mp",
+     "unit": "EUR/mp",
+     "category": "spatii_industriale",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 646.08
+      },
+      {
+       "month": "2022-Q1",
+       "value": 650.96
+      },
+      {
+       "month": "2022-Q2",
+       "value": 597.66
+      },
+      {
+       "month": "2022-Q3",
+       "value": 579.89
+      },
+      {
+       "month": "2022-Q4",
+       "value": 600.83
+      },
+      {
+       "month": "2023-Q1",
+       "value": 601.03
+      },
+      {
+       "month": "2023-Q2",
+       "value": 624.51
+      },
+      {
+       "month": "2023-Q3",
+       "value": 579.15
+      },
+      {
+       "month": "2023-Q4",
+       "value": 564.15
+      },
+      {
+       "month": "2024-Q1",
+       "value": 558.72
+      },
+      {
+       "month": "2024-Q2",
+       "value": 566.54
+      },
+      {
+       "month": "2024-Q3",
+       "value": 563.69
+      },
+      {
+       "month": "2024-Q4",
+       "value": 561.23
+      },
+      {
+       "month": "2025-Q1",
+       "value": 590.31
+      },
+      {
+       "month": "2025-Q2",
+       "value": 637.53
+      },
+      {
+       "month": "2025-Q3",
+       "value": 665.98
+      },
+      {
+       "month": "2025-Q4",
+       "value": 671.06
+      },
+      {
+       "month": "2026-Q1",
+       "value": 669.18
+      },
+      {
+       "month": "2026-Q2",
+       "value": 665.36
+      },
+      {
+       "month": "2026-Q3",
+       "value": 679.5
+      },
+      {
+       "month": "2026-Q4",
+       "value": 699.97
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie spații industriale",
+     "unit": "EUR/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 5065
+      },
+      {
+       "month": "2022-Q1",
+       "value": 5079.55
+      },
+      {
+       "month": "2022-Q2",
+       "value": 5166.77
+      },
+      {
+       "month": "2022-Q3",
+       "value": 5292.79
+      },
+      {
+       "month": "2022-Q4",
+       "value": 5468.44
+      },
+      {
+       "month": "2023-Q1",
+       "value": 5603.02
+      },
+      {
+       "month": "2023-Q2",
+       "value": 5647.33
+      },
+      {
+       "month": "2023-Q3",
+       "value": 5670.33
+      },
+      {
+       "month": "2023-Q4",
+       "value": 5532.46
+      },
+      {
+       "month": "2024-Q1",
+       "value": 5850.51
+      },
+      {
+       "month": "2024-Q2",
+       "value": 6375.31
+      },
+      {
+       "month": "2024-Q3",
+       "value": 6786.02
+      },
+      {
+       "month": "2024-Q4",
+       "value": 7043.55
+      },
+      {
+       "month": "2025-Q1",
+       "value": 7274.81
+      },
+      {
+       "month": "2025-Q2",
+       "value": 7365.87
+      },
+      {
+       "month": "2025-Q3",
+       "value": 7532.26
+      },
+      {
+       "month": "2025-Q4",
+       "value": 7668.52
+      },
+      {
+       "month": "2026-Q1",
+       "value": 7776.5
+      },
+      {
+       "month": "2026-Q2",
+       "value": 7852.09
+      },
+      {
+       "month": "2026-Q3",
+       "value": 7482.24
+      },
+      {
+       "month": "2026-Q4",
+       "value": 6757.07
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie spații industriale — EUR/mp",
+     "unit": "EUR/mp/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 3.6
+      },
+      {
+       "month": "2022-Q1",
+       "value": 3.62
+      },
+      {
+       "month": "2022-Q2",
+       "value": 3.65
+      },
+      {
+       "month": "2022-Q3",
+       "value": 3.63
+      },
+      {
+       "month": "2022-Q4",
+       "value": 3.65
+      },
+      {
+       "month": "2023-Q1",
+       "value": 3.8
+      },
+      {
+       "month": "2023-Q2",
+       "value": 4.01
+      },
+      {
+       "month": "2023-Q3",
+       "value": 4.07
+      },
+      {
+       "month": "2023-Q4",
+       "value": 4.06
+      },
+      {
+       "month": "2024-Q1",
+       "value": 4.01
+      },
+      {
+       "month": "2024-Q2",
+       "value": 3.99
+      },
+      {
+       "month": "2024-Q3",
+       "value": 3.96
+      },
+      {
+       "month": "2024-Q4",
+       "value": 3.99
+      },
+      {
+       "month": "2025-Q1",
+       "value": 4.01
+      },
+      {
+       "month": "2025-Q2",
+       "value": 4.04
+      },
+      {
+       "month": "2025-Q3",
+       "value": 4.08
+      },
+      {
+       "month": "2025-Q4",
+       "value": 4.13
+      },
+      {
+       "month": "2026-Q1",
+       "value": 4.18
+      },
+      {
+       "month": "2026-Q2",
+       "value": 4.21
+      },
+      {
+       "month": "2026-Q3",
+       "value": 4.3
+      },
+      {
+       "month": "2026-Q4",
+       "value": 4.36
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Birouri — vânzare",
+     "unit": "EUR",
+     "category": "birouri",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 474669
+      },
+      {
+       "month": "2022-Q1",
+       "value": 511673.33
+      },
+      {
+       "month": "2022-Q2",
+       "value": 502214.77
+      },
+      {
+       "month": "2022-Q3",
+       "value": 527175.67
+      },
+      {
+       "month": "2022-Q4",
+       "value": 564424.81
+      },
+      {
+       "month": "2023-Q1",
+       "value": 591942.24
+      },
+      {
+       "month": "2023-Q2",
+       "value": 591768.59
+      },
+      {
+       "month": "2023-Q3",
+       "value": 579615.64
+      },
+      {
+       "month": "2023-Q4",
+       "value": 553066.02
+      },
+      {
+       "month": "2024-Q1",
+       "value": 564213.33
+      },
+      {
+       "month": "2024-Q2",
+       "value": 597118.56
+      },
+      {
+       "month": "2024-Q3",
+       "value": 636182.99
+      },
+      {
+       "month": "2024-Q4",
+       "value": 669127.33
+      },
+      {
+       "month": "2025-Q1",
+       "value": 684365.9
+      },
+      {
+       "month": "2025-Q2",
+       "value": 692974.01
+      },
+      {
+       "month": "2025-Q3",
+       "value": 677587.69
+      },
+      {
+       "month": "2025-Q4",
+       "value": 698110.63
+      },
+      {
+       "month": "2026-Q1",
+       "value": 686733
+      },
+      {
+       "month": "2026-Q2",
+       "value": 662213.1
+      },
+      {
+       "month": "2026-Q3",
+       "value": 637872.48
+      },
+      {
+       "month": "2026-Q4",
+       "value": 588911.44
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Birouri — EUR/mp",
+     "unit": "EUR/mp",
+     "category": "birouri",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 1361.02
+      },
+      {
+       "month": "2022-Q1",
+       "value": 1361.02
+      },
+      {
+       "month": "2022-Q2",
+       "value": 1381.76
+      },
+      {
+       "month": "2022-Q3",
+       "value": 1386.32
+      },
+      {
+       "month": "2022-Q4",
+       "value": 1385.32
+      },
+      {
+       "month": "2023-Q1",
+       "value": 1465.57
+      },
+      {
+       "month": "2023-Q2",
+       "value": 1516.2
+      },
+      {
+       "month": "2023-Q3",
+       "value": 1485.58
+      },
+      {
+       "month": "2023-Q4",
+       "value": 1471.71
+      },
+      {
+       "month": "2024-Q1",
+       "value": 1503.55
+      },
+      {
+       "month": "2024-Q2",
+       "value": 1568.54
+      },
+      {
+       "month": "2024-Q3",
+       "value": 1634.95
+      },
+      {
+       "month": "2024-Q4",
+       "value": 1686.89
+      },
+      {
+       "month": "2025-Q1",
+       "value": 1722.13
+      },
+      {
+       "month": "2025-Q2",
+       "value": 1767.43
+      },
+      {
+       "month": "2025-Q3",
+       "value": 1788.5
+      },
+      {
+       "month": "2025-Q4",
+       "value": 1819.9
+      },
+      {
+       "month": "2026-Q1",
+       "value": 1846.29
+      },
+      {
+       "month": "2026-Q2",
+       "value": 1864.77
+      },
+      {
+       "month": "2026-Q3",
+       "value": 1828.45
+      },
+      {
+       "month": "2026-Q4",
+       "value": 1781.34
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie birouri",
+     "unit": "EUR/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 1627.24
+      },
+      {
+       "month": "2022-Q1",
+       "value": 1646.25
+      },
+      {
+       "month": "2022-Q2",
+       "value": 1509.38
+      },
+      {
+       "month": "2022-Q3",
+       "value": 1413.56
+      },
+      {
+       "month": "2022-Q4",
+       "value": 1346.49
+      },
+      {
+       "month": "2023-Q1",
+       "value": 1327.09
+      },
+      {
+       "month": "2023-Q2",
+       "value": 1381.71
+      },
+      {
+       "month": "2023-Q3",
+       "value": 1418.86
+      },
+      {
+       "month": "2023-Q4",
+       "value": 1441.03
+      },
+      {
+       "month": "2024-Q1",
+       "value": 1507.04
+      },
+      {
+       "month": "2024-Q2",
+       "value": 1571.8
+      },
+      {
+       "month": "2024-Q3",
+       "value": 1622.22
+      },
+      {
+       "month": "2024-Q4",
+       "value": 1811.8
+      },
+      {
+       "month": "2025-Q1",
+       "value": 1982.26
+      },
+      {
+       "month": "2025-Q2",
+       "value": 2101.58
+      },
+      {
+       "month": "2025-Q3",
+       "value": 2185.11
+      },
+      {
+       "month": "2025-Q4",
+       "value": 2243.58
+      },
+      {
+       "month": "2026-Q1",
+       "value": 2232.52
+      },
+      {
+       "month": "2026-Q2",
+       "value": 2273.1
+      },
+      {
+       "month": "2026-Q3",
+       "value": 2259.33
+      },
+      {
+       "month": "2026-Q4",
+       "value": 2091.53
+      }
+     ],
+     "delta_percent": null
+    },
+    {
+     "metric": "Chirie birouri — EUR/mp",
+     "unit": "EUR/mp/lună",
+     "category": "inchiriere",
+     "data": [
+      {
+       "month": "2021-Q4",
+       "value": 7.38
+      },
+      {
+       "month": "2022-Q1",
+       "value": 7.37
+      },
+      {
+       "month": "2022-Q2",
+       "value": 7.32
+      },
+      {
+       "month": "2022-Q3",
+       "value": 7.29
+      },
+      {
+       "month": "2022-Q4",
+       "value": 7.3
+      },
+      {
+       "month": "2023-Q1",
+       "value": 7.44
+      },
+      {
+       "month": "2023-Q2",
+       "value": 7.57
+      },
+      {
+       "month": "2023-Q3",
+       "value": 7.64
+      },
+      {
+       "month": "2023-Q4",
+       "value": 7.68
+      },
+      {
+       "month": "2024-Q1",
+       "value": 7.96
+      },
+      {
+       "month": "2024-Q2",
+       "value": 8.14
+      },
+      {
+       "month": "2024-Q3",
+       "value": 8.29
+      },
+      {
+       "month": "2024-Q4",
+       "value": 8.64
+      },
+      {
+       "month": "2025-Q1",
+       "value": 9.67
+      },
+      {
+       "month": "2025-Q2",
+       "value": 10.39
+      },
+      {
+       "month": "2025-Q3",
+       "value": 10.89
+      },
+      {
+       "month": "2025-Q4",
+       "value": 11.25
+      },
+      {
+       "month": "2026-Q1",
+       "value": 11.49
+      },
+      {
+       "month": "2026-Q2",
+       "value": 11.66
+      },
+      {
+       "month": "2026-Q3",
+       "value": 11.79
+      },
+      {
+       "month": "2026-Q4",
+       "value": 11.25
+      }
+     ],
+     "delta_percent": null
+    }
+   ]
+  }
+ }
+}

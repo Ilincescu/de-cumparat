@@ -413,20 +413,43 @@
 </table>
 </div>
 
-<div class="note"><b>De la începutul anului, banda ta a scăzut cu ~10%, apoi s-a stabilizat.</b>
-  217.450 € în martie, 190.000 în iunie, 187.500 în iulie, și pe la 195.000–199.000 din
-  septembrie încoace. €/mp a urmat aceeași curbă: 1.986 → 1.779.<br><br>
-  <b>Ce înseamnă pentru tine:</b> cei 163.000 € ceruți pe Berzelor sunt deja sub mediana
-  benzii. Nu e scumpă față de ce cer vecinii ei — e scumpă față de <b>ce costă s-o faci
-  locuibilă</b>. Argumentul tău rămâne costul de renovare, nu comparația cu piața.<br><br>
-  <b>Și scăderea s-a oprit.</b> Dacă speri că mai așteptând pică prețul de la sine,
-  ultimele patru luni spun că nu.</div>
+<p class="legend">Prețuri <b>cerute</b>. Fiecare punct e un singur ecran de rezultate,
+  deci <b>n e între 9 și 16</b>. Se reface cu <code>node tools/istoric-piata.js</code>.</p>
 
-<p class="legend"><b>Limitele seriei, ca să n-o iei drept lege:</b> sunt prețuri
-  <b>cerute</b>, nu de tranzacție. Fiecare punct e un singur ecran de rezultate, deci
-  <b>n e între 9 și 16</b> — eșantion mic. Capturile din februarie și august n-au putut fi
-  citite (archive.org a dat 429). Metoda e însă identică la fiecare dată, ceea ce face
-  seria comparabilă cu ea însăși. Se reface cu <code>node tools/istoric-piata.js</code>.</p>
+<div class="note"><b>Seria de mai sus e prea subțire și o contrazic cu una mai bună.</b>
+  Am găsit două serii publice adevărate pentru Sibiu, luate live de la sursă cu
+  <code>node tools/indici.js</code>. Amândouă spun că în 2026 prețurile au <b>crescut</b>
+  lent, nu au scăzut. Scăderea din tabelul meu era zgomot de eșantion mic.</div>
+
+<div class="scroller">
+<table id="serii">
+  <thead><tr><th>Ce măsoară</th><th>Început de an</th><th>Acum</th><th>Schimbare</th></tr></thead>
+  <tbody></tbody>
+</table>
+</div>
+
+<div class="note"><b>Două lucruri contează pentru tine, și al doilea e important.</b><br><br>
+  <b>1. Nu câștigi nimic așteptând.</b> Apartamentele au urcat 4,8% de la decembrie,
+  casele 5,5%. Dacă stai pe gânduri până în primăvară, casa nu se ieftinește — și nici
+  nu ai ce aștepta de la piață.<br><br>
+  <b>2. Terenul scade de cinci ani.</b> 131 €/mp în 2021, <b>92 €/mp azi — minus 30%</b>,
+  în timp ce construcțiile au urcat. Berzelor e o cumpărare grea de teren: 413 mp din
+  413. Asta e exact partea care nu s-a apreciat și nu dă semne că o face.<br><br>
+  La negociere: prețul lor presupune că terenul valorează cât construcția. Piața l-a
+  marcat în jos cinci ani la rând. Și jumătate din el e înfundat.</div>
+
+<p class="legend">Surse, amândouă <b>prețuri cerute</b>:
+  <a href="https://www.imobiliare.ro/indicele-imobiliare-ro/Sibiu" target="_blank" rel="noopener">indicele imobiliare.ro</a>
+  — 171 de puncte lunare din iulie 2012, apartamente, €/mp util; și
+  <a href="https://vdi.ro/indici-imobiliari/sibiu" target="_blank" rel="noopener">VDI.ro</a>
+  — trimestrial din 2021-Q4, singura serie publică separată pe <b>case</b> și pe
+  <b>terenuri</b>. VDI avertizează că în august 2026 a schimbat metodologia, de la preț
+  mediu la median, deci nu compara direct peste acel punct.<br>
+  <b>Preț de tranzacție pentru Sibiu nu publică nimeni.</b> Nici INS, nici Eurostat,
+  nici BNR nu au indice pe județ. ANCPI dă doar numărul de vânzări. Cea mai apropiată
+  e grila notarială, disponibilă pe 16 ani
+  (<a href="https://www.unnpr.ro/" target="_blank" rel="noopener">unnpr.ro</a>) — dar
+  aia e un prag minim de taxare actualizat în trepte, nu un indice de piață.</p>
 
 <h3>Cât trebuie să te grăbești</h3>
 
@@ -788,6 +811,14 @@ var INCALZIRE = [
   {ce:"Toată casa, ~115 mp", stare:"cu termopane și pod izolat", min:160, max:210, mp:115}
 ];
 
+/* ---------- seriile publice, luate live cu tools/indici.js ---------- */
+var SERII = [
+  {ce:"Apartamente Sibiu, €/mp util<br><small>imobiliare.ro, lunar</small>", a:"1.941 € <small>dec 2025</small>", b:"2.034 € <small>sep 2026</small>", d:"+4,8%", sus:true},
+  {ce:"Case Sibiu, €/mp<br><small>VDI.ro, trimestrial</small>", a:"1.858 € <small>Q4 2025</small>", b:"1.960 € <small>Q4 2026</small>", d:"+5,5%", sus:true},
+  {ce:"Case, preț total<br><small>VDI.ro</small>", a:"296.290 €", b:"296.009 €", d:"0%", sus:null},
+  {ce:"<b>Terenuri, €/mp</b><br><small>VDI.ro</small>", a:"94 €", b:"92 €", d:"−2% în an<br>−30% din 2021", sus:false}
+];
+
 /* ---------- seria de preturi 2026, din capturi archive.org ---------- */
 var SERIE = [
   {d:"2 martie",      n:16, med:217450, ppm:1986},
@@ -930,6 +961,16 @@ function deseneazaIncalzire(){
   }).join("");
 }
 
+function deseneazaSerii(){
+  el("serii").querySelector("tbody").innerHTML = SERII.map(function(r){
+    var cls = r.sus === true ? ' style="color:var(--good);font-weight:600"'
+            : r.sus === false ? ' style="color:var(--bad);font-weight:600"' : '';
+    return '<tr><td style="text-align:left">' + r.ce + '</td>'
+      + '<td class="num">' + r.a + '</td><td class="num">' + r.b + '</td>'
+      + '<td class="num"' + cls + '>' + r.d + '</td></tr>';
+  }).join("");
+}
+
 function deseneazaSerie(){
   el("serie").querySelector("tbody").innerHTML = SERIE.map(function(r){
     return '<tr><td>' + r.d + ' 2026</td><td class="num">' + r.n + '</td>'
@@ -977,6 +1018,7 @@ deseneazaOptiuni();
 deseneazaBuget();
 deseneazaAnunturi();
 deseneazaDever();
+deseneazaSerii();
 deseneazaSerie();
 deseneazaRitm();
 deseneazaIncalzire();
