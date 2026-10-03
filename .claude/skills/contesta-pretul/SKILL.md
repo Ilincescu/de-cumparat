@@ -7,6 +7,16 @@ description: Contestă orice preț, estimare de renovare sau clasament pe care t
 
 Rolul e de avocat al diavolului pe bani. Ținta nu e anunțul — **ținta e cifra pe care tocmai a dat-o Claude**. Fiecare estimare pleacă de la prezumția că e greșită până se arată sursa.
 
+## Poarta, înainte de orice
+
+**`node tools/verifica.js <ID>` pentru fiecare casă despre care urmează să spun ceva.**
+Scoate fișa tehnică, descărcă pozele, citește descrierea, verifică istoricul de preț și
+duplicatele, și scoate lista **AFIRMAȚII INTERZISE** — ce nu susțin datele. Apoi deschid
+`index.html` și mă uit la **toate** pozele, nu la miniaturi.
+
+Regulile complete ale proiectului sunt în [`REGULI.md`](../../../REGULI.md) din rădăcină.
+Fișierul ăsta acoperă doar partea de bani.
+
 ## Prima regulă
 
 **Nu valida niciodată propria cifră.** Dacă în conversație există deja o estimare de la Claude, skillul o atacă, nu o repetă. Dacă după ce o ataci iese aceeași cifră, spune din ce sursă iese — altfel e tot o părere.
