@@ -49,29 +49,30 @@ async function vdi() {
       + `(${(((u.eurPeMp / dec2025.eurPeMp) - 1) * 100).toFixed(1)}%)`);
   }
 
+  // VDI tine seriile in time_series, ca obiect indexat numeric, fiecare cu
+  // campul `metric`. Pastrez doar cele care spun ceva despre o casa cu teren.
+  const DE_PASTRAT = ['Case — vânzare', 'Case — EUR/mp', 'Terenuri — EUR/mp',
+    'Chirie case', 'Apartamente 2 camere — EUR/mp'];
   const v = await vdi();
-  let caseSerie = [];
-  if (v) {
-    const plat = JSON.stringify(v);
-    console.log(`\nvdi.ro: raspuns de ${plat.length} caractere`);
-    // structura nu e documentata; caut orice serie care vorbeste despre case
-    const cauta = (o, cale) => {
-      if (Array.isArray(o)) { o.forEach((x, i) => cauta(x, cale + '[' + i + ']')); return; }
-      if (o && typeof o === 'object') {
-        for (const k of Object.keys(o)) cauta(o[k], cale ? cale + '.' + k : k);
-      }
-    };
-    const chei = new Set();
-    cauta(v, '');
-    console.log('  chei de nivel 1:', Object.keys(v).join(', '));
-    caseSerie = v;
+  const serii = {};
+  if (v && v.time_series) {
+    Object.values(v.time_series).forEach(m => {
+      if (DE_PASTRAT.includes(m.metric)) serii[m.metric] = { unitate: m.unit, puncte: m.data };
+    });
+    console.log(`\nvdi.ro: ${Object.keys(v.time_series).length} metrici, pastrez ${Object.keys(serii).length}`);
+    for (const [nume, s] of Object.entries(serii)) {
+      const p = s.puncte, a = p[0], b = p[p.length - 1];
+      const d = ((b.value / a.value - 1) * 100).toFixed(1);
+      console.log(`  ${nume.padEnd(32)} ${a.month} ${Math.round(a.value)}  ->  ${b.month} ${Math.round(b.value)}  (${d > 0 ? '+' : ''}${d}%)`);
+    }
   }
 
   fs.writeFileSync(IESIRE, JSON.stringify({
     actualizat: new Date().toISOString().slice(0, 10),
-    avertisment: 'Ambele sunt preturi CERUTE, nu de tranzactie. Pentru Sibiu nu exista nicio sursa publica de preturi de tranzactie.',
-    imobiliare_ro: { tip: 'asking', ce: 'apartamente, EUR/mp util', serie: imo },
-    vdi_ro: { tip: 'asking', ce: 'case, apartamente, terenuri - trimestrial', brut: caseSerie },
+    avertisment: 'Ambele sunt preturi CERUTE, nu de tranzactie. Pentru Sibiu nu exista nicio sursa publica de preturi de tranzactie. '
+      + 'VDI a trecut in august 2026 de la pret mediu la pret median - nu compara direct peste acel punct.',
+    imobiliare_ro: { tip: 'asking', ce: 'apartamente, EUR/mp util, lunar din 7/2012', serie: imo },
+    vdi_ro: { tip: 'asking', ce: 'trimestrial din 2021-Q4', serii },
   }, null, 1));
   console.log('\nscris in indici-sibiu.json');
 })().catch(e => { console.error('EROARE:', e.message); process.exit(1); });
