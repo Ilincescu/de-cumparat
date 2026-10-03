@@ -5,6 +5,37 @@ prins-o. În paranteză, de câte ori am repetat-o înainte să fie scrisă.
 
 ---
 
+## Regula 0: repar mecanismul, nu doar instanța
+
+**Când ceva se repetă greșit sau merge ineficient, îl repar în aceeași tură, fără să
+întreb, și spun într-un rând ce am schimbat.**
+
+Patru declanșatoare, fiecare cu locul unde se duce reparația:
+
+| Ce observ | Ce fac |
+|---|---|
+| **Mihai mă corectează a doua oară pe același lucru** | Nu e o scăpare, e o barieră care lipsește. Adaug afirmația în `tools/afirmatii-interzise.json` și regula aici. |
+| **Un filtru a lăsat ceva să treacă** | Îl repar **peste tot unde e duplicat**, nu doar unde l-a prins. Regexul de curte comună era în trei fișiere. |
+| **Am tastat aceeași secvență de comenzi a treia oară** | Devine tool în `tools/`, cu un comentariu care spune din ce problemă s-a născut. |
+| **O afirmație s-a dovedit nesusținută** | Intră în `afirmatii-interzise.json` cu data și greșeala din care vine, ca `verifica.js` s-o scoată data viitoare. |
+
+**Contorul de mai jos e partea care contează.** O greșeală cu un singur rând e o scăpare.
+Una cu doi, trei sau șapte e un defect de proces, și atunci repararea instanței nu e
+suficientă — trebuie construit ceva care s-o facă imposibilă.
+
+| Greșeală | De câte ori | Ce am construit |
+|---|---|---|
+| Am spus că ceva e gata când exista doar în chat | 7 | `tools/update.js`, regula de livrare |
+| Am clasat dintr-o listă veche sau cu filtre nespuse | 6 | plafon ridicat în `scan.js`, regula „din ce populație" |
+| Cifre default pe categorie, nu pe casa aia | 4 | regula de recalculare pe linii |
+| Verdicte despre structură din poze | 3 | `tools/verifica.js` + afirmații interzise |
+| Clasament pe €/mp | 3 | regula de cost total |
+| Text de agenție repetat ca fapt | 3 | regula de citare a sursei |
+| I-am propus case pe care le respinsese | 2 | memoria `case-respinse-de-mihai`, verificată de `verifica.js` |
+| Potrivire pe titlu, nu pe ID | 2 | regula de ID |
+
+---
+
 ## Poarta: `node tools/verifica.js <ID>`
 
 **Nu scriu nicio propoziție despre o casă înainte să fi rulat asta.** Scriptul descarcă

@@ -183,12 +183,16 @@ async function poze(id, ad) {
   console.log('='.repeat(72));
   const interzise = [];
   lipsesc.forEach(([eticheta, afirmatie]) => interzise.push(`${afirmatie} (lipseste ${eticheta} din fisa)`));
-  if (!gasiteInText.includes('incalzire') && !ch.heating)
-    interzise.push('ORICE despre incalzire - nici fisa, nici descrierea nu o pomenesc');
-  interzise.push('ca structura e sanatoasa, ca nu are igrasie, sau ca actele sunt curate - astea cer expertiza si extras CF');
-  if (ch.construction_status === 'ready_to_use')
-    interzise.push('"gata de locuit" ca fapt - e camp completat de agentie, prins mincind de 3 ori pana acum');
-  interzise.forEach(x => console.log('  x ' + x));
+
+  // Lista creste pe masura ce ma prind gresind. Sta in JSON ca sa pot adauga
+  // una fara sa ating cod - vezi regula 0 din REGULI.md.
+  const lista = JSON.parse(fs.readFileSync(path.join(__dirname, 'afirmatii-interzise.json'), 'utf8'));
+  lista.mereu.forEach(a => interzise.push(a.text));
+  if (!gasiteInText.includes('incalzire') && !ch.heating) {
+    const a = lista.conditionate.find(x => /incalzire/i.test(x.cand));
+    if (a) interzise.push(a.text);
+  }
+  [...new Set(interzise)].forEach(x => console.log('  x ' + x));
 
   console.log('\n' + '='.repeat(72));
   console.log('INAINTE SA SCRIU CEVA DESPRE CASA ASTA');

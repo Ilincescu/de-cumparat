@@ -1,0 +1,36 @@
+{
+ "_": "Afirmatii pe care nu am voie sa le fac, adaugate pe masura ce ma prind gresind. verifica.js le citeste de aici, ca sa pot adauga una fara sa ating cod. Fiecare are data si greseala din care vine.",
+ "mereu": [
+  {
+   "text": "ca structura e sanatoasa, ca nu are igrasie, sau ca actele sunt curate - cer expertiza si extras CF",
+   "din": "2026-09-22, Terezian: am zis 'structura e sanatoasa' uitandu-ma la camere proaspat varuite"
+  },
+  {
+   "text": "'gata de locuit' ca fapt - construction_status e completat de agentie si l-am prins mincind de 3 ori",
+   "din": "2026-10-03, Tiglari, Lazaret, Gusterita: toate marcate ready_to_use, toate cu sobe sau renovare completa"
+  },
+  {
+   "text": "ca suprafata utila lipsa din CF e un defect - Reg. ANCPI 600/2023 art. 88(1), nu se inscrie niciodata la o casa",
+   "din": "2026-10-03: o folosisem ca argument de negociere"
+  },
+  {
+   "text": "cat la suta dintr-un teren e intr-o anumita stare, daca nu am suprafata fiecarui CF",
+   "din": "2026-10-03: am inventat 'jumatate din teren e infundat'"
+  },
+  {
+   "text": "unde e asezata casa pe parcela, din poze - se intreaba",
+   "din": "2026-10-03: am dedus din trepte si pavaj ca e retrasa; peretele e la strada"
+  },
+  {
+   "text": "'fara hartii' global - injectarea din interior nu cere nimic, placile de inox sunt interventie in structura de rezistenta",
+   "din": "2026-10-03"
+  }
+ ],
+ "conditionate": [
+  {
+   "cand": "lipseste heating din fisa SI descrierea nu pomeneste incalzirea",
+   "text": "ORICE despre incalzire - nici fisa, nici descrierea nu o pomenesc",
+   "din": "2026-10-03, Tiglari: am scris 'te muti maine' fara sa verific incalzirea"
+  }
+ ]
+}
