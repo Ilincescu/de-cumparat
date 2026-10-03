@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-02",
+ "actualizat": "2026-10-03",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -239,6 +239,10 @@
     {
      "d": "2026-09-13",
      "p": 63900
+    },
+    {
+     "d": "2026-10-03",
+     "p": 61900
     }
    ]
   },
@@ -1063,6 +1067,10 @@
     {
      "d": "2026-09-25",
      "p": 95000
+    },
+    {
+     "d": "2026-10-03",
+     "p": 95001
     }
    ]
   },
@@ -1819,6 +1827,10 @@
     {
      "d": "2026-09-25",
      "p": 50500
+    },
+    {
+     "d": "2026-10-03",
+     "p": 49999
     }
    ]
   },
@@ -1879,6 +1891,10 @@
     {
      "d": "2026-09-25",
      "p": 59500
+    },
+    {
+     "d": "2026-10-03",
+     "p": 59000
     }
    ]
   },
@@ -2039,6 +2055,10 @@
     {
      "d": "2026-09-25",
      "p": 102000
+    },
+    {
+     "d": "2026-10-03",
+     "p": 99500
     }
    ]
   },
@@ -2193,6 +2213,10 @@
     {
      "d": "2026-09-25",
      "p": 63700
+    },
+    {
+     "d": "2026-10-03",
+     "p": 59900
     }
    ]
   },
@@ -3015,6 +3039,10 @@
     {
      "d": "2026-09-25",
      "p": 109000
+    },
+    {
+     "d": "2026-10-03",
+     "p": 99000
     }
    ]
   },
@@ -5393,6 +5421,10 @@
     {
      "d": "2026-09-18",
      "p": 75000
+    },
+    {
+     "d": "2026-10-03",
+     "p": 74900
     }
    ]
   },
@@ -10259,6 +10291,10 @@
     {
      "d": "2026-09-30",
      "p": 200000
+    },
+    {
+     "d": "2026-10-03",
+     "p": 190000
     }
    ]
   },
@@ -10819,6 +10855,106 @@
     {
      "d": "2026-10-02",
      "p": 109500
+    }
+   ]
+  },
+  "IDIKeS": {
+   "u": "https://www.storia.ro/ro/oferta/cas-individual-pe-un-nivel-cu-pivni-111-mp-utili-teren-430-mp-IDIKeS",
+   "t": "Casă individuală pe un nivel cu pivniță | 111 mp utili | Teren 430 mp",
+   "preturi": [
+    {
+     "d": "2026-10-03",
+     "p": 199000
+    }
+   ]
+  },
+  "IDIJVL": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-si-curte-zona-lupeni-IDIJVL",
+   "t": "Casa individuala 4 camere si curte zona Lupeni",
+   "preturi": [
+    {
+     "d": "2026-10-03",
+     "p": 205000
+    }
+   ]
+  },
+  "IDIJLp": {
+   "u": "https://www.storia.ro/ro/oferta/casa-s-p-m-str-principala-casa-de-vara-mansarda-curte-video-IDIJLp",
+   "t": "Casa S+P+M | Str. Principala | Casa de Vara | Mansarda | Curte | VIDEO",
+   "preturi": [
+    {
+     "d": "2026-10-03",
+     "p": 165000
+    }
+   ]
+  },
+  "IDHA8f": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-sibiu-calea-cisnadiei-cartierul-primaverii-IDHA8f",
+   "t": "Casa de vanzare Sibiu, Calea Cisnadiei, cartierul Primaverii",
+   "preturi": [
+    {
+     "d": "2026-10-03",
+     "p": 242500
+    }
+   ]
+  },
+  "IDyw7t": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-vacanta-cabana-cu-8-camere-de-vanzare-in-paltinis-IDyw7t",
+   "t": "Casa de vacanta\\/Cabana cu 8 camere de vanzare in Paltinis",
+   "preturi": [
+    {
+     "d": "2026-10-03",
+     "p": 229000
+    }
+   ]
+  },
+  "IDIKvb": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-44mp-etaj-intermediar-balcon-zona-doamna-stanca-IDIKvb",
+   "t": "Apartament 2 camere 44mp etaj intermediar balcon zona Doamna Stanca",
+   "preturi": [
+    {
+     "d": "2026-10-03",
+     "p": 90900
+    }
+   ]
+  },
+  "IDIKmb": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-hipodrom-i-sibiu-IDIKmb",
+   "t": "Apartament 2 camere, balcon, Hipodrom I Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-03",
+     "p": 92900
+    }
+   ]
+  },
+  "IDIJZZ": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-cu-2-camere-balcon-pivnita-vasile-aaron-IDIJZZ",
+   "t": "Apartament de vanzare cu 2 camere balcon  pivnita Vasile Aaron",
+   "preturi": [
+    {
+     "d": "2026-10-03",
+     "p": 81999
+    }
+   ]
+  },
+  "IDvw8z": {
+   "u": "https://www.storia.ro/ro/oferta/dezvoltator-apartament-2-camere-etaj-1-dna-stanca-sibiu-IDvw8z",
+   "t": "Dezvoltator - Apartament 2 camere, etaj 1 - Dna. Stanca, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-03",
+     "p": 92562
+    }
+   ]
+  },
+  "IDIGX3": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-de-vanzare-2-camere-balcon-arhitectilor-IDIGX3",
+   "t": "Apartament decomandat de vanzare 2 camere balcon Arhitectilor",
+   "preturi": [
+    {
+     "d": "2026-10-03",
+     "p": 110000
     }
    ]
   }
