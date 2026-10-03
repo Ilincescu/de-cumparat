@@ -399,6 +399,42 @@
   cu o curte de beton. <b>Curtea verde din spate e singurul lucru pe care Berzelor îl are
   și ea nu.</b></div>
 
+<h3>Cât trebuie să te grăbești</h3>
+
+<p>Am numărat casele din banda ta și de cât timp stau. Filtre: oraș Sibiu,
+  120.000–185.000 €, 65–130 mp utili, teren peste 200 mp, fără curte comună,
+  fără excluderile automate. <b>17 case</b>, toate cu data de postare.</p>
+
+<div class="scroller">
+<table id="ritm">
+  <thead><tr><th>Fereastră</th><th>Case postate</th><th>Ritm</th></tr></thead>
+  <tbody></tbody>
+</table>
+</div>
+
+<div class="note ok"><b>Banda ta nu se mișcă, și asta joacă în favoarea ta.</b>
+  Din 17 case, <b>13 stau de peste 40 de zile</b>, șase de peste 160, iar una de
+  <b>394 de zile</b>. Vechimea mediană a unui anunț din bandă e de <b>103 zile</b>.
+  Berzelor, cu 136 de zile, nu e o excepție — e tiparul.<br><br>
+  Și apar <b>~3 case noi pe lună</b> în banda ta. Dacă Berzelor se vinde mâine,
+  aștepți în medie zece zile până la următoarea, și ai alte 16 de văzut între timp.
+  <b>Costul tău de a aștepta e mic.</b></div>
+
+<p><b>Singurul lucru care schimbă calculul</b> e tăierea de preț de pe 28–30 septembrie.
+  Un preț nou generează un val de vizionări, iar valul ăla e acum. Deci riscul nu e că
+  o cumpără cineva mâine — e că în următoarele <b>două–patru săptămâni</b> apare un
+  investitor care nu se uită la mucegai și vrea terenul, și plătește cash.</p>
+
+<p><b>Nu-ți dau un procent.</b> Nu am prețuri de tranzacție, iar eșantionul meu de case
+  dispărute s-a dovedit prea subțire ca să susțină o probabilitate. Ce am e istoria
+  casei însăși: 136 de zile, cinci agenții, niciun cumpărător.</p>
+
+<div class="note"><b>Deci: nu grăbi banii, grăbește oferta.</b>
+  O ofertă scrisă, cu condiții suspensive — expertiză favorabilă, alipirea CF-urilor,
+  intabularea suprafeței utile, certificat energetic — <b>blochează casa cât verifici</b>
+  și nu te costă nimic dacă expertiza iese prost. Expertiza durează 2–4 săptămâni;
+  oferta se scrie azi. Asta e singura mișcare care cumpără timp fără să cumpere risc.</div>
+
 <h3>Levierele, în ordinea puterii</h3>
 <ol style="margin:8px 0 0;padding-left:20px">
   <li><b>Cinci agenții, cinci prețuri, 135 de zile.</b> Proprietarul nu-și controlează nici prețul, nici mandatul. Iar anunțul de 170.000 cu „comision 0%" a fost retras după 23 de zile — au încercat și acolo și n-a mers.</li>
@@ -723,6 +759,14 @@ var INCALZIRE = [
   {ce:"Toată casa, ~115 mp", stare:"cu termopane și pod izolat", min:160, max:210, mp:115}
 ];
 
+/* ---------- ritmul de aparitie in banda lui ---------- */
+var RITM = [
+  {f:"ultimele 30 de zile", n:4, r:"4,0 case noi pe lună"},
+  {f:"ultimele 60 de zile", n:7, r:"3,5 pe lună"},
+  {f:"ultimele 90 de zile", n:8, r:"2,7 pe lună"},
+  {f:"ultimele 180 de zile", n:13, r:"2,2 pe lună"}
+];
+
 /* ---------- firme ---------- */
 var FIRME = [
   {n:"Cadisola Plus", u:"https://cadisola-sebes.ro/solutii-igrasie-capilaritate-case-vechi/",
@@ -848,6 +892,13 @@ function deseneazaIncalzire(){
   }).join("");
 }
 
+function deseneazaRitm(){
+  el("ritm").querySelector("tbody").innerHTML = RITM.map(function(r){
+    return '<tr><td>' + r.f + '</td><td class="num">' + r.n + '</td>'
+      + '<td class="num">' + r.r + '</td></tr>';
+  }).join("");
+}
+
 function deseneazaFirme(){
   el("firme").querySelector("tbody").innerHTML = FIRME.map(function(f){
     return '<tr><td><a href="' + f.u + '" target="_blank" rel="noopener">' + f.n + '</a></td>'
@@ -880,6 +931,7 @@ deseneazaOptiuni();
 deseneazaBuget();
 deseneazaAnunturi();
 deseneazaDever();
+deseneazaRitm();
 deseneazaIncalzire();
 deseneazaFirme();
 deseneazaVandute();
