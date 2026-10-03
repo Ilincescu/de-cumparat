@@ -37,7 +37,7 @@ const IN_AFARA = /r[aă][sș]inari|al[tț][aâ]na|tili[sș]ca|p[aă]ltini[sș]|[
 // Motive de excludere scrise in descriere, nu in titlu. Fiecare a costat o
 // recomandare data si apoi retrasa.
 const EXCLUDERI = [
-  { cheie: 'curte comuna', re: /curte\s+(este\s+)?(comun|[iî]n comun)|cot[aă]\s+parte|curte\s+comun[aă]/i },
+  { cheie: 'curte comuna', re: /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă]\s+parte|p[aă]r[tț]i\s+comune|[iî]n\s+indiviziune/i },
   { cheie: 'doua corpuri', re: /dou[aă]\s+corpuri|2\s+corpuri|dou[aă]\s+locuin[tț]e/i },
   { cheie: 'nefinisata', re: /la\s+alb|la\s+ro[sș]u|stadiul\s+de\s+gri|semifinisat/i },
 ];

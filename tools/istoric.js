@@ -113,7 +113,7 @@ function arata(id) {
 function scaderi() {
   // nu vrea sa vada anunturi din afara orasului sau cu curte comuna
   const AFARA = /r[aă][sș]inari|al[tț][aâ]na|tili[sș]ca|p[aă]ltini[sș]|[sș]ura mic|[sș]ura mare|bavaria|cisn[aă]die|[sș]elimb[aă]r|nucet|dealul sibiului|tropini|sibiel|t[aă]lmaciu|poplaca|ocna sibiului|sadu|ro[sș]ia|cristian|vurp[aă]r|daia|corn[aă][tț]el|hosman|cop[sș]a|ru[sș]i|slimnic|de vacan[tț]/i;
-  const COMUNA = /curte\s+comun|[iî]n\s+comun|cot[aă]\s+parte|p[aă]r[tț]i\s+comune/i;
+  const COMUNA = /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă]\s+parte|p[aă]r[tț]i\s+comune|[iî]n\s+indiviziune/i;
   const nedorit = e => AFARA.test(e.t || '') || COMUNA.test(e.t || '');
   const istoric = JSON.parse(fs.readFileSync(CALE, 'utf8')).anunturi;
   const lista = Object.values(istoric)
