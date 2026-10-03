@@ -69,11 +69,13 @@ Toate medianele din Storia, VDI și presă sunt prețuri cerute, **de anunțuri 
 
 **Rulează `node tools/vandute.js` înainte de orice mediană.** El compară snapshoturile cu lista de azi, cere pagina fiecărui anunț dispărut și citește câmpul `status`: `removed_by_user` (scos de proprietar), `expired` (a expirat singur), `active` (doar a ieșit din filtre). Apoi compară `createdAt` cu `modifiedAt` ca să afle câte zile a stat.
 
-Ce a ieșit la case, în Sibiu, pe 2 octombrie 2026: **23 de case scoase în sub 60 de zile, preț median 180.000 €, mediana zilelor 22.** Și **10 case scoase după peste 60 de zile, preț median 215.000 €, mediana 117 zile.** Mediana cerută a celor rămase pe piață era 207.500 € — adică exact zona în care nu se vinde nimic.
+**Dar nici cifra care iese din el nu e o statistică.** Pe 2 octombrie am citat „23 de case scoase în sub 60 de zile, mediană 180.000 €". Pe 3 octombrie, aceeași comandă, după ce am scos trei intrări cu date stricate: **20 de case, mediană 170.000 €**. S-a mișcat cu 10.000 € peste noapte, iar prețurile din eșantion mergeau **de la 59.999 la 249.000 €** — o garsonieră și o vilă în aceeași mediană.
 
-Avertismentul care merge cu cifra: `removed_by_user` nu dovedește o vânzare. Poate fi și retragere sau consolidarea anunțurilor între agenții. Spune asta de fiecare dată. Prețul tranzacției nu e public nicăieri.
+**Deci: desfă mediana înainte s-o citezi.** Arată `n`, intervalul min–max și câte intrări au date stricate. Dacă spread-ul e de câteva ori mai mare decât mediana, nu e o cifră, e o coincidență — spune asta și nu construi nimic pe ea.
 
-Orice mediană merge însoțită de `n`, de vechimea anunțurilor și de contra-mediana celor dispărute. Sub 10 comparabile, spune că eșantionul e subțire.
+Avertismentul care merge mereu cu ea: `removed_by_user` nu dovedește o vânzare, eșantionul e filtrat chiar de scanarea mea (doar oraș, doar sub plafonul de preț, minus excluderile automate), iar prețul tranzacției nu e public nicăieri în România.
+
+Sub 10 comparabile, spune că eșantionul e subțire. Peste 10, tot arată compoziția.
 
 ### 8. Același imobil apare la prețuri diferite (de 2 ori)
 
