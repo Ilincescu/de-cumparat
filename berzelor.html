@@ -786,7 +786,7 @@
   există sau nu tasare.</p>
 
 <h2>Cu ce o compari</h2>
-<p>Case gata de locuit în Terezian, 85–140 mp. Mediana cerută e 207.500 €, dar
+<p>Case din Terezian, 85–140 mp, pe care <b>agenția</b> le-a marcat <code>ready_to_use</code> — câmp pe care l-am prins mințind de trei ori. Mediana cerută e 207.500 €, dar
   coloana „pe piață din" spune adevărul: la prețurile astea nu se vinde nimic.</p>
 
 <div class="scroller">
@@ -1012,7 +1012,7 @@ var FIRME = [
 var VANDUTE = [
   {g:"Scoase de proprietar în sub 60 de zile", n:23, p:180000, z:"22 mediana"},
   {g:"Scoase după peste 60 de zile", n:10, p:215000, z:"117 mediana"},
-  {g:"Încă pe piață, în Terezian, gata de locuit", n:8, p:207500, z:"una stă de 2 ani"}
+  {g:"Încă pe piață, Terezian, marcate ready_to_use de agenție", n:8, p:207500, z:"una stă de 2 ani"}
 ];
 
 /* ---------- comparabile ---------- */
@@ -1031,7 +1031,7 @@ var COMP = [
    u:"https://www.storia.ro/ro/oferta/cas-individual-de-vnzare-terezian-sibiu-4-camere-curte-proprie-IDItjs"},
   {n:"Terezian, deschidere 15 m", p:217000, mp:112, t:450, d:"iul 2025",
    u:"https://www.storia.ro/ro/oferta/casa-individuala-i-4-camere-i-acces-auto-i-curte-i-terezian-IDEqhl"},
-  {n:"Țiglari, Lacul lui Binder, gata de locuit", p:179000, mp:88, t:252, d:"iul 2026",
+  {n:"Țiglari, Lacul lui Binder, 1974", p:179000, mp:88, t:252, d:"iul 2026",
    u:"https://www.storia.ro/ro/oferta/casa-individuala-d-p-pod-teren-252-mp-baie-cu-geam-si-curte-in-sibiu-IDHW8J"}
 ];
 
@@ -1076,7 +1076,7 @@ function totaluri(){
   el("gMin").textContent = euro(min + pret);
   el("gMax").textContent = euro(max + pret);
   var plafon = 207500;
-  var t = "Mediana cerută pentru o casă gata de locuit în Terezian e " + euro(plafon) + " €. ";
+  var t = "Mediana cerută în Terezian, pentru case marcate ready_to_use de agenție, e " + euro(plafon) + " €. ";
   if(min + pret > plafon){
     t += "Chiar și în varianta minimă ieși peste ea cu " + euro(min + pret - plafon)
        + " € — adică plătești mai mult decât cere piața pentru una deja terminată.";
