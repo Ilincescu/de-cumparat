@@ -240,6 +240,37 @@
   garanție scrisă și pe câți ani. Diferența dintre o ofertă de 150 și una de 300 lei/ml
   pe 42 m e de 1.200 €, deci merită trei oferte.</p>
 
+<h2>Cât costă încălzirea</h2>
+
+<p>Gazul e acum <b>0,26 lei/kWh</b>, tot inclus — distribuție, transport, acciză, TVA.
+  Plafonul de 0,31 lei/kWh e prelungit prin OUG 12/2026 <b>până pe 31 martie 2027</b>.
+  După aia, estimările din piață dau ~0,35 lei/kWh, adică <b>+33% la factură</b>.</p>
+
+<div class="scroller">
+<table id="incalzire">
+  <thead><tr><th>Ce încălzești</th><th>Starea casei</th><th>kWh/an</th><th>€/an acum</th><th>€/an din aprilie 2027</th></tr></thead>
+  <tbody></tbody>
+</table>
+</div>
+
+<p class="legend">Consumul pe metru pătrat e <b>estimarea mea</b>, ancorată în grila
+  oficială de clase energetice din Mc 001-2022 — nu am găsit nicio sursă românească
+  cu cifra pentru o casă de cărămidă din 1971. Prețul gazului și plafonul sunt
+  verificate. Curs 5,3447 lei/€.</p>
+
+<div class="note ok"><b>Nu estima — cere-le certificatul energetic.</b>
+  E <b>obligatoriu la vânzare</b> și conține cifra exactă, în kWh/m² pe an, pentru
+  casa asta. Costă 500–900 lei și îl plătește vânzătorul. Dacă nu-l au, întreabă de ce —
+  e a doua oară când un document obligatoriu lipsește din dosarul lor.</div>
+
+<p><b>Prima lucrare de făcut, și cea mai ieftină:</b> izolează tavanul demisolului pe
+  dedesubt, cu 10 cm de polistiren. <b>120–165 lei/mp</b> cu material și manoperă, deci
+  ~1.350–1.850 € pentru cei 60 mp de sub partea pe care o locuiești. Pierderea prin
+  planșeul ăla scade cu ~85%, calculat din rezistențele termice, și trece de cerința
+  normativă pentru renovare. Cât înseamnă pe factura totală n-am putut sursa — socotește
+  că se amortizează în câțiva ani, nu într-unul. Dar îți încălzește și podeaua, iar asta
+  se simte imediat.</p>
+
 <h2>Cât te costă, în total</h2>
 <p>Editează orice sumă — totalul se recalculează. Cifrele de pornire sunt estimările
   mele, iar coloana din dreapta spune pe ce se sprijină fiecare.</p>
@@ -607,6 +638,18 @@ var DEVER = [
    "Ipoteci, litigii, drept de uz, servituți. Cere extras actualizat pentru fiecare, nu unul vechi."]
 ];
 
+/* ---------- incalzire ----------
+   Pret gaz 0,26 lei/kWh tot inclus (Engie, oferte valabile 23 sep - 5 oct 2026).
+   Dupa 31 martie 2027 plafonul expira; estimarea din piata e ~0,35 lei/kWh.
+   Consumul specific e estimarea mea, ancorata in grila Mc 001-2022. */
+var GAZ_ACUM = 0.26, GAZ_2027 = 0.35, CURS = 5.3447;
+var INCALZIRE = [
+  {ce:"Doar corpul principal, ~60 mp", stare:"azi — fără izolație, tâmplărie de lemn", min:230, max:300, mp:60},
+  {ce:"Doar corpul principal, ~60 mp", stare:"cu termopane și pod izolat", min:160, max:210, mp:60},
+  {ce:"Toată casa, ~115 mp", stare:"azi — fără izolație, tâmplărie de lemn", min:230, max:300, mp:115},
+  {ce:"Toată casa, ~115 mp", stare:"cu termopane și pod izolat", min:160, max:210, mp:115}
+];
+
 /* ---------- firme ---------- */
 var FIRME = [
   {n:"Cadisola Plus", u:"https://cadisola-sebes.ro/solutii-igrasie-capilaritate-case-vechi/",
@@ -719,6 +762,19 @@ function deseneazaDever(){
   }).join("");
 }
 
+function deseneazaIncalzire(){
+  el("incalzire").querySelector("tbody").innerHTML = INCALZIRE.map(function(r){
+    var kwhMin = r.min * r.mp, kwhMax = r.max * r.mp;
+    var lei = function(p){ return [kwhMin * p / CURS, kwhMax * p / CURS]; };
+    var a = lei(GAZ_ACUM), b = lei(GAZ_2027);
+    return '<tr><td>' + r.ce + '</td>'
+      + '<td style="text-align:left"><small style="color:var(--muted)">' + r.stare + '</small></td>'
+      + '<td class="num">' + euro(kwhMin) + '–' + euro(kwhMax) + '</td>'
+      + '<td class="num">' + euro(a[0]) + '–' + euro(a[1]) + ' €</td>'
+      + '<td class="num">' + euro(b[0]) + '–' + euro(b[1]) + ' €</td></tr>';
+  }).join("");
+}
+
 function deseneazaFirme(){
   el("firme").querySelector("tbody").innerHTML = FIRME.map(function(f){
     return '<tr><td><a href="' + f.u + '" target="_blank" rel="noopener">' + f.n + '</a></td>'
@@ -751,6 +807,7 @@ deseneazaOptiuni();
 deseneazaBuget();
 deseneazaAnunturi();
 deseneazaDever();
+deseneazaIncalzire();
 deseneazaFirme();
 deseneazaVandute();
 deseneazaComp();
