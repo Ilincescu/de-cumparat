@@ -156,7 +156,8 @@ async function cautare(tip, pagina, aDouaIncercare) {
   }
   if (!r.ok) throw new Error('cautare status ' + r.status);
   const j = await r.json();
-  return (((j.pageProps || {}).data || {}).searchAds || {}).items || [];
+  const sa = (((j.pageProps || {}).data || {}).searchAds) || {};
+  return { items: sa.items || [], pagini: (sa.pagination || {}).totalPages || 1 };
 }
 
 async function fisaTehnica(slug) {
@@ -188,11 +189,16 @@ function inOras(x) {
 async function scaneazaStoria() {
   const rezultat = [];
   for (const tip of ['casa', 'apartament']) {
+    // Numarul de pagini vine de la Storia, nu dintr-o limita fixa. Cu 4 pagini
+    // hardcodate pierdeam ultima: cautarea de case dadea 290 de rezultate in
+    // 5 pagini, iar eu citeam 288.
     let brute = [];
-    for (let p = 1; p <= 4; p++) {
-      const it = await cautare(tip, p);
-      if (!it.length) break;
-      brute = brute.concat(it);
+    let pagini = 1;
+    for (let p = 1; p <= pagini && p <= 20; p++) {
+      const { items, pagini: n } = await cautare(tip, p);
+      pagini = n;
+      if (!items.length) break;
+      brute = brute.concat(items);
     }
     const oras = brute.filter(inOras);
     console.log(`${tip}: ${brute.length} in judet, ${oras.length} in oras`);

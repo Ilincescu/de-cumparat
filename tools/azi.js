@@ -17,6 +17,8 @@ const path = require('path');
 const RADACINA = path.join(__dirname, '..');
 const DOSAR = path.join(__dirname, 'snapshots');
 
+const { grupeaza } = require('./dubluri.js');
+
 const respinse = JSON.parse(fs.readFileSync(path.join(__dirname, 'respinse.json'), 'utf8'));
 const ID_RESPINSE = new Set(respinse.case.map(x => x.id));
 const MASINI_RESPINSE = new RegExp(
@@ -138,26 +140,55 @@ const vazute = new Set(JSON.parse(fs.readFileSync(referinta.cale, 'utf8')).map(x
 // dintre care unele erau pe piata din ianuarie. Data de postare nu minte.
 const esteNou = x => x.creat && x.creat > referinta.data;
 
-function alege(lista) {
-  const trec = [], picate = [];
+// Grupez pe proprietate inainte de clasament, altfel aceeasi casa ocupa doua
+// locuri din trei: in Lupeni erau patru anunturi pentru un singur imobil, la
+// 204.990 si 205.000 EUR. Pastrez anuntul cel mai ieftin si car dupa el
+// celelalte preturi - ecartul e un argument de negociere, nu alta casa.
+//
+// Grupez pe toata piata, nu doar pe anunturile din fereastra: daca azi apare
+// al patrulea anunt al unei case, vreau sa vad toate cele patru preturi, nu
+// doar pe cele postate in aceeasi saptamana.
+function indexeazaGrupuri(toate) {
+  const dupaUrl = new Map();
+  grupeaza(toate.filter(x => !filtreazaCasa(x))).forEach(g => {
+    g.anunturi.forEach(a => dupaUrl.set(a.url, g));
+  });
+  return dupaUrl;
+}
+
+function alege(lista, index) {
+  const picate = [];
+  const vazut = new Set();
+  const grupuri = [];
   lista.forEach(x => {
     const motiv = filtreazaCasa(x);
-    if (motiv) picate.push({ x, motiv }); else trec.push({ x, p: punctajCasa(x) });
+    if (motiv) { picate.push({ x, motiv }); return; }
+    const g = index.get(x.url);
+    if (!g || vazut.has(g.sef.url)) return;
+    vazut.add(g.sef.url);
+    grupuri.push({
+      x: g.sef,
+      p: punctajCasa(g.sef),
+      alte: g.anunturi.filter(a => a.url !== g.sef.url)
+        .map(a => ({ pret: a.pret, url: a.url, creat: a.creat }))
+        .sort((a, b) => a.pret - b.pret),
+    });
   });
-  trec.sort((a, b) => b.p - a.p);
-  return { trec, picate };
+  grupuri.sort((a, b) => b.p - a.p);
+  return { trec: grupuri, picate };
 }
 
 const toateCasele = azi.filter(x => x.tip === 'casa');
+const index = indexeazaGrupuri(toateCasele);
 const caseNoi = toateCasele.filter(esteNou);
-let { trec, picate } = alege(caseNoi);
+let { trec, picate } = alege(caseNoi, index);
 let topCase = trec.slice(0, 3), dinRezerva = false;
 
 // Multe dimineti nu aduc nimic. In loc de o pagina goala, arat cele mai bune
 // din ultima saptamana - dar spun pe fata ca nu sunt de azi.
 const SAPT = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
 if (!topCase.length) {
-  const r = alege(toateCasele.filter(x => x.creat > SAPT && !caseNoi.includes(x)));
+  const r = alege(toateCasele.filter(x => x.creat > SAPT && !caseNoi.includes(x)), index);
   topCase = r.trec.slice(0, 3);
   dinRezerva = topCase.length > 0;
 }
@@ -167,13 +198,20 @@ console.log('='.repeat(62));
 console.log(`\nCASE — ${caseNoi.length} postate în interval, ${trec.length} trec de criterii\n`);
 if (!topCase.length) console.log('  nimic nou care să bifeze criteriile.\n');
 else if (dinRezerva) console.log(`  Nimic postat în interval. Cele mai bune 3 de după ${SAPT}:\n`);
-topCase.forEach(({ x }, i) => {
+topCase.forEach(({ x, alte }, i) => {
   const c = curteLibera(x);
   console.log(`${i + 1}. ${x.pret.toLocaleString('ro-RO')} € · ${x.mpu} mp utili · curte ${c.sigur ? '' : '~'}${c.mp} mp · ${x.zona}`);
   console.log(`   ${String(x.titlu).slice(0, 66)}`);
   const repus = !dinRezerva && vazute.has(idAnunt(x.url)) ? ' · repostat, îl aveam deja' : '';
   console.log(`   postat ${x.creat}${x.stare === 'ready_to_use' ? ' · dat ca gata de locuit' : ''}${repus}`);
-  console.log(`   ${x.url}\n`);
+  console.log(`   ${x.url}`);
+  if (alte.length) {
+    const max = alte[alte.length - 1].pret;
+    console.log(`   aceeași casă la încă ${alte.length} ${alte.length === 1 ? 'agent' : 'agenți'}, până la ${max.toLocaleString('ro-RO')} €`
+      + (max > x.pret ? ` — cere ${(max - x.pret).toLocaleString('ro-RO')} € mai mult` : ''));
+    alte.forEach(a => console.log(`     ${a.pret.toLocaleString('ro-RO')} € · ${a.creat} · ${a.url}`));
+  }
+  console.log();
 });
 
 let topMasini = [];
@@ -209,12 +247,12 @@ if (scrie) {
     generat: new Date().toISOString().slice(0, 16).replace('T', ' '),
     de_la: referinta.data, pana_la: acum.data,
     case_noi: caseNoi.length, case_trec: trec.length, din_rezerva: dinRezerva,
-    case: topCase.map(({ x, p }) => {
+    case: topCase.map(({ x, p, alte }) => {
       const c = curteLibera(x);
       return {
         pret: x.pret, mpu: x.mpu, curte: c.mp, curte_sigura: c.sigur, teren: x.teren,
         zona: x.zona, an: x.an, stare: x.stare, creat: x.creat,
-        repostat: vazute.has(idAnunt(x.url)),
+        repostat: vazute.has(idAnunt(x.url)), alte,
         titlu: x.titlu, url: x.url, scor: p,
       };
     }),

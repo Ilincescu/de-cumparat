@@ -1,10 +1,10 @@
 {
- "generat": "2026-10-04 11:27",
- "de_la": "2026-10-03",
+ "generat": "2026-10-04 11:44",
+ "de_la": "2026-09-27",
  "pana_la": "2026-10-04",
- "case_noi": 0,
- "case_trec": 0,
- "din_rezerva": true,
+ "case_noi": 15,
+ "case_trec": 3,
+ "din_rezerva": false,
  "case": [
   {
    "pret": 125000,
@@ -16,25 +16,11 @@
    "an": "1965",
    "stare": "to_renovation",
    "creat": "2026-10-01",
-   "repostat": true,
+   "repostat": false,
+   "alte": [],
    "titlu": "Comision 0% Casa Individuala cu Curte si Gradina 260 mp - Terezian/tig",
    "url": "https://www.storia.ro/ro/oferta/comision-0-casa-individuala-cu-curte-si-gradina-260-mp-terezian-tig-IDIJD2",
    "scor": 67
-  },
-  {
-   "pret": 205000,
-   "mpu": 121,
-   "curte": 152,
-   "curte_sigura": false,
-   "teren": 237,
-   "zona": "Lupeni, Sibiu",
-   "an": "1960",
-   "stare": "ready_to_use",
-   "creat": "2026-10-02",
-   "repostat": true,
-   "titlu": "Casa individuala 4 camere si curte zona Lupeni",
-   "url": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-si-curte-zona-lupeni-IDIJVL",
-   "scor": 61
   },
   {
    "pret": 204990,
@@ -46,10 +32,42 @@
    "an": "1980",
    "stare": "ready_to_use",
    "creat": "2026-09-29",
-   "repostat": true,
+   "repostat": false,
+   "alte": [
+    {
+     "pret": 204990,
+     "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-cu-teren-237-mp-garaj-in-zona-lupeni-sibiu-IDIxDs",
+     "creat": "2026-09-15"
+    },
+    {
+     "pret": 205000,
+     "url": "https://www.storia.ro/ro/oferta/casa-individuala-cu-demisol-parter-130-mp-utili-curte-237-mp-IDIwOL",
+     "creat": "2026-09-11"
+    },
+    {
+     "pret": 205000,
+     "url": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-si-curte-zona-lupeni-IDIJVL",
+     "creat": "2026-10-02"
+    }
+   ],
    "titlu": "Casa individuala cu 4 camere  ,curte si garaj  Sibiu zona Lupeni",
    "url": "https://www.storia.ro/ro/oferta/casa-individuala-cu-4-camere-curte-si-garaj-sibiu-zona-lupeni-IDIHAn",
    "scor": 43
+  },
+  {
+   "pret": 189900,
+   "mpu": 159,
+   "curte": 258,
+   "curte_sigura": false,
+   "teren": 369,
+   "zona": "Tiglari, Sibiu",
+   "an": "1980",
+   "creat": "2026-09-29",
+   "repostat": false,
+   "alte": [],
+   "titlu": "Casă de vânzare Sibiu | 3 camere | Tiglari | 159 mp | anexă",
+   "url": "https://www.storia.ro/ro/oferta/cas-de-vnzare-sibiu-3-camere-tiglari-159-mp-anex-IDIHFT",
+   "scor": 35
   }
  ],
  "masini": []

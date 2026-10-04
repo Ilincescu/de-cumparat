@@ -144,6 +144,8 @@
   .azi li a{color:var(--ink);font-weight:600;text-decoration:none}
   .azi li a:hover{text-decoration:underline}
   .azi .det{display:block;font-size:13px;color:var(--muted)}
+  .azi .alte{display:block;font-size:12px;color:var(--warn);margin-top:3px}
+  .azi .alte a{color:var(--warn);font-weight:600}
   .azi .nota{font-size:13px;color:var(--warn);background:var(--warn-soft);
     border-radius:8px;padding:6px 10px;margin:0 0 10px}
   .banner{background:var(--accent-soft);border:1px solid var(--accent);border-radius:var(--radius);
@@ -742,7 +744,17 @@
         h.push('<li><a href="'+esc(c.url)+'" target="_blank" rel="noopener">'+nr(c.pret)+' € · '
           +esc(c.zona)+'</a><span class="det">'+c.mpu+' mp utili · curte '
           +(c.curte_sigura?"":"~")+c.curte+' mp · postat '+esc(c.creat)
-          +(c.stare==="ready_to_use"?' · dat ca gata de locuit':'')+'</span></li>');
+          +(c.stare==="ready_to_use"?' · dat ca gata de locuit':'')+'</span>');
+        if(c.alte&&c.alte.length){
+          var max=c.alte[c.alte.length-1].pret;
+          h.push('<span class="alte">Aceeași casă la încă '+c.alte.length
+            +(c.alte.length===1?' agent':' agenți')+', până la '+nr(max)+' €'
+            +(max>c.pret?' — cere '+nr(max-c.pret)+' € mai mult':'')+'. ');
+          h.push(c.alte.map(function(a,i){
+            return '<a href="'+esc(a.url)+'" target="_blank" rel="noopener">'+nr(a.pret)+' €</a>';
+          }).join(" · ")+'</span>');
+        }
+        h.push('</li>');
       });
       h.push('</ol>');
     }
