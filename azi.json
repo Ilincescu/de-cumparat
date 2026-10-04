@@ -1,0 +1,56 @@
+{
+ "generat": "2026-10-04 11:24",
+ "de_la": "2026-10-03",
+ "pana_la": "2026-10-04",
+ "case_noi": 0,
+ "case_trec": 0,
+ "din_rezerva": true,
+ "case": [
+  {
+   "pret": 125000,
+   "mpu": 65,
+   "curte": 215,
+   "curte_sigura": false,
+   "teren": 261,
+   "zona": "Tiglari, Sibiu",
+   "an": "1965",
+   "stare": "to_renovation",
+   "creat": "2026-10-01",
+   "repostat": true,
+   "titlu": "Comision 0% Casa Individuala cu Curte si Gradina 260 mp - Terezian/tig",
+   "url": "https://www.storia.ro/ro/oferta/comision-0-casa-individuala-cu-curte-si-gradina-260-mp-terezian-tig-IDIJD2",
+   "scor": 67
+  },
+  {
+   "pret": 205000,
+   "mpu": 121,
+   "curte": 152,
+   "curte_sigura": false,
+   "teren": 237,
+   "zona": "Lupeni, Sibiu",
+   "an": "1960",
+   "stare": "ready_to_use",
+   "creat": "2026-10-02",
+   "repostat": true,
+   "titlu": "Casa individuala 4 camere si curte zona Lupeni",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-si-curte-zona-lupeni-IDIJVL",
+   "scor": 61
+  },
+  {
+   "pret": 204990,
+   "mpu": 130,
+   "curte": 146,
+   "curte_sigura": false,
+   "teren": 237,
+   "zona": "Lupeni, Sibiu",
+   "an": "1980",
+   "stare": "ready_to_use",
+   "creat": "2026-09-29",
+   "repostat": true,
+   "titlu": "Casa individuala cu 4 camere  ,curte si garaj  Sibiu zona Lupeni",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-cu-4-camere-curte-si-garaj-sibiu-zona-lupeni-IDIHAn",
+   "scor": 43
+  }
+ ],
+ "masini": []
+}

@@ -11,7 +11,8 @@
 //   1. scan.js storia    - case si apartamente din oras, cu fisa tehnica
 //   2. scan.js masini    - Autovit, fara browser
 //   3. publica.js        - scoate mortii, adauga noii in date.json
-//   4. git commit + push - publica pe GitHub Pages
+//   4. azi.js            - ce a aparut de ieri, trei case si trei masini
+//   5. git commit + push - publica pe GitHub Pages
 //
 // Bicicletele raman pe Playwright: OLX da 403 la cereri directe.
 
@@ -57,6 +58,7 @@ function numara() {
   ruleaza('node', ['tools/publica.js', '--scrie']);
   ruleaza('node', ['tools/curata.js', '--scrie']);
   ruleaza('node', ['tools/istoric.js'], true);
+  ruleaza('node', ['tools/azi.js', '--scrie'], true);
 
   const dupa = numara();
   const schimbari = ruleaza('git', ['status', '--porcelain']);
@@ -71,7 +73,7 @@ function numara() {
     + `apartamente ${inainte.ap} -> ${dupa.ap}.\n\n`
     + 'Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>';
 
-  ruleaza('git', ['add', 'date.json', 'masini.json', 'biciclete.json', 'istoric-preturi.json', 'tools/snapshots']);
+  ruleaza('git', ['add', 'date.json', 'masini.json', 'biciclete.json', 'istoric-preturi.json', 'azi.json', 'tools/snapshots']);
   ruleaza('git', ['commit', '-q', '-m', mesaj]);
   ruleaza('git', ['push', '-q', 'origin', 'HEAD:main']);
 

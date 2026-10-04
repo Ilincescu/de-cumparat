@@ -1,0 +1,17 @@
+{
+ "nota": "Ce a respins Mihai explicit. tools/azi.js nu i le mai arata. Cand respinge ceva nou, se adauga aici, nu in cod.",
+ "case": [
+  { "id": "IDIhoz", "ce": "Turnisor, 4 camere, 475 mp teren", "pret": 129900, "motiv": "pare varza, casa de renovat si mai mult" },
+  { "id": "IDENEF", "ce": "Terezian, Str. Eschil, garaj", "pret": 145000, "motiv": "curte comuna - scrie in descriere" },
+  { "id": "IDItjs", "ce": "Terezian, Petru Maior", "pret": 210000, "motiv": "curte pavata, nu verde" }
+ ],
+ "masini": [
+  { "model": "duster", "motiv": "vrea ceva care pare mai premium decat Duster" },
+  { "model": "swift", "motiv": "prea mica, sub Citroen C3" },
+  { "model": "vitara", "motiv": "prea mica, sub Citroen C3" }
+ ],
+ "modele_prea_mici": [
+  "jimny", "ignis", "aygo", "c1", "108", "up!", "citigo", "mii",
+  "panda", "twingo", "picanto", "i10", "fox", "ka", "adam"
+ ]
+}
