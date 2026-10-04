@@ -123,7 +123,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-tiguan-ver-2-0-tsi-4motion-sport-style-ID7HQHEm.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Volkswagen Tiguan",
@@ -179,7 +181,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/mitsubishi-space-star-ID7HQIun.html",
    "warn": null,
    "d": "2026-09-25",
-   "gj": true
+   "gj": true,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Nissan Qashqai",
@@ -235,7 +239,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-ID7HQOrU.html",
    "warn": null,
    "d": "2026-09-25",
-   "gj": true
+   "gj": true,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T TEKNA+",
@@ -305,7 +311,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ID7HQF2n.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Kia Sportage",
@@ -459,7 +467,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/citron-c3-aircross-1-2-puretech-s-s-bvm6-shine-ID7HQM1Q.html",
    "warn": "133.500 km, peste pragul tau de 100.000. Motor PureTech cu curea in ulei.",
    "d": "2026-09-21",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Volkswagen Tiguan 2.0 TSI 4Motion DSG Track&Field",
@@ -781,7 +791,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-gsl-mt-4x2-style-ID7HQMqu.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Volkswagen Polo",
@@ -795,7 +807,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-polo-ID7HQIAq.html",
    "warn": null,
    "d": "2026-09-25",
-   "gj": true
+   "gj": true,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Nissan Qashqai",
@@ -823,7 +837,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-100-comfort-ID7HQFmi.html",
    "warn": null,
    "d": "2026-09-14",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Dacia Duster TCe 90 Essential",
@@ -837,7 +853,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-90-essential-ID7HQAtY.html",
    "warn": null,
    "d": "2026-09-14",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Kia Sportage 1.6 GDI 6MT 4x2 Classic",
@@ -865,7 +883,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-130-active-pack-ID7HQMWc.html",
    "warn": "Motor PureTech - curea de distributie in baie de ulei. Singurul avantaj: e la 10 km de Sibiu.",
    "d": "2026-09-21",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Mazda CX-5 CD175 4x4 Revolution Top",
@@ -907,7 +927,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ver-cd150-4x4-at-revolution-ID7HQHwA.html",
    "warn": null,
    "d": "2026-09-14",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Suzuki Vitara 1.0 Boosterjet Comfort",
@@ -1019,7 +1041,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-ver-tce-90-essential-ID7HQOMx.html",
    "warn": null,
    "d": "2026-09-25",
-   "gj": true
+   "gj": true,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Nissan Qashqai 1.6 DCI Start/Stop X-TRONIC N-Connecta",
@@ -1075,7 +1099,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ID7HQIz9.html",
    "warn": null,
    "d": "2026-09-29",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Suzuki Vitara 1.6 4X4 Luxus",
@@ -1187,7 +1213,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-6-dci-tekna-ID7HQH4n.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Nissan Qashqai 1.5 DCI ACENTA",
@@ -1215,7 +1243,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ID7HPvVu.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Hyundai Kona 1.0 T-GDI Highway",
@@ -1299,7 +1329,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-5-dci-start-stop-n-connecta-ID7HQIlV.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Nissan Qashqai 1.6L dCi Start/Stop 4X4-i N-Connecta",
@@ -1313,7 +1345,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-6l-dci-start-stop-4x4-i-n-connecta-ID7HQxDb.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Nissan Qashqai",
@@ -1341,7 +1375,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ID7HQJR1.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-04"
   },
   {
    "m": "Nissan Qashqai",

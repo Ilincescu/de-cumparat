@@ -10,9 +10,10 @@
 // Pasii, in ordine:
 //   1. scan.js storia    - case si apartamente din oras, cu fisa tehnica
 //   2. scan.js masini    - Autovit, fara browser
-//   3. publica.js        - scoate mortii, adauga noii in date.json
-//   4. azi.js            - ce a aparut de ieri, trei case si trei masini
-//   5. git commit + push - publica pe GitHub Pages
+//   3. scan.js linkuri   - marcheaza anunturile sterse de pe site
+//   4. publica.js        - scoate mortii, adauga noii in date.json
+//   5. azi.js            - ce a aparut de ieri, trei case si trei masini
+//   6. git commit + push - publica pe GitHub Pages
 //
 // Bicicletele raman pe Playwright: OLX da 403 la cereri directe.
 
@@ -55,6 +56,8 @@ function numara() {
 
   ruleaza('node', ['tools/scan.js', 'storia']);
   ruleaza('node', ['tools/scan.js', 'masini'], true);
+  // Inainte de clasament, nu dupa: altfel ajunge in el un anunt deja sters.
+  ruleaza('node', ['tools/scan.js', 'linkuri', '--scrie'], true);
   ruleaza('node', ['tools/publica.js', '--scrie']);
   ruleaza('node', ['tools/curata.js', '--scrie']);
   ruleaza('node', ['tools/istoric.js'], true);

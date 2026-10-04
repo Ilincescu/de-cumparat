@@ -95,6 +95,8 @@ async function stare(url) {
   } catch (e) { return 0; }
 }
 
+const SCRIE_MORTI = process.argv.includes('--scrie');
+
 async function verificaLinkuri() {
   const surse = [
     ['date.json', 'anunturi'],
@@ -137,6 +139,20 @@ async function verificaLinkuri() {
     raport.push({ fisier, total: lista.length, vii, morti, incerte, secunde });
     console.log(`${fisier}: ${vii} vii, ${morti.length} moarte, ${incerte} incerte (${secunde}s)`);
     morti.forEach(m => console.log(`   410 ${String(m.p).padStart(6)} ${String(m.t).slice(0, 56)}`));
+
+    // Pana acum verificarea doar raporta, si nimeni nu o chema din update.js.
+    // Asa a ajuns in clasamentul de dimineata un Peugeot sters de pe Autovit.
+    // Nu le sterg, le marchez: la fel ca la garda joasa, un anunt sters din
+    // fisier dispare si de la favorite si nu mai stiu ca l-am vazut.
+    if (SCRIE_MORTI && morti.length) {
+      const moarte = new Set(morti.map(m => m.u));
+      (j[camp] || []).forEach(o => {
+        if (moarte.has(o.u)) { o.mort = true; o.mort_din = new Date().toISOString().slice(0, 10); }
+        else if (o.mort) { delete o.mort; delete o.mort_din; }   // a reaparut
+      });
+      fs.writeFileSync(cale, JSON.stringify(j, null, 1));
+      console.log(`   marcate ${morti.length} ca moarte in ${fisier}`);
+    }
   }
   return raport;
 }

@@ -393,6 +393,9 @@
     return items().filter(function(o){
       if(shared) return !!shared.f[o.u];
       if(state.onlyfav && !favs[o.u] && !sharedOf(o.u)) return false;
+      // Anuntul sters de pe site nu se mai arata nicaieri. Ramane in fisier,
+      // ca sa nu dispara de la favorite, dar nu intra in nicio lista.
+      if(o.mort) return false;
       if(state.hideseen && seen[o.u]) return false;
       if(o.p>state.maxp) return false;
       // "_oras" = orice cartier din Sibiu; af = anunt din afara orasului

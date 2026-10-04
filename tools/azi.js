@@ -119,6 +119,7 @@ function punctajCasa(x) {
 const LEASING = /predare leasing|preluare leasing|preiei?\s+\d+\s+rate|rate\s+r[aă]mase|transfer leasing/i;
 
 function filtreazaMasina(m) {
+  if (m.mort) return `anunt sters de pe site (${m.mort_din})`;
   if (m.gj) return 'garda joasa';
   if (LEASING.test((m.m || '') + ' ' + (m.warn || ''))) return 'preluare leasing, pretul e doar avansul';
   if (MASINI_RESPINSE.test(m.m || '')) return 'respinsa sau mai mica decat C3';
@@ -234,25 +235,68 @@ function alege(lista, index) {
   return { trec: grupuri, picate };
 }
 
+// Ultima plasa, inainte de orice afisare. Marcarea link-urilor moarte se face
+// la scanare, dar un anunt poate fi sters intre timp - un Peugeot deja sters a
+// ajuns asa in clasament. Merg pe lista in jos si opresc cand am trei vii,
+// deci un anunt mort nu lasa loc gol, ci il ia urmatorul.
+async function primeleVii(lista, n, urlDin) {
+  const ok = [];
+  for (const x of lista) {
+    if (ok.length === n) break;
+    const u = urlDin(x);
+    let s = 0;
+    try { s = (await fetch(u, { method: 'HEAD', headers: UA_SIMPLU })).status; } catch (e) { s = 0; }
+    if (s === 410 || s === 404) { console.log(`  sarit, anunt sters de pe site: ${u}`); continue; }
+    ok.push(x);
+  }
+  return ok;
+}
+const UA_SIMPLU = { 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' };
+
+(async () => {
+
 const toateCasele = azi.filter(x => x.tip === 'casa');
 const index = indexeazaGrupuri(toateCasele);
 const caseNoi = toateCasele.filter(esteNou);
 let { trec, picate } = alege(caseNoi, index);
-let topCase = trec.slice(0, 3), dinRezerva = false;
+let dinRezerva = false;
 
 // Multe dimineti nu aduc nimic. In loc de o pagina goala, arat cele mai bune
 // din ultima saptamana - dar spun pe fata ca nu sunt de azi.
 const SAPT = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
+let topCase = await primeleVii(trec, 3, g => g.x.url);
 if (!topCase.length) {
   const r = alege(toateCasele.filter(x => x.creat > SAPT && !caseNoi.includes(x)), index);
-  topCase = r.trec.slice(0, 3);
+  topCase = await primeleVii(r.trec, 3, g => g.x.url);
   dinRezerva = topCase.length > 0;
+}
+
+let topMasini = [], masiniDinRezerva = false, masiniNoi = 0, masiniOk = 0, pragMasini = null;
+const mCale = path.join(RADACINA, 'masini.json');
+if (fs.existsSync(mCale)) {
+  const masini = JSON.parse(fs.readFileSync(mCale, 'utf8')).masini || [];
+  pragMasini = zile
+    ? new Date(Date.now() - zile * 86400000).toISOString().slice(0, 10)
+    : referinta.data;
+  const noi = masini.filter(m => m.d && m.d > pragMasini);
+  const alese = l => l.filter(m => !filtreazaMasina(m))
+    .map(m => ({ m, p: punctajMasina(m) })).sort((a, b) => b.p - a.p);
+  const ok = alese(noi);
+  masiniNoi = noi.length; masiniOk = ok.length;
+  topMasini = await primeleVii(ok, 3, g => g.m.u);
+  // Criteriile de masina sunt stranse si multe zile nu aduc nimic. Ca la case,
+  // arat atunci cele mai bune de pe toata lista, spunand ca nu sunt noi.
+  if (!topMasini.length) {
+    topMasini = await primeleVii(alese(masini.filter(m => !noi.includes(m))), 3, g => g.m.u);
+    masiniDinRezerva = topMasini.length > 0;
+  }
 }
 
 console.log(`\nCE A MAI APĂRUT   ${referinta.data} → ${acum.data}`);
 console.log('='.repeat(62));
 surse().forEach(s => console.log(`  ${s.nume.padEnd(8)} ${s.cand || '—'}  ${s.stare}`
   + (s.gasite != null ? `  ${s.gasite} găsite, ${s.potrivite} potrivite` : '')));
+
 console.log(`\nCASE — ${caseNoi.length} postate în interval, ${trec.length} trec de criterii\n`);
 if (!topCase.length) console.log('  nimic nou care să bifeze criteriile.\n');
 else if (dinRezerva) console.log(`  Nimic postat în interval. Cele mai bune 3 de după ${SAPT}:\n`);
@@ -272,25 +316,8 @@ topCase.forEach(({ x, alte }, i) => {
   console.log();
 });
 
-let topMasini = [], masiniDinRezerva = false;
-const mCale = path.join(RADACINA, 'masini.json');
-if (fs.existsSync(mCale)) {
-  const masini = JSON.parse(fs.readFileSync(mCale, 'utf8')).masini || [];
-  const prag = zile
-    ? new Date(Date.now() - zile * 86400000).toISOString().slice(0, 10)
-    : referinta.data;
-  const noi = masini.filter(m => m.d && m.d > prag);
-  const alese = l => l.filter(m => !filtreazaMasina(m))
-    .map(m => ({ m, p: punctajMasina(m) })).sort((a, b) => b.p - a.p);
-  const ok = alese(noi);
-  topMasini = ok.slice(0, 3);
-  // Criteriile de masina sunt stranse si multe zile nu aduc nimic. Ca la case,
-  // arat atunci cele mai bune de pe toata lista, spunand ca nu sunt noi.
-  if (!topMasini.length) {
-    topMasini = alese(masini.filter(m => !noi.includes(m))).slice(0, 3);
-    masiniDinRezerva = topMasini.length > 0;
-  }
-  console.log(`MAȘINI — ${noi.length} apărute după ${prag}, ${ok.length} trec de criterii\n`);
+if (pragMasini) {
+  console.log(`MAȘINI — ${masiniNoi} apărute după ${pragMasini}, ${masiniOk} trec de criterii\n`);
   if (!topMasini.length) console.log('  nimic nou care să bifeze criteriile.\n');
   else if (masiniDinRezerva) console.log('  Nimic nou. Cele mai bune de pe toată lista:\n');
   topMasini.forEach(({ m }, i) => {
@@ -310,7 +337,8 @@ if (tot && picate.length) {
 
 if (scrie) {
   fs.writeFileSync(path.join(RADACINA, 'azi.json'), JSON.stringify({
-    generat: new Date().toISOString().slice(0, 16).replace('T', ' '),
+    generat: new Date(Date.now() - new Date().getTimezoneOffset() * 60000)
+      .toISOString().slice(0, 16).replace('T', ' '),
     de_la: referinta.data, pana_la: acum.data,
     case_noi: caseNoi.length, case_trec: trec.length, din_rezerva: dinRezerva,
     masini_din_rezerva: masiniDinRezerva,
@@ -331,3 +359,5 @@ if (scrie) {
   }, null, 1));
   console.log('scris în azi.json');
 }
+
+})().catch(e => { console.error('EROARE:', e.message); process.exit(1); });

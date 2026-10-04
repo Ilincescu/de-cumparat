@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-04 12:12",
+ "generat": "2026-10-04 15:25",
  "de_la": "2026-10-03",
  "pana_la": "2026-10-04",
  "case_noi": 0,
@@ -58,16 +58,6 @@
    "scor": 15
   },
   {
-   "pret": 10290,
-   "model": "Peugeot 2008 PureTech 130 Active Pack",
-   "an": 2021,
-   "km": 89000,
-   "zona": "Cristian (Sibiu)",
-   "warn": "Motor PureTech - curea de distributie in baie de ulei. Singurul avantaj: e la 10 km de Sibiu.",
-   "url": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-130-active-pack-ID7HQMWc.html",
-   "scor": 12
-  },
-  {
    "pret": 10990,
    "model": "Peugeot 2008 1.2 PureTech Allure",
    "an": 2022,
@@ -76,6 +66,16 @@
    "warn": "Acelasi motor PureTech cu curea in ulei",
    "url": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-l-puretech-stt-allure-ID7HQNag.html",
    "scor": 11
+  },
+  {
+   "pret": 9950,
+   "model": "Ford EcoSport 1.0 EcoBoost Titanium",
+   "an": 2020,
+   "km": 86001,
+   "zona": "Bucuresti",
+   "warn": "1.0 EcoBoost are tot curea in ulei; garda la sol mai mica decat pare",
+   "url": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQKvQ.html",
+   "scor": 7
   }
  ]
 }
