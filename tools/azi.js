@@ -33,7 +33,11 @@ const AFARA = /r[aă][sș]inari|al[tț][aâ]na|tili[sș]ca|p[aă]ltini[sș]|[sș
 const COMUNA = /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă]\s+parte|p[aă]r[tț]i\s+comune|[iî]n\s+indiviziune/i;
 const CORPURI = /2 corpuri|dou[aă] corpuri|duplex|triplex|cvadruplex|garsonier|[iî]n[sș]iruit/i;
 const SERVITUTE = /servitute|drept de trecere|acces prin curtea/i;
-const BETON = /curte pavat|curte betonat|complet pavat|integral pavat|pavat[aă] integral/i;
+// Curtea pavata e criteriu de respingere, nu de punctaj - a refuzat casa din
+// Petru Maior exact pentru asta. Prima varianta cerea cuvintele lipite,
+// "curte pavata", si scapa formularea agentiei: "curte individuala, amenajata
+// cu pavaj". Casa din Lupeni a ajuns asa pe locul 2, cu curtea betonata toata.
+const BETON = /(curte|gr[aă]din[aă]|teren)[^.!?]{0,60}(pavaj|pavat|betonat|dale de beton)|(pavaj|pavat|betonat)[^.!?]{0,40}(curte|gr[aă]din[aă])/i;
 const VERDE = /gr[aă]din[aă]|curte verde|spa[tț]iu verde|pomi fructiferi|iarb[aă]|livad[aă] [iî]n curte/i;
 
 // Curea de distributie in baie de ulei - se schimba la 100.000 km si costa cat
@@ -51,7 +55,10 @@ const snapshots = () => fs.readdirSync(DOSAR)
 // mp utili supraestimeaza amprenta, deci cifra e prudenta.
 function curteLibera(x) {
   const t = (x.titlu || '') + ' ' + (x.descriere || '');
-  const m = t.match(/(?:teren|curte|gr[aă]din[aă])\s+liber[aă]?\s*(?:de|:)?\s*(\d{2,4})\s*(?:mp|m2|m²)/i);
+  // Cand anuntul spune cat e gradina, aia e cifra - nu scaderea mea. Casa din
+  // Tiglari scria "gradina proprie de aproximativ 40 mp" si eu calculam 258,
+  // pentru ca prima varianta cerea cuvantul "libera" lipit de "gradina".
+  const m = t.match(/(?:teren|curte|gr[aă]din[aă])\s*(?:proprie|individual[aă]|liber[aă])?\s*(?:de|:|,)?\s*(?:aproximativ|aprox\.?|cca\.?|~)?\s*(\d{2,4})\s*(?:mp|m2|m²)/i);
   if (m) return { mp: Number(m[1]), sigur: true };
   if (x.teren && x.mpu) return { mp: Math.max(0, x.teren - Math.round(x.mpu * 0.7)), sigur: false };
   return { mp: null, sigur: false };
@@ -67,6 +74,7 @@ function filtreazaCasa(x) {
   if (SERVITUTE.test(t)) return 'acces prin curtea altuia';
   if (!x.pret || x.pret > 250000) return 'peste buget';
   if (!x.mpu || x.mpu < 50) return 'sub 50 mp utili';
+  if (BETON.test(t)) return 'curte pavata, nu verde';
   const c = curteLibera(x);
   if (c.mp != null && c.mp < 100) return `curte ~${c.mp} mp, sub 100`;
   if (c.mp == null) return 'nu scrie terenul';
@@ -84,16 +92,20 @@ function punctajCasa(x) {
   else p += 4;                                   // peste 130 mp = incalzit si zugravit degeaba
   if (x.stare === 'ready_to_use') p += 12;
   p += Math.round((250000 - x.pret) / 250000 * 25);
-  const t = (x.titlu || '') + ' ' + (x.descriere || '');
-  if (BETON.test(t)) p -= 15;
-  if (VERDE.test(t)) p += 10;
+  if (VERDE.test((x.titlu || '') + ' ' + (x.descriere || ''))) p += 10;
   return p;
 }
 
 // ---------- masini ----------
 
+// La preluarea de leasing pretul afisat e doar avansul: un Audi Q5 din 2024
+// aparea la 10.000 EUR, cu inca 39 de rate pe deasupra. Nu intra in bugetul
+// de 11.500 EUR si nu e comparabil cu restul listei.
+const LEASING = /predare leasing|preluare leasing|preiei?\s+\d+\s+rate|rate\s+r[aă]mase|transfer leasing/i;
+
 function filtreazaMasina(m) {
   if (m.gj) return 'garda joasa';
+  if (LEASING.test((m.m || '') + ' ' + (m.warn || ''))) return 'preluare leasing, pretul e doar avansul';
   if (MASINI_RESPINSE.test(m.m || '')) return 'respinsa sau mai mica decat C3';
   if (!m.an || m.an < 2020) return 'mai veche de 2020';
   if (!m.km || m.km >= 100000) return 'peste 100.000 km';
@@ -148,11 +160,11 @@ const esteNou = x => x.creat && x.creat > referinta.data;
 // Grupez pe toata piata, nu doar pe anunturile din fereastra: daca azi apare
 // al patrulea anunt al unei case, vreau sa vad toate cele patru preturi, nu
 // doar pe cele postate in aceeasi saptamana.
+// Grupez pe TOATE casele, inclusiv pe cele care pica filtrele. Altfel anuntul
+// care spune defectul e scos inainte de grupare si grupul nu mai afla de el.
 function indexeazaGrupuri(toate) {
   const dupaUrl = new Map();
-  grupeaza(toate.filter(x => !filtreazaCasa(x))).forEach(g => {
-    g.anunturi.forEach(a => dupaUrl.set(a.url, g));
-  });
+  grupeaza(toate).forEach(g => g.anunturi.forEach(a => dupaUrl.set(a.url, g)));
   return dupaUrl;
 }
 
@@ -166,6 +178,11 @@ function alege(lista, index) {
     const g = index.get(x.url);
     if (!g || vazut.has(g.sef.url)) return;
     vazut.add(g.sef.url);
+    // Curtea e a casei, nu a anuntului. BLITZ nu pomeneste pavajul, GRN scrie
+    // "curte individuala, amenajata cu pavaj" - aceeasi casa din Lupeni. Daca
+    // un singur anunt al proprietatii cade pe un filtru tare, cade toata.
+    const caderi = g.anunturi.map(filtreazaCasa).filter(Boolean);
+    if (caderi.length) { picate.push({ x: g.sef, motiv: caderi[0] + ' (din alt anunț al aceleiași case)' }); return; }
     grupuri.push({
       x: g.sef,
       p: punctajCasa(g.sef),
@@ -214,7 +231,7 @@ topCase.forEach(({ x, alte }, i) => {
   console.log();
 });
 
-let topMasini = [];
+let topMasini = [], masiniDinRezerva = false;
 const mCale = path.join(RADACINA, 'masini.json');
 if (fs.existsSync(mCale)) {
   const masini = JSON.parse(fs.readFileSync(mCale, 'utf8')).masini || [];
@@ -222,11 +239,19 @@ if (fs.existsSync(mCale)) {
     ? new Date(Date.now() - zile * 86400000).toISOString().slice(0, 10)
     : referinta.data;
   const noi = masini.filter(m => m.d && m.d > prag);
-  const ok = noi.filter(m => !filtreazaMasina(m)).map(m => ({ m, p: punctajMasina(m) }));
-  ok.sort((a, b) => b.p - a.p);
+  const alese = l => l.filter(m => !filtreazaMasina(m))
+    .map(m => ({ m, p: punctajMasina(m) })).sort((a, b) => b.p - a.p);
+  const ok = alese(noi);
   topMasini = ok.slice(0, 3);
+  // Criteriile de masina sunt stranse si multe zile nu aduc nimic. Ca la case,
+  // arat atunci cele mai bune de pe toata lista, spunand ca nu sunt noi.
+  if (!topMasini.length) {
+    topMasini = alese(masini.filter(m => !noi.includes(m))).slice(0, 3);
+    masiniDinRezerva = topMasini.length > 0;
+  }
   console.log(`MAȘINI — ${noi.length} apărute după ${prag}, ${ok.length} trec de criterii\n`);
   if (!topMasini.length) console.log('  nimic nou care să bifeze criteriile.\n');
+  else if (masiniDinRezerva) console.log('  Nimic nou. Cele mai bune de pe toată lista:\n');
   topMasini.forEach(({ m }, i) => {
     console.log(`${i + 1}. ${m.p.toLocaleString('ro-RO')} € · ${m.m} · ${m.an} · ${m.km.toLocaleString('ro-RO')} km · ${m.z}`);
     if (CUREA_IN_ULEI.test(m.m + ' ' + (m.warn || ''))) console.log('   ! curea de distribuție în ulei');
@@ -247,6 +272,7 @@ if (scrie) {
     generat: new Date().toISOString().slice(0, 16).replace('T', ' '),
     de_la: referinta.data, pana_la: acum.data,
     case_noi: caseNoi.length, case_trec: trec.length, din_rezerva: dinRezerva,
+    masini_din_rezerva: masiniDinRezerva,
     case: topCase.map(({ x, p, alte }) => {
       const c = curteLibera(x);
       return {

@@ -553,7 +553,7 @@
     else { s.min=50000; s.max=IMO.buget_total; s.step=5000; state.maxp=IMO.buget_total; }
     s.value=state.maxp;
     el("maxpVal").textContent=money(state.maxp);
-    notes(); zones(); setPortals(); render(); sums();
+    notes(); zones(); setPortals(); render(); sums(); dimineata();
   }
 
   // Observatiile stau in masini.json, ca sa le poti edita de pe telefon ca pe orice alt camp
@@ -728,19 +728,34 @@
   }
 
   // Ce a aparut de ieri. Il scrie tools/azi.js, aici doar se afiseaza.
-  function dimineata(a){
-    if(!a) return;
-    var box=el("azi"), h=[];
-    h.push('<h2>În dimineața asta</h2>');
-    h.push('<p class="cand">'+esc(a.de_la)+' → '+esc(a.pana_la)+'</p>');
-    if(a.din_rezerva)
-      h.push('<p class="nota">Nimic postat de ieri. Mai jos sunt cele mai bune din ultima săptămână.</p>');
-    if(!a.case.length && !a.masini.length){
+  // Cartonasul urmeaza tabul: pe Casa arata casele, pe Masina masinile. Pe
+  // apartament si bicicleta nu am inca un clasament de dimineata, deci dispare.
+  var AZI=null;
+
+  function dimineata(){
+    var box=el("azi");
+    if(!AZI||(state.k!=="casa"&&state.k!=="masina")){ box.hidden=true; return; }
+    var masini=state.k==="masina", lista=masini?AZI.masini:AZI.case;
+    var rezerva=masini?AZI.masini_din_rezerva:AZI.din_rezerva;
+    var h=['<h2>În dimineața asta</h2>',
+           '<p class="cand">'+esc(AZI.de_la)+' → '+esc(AZI.pana_la)+'</p>'];
+    if(!lista.length){
       h.push('<p class="gol">Nimic nou care să bifeze criteriile.</p>');
-    }
-    if(a.case.length){
-      h.push('<h3>Case'+(a.din_rezerva?'':' — '+a.case_noi+' postate, '+a.case_trec+' trec de criterii')+'</h3><ol>');
-      a.case.forEach(function(c){
+    }else{
+      if(rezerva) h.push('<p class="nota">'+(masini
+        ? 'Nimic nou. Mai jos sunt cele mai bune de pe toată lista.'
+        : 'Nimic postat de ieri. Mai jos sunt cele mai bune din ultima săptămână.')+'</p>');
+      if(!masini&&!rezerva)
+        h.push('<h3>'+AZI.case_noi+' postate, '+AZI.case_trec+' trec de criterii</h3>');
+      h.push('<ol>');
+      lista.forEach(function(c){
+        if(masini){
+          h.push('<li><a href="'+esc(c.url)+'" target="_blank" rel="noopener">'+nr(c.pret)+' € · '
+            +esc(c.model)+'</a><span class="det">'+c.an+' · '+nr(c.km)+' km · '+esc(c.zona)+'</span>');
+          if(c.warn) h.push('<span class="alte">'+esc(c.warn)+'</span>');
+          h.push('</li>');
+          return;
+        }
         h.push('<li><a href="'+esc(c.url)+'" target="_blank" rel="noopener">'+nr(c.pret)+' € · '
           +esc(c.zona)+'</a><span class="det">'+c.mpu+' mp utili · curte '
           +(c.curte_sigura?"":"~")+c.curte+' mp · postat '+esc(c.creat)
@@ -749,21 +764,12 @@
           var max=c.alte[c.alte.length-1].pret;
           h.push('<span class="alte">Aceeași casă la încă '+c.alte.length
             +(c.alte.length===1?' agent':' agenți')+', până la '+nr(max)+' €'
-            +(max>c.pret?' — cere '+nr(max-c.pret)+' € mai mult':'')+'. ');
-          h.push(c.alte.map(function(a,i){
-            return '<a href="'+esc(a.url)+'" target="_blank" rel="noopener">'+nr(a.pret)+' €</a>';
-          }).join(" · ")+'</span>');
+            +(max>c.pret?' — cere '+nr(max-c.pret)+' € mai mult':'')+'. '
+            +c.alte.map(function(a){
+              return '<a href="'+esc(a.url)+'" target="_blank" rel="noopener">'+nr(a.pret)+' €</a>';
+            }).join(" · ")+'</span>');
         }
         h.push('</li>');
-      });
-      h.push('</ol>');
-    }
-    if(a.masini.length){
-      h.push('<h3>Mașini</h3><ol>');
-      a.masini.forEach(function(m){
-        h.push('<li><a href="'+esc(m.url)+'" target="_blank" rel="noopener">'+nr(m.pret)+' € · '
-          +esc(m.model)+'</a><span class="det">'+m.an+' · '+nr(m.km)+' km · '+esc(m.zona)
-          +(m.warn?' · '+esc(m.warn):'')+'</span></li>');
       });
       h.push('</ol>');
     }
@@ -772,7 +778,7 @@
   }
 
   fetch("azi.json?v="+Date.now()).then(function(r){return r.json();})
-    .then(dimineata)["catch"](function(){});
+    .then(function(a){ AZI=a; dimineata(); })["catch"](function(){});
 
   Promise.all([
     fetch("date.json?v="+Date.now()).then(function(r){return r.json();}),

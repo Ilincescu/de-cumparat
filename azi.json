@@ -1,16 +1,17 @@
 {
- "generat": "2026-10-04 11:44",
+ "generat": "2026-10-04 11:52",
  "de_la": "2026-09-27",
  "pana_la": "2026-10-04",
  "case_noi": 15,
- "case_trec": 3,
+ "case_trec": 2,
  "din_rezerva": false,
+ "masini_din_rezerva": true,
  "case": [
   {
    "pret": 125000,
    "mpu": 65,
-   "curte": 215,
-   "curte_sigura": false,
+   "curte": 260,
+   "curte_sigura": true,
    "teren": 261,
    "zona": "Tiglari, Sibiu",
    "an": "1965",
@@ -23,52 +24,52 @@
    "scor": 67
   },
   {
-   "pret": 204990,
-   "mpu": 130,
-   "curte": 146,
-   "curte_sigura": false,
-   "teren": 237,
+   "pret": 135999,
+   "mpu": 116,
+   "curte": 133,
+   "curte_sigura": true,
+   "teren": 150,
    "zona": "Lupeni, Sibiu",
-   "an": "1980",
+   "an": "1972",
    "stare": "ready_to_use",
-   "creat": "2026-09-29",
-   "repostat": false,
-   "alte": [
-    {
-     "pret": 204990,
-     "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-cu-teren-237-mp-garaj-in-zona-lupeni-sibiu-IDIxDs",
-     "creat": "2026-09-15"
-    },
-    {
-     "pret": 205000,
-     "url": "https://www.storia.ro/ro/oferta/casa-individuala-cu-demisol-parter-130-mp-utili-curte-237-mp-IDIwOL",
-     "creat": "2026-09-11"
-    },
-    {
-     "pret": 205000,
-     "url": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-si-curte-zona-lupeni-IDIJVL",
-     "creat": "2026-10-02"
-    }
-   ],
-   "titlu": "Casa individuala cu 4 camere  ,curte si garaj  Sibiu zona Lupeni",
-   "url": "https://www.storia.ro/ro/oferta/casa-individuala-cu-4-camere-curte-si-garaj-sibiu-zona-lupeni-IDIHAn",
-   "scor": 43
-  },
-  {
-   "pret": 189900,
-   "mpu": 159,
-   "curte": 258,
-   "curte_sigura": false,
-   "teren": 369,
-   "zona": "Tiglari, Sibiu",
-   "an": "1980",
-   "creat": "2026-09-29",
+   "creat": "2026-09-30",
    "repostat": false,
    "alte": [],
-   "titlu": "Casă de vânzare Sibiu | 3 camere | Tiglari | 159 mp | anexă",
-   "url": "https://www.storia.ro/ro/oferta/cas-de-vnzare-sibiu-3-camere-tiglari-159-mp-anex-IDIHFT",
-   "scor": 35
+   "titlu": "Casa individuala 116 mp utili in zona Moara de scoarta",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-116-mp-utili-in-zona-moara-de-scoarta-IDIIkJ",
+   "scor": 49
   }
  ],
- "masini": []
+ "masini": [
+  {
+   "pret": 11000,
+   "model": "Hyundai Kona 1.0 T-GDI Highway",
+   "an": 2020,
+   "km": 78900,
+   "zona": "Oradea",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-120-cp-6mt-2wd-highway-ID7HQE2c.html",
+   "scor": 15
+  },
+  {
+   "pret": 10290,
+   "model": "Peugeot 2008 PureTech 130 Active Pack",
+   "an": 2021,
+   "km": 89000,
+   "zona": "Cristian (Sibiu)",
+   "warn": "Motor PureTech - curea de distributie in baie de ulei. Singurul avantaj: e la 10 km de Sibiu.",
+   "url": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-130-active-pack-ID7HQMWc.html",
+   "scor": 12
+  },
+  {
+   "pret": 10990,
+   "model": "Peugeot 2008 1.2 PureTech Allure",
+   "an": 2022,
+   "km": 64338,
+   "zona": "Bucuresti",
+   "warn": "Acelasi motor PureTech cu curea in ulei",
+   "url": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-l-puretech-stt-allure-ID7HQNag.html",
+   "scor": 11
+  }
+ ]
 }
