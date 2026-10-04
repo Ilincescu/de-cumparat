@@ -50,6 +50,24 @@ async function cauta(pagina, aDoua) {
 const inOras = x => ((((x.location || {}).reverseGeocoding || {}).locations) || [])
   .some(l => l.locationLevel === 'county_capital' && /^sibiu$/i.test(l.name));
 
+// Eticheta de cartier nu spune cat de departe esti. Calea Rasinari e trecuta
+// "Valea Aurie" si e la 6,9 km de centru; Zorabia suna periferic si e la 2,5.
+// Distanta in linie dreapta pana in Piata Mare taie discutia.
+// Coordonatele nu vin in rezultatele cautarii, doar pe pagina anuntului. Le cer
+// doar pentru cele cateva cu dovezi, nu pentru toate.
+const CENTRU = [45.7971, 24.1519];
+async function km(url) {
+  try {
+    const h = await (await fetch(url, { headers: UA })).text();
+    const m = h.match(/"latitude":([0-9.]+),"longitude":([0-9.]+)/);
+    if (!m) return null;
+    const R = 6371, r = g => g * Math.PI / 180;
+    const dLat = r(Number(m[1]) - CENTRU[0]), dLon = r(Number(m[2]) - CENTRU[1]);
+    const d = Math.sin(dLat / 2) ** 2 + Math.cos(r(CENTRU[0])) * Math.cos(r(Number(m[1]))) * Math.sin(dLon / 2) ** 2;
+    return Number((2 * R * Math.asin(Math.sqrt(d))).toFixed(1));
+  } catch (e) { return null; }
+}
+
 function cartier(x) {
   const locs = (((x.location || {}).reverseGeocoding || {}).locations) || [];
   const u = locs[locs.length - 1] || {};
@@ -150,8 +168,10 @@ const DOVEZI = [
   console.log('='.repeat(70));
   console.log('Nimic de aici nu inlocuieste certificatul de urbanism, 11 lei.');
   console.log('Astea sunt doar anunturile care spun ceva verificabil.\n');
-  cuDovezi.slice(0, 15).forEach(x => {
-    console.log(`${String(Math.round(x.pret / x.mp)).padStart(4)} EUR/mp | ${String(x.pret).padStart(7)} EUR | ${String(x.mp).padStart(5)} mp | ${x.cartier}`);
+  const lot = cuDovezi.slice(0, 15);
+  for (const x of lot) { x.km = await km(x.url); await new Promise(z => setTimeout(z, 300)); }
+  lot.forEach(x => {
+    console.log(`${String(Math.round(x.pret / x.mp)).padStart(4)} EUR/mp | ${String(x.pret).padStart(7)} EUR | ${String(x.mp).padStart(5)} mp | ${String(x.km == null ? '?' : x.km).padStart(4)} km de centru | ${x.cartier}`);
     console.log(`   ${String(x.titlu).slice(0, 62)}`);
     console.log(`   dovezi: ${x.dovezi.join(', ')}`);
     console.log(`   ${x.url}\n`);
