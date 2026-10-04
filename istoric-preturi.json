@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-03",
+ "actualizat": "2026-10-04",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -10955,6 +10955,56 @@
     {
      "d": "2026-10-03",
      "p": 110000
+    }
+   ]
+  },
+  "IDIKCN": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-parcare-balcon-lift-IDIKCN",
+   "t": "Apartament 2 camere, parcare , balcon, lift",
+   "preturi": [
+    {
+     "d": "2026-10-04",
+     "p": 84900
+    }
+   ]
+  },
+  "IDIKL6": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-si-pivnita-in-centrul-istoric-sibiu-IDIKL6",
+   "t": "Apartament cu 2 camere si pivnita in Centrul Istoric Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-04",
+     "p": 74900
+    }
+   ]
+  },
+  "IDIKKv": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-renovata-i-etaj-1-5-i-omv-milea-vasile-aaron-IDIKKv",
+   "t": "Garsoniera Renovata I Etaj 1/5 I OMV Milea- Vasile Aaron",
+   "preturi": [
+    {
+     "d": "2026-10-04",
+     "p": 48900
+    }
+   ]
+  },
+  "IDIKIn": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-trand-renovat-IDIKIn",
+   "t": "Apartament 2 camere de vânzare | Sibiu, Ștrand | renovat",
+   "preturi": [
+    {
+     "d": "2026-10-04",
+     "p": 102990
+    }
+   ]
+  },
+  "IDIKDw": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-in-sibiu-mobilata-si-utilata-balcon-si-boxa-IDIKDw",
+   "t": "Garsoniera de vanzare in Sibiu – mobilata si utilata, balcon si boxa –",
+   "preturi": [
+    {
+     "d": "2026-10-04",
+     "p": 76000
     }
    ]
   }

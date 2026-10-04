@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-03",
+ "actualizat": "2026-10-04",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -2416,20 +2416,6 @@
   },
   {
    "k": "ap",
-   "p": 74900,
-   "t": "Apartament 2 camere cu pivnita, Centrul Istoric, 37 mp",
-   "z": "Centrul Istoric",
-   "r": 2,
-   "a": 37,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-si-pivnita-in-centrul-istoric-sibiu-IDIqGX",
-   "warn": "Acelasi apartament apare si ca IDIlXj pe Storia si ca 275927428 pe imobiliare.ro, toate la 74.900.",
-   "d": "2026-09-20"
-  },
-  {
-   "k": "ap",
    "p": 74998,
    "t": "Studio ultracentral, 37 mp, modern",
    "z": "Centrul Istoric",
@@ -3526,19 +3512,6 @@
   },
   {
    "k": "ap",
-   "p": 92500,
-   "t": "Apartament 2 camere cu balcon, 46 mp",
-   "z": "Mihai Viteazu",
-   "r": 2,
-   "a": 46,
-   "g": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-mihai-viteazu-sibiu-balcon-IDGQKB",
-   "d": "2026-09-18"
-  },
-  {
-   "k": "ap",
    "p": 94900,
    "t": "Apartament la casa, 2 camere, 48 mp, etajul 1",
    "z": "Centrul Istoric",
@@ -4233,21 +4206,6 @@
    "c": null,
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-modern-cu-2-camere-curte-privata-si-2-locuri-de-parcare-IDIF8r",
-   "warn": null,
-   "d": "2026-09-25"
-  },
-  {
-   "k": "ap",
-   "p": 92000,
-   "t": "APARTAMENT 2 CAMERE DE VÂNZARE | SIBIU RAHOVEI | 50 MP | PARTER",
-   "z": "Hipodrom I, Sibiu",
-   "r": 2,
-   "a": 50,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-rahovei-50-mp-parter-IDIqvZ",
    "warn": null,
    "d": "2026-09-25"
   },
@@ -6245,6 +6203,36 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-cu-2-camere-balcon-pivnita-vasile-aaron-IDIJZZ",
    "warn": null,
    "d": "2026-10-03"
+  },
+  {
+   "k": "ap",
+   "p": 84900,
+   "t": "Apartament 2 camere, parcare , balcon, lift",
+   "z": "Sibiu",
+   "r": 2,
+   "a": 40,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-parcare-balcon-lift-IDIKCN",
+   "warn": null,
+   "d": "2026-10-04"
+  },
+  {
+   "k": "ap",
+   "p": 102990,
+   "t": "Apartament 2 camere de vânzare | Sibiu, Ștrand | renovat",
+   "z": "Strand I, Sibiu",
+   "r": 2,
+   "a": 48,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-trand-renovat-IDIKIn",
+   "warn": null,
+   "d": "2026-10-04"
   }
  ]
 }
