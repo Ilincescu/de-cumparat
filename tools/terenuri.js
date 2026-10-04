@@ -66,6 +66,20 @@ const IN_AFARA = /r[aă][sș]inari|al[tț][aâ]na|tili[sș]ca|p[aă]ltini[sș]|[
 
 const med = v => { const a = [...v].sort((x, y) => x - y); const m = Math.floor(a.length / 2); return a.length ? (a.length % 2 ? a[m] : Math.round((a[m - 1] + a[m]) / 2)) : null; };
 
+// Dovezi ca se poate construi, in ordinea puterii. Un teren intravilan NU e
+// automat construibil - poate fi zonat industrial, spatiu verde sau circulatii.
+// Singurul act care raspunde sigur e certificatul de urbanism, dar anunturile
+// care pomenesc PUZ aprobat sau autorizatie sunt cele mai aproape de o dovada.
+const DOVEZI = [
+  { nume: 'autorizație de construire', re: /autoriza[tț]ie de construire|AC emis|cu autoriza[tț]ie/i, forta: 5 },
+  { nume: 'PUZ aprobat', re: /PUZ\s*(aprobat|finalizat|adoptat)|cu PUZ\b/i, forta: 4 },
+  { nume: 'proiect autorizat', re: /proiect autorizat|proiect aprobat/i, forta: 4 },
+  { nume: 'certificat de urbanism', re: /certificat de urbanism|CU emis/i, forta: 3 },
+  { nume: 'utilități la teren', re: /utilit[aă][tț]i(le)?\s*(la|pe|în|in|sunt|trase|existente|disponibile)|toate utilit[aă][tț]ile|branșament/i, forta: 2 },
+  { nume: 'POT/CUT date', re: /\bPOT\b|\bCUT\b/i, forta: 2 },
+  { nume: 'vecini construiți', re: /zon[aă] de case|cartier de case|case noi|vecin[aă]tate construit/i, forta: 1 },
+];
+
 (async () => {
   const min = Number(process.argv[2]) || 0;
   const max = Number(process.argv[3]) || 1e9;
@@ -114,13 +128,34 @@ const med = v => { const a = [...v].sort((x, y) => x - y); const m = Math.floor(
     + String(r.ppm).padStart(7) + '  ' + String(r.pret).padStart(12) + '  ' + String(r.mp).padStart(9)));
 
   const toate = Object.values(peCartier).flat();
-  if (toate.length) {
-    console.log(`\nmediana pe tot orasul: ${Math.round(med(toate.map(x => x.ppm)))} EUR/mp`);
-    console.log(`\n--- cele mai ieftine 12, dupa EUR/mp ---\n`);
-    toate.sort((a, b) => a.ppm - b.ppm).slice(0, 12).forEach(x => {
-      console.log(`${String(Math.round(x.ppm)).padStart(4)} EUR/mp | ${String(x.pret).padStart(7)} EUR | ${String(x.mp).padStart(5)} mp`);
-      console.log(`   ${String(x.titlu).slice(0, 62)}`);
-      console.log(`   ${x.url}\n`);
-    });
-  }
+  if (toate.length) console.log(`\nmediana pe tot orasul: ${Math.round(med(toate.map(x => x.ppm)))} EUR/mp`);
+
+  // Cu ce dovada vine fiecare ca se poate construi pe el
+  const cuDovezi = bune.map(x => {
+    const t = (x.title || '') + ' ' + (x.description || '');
+    const d = DOVEZI.filter(z => z.re.test(t));
+    return {
+      pret: x.totalPrice ? x.totalPrice.value : null,
+      mp: x.areaInSquareMeters,
+      titlu: x.title,
+      url: 'https://www.storia.ro/ro/oferta/' + x.slug,
+      cartier: cartier(x),
+      dovezi: d.map(z => z.nume),
+      scor: d.reduce((s, z) => s + z.forta, 0),
+    };
+  }).filter(x => x.pret && x.scor > 0).sort((a, b) => b.scor - a.scor || a.pret / a.mp - b.pret / b.mp);
+
+  console.log(`\n${'='.repeat(70)}`);
+  console.log('CU CE DOVADA VINE CA SE POATE CONSTRUI');
+  console.log('='.repeat(70));
+  console.log('Nimic de aici nu inlocuieste certificatul de urbanism, 11 lei.');
+  console.log('Astea sunt doar anunturile care spun ceva verificabil.\n');
+  cuDovezi.slice(0, 15).forEach(x => {
+    console.log(`${String(Math.round(x.pret / x.mp)).padStart(4)} EUR/mp | ${String(x.pret).padStart(7)} EUR | ${String(x.mp).padStart(5)} mp | ${x.cartier}`);
+    console.log(`   ${String(x.titlu).slice(0, 62)}`);
+    console.log(`   dovezi: ${x.dovezi.join(', ')}`);
+    console.log(`   ${x.url}\n`);
+  });
+  const fara = bune.length - cuDovezi.length;
+  if (fara > 0) console.log(`${fara} anunturi nu spun nimic despre construibilitate.`);
 })().catch(e => { console.error('EROARE:', e.message); process.exit(1); });
