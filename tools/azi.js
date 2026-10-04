@@ -31,7 +31,9 @@ const idAnunt = u => ((String(u).match(/-(ID[A-Za-z0-9]+)(?:\.html)?$/) || [])[1
 
 const AFARA = /r[aă][sș]inari|al[tț][aâ]na|tili[sș]ca|p[aă]ltini[sș]|[sș]ura mic|[sș]ura mare|bavaria|cisn[aă]die|[sș]elimb[aă]r|nucet|dealul sibiului|dealul daii|tropini|sibiel|t[aă]lmaciu|poplaca|ocna sibiului|sadu|tocile|ro[sș]ia|cristian|vurp[aă]r|daia|corn[aă][tț]el|hosman|cop[sș]a|ru[sș]ciori|ru[sș]i|slimnic|de vacan[tț]/i;
 const COMUNA = /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă]\s+parte|p[aă]r[tț]i\s+comune|[iî]n\s+indiviziune/i;
-const CORPURI = /2 corpuri|dou[aă] corpuri|duplex|triplex|cvadruplex|garsonier|[iî]n[sș]iruit/i;
+// "Compartimentata in doua apartamente a cate 2 camere" e acelasi lucru cu
+// doua corpuri, scris altfel - asa a trecut casa din Moara de Scoarta.
+const CORPURI = /2 corpuri|dou[aă] corpuri|duplex|triplex|cvadruplex|garsonier|[iî]n[sș]iruit|dou[aă]\s+apartamente|2\s+apartamente|multifamilial|dou[aă]\s+locuin[tț]e|2\s+locuin[tț]e|dou[aă]\s+unit[aă][tț]i/i;
 const SERVITUTE = /servitute|drept de trecere|acces prin curtea/i;
 // Curtea pavata e criteriu de respingere, nu de punctaj - a refuzat casa din
 // Petru Maior exact pentru asta. Prima varianta cerea cuvintele lipite,
@@ -53,14 +55,27 @@ const snapshots = () => fs.readdirSync(DOSAR)
 // Cat teren ramane liber dupa ce scazi amprenta casei. Daca anuntul o spune, o
 // iau de acolo; altfel scad suprafata construita la sol. Cand casa are etaj,
 // mp utili supraestimeaza amprenta, deci cifra e prudenta.
+const NR = '(?:aproximativ|aprox\\.?|cca\\.?|~)?\\s*(\\d{2,4})\\s*(?:mp|m2|m²)';
+// Doar curtea si gradina, niciodata "teren". "Suprafata teren: 133 mp" e tot
+// lotul, cu casa pe el: la Moara de Scoarta amprenta ocupa 70 din cei 133, si
+// eu raportam 133 mp de curte pentru o alee betonata de trei metri latime.
+const GRADINA = new RegExp(`(?:curte|gr[aă]din[aă])\\s*(?:proprie|individual[aă]|liber[aă])?\\s*(?:de|:|,)?\\s*${NR}`, 'i');
+const AMPRENTA = new RegExp(`amprent[aă](?:\\s*la\\s*sol)?\\s*(?:de|:|,)?\\s*${NR}`, 'i');
+const TEREN_TEXT = new RegExp(`suprafa[tț][aă]\\s*(?:de\\s*)?teren\\s*(?:de|:|,)?\\s*${NR}`, 'i');
+
 function curteLibera(x) {
   const t = (x.titlu || '') + ' ' + (x.descriere || '');
-  // Cand anuntul spune cat e gradina, aia e cifra - nu scaderea mea. Casa din
-  // Tiglari scria "gradina proprie de aproximativ 40 mp" si eu calculam 258,
-  // pentru ca prima varianta cerea cuvantul "libera" lipit de "gradina".
-  const m = t.match(/(?:teren|curte|gr[aă]din[aă])\s*(?:proprie|individual[aă]|liber[aă])?\s*(?:de|:|,)?\s*(?:aproximativ|aprox\.?|cca\.?|~)?\s*(\d{2,4})\s*(?:mp|m2|m²)/i);
-  if (m) return { mp: Number(m[1]), sigur: true };
-  if (x.teren && x.mpu) return { mp: Math.max(0, x.teren - Math.round(x.mpu * 0.7)), sigur: false };
+  const g = t.match(GRADINA);
+  if (g) return { mp: Number(g[1]), sigur: true };
+
+  // Fisa si descrierea nu sunt mereu de acord - 150 mp in fisa, 133 in text la
+  // aceeasi casa. Iau cifra mica: daca ma insel, ma insel in defavoarea casei.
+  const dinText = t.match(TEREN_TEXT);
+  const teren = Math.min(...[x.teren, dinText && Number(dinText[1])].filter(Boolean));
+
+  const a = t.match(AMPRENTA);
+  if (teren && a) return { mp: Math.max(0, teren - Number(a[1])), sigur: true };
+  if (teren && x.mpu) return { mp: Math.max(0, teren - Math.round(x.mpu * 0.7)), sigur: false };
   return { mp: null, sigur: false };
 }
 
@@ -121,6 +136,30 @@ function punctajMasina(m) {
   if (CUREA_IN_ULEI.test((m.m || '') + ' ' + (m.warn || ''))) p -= 25;
   else if (m.warn) p -= 8;
   return p;
+}
+
+// Unde am cautat si cand, citit din jurnalul scris de scan.js. Daca o sursa
+// lipseste din jurnal sau e veche, se spune - altfel "am cautat peste tot" e
+// doar pe cuvantul meu.
+function surse() {
+  let jurnal = {};
+  try { jurnal = JSON.parse(fs.readFileSync(path.join(__dirname, 'cautari.json'), 'utf8')); } catch (e) { /* inca nimic */ }
+  const AZI = new Date().toISOString().slice(0, 10);
+  return [
+    { nume: 'Storia', pentru: 'case' },
+    { nume: 'Autovit', pentru: 'mașini' },
+  ].map(s => {
+    const j = jurnal[s.nume];
+    if (!j) return { ...s, stare: 'nu am rulat-o niciodată' };
+    const zi = j.cand.slice(0, 10);
+    const zile = Math.round((Date.parse(AZI) - Date.parse(zi)) / 86400000);
+    return {
+      ...s, cand: j.cand, ce: j.ce,
+      gasite: j.gasite, potrivite: j.potrivite != null ? j.potrivite : j.case,
+      stare: zile === 0 ? 'azi' : zile === 1 ? 'ieri' : `acum ${zile} zile`,
+      veche: zile > 1,
+    };
+  });
 }
 
 // ---------- rulare ----------
@@ -212,6 +251,8 @@ if (!topCase.length) {
 
 console.log(`\nCE A MAI APĂRUT   ${referinta.data} → ${acum.data}`);
 console.log('='.repeat(62));
+surse().forEach(s => console.log(`  ${s.nume.padEnd(8)} ${s.cand || '—'}  ${s.stare}`
+  + (s.gasite != null ? `  ${s.gasite} găsite, ${s.potrivite} potrivite` : '')));
 console.log(`\nCASE — ${caseNoi.length} postate în interval, ${trec.length} trec de criterii\n`);
 if (!topCase.length) console.log('  nimic nou care să bifeze criteriile.\n');
 else if (dinRezerva) console.log(`  Nimic postat în interval. Cele mai bune 3 de după ${SAPT}:\n`);
@@ -273,6 +314,7 @@ if (scrie) {
     de_la: referinta.data, pana_la: acum.data,
     case_noi: caseNoi.length, case_trec: trec.length, din_rezerva: dinRezerva,
     masini_din_rezerva: masiniDinRezerva,
+    surse: surse(),
     case: topCase.map(({ x, p, alte }) => {
       const c = curteLibera(x);
       return {

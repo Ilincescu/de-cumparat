@@ -243,6 +243,11 @@ async function scaneazaStoria() {
   fs.writeFileSync(cale, JSON.stringify(rezultat, null, 1));
   const excluse = rezultat.filter(r => r.exclus).length;
   console.log(`salvat ${rezultat.length} anunturi (${excluse} excluse automat) -> ${path.relative(RADACINA, cale)}`);
+  noteazaCautare('Storia', `case și apartamente în orașul Sibiu, sub ${PRAG_PRET.casa.toLocaleString('ro-RO')} €`, {
+    gasite: rezultat.length,
+    case: rezultat.filter(r => r.tip === 'casa').length,
+    excluse,
+  });
   return rezultat;
 }
 
@@ -328,6 +333,20 @@ function dinNextData(html) {
   throw new Error('nu am gasit advertSearch in urqlState');
 }
 
+// Jurnalul cautarilor. Fara el, "am cautat" e pe cuvantul meu: cautarea de
+// masini rula si nu salva nimic, iar masini.json a ramas cinci zile in urma
+// fara ca nimic sa arate asta. Fiecare scanare isi scrie aici ora si cifrele,
+// si tools/azi.js le pune pe pagina.
+function noteazaCautare(sursa, ce, date) {
+  const cale = path.join(__dirname, 'cautari.json');
+  let j = {};
+  try { j = JSON.parse(fs.readFileSync(cale, 'utf8')); } catch (e) { /* prima rulare */ }
+  // Ora locala, nu UTC: o citeste de pe pagina si compara cu ceasul lui.
+  const t = new Date(Date.now() - new Date().getTimezoneOffset() * 60000);
+  j[sursa] = { ce, cand: t.toISOString().slice(0, 16).replace('T', ' '), ...date };
+  fs.writeFileSync(cale, JSON.stringify(j, null, 1) + '\n');
+}
+
 async function scaneazaMasini({ anMinim = 2020, pretMax = 11500, kmMax = 100000, raza = 75 } = {}) {
   const u = `https://www.autovit.ro/autoturisme/de-la-${anMinim}/sibiu`
     + `?search%5Bfilter_float_price%3Ato%5D=${pretMax}`
@@ -368,6 +387,8 @@ async function scaneazaMasini({ anMinim = 2020, pretMax = 11500, kmMax = 100000,
   console.log(`  ${potrivite.length} potrivite:`);
   potrivite.sort((a, b) => (a.p || 0) - (b.p || 0)).forEach(x =>
     console.log(`    ${String(x.p).padStart(6)} ${x.an} ${String(x.km).padStart(6)}km ${String(x.z).padEnd(14)} ${x.m}`));
+  noteazaCautare('Autovit', `${anMinim}+, sub ${pretMax} €, sub ${kmMax} km, ${raza} km în jurul Sibiului`,
+    { gasite: cautare.totalCount, potrivite: potrivite.length });
   return potrivite;
 }
 
