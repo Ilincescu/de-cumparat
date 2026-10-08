@@ -328,7 +328,7 @@ const GARDA_INALTA = new RegExp([
   'tiguan', 't-?cross', 't-?roc', 'taigo', 'kamiq', 'karoq', 'kodiaq', 'q[2358]\\b',
   'ecosport', 'kuga', 'puma', 'bronco',
   'xc[46]0', 'x[1356]\\b', 'gla', 'glb', 'glc',
-  'dokker', 'caddy', 'berlingo', 'partner', 'rifter', 'combo', 'doblo', 'express',
+  'dokker', 'caddy', 'berlingo', 'partner', 'rifter', 'combo', 'doblo', 'express\\b',
 ].join('|'), 'i');
 
 // Cvadricicluri: se vand pe Autovit, dar nu sunt masini.
@@ -363,18 +363,27 @@ function noteazaCautare(sursa, ce, date) {
   fs.writeFileSync(cale, JSON.stringify(j, null, 1) + '\n');
 }
 
-async function scaneazaMasini({ anMinim = 2020, pretMax = 11500, kmMax = 100000, raza = 75 } = {}) {
-  const u = `https://www.autovit.ro/autoturisme/de-la-${anMinim}/sibiu`
-    + `?search%5Bfilter_float_price%3Ato%5D=${pretMax}`
-    + `&search%5Bfilter_float_mileage%3Ato%5D=${kmMax}`
-    + `&search%5Bdist%5D=${raza}`;
+// Toata tara, nu doar in jurul Sibiului: lista de pe site e construita din
+// anunturi din Bucuresti, Pitesti, Cluj, iar in jurul Sibiului cautarea dadea
+// 14 rezultate si saptamani intregi fara nimic nou.
+async function scaneazaMasini({ anMinim = 2020, pretMax = 11500, kmMax = 100000, paginiMax = 40 } = {}) {
   const t0 = Date.now();
-  const r = await fetch(u, { headers: UA });
-  if (!r.ok) throw new Error('autovit status ' + r.status);
-  const cautare = dinNextData(await r.text());
-  console.log(`autovit: ${cautare.totalCount} rezultate, citite in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
+  let edges = [], totalCount = 0;
+  for (let pagina = 1; pagina <= paginiMax; pagina++) {
+    const u = `https://www.autovit.ro/autoturisme/de-la-${anMinim}`
+      + `?search%5Bfilter_float_price%3Ato%5D=${pretMax}`
+      + `&search%5Bfilter_float_mileage%3Ato%5D=${kmMax}`
+      + `&search%5Border%5D=created_at_first%3Adesc&page=${pagina}`;
+    const r = await fetch(u, { headers: UA });
+    if (!r.ok) throw new Error('autovit status ' + r.status);
+    const cautare = dinNextData(await r.text());
+    totalCount = cautare.totalCount;
+    edges = edges.concat(cautare.edges);
+    if (cautare.edges.length < 32 || edges.length >= totalCount) break;
+  }
+  console.log(`autovit: ${totalCount} rezultate, citite ${edges.length} in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
 
-  const toate = cautare.edges.map(e => {
+  const toate = edges.map(e => {
     const n = e.node || {};
     const p = {};
     (n.parameters || []).forEach(x => { p[x.key] = x.displayValue || x.value; });
@@ -390,7 +399,9 @@ async function scaneazaMasini({ anMinim = 2020, pretMax = 11500, kmMax = 100000,
       u: n.url,
       warn: /puretech/i.test(n.title || '')
         ? 'Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.' : null,
-      d: new Date().toISOString().slice(0, 10),
+      // Data postarii pe Autovit, ca azi.js sa arate doar ce e postat de ieri,
+      // nu tot ce a intrat azi in lista.
+      d: (n.createdAt || new Date().toISOString()).slice(0, 10),
     };
   });
 
@@ -403,8 +414,22 @@ async function scaneazaMasini({ anMinim = 2020, pretMax = 11500, kmMax = 100000,
   console.log(`  ${potrivite.length} potrivite:`);
   potrivite.sort((a, b) => (a.p || 0) - (b.p || 0)).forEach(x =>
     console.log(`    ${String(x.p).padStart(6)} ${x.an} ${String(x.km).padStart(6)}km ${String(x.z).padEnd(14)} ${x.m}`));
-  noteazaCautare('Autovit', `${anMinim}+, sub ${pretMax} €, sub ${kmMax} km, ${raza} km în jurul Sibiului`,
-    { gasite: cautare.totalCount, potrivite: potrivite.length });
+
+  // Pana acum scanarea doar afisa potrivirile; nimic nu ajungea in masini.json
+  // si lista de pe site statea pe loc.
+  const cale = path.join(RADACINA, 'masini.json');
+  const j = citesteJson(cale);
+  const existente = new Set(j.masini.map(m => m.u));
+  const adaugate = potrivite.filter(x => !existente.has(x.u));
+  if (adaugate.length) {
+    j.masini = j.masini.concat(adaugate).sort((a, b) => (a.p || 0) - (b.p || 0));
+    j.actualizat = new Date().toISOString().slice(0, 10);
+    fs.writeFileSync(cale, JSON.stringify(j, null, 1));
+  }
+  console.log(`  ${adaugate.length} adaugate in masini.json, lista are acum ${j.masini.length}`);
+
+  noteazaCautare('Autovit', `${anMinim}+, sub ${pretMax} €, sub ${kmMax} km, toată țara`,
+    { gasite: totalCount, potrivite: potrivite.length, adaugate: adaugate.length });
   return potrivite;
 }
 
