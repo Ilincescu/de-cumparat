@@ -371,7 +371,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-tiguan-ID7HQMvm.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Volkswagen Tiguan",
@@ -543,7 +545,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-tiguan-ver-1-4-tsi-bmt-trend-fun-ID7HQJIW.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Suzuki Vitara 1.0 Passion",
@@ -1153,7 +1157,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-6-dci-start-stop-x-tronic-tekna-ID7HQnoZ.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Peugeot 2008 1.2 PureTech Allure",
@@ -1517,7 +1523,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ver-1-6-passion-ID7HPqvE.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Suzuki Vitara 1.4 Passion",

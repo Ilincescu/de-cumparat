@@ -1,8 +1,8 @@
 {
- "generat": "2026-10-08 09:17",
+ "generat": "2026-10-08 21:08",
  "de_la": "2026-10-07",
  "pana_la": "2026-10-08",
- "case_noi": 0,
+ "case_noi": 1,
  "case_trec": 0,
  "din_rezerva": false,
  "masini_din_rezerva": true,
@@ -10,19 +10,19 @@
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-10-08 09:11",
+   "cand": "2026-10-08 21:02",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1462,
-   "potrivite": 256,
+   "gasite": 1458,
+   "potrivite": 259,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-08 09:11",
+   "cand": "2026-10-08 21:02",
    "ce": "2020+, sub 11500 €, sub 100000 km, 75 km în jurul Sibiului",
-   "gasite": 15,
+   "gasite": 14,
    "potrivite": 1,
    "stare": "azi",
    "veche": false
