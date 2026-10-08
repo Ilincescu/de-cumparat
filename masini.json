@@ -125,7 +125,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Volkswagen Tiguan",
@@ -183,7 +183,7 @@
    "d": "2026-09-25",
    "gj": true,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Nissan Qashqai",
@@ -241,7 +241,7 @@
    "d": "2026-09-25",
    "gj": true,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T TEKNA+",
@@ -313,7 +313,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Kia Sportage",
@@ -329,7 +329,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T Start/Stop Acenta",
@@ -413,7 +413,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ID7HPami.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Mazda CX-5 2.2 SKYACTIV-D AWD Aut. Sports-Line",
@@ -471,7 +473,7 @@
    "d": "2026-09-21",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Volkswagen Tiguan 2.0 TSI 4Motion DSG Track&Field",
@@ -795,7 +797,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Volkswagen Polo",
@@ -811,7 +813,7 @@
    "d": "2026-09-25",
    "gj": true,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Nissan Qashqai",
@@ -841,7 +843,7 @@
    "d": "2026-09-14",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Dacia Duster TCe 90 Essential",
@@ -857,7 +859,7 @@
    "d": "2026-09-14",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Kia Sportage 1.6 GDI 6MT 4x2 Classic",
@@ -887,7 +889,7 @@
    "d": "2026-09-21",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Mazda CX-5 CD175 4x4 Revolution Top",
@@ -943,7 +945,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ver-1-0-boosterjet-comfort-ID7HQJFP.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Kia Sportage 1.6 GDI Classic",
@@ -957,7 +961,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-gdi-6mt-4x2-classic-ID7HQvaB.html",
    "warn": null,
    "d": "2026-09-14",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T 360",
@@ -1015,7 +1021,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Kia Sportage 2.0 DSL 6AT 4x4 Style",
@@ -1045,7 +1051,7 @@
    "d": "2026-09-25",
    "gj": true,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Nissan Qashqai 1.6 DCI Start/Stop X-TRONIC N-Connecta",
@@ -1075,7 +1081,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Opel Astra",
@@ -1105,7 +1111,7 @@
    "d": "2026-09-29",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Suzuki Vitara 1.6 4X4 Luxus",
@@ -1219,7 +1225,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Nissan Qashqai 1.5 DCI ACENTA",
@@ -1249,7 +1255,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Hyundai Kona 1.0 T-GDI Highway",
@@ -1335,7 +1341,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Nissan Qashqai 1.6L dCi Start/Stop 4X4-i N-Connecta",
@@ -1351,7 +1357,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Nissan Qashqai",
@@ -1381,7 +1387,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Nissan Qashqai",
@@ -1397,7 +1403,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Nissan Qashqai 1.6 DCI Start/Stop X-TRONIC Tekna",
@@ -1497,7 +1503,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Suzuki Vitara 1.6 Passion",
@@ -1541,7 +1547,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "m": "Suzuki Vitara",
@@ -1569,7 +1575,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-dsl-7dct-hp-4x2-gt-line-ID7HQOyd.html",
    "warn": null,
    "d": "2026-09-29",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-08"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-07",
+ "actualizat": "2026-10-08",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -875,7 +875,7 @@
    "warn": "Apartament la casa - intreaba din start daca terenul de 190 mp e in proprietate exclusiva sau in indiviziune. Detalii neverificate in descriere.",
    "d": "2026-09-20",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "casa",
@@ -1004,7 +1004,7 @@
    "d": "2026-09-30",
    "gm": 250,
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "casa",
@@ -1350,7 +1350,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/cas-5-camere-de-vnzare-terezian-sibiu-130-mp-IDI5OI",
    "warn": "Detalii neverificate in descriere.",
-   "d": "2026-09-20"
+   "d": "2026-09-20",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "casa",
@@ -1410,7 +1412,7 @@
    "warn": "Detalii neverificate in descriere.",
    "d": "2026-09-20",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "casa",
@@ -1778,7 +1780,9 @@
    "u": "https://www.storia.ro/ro/oferta/cas-de-vnzare-guteria-sibiu-250-mp-teren-415-mp-IDIt2I",
    "warn": "10 camere - probabil doua locuinte sau pensiune. Detalii neverificate in descriere.",
    "d": "2026-09-20",
-   "d2": true
+   "d2": true,
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "casa",
@@ -1991,7 +1995,7 @@
    "warn": "Probabil acelasi apartament ca IDIzCV (57.500, zona Agentia de Mediu). Detalii neverificate in descriere.",
    "d": "2026-09-20",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -2073,7 +2077,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-loc-de-parcare-tiberiu-ricci-IDIwGn",
    "warn": "Detalii neverificate in descriere.",
-   "d": "2026-09-18"
+   "d": "2026-09-18",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -2200,7 +2206,7 @@
    "warn": "Nedecomandat, etajul 4 dintr-un bloc P+4 din 1972 - ultimul etaj, dar bloc de beton, nu mansarda. Se vinde mobilat si utilat complet, centrala proprie. Zona buna de inchiriat. Anunt republicat - varianta veche (IDIig3) e arhivata.",
    "d": "2026-09-22",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -2438,7 +2444,7 @@
    "warn": "Titlul zice studio, Storia il trece la 2 camere - intreaba daca are camere separate.",
    "d": "2026-09-20",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -2664,7 +2670,7 @@
    "warn": "Detalii neverificate in descriere.",
    "d": "2026-09-20",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -2790,7 +2796,7 @@
    "warn": "Pretul a scazut de la 82.990 la 80.000 intre 18 si 20 sep. Acelasi apartament e si pe imobiliare.ro (275830944) si pe OLX, tot la 80.000. Singurul 2 camere cu curte PROPRIE sub 85.000.",
    "d": "2026-09-23",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -3054,7 +3060,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-central-2-camere-renovat-IDI8hw",
    "warn": "Detalii neverificate in descriere.",
-   "d": "2026-09-20"
+   "d": "2026-09-20",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -3208,7 +3216,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-hipodrom-4-IDIt2t",
    "warn": "Detalii neverificate in descriere.",
-   "d": "2026-09-20"
+   "d": "2026-09-20",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -3387,7 +3397,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-utilat-decomandat-45mp-terezian-sibiu-IDIt4E",
    "warn": "Acelasi apartament apare si ca IDInDX si IDIm9O, toate 89.000, 45 mp, Terezian.",
-   "d": "2026-10-04"
+   "d": "2026-10-04",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -3807,7 +3819,7 @@
   },
   {
    "k": "casa",
-   "p": 138000,
+   "p": 136000,
    "t": "Casa singur in curte + 133mp teren zona Lupeni-Moara de Scoarta",
    "z": "Lupeni, Sibiu",
    "r": 4,
@@ -3818,7 +3830,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-singur-in-curte-133mp-teren-zona-lupeni-moara-de-scoarta-IDHdgV",
    "warn": null,
-   "d": "2026-09-25"
+   "d": "2026-10-08"
   },
   {
    "k": "casa",
@@ -3923,7 +3935,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/cas-spaioas-i-6-camere-i-teren-845-mp-i-zon-de-case-i-privelite-s-IDFIRm",
    "warn": null,
-   "d": "2026-09-25"
+   "d": "2026-09-25",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "casa",
@@ -4165,7 +4179,7 @@
    "warn": null,
    "d": "2026-09-25",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -4420,7 +4434,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-56mp-terezian-IDICTU",
    "warn": null,
-   "d": "2026-10-03"
+   "d": "2026-10-03",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -4992,7 +5008,7 @@
    "warn": null,
    "d": "2026-09-25",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -5067,7 +5083,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/ap-decomandat-2-camere-balcon-zona-terezian-IDIuD1",
    "warn": null,
-   "d": "2026-09-25"
+   "d": "2026-09-25",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -5187,7 +5205,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-mihai-viteazul-IDIt23",
    "warn": null,
-   "d": "2026-09-25"
+   "d": "2026-09-25",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -5204,7 +5224,7 @@
    "warn": null,
    "d": "2026-09-25",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -5221,7 +5241,7 @@
    "warn": null,
    "d": "2026-10-04",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -5313,7 +5333,7 @@
    "warn": null,
    "d": "2026-09-28",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "casa",
@@ -5452,7 +5472,7 @@
   },
   {
    "k": "casa",
-   "p": 174990,
+   "p": 168990,
    "t": "Ap.TRIPLEX 4 camere 2 bai/ garaj/ 84 mpteren Turnisor SIBIU VEST",
    "z": "Turnisor, Sibiu",
    "r": 4,
@@ -5463,7 +5483,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/ap-triplex-4-camere-2-bai-garaj-84-mpteren-turnisor-sibiu-vest-IDIGWq",
    "warn": null,
-   "d": "2026-09-29"
+   "d": "2026-10-08"
   },
   {
    "k": "casa",
@@ -5840,7 +5860,7 @@
    "warn": "Declarata de renovat in fisa tehnica.",
    "d": "2026-09-30",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "casa",
@@ -5855,9 +5875,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-amplasata-spitalul-judetean-si-promenada-mall-sibiu-IDHKlr",
    "warn": null,
-   "d": "2026-09-30",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-09-30"
   },
   {
    "k": "casa",
@@ -5977,7 +5995,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/cas-i-184-mpu-i-teras-i-curte-privat-panouri-fotovoltaice-i-cires-IDFKQb",
    "warn": null,
-   "d": "2026-09-30"
+   "d": "2026-09-30",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "casa",
@@ -6277,7 +6297,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-balcon-i-parcare-privat-turnior-sibiu-IDIrHS",
    "warn": null,
-   "d": "2026-10-04"
+   "d": "2026-10-04",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -6292,7 +6314,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-sibiu-str-oasa-IDIrBa",
    "warn": null,
-   "d": "2026-10-04"
+   "d": "2026-10-04",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -6307,7 +6331,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/ro-en-ap-2cam-decomandat-pe-rahovei-parter-55mp-pivnita-video-IDIryD",
    "warn": null,
-   "d": "2026-10-04"
+   "d": "2026-10-04",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -6382,7 +6408,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-terezian-66-mp-IDIo59",
    "warn": null,
-   "d": "2026-10-04"
+   "d": "2026-10-04",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -6877,7 +6905,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-luminos-cu-2-camere-la-mansard-n-zon-cutat-IDIbIz",
    "warn": null,
-   "d": "2026-10-04"
+   "d": "2026-10-04",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -6954,7 +6984,7 @@
    "warn": null,
    "d": "2026-10-04",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -6969,7 +6999,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-balcon-si-pivnita-zona-lazaret-IDI73n",
    "warn": null,
-   "d": "2026-10-04"
+   "d": "2026-10-04",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -7089,7 +7121,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/spaiu-birou-de-nchiriat-central-sibiu-IDI3dS",
    "warn": null,
-   "d": "2026-10-04"
+   "d": "2026-10-04",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -7194,7 +7228,9 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-46-mpu-etaj-4-mihai-viteazul-IDHwJx",
    "warn": null,
-   "d": "2026-10-04"
+   "d": "2026-10-04",
+   "mort": true,
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -7226,7 +7262,7 @@
    "warn": null,
    "d": "2026-10-04",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -7243,7 +7279,7 @@
    "warn": null,
    "d": "2026-10-04",
    "mort": true,
-   "mort_din": "2026-10-07"
+   "mort_din": "2026-10-08"
   },
   {
    "k": "ap",
@@ -7648,9 +7684,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-de-vanzare-terezian-decomandat-etaj-3-IDHO2v",
    "warn": "Declarata de renovat in fisa tehnica.",
-   "d": "2026-10-04",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-10-04"
   },
   {
    "k": "ap",
@@ -7710,9 +7744,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-dec-valea-aurie-sibiu-exclusivitate-comision-0-IDHMuC",
    "warn": null,
-   "d": "2026-10-04",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-10-04"
   },
   {
    "k": "ap",
@@ -7802,9 +7834,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-47-mp-balcon-mare-mihai-viteazu-IDHK0X",
    "warn": null,
-   "d": "2026-10-04",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-10-04"
   },
   {
    "k": "ap",
@@ -8119,9 +8149,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-si-parcare-zona-gusterita-IDHstk",
    "warn": null,
-   "d": "2026-10-04",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-10-04"
   },
   {
    "k": "ap",
@@ -8151,9 +8179,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/2-camere-decomandate-valea-aurie-sibiu-exclusivitate-comision-0-IDG3EM",
    "warn": null,
-   "d": "2026-10-04",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-10-04"
   },
   {
    "k": "ap",
@@ -8273,9 +8299,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-cedonia-IDHhKy",
    "warn": null,
-   "d": "2026-10-04",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-10-04"
   },
   {
    "k": "ap",
@@ -8305,9 +8329,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-37-mp-2-camere-balcon-zona-mihai-viteazul-sibiu-IDHh9M",
    "warn": null,
-   "d": "2026-10-04",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-10-04"
   },
   {
    "k": "ap",
@@ -8442,9 +8464,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-la-cheie-balcon-boxa-loc-de-parcare-IDHcCv",
    "warn": null,
-   "d": "2026-10-04",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-10-04"
   },
   {
    "k": "ap",
@@ -8804,9 +8824,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-47-mp-utili-zona-vasile-milea-IDGUlt",
    "warn": null,
-   "d": "2026-10-04",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-10-04"
   },
   {
    "k": "ap",
@@ -8896,9 +8914,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-decomandat-54-mp-zona-vasile-aaron-IDGQ6N",
    "warn": null,
-   "d": "2026-10-04",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-10-04"
   },
   {
    "k": "ap",
@@ -9243,9 +9259,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-modern-2-camere-la-mansarda-zona-semaforului-IDGwdw",
    "warn": null,
-   "d": "2026-10-04",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-10-04"
   },
   {
    "k": "ap",
@@ -9410,9 +9424,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/ap-cu-2-camere-pivnita-etaj-25-zona-valea-aurie-IDGhog",
    "warn": null,
-   "d": "2026-10-04",
-   "mort": true,
-   "mort_din": "2026-10-07"
+   "d": "2026-10-04"
   },
   {
    "k": "ap",
@@ -11003,6 +11015,306 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-de-vanzare-rahovei-parter-cu-balcon-IDHaOc",
    "warn": null,
    "d": "2026-10-07"
+  },
+  {
+   "k": "casa",
+   "p": 199000,
+   "t": "Proiect autorizat de reabilitare casa individuala in centrul Sibiului",
+   "z": "Terezian, Sibiu",
+   "r": 4,
+   "a": 205,
+   "g": "curte libera 85 mp",
+   "gm": 85,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/proiect-autorizat-de-reabilitare-casa-individuala-in-centrul-sibiului-IDINno",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "casa",
+   "p": 220000,
+   "t": "Casa de vanzare pe un nivel in Turnisor, Sibiu",
+   "z": "Turnisor, Sibiu",
+   "r": 3,
+   "a": 70,
+   "g": "teren 585 mp",
+   "gm": null,
+   "c": "proprie",
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-pe-un-nivel-in-turnisor-sibiu-IDHKAv",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 72900,
+   "t": "Apartament etajul 1 la casa cu 2 camere in zona Centrala din Sibiu",
+   "z": "Centrul Istoric, Sibiu",
+   "r": 2,
+   "a": 49,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDINYm",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 84999,
+   "t": "Apartament 2 camere MOBILAT UTILAT DECOMANDAT 45mp TEREZIAN Sibiu",
+   "z": "Terezian, Sibiu",
+   "r": 2,
+   "a": 45,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-utilat-decomandat-45mp-terezian-sibiu-IDINNO",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 73900,
+   "t": "De vanzare apartament cu 2 camere si balcon in Sibiu zona Ciresica",
+   "z": "Hipodrom III, Sibiu",
+   "r": 2,
+   "a": 40,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/de-vanzare-apartament-cu-2-camere-si-balcon-in-sibiu-zona-ciresica-IDINMn",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 100000,
+   "t": "Apartament 2 camere de vânzare | Sibiu, Turnișor | 54 mp",
+   "z": "Turnisor, Sibiu",
+   "r": 2,
+   "a": 54,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-turnior-54-mp-IDINJx",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 98900,
+   "t": "Apartament 2 camere de vânzare | Sibiu, Exterior Vest | Sud",
+   "z": "Turnisor, Sibiu",
+   "r": 2,
+   "a": 54,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-exterior-vest-sud-IDINGW",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 104000,
+   "t": "Apartament 2 camere de vanzare City Garden, Sibiu",
+   "z": "Sibiu",
+   "r": 2,
+   "a": 46,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-city-garden-sibiu-IDINGE",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 75000,
+   "t": "Apartament 2 camere zona Vasile Aron",
+   "z": "Gusterita, Sibiu",
+   "r": 2,
+   "a": 38,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-vasile-aron-IDINAg",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 102000,
+   "t": "Apartament modern 2 camere Sibiu 2 parcari",
+   "z": "Zona Industriala Est, Sibiu",
+   "r": 2,
+   "a": 41,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-modern-2-camere-sibiu-2-parcari-IDINzb",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 65000,
+   "t": "Apartament 2 camere etaj 1 confort 3",
+   "z": "Hipodrom I, Sibiu",
+   "r": 2,
+   "a": 34,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-1-confort-3-IDINxv",
+   "warn": "Declarata de renovat in fisa tehnica.",
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 74998,
+   "t": "Studio ultra Central 37mp modern",
+   "z": "Centrul Istoric, Sibiu",
+   "r": 2,
+   "a": 37,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/studio-ultra-central-37mp-modern-IDINrk",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 95000,
+   "t": "Apartament 2 camere decomandat si balcon etaj 1 zona Rahova",
+   "z": "Hipodrom III, Sibiu",
+   "r": 2,
+   "a": 48,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-si-balcon-etaj-1-zona-rahova-IDINow",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 95000,
+   "t": "Apartament 2 camere decomandat si balcon etaj 1 zona Rahova",
+   "z": "Hipodrom III, Sibiu",
+   "r": 2,
+   "a": 48,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-si-balcon-etaj-1-zona-rahova-IDINh3",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 89900,
+   "t": "Apartament 2 camere, balcon și parcare Sibiu",
+   "z": "Centrul Civic, Sibiu",
+   "r": 2,
+   "a": 51,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-i-parcare-sibiu-IDINcF",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 109000,
+   "t": "Apartament 2 camere, terasa 40 mp, parcare si boxa – Turnisor, Sibiu",
+   "z": "Turnisor, Sibiu",
+   "r": 2,
+   "a": 40,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-terasa-40-mp-parcare-si-boxa-turnisor-sibiu-IDIN9X",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 109000,
+   "t": "Ap cu 2 camere, boxa, parcare inclusa, terasa de 40 mp -Zona Turnisor",
+   "z": "Turnisor, Sibiu",
+   "r": 2,
+   "a": 40,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/ap-cu-2-camere-boxa-parcare-inclusa-terasa-de-40-mp-zona-turnisor-IDIN2N",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 92500,
+   "t": "APARTAMENT 2 CAMERE DE VÂNZARE | MIHAI VITEAZU SIBIU | BALCON",
+   "z": "Hipodrom I, Sibiu",
+   "r": 2,
+   "a": 46,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-mihai-viteazu-sibiu-balcon-IDGQKB",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 94900,
+   "t": "PROPRIETAR Apartament  Mihai Viteazu Sibiu",
+   "z": "Strand I, Sibiu",
+   "r": 2,
+   "a": 56,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/proprietar-apartament-mihai-viteazu-sibiu-IDIpeA",
+   "warn": null,
+   "d": "2026-10-08"
+  },
+  {
+   "k": "ap",
+   "p": 68000,
+   "t": "Apartament 2 camere de vanzare, Aleea Rosiorilor Sibiu",
+   "z": "Hipodrom I, Sibiu",
+   "r": 2,
+   "a": 38,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-aleea-rosiorilor-sibiu-IDHiyN",
+   "warn": "Declarata de renovat in fisa tehnica.",
+   "d": "2026-10-08"
   }
  ]
 }

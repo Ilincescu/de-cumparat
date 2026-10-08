@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-07",
+ "actualizat": "2026-10-08",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -853,6 +853,10 @@
     {
      "d": "2026-09-25",
      "p": 138000
+    },
+    {
+     "d": "2026-10-08",
+     "p": 136000
     }
    ]
   },
@@ -993,6 +997,10 @@
     {
      "d": "2026-09-25",
      "p": 173900
+    },
+    {
+     "d": "2026-10-08",
+     "p": 168990
     }
    ]
   },
@@ -3397,6 +3405,10 @@
     {
      "d": "2026-09-25",
      "p": 54900
+    },
+    {
+     "d": "2026-10-08",
+     "p": 51900
     }
    ]
   },
@@ -3671,6 +3683,10 @@
     {
      "d": "2026-09-25",
      "p": 87500
+    },
+    {
+     "d": "2026-10-08",
+     "p": 87490
     }
    ]
   },
@@ -9709,6 +9725,10 @@
     {
      "d": "2026-09-29",
      "p": 174990
+    },
+    {
+     "d": "2026-10-08",
+     "p": 168990
     }
    ]
   },
@@ -11575,6 +11595,10 @@
     {
      "d": "2026-10-04",
      "p": 37499
+    },
+    {
+     "d": "2026-10-08",
+     "p": 37500
     }
    ]
   },
@@ -14135,6 +14159,10 @@
     {
      "d": "2026-10-04",
      "p": 87500
+    },
+    {
+     "d": "2026-10-08",
+     "p": 87490
     }
    ]
   },
@@ -19449,6 +19477,10 @@
     {
      "d": "2026-10-05",
      "p": 145000
+    },
+    {
+     "d": "2026-10-08",
+     "p": 115000
     }
    ]
   },
@@ -20049,6 +20081,326 @@
     {
      "d": "2026-10-07",
      "p": 59000
+    }
+   ]
+  },
+  "IDINvL": {
+   "u": "https://www.storia.ro/ro/oferta/comision-0-casa-individuala-teren-600-mp-garaj-soseaua-alba-iulia-IDINvL",
+   "t": "Comision 0% Casa individuala, teren 600 mp, garaj, Soseaua Alba iulia",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 220000
+    }
+   ]
+  },
+  "IDINno": {
+   "u": "https://www.storia.ro/ro/oferta/proiect-autorizat-de-reabilitare-casa-individuala-in-centrul-sibiului-IDINno",
+   "t": "Proiect autorizat de reabilitare casa individuala in centrul Sibiului",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 199000
+    }
+   ]
+  },
+  "IDINYt": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-spatios-insorit-parcare-z-supeco-IDINYt",
+   "t": "Apartament 2 camere decomandat , spatios, insorit, parcare, Z Supeco",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 93000
+    }
+   ]
+  },
+  "IDINYm": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDINYm",
+   "t": "Apartament etajul 1 la casa cu 2 camere in zona Centrala din Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 72900
+    }
+   ]
+  },
+  "IDINNO": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-utilat-decomandat-45mp-terezian-sibiu-IDINNO",
+   "t": "Apartament 2 camere MOBILAT UTILAT DECOMANDAT 45mp TEREZIAN Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 84999
+    }
+   ]
+  },
+  "IDINMn": {
+   "u": "https://www.storia.ro/ro/oferta/de-vanzare-apartament-cu-2-camere-si-balcon-in-sibiu-zona-ciresica-IDINMn",
+   "t": "De vanzare apartament cu 2 camere si balcon in Sibiu zona Ciresica",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 73900
+    }
+   ]
+  },
+  "IDINLS": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-decomandata-48-mp-utili-in-sibiu-zona-orasul-de-jos-IDINLS",
+   "t": "Garsoniera decomandata 48 mp utili in Sibiu zona Orasul de Jos",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 85000
+    }
+   ]
+  },
+  "IDINJx": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-turnior-54-mp-IDINJx",
+   "t": "Apartament 2 camere de vânzare | Sibiu, Turnișor | 54 mp",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 100000
+    }
+   ]
+  },
+  "IDINGW": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-exterior-vest-sud-IDINGW",
+   "t": "Apartament 2 camere de vânzare | Sibiu, Exterior Vest | Sud",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 98900
+    }
+   ]
+  },
+  "IDINGE": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-city-garden-sibiu-IDINGE",
+   "t": "Apartament 2 camere de vanzare City Garden, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 104000
+    }
+   ]
+  },
+  "IDEg53": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-cu-mobil-n-centrul-istoric-IDEg53",
+   "t": "Garsonieră cu mobilă în Centrul Istoric",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 96000
+    }
+   ]
+  },
+  "IDINAg": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-vasile-aron-IDINAg",
+   "t": "Apartament 2 camere zona Vasile Aron",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 75000
+    }
+   ]
+  },
+  "IDINzb": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-modern-2-camere-sibiu-2-parcari-IDINzb",
+   "t": "Apartament modern 2 camere Sibiu 2 parcari",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 102000
+    }
+   ]
+  },
+  "IDINxY": {
+   "u": "https://www.storia.ro/ro/oferta/partament-premium-2-camere-39-6-mp-ansamblu-privat-IDINxY",
+   "t": "partament premium 2 camere, 39,6 mp, ansamblu privat",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 96500
+    }
+   ]
+  },
+  "IDINxv": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-1-confort-3-IDINxv",
+   "t": "Apartament 2 camere etaj 1 confort 3",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 65000
+    }
+   ]
+  },
+  "IDINrk": {
+   "u": "https://www.storia.ro/ro/oferta/studio-ultra-central-37mp-modern-IDINrk",
+   "t": "Studio ultra Central 37mp modern",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 74998
+    }
+   ]
+  },
+  "IDINow": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-si-balcon-etaj-1-zona-rahova-IDINow",
+   "t": "Apartament 2 camere decomandat si balcon etaj 1 zona Rahova",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 95000
+    }
+   ]
+  },
+  "IDINh3": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-si-balcon-etaj-1-zona-rahova-IDINh3",
+   "t": "Apartament 2 camere decomandat si balcon etaj 1 zona Rahova",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 95000
+    }
+   ]
+  },
+  "IDINcF": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-i-parcare-sibiu-IDINcF",
+   "t": "Apartament 2 camere, balcon și parcare Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 89900
+    }
+   ]
+  },
+  "IDINch": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-balcon-i-parcare-cartierul-arhitecilor-IDINch",
+   "t": "Apartament cu 2 camere, balcon și parcare, Cartierul Arhitecților",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 75000
+    }
+   ]
+  },
+  "IDIN9X": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-terasa-40-mp-parcare-si-boxa-turnisor-sibiu-IDIN9X",
+   "t": "Apartament 2 camere, terasa 40 mp, parcare si boxa – Turnisor, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 109000
+    }
+   ]
+  },
+  "IDIN2N": {
+   "u": "https://www.storia.ro/ro/oferta/ap-cu-2-camere-boxa-parcare-inclusa-terasa-de-40-mp-zona-turnisor-IDIN2N",
+   "t": "Ap cu 2 camere, boxa, parcare inclusa, terasa de 40 mp -Zona Turnisor",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 109000
+    }
+   ]
+  },
+  "IDIN1v": {
+   "u": "https://www.storia.ro/ro/oferta/studio-1-camer-mobilat-i-utilat-parcare-box-henri-coand-IDIN1v",
+   "t": "Studio 1 cameră | Mobilat și utilat | Parcare + boxă | Henri Coandă",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 81500
+    }
+   ]
+  },
+  "IDIpeA": {
+   "u": "https://www.storia.ro/ro/oferta/proprietar-apartament-mihai-viteazu-sibiu-IDIpeA",
+   "t": "PROPRIETAR Apartament  Mihai Viteazu Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 94900
+    }
+   ]
+  },
+  "IDIkWx": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-3-camere-62mp-etaj-1-cartier-davinci-cristian-IDIkWx",
+   "t": "Apartament 3 camere 62mp etaj 1 cartier Davinci Cristian",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 89900
+    }
+   ]
+  },
+  "IDIkWj": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-43-mp-etaj-1-cartier-davinci-IDIkWj",
+   "t": "Apartament 43 mp etaj 1 cartier Davinci",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 79400
+    }
+   ]
+  },
+  "IDI2pY": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-3-camere-88mp-etaj-2-cartier-davinci-IDI2pY",
+   "t": "Apartament 3 camere 88mp etaj 2 cartier DaVinci",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 103000
+    }
+   ]
+  },
+  "IDI2lr": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-3-camere-88mp-la-cheie-cartier-davinci-IDI2lr",
+   "t": "Apartament 3 camere 88mp la cheie cartier DaVinci",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 102000
+    }
+   ]
+  },
+  "IDHiyN": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-aleea-rosiorilor-sibiu-IDHiyN",
+   "t": "Apartament 2 camere de vanzare, Aleea Rosiorilor Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 68000
+    }
+   ]
+  },
+  "IDHnV4": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-62-mp-utili-cu-balcon-si-parcare-in-zona-turnisor-IDHnV4",
+   "t": "Apartament 2 camere 62 mp utili cu balcon si parcare in zona Turnisor",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 107000
+    }
+   ]
+  },
+  "IDAZPT": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-cartier-tiglari-sibiu-comision-0-IDAZPT",
+   "t": "garsoniera cartier Tiglari,Sibiu, comision 0",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 23500
+    }
+   ]
+  },
+  "IDAL1F": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-mobilata-si-utilata-43mp-utili-zona-centrala-IDAL1F",
+   "t": "Garsoniera mobilata si utilata, 43mp utili, zona Centrala",
+   "preturi": [
+    {
+     "d": "2026-10-08",
+     "p": 105000
     }
    ]
   }
