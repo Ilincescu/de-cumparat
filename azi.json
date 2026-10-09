@@ -1,29 +1,29 @@
 {
- "generat": "2026-10-08 21:30",
- "de_la": "2026-10-07",
- "pana_la": "2026-10-08",
- "case_noi": 1,
+ "generat": "2026-10-09 09:17",
+ "de_la": "2026-10-08",
+ "pana_la": "2026-10-09",
+ "case_noi": 0,
  "case_trec": 0,
  "din_rezerva": false,
- "masini_din_rezerva": false,
+ "masini_din_rezerva": true,
  "surse": [
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-10-08 21:21",
+   "cand": "2026-10-09 09:09",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1458,
-   "potrivite": 259,
+   "gasite": 1399,
+   "potrivite": 251,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-08 21:22",
+   "cand": "2026-10-09 09:09",
    "ce": "2020+, sub 11500 €, sub 100000 km, toată țara",
-   "gasite": 668,
-   "potrivite": 136,
+   "gasite": 672,
+   "potrivite": 137,
    "stare": "azi",
    "veche": false
   }
@@ -31,34 +31,34 @@
  "case": [],
  "masini": [
   {
+   "pret": 6990,
+   "model": "Renault Express",
+   "an": 2024,
+   "km": 68991,
+   "zona": "Ilfov",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQRKE.html",
+   "scor": 59
+  },
+  {
    "pret": 11500,
-   "model": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
-   "an": 2022,
-   "km": 51365,
-   "zona": "Bucuresti",
+   "model": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
+   "an": 2024,
+   "km": 43700,
+   "zona": "Tecuci",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQnom.html",
-   "scor": 39
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQQkW.html",
+   "scor": 57
   },
   {
-   "pret": 7623,
-   "model": "Dacia Dokker TCe 100 GPF Comfort",
-   "an": 2021,
-   "km": 95000,
-   "zona": "Brasov",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-tce-100-gpf-comfort-ID7HQK5I.html",
-   "scor": 26
-  },
-  {
-   "pret": 10850,
-   "model": "Ford Puma 1.0 EcoBoost MHEV ST Line",
-   "an": 2020,
-   "km": 97006,
+   "pret": 10500,
+   "model": "Mazda CX-5",
+   "an": 2023,
+   "km": 30000,
    "zona": "Bucuresti",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-st-line-ID7HQSSj.html",
-   "scor": 10
+   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ID7HQQrV.html",
+   "scor": 55
   }
  ]
 }

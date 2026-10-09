@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-08",
+ "actualizat": "2026-10-09",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [

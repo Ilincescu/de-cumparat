@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-08",
+ "actualizat": "2026-10-09",
  "buget": 11000,
  "note": "Masini cautate pe Autovit si OLX: buget ~11.000 EUR, garda inalta, drum lung, piese ieftine in Romania. Campuri: m = model, an, km, cp, f = combustibil, p = pret EUR, z = locatie, u = link, warn = capcana de stiut, d = data vazuta.",
  "observatii": [
@@ -151,7 +151,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Volkswagen Tiguan",
@@ -222,7 +222,7 @@
    "d": "2026-09-25",
    "gj": true,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Opel Crossland 1.2 ECOTEC Start/Stop Enjoy",
@@ -319,7 +319,7 @@
    "d": "2026-09-25",
    "gj": true,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T TEKNA+",
@@ -404,7 +404,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Dacia Dokker TCe 100 GPF Comfort",
@@ -433,7 +433,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T Start/Stop Acenta",
@@ -490,7 +490,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Dacia Sandero Stepway 0.9 TCe Easy-R SL Techroad",
@@ -638,6 +638,19 @@
    "d": "2026-10-04"
   },
   {
+   "m": "Nissan Qashqai 1.3 157CP 2WD Tekna DCT",
+   "an": 2020,
+   "km": 66000,
+   "cp": 157,
+   "f": "benzina",
+   "p": 8499,
+   "z": "Joita",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-3-157cp-2wd-tekna-dct-ID7HQLEZ.html",
+   "warn": null,
+   "d": "2026-09-14"
+  },
+  {
    "m": "Kia Sportage",
    "an": 2011,
    "km": 132150,
@@ -651,7 +664,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 Essential",
@@ -761,7 +774,7 @@
    "d": "2026-09-21",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Opel Crossland 1.2 Turbo Start/Stop Aut. Enjoy",
@@ -937,7 +950,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Jeep Renegade",
@@ -1646,7 +1659,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Volkswagen Polo",
@@ -1662,7 +1675,7 @@
    "d": "2026-09-25",
    "gj": true,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Ford Puma",
@@ -1718,7 +1731,7 @@
    "d": "2026-09-14",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Dacia Duster TCe 90 Essential",
@@ -1734,7 +1747,7 @@
    "d": "2026-09-14",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -1816,7 +1829,7 @@
    "d": "2026-09-21",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Mazda CX-5 CD175 4x4 Revolution Top",
@@ -1887,7 +1900,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Dacia Dokker 1.6 SCe Basic",
@@ -2020,7 +2033,7 @@
    "d": "2026-09-14",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T 360",
@@ -2143,7 +2156,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Peugeot 3008 PureTech 130 Stop & Start GPF EAT8 Allure",
@@ -2199,7 +2212,7 @@
    "d": "2026-09-25",
    "gj": true,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost Titanium",
@@ -2268,7 +2281,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Opel Astra",
@@ -2298,7 +2311,7 @@
    "d": "2026-09-29",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Peugeot 3008 PureTech 130 Stop & Start GPF Active Business-Paket",
@@ -2420,7 +2433,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Peugeot 2008 1.2 PureTech Allure",
@@ -2531,7 +2544,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Nissan Qashqai 1.5 DCI ACENTA",
@@ -2561,7 +2574,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 CVT Extreme",
@@ -2777,7 +2790,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
@@ -2858,7 +2871,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Nissan Qashqai",
@@ -2979,7 +2992,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Nissan Qashqai",
@@ -2995,7 +3008,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Nissan Qashqai 1.6 DCI Start/Stop X-TRONIC Tekna",
@@ -3199,7 +3212,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Suzuki Vitara 1.6 Passion",
@@ -3215,7 +3228,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Suzuki Vitara 1.4 Passion",
@@ -3245,7 +3258,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Suzuki Vitara",
@@ -3275,7 +3288,7 @@
    "d": "2026-09-29",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-08"
+   "mort_din": "2026-10-09"
   }
  ]
 }
