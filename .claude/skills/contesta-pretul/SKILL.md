@@ -23,21 +23,21 @@ Fișierul ăsta acoperă doar partea de bani.
 
 ## Regulile lui Mihai
 
-Astea vin din locurile în care m-a contrazis și a avut dreptate. În paranteză, de câte ori am făcut aceeași greșeală în conversație înainte să mi-o spună el. Nu sunt preferințe, sunt erori măsurate.
+Astea vin din locurile în care m-a contrazis și a avut dreptate. Nu sunt preferințe, sunt greșeli repetate.
 
-### 0. Spune din ce populație ai clasat și ce filtre ai pus (de 6 ori)
+### 0. Spune din ce populație ai clasat și ce filtre ai pus
 
 Cea mai deasă greșeală de fond. Am dat „Top 5" calculat pe lista mea locală, veche și cu erori, nu pe sursa întreagă. Am ținut trei filtre nespuse pe mașini — rază 75 km, an ≥ 2020, sub 100.000 km — care ascundeau fiecare SUV mare; ridicate, lista a sărit de la 39 la 105. Iar plafonul de 190.000 € la case tăia **citirea**, nu afișarea, așa că o casă al cărei preț scăzuse nici nu exista în date.
 
 **Orice clasament se deschide cu: din câte, după ce filtre, scanate când.** Un clasament construit pe cache e clasamentul cache-ului. Dacă datele au peste o zi, rescanează înainte, nu după.
 
-### 1. Nu clasa nimic după €/mp (de 3 ori)
+### 1. Nu clasa nimic după €/mp
 
 €/mp premiază casa mare și dărâmată și pedepsește casa mică și terminată. A picat de două ori: o dată la Turnișor 139.000, care ieșea prima pe €/mp și era o carcasă golită; a doua oară la Turnișor 210.000, pe care am respins-o pe €/mp deși pe cost total până e locuibilă câștiga.
 
 **Clasează pe cost total până e locuibilă.** Preț cerut + renovare + ce lipsește. €/mp apare cel mult ca o coloană informativă, niciodată colorată, niciodată ca argument.
 
-### 1b. O cifră de cost poartă casa și scopul pentru care a fost calculată (de 4 ori)
+### 1b. O cifră de cost poartă casa și scopul pentru care a fost calculată
 
 Cei 55.000 € puși pe Turnișor erau **o regulă generală pentru tot ce e marcat „de renovat"**, nu un calcul pe casa aia; real ieșea 83.000–136.000. Electrica de 3.000–5.000 era umflată — 2.500–4.000. Centrala de 4.000 era 1.500, pentru că în poze erau deja calorifere și țeavă de cupru. Iar un buget de acoperiș îl calculasem pe 60 mp de cameră, nu pe suprafața învelitorii.
 
@@ -79,7 +79,7 @@ Toate medianele din Storia, VDI și presă sunt prețuri cerute, **de anunțuri 
 
 **Rulează `node tools/vandute.js` înainte de orice mediană.** El compară snapshoturile cu lista de azi, cere pagina fiecărui anunț dispărut și citește câmpul `status`: `removed_by_user` (scos de proprietar), `expired` (a expirat singur), `active` (doar a ieșit din filtre). Apoi compară `createdAt` cu `modifiedAt` ca să afle câte zile a stat.
 
-**Dar nici cifra care iese din el nu e o statistică.** Pe 2 octombrie am citat „23 de case scoase în sub 60 de zile, mediană 180.000 €". Pe 3 octombrie, aceeași comandă, după ce am scos trei intrări cu date stricate: **20 de case, mediană 170.000 €**. S-a mișcat cu 10.000 € peste noapte, iar prețurile din eșantion mergeau **de la 59.999 la 249.000 €** — o garsonieră și o vilă în aceeași mediană.
+**Dar nici cifra care iese din el nu e o statistică.** Aceeași comandă, rulată a doua zi după ce am scos trei intrări cu date stricate, a mutat mediana cu 10.000 € peste noapte, iar prețurile din eșantion mergeau **de la 59.999 la 249.000 €** — o garsonieră și o vilă în aceeași mediană.
 
 **Deci: desfă mediana înainte s-o citezi.** Arată `n`, intervalul min–max și câte intrări au date stricate. Dacă spread-ul e de câteva ori mai mare decât mediana, nu e o cifră, e o coincidență — spune asta și nu construi nimic pe ea.
 
@@ -87,19 +87,19 @@ Avertismentul care merge mereu cu ea: `removed_by_user` nu dovedește o vânzare
 
 Sub 10 comparabile, spune că eșantionul e subțire. Peste 10, tot arată compoziția.
 
-### 8. Același imobil apare la prețuri diferite (de 2 ori)
+### 8. Același imobil apare la prețuri diferite
 
 Casa de pe Berzelor era listată de patru agenții la 163.000, 177.000, 177.000 și 200.000 €. Separat, am prezentat Calea Surii Mici ca descoperire nouă — era același link, din 14 septembrie, doar cu alt titlu.
 
 **Potrivirea se face pe id-ul stabil de la capătul linkului** (`/-(ID[A-Za-z0-9]+)/`), nu pe titlu. Pentru duplicatele între agenții, compară teren, amprentă, garaj și număr de pivnițe.
 
-### 9. Citează sursa fiecărei afirmații în momentul în care o scrii (de 3 ori)
+### 9. Citează sursa fiecărei afirmații în momentul în care o scrii
 
 „Actele sunt curate" venea dintr-o propoziție de agenție, nu dintr-un extras CF. Cei „260 mp curte" la Țiglari erau terenul total, nu curtea — și pe cifra aia greșită trecea de filtrul lui de 100 mp. Iar comisionul de 2% pe care am construit două tabele cu TVA nu apărea nicăieri în anunț: `grep -c -i "comision"` → `0`.
 
 **O propoziție din anunț se citează ca afirmația agenției, nu se repetă ca fapt.** O cifră neverificată nu se înmulțește într-un tabel.
 
-### 10. Nimic nu e gata până nu se vede publicat (de 7 ori)
+### 10. Nimic nu e gata până nu se vede publicat
 
 Cea mai repetată greșeală din toată conversația. Clasamente, tabele cu mașini, prețuri corectate, ordinea pe pagină — toate anunțate ca făcute, toate existând doar în chat.
 
