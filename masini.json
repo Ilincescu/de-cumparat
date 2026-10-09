@@ -463,6 +463,19 @@
    "d": "2026-10-02"
   },
   {
+   "m": "Renault Express",
+   "an": 2023,
+   "km": 57540,
+   "cp": 90,
+   "f": "diesel",
+   "p": 7800,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQwGp.html",
+   "warn": null,
+   "d": "2026-10-09"
+  },
+  {
    "m": "Nissan Qashqai",
    "an": 2015,
    "km": 92000,
@@ -717,7 +730,9 @@
    "src": "autovit",
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-1-5-blue-dci-laureate-ID7HQPVC.html",
    "warn": null,
-   "d": "2026-09-28"
+   "d": "2026-09-28",
+   "mort": true,
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Volkswagen Tiguan 1.4 TSI BMT Sport&Style",
@@ -907,7 +922,9 @@
    "src": "autovit",
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HDtbL.html",
    "warn": null,
-   "d": "2026-09-09"
+   "d": "2026-09-09",
+   "mort": true,
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Dacia Dokker 1.5 Blue dCi Laureate",
@@ -1003,7 +1020,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ver-1-0-passion-ID7HQK7M.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -1231,6 +1250,19 @@
    "d": "2026-09-24"
   },
   {
+   "m": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
+   "an": 2021,
+   "km": 94700,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 9500,
+   "z": "Urseni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQJak.html",
+   "warn": null,
+   "d": "2026-10-05"
+  },
+  {
    "m": "Dacia Sandero Stepway",
    "an": 2022,
    "km": 90050,
@@ -1430,7 +1462,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-5-dci-n-connecta-ID7HPa3U.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Citroën C3 AIRCROSS 1.2 PureTech S&S EAT6 Shine Pack",
@@ -2196,7 +2230,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-2-0-dsl-6at-4x4-style-ID7HQK8n.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Dacia Sandero TCe 90 Essential",
@@ -2402,6 +2438,19 @@
    "z": "Chitila",
    "src": "autovit",
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ID7HKeUF.html",
+   "warn": null,
+   "d": "2026-09-18"
+  },
+  {
+   "m": "Opel Crossland 1.2 Start/Stop Aut. Elegance",
+   "an": 2023,
+   "km": 85040,
+   "cp": 130,
+   "f": "benzina",
+   "p": 10950,
+   "z": "Chitila",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-start-stop-aut-elegance-ID7HKeUF.html",
    "warn": null,
    "d": "2026-09-18"
   },
@@ -2940,6 +2989,32 @@
    "d": "2026-10-02"
   },
   {
+   "m": "Peugeot 3008",
+   "an": 2020,
+   "km": 91300,
+   "cp": 130,
+   "f": "benzina",
+   "p": 11300,
+   "z": "Salcia",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ID7HQSSF.html",
+   "warn": null,
+   "d": "2026-10-09"
+  },
+  {
+   "m": "Renault Captur TCe 90 Intens",
+   "an": 2022,
+   "km": 93580,
+   "cp": 90,
+   "f": "benzina",
+   "p": 11350,
+   "z": "Otopeni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-90-intens-ID7HMap1.html",
+   "warn": null,
+   "d": "2026-09-24"
+  },
+  {
    "m": "Dacia Duster ECO-G 100 SL BlueLine",
    "an": 2020,
    "km": 85720,
@@ -2976,7 +3051,9 @@
    "src": "autovit",
    "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HKi8C.html",
    "warn": null,
-   "d": "2026-09-09"
+   "d": "2026-09-09",
+   "mort": true,
+   "mort_din": "2026-10-09"
   },
   {
    "m": "Suzuki Vitara",

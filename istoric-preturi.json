@@ -14011,6 +14011,10 @@
     {
      "d": "2026-10-04",
      "p": 75182
+    },
+    {
+     "d": "2026-10-09",
+     "p": 70950
     }
    ]
   },
@@ -14061,6 +14065,10 @@
     {
      "d": "2026-10-04",
      "p": 66473
+    },
+    {
+     "d": "2026-10-09",
+     "p": 67617
     }
    ]
   },
@@ -14071,6 +14079,10 @@
     {
      "d": "2026-10-04",
      "p": 99999
+    },
+    {
+     "d": "2026-10-09",
+     "p": 103840
     }
    ]
   },
@@ -21987,6 +21999,146 @@
     {
      "d": "2026-10-08",
      "p": 11500
+    }
+   ]
+  },
+  "IDIPkY": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-sadu-IDIPkY",
+   "t": "Casa de vanzare Sadu",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 250000
+    }
+   ]
+  },
+  "IDIPdF": {
+   "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-in-selimbar-acces-auto-in-curte-si-2-locuri-de-parcare-IDIPdF",
+   "t": "Casa de vanzare in Selimbar acces auto in curte si 2 locuri de parcare",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 248280
+    }
+   ]
+  },
+  "IDHzjT": {
+   "u": "https://www.storia.ro/ro/oferta/cas-individual-de-vnzare-terezian-sibiu-4-camere-curte-proprie-IDHzjT",
+   "t": "CASĂ INDIVIDUALĂ DE VÂNZARE | TEREZIAN SIBIU | 4 CAMERE CURTE PROPRIE",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 210000
+    }
+   ]
+  },
+  "IDIPsK": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-43-mpu-pivnita-zona-orasul-de-jos-din-sibiu-IDIPsK",
+   "t": "Garsoniera de vanzare 43 mpu pivnita zona Orasul de Jos din Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 105000
+    }
+   ]
+  },
+  "IDIPno": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-rahova-IDIPno",
+   "t": "Apartament 2 camere zona Rahova",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 82000
+    }
+   ]
+  },
+  "IDIPeI": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-pivnita-decomandat-strada-nicolae-iorga-IDIPeI",
+   "t": "Apartament 2 camere+pivnita, decomandat, Strada Nicolae Iorga.",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 105000
+    }
+   ]
+  },
+  "IDIPdm": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-i-teras-de-40-mp-parcare-i-box-turnisor-IDIPdm",
+   "t": "Apartament cu 2 camere și terasă de 40 mp, parcare și boxă - Turnisor",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 109000
+    }
+   ]
+  },
+  "IDIP45": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-modern-cu-2-camere-de-inchiriat-IDIP45",
+   "t": "Apartament modern cu 2 camere de inchiriat",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 500
+    }
+   ]
+  },
+  "IDIP1d": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-si-balcon-etaj-1-zona-rahova-IDIP1d",
+   "t": "Apartament 2 camere decomandat si balcon etaj 1 zona Rahova",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 105000
+    }
+   ]
+  },
+  "IDIOYI": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-si-balcon-etaj-1-zona-rahova-IDIOYI",
+   "t": "Apartament 2 camere decomandat si balcon etaj 1 zona Rahova",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 105000
+    }
+   ]
+  },
+  "IDIOWK": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-in-sibiu-ideala-pt-investitie-mobilata-si-utilata-IDIOWK",
+   "t": "Garsoniera in Sibiu - ideala pt investitie - mobilata si utilata",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 65000
+    }
+   ]
+  },
+  "IDHQ84": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-3-bulevardul-mihai-viteazu-IDHQ84",
+   "t": "APARTAMENT 2 CAMERE | ETAJ 3 | BULEVARDUL MIHAI VITEAZU",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 75000
+    }
+   ]
+  },
+  "IDFTqg": {
+   "u": "https://www.storia.ro/ro/oferta/studio-nou-balcon-5-8-mp-parcare-incalzire-in-pardoseala-IDFTqg",
+   "t": "Studio Nou | Balcon 5,8 mp | Parcare | Incalzire in Pardoseala",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 73950
+    }
+   ]
+  },
+  "ID7HQLEZ": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-3-157cp-2wd-tekna-dct-ID7HQLEZ.html",
+   "t": "Nissan Qashqai 1.3 157CP 2WD Tekna DCT",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 8499
     }
    ]
   }

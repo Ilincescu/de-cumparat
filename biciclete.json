@@ -96,7 +96,9 @@
    "src": "olx",
    "u": "https://www.olx.ro/d/oferta/scott-speedster-20-bicicleta-sosea-marimea-m-echipare-105-IDkWknw.html",
    "warn": "54 cm - prea mica pentru 181 cm",
-   "d": "2026-09-14"
+   "d": "2026-09-14",
+   "mort": true,
+   "mort_din": "2026-10-09"
   },
   {
    "t": "Merida Scultura 500 disc",
