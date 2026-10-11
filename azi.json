@@ -1,8 +1,8 @@
 {
- "generat": "2026-10-09 17:14",
- "de_la": "2026-10-08",
- "pana_la": "2026-10-09",
- "case_noi": 3,
+ "generat": "2026-10-11 15:25",
+ "de_la": "2026-10-09",
+ "pana_la": "2026-10-11",
+ "case_noi": 2,
  "case_trec": 0,
  "din_rezerva": false,
  "masini_din_rezerva": false,
@@ -10,20 +10,20 @@
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-10-09 17:05",
+   "cand": "2026-10-11 15:16",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1463,
-   "potrivite": 257,
+   "gasite": 1478,
+   "potrivite": 258,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-09 17:06",
+   "cand": "2026-10-11 15:16",
    "ce": "2020+, sub 11500 €, sub 100000 km, toată țara",
-   "gasite": 679,
-   "potrivite": 137,
+   "gasite": 678,
+   "potrivite": 138,
    "stare": "azi",
    "veche": false
   }
@@ -31,24 +31,34 @@
  "case": [],
  "masini": [
   {
-   "pret": 7800,
-   "model": "Renault Express",
-   "an": 2023,
-   "km": 57540,
-   "zona": "Bucuresti",
+   "pret": 10490,
+   "model": "Dacia Sandero Stepway TCe 90 Essential",
+   "an": 2022,
+   "km": 56425,
+   "zona": "Tohanu Nou",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQwGp.html",
-   "scor": 53
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-essential-ID7HQxb0.html",
+   "scor": 39
   },
   {
-   "pret": 11300,
-   "model": "Peugeot 3008",
+   "pret": 8000,
+   "model": "Dacia Sandero Stepway",
    "an": 2020,
-   "km": 91300,
-   "zona": "Salcia",
+   "km": 32654,
+   "zona": "Bucuresti",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ID7HQSSF.html",
-   "scor": 11
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQNxB.html",
+   "scor": 36
+  },
+  {
+   "pret": 9400,
+   "model": "Dacia Sandero Stepway",
+   "an": 2021,
+   "km": 96650,
+   "zona": "Floresti",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQBI8.html",
+   "scor": 22
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-09",
+ "actualizat": "2026-10-11",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -4615,7 +4615,7 @@
   },
   {
    "k": "ap",
-   "p": 110000,
+   "p": 102000,
    "t": "Apartament 2 Camere | Decomandat | Mihai viteazu",
    "z": "Hipodrom III, Sibiu",
    "r": 2,
@@ -4626,7 +4626,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-mihai-viteazu-IDIBdj",
    "warn": null,
-   "d": "2026-09-25"
+   "d": "2026-10-11"
   },
   {
    "k": "ap",
@@ -6037,7 +6037,7 @@
   },
   {
    "k": "casa",
-   "p": 217000,
+   "p": 198000,
    "t": "Casa Individuala I 4 Camere I Acces auto I Curte I Terezian",
    "z": "Terezian, Sibiu",
    "r": 4,
@@ -6048,7 +6048,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-i-4-camere-i-acces-auto-i-curte-i-terezian-IDEqhl",
    "warn": null,
-   "d": "2026-09-30"
+   "d": "2026-10-11"
   },
   {
    "k": "casa",
@@ -8272,7 +8272,7 @@
   },
   {
    "k": "ap",
-   "p": 67001,
+   "p": 67000,
    "t": "Apartament 2 camere | zona Cedonia",
    "z": "Hipodrom III, Sibiu",
    "r": 2,
@@ -8283,7 +8283,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-cedonia-IDHhKy",
    "warn": null,
-   "d": "2026-10-04"
+   "d": "2026-10-11"
   },
   {
    "k": "ap",
@@ -10927,7 +10927,7 @@
   },
   {
    "k": "ap",
-   "p": 89999,
+   "p": 99000,
    "t": "Apartament de vânzare Sibiu | 2 camere | Vasile Aaron | 54 mp",
    "z": "Vasile Aaron, Sibiu",
    "r": 2,
@@ -10938,7 +10938,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-vasile-aaron-54-mp-IDIMja",
    "warn": null,
-   "d": "2026-10-08"
+   "d": "2026-10-11"
   },
   {
    "k": "ap",
@@ -11422,7 +11422,7 @@
   },
   {
    "k": "ap",
-   "p": 100000,
+   "p": 105000,
    "t": "Apartament 2 camere balcon pivnita etajul 1 zona Siretului Sibiu",
    "z": "Valea Aurie, Sibiu",
    "r": 2,
@@ -11433,7 +11433,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-pivnita-etajul-1-zona-siretului-sibiu-IDIwDg",
    "warn": null,
-   "d": "2026-10-08"
+   "d": "2026-10-11"
   },
   {
    "k": "casa",
@@ -11554,6 +11554,111 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-la-cas-2-camere-zona-strada-9-mai-constituiei-IDI30T",
    "warn": null,
    "d": "2026-10-09"
+  },
+  {
+   "k": "ap",
+   "p": 75000,
+   "t": "Apartament Cedonia confort 3, etaj 4, 34 m²",
+   "z": "Strand I, Sibiu",
+   "r": 2,
+   "a": 34,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-cedonia-confort-3-etaj-4-34-m-IDIPYA",
+   "warn": null,
+   "d": "2026-10-11"
+  },
+  {
+   "k": "ap",
+   "p": 100000,
+   "t": "Studio modern - 40,8 mp utili, balcon, boxa, loc de parcare",
+   "z": "Zona Industriala Est, Sibiu",
+   "r": 2,
+   "a": 40.8,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/studio-modern-40-8-mp-utili-balcon-boxa-loc-de-parcare-IDIPWP",
+   "warn": null,
+   "d": "2026-10-11"
+  },
+  {
+   "k": "ap",
+   "p": 94500,
+   "t": "Apartament cu 2 camere și curte proprie de 21 mp - Lacul Binder",
+   "z": "Tiglari, Sibiu",
+   "r": 2,
+   "a": 43.63,
+   "g": "curte libera 21 mp",
+   "gm": 21,
+   "c": "proprie",
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-i-curte-proprie-de-21-mp-lacul-binder-IDIPUG",
+   "warn": null,
+   "d": "2026-10-11"
+  },
+  {
+   "k": "ap",
+   "p": 91000,
+   "t": "2 camere cu grădină de 21 mp și loc de parcare. Lacul lui Binder-Sibiu",
+   "z": "Tiglari, Sibiu",
+   "r": 2,
+   "a": 40.3,
+   "g": "curte libera 21 mp",
+   "gm": 21,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/2-camere-cu-grdin-de-21-mp-i-loc-de-parcare-lacul-lui-binder-sibiu-IDIPOZ",
+   "warn": null,
+   "d": "2026-10-11"
+  },
+  {
+   "k": "ap",
+   "p": 69000,
+   "t": "Apartament 2 camere, etaj intermediar, bucatarie separata, Cedonia",
+   "z": "Hipodrom I, Sibiu",
+   "r": 2,
+   "a": 37,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-intermediar-bucatarie-separata-cedonia-IDIPLX",
+   "warn": null,
+   "d": "2026-10-11"
+  },
+  {
+   "k": "ap",
+   "p": 81900,
+   "t": "Apartament 2 camere, etaj 5, mobilat în Lazaret",
+   "z": "Lazaret, Sibiu",
+   "r": 2,
+   "a": 55,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-5-mobilat-n-lazaret-IDIPGF",
+   "warn": null,
+   "d": "2026-10-11"
+  },
+  {
+   "k": "ap",
+   "p": 75000,
+   "t": "Apartament 2 camere | Balcon | Vasile Aaron | Sibiu",
+   "z": "Vasile Aaron, Sibiu",
+   "r": 2,
+   "a": 40,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-vasile-aaron-sibiu-IDIPvF",
+   "warn": null,
+   "d": "2026-10-11"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-09",
+ "actualizat": "2026-10-11",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -617,6 +617,10 @@
     {
      "d": "2026-10-07",
      "p": 135900
+    },
+    {
+     "d": "2026-10-09",
+     "p": 134900
     }
    ]
   },
@@ -2589,6 +2593,10 @@
     {
      "d": "2026-09-25",
      "p": 110000
+    },
+    {
+     "d": "2026-10-11",
+     "p": 102000
     }
    ]
   },
@@ -10757,6 +10765,10 @@
     {
      "d": "2026-09-30",
      "p": 217000
+    },
+    {
+     "d": "2026-10-11",
+     "p": 198000
     }
    ]
   },
@@ -15125,6 +15137,10 @@
     {
      "d": "2026-10-04",
      "p": 67001
+    },
+    {
+     "d": "2026-10-11",
+     "p": 67000
     }
    ]
   },
@@ -19545,6 +19561,10 @@
     {
      "d": "2026-10-08",
      "p": 115000
+    },
+    {
+     "d": "2026-10-11",
+     "p": 100000
     }
    ]
   },
@@ -19999,6 +20019,10 @@
     {
      "d": "2026-10-08",
      "p": 89999
+    },
+    {
+     "d": "2026-10-11",
+     "p": 99000
     }
    ]
   },
@@ -20669,6 +20693,10 @@
     {
      "d": "2026-10-08",
      "p": 100000
+    },
+    {
+     "d": "2026-10-11",
+     "p": 105000
     }
    ]
   },
@@ -22139,6 +22167,166 @@
     {
      "d": "2026-10-09",
      "p": 8499
+    }
+   ]
+  },
+  "IDIPUN": {
+   "u": "https://www.storia.ro/ro/oferta/casa-2-camere-37mp-si-curte-25mp-in-piata-cluj-IDIPUN",
+   "t": "Casa 2 Camere-37mp, si Curte 25mp in Piata Cluj",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 61900
+    }
+   ]
+  },
+  "IDIPYA": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cedonia-confort-3-etaj-4-34-m-IDIPYA",
+   "t": "Apartament Cedonia confort 3, etaj 4, 34 m²",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 75000
+    }
+   ]
+  },
+  "IDIPWP": {
+   "u": "https://www.storia.ro/ro/oferta/studio-modern-40-8-mp-utili-balcon-boxa-loc-de-parcare-IDIPWP",
+   "t": "Studio modern - 40,8 mp utili, balcon, boxa, loc de parcare",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 100000
+    }
+   ]
+  },
+  "IDIPUG": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-i-curte-proprie-de-21-mp-lacul-binder-IDIPUG",
+   "t": "Apartament cu 2 camere și curte proprie de 21 mp - Lacul Binder",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 94500
+    }
+   ]
+  },
+  "IDIPOZ": {
+   "u": "https://www.storia.ro/ro/oferta/2-camere-cu-grdin-de-21-mp-i-loc-de-parcare-lacul-lui-binder-sibiu-IDIPOZ",
+   "t": "2 camere cu grădină de 21 mp și loc de parcare. Lacul lui Binder-Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 91000
+    }
+   ]
+  },
+  "IDIPLX": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-intermediar-bucatarie-separata-cedonia-IDIPLX",
+   "t": "Apartament 2 camere, etaj intermediar, bucatarie separata, Cedonia",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 69000
+    }
+   ]
+  },
+  "IDIPLV": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-cocheta-in-valea-aurie-etaj-1-35-mpu-balcon-boxa-IDIPLV",
+   "t": "Garsoniera cocheta in Valea Aurie, etaj 1, 35 mpu, balcon, boxa",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 76000
+    }
+   ]
+  },
+  "IDIPIo": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-3-camere-de-vnzare-n-zona-iglari-sibiu-IDIPIo",
+   "t": "Apartament 3 camere de vânzare în zona Țiglari, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 71999
+    }
+   ]
+  },
+  "IDIPGF": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-5-mobilat-n-lazaret-IDIPGF",
+   "t": "Apartament 2 camere, etaj 5, mobilat în Lazaret",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 81900
+    }
+   ]
+  },
+  "IDIPvF": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-vasile-aaron-sibiu-IDIPvF",
+   "t": "Apartament 2 camere | Balcon | Vasile Aaron | Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 75000
+    }
+   ]
+  },
+  "IDIPvf": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-renovata-mobilata-etaj-1-vasile-aaron-sibiu-IDIPvf",
+   "t": "Garsoniera renovata, mobilata -etaj 1 – Vasile Aaron, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 45000
+    }
+   ]
+  },
+  "IDI3BD": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-1-camera-autogrii-comision-0-IDI3BD",
+   "t": "Apartament 1 camera | Autogării | Comision 0%",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 74999
+    }
+   ]
+  },
+  "ID7HQwGp": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQwGp.html",
+   "t": "Renault Express",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 7800
+    }
+   ]
+  },
+  "ID7HQJak": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQJak.html",
+   "t": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 9500
+    }
+   ]
+  },
+  "ID7HQSSF": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ID7HQSSF.html",
+   "t": "Peugeot 3008",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 11300
+    }
+   ]
+  },
+  "ID7HMap1": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-90-intens-ID7HMap1.html",
+   "t": "Renault Captur TCe 90 Intens",
+   "preturi": [
+    {
+     "d": "2026-10-09",
+     "p": 11350
     }
    ]
   }
