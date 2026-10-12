@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-11",
+ "actualizat": "2026-10-12",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -4603,6 +4603,10 @@
     {
      "d": "2026-09-28",
      "p": 74900
+    },
+    {
+     "d": "2026-10-12",
+     "p": 71900
     }
    ]
   },
@@ -15979,6 +15983,10 @@
     {
      "d": "2026-10-04",
      "p": 74900
+    },
+    {
+     "d": "2026-10-12",
+     "p": 71900
     }
    ]
   },
@@ -22327,6 +22335,286 @@
     {
      "d": "2026-10-09",
      "p": 11350
+    }
+   ]
+  },
+  "IDIQ7F": {
+   "u": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-de-vanzare-si-garaj-zona-lazaret-din-sibiu-IDIQ7F",
+   "t": "Casa cu 4 camere de vanzare si garaj zona Lazaret din Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 209900
+    }
+   ]
+  },
+  "IDIQ1u": {
+   "u": "https://www.storia.ro/ro/oferta/casa-tip-duplex-de-vanzare-la-curte-comuna-pivnita-in-piata-cluj-sibiu-IDIQ1u",
+   "t": "Casa tip duplex de vanzare la curte comuna pivnita in Piata Cluj Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 75990
+    }
+   ]
+  },
+  "IDIQ1p": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-cu-pompa-de-caldura-si-panouri-fotovoltaice-IDIQ1p",
+   "t": "Casa individuala 4 camere cu pompa de caldura si panouri fotovoltaice",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 244990
+    }
+   ]
+  },
+  "IDIQ5A": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-la-cas-cu-2-camere-i-grdin-proprie-de-20-mp-IDIQ5A",
+   "t": "Apartament la casă cu 2 camere și grădină proprie de 20 mp",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 110000
+    }
+   ]
+  },
+  "IDIQ5d": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-de-vanzare-2-camere-strand-etaj-4-acoperis-IDIQ5d",
+   "t": "Apartament decomandat de vanzare 2 camere Strand etaj 4 acoperis",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 99000
+    }
+   ]
+  },
+  "IDIQ4J": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-decomandate-de-vanzare-in-cartierul-strand-i-IDIQ4J",
+   "t": "Apartament cu 2 camere decomandate de vanzare in Cartierul Strand I",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 99900
+    }
+   ]
+  },
+  "IDIQ4D": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-spatioasa-de-vanzare-cu-parcare-parter-m-viteazul-selimbar-IDIQ4D",
+   "t": "Garsoniera spatioasa de vanzare cu parcare parter M Viteazul Selimbar",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 65000
+    }
+   ]
+  },
+  "IDIQ3Q": {
+   "u": "https://www.storia.ro/ro/oferta/comision-0-apartament-decomandat-4-camere-90-mpu-vasile-aaron-sibiu-IDIQ3Q",
+   "t": "COMISION 0 - Apartament decomandat 4 camere 90 mpu Vasile Aaron Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 87490
+    }
+   ]
+  },
+  "IDIQ3P": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-pretabil-regim-hotelier-zona-doamna-stanca-IDIQ3P",
+   "t": "Apartament decomandat pretabil regim hotelier zona Doamna Stanca",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 89000
+    }
+   ]
+  },
+  "IDIQ3O": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-43-mpu-2-camere-zona-doamna-stanca-sibiu-IDIQ3O",
+   "t": "Apartament decomandat 43 mpu 2 camere zona Doamna Stanca Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 108900
+    }
+   ]
+  },
+  "IDIQ3k": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-cu-2-camere-si-parcare-doamna-stanca-IDIQ3k",
+   "t": "Apartament de vanzare cu 2 camere si parcare Doamna Stanca",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 87999
+    }
+   ]
+  },
+  "IDIQ3j": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-modern-de-vanzare-2-camere-semidecomandate-zona-rahovei-IDIQ3j",
+   "t": "Apartament modern de vanzare 2 camere semidecomandate zona Rahovei",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 100000
+    }
+   ]
+  },
+  "IDIQ37": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-spatios-si-decomandat-de-vanzare-parcare-balcon-selimbar-IDIQ37",
+   "t": "Apartament spatios si decomandat de vanzare parcare balcon Selimbar",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 98000
+    }
+   ]
+  },
+  "IDIQ35": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-la-casa-2-camere-zona-orasul-de-jos-sibiu-IDIQ35",
+   "t": "Apartament de vanzare la casa 2 camere zona Orasul de Jos Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 89990
+    }
+   ]
+  },
+  "IDIQ2G": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-decomandate-pivnita-in-orasul-de-jos-IDIQ2G",
+   "t": "Apartament de vanzare 2 camere decomandate pivnita in Orasul de Jos",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 95000
+    }
+   ]
+  },
+  "IDIQ2B": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-in-bloc-renovat-integral-in-zona-lazaret-sibiu-IDIQ2B",
+   "t": "Garsoniera de vanzare in bloc renovat integral in zona Lazaret Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 56900
+    }
+   ]
+  },
+  "IDIQ2A": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-la-casa-de-vanzare-cu-cu-pivnita-selimbar-sibiu-IDIQ2A",
+   "t": "Apartament 2 camere  la casa de vanzare cu cu pivnita Selimbar Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 89850
+    }
+   ]
+  },
+  "IDIQ2v": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-50-mpu-2-camere-in-sibiu-zona-strand-IDIQ2v",
+   "t": "Apartament de vanzare 50 mpu 2 camere in Sibiu zona Strand",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 58000
+    }
+   ]
+  },
+  "IDIQ1R": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-la-casa-2-camere-58-utili-in-orasul-de-jos-sibiu-IDIQ1R",
+   "t": "Apartament de vanzare la casa 2 camere 58 utili in Orasul de Jos Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 109000
+    }
+   ]
+  },
+  "IDIQ1M": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-cocheta-30-mp-la-parter-de-vanzare-ultracentral-sibiu-IDIQ1M",
+   "t": "Garsoniera cocheta 30 mp la parter de vanzare Ultracentral Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 69000
+    }
+   ]
+  },
+  "IDIQ1w": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-intabulat-3-camere-65-mp-cu-balcon-zona-linistita-IDIQ1w",
+   "t": "Apartament intabulat 3 camere 65 mp cu balcon zona linistita",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 86990
+    }
+   ]
+  },
+  "IDIQ1o": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-47-mpu-logie-loc-de-parcare-zona-brana-selimbar-IDIQ1o",
+   "t": "Garsoniera de vanzare 47 mpu logie loc de parcare zona Brana Selimbar",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 105000
+    }
+   ]
+  },
+  "IDIQ1h": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-3-camere-balcon-mobilat-totul-nou-mihai-viteazul-IDIQ1h",
+   "t": "Apartament de vanzare 3 camere balcon mobilat totul nou Mihai Viteazul",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 108000
+    }
+   ]
+  },
+  "ID7HQNxB": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQNxB.html",
+   "t": "Dacia Sandero Stepway",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 8000
+    }
+   ]
+  },
+  "ID7HQBI8": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQBI8.html",
+   "t": "Dacia Sandero Stepway",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 9400
+    }
+   ]
+  },
+  "ID7HQxb0": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-essential-ID7HQxb0.html",
+   "t": "Dacia Sandero Stepway TCe 90 Essential",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 10490
+    }
+   ]
+  },
+  "ID7HQThw": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQThw.html",
+   "t": "Dacia Duster",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 11000
+    }
+   ]
+  },
+  "ID7HQGog": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-expression-ID7HQGog.html",
+   "t": "Dacia Sandero Stepway TCe 90 MT6 Expression",
+   "preturi": [
+    {
+     "d": "2026-10-11",
+     "p": 11250
     }
    ]
   }
