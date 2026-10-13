@@ -83,7 +83,7 @@
    "warn": "M/L - cere cotele cadrului inainte de drum",
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-12"
+   "mort_din": "2026-10-13"
   },
   {
    "t": "Scott Speedster 20",
@@ -98,7 +98,7 @@
    "warn": "54 cm - prea mica pentru 181 cm",
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-12"
+   "mort_din": "2026-10-13"
   },
   {
    "t": "Merida Scultura 500 disc",
@@ -152,7 +152,7 @@
    "warn": "58 cm e la limita de sus pentru 181 cm - proba obligatorie",
    "d": "2026-09-24",
    "mort": true,
-   "mort_din": "2026-10-12"
+   "mort_din": "2026-10-13"
   },
   {
    "t": "Felt F5, full carbon",

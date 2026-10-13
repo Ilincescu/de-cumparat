@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-12",
+ "actualizat": "2026-10-13",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -63,6 +63,10 @@
     {
      "d": "2026-09-22",
      "p": 152800
+    },
+    {
+     "d": "2026-10-13",
+     "p": 152000
     }
    ]
   },
@@ -415,6 +419,10 @@
     {
      "d": "2026-09-29",
      "p": 80000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 77000
     }
    ]
   },
@@ -1199,6 +1207,10 @@
     {
      "d": "2026-09-23",
      "p": 152800
+    },
+    {
+     "d": "2026-10-13",
+     "p": 152000
     }
    ]
   },
@@ -2331,6 +2343,10 @@
     {
      "d": "2026-09-25",
      "p": 99900
+    },
+    {
+     "d": "2026-10-13",
+     "p": 99000
     }
    ]
   },
@@ -2637,6 +2653,10 @@
     {
      "d": "2026-09-25",
      "p": 84000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 82000
     }
    ]
   },
@@ -2823,6 +2843,10 @@
     {
      "d": "2026-10-02",
      "p": 50999
+    },
+    {
+     "d": "2026-10-13",
+     "p": 53000
     }
    ]
   },
@@ -3219,6 +3243,10 @@
     {
      "d": "2026-09-25",
      "p": 110000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 105000
     }
    ]
   },
@@ -4149,6 +4177,10 @@
     {
      "d": "2026-09-25",
      "p": 110000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 102000
     }
    ]
   },
@@ -4459,6 +4491,10 @@
     {
      "d": "2026-09-27",
      "p": 95000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 94900
     }
    ]
   },
@@ -5851,6 +5887,10 @@
     {
      "d": "2026-09-21",
      "p": 204999
+    },
+    {
+     "d": "2026-10-13",
+     "p": 205000
     }
    ]
   },
@@ -6575,6 +6615,10 @@
     {
      "d": "2026-09-21",
      "p": 67500
+    },
+    {
+     "d": "2026-10-13",
+     "p": 63900
     }
    ]
   },
@@ -9935,6 +9979,10 @@
     {
      "d": "2026-09-30",
      "p": 56895
+    },
+    {
+     "d": "2026-10-13",
+     "p": 56800
     }
    ]
   },
@@ -11277,6 +11325,10 @@
     {
      "d": "2026-10-04",
      "p": 64000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 59000
     }
    ]
   },
@@ -11515,6 +11567,10 @@
     {
      "d": "2026-10-04",
      "p": 108799
+    },
+    {
+     "d": "2026-10-13",
+     "p": 108800
     }
    ]
   },
@@ -13747,6 +13803,10 @@
     {
      "d": "2026-10-04",
      "p": 95000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 94900
     }
    ]
   },
@@ -13887,6 +13947,10 @@
     {
      "d": "2026-10-04",
      "p": 92000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 91999
     }
    ]
   },
@@ -14787,6 +14851,10 @@
     {
      "d": "2026-10-04",
      "p": 70000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 65000
     }
    ]
   },
@@ -15449,6 +15517,10 @@
     {
      "d": "2026-10-04",
      "p": 50999
+    },
+    {
+     "d": "2026-10-13",
+     "p": 53000
     }
    ]
   },
@@ -15499,6 +15571,10 @@
     {
      "d": "2026-10-04",
      "p": 79000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 81500
     }
    ]
   },
@@ -16895,6 +16971,10 @@
     {
      "d": "2026-10-04",
      "p": 70000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 59900
     }
    ]
   },
@@ -18645,6 +18725,10 @@
     {
      "d": "2026-10-04",
      "p": 100000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 110000
     }
    ]
   },
@@ -20331,6 +20415,10 @@
     {
      "d": "2026-10-08",
      "p": 65000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 63800
     }
    ]
   },
@@ -20521,6 +20609,10 @@
     {
      "d": "2026-10-08",
      "p": 102000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 98000
     }
    ]
   },
@@ -20531,6 +20623,10 @@
     {
      "d": "2026-10-08",
      "p": 102000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 98000
     }
    ]
   },
@@ -20705,6 +20801,10 @@
     {
      "d": "2026-10-11",
      "p": 105000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 100000
     }
    ]
   },
@@ -22155,6 +22255,10 @@
     {
      "d": "2026-10-09",
      "p": 75000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 83000
     }
    ]
   },
@@ -22455,6 +22559,10 @@
     {
      "d": "2026-10-12",
      "p": 100000
+    },
+    {
+     "d": "2026-10-13",
+     "p": 97000
     }
    ]
   },
@@ -22615,6 +22723,366 @@
     {
      "d": "2026-10-11",
      "p": 11250
+    }
+   ]
+  },
+  "IDIRku": {
+   "u": "https://www.storia.ro/ro/oferta/cas-de-vanzare-pe-strada-lung-sibiu-IDIRku",
+   "t": "CASĂ DE VANZARE PE STRADA LUNGĂ – SIBIU!",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 120000
+    }
+   ]
+  },
+  "IDIR7w": {
+   "u": "https://www.storia.ro/ro/oferta/casa-4-camere-cu-teren-503-mp-si-acces-auto-in-curte-comision-0-IDIR7w",
+   "t": "Casa 4 camere cu teren 503 mp si acces auto in curte - Comision 0",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 129990
+    }
+   ]
+  },
+  "IDIQJM": {
+   "u": "https://www.storia.ro/ro/oferta/cabana-cu-teren-640-mp-tropinii-noi-sibiu-puz-aprobat-IDIQJM",
+   "t": "Cabana cu teren 640 mp Tropinii Noi ,Sibiu PUZ aprobat",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 74900
+    }
+   ]
+  },
+  "IDIg8n": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-si-curte-la-cheie-zona-terezian-IDIg8n",
+   "t": "Casa individuala 4 camere si curte la cheie zona Terezian",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 250000
+    }
+   ]
+  },
+  "IDIRBn": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-la-cheie-calea-surii-mici-0-comision-IDIRBn",
+   "t": "Apartament 2 camere la cheie, Calea Surii Mici 0% Comision",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 80000
+    }
+   ]
+  },
+  "IDIRzN": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-mobilat-i-utilat-zona-tilica-46-9-mp-utili-IDIRzN",
+   "t": "Garsonieră  mobilată și utilată, zona Tilișca, 46,9 mp utili",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 77000
+    }
+   ]
+  },
+  "IDIRtA": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-decomandate-balcon-zona-mihai-viteazu-sibiu-IDIRtA",
+   "t": "Apartament cu 2 camere decomandate balcon zona Mihai Viteazu Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 94900
+    }
+   ]
+  },
+  "IDIRqs": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-stefan-cel-mare-sibiu-IDIRqs",
+   "t": "Garsoniera de vanzare,Stefan cel mare,Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 52500
+    }
+   ]
+  },
+  "IDIRmE": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-in-sibiu-21-mp-la-parter-complet-renovat-in-sibiu-IDIRmE",
+   "t": "Garsoniera in sibiu 21 mp la parter complet renovat- in Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 57000
+    }
+   ]
+  },
+  "IDIRll": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-60-mp-curte-ideal-investitie-zona-centrala-IDIRll",
+   "t": "Apartament 2 camere - 60 mp, curte, ideal investitie - zona Centrala",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 99900
+    }
+   ]
+  },
+  "IDIR3L": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-lux-pretabila-investitie-boxa-loc-de-parcare-IDIR3L",
+   "t": "Garsoniera de lux, pretabila investitie + boxa, loc de parcare",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 81500
+    }
+   ]
+  },
+  "IDIR1F": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-cu-grdin-zona-lacul-lui-binder-IDIR1F",
+   "t": "APARTAMENT DE VÂNZARE CU GRĂDINĂ – ZONA LACUL LUI BINDER",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 91000
+    }
+   ]
+  },
+  "IDIQZb": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-3-camere-52mp-utili-etaj-3-zona-promenada-mall-IDIQZb",
+   "t": "Apartament cu 3 camere, 52mp utili, etaj 3 - Zona Promenada mall",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 98000
+    }
+   ]
+  },
+  "IDIQX0": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-elimbar-54-mp-bloc-nou-etajul-1-IDIQX0",
+   "t": "Apartament 2 camere Șelimbar, 54 mp, bloc nou, etajul 1",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 89000
+    }
+   ]
+  },
+  "IDIQUp": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-iglari-lacul-lui-binder-IDIQUp",
+   "t": "Apartament 2 camere de vânzare | Sibiu, Țiglari | Lacul lui Binder",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 47999
+    }
+   ]
+  },
+  "IDIQSE": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-3-camere-iglari-48-mp-IDIQSE",
+   "t": "Apartament de vânzare Sibiu | 3 camere | Țiglari | 48 mp",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 66999
+    }
+   ]
+  },
+  "IDIQRR": {
+   "u": "https://www.storia.ro/ro/oferta/oferta-apartament-2-camere-renovat-cu-pivnita-IDIQRR",
+   "t": "OFERTA, Apartament 2 camere renovat, cu Pivnita",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 82000
+    }
+   ]
+  },
+  "IDIQPJ": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-decomandata-29-mpu-zona-centrul-istoric-sibiu-IDIQPJ",
+   "t": "Garsoniera de vanzare decomandata 29 mpu zona Centrul Istoric Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 65000
+    }
+   ]
+  },
+  "IDIQLx": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-28mpu-tiglari-IDIQLx",
+   "t": "Apartament 2 Camere 28mpu - Tiglari",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 48900
+    }
+   ]
+  },
+  "IDIQKE": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-cu-terasa-40-mp-parcare-si-boxa-IDIQKE",
+   "t": "Apartament 2 camere cu terasa 40 mp, parcare si boxa",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 109000
+    }
+   ]
+  },
+  "IDIQHT": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-de-vnzare-n-zona-ultracentral-sibiu-ideal-pentru-regim-IDIQHT",
+   "t": "Garsonieră de Vânzare în Zona Ultracentrală Sibiu- Ideală pentru Regim",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 85000
+    }
+   ]
+  },
+  "IDIQEH": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-53-mpnou-mobilat-et-3dna-stanca-dedeman-IDIQEH",
+   "t": "Apartament 2 camere decomandat 53 mpNOU mobilat et 3dna Stanca Dedeman",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 92000
+    }
+   ]
+  },
+  "IDIQzE": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-etaj-intermediar-36mp-zona-vasile-aaron-IDIQzE",
+   "t": "Apartament 2 camere de vanzare etaj intermediar 36mp zona Vasile Aaron",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 73900
+    }
+   ]
+  },
+  "IDIQvZ": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-39-mp-utili-decomandat-mobilat-utilat-balcon-8-mp-IDIQvZ",
+   "t": "Apartament 2 camere 39 mp utili decomandat mobilat utilat balcon 8 mp",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 108000
+    }
+   ]
+  },
+  "IDIQvT": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-decomandata-26-mp-zona-turnisor-sibiu-IDIQvT",
+   "t": "Garsoniera de vanzare decomandata 26 mp zona Turnisor Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 64000
+    }
+   ]
+  },
+  "IDIQvv": {
+   "u": "https://www.storia.ro/ro/oferta/inchiriez-1-camera-recent-renovta-parcare-privata-zona-lazaret-IDIQvv",
+   "t": "INCHIRIEZ 1 camera,recent renovta,parcare privata, zona Lazaret",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 250
+    }
+   ]
+  },
+  "IDIQqA": {
+   "u": "https://www.storia.ro/ro/oferta/ap-modern-2-camere-2-balcoane-zona-turnisor-IDIQqA",
+   "t": "Ap modern, 2 camere, 2 balcoane - zona Turnisor",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 96000
+    }
+   ]
+  },
+  "IDIQoP": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-cu-pivnita-in-zona-lazaret-din-sibiu-comision-0-IDIQoP",
+   "t": "Garsoniera de vanzare cu pivnita in zona Lazaret din Sibiu Comision 0",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 35000
+    }
+   ]
+  },
+  "IDIQkv": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-cu-balcon-in-zona-ciresica-din-sibiu-IDIQkv",
+   "t": "Apartament 2 camere de vanzare cu balcon in zona Ciresica din Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 70000
+    }
+   ]
+  },
+  "IDIp23": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandate-zona-terezian-IDIp23",
+   "t": "Apartament 2 camere decomandate zona Terezian",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 107900
+    }
+   ]
+  },
+  "IDIp0Z": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lacul-lui-binder-IDIp0Z",
+   "t": "Apartament 2 camere zona Lacul lui Binder",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 58400
+    }
+   ]
+  },
+  "IDIlC7": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-cartier-strand-IDIlC7",
+   "t": "Apartament 2 camere cartier Strand",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 85000
+    }
+   ]
+  },
+  "IDIkwP": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-3-camere-decomandate-zona-terezian-IDIkwP",
+   "t": "Apartament 3 camere decomandate zona Terezian",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 109900
+    }
+   ]
+  },
+  "IDHoGG": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-modern-de-vanzare-2-camere-semidecomandate-zona-rahovei-IDHoGG",
+   "t": "Apartament modern de vanzare 2 camere semidecomandate zona Rahovei",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 97000
+    }
+   ]
+  },
+  "IDDPNz": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-foarte-spatios-3-camere-balcon-zona-cedonia-intabulat-IDDPNz",
+   "t": "Apartament foarte spatios 3 camere balcon zona Cedonia intabulat",
+   "preturi": [
+    {
+     "d": "2026-10-13",
+     "p": 86990
+    }
+   ]
+  },
+  "ID7HQTD1": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ID7HQTD1.html",
+   "t": "Renault Captur",
+   "preturi": [
+    {
+     "d": "2026-10-12",
+     "p": 11499
     }
    ]
   }

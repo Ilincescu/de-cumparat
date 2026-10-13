@@ -1,8 +1,8 @@
 {
- "generat": "2026-10-12 09:30",
- "de_la": "2026-10-11",
- "pana_la": "2026-10-12",
- "case_noi": 0,
+ "generat": "2026-10-13 14:09",
+ "de_la": "2026-10-12",
+ "pana_la": "2026-10-13",
+ "case_noi": 2,
  "case_trec": 0,
  "din_rezerva": false,
  "masini_din_rezerva": true,
@@ -10,20 +10,20 @@
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-10-12 09:21",
+   "cand": "2026-10-13 13:59",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1478,
-   "potrivite": 258,
+   "gasite": 1450,
+   "potrivite": 259,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-12 09:22",
+   "cand": "2026-10-13 13:59",
    "ce": "2020+, sub 11500 €, sub 100000 km, toată țara",
-   "gasite": 678,
-   "potrivite": 135,
+   "gasite": 689,
+   "potrivite": 137,
    "stare": "azi",
    "veche": false
   }
@@ -41,6 +41,16 @@
    "scor": 59
   },
   {
+   "pret": 8700,
+   "model": "Opel Crossland",
+   "an": 2023,
+   "km": 34589,
+   "zona": "Bucuresti",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ID7HQTZs.html",
+   "scor": 58
+  },
+  {
    "pret": 11500,
    "model": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
    "an": 2024,
@@ -49,16 +59,6 @@
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQQkW.html",
    "scor": 57
-  },
-  {
-   "pret": 10500,
-   "model": "Mazda CX-5",
-   "an": 2023,
-   "km": 30000,
-   "zona": "Bucuresti",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/mazda-cx-5-ID7HQQrV.html",
-   "scor": 55
   }
  ]
 }
