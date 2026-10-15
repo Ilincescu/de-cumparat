@@ -16,7 +16,9 @@
    "src": "olx",
    "u": "https://www.olx.ro/d/oferta/bicicleta-cursiera-ciclocross-voodoo-frane-pe-disc-roti-28-cadru-56cm-IDk9Pel.html",
    "warn": "Ciclocross, nu sosea pura - anvelope mai late, geometrie diferita",
-   "d": "2026-09-21"
+   "d": "2026-09-21",
+   "mort": true,
+   "mort_din": "2026-10-15"
   },
   {
    "t": "Cube Agree, Shimano 105, marime 58",
@@ -83,7 +85,7 @@
    "warn": "M/L - cere cotele cadrului inainte de drum",
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-13"
+   "mort_din": "2026-10-15"
   },
   {
    "t": "Scott Speedster 20",
@@ -98,7 +100,7 @@
    "warn": "54 cm - prea mica pentru 181 cm",
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-13"
+   "mort_din": "2026-10-15"
   },
   {
    "t": "Merida Scultura 500 disc",
@@ -152,7 +154,7 @@
    "warn": "58 cm e la limita de sus pentru 181 cm - proba obligatorie",
    "d": "2026-09-24",
    "mort": true,
-   "mort_din": "2026-10-13"
+   "mort_din": "2026-10-15"
   },
   {
    "t": "Felt F5, full carbon",
@@ -204,7 +206,9 @@
    "src": "olx",
    "u": "https://www.olx.ro/d/oferta/wheeler-r-1-din-titan-marime-56-IDkLDWm.html",
    "warn": null,
-   "d": "2026-09-21"
+   "d": "2026-09-21",
+   "mort": true,
+   "mort_din": "2026-10-15"
   },
   {
    "t": "Ritchey Logic, semicursiera otel/carbon",
@@ -230,7 +234,9 @@
    "src": "olx",
    "u": "https://www.olx.ro/d/oferta/cannondale-supersix-evo-carbon-56-cm-shimano-ultegra-di2-2x11-IDkX0U2.html",
    "warn": "Exact la limita bugetului. Di2 e electronic: verifica bateria si cablajul.",
-   "d": "2026-09-21"
+   "d": "2026-09-21",
+   "mort": true,
+   "mort_din": "2026-10-15"
   }
  ]
 }
