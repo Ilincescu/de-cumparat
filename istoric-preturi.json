@@ -24361,6 +24361,116 @@
      "p": 11500
     }
    ]
+  },
+  "IDIUBT": {
+   "u": "https://www.storia.ro/ro/oferta/casa-cu-2-camere-decomandate-335-mp-teren-in-zona-parcul-tineretului-IDIUBT",
+   "t": "Casa cu 2 camere decomandate 335 mp teren in zona Parcul Tineretului",
+   "preturi": [
+    {
+     "d": "2026-10-16",
+     "p": 215000
+    }
+   ]
+  },
+  "IDIUBF": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-45mpu-zona-orasul-de-jos-sibiu-IDIUBF",
+   "t": "Apartament de vanzare 2 camere 45mpu zona Orasul de Jos Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-16",
+     "p": 64850
+    }
+   ]
+  },
+  "IDIUAd": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-52mp-zona-trei-stejari-aproape-de-promenada-mall-IDIUAd",
+   "t": "Apartament de vanzare 52mp zona Trei Stejari aproape de Promenada Mall",
+   "preturi": [
+    {
+     "d": "2026-10-16",
+     "p": 98000
+    }
+   ]
+  },
+  "IDIUwW": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-decomandate-etaj-intermediar-zona-vasile-aaron-IDIUwW",
+   "t": "Apartament cu 2 camere decomandate etaj intermediar zona Vasile Aaron",
+   "preturi": [
+    {
+     "d": "2026-10-16",
+     "p": 99000
+    }
+   ]
+  },
+  "IDIUwQ": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-tip-mansarda-de-vanzare-in-cartierul-tefan-cel-mare-sibiu-IDIUwQ",
+   "t": "Apartament tip mansarda de vanzare in cartierul Ștefan cel Mare, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-16",
+     "p": 48000
+    }
+   ]
+  },
+  "ID7HEJDq": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HEJDq.html",
+   "t": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
+   "preturi": [
+    {
+     "d": "2026-10-16",
+     "p": 9000
+    }
+   ]
+  },
+  "ID7HQURf": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQURf.html",
+   "t": "Renault Express",
+   "preturi": [
+    {
+     "d": "2026-10-16",
+     "p": 9999
+    }
+   ]
+  },
+  "ID7HQUVy": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQUVy.html",
+   "t": "Ford EcoSport 1.0 EcoBoost Titanium",
+   "preturi": [
+    {
+     "d": "2026-10-16",
+     "p": 10000
+    }
+   ]
+  },
+  "ID7HQUSQ": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQUSQ.html",
+   "t": "Ford Puma",
+   "preturi": [
+    {
+     "d": "2026-10-16",
+     "p": 10890
+    }
+   ]
+  },
+  "ID7HQUQL": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ID7HQUQL.html",
+   "t": "Opel Crossland",
+   "preturi": [
+    {
+     "d": "2026-10-16",
+     "p": 10999
+    }
+   ]
+  },
+  "ID7HQUPE": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-tce-130-gpf-stepway-ID7HQUPE.html",
+   "t": "Dacia Dokker TCe 130 GPF Stepway",
+   "preturi": [
+    {
+     "d": "2026-10-16",
+     "p": 11500
+    }
+   ]
   }
  }
 }
