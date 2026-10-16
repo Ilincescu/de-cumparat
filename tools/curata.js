@@ -25,17 +25,33 @@ const cale = path.join(RADACINA, 'date.json');
 const j = JSON.parse(fs.readFileSync(cale, 'utf8'));
 const inainte = j.anunturi.length;
 
-const scoase = { afara: [], comuna: [] };
+// Apartament la mansarda nu vrea deloc. Titlul nu o spune mereu, asa ca se
+// citeste si descrierea din ultimul snapshot Storia. In descriere "mansarda"
+// apare des despre bloc ("P+4+mansarda", "deasupra are mansarda"), deci acolo
+// conteaza doar formulele care spun ca apartamentul E la mansarda.
+const MANSARDA_TITLU = /mansard/i;
+const MANSARDA_DESCRIERE = /\b(tip|la|o|ca|etajul)\s+mansard|mansard[aă]\s+(intabulat|din\s+construc|[iî]ntr-un|situat)/i;
+const dosar = path.join(__dirname, 'snapshots');
+const ultim = fs.readdirSync(dosar).filter(x => /^storia-\d{4}-\d{2}-\d{2}\.json$/.test(x)).sort().pop();
+const descriere = new Map();
+if (ultim) JSON.parse(fs.readFileSync(path.join(dosar, ultim), 'utf8'))
+  .forEach(x => descriere.set(x.url, x.descriere || ''));
+
+const scoase = { afara: [], comuna: [], mansarda: [] };
 j.anunturi = j.anunturi.filter(o => {
   const text = `${o.t || ''} ${o.z || ''} ${o.g || ''}`;
   if (o.af || IN_AFARA.test(text)) { scoase.afara.push(o); return false; }
   if (o.c === 'comuna' || CURTE_COMUNA.test(text)) { scoase.comuna.push(o); return false; }
+  if (o.k === 'ap' && (MANSARDA_TITLU.test(o.t || '') || MANSARDA_DESCRIERE.test(descriere.get(o.u) || ''))) {
+    scoase.mansarda.push(o); return false;
+  }
   return true;
 });
 
 console.log(`date.json: ${inainte} -> ${j.anunturi.length}`);
 console.log(`  ${scoase.afara.length} in afara orasului Sibiu`);
 console.log(`  ${scoase.comuna.length} cu curte comuna`);
+console.log(`  ${scoase.mansarda.length} apartamente la mansarda`);
 
 if (!SCRIE) { console.log('\n(proba; ruleaza cu --scrie ca sa salvez)'); process.exit(0); }
 fs.writeFileSync(cale, JSON.stringify(j, null, 1));
