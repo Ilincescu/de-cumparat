@@ -81,7 +81,11 @@ function ultimulSnapshot() {
   const stari = await paralel(j.anunturi, 12, o => o.u ? stare(o.u) : 200);
   const deReluat = [];
   stari.forEach((s, k) => { if (s !== 200 && s !== 410 && s !== 404) deReluat.push(k); });
-  for (const k of deReluat) {
+  // Cand Storia blocheaza aproape tot, reluarea lenta nu scoate nimic si
+  // costa ~5 minute (2026-10-16: 965 din 985). Incertele raman in lista.
+  const blocate = deReluat.length > j.anunturi.length / 2;
+  if (blocate) console.log(`  ${deReluat.length} din ${j.anunturi.length} blocate, nu le reiau`);
+  for (const k of blocate ? [] : deReluat) {
     await new Promise(r => setTimeout(r, 250));
     stari[k] = await stare(j.anunturi[k].u);
   }

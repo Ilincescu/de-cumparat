@@ -117,7 +117,12 @@ async function verificaLinkuri() {
     // numarate ca incerte si ai crede ca lista e mai moarta decat e.
     const deReluat = [];
     stari.forEach((s, k) => { if (s !== 200 && s !== 410 && s !== 404) deReluat.push(k); });
-    if (deReluat.length) {
+    // Cand Storia blocheaza aproape tot, reluarea lenta nu mai scoate nimic:
+    // pe 2026-10-16 au ramas 965 din 985 incerte dupa 5 minute. Anunturile
+    // ramase incerte nu se sterg, deci sarind reluarea nu se pierde nimic.
+    if (deReluat.length > lista.length / 2) {
+      console.log(`  ${deReluat.length} din ${lista.length} blocate, nu le reiau`);
+    } else if (deReluat.length) {
       process.stdout.write(`  ${deReluat.length} raspunsuri neclare, le reiau incet`);
       for (const k of deReluat) {
         await new Promise(r => setTimeout(r, 250));
