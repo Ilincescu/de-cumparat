@@ -558,7 +558,9 @@
     var s=el("maxp");
     if(bike){ s.min=1000; s.max=BIKE.buget; s.step=100; state.maxp=BIKE.buget; }
     else if(car){ s.min=3000; s.max=15000; s.step=250; state.maxp=15000; }
-    else { s.min=50000; s.max=IMO.buget_total; s.step=5000; state.maxp=IMO.buget_total; }
+    // Cei 250.000 acopera casa SI apartamentul de inchiriat; cel mai ieftin
+    // apartament de 2 camere locuibil e ~50.000, deci casa porneste de la 200.000.
+    else { s.min=50000; s.max=IMO.buget_total; s.step=5000; state.maxp=state.k==="casa"?200000:IMO.buget_total; }
     s.value=state.maxp;
     el("maxpVal").textContent=money(state.maxp);
     notes(); zones(); setPortals(); render(); sums(); dimineata();

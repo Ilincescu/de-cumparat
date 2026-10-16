@@ -87,7 +87,8 @@ function filtreazaCasa(x) {
   if (COMUNA.test(t)) return 'curte comuna';
   if (CORPURI.test(t)) return 'doua corpuri sau garsoniera';
   if (SERVITUTE.test(t)) return 'acces prin curtea altuia';
-  if (!x.pret || x.pret > 250000) return 'peste buget';
+  // 250.000 e pentru casa SI apartament; ~50.000 raman pentru apartament.
+  if (!x.pret || x.pret > 200000) return 'peste buget';
   if (!x.mpu || x.mpu < 50) return 'sub 50 mp utili';
   if (BETON.test(t)) return 'curte pavata, nu verde';
   const c = curteLibera(x);
@@ -106,7 +107,7 @@ function punctajCasa(x) {
   else if (x.mpu <= 130) p += 14;
   else p += 4;                                   // peste 130 mp = incalzit si zugravit degeaba
   if (x.stare === 'ready_to_use') p += 12;
-  p += Math.round((250000 - x.pret) / 250000 * 25);
+  p += Math.round((200000 - x.pret) / 200000 * 25);
   if (VERDE.test((x.titlu || '') + ' ' + (x.descriere || ''))) p += 10;
   return p;
 }

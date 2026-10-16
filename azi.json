@@ -1,10 +1,10 @@
 {
- "generat": "2026-10-16 18:07",
+ "generat": "2026-10-16 18:14",
  "de_la": "2026-10-15",
  "pana_la": "2026-10-16",
  "case_noi": 4,
- "case_trec": 1,
- "din_rezerva": false,
+ "case_trec": 0,
+ "din_rezerva": true,
  "masini_din_rezerva": false,
  "surse": [
   {
@@ -30,31 +30,19 @@
  ],
  "case": [
   {
-   "pret": 245000,
-   "mpu": 110,
-   "curte": 248,
+   "pret": 87900,
+   "mpu": 84,
+   "curte": 276,
    "curte_sigura": false,
-   "teren": 325,
-   "zona": "Gusterita, Sibiu",
-   "an": "2010",
-   "stare": "ready_to_use",
-   "creat": "2026-10-16",
-   "repostat": false,
-   "alte": [
-    {
-     "pret": 245000,
-     "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-in-sibiu-110-mp-utili-teren-de-325-mp-IDIRWD",
-     "creat": "2026-10-13"
-    },
-    {
-     "pret": 245000,
-     "url": "https://www.storia.ro/ro/oferta/casa-individuala-cu-4-camere-garaj-110-mp-utili-teren-de-325-mp-IDIRWm",
-     "creat": "2026-10-13"
-    }
-   ],
-   "titlu": "Casa individuala 4 camere, garaj si teren 325 mp – Gusterita, Sibiu",
-   "url": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-garaj-si-teren-325-mp-gusterita-sibiu-IDIUn0",
-   "scor": 67
+   "teren": 335,
+   "zona": "Lazaret, Sibiu",
+   "an": "1970",
+   "creat": "2026-10-14",
+   "repostat": true,
+   "alte": [],
+   "titlu": "Casa 2 camere de vanzare - Lazaret Sibiu",
+   "url": "https://www.storia.ro/ro/oferta/casa-2-camere-de-vanzare-lazaret-sibiu-IDIShx",
+   "scor": 69
   }
  ],
  "masini": [
