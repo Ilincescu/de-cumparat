@@ -90,7 +90,7 @@ async function paralel(lista, n, fn) {
 
 async function stare(url) {
   try {
-    const r = await fetch(url, { method: 'HEAD', redirect: 'manual', headers: UA });
+    const r = await fetch(url, { method: 'HEAD', redirect: 'manual', headers: UA, signal: AbortSignal.timeout(15000) });
     return r.status;
   } catch (e) { return 0; }
 }
@@ -554,4 +554,7 @@ function diferente() {
   } else {
     console.log('comenzi: linkuri | storia | masini | publi24 | dubluri | diff | tot');
   }
+  // Conexiunile ramase deschise tineau procesul in viata inca ~2,5 minute
+  // dupa ce terminase treaba (linkuri: 70s de lucru, 218s pana la iesire).
+  process.exit(0);
 })().catch(e => { console.error('EROARE:', e.message); process.exit(1); });
