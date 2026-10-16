@@ -3,7 +3,7 @@
  "buget": 4000,
  "moneda": "RON",
  "marime_ta": "55-58 cm (L) pentru 180-181 cm",
- "note": "Biciclete de sosea sub 4.000 RON. Campuri: t = titlu, p = pret RON, cm = cadru in cm (null daca nu se stie), sz = S/M/L, grp = grupa, mat = material cadru, z = locatie, src = olx|facebook, warn = de stiut, d = data vazuta.",
+ "note": "Biciclete de sosea sub 4.000 RON. Campuri: t = titlu, p = pret RON, cm = cadru in cm (null daca nu se stie), sz = S/M/L, grp = grupa, mat = material cadru, z = locatie, src = olx|facebook, warn = de stiut, d = data vazuta. jante = inaltimea jantei in mm, cand e scrisa in anunt.",
  "biciclete": [
   {
    "t": "Cursiera ciclocross Voodoo, frane pe disc",
@@ -249,7 +249,8 @@
    "u": "https://www.olx.ro/d/oferta/bicicleta-cervelo-soloist-team-marimea-56-m-IDkLSfI.html",
    "warn": "Cadru din 2007",
    "src": "olx",
-   "d": "2026-10-16"
+   "d": "2026-10-16",
+   "jante": 40
   },
   {
    "t": "Radon R1 Road, aluminiu + furca carbon, Shimano 105, XL",
@@ -300,6 +301,48 @@
    "z": "Targu Mures",
    "u": "https://www.olx.ro/d/oferta/cursiera-look-carbon-IDktnWd.html",
    "warn": "Echipare vintage, nu expediaza",
+   "src": "olx",
+   "d": "2026-10-16"
+  },
+  {
+   "t": "Look KG 461 carbon, Campagnolo Veloce, roti carbon 50 mm, cadru 57",
+   "p": 3200,
+   "cm": 57,
+   "sz": null,
+   "grp": "Campagnolo Veloce",
+   "mat": "carbon",
+   "z": "Bucuresti",
+   "u": "https://www.olx.ro/d/oferta/look-kg-461-cursiera-campagnolo-IDkWpnd.html",
+   "warn": "Acelasi vanzator o da si fara roti cu 1.600 lei (IDkVK75)",
+   "jante": 50,
+   "src": "olx",
+   "d": "2026-10-16"
+  },
+  {
+   "t": "Cannondale CAAD12 Disc, Ultegra R8000 2x11, Vision Team 35, marime 58",
+   "p": 3900,
+   "cm": 58,
+   "sz": null,
+   "grp": "Shimano Ultegra",
+   "mat": "aluminiu",
+   "z": "Craiova",
+   "u": "https://www.olx.ro/d/oferta/cannondale-caad12-disc-ultegra-2x11-marimea-58-IDktZcB.html",
+   "warn": null,
+   "jante": 35,
+   "src": "olx",
+   "d": "2026-10-16"
+  },
+  {
+   "t": "Cannondale SuperSix EVO carbon, Ultegra/105 2x10, Vision Team 30, 58 cm / XL",
+   "p": 3550,
+   "cm": 58,
+   "sz": "XL",
+   "grp": "Shimano Ultegra/105",
+   "mat": "carbon",
+   "z": "Dumbravita",
+   "u": "https://www.olx.ro/d/oferta/cannondale-supersix-evo-full-carbon-IDkPzWA.html",
+   "warn": null,
+   "jante": 30,
    "src": "olx",
    "d": "2026-10-16"
   }
