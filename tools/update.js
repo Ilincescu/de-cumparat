@@ -61,6 +61,7 @@ function numara() {
   ruleaza('node', ['tools/publica.js', '--scrie']);
   ruleaza('node', ['tools/curata.js', '--scrie']);
   ruleaza('node', ['tools/marcheaza-dubluri.js', '--scrie']);
+  ruleaza('node', ['tools/oferte-tari.js', '--scrie']);
   ruleaza('node', ['tools/istoric.js'], true);
   ruleaza('node', ['tools/azi.js', '--scrie'], true);
 

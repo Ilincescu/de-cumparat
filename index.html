@@ -78,6 +78,7 @@
   .chip.own{background:var(--accent-soft);border-color:transparent;color:var(--accent)}
   .chip.shared{background:var(--warn-soft);border-color:transparent;color:var(--warn)}
   .chip.fit{background:var(--accent-soft);border-color:transparent;color:var(--accent);font-weight:700}
+  .chip.tare{background:var(--warn);border-color:transparent;color:var(--surface-2);font-weight:700}
   .flag{font-size:12px;background:var(--warn-soft);color:var(--warn);border-radius:9px;
     padding:7px 9px;line-height:1.35}
   .acts{display:flex;gap:8px;margin-top:2px}
@@ -423,7 +424,8 @@
       // ca la curte proprie: daca ceri un minim, anunturile fara mp de curte nu se califica
       if(state.k==="casa" && state.mingm && !(o.gm>=state.mingm)) return false;
       return true;
-    }).sort(function(a,b){return a.p-b.p;});
+    // tare = oferta rara (tools/oferte-tari.js): prima in lista, ca sa nu se piarda
+    }).sort(function(a,b){return (b.tare?1:0)-(a.tare?1:0) || a.p-b.p;});
   }
 
   function render(){
@@ -471,7 +473,7 @@
       return '<article class="card'+(picked?' picked':'')+(seen[o.u]&&!shared?' seen':'')+'">'+
         '<div><div class="price">'+money(o.p)+'</div><div class="zone">'+(o.z||"")+'</div></div>'+
         '<div class="t">'+head+'</div>'+
-        '<div class="chips">'+shChips+badge+chips.map(function(c){return '<span class="chip">'+c+'</span>';}).join("")+'</div>'+
+        '<div class="chips">'+shChips+(o.tare?'<span class="chip tare" title="'+o.tare+'">⚡ ofertă rară</span>':'')+badge+chips.map(function(c){return '<span class="chip">'+c+'</span>';}).join("")+'</div>'+
         flag+shNote+notaHtml+
         '<div class="acts"><a href="'+o.u+'" target="_blank" rel="noopener">Vezi anunțul</a>'+
         '<button data-i="'+i+'">'+(picked?"Ales ✓":"Alege")+'</button>'+
