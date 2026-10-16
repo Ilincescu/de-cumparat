@@ -78,7 +78,12 @@ function numara() {
 
   ruleaza('git', ['add', 'date.json', 'masini.json', 'biciclete.json', 'istoric-preturi.json', 'azi.json', 'tools/snapshots']);
   ruleaza('git', ['commit', '-q', '-m', mesaj]);
-  ruleaza('git', ['push', '-q', 'origin', 'HEAD:main']);
+  // Credential Manager n-are contul personal si asteapta un login pe care
+  // nimeni nu-l vede; push-ul statea pana la timeout. Tokenul il are gh.
+  process.env.GIT_TERMINAL_PROMPT = '0';
+  process.env.GCM_INTERACTIVE = 'never';
+  ruleaza('git', ['-c', 'credential.helper=', '-c', 'credential.helper=!gh auth git-credential',
+    'push', '-q', 'origin', 'HEAD:main']);
 
   console.log('\n=== gata ===');
   console.log(`case ${inainte.case_} -> ${dupa.case_}, apartamente ${inainte.ap} -> ${dupa.ap}, `
