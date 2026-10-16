@@ -77,7 +77,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-2-camere-curte-140-mp-zona-turnisor-IDIBj0",
    "warn": "Aceeasi strada (Livezii), aceeasi agentie si acelasi an 1970 ca IDIBPw, care zice ca in fata lui exista o alta casa si ca accesul e comun, cu drept de servitute. Probabil asta e casa din fata, iar vecinul din spate trece prin curtea ei. Agentia zice ca pot fi cumparate amandoua. Pe imobiliare.ro (275546173) terenul apare de 200 mp.",
-   "d": "2026-09-23"
+   "d": "2026-09-23",
+   "alte": 1
   },
   {
    "k": "casa",
@@ -92,7 +93,8 @@
    "src": "imobiliare",
    "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-turnisor-mobilata-2-camere-275546173",
    "warn": "Acelasi imobil ca IDIBj0 de pe Storia - vezi acolo problema cu accesul vecinului din spate.",
-   "d": "2026-09-23"
+   "d": "2026-09-23",
+   "dup": "IDIBj0"
   },
   {
    "k": "casa",
@@ -121,7 +123,8 @@
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-3-camere-teren-300-mp-zona-turnisor-IDHAdu",
    "d": "2026-09-18",
    "gm": 300,
-   "warn": "In fata exista o alta casa, iar accesul se face comun, cu drept de servitute. Agentia ofera si varianta cumpararii ambelor case la un pret comun. Acelasi imobil mai apare pe Storia si cu ID-ul IDIia5."
+   "warn": "In fata exista o alta casa, iar accesul se face comun, cu drept de servitute. Agentia ofera si varianta cumpararii ambelor case la un pret comun. Acelasi imobil mai apare pe Storia si cu ID-ul IDIia5.",
+   "alte": 1
   },
   {
    "k": "casa",
@@ -209,7 +212,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-zona-vasile-aaron-sibiu-IDCfSg",
    "warn": "Acelasi imobil ca IDIoGl (zona Semaforului) si ca anuntul publi24 de 130.000. Acoperis nou, interior de renovat, parcare doar publica.",
-   "d": "2026-09-20"
+   "d": "2026-09-20",
+   "alte": 1
   },
   {
    "k": "casa",
@@ -225,7 +229,8 @@
    "u": "https://www.storia.ro/ro/oferta/cas-individual-de-vnzare-turnior-sibiu-IDIhoz",
    "warn": "Are doua intrari din curte si e compartimentata ca sa poata fi folosita ca doua apartamente de cate 2 camere. Necesita renovare: instalatiile de apa si canalizare trebuie inlocuite, tamplarie de lemn. Str. D. D. Rosca, cu anexe gospodaresti pe proprietate.",
    "d": "2026-09-23",
-   "d2": true
+   "d2": true,
+   "alte": 1
   },
   {
    "k": "casa",
@@ -300,7 +305,8 @@
    "warn": "Acelasi imobil e pe Storia (casa-individuala-de-vanzare-turnisor-sibiu-IDIhoz), de unde vin suprafetele. Are doua intrari din curte si poate fi folosita ca doua apartamente de cate 2 camere. Instalatiile de apa si canalizare trebuie inlocuite; din poze pare sa ceara consolidare, nu doar renovare.",
    "d": "2026-09-16",
    "gm": 241,
-   "d2": true
+   "d2": true,
+   "dup": "IDIhoz"
   },
   {
    "k": "casa",
@@ -384,7 +390,8 @@
    "u": "https://www.storia.ro/ro/oferta/casa-cu-curte-proprie-in-sibiu-4-camere-zona-lazaret-IDHOQk",
    "warn": "Nu e casa individuala: e etajul 1 al unei vile, cu acces separat si curte proprie amenajata. Se vinde mobilata si utilata, gata de mutare.",
    "d": "2026-09-18",
-   "gm": 100
+   "gm": 100,
+   "alte": 1
   },
   {
    "k": "casa",
@@ -428,7 +435,8 @@
    "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-teren-412-mp-garaj-terezian-sibiu-comision-0-IDHlw7",
    "warn": "Acelasi imobil ca IDImry. Pe imobiliare.ro e listat explicit ca DUPLEX (275573593), desi titlul de pe Storia nu spune.",
    "d": "2026-09-30",
-   "d2": true
+   "d2": true,
+   "alte": 1
   },
   {
    "k": "casa",
@@ -459,7 +467,8 @@
    "d": "2026-09-23",
    "src": "imobiliare",
    "u": "https://www.imobiliare.ro/oferta/duplex-de-vanzare-sibiu-terezian-5-camere-275573593",
-   "warn": "Acelasi imobil ca IDImry si IDHlw7 de pe Storia. Aici e listat explicit ca duplex, cu 3 bucatarii, 2 bai si 2 pivnite."
+   "warn": "Acelasi imobil ca IDImry si IDHlw7 de pe Storia. Aici e listat explicit ca duplex, cu 3 bucatarii, 2 bai si 2 pivnite.",
+   "dup": "IDHlw7"
   },
   {
    "k": "casa",
@@ -490,7 +499,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-d-p-pod-teren-252-mp-baie-cu-geam-si-curte-in-sibiu-IDHW8J",
    "warn": "SINGURA din lista declarata ready_to_use, nu de renovat. Construita 1974 din caramida. Demisol cu bucatarie de vara 16 mp si pivnita. Toate cele patru utilitati, inclusiv canalizare. Curte pavata impecabil, cu vita de vie pe structura metalica, foisor si afumatoare, 2 locuri de parcare. Minus: tamplarie de lemn, pod neutilizabil, iar curtea e pavata, nu gradina. Acelasi imobil ca IDIcpW. Pret negociabil.",
-   "d": "2026-09-20"
+   "d": "2026-09-20",
+   "alte": 1
   },
   {
    "k": "casa",
@@ -505,7 +515,8 @@
    "d": "2026-09-23",
    "src": "imobiliare",
    "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-tiglari-mobilata-3-camere-275767795",
-   "warn": "Acelasi imobil ca IDHW8J si IDIcpW de pe Storia - vezi acolo descrierea completa."
+   "warn": "Acelasi imobil ca IDHW8J si IDIcpW de pe Storia - vezi acolo descrierea completa.",
+   "dup": "IDHW8J"
   },
   {
    "k": "casa",
@@ -598,7 +609,8 @@
    "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-3-camere-sibiu-sibiu-IDICOI",
    "warn": "Casa insiruita, ultima din sir, deci lipita de vecin pe o latura. Acelasi imobil ca IDICnw (184.000). Constructie noua: intreaba daca pretul include TVA.",
    "d": "2026-09-23",
-   "d2": true
+   "d2": true,
+   "alte": 1
   },
   {
    "k": "casa",
@@ -613,7 +625,8 @@
    "u": "https://www.storia.ro/ro/oferta/casa-moderna-3-camere-2-bai-si-curte-cartierul-arhitectilor-IDICnw",
    "warn": "Acelasi imobil ca IDICOI (183.900) - casa insiruita, capat de sir.",
    "d": "2026-09-23",
-   "d2": true
+   "d2": true,
+   "dup": "IDICOI"
   },
   {
    "k": "casa",
@@ -656,7 +669,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-in-sibiu-curte-individuala-4-camere-lazaret-IDIcZ1",
    "d": "2026-09-18",
-   "gm": 320
+   "gm": 320,
+   "dup": "IDFLM6"
   },
   {
    "k": "casa",
@@ -714,7 +728,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-pe-un-nivel-141mp-utili-mobilata-pivnita-zona-turnisor-IDHwvO",
    "warn": null,
-   "d": "2026-09-18"
+   "d": "2026-09-18",
+   "alte": 1
   },
   {
    "k": "casa",
@@ -728,7 +743,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-centru-istoric-sibiu-str-bastionului-IDIzZM",
    "warn": null,
-   "d": "2026-09-18"
+   "d": "2026-09-18",
+   "alte": 1
   },
   {
    "k": "casa",
@@ -743,7 +759,8 @@
    "src": "imobiliare",
    "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-ultracentral-4-camere-275999036",
    "warn": "Terenul are doar 21 mp - nu e o curte propriu-zisa.",
-   "d": "2026-09-23"
+   "d": "2026-09-23",
+   "dup": "IDIzZM"
   },
   {
    "k": "casa",
@@ -825,7 +842,8 @@
    "u": "https://www.storia.ro/ro/oferta/casa-5-camere-curte-pivni-turnior-IDB5Vj",
    "warn": "Acelasi imobil ca IDIoIQ si IDHlFB (200.000, str. Eduard Albert Bieltz): doua unitati locative distincte, fiecare cu acces propriu, curte proprie.",
    "d": "2026-09-23",
-   "d2": true
+   "d2": true,
+   "dup": "IDHwvO"
   },
   {
    "k": "casa",
@@ -840,7 +858,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-cu-teren-237-mp-garaj-in-zona-lupeni-sibiu-IDIxDs",
    "warn": "Detalii neverificate in descriere.",
-   "d": "2026-09-20"
+   "d": "2026-09-20",
+   "alte": 6
   },
   {
    "k": "casa",
@@ -855,7 +874,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-cu-teren-237-mp-garaj-in-zona-lupeni-sibiu-IDID45",
    "warn": "Str. Tineretului, construita 1980, izolata, centrala proprie, se vinde mobilata. Acelasi imobil apare pe imobiliare.ro (275997735) ca fiind in cartierul Resita. La 205.000 nu mai ramane buget de apartament.",
-   "d": "2026-09-23"
+   "d": "2026-09-23",
+   "dup": "IDIxDs"
   },
   {
    "k": "casa",
@@ -870,7 +890,8 @@
    "d": "2026-09-23",
    "src": "imobiliare",
    "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-resita-4-camere-275997735",
-   "warn": "Acelasi imobil ca IDID45 de pe Storia (204.990)."
+   "warn": "Acelasi imobil ca IDID45 de pe Storia (204.990).",
+   "dup": "IDIxDs"
   },
   {
    "k": "casa",
@@ -898,7 +919,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-cu-3-camere-115mp-utili-403mp-teren-garaj-gusterita-IDE8FA",
    "d": "2026-09-18",
-   "gm": 403
+   "gm": 403,
+   "alte": 3
   },
   {
    "k": "casa",
@@ -913,7 +935,8 @@
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-cu-demisol-parter-130-mp-utili-curte-237-mp-IDIwOL",
    "warn": "Pretul a scazut de la 249.000 la 205.000 intre 18 si 20 sep - scadere de 44.000. Merita un telefon.",
    "d": "2026-09-20",
-   "gm": 237
+   "gm": 237,
+   "dup": "IDIxDs"
   },
   {
    "k": "casa",
@@ -943,7 +966,8 @@
    "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-tip-duplex-116-mp-utili-si-teren-403-mp-gusterita-IDIyJX",
    "warn": "Duplex, deci lipita de vecin. Acelasi imobil apare si ca IDI2kl.",
    "d": "2026-09-20",
-   "d2": true
+   "d2": true,
+   "dup": "IDE8FA"
   },
   {
    "k": "casa",
@@ -988,7 +1012,8 @@
    "u": "https://www.storia.ro/ro/oferta/casa-tip-duplex-cu-3-camere-116-mp-utili-teren-de-403-mp-IDI2kl",
    "warn": "Acelasi imobil ca IDIyJX. Duplex, deci lipita de vecin; dormitoarele sunt la mansarda.",
    "d": "2026-09-23",
-   "d2": true
+   "d2": true,
+   "dup": "IDE8FA"
   },
   {
    "k": "casa",
@@ -1160,7 +1185,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-singur-in-curte-335-mp-teren-si-acces-auto-in-zona-promenada-mall-IDI6Ld",
    "warn": "Detalii neverificate in descriere.",
-   "d": "2026-09-20"
+   "d": "2026-09-20",
+   "alte": 1
   },
   {
    "k": "casa",
@@ -1260,7 +1286,8 @@
    "u": "https://www.storia.ro/ro/oferta/casa-tip-duplex-teren-335-mp-acces-auto-trei-stejari-IDHZQM",
    "warn": "Descrierea zice singur in curte. Acoperis renovat, instalatie electrica schimbata, izolata, termopan; interiorul necesita modernizare. Construita 1970. Acelasi imobil e pe publi24 la 220.000 (zona mall-policlinica). 230.000 pentru 70 mp e scump.",
    "d": "2026-09-23",
-   "d2": true
+   "d2": true,
+   "dup": "IDI6Ld"
   },
   {
    "k": "casa",
@@ -1500,7 +1527,8 @@
    "c": null,
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/cas-individual-263-mp-utili-teren-500-mp-veteranilor-de-rzboi-IDIkoh",
-   "d": "2026-09-21"
+   "d": "2026-09-21",
+   "dup": "IDIBPL"
   },
   {
    "k": "casa",
@@ -1515,7 +1543,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/cas-individual-de-vnzare-veterani-sibiu-263-mp-teren-500-mp-IDIBPL",
    "warn": "Acelasi imobil ca IDIlrT, IDIkDD, IDIkoh, IDIka4 si IDIia1. Exterior finisat, INTERIOR LA ROSU: mai ai de pus finisajele si instalatiile. Intabulata. La 250.000 nu ramane nimic pentru apartament.",
-   "d": "2026-10-02"
+   "d": "2026-10-02",
+   "alte": 2
   },
   {
    "k": "casa",
@@ -1530,7 +1559,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/cas-individual-p-e-de-vnzare-n-sibiu-cartierul-veteranilor-de-rz-IDIia1",
    "warn": "Republicare - acelasi imobil ca IDIBPL si IDIlrT. Interior la rosu.",
-   "d": "2026-09-23"
+   "d": "2026-09-23",
+   "dup": "IDIBPL"
   },
   {
    "k": "casa",
@@ -2920,7 +2950,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/cas-de-vnzare-sibiu-4-camere-central-115-mp-utili-curte-privat-IDHI3s",
    "warn": null,
-   "d": "2026-10-09"
+   "d": "2026-10-09",
+   "alte": 2
   },
   {
    "k": "casa",
@@ -2950,7 +2981,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-balcon-si-curte-zona-lazaret-IDHs2G",
    "warn": null,
-   "d": "2026-09-25"
+   "d": "2026-09-25",
+   "dup": "IDHOQk"
   },
   {
    "k": "casa",
@@ -2995,7 +3027,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-mica-3-dormitoare-curte-mica-60-mp-zona-lupeni-sibiu-IDHefu",
    "warn": null,
-   "d": "2026-10-07"
+   "d": "2026-10-07",
+   "dup": "IDHI3s"
   },
   {
    "k": "casa",
@@ -3010,7 +3043,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-singur-in-curte-133mp-teren-zona-lupeni-moara-de-scoarta-IDHdgV",
    "warn": null,
-   "d": "2026-10-08"
+   "d": "2026-10-08",
+   "dup": "IDHI3s"
   },
   {
    "k": "casa",
@@ -3085,7 +3119,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-4-camere-pivnita-curte-individuala-zona-lazaret-IDFLM6",
    "warn": null,
-   "d": "2026-09-25"
+   "d": "2026-09-25",
+   "alte": 1
   },
   {
    "k": "casa",
@@ -4270,7 +4305,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-3-camere-teren-300-mp-zona-turnisor-IDIBPw",
    "warn": null,
-   "d": "2026-09-29"
+   "d": "2026-09-29",
+   "dup": "IDHAdu"
   },
   {
    "k": "casa",
@@ -4480,7 +4516,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/proiect-autorizat-de-reabilitare-casa-individuala-in-centrul-sibiului-IDIII7",
    "warn": "Declarata de renovat in fisa tehnica.",
-   "d": "2026-09-30"
+   "d": "2026-09-30",
+   "alte": 1
   },
   {
    "k": "casa",
@@ -4495,7 +4532,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-cu-4-camere-curte-si-garaj-sibiu-zona-lupeni-IDIHAn",
    "warn": null,
-   "d": "2026-09-30"
+   "d": "2026-09-30",
+   "dup": "IDIxDs"
   },
   {
    "k": "casa",
@@ -4510,7 +4548,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-de-reabilitat-cu-autorizatie-str-pielarilor-centru-IDIEWv",
    "warn": "Declarata de renovat in fisa tehnica.",
-   "d": "2026-09-30"
+   "d": "2026-09-30",
+   "dup": "IDIII7"
   },
   {
    "k": "casa",
@@ -4555,7 +4594,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-cu-etaj-113-mp-utili-curte-libera-350mp-garaj-cu-pod-gusterita-IDHYdw",
    "warn": null,
-   "d": "2026-09-30"
+   "d": "2026-09-30",
+   "dup": "IDEqhl"
   },
   {
    "k": "casa",
@@ -4750,7 +4790,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/cas-i-184-mpu-i-teras-i-curte-privat-panouri-fotovoltaice-i-cires-IDFKQb",
    "warn": null,
-   "d": "2026-09-30"
+   "d": "2026-09-30",
+   "dup": "IDDaIr"
   },
   {
    "k": "casa",
@@ -4780,7 +4821,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/cas-tip-duplex-de-vnzare-n-sibiu-120-mp-utili-teren-403-mp-IDFx8Q",
    "warn": null,
-   "d": "2026-09-30"
+   "d": "2026-09-30",
+   "dup": "IDE8FA"
   },
   {
    "k": "casa",
@@ -4795,7 +4837,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-i-4-camere-i-acces-auto-i-curte-i-terezian-IDEqhl",
    "warn": null,
-   "d": "2026-10-11"
+   "d": "2026-10-11",
+   "alte": 1
   },
   {
    "k": "casa",
@@ -4810,7 +4853,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-3-bai-de-vanzare-in-sibiu-zona-ciresica-IDDRAy",
    "warn": null,
-   "d": "2026-09-30"
+   "d": "2026-09-30",
+   "dup": "IDDaIr"
   },
   {
    "k": "casa",
@@ -4825,7 +4869,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-cu-pompa-de-caldura-si-panouri-fotovoltaice-IDDaIr",
    "warn": null,
-   "d": "2026-09-30"
+   "d": "2026-09-30",
+   "alte": 2
   },
   {
    "k": "casa",
@@ -4930,7 +4975,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-si-curte-zona-lupeni-IDIJVL",
    "warn": null,
-   "d": "2026-10-03"
+   "d": "2026-10-03",
+   "dup": "IDIxDs"
   },
   {
    "k": "ap",
@@ -8560,7 +8606,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-si-curte-zona-lupeni-IDIL4j",
    "warn": null,
-   "d": "2026-10-05"
+   "d": "2026-10-05",
+   "dup": "IDIxDs"
   },
   {
    "k": "ap",
@@ -9535,7 +9582,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-zona-vasile-milea-IDIoGl",
    "warn": null,
-   "d": "2026-10-13"
+   "d": "2026-10-13",
+   "dup": "IDCfSg"
   },
   {
    "k": "ap",
@@ -11110,7 +11158,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-cu-4-camere-garaj-110-mp-utili-teren-de-325-mp-IDIRWm",
    "warn": null,
-   "d": "2026-10-15"
+   "d": "2026-10-15",
+   "alte": 2
   },
   {
    "k": "casa",
@@ -11170,7 +11219,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-in-sibiu-110-mp-utili-teren-de-325-mp-IDIRWD",
    "warn": null,
-   "d": "2026-10-15"
+   "d": "2026-10-15",
+   "dup": "IDIRWm"
   },
   {
    "k": "ap",
@@ -12055,7 +12105,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-garaj-si-teren-325-mp-gusterita-sibiu-IDIUn0",
    "warn": null,
-   "d": "2026-10-16"
+   "d": "2026-10-16",
+   "dup": "IDIRWm"
   },
   {
    "k": "casa",

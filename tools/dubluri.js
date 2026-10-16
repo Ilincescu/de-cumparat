@@ -28,7 +28,8 @@ const UA = { 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' };
 const DOSAR = path.join(__dirname, 'snapshots');
 
 const idAnunt = u => ((String(u).match(/-(ID[A-Za-z0-9]+)(?:\.html)?$/) || [])[1]) || String(u);
-const cartier = x => String(x.zona || '').replace(/,\s*Sibiu$/i, '').trim().toLowerCase();
+// "Lupeni (Strada Randunelelor)" e tot Lupeni.
+const cartier = x => String(x.zona || '').replace(/\s*\(.*?\)/g, '').replace(/,\s*Sibiu$/i, '').trim().toLowerCase();
 const aproape = (a, b, p) => a != null && b != null && a > 0 && b > 0
   && Math.abs(a - b) / Math.max(a, b) <= p;
 

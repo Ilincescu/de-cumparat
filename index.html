@@ -396,6 +396,8 @@
       // Anuntul sters de pe site nu se mai arata nicaieri. Ramane in fisier,
       // ca sa nu dispara de la favorite, dar nu intra in nicio lista.
       if(o.mort) return false;
+      // dup = aceeasi casa ca alt anunt, mai ieftin; se arata o singura data
+      if(o.dup) return false;
       if(state.hideseen && seen[o.u]) return false;
       if(o.p>state.maxp) return false;
       // "_oras" = orice cartier din Sibiu; af = anunt din afara orasului
@@ -448,6 +450,7 @@
         if(o.a) chips.push(o.a+" mp"); else chips.push("mp netrecuți");
         if(o.g) chips.push(o.g); else if(state.k==="casa") chips.push("mp curte netrecuti");
         chips.push(o.src==="olx"?"OLX":"Storia");
+        if(o.alte) chips.push("încă "+o.alte+(o.alte===1?" anunț":" anunțuri")+" pentru aceeași casă");
         badge=(o.d2?'<span class="chip shared">2 corpuri / 2 locuințe</span>':'')+
              (o.c==="proprie"?'<span class="chip own">curte proprie</span>'
              :o.c==="comuna"?'<span class="chip shared">curte comună</span>'
