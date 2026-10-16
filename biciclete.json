@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-09-29",
+ "actualizat": "2026-10-16",
  "buget": 4000,
  "moneda": "RON",
  "marime_ta": "55-58 cm (L) pentru 180-181 cm",
@@ -237,6 +237,71 @@
    "d": "2026-09-21",
    "mort": true,
    "mort_din": "2026-10-16"
+  },
+  {
+   "t": "Cervelo Soloist Team 2007, aluminiu, Shimano 105 11v, marime 56",
+   "p": 3300,
+   "cm": 56,
+   "sz": "M",
+   "grp": "Shimano 105",
+   "mat": "aluminiu",
+   "z": "Rosu (Ilfov)",
+   "u": "https://www.olx.ro/d/oferta/bicicleta-cervelo-soloist-team-marimea-56-m-IDkLSfI.html",
+   "warn": "Cadru din 2007",
+   "src": "olx",
+   "d": "2026-10-16"
+  },
+  {
+   "t": "Radon R1 Road, aluminiu + furca carbon, Shimano 105, XL",
+   "p": 2300,
+   "cm": null,
+   "sz": "XL",
+   "grp": "Shimano 105",
+   "mat": "aluminiu",
+   "z": "Oradea",
+   "u": "https://www.olx.ro/d/oferta/bicicleta-sosea-cursiera-radon-r1-road-xl-IDkNSlm.html",
+   "warn": "Cadrul in cm nu e scris - XL la Radon poate fi peste 58, de intrebat",
+   "src": "olx",
+   "d": "2026-10-16"
+  },
+  {
+   "t": "C4 carbon 1997, Shimano Dura Ace 7700, cadru 55",
+   "p": 2190,
+   "cm": 55,
+   "sz": null,
+   "grp": "Shimano Dura Ace 7700",
+   "mat": "carbon",
+   "z": "Bucuresti",
+   "u": "https://www.olx.ro/d/oferta/cursiera-carbon-c4-1998-echipare-dura-ace-7700-IDkVwO2.html",
+   "warn": "Carbon de aproape 30 de ani - de verificat cadrul",
+   "src": "olx",
+   "d": "2026-10-16"
+  },
+  {
+   "t": "Lombardo Hiker Racing 3000, aluminiu, Campagnolo Xenon, cadru 55",
+   "p": 1600,
+   "cm": 55,
+   "sz": null,
+   "grp": "Campagnolo Xenon",
+   "mat": "aluminiu",
+   "z": "Timisoara",
+   "u": "https://www.olx.ro/d/oferta/cursiera-lombardo-IDkSf9w.html",
+   "warn": "Nu trimite prin curier",
+   "src": "olx",
+   "d": "2026-10-16"
+  },
+  {
+   "t": "Look clasica, cadru carbon, Shimano 600, marime 55",
+   "p": 1350,
+   "cm": 55,
+   "sz": null,
+   "grp": "Shimano 600",
+   "mat": "carbon",
+   "z": "Targu Mures",
+   "u": "https://www.olx.ro/d/oferta/cursiera-look-carbon-IDktnWd.html",
+   "warn": "Echipare vintage, nu expediaza",
+   "src": "olx",
+   "d": "2026-10-16"
   }
  ]
 }

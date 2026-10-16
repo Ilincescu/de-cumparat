@@ -374,9 +374,20 @@ async function scaneazaMasini({ anMinim = 2020, pretMax = 11500, kmMax = 100000,
       + `?search%5Bfilter_float_price%3Ato%5D=${pretMax}`
       + `&search%5Bfilter_float_mileage%3Ato%5D=${kmMax}`
       + `&search%5Border%5D=created_at_first%3Adesc&page=${pagina}`;
-    const r = await fetch(u, { headers: UA });
-    if (!r.ok) throw new Error('autovit status ' + r.status);
-    const cautare = dinNextData(await r.text());
+    // Din cand in cand o pagina vine fara advertSearch, iar urmatoarea cerere
+    // e buna; fara reluare cadea toata cautarea de masini pe ziua aia.
+    let cautare;
+    for (let incercare = 1; ; incercare++) {
+      try {
+        const r = await fetch(u, { headers: UA });
+        if (!r.ok) throw new Error('autovit status ' + r.status);
+        cautare = dinNextData(await r.text());
+        break;
+      } catch (e) {
+        if (incercare >= 3) throw e;
+        await new Promise(res => setTimeout(res, 2000));
+      }
+    }
     totalCount = cautare.totalCount;
     edges = edges.concat(cautare.edges);
     if (cautare.edges.length < 32 || edges.length >= totalCount) break;

@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-16 18:06",
+ "generat": "2026-10-16 18:07",
  "de_la": "2026-10-15",
  "pana_la": "2026-10-16",
  "case_noi": 4,
@@ -20,9 +20,9 @@
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-16 15:32",
+   "cand": "2026-10-16 18:07",
    "ce": "2020+, sub 11500 €, sub 100000 km, toată țara",
-   "gasite": 709,
+   "gasite": 708,
    "potrivite": 136,
    "stare": "azi",
    "veche": false
