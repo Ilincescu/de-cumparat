@@ -1,8 +1,8 @@
 {
- "generat": "2026-10-15 09:59",
- "de_la": "2026-10-13",
- "pana_la": "2026-10-15",
- "case_noi": 5,
+ "generat": "2026-10-16 15:42",
+ "de_la": "2026-10-15",
+ "pana_la": "2026-10-16",
+ "case_noi": 2,
  "case_trec": 1,
  "din_rezerva": false,
  "masini_din_rezerva": false,
@@ -10,61 +10,63 @@
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-10-15 09:47",
+   "cand": "2026-10-16 15:31",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1459,
-   "potrivite": 262,
+   "gasite": 1464,
+   "potrivite": 265,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-15 09:48",
+   "cand": "2026-10-16 15:32",
    "ce": "2020+, sub 11500 €, sub 100000 km, toată țara",
-   "gasite": 701,
-   "potrivite": 138,
+   "gasite": 709,
+   "potrivite": 136,
    "stare": "azi",
    "veche": false
   }
  ],
  "case": [
   {
-   "pret": 87900,
-   "mpu": 84,
-   "curte": 276,
+   "pret": 245000,
+   "mpu": 110,
+   "curte": 248,
    "curte_sigura": false,
-   "teren": 335,
-   "zona": "Lazaret, Sibiu",
-   "an": "1970",
-   "creat": "2026-10-14",
+   "teren": 325,
+   "zona": "Gusterita, Sibiu",
+   "an": "2010",
+   "stare": "ready_to_use",
+   "creat": "2026-10-16",
    "repostat": false,
-   "alte": [],
-   "titlu": "Casa 2 camere de vanzare - Lazaret Sibiu",
-   "url": "https://www.storia.ro/ro/oferta/casa-2-camere-de-vanzare-lazaret-sibiu-IDIShx",
-   "scor": 71
+   "alte": [
+    {
+     "pret": 245000,
+     "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-in-sibiu-110-mp-utili-teren-de-325-mp-IDIRWD",
+     "creat": "2026-10-13"
+    },
+    {
+     "pret": 245000,
+     "url": "https://www.storia.ro/ro/oferta/casa-individuala-cu-4-camere-garaj-110-mp-utili-teren-de-325-mp-IDIRWm",
+     "creat": "2026-10-13"
+    }
+   ],
+   "titlu": "Casa individuala 4 camere, garaj si teren 325 mp – Gusterita, Sibiu",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-garaj-si-teren-325-mp-gusterita-sibiu-IDIUn0",
+   "scor": 67
   }
  ],
  "masini": [
   {
-   "pret": 11490,
-   "model": "Peugeot 2008 1.5 BlueHDI BVM6 STT Allure Pack",
-   "an": 2022,
-   "km": 80000,
+   "pret": 9000,
+   "model": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
+   "an": 2021,
+   "km": 70000,
    "zona": "Bucuresti",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-bvm6-stt-allure-pack-ID7HQUtc.html",
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HEJDq.html",
    "scor": 30
-  },
-  {
-   "pret": 9300,
-   "model": "Dacia Lodgy TCe 130 GPF Stepway",
-   "an": 2020,
-   "km": 93383,
-   "zona": "Siculeni",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-lodgy-ver-tce-130-gpf-stepway-ID7HQRXy.html",
-   "scor": 15
   }
  ]
 }
