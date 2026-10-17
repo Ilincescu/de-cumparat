@@ -57,11 +57,10 @@ function numara() {
   // Optional: cand Storia da 403 (dupa multe cereri), restul surselor tot se publica.
   ruleaza('node', ['tools/scan.js', 'storia'], true);
   ruleaza('node', ['tools/scan.js', 'masini'], true);
-  // Case din alte surse: publi24 zilnic, lajumate/homezz si agentiile o data
-  // pe saptamana (scriptul tine singur socoteala), plus ce a scos browserul azi
-  // din OLX si imobiliare.ro in tools/externe/*-raw.json (vezi prompt-zilnic.txt).
+  // Case din alte surse: publi24, lajumate/homezz, agentiile si licitatiile, fara
+  // browser, plus ce a scos browserul azi din OLX, imobiliare.ro si Facebook in
+  // tools/externe/*-raw.json (vezi prompt-zilnic.txt).
   ruleaza('node', ['tools/surse-case.js', 'zilnic', '--scrie'], true);
-  ruleaza('node', ['tools/surse-case.js', 'saptamanal', '--scrie'], true);
   const externe = path.join(RADACINA, 'tools', 'externe');
   if (fs.existsSync(externe)) fs.readdirSync(externe)
     .filter(f => f.endsWith('-raw.json') && fs.statSync(path.join(externe, f)).mtime.toISOString().slice(0, 10) === AZI)

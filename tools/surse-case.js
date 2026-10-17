@@ -1,10 +1,8 @@
 // Case din alte surse decat Storia, adaugate in date.json.
 //
-//   node tools/surse-case.js zilnic [--scrie]       publi24
-//   node tools/surse-case.js saptamanal [--scrie]   lajumate/homezz si site-urile
-//                                                    agentiilor (o data la 7 zile)
-//   node tools/surse-case.js saptamanal --forteaza  ignora pauza de 7 zile
-//   node tools/surse-case.js fisier tools/externe/olx.json [--scrie]
+//   node tools/surse-case.js zilnic [--scrie]   publi24, lajumate/homezz, agentiile
+//                                                si licitatiile, toate fara browser
+//   node tools/surse-case.js fisier tools/externe/olx-raw.json [--scrie]
 //
 // OLX si imobiliare.ro dau 403 la un GET si raman pe browser (vezi
 // tools/prompt-zilnic.txt). Restul se iau direct:
@@ -19,7 +17,6 @@ const path = require('path');
 
 const RADACINA = path.join(__dirname, '..');
 const SCRIE = process.argv.includes('--scrie');
-const FORTEAZA = process.argv.includes('--forteaza');
 const CE = process.argv[2] || 'zilnic';
 const AZI = new Date().toISOString().slice(0, 10);
 const UA = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36', 'Accept': 'text/html', 'Accept-Language': 'ro-RO,ro;q=0.9' };
@@ -235,14 +232,6 @@ async function licitatii() {
   return out;
 }
 
-function zileDeLa(sursa) {
-  try {
-    const j = JSON.parse(fs.readFileSync(path.join(__dirname, 'cautari.json'), 'utf8'));
-    const c = j[sursa] && j[sursa].cand;
-    return c ? (Date.now() - new Date(c.slice(0, 10))) / 86400000 : Infinity;
-  } catch (e) { return Infinity; }
-}
-
 function noteaza(sursa, ce, date) {
   const cale = path.join(__dirname, 'cautari.json');
   let j = {};
@@ -276,19 +265,15 @@ function noteaza(sursa, ce, date) {
       url: x.u,
     }));
   };
-  const surse = CE === 'saptamanal' ? [['lajumate', lajumate], ['agentii', agentii], ['licitatii', licitatii]]
-    : CE === 'fisier' ? [[path.basename(process.argv[3], '.json').replace(/-raw$/, ''), dinFisier]]
-    : [['publi24', publi24]];
+  // Toate sursele fara browser merg zilnic: impreuna dureaza sub un minut.
+  const surse = CE === 'fisier' ? [[path.basename(process.argv[3], '.json').replace(/-raw$/, ''), dinFisier]]
+    : [['publi24', publi24], ['lajumate', lajumate], ['agentii', agentii], ['licitatii', licitatii]];
   const cale = path.join(RADACINA, 'date.json');
   const date = JSON.parse(fs.readFileSync(cale, 'utf8'));
   const zone = cartiere(date);
   const existente = new Set(date.anunturi.map(o => o.u));
 
   for (const [nume, fn] of surse) {
-    if (CE === 'saptamanal' && !FORTEAZA && zileDeLa(nume) < 7) {
-      console.log(`${nume}: cautat acum ${zileDeLa(nume).toFixed(0)} zile, urmatoarea dupa 7`);
-      continue;
-    }
     let lista;
     try { lista = await fn(); } catch (e) { console.log(`${nume}: EROARE ${e.message}`); continue; }
     const motive = {};

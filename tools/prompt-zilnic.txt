@@ -43,12 +43,11 @@ Apoi lantul complet:
 
    node tools/update.js
 
-Pe langa Storia, update.js ia singur, fara browser: publi24 (zilnic, prin
-romimo.ro), lajumate/homezz si site-urile agentiilor MAAC, Azura, Nova Imob,
-Sibiu Estate si licitatiile de pe executari.com (o data la 7 zile;
-tools/surse-case.js tine socoteala in tools/cautari.json).
+Pe langa Storia, update.js ia singur, zilnic si fara browser: publi24 (prin
+romimo.ro), lajumate/homezz, site-urile agentiilor MAAC, Azura, Nova Imob,
+Sibiu Estate si licitatiile de pe executari.com. Impreuna dureaza sub un minut.
 
-O DATA PE SAPTAMANA, odata cu cele de mai sus: uita-te cu browserul si la
+O DATA PE SAPTAMANA (luni): uita-te cu browserul si la
 anunturile ANAF/AJFP Sibiu de valorificare a bunurilor sechestrate, care nu au
 lista citibila fara browser. Ce gasesti in orasul Sibiu, sub 250.000 €, scrie
 ca lista {src: "licitatie", titlu, descriere, pret, url} in
