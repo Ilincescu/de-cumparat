@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-17 12:14",
+ "generat": "2026-10-17 15:55",
  "de_la": "2026-10-16",
  "pana_la": "2026-10-17",
  "case_noi": 0,
@@ -47,16 +47,6 @@
  ],
  "masini": [
   {
-   "pret": 6990,
-   "model": "Renault Express",
-   "an": 2024,
-   "km": 68991,
-   "zona": "Ilfov",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQRKE.html",
-   "scor": 59
-  },
-  {
    "pret": 8700,
    "model": "Opel Crossland",
    "an": 2023,
@@ -75,6 +65,16 @@
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQQkW.html",
    "scor": 57
+  },
+  {
+   "pret": 11250,
+   "model": "Dacia Sandero Stepway TCe 90 MT6 Expression",
+   "an": 2023,
+   "km": 36690,
+   "zona": "Buzau",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-expression-ID7HQGog.html",
+   "scor": 52
   }
  ]
 }

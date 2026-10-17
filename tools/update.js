@@ -57,6 +57,7 @@ function numara() {
   // Optional: cand Storia da 403 (dupa multe cereri), restul surselor tot se publica.
   ruleaza('node', ['tools/scan.js', 'storia'], true);
   ruleaza('node', ['tools/scan.js', 'masini'], true);
+  ruleaza('node', ['tools/masini-avariate.js', '--scrie'], true);
   // Case din alte surse: publi24, lajumate/homezz, agentiile si licitatiile, fara
   // browser, plus ce a scos browserul azi din OLX, imobiliare.ro si Facebook in
   // tools/externe/*-raw.json (vezi prompt-zilnic.txt).

@@ -122,6 +122,7 @@ const LEASING = /predare leasing|preluare leasing|preiei?\s+\d+\s+rate|rate\s+r[
 function filtreazaMasina(m) {
   if (m.mort) return `anunt sters de pe site (${m.mort_din})`;
   if (m.gj) return 'garda joasa';
+  if (m.av) return 'avariata: ' + (m.av_motiv || '');
   if (LEASING.test((m.m || '') + ' ' + (m.warn || ''))) return 'preluare leasing, pretul e doar avansul';
   if (MASINI_RESPINSE.test(m.m || '')) return 'respinsa sau mai mica decat C3';
   if (!m.an || m.an < 2020) return 'mai veche de 2020';

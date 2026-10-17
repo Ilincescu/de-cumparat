@@ -397,6 +397,8 @@
       // Anuntul sters de pe site nu se mai arata nicaieri. Ramane in fisier,
       // ca sa nu dispara de la favorite, dar nu intra in nicio lista.
       if(o.mort) return false;
+      // av = masina avariata (tools/masini-avariate.js); nu o vrea in lista
+      if(o.av) return false;
       // dup = aceeasi casa ca alt anunt, mai ieftin; se arata o singura data
       if(o.dup) return false;
       if(state.hideseen && seen[o.u]) return false;

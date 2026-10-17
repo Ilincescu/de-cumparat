@@ -17,7 +17,7 @@ const ZILE_NOU = 7;
 
 const azi = new Date();
 const nou = o => o.d && (azi - new Date(o.d)) / 86400000 <= ZILE_NOU;
-const viu = o => !o.mort && !o.dup;
+const viu = o => !o.mort && !o.dup && !o.av;
 const mediana = a => { const s = a.slice().sort((x, y) => x - y); return s[Math.floor(s.length / 2)]; };
 const eur = n => n.toLocaleString('ro-RO') + ' €';
 
