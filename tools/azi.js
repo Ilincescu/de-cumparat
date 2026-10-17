@@ -247,6 +247,8 @@ async function primeleVii(lista, n, urlDin) {
     const u = urlDin(x);
     let s = 0;
     try { s = (await fetch(u, { method: 'HEAD', headers: UA_SIMPLU })).status; } catch (e) { s = 0; }
+    // publi24 da 404 la HEAD pentru anunturi vii; confirm cu GET.
+    if (s === 404 || s === 410) { try { s = (await fetch(u, { headers: UA_SIMPLU })).status; } catch (e) { s = 0; } }
     if (s === 410 || s === 404) { console.log(`  sarit, anunt sters de pe site: ${u}`); continue; }
     ok.push(x);
   }

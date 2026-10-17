@@ -91,6 +91,12 @@ async function paralel(lista, n, fn) {
 async function stare(url) {
   try {
     const r = await fetch(url, { method: 'HEAD', redirect: 'manual', headers: UA, signal: AbortSignal.timeout(15000) });
+    // publi24 raspunde 404 la HEAD si 200 la GET pentru acelasi anunt viu;
+    // un "mort" se confirma cu GET inainte sa fie scos.
+    if (r.status === 404 || r.status === 410) {
+      const g = await fetch(url, { redirect: 'manual', headers: UA, signal: AbortSignal.timeout(15000) });
+      return g.status;
+    }
     return r.status;
   } catch (e) { return 0; }
 }

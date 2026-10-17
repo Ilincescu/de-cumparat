@@ -53,8 +53,12 @@ function tipCurte(text, formaCladire) {
 }
 
 async function stare(u) {
-  try { return (await fetch(u, { method: 'HEAD', redirect: 'manual', headers: UA })).status; }
-  catch (e) { return 0; }
+  try {
+    const s = (await fetch(u, { method: 'HEAD', redirect: 'manual', headers: UA })).status;
+    // publi24 da 404 la HEAD pentru anunturi vii; confirm cu GET.
+    if (s === 404 || s === 410) return (await fetch(u, { redirect: 'manual', headers: UA })).status;
+    return s;
+  } catch (e) { return 0; }
 }
 
 async function paralel(lista, n, fn) {
