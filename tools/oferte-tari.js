@@ -24,7 +24,7 @@ const eur = n => n.toLocaleString('ro-RO') + ' €';
 // Ieftin din motive care nu sunt chilipir: o cota parte, un birou, o chirie.
 const NU_E_OFERTA = /cot[aă]|\d+\/\d+\s+din|birou|spa[tț]iu|[iî]nchiri|garsonier|subsol|demisol|apartament (la |de )?cas/i;
 
-function marcheaza(lista, asemanatoare, prag, minComparabile) {
+function marcheaza(lista, asemanatoare, prag, minComparabile, bani = eur) {
   const marcate = [];
   lista.forEach(o => {
     delete o.tare;
@@ -33,7 +33,7 @@ function marcheaza(lista, asemanatoare, prag, minComparabile) {
     if (c.length < minComparabile) return;
     const m = mediana(c.map(x => x.p));
     if (o.p > m * prag) return;
-    o.tare = `${Math.round((1 - o.p / m) * 100)}% sub mediana a ${c.length} anunturi asemanatoare (${eur(m)})`;
+    o.tare = `${Math.round((1 - o.p / m) * 100)}% sub mediana a ${c.length} anunturi asemanatoare (${bani(m)})`;
     marcate.push(o);
   });
   return marcate;
@@ -81,11 +81,13 @@ const cB = path.join(RADACINA, 'biciclete.json');
 const b = JSON.parse(fs.readFileSync(cB, 'utf8'));
 const peMarime = o => (o.cm >= 55 && o.cm <= 58) || /^(L|XL)$/i.test(o.sz || '');
 const bVii = b.biciclete.filter(o => viu(o) && o.p && peMarime(o));
-const bTari = marcheaza(b.biciclete.filter(peMarime), o => bVii.filter(x => x !== o), 0.5, 8);
+// Bicicletele sunt in lei, nu in euro.
+const lei = n => n.toLocaleString('ro-RO') + ' lei';
+const bTari = marcheaza(b.biciclete.filter(peMarime), o => bVii.filter(x => x !== o), 0.5, 8, lei);
 
 for (const [ce, l] of [['case', caseTari], ['apartamente', apTari], ['masini', masiniTari], ['biciclete', bTari]]) {
   console.log(`${ce}: ${l.length} oferte rare`);
-  l.forEach(o => console.log(`  ⚡ ${eur(o.p)} · ${(o.t || o.m).slice(0, 60)} · ${o.tare}`));
+  l.forEach(o => console.log(`  ⚡ ${(ce === 'biciclete' ? lei : eur)(o.p)} · ${(o.t || o.m).slice(0, 60)} · ${o.tare}`));
 }
 
 if (SCRIE) {
