@@ -68,11 +68,13 @@ var TOP = [
     url:"https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ID7HQRoZ.html",
     meta:"înmatriculat 10.11.2022 · 82.000 km · benzină 120 CP · manuală · Ploiești · dealer Luxury All Cars",
     bun:["Cea mai ieftină: cu 1.000 € sub buget","Primul proprietar, cumpărată nouă în România, service la zi","Nu e PureTech","Cameră spate, senzori față-spate, navigație"],
+    consum:"Anunțul nu-l dă. Oficial ~6,4 l/100 km (WLTP). Real ~6,3–8 l/100 km: un proprietar pe Spritmonitor are 7,1 media pe 146.000 km; testele Motor1 (6,3) și Auto Motor und Sport (8,0 în medie, 9,7 condus tare).",
     atentie:"Câmpul spune 2021, descrierea „prima înmatriculare 10.11.2022” — cere talonul. ~4,24 m, la limita pragului tău." },
   { loc:2, nume:"Opel Grandland X 1.2 Turbo, automată", pret:10000,
     url:"https://www.autovit.ro/autoturisme/anunt/opel-grandland-x-ver-1-2-turbo-start-stop-aut-enjoy-ID7HOuMB.html",
     meta:"2020 · 63.100 km · benzină 130 CP · automată · București · vânzător privat",
     bun:["Fix în buget","Cutie automată, primul proprietar (cumpărată prin leasing)","~4,48 m, cea mai mare"],
+    consum:"Anunțul: 6 l/100 km în oraș, 4,8 în afara orașului (cifre de catalog). Real ~6,9–7,7 l/100 km, din jurnalele proprietarilor de Grandland X 1.2 automat pe Spritmonitor (6,86 pe 38.000 km; 7,71 pe 22.000 km; 7,07 și 7,21 la modelele 2024).",
     atentie:"Motorul e PureTech, cu cureaua de distribuție în ulei: cere dovada că a fost schimbată." }
 ];
 function euro(n){ return Math.round(n).toLocaleString("ro-RO")+" €"; }
@@ -82,6 +84,7 @@ function deseneaza(){
       '<a href="'+m.url+'" target="_blank" rel="noopener">'+m.nume+(m.scos?' (vândută / ștearsă)':'')+' ↗</a>'+
       '<span class="price">'+euro(m.pret)+'</span></h2>'+
       '<div class="meta">'+m.meta+'</div><ul>'+m.bun.map(function(b){return '<li>'+b+'</li>';}).join('')+'</ul>'+
+      (m.consum?'<div class="meta" style="margin-top:8px"><b>Consum:</b> '+m.consum+'</div>':'')+
       (m.atentie?'<div class="warn"><b>De întrebat:</b> '+m.atentie+'</div>':'')+'</div>';
   }).join("");
 }
