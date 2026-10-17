@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Top mașini</title>
+<style>
+  :root{
+    --bg:#eef1ec; --surface:#fff; --surface-2:#f6f8f4;
+    --ink:#1b241d; --muted:#5b6a60; --faint:#8a9890;
+    --line:#dde3dc; --accent:#2f6d4f; --accent-soft:#e3efe7;
+    --warn:#a8521f; --warn-soft:#fbeee3; --radius:14px;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+      --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+      --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+      --warn:#e0a16a; --warn-soft:#33281e;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+    --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+    --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+    --warn:#e0a16a; --warn-soft:#33281e;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding-bottom:60px}
+  .wrap{max-width:860px;margin:0 auto;padding:0 16px}
+  a{color:var(--accent)}
+  header{padding-block:22px 6px}
+  h1{font-size:21px;margin:0;letter-spacing:-.02em}
+  .stamp{font-size:12px;color:var(--faint);margin-top:4px}
+  .lede{color:var(--muted);margin:10px 0 0;font-size:14px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:14px;margin-top:14px}
+  .card h2{font-size:17px;margin:0 0 4px}
+  .rank{display:inline-block;width:26px;height:26px;border-radius:50%;background:var(--accent);
+    color:var(--surface);text-align:center;line-height:26px;font-weight:700;margin-right:8px;font-size:14px}
+  .price{float:right;font-weight:700}
+  .meta{color:var(--muted);font-size:13.5px;margin:2px 0 8px}
+  ul{margin:6px 0 0;padding-left:18px}
+  li{font-size:14px;margin-bottom:3px}
+  .warn{background:var(--warn-soft);color:var(--ink);border-radius:9px;padding:8px 10px;font-size:13.5px;margin-top:8px}
+  .warn b{color:var(--warn)}
+  .scos{opacity:.55}
+  footer{margin-top:24px;font-size:12px;color:var(--faint)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Top 3 mașini</h1>
+  <div class="stamp">17 octombrie 2026 · <a href="index.html">înapoi la listă</a> · <a href="comparatie.html">top 5 case</a></div>
+  <p class="lede">Din toate mașinile din listă: până în 11.500 €, din 2020, sub 100.000 km,
+    SUV sau crossover de minim ~4,25 m, fără Duster, fără utilitare, fără avariate.
+    Motoarele PureTech (curea de distribuție în ulei) sunt puse ultimele.</p>
+  <p class="lede" id="sincronizare">se citesc prețurile din listă…</p>
+</header>
+<div id="top"></div>
+<footer>Ce scrie aici vine din anunțuri (câmpuri și descriere); lungimile sunt din datele de catalog ale modelului, nu din anunț. Nimic nu înlocuiește o verificare la un service independent.</footer>
+</div>
+<script>
+var TOP = [
+  { loc:1, nume:"Peugeot 2008 1.5 BlueHDi Allure Pack", pret:11490,
+    url:"https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-bvm6-stt-allure-pack-ID7HQUtc.html",
+    meta:"2022 · 80.000 km · diesel 110 CP · manuală · București · dealer Star Auto",
+    bun:["Garanție dealer 12 luni, inclusă în preț","Primul proprietar, carte de service","Nu e PureTech: motor diesel 1.5","~4,30 m, cu 36 cm peste C3-ul tău"],
+    atentie:null },
+  { loc:2, nume:"Peugeot 2008 diesel", pret:11495,
+    url:"https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQSbO.html",
+    meta:"2022 · 76.349 km · diesel 110 CP · manuală · București · Ayvens (mașini ieșite din leasing)",
+    bun:["12 luni garanție, istoric complet de întreținere","Retur în 14 zile cu banii înapoi","Verificată în 42 de puncte de un service independent, scrie vânzătorul"],
+    atentie:null },
+  { loc:3, nume:"Jeep Renegade 1.0 Turbo Night Eagle", pret:10300,
+    url:"https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ver-1-0-turbo-4x2-m6-night-eagle-ID7HQBqh.html",
+    meta:"2021 · benzină 120 CP · manuală · Corbeanca · dealer Interni Motors",
+    bun:["Cea mai ieftină dintre cele trei","Primul proprietar, fără accident în istoric, carte de service","Nu e PureTech"],
+    atentie:"Câmpul de km spune 49.000, descrierea „kilometraj certificat 57.000”. ~4,24 m, la limita pragului tău." }
+];
+function euro(n){ return Math.round(n).toLocaleString("ro-RO")+" €"; }
+function deseneaza(){
+  document.getElementById("top").innerHTML = TOP.map(function(m){
+    return '<div class="card'+(m.scos?' scos':'')+'"><h2><span class="rank">'+m.loc+'</span>'+
+      '<a href="'+m.url+'" target="_blank" rel="noopener">'+m.nume+(m.scos?' (vândută / ștearsă)':'')+' ↗</a>'+
+      '<span class="price">'+euro(m.pret)+'</span></h2>'+
+      '<div class="meta">'+m.meta+'</div><ul>'+m.bun.map(function(b){return '<li>'+b+'</li>';}).join('')+'</ul>'+
+      (m.atentie?'<div class="warn"><b>De întrebat:</b> '+m.atentie+'</div>':'')+'</div>';
+  }).join("");
+}
+deseneaza();
+// Pretul si starea se iau din masini.json, care se actualizeaza zilnic.
+fetch("masini.json?v="+Date.now()).then(function(r){return r.json();}).then(function(d){
+  var dupaUrl = {}; (d.masini||[]).forEach(function(o){ dupaUrl[o.u]=o; });
+  TOP.forEach(function(m){
+    var o = dupaUrl[m.url];
+    if(!o || o.mort || o.av){ m.scos = true; return; }
+    if(o.p) m.pret = o.p;
+  });
+  deseneaza();
+  document.getElementById("sincronizare").textContent = "Prețurile vin din lista de pe site, actualizată " + (d.actualizat||"?") + ".";
+}).catch(function(){
+  document.getElementById("sincronizare").textContent = "Nu am putut citi masini.json - prețurile pot fi vechi.";
+});
+</script>
+</body>
+</html>
