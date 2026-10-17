@@ -44,7 +44,8 @@ const VERDE = /gr[aă]din[aă]|curte verde|spa[tț]iu verde|pomi fructiferi|iarb
 
 // Curea de distributie in baie de ulei - se schimba la 100.000 km si costa cat
 // o reparatie mare daca se rupe. Nu e un defect al anuntului, e un cost de stiut.
-const CUREA_IN_ULEI = /puretech|ecoboost 1\.0|1\.2 puretech/i;
+// Opel, Citroen si DS au acelasi 1.2 PureTech, in titlu doar "1.2 Turbo".
+const CUREA_IN_ULEI = /puretech|ecoboost 1\.0|\b(opel|citro[eë]n|ds)\b.*\b1\.2\s*(turbo|t)\b/i;
 
 const snapshots = () => fs.readdirSync(DOSAR)
   .filter(x => /^storia-\d{4}-\d{2}-\d{2}\.json$/.test(x)).sort()

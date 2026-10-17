@@ -71,7 +71,7 @@ function dinNextData(html) {
       p: (n.price && n.price.amount && n.price.amount.units) || null,
       z: (n.location && n.location.city && n.location.city.name) || '',
       src: 'autovit', u: n.url,
-      warn: /puretech/i.test(n.title || '')
+      warn: /puretech|(opel|citro[eë]n|ds).*1.2s*(turbo|t)/i.test(n.title || '')
         ? 'Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.' : null,
       d: azi,
     };
