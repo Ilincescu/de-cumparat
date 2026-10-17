@@ -54,7 +54,8 @@ function numara() {
 (async () => {
   const inainte = numara();
 
-  ruleaza('node', ['tools/scan.js', 'storia']);
+  // Optional: cand Storia da 403 (dupa multe cereri), restul surselor tot se publica.
+  ruleaza('node', ['tools/scan.js', 'storia'], true);
   ruleaza('node', ['tools/scan.js', 'masini'], true);
   // Case din alte surse: publi24 zilnic, lajumate/homezz si agentiile o data
   // pe saptamana (scriptul tine singur socoteala), plus ce a scos browserul azi

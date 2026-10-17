@@ -452,7 +452,8 @@
         if(o.r) chips.push(o.r+(o.r===1?" cameră":" camere"));
         if(o.a) chips.push(o.a+" mp"); else chips.push("mp netrecuți");
         if(o.g) chips.push(o.g); else if(state.k==="casa") chips.push("mp curte netrecuti");
-        chips.push(o.src==="olx"?"OLX":"Storia");
+        chips.push(({olx:"OLX",storia:"Storia",imobiliare:"imobiliare.ro",publi24:"publi24",lajumate:"lajumate",facebook:"Facebook",
+          "azura-estate":"Azura Estate",maac:"MAAC",novaimob:"Nova Imob",sibiuestate:"Sibiu Estate",licitatie:"licitație"})[o.src]||o.src||"Storia");
         if(o.alte) chips.push("încă "+o.alte+(o.alte===1?" anunț":" anunțuri")+" pentru aceeași casă");
         badge=(o.d2?'<span class="chip shared">2 corpuri / 2 locuințe</span>':'')+
              (o.c==="proprie"?'<span class="chip own">curte proprie</span>'
