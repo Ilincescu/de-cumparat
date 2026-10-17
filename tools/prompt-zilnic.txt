@@ -3,9 +3,46 @@ https://ilincescu.github.io/de-cumparat/ . Ruleaza pasii in ordinea de mai jos
 si nu sari peste niciunul. Scrie in romana, fara diacritice in fisierele JSON.
 
 CEL MAI IMPORTANT: "update" inseamna PUBLICAT, nu cautat. Treaba nu e gata
-pana ce anunturile nu se vad pe pagina publica. Lantul complet e
+pana ce anunturile nu se vad pe pagina publica.
+
+INAINTE de update.js, scoate cu browserul (Playwright) casele din cele doua
+surse care dau 403 la un GET si salveaza-le in tools/externe/. update.js le ia
+singur pe cele salvate azi:
+
+ a) OLX -> tools/externe/olx-raw.json
+    browser_navigate la
+    https://www.olx.ro/imobiliare/case-de-vanzare/sibiu/?currency=EUR&search%5Bfilter_float_price%3Ato%5D=250000
+    apoi browser_evaluate (cu filename) cu o functie care, in pagina:
+    - ia paginile &page=1,2,3... pana cand nu mai are carduri [data-cy="l-card"]
+      (NU te opri la o pagina fara anunturi OLX: majoritatea cardurilor sunt
+      copii Storia, iar pagina 7 poate avea 9 anunturi OLX dupa una cu zero)
+    - pastreaza doar linkurile /d/oferta/ (restul sunt de pe Storia)
+    - pentru fiecare: {u, t: titlul, p: textul pretului, loc: localitatea din
+      [data-testid="location-date"] inainte de " - "}
+    - deschide fiecare anunt cu fetch, cate 6 odata, si adauga desc
+      ([data-cy="ad_description"]) si params ([data-testid="ad-parameters-container"] p)
+    - intoarce {n, out}
+ b) imobiliare.ro -> tools/externe/imobiliare-raw.json
+    browser_navigate la https://www.imobiliare.ro/vanzare-case-vile/judetul-sibiu/sibiu
+    apoi browser_evaluate (cu filename): fetch pe ?page=2,3... (NU ?pagina=,
+    care intoarce mereu prima pagina) pana nu mai apar anunturi noi; din fiecare
+    <article>: {u, t, p: textul pretului, camere, mp, desc: textul cardului}.
+    Pastreaza doar cele cu pret pana in 250.000 €.
+
+Apoi lantul complet:
 
    node tools/update.js
+
+Pe langa Storia, update.js ia singur, fara browser: publi24 (zilnic, prin
+romimo.ro), lajumate/homezz si site-urile agentiilor MAAC, Azura, Nova Imob,
+Sibiu Estate si licitatiile de pe executari.com (o data la 7 zile;
+tools/surse-case.js tine socoteala in tools/cautari.json).
+
+O DATA PE SAPTAMANA, odata cu cele de mai sus: uita-te cu browserul si la
+anunturile ANAF/AJFP Sibiu de valorificare a bunurilor sechestrate, care nu au
+lista citibila fara browser. Ce gasesti in orasul Sibiu, sub 250.000 €, scrie
+ca lista {src: "licitatie", titlu, descriere, pret, url} in
+tools/externe/anaf-raw.json inainte de update.js.
 
 care scaneaza, scrie in date.json, face commit si push. Push-ul e autorizat
 aici: e repo personal, iar GitHub Pages serveste din main. La final confirma
@@ -15,8 +52,9 @@ fiindca browserul tine JSON-ul in cache. Pagina se reconstruieste in ~1 minut.
 Pasii de mai jos sunt pentru cand vrei sa rulezi ceva separat sau sa verifici.
 
 REGULA DE BAZA: nu porni browserul pentru date pe care le da un JSON. Storia,
-Autovit si publi24 se iau direct. Playwright ramane doar pentru buildId-ul
-Storia, pentru OLX, pentru imobiliare.ro si pentru Facebook.
+Autovit, publi24, lajumate si agentiile se iau direct. Playwright ramane doar
+pentru buildId-ul Storia, pentru OLX, pentru imobiliare.ro, pentru licitatii si
+pentru Facebook.
 
 ================================ 1. LINKURI MOARTE
 
