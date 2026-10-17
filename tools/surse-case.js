@@ -178,9 +178,11 @@ async function cursEuro() {
 async function anaf() {
   const curs = await cursEuro();
   const linkuri = new Set();
+  // Filtrul pe judet e ?filtre={"judet":"32"} (32 = Sibiu); ?judet=32 e ignorat.
+  const filtru = encodeURIComponent(JSON.stringify({ judet: '32' }));
   for (const cat of ['case-vile', 'duplexuri']) {
     for (let p = 1; p <= 40; p++) {
-      const h = await html(`https://elicitatii.anaf.ro/publicitate/categorii/bunuri-imobile/${cat}?pagina=${p}`);
+      const h = await html(`https://elicitatii.anaf.ro/publicitate/categorii/bunuri-imobile/${cat}?filtre=${filtru}&pagina=${p}`);
       const n = linkuri.size;
       (h.match(/\/publicitate\/produs\/[a-z0-9-]+/gi) || []).forEach(x => linkuri.add(x));
       if (linkuri.size === n) break;
@@ -205,7 +207,7 @@ async function anaf() {
       } catch (e) { /* un bun care nu raspunde nu opreste restul */ }
     }));
   }
-  console.log(`anaf: ${L.length} case si duplexuri in tara, ${out.length} in judetul Sibiu (curs BNR ${curs})`);
+  console.log(`anaf: ${out.length} case si duplexuri in judetul Sibiu (curs BNR ${curs})`);
   return out;
 }
 
