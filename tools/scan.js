@@ -419,7 +419,8 @@ async function scaneazaMasini({ anMinim = 2020, pretMax = 11500, kmMax = 100000,
       z: (n.location && n.location.city && n.location.city.name) || '',
       src: 'autovit',
       u: n.url,
-      warn: /puretech|(opel|citro[eë]n|ds).*1.2s*(turbo|t)/i.test(n.title || '')
+      // Opel, Citroen si DS au acelasi 1.2 PureTech, in titlu doar "1.2 Turbo".
+      warn: /puretech|\b(opel|citro[eë]n|ds)\b.*\b1\.2\s*(turbo|t)\b/i.test(n.title || '')
         ? 'Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.' : null,
       // Data postarii pe Autovit, ca azi.js sa arate doar ce e postat de ieri,
       // nu tot ce a intrat azi in lista.

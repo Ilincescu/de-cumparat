@@ -71,7 +71,8 @@ function dinNextData(html) {
       p: (n.price && n.price.amount && n.price.amount.units) || null,
       z: (n.location && n.location.city && n.location.city.name) || '',
       src: 'autovit', u: n.url,
-      warn: /puretech|(opel|citro[eë]n|ds).*1.2s*(turbo|t)/i.test(n.title || '')
+      // Opel, Citroen si DS au acelasi 1.2 PureTech, in titlu doar "1.2 Turbo".
+      warn: /puretech|\b(opel|citro[eë]n|ds)\b.*\b1\.2\s*(turbo|t)\b/i.test(n.title || '')
         ? 'Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.' : null,
       d: azi,
     };
