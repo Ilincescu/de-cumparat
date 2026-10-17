@@ -27,7 +27,12 @@ singur pe cele salvate azi:
     apoi browser_evaluate (cu filename): fetch pe ?page=2,3... (NU ?pagina=,
     care intoarce mereu prima pagina) pana nu mai apar anunturi noi; din fiecare
     <article>: {u, t, p: textul pretului, camere, mp, desc: textul cardului}.
-    Pastreaza doar cele cu pret pana in 250.000 €.
+    Pastreaza doar cele cu pret pana in 250.000 €. NU deschide toate
+    anunturile: dupa ~100 de cereri imobiliare.ro da 403 si pe pagina din
+    browser. Deschide doar ce nu e deja in date.json (cate 2 odata) si pune in
+    desc textul din [class*="description"]. Pentru restul ajunge cardul:
+    surse-case.js scoate oricum casele pe care Storia le-a exclus (acelasi pret
+    si teren).
  c) Facebook Marketplace -> tools/externe/facebook-raw.json
     browser_navigate la
     https://www.facebook.com/marketplace/sibiu/search/?query=casa%20de%20vanzare

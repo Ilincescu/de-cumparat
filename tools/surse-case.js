@@ -145,6 +145,26 @@ async function lajumate() {
 // sar peste ce e deja pe Storia, fara sa citesc pagina.
 const AGENTII_REBS = ['www.maac.ro', 'www.azura-estate.ro', 'www.novaimob.ro', 'www.sibiuestate.ro'];
 
+// Anunturile pe care scanarea Storia le-a exclus (curte comuna, la gri, doua
+// corpuri...), dupa pret + teren si dupa cartier + pret + mp utili. Aceeasi casa
+// copiata pe imobiliare.ro sau lajumate are acolo doar textul de pe card, fara
+// descrierea intreaga, si trecea de filtre: Gusterita 129.990 (doua camere la
+// gri) era exclusa pe Storia si aparea totusi din imobiliare.ro.
+function exclusePeStoria() {
+  const dosar = path.join(__dirname, 'snapshots');
+  const ultim = fs.readdirSync(dosar).filter(x => /^storia-\d{4}-\d{2}-\d{2}\.json$/.test(x)).sort().pop();
+  const m = new Map();
+  if (!ultim) return m;
+  const z = s => fara(String(s || '').replace(/,\s*Sibiu$/i, '').trim());
+  JSON.parse(fs.readFileSync(path.join(dosar, ultim), 'utf8')).forEach(x => {
+    if (!x.exclus || !x.exclus.length || !x.pret) return;
+    const motiv = [].concat(x.exclus).join(', ');
+    if (x.teren) m.set(`${x.pret}|t${x.teren}`, motiv);
+    if (x.mpu && z(x.zona) && z(x.zona) !== 'sibiu') m.set(`${z(x.zona)}|${x.pret}|a${x.mpu}`, motiv);
+  });
+  return m;
+}
+
 function coduriPeStoria() {
   const dosar = path.join(__dirname, 'snapshots');
   const ultim = fs.readdirSync(dosar).filter(x => /^storia-\d{4}-\d{2}-\d{2}\.json$/.test(x)).sort().pop();
@@ -271,6 +291,7 @@ function noteaza(sursa, ce, date) {
   const cale = path.join(RADACINA, 'date.json');
   const date = JSON.parse(fs.readFileSync(cale, 'utf8'));
   const zone = cartiere(date);
+  const excluse = exclusePeStoria();
   const existente = new Set(date.anunturi.map(o => o.u));
 
   for (const [nume, fn] of surse) {
@@ -286,7 +307,13 @@ function noteaza(sursa, ce, date) {
       if (m) { motive[m] = (motive[m] || 0) + 1; return false; }
       return true;
     });
-    const noi = bune.filter(x => !existente.has(x.url)).map(x => inFormaListei(x, zone));
+    const noi = bune.filter(x => !existente.has(x.url)).map(x => inFormaListei(x, zone)).filter(o => {
+      const teren = nr(/teren\s*(\d+)/, o.g || '');
+      const chei = [teren && `${o.p}|t${teren}`, o.a && o.z !== 'Sibiu' && `${fara(o.z)}|${o.p}|a${o.a}`].filter(Boolean);
+      const motiv = chei.map(k => excluse.get(k)).find(Boolean);
+      if (motiv) { motive['exclusa pe Storia: ' + motiv] = (motive['exclusa pe Storia: ' + motiv] || 0) + 1; return false; }
+      return true;
+    });
     console.log(`${nume}: ${lista.length} case in oras, ${bune.length} trec filtrele, ${noi.length} noi`);
     Object.entries(motive).forEach(([m, n]) => console.log(`  ${n} scoase: ${m}`));
     noi.sort((a, b) => a.p - b.p).forEach(o => console.log(`  + ${String(o.p).padStart(7)} € · ${o.t.slice(0, 60)} · ${o.u}`));

@@ -45,6 +45,25 @@ const forma = case_.map(o => ({
 const cap = new Map();
 grupeaza(forma).forEach(g => g.anunturi.forEach(a => cap.set(a.o, g.sef.o)));
 
+// A doua regula, pentru anunturile copiate de agentie pe alte site-uri: acelasi
+// cartier si acelasi pret la euro, plus aceiasi mp utili sau aceeasi curte.
+// Casa de 98.000 din Turnisor (50 mp, curte 140) aparea de 4 ori: Storia o da
+// cu teren 50 la un anunt si 200 la altul, deci regula pe teren n-o prindea.
+const zonaDe = o => String(o.z || '').replace(/\s*\(.*?\)/g, '').replace(/,\s*Sibiu$/i, '').trim().toLowerCase();
+const primulCu = new Map();
+case_.slice().sort((a, b) => (a.src === 'storia' ? 0 : 1) - (b.src === 'storia' ? 0 : 1)).forEach(o => {
+  const z = zonaDe(o);
+  if (!z || z === 'sibiu' || !o.p) return;
+  const chei = [o.a && `${z}|${o.p}|a${o.a}`, o.gm && `${z}|${o.p}|c${o.gm}`].filter(Boolean);
+  const gasit = chei.map(k => primulCu.get(k)).find(Boolean);
+  if (gasit && gasit !== o) {
+    let sef = gasit;
+    while (cap.get(sef) && cap.get(sef) !== sef) sef = cap.get(sef);
+    if (sef !== o) cap.set(o, sef);
+  }
+  chei.forEach(k => { if (!primulCu.has(k)) primulCu.set(k, gasit || o); });
+});
+
 // Legaturile scrise de mana in warn ("Acelasi imobil ca IDID45") trec peste
 // grupare: acolo am comparat pozele sau adresa.
 const dupaId = new Map(case_.map(o => [idAnunt(o.u), o]));
