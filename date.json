@@ -14947,6 +14947,36 @@
    "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/duplex-de-vanzare-langa-parcul-sub-arini/69058896ggi97e10150f8h558251d159.html",
    "warn": "Din publi24; detalii neverificate in descriere.",
    "d": "2026-10-17"
+  },
+  {
+   "k": "casa",
+   "p": 110000,
+   "t": "Casă de vânzare",
+   "z": "Turnisor",
+   "r": null,
+   "a": null,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "facebook",
+   "u": "https://www.facebook.com/marketplace/item/1605699371567526/",
+   "warn": "Din facebook; detalii neverificate in descriere.",
+   "d": "2026-10-17"
+  },
+  {
+   "k": "casa",
+   "p": 139000,
+   "t": "Vând casă în centrul Sibiului",
+   "z": "Sibiu",
+   "r": 2,
+   "a": null,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "facebook",
+   "u": "https://www.facebook.com/marketplace/item/3338193726383143/",
+   "warn": "Din facebook; detalii neverificate in descriere.",
+   "d": "2026-10-17"
   }
  ]
 }

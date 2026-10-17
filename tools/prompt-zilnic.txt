@@ -28,6 +28,16 @@ singur pe cele salvate azi:
     care intoarce mereu prima pagina) pana nu mai apar anunturi noi; din fiecare
     <article>: {u, t, p: textul pretului, camere, mp, desc: textul cardului}.
     Pastreaza doar cele cu pret pana in 250.000 €.
+ c) Facebook Marketplace -> tools/externe/facebook-raw.json
+    browser_navigate la
+    https://www.facebook.com/marketplace/sibiu/search/?query=casa%20de%20vanzare
+    (merge fara cont; /marketplace/sibiu/propertyforsale redirecteaza la
+    pagina generala). browser_evaluate (cu filename): sterge [role="dialog"],
+    ia toate a[href*="/marketplace/item/"] -> {u, p: linia cu RON/€, t: prima
+    linie de text, loc: ultima linie}; apoi pentru fiecare fetch pe pagina
+    anuntului, cate 4 odata, si pune in desc meta og:description (decodat cu
+    un textarea). Preturile "RON" sunt de fapt euro, iar loc e a contului -
+    surse-case.js stie asta.
 
 Apoi lantul complet:
 

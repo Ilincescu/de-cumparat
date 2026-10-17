@@ -31,8 +31,8 @@ const EXCLUS = [
   ['curte comuna', /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă]\s+parte|\bcot[aă]\s+(de\s+)?\d+\s*\/\s*\d+|[iî]n\s+indiviziune/i],
   ['doua corpuri', /(dou[aă]|2)\s+(corpuri|case|locuin[tț]e|apartamente|garsoniere)|aceea?(s|ș)i\s+curte/i],
   ['nefinisata', /\bla\s+alb\b|\bla\s+ro[sș]u\b|stadiul?\s+de\s+gri|semifinisat/i],
-  ['nu e casa', /\bteren\s+intravilan\b(?!.*\bcas)|spa[tț]iu\s+comercial|\bhal[aă]\b|capsul|cas[aă]\s+mobil|glamping|c[aă]su[tț][aăe]|modular|container/i],
-  ['alt judet', /v[aâ]lcea|\bbran\b|bra[sș]ov|bruiu|[sș]omartin|\bcomuna\b|\bsatul?\b/i],
+  ['nu e casa', /^apartament(?!\s+(la|de)\s+cas)|\bteren\s+intravilan\b(?!.*\bcas)|spa[tț]iu\s+comercial|\bhal[aă]\b|capsul|cas[aă]\s+mobil|glamping|c[aă]su[tț][aăe]|modular|container/i],
+  ['alt judet', /v[aâ]lcea|\bbran\b|bra[sș]ov|bruiu|[sș]omartin|\bcomuna\b|\bcom\.|\bsat(ul|ului)?\b|[sș]eica|mic[aă]sasa|\bla\s+[tț]ar[aă]\b|\bjud(e[tț]ul)?\.?\s+(?!sibiu)[a-zăâîșț]{3,}|\bloc\.\s*(?!sibiu)[a-zăâîșț]{3,}/i],
 ];
 // Sub 20.000 € nu e pretul unei case din oras: e chirie, pret pe mp sau avans.
 const PRET_MINIM = 20000;
@@ -262,11 +262,15 @@ function noteaza(sursa, ce, date) {
     if (typeof j === 'string') j = JSON.parse(j);
     const lista = Array.isArray(j) ? j : j.out || [];
     const src = path.basename(process.argv[3], '.json').replace(/-raw$/, '');
-    return lista.filter(x => !x.loc || /^sibiu$/i.test(x.loc.trim())).map(x => x.titlu ? x : ({
+    // Facebook scrie "RON" la preturi care sunt de fapt in euro (vanzatorii pun
+    // suma in EUR, iar contul e setat pe lei), si localitatea de pe card e a
+    // contului, nu a casei - de aceea "Sibiu, Romania" trece, iar orasul real il
+    // verifica filtrele din descriere.
+    return lista.filter(x => !x.loc || /^sibiu\b/i.test(x.loc.trim())).map(x => x.titlu ? x : ({
       src,
       titlu: curat(x.t),
       descriere: curat(`${x.desc || ''} ${x.params || ''}`),
-      pret: /€|eur/i.test(x.p || '') ? +String(x.p).replace(/[^\d]/g, '') || null : null,
+      pret: (src === 'facebook' || /€|eur/i.test(x.p || '')) ? +String(x.p).replace(/[^\d]/g, '') || null : null,
       mpu: nr(/Suprafa[tț]a utila:\s*(\d+)/i, x.params || '') || x.mp || null,
       camere: nr(/Camere:\s*(\d)/i, x.params || '') || x.camere || null,
       url: x.u,
