@@ -116,8 +116,8 @@ function punctajCasa(x) {
 // ---------- masini ----------
 
 // La preluarea de leasing pretul afisat e doar avansul: un Audi Q5 din 2024
-// aparea la 10.000 EUR, cu inca 39 de rate pe deasupra. Nu intra in bugetul
-// de 11.500 EUR si nu e comparabil cu restul listei.
+// aparea la 10.000 EUR, cu inca 39 de rate pe deasupra. Nu intra in buget
+// si nu e comparabil cu restul listei.
 const LEASING = /predare leasing|preluare leasing|preiei?\s+\d+\s+rate|rate\s+r[aă]mase|transfer leasing/i;
 
 function filtreazaMasina(m) {
@@ -128,14 +128,18 @@ function filtreazaMasina(m) {
   if (MASINI_RESPINSE.test(m.m || '')) return 'respinsa sau mai mica decat C3';
   if (!m.an || m.an < 2020) return 'mai veche de 2020';
   if (!m.km || m.km >= 100000) return 'peste 100.000 km';
-  if (!m.p || m.p > 11500) return 'peste buget';
+  // Bugetul e 10.000; pana la 15.000 doar pentru o oferta rara (tare, din
+  // oferte-tari.js). Il urcasem pe nesimtite la 11.500 si toate recomandarile
+  // ajunsesera peste buget.
+  if (!m.p || m.p > 15000) return 'peste buget';
+  if (m.p > 10000 && !m.tare) return 'peste 10.000 si nu e oferta rara';
   return null;
 }
 
 function punctajMasina(m) {
   let p = (m.an - 2019) * 8;
   p += Math.round((100000 - m.km) / 100000 * 30);
-  p += Math.round((11500 - m.p) / 11500 * 25);
+  p += Math.round((15000 - m.p) / 15000 * 25);
   if (/sibiu|[sș]elimb[aă]r|cristian|cisn[aă]die/i.test(m.z || '')) p += 15;
   if (CUREA_IN_ULEI.test((m.m || '') + ' ' + (m.warn || ''))) p -= 25;
   else if (m.warn) p -= 8;

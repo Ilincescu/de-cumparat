@@ -176,7 +176,7 @@
 
 <header>
   <div class="title"><h1>Casă, apartament, mașină, bicicletă</h1><span class="stamp" id="stamp"></span></div>
-  <p class="lede"><a href="comparatie.html">Top 5 case</a> · <a href="top-masini.html">Top 3 mașini</a></p>
+  <p class="lede"><a href="comparatie.html">Top 5 case</a> · <a href="top-masini.html">Top mașini</a></p>
   <p class="lede" id="lede"></p>
 </header>
 
@@ -567,7 +567,8 @@
     el("sizeWrap").hidden=!bike;
     var s=el("maxp");
     if(bike){ s.min=1000; s.max=BIKE.buget; s.step=100; state.maxp=BIKE.buget; }
-    else if(car){ s.min=3000; s.max=15000; s.step=250; state.maxp=15000; }
+    // bugetul e 10.000; cursorul merge pana la 15.000 pentru ofertele rare
+    else if(car){ s.min=3000; s.max=15000; s.step=250; state.maxp=10000; }
     // Cei 250.000 acopera casa SI apartamentul de inchiriat; cel mai ieftin
     // apartament de 2 camere locuibil e ~50.000, deci casa porneste de la 200.000.
     else { s.min=50000; s.max=IMO.buget_total; s.step=5000; state.maxp=state.k==="casa"?200000:IMO.buget_total; }

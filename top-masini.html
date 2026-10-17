@@ -52,11 +52,11 @@
 <body>
 <div class="wrap">
 <header>
-  <h1>Top 3 mașini</h1>
+  <h1>Top mașini</h1>
   <div class="stamp">17 octombrie 2026 · <a href="index.html">înapoi la listă</a> · <a href="comparatie.html">top 5 case</a></div>
-  <p class="lede">Din toate mașinile din listă: până în 11.500 €, din 2020, sub 100.000 km,
-    SUV sau crossover de minim ~4,25 m, fără Duster, fără utilitare, fără avariate.
-    Motoarele PureTech (curea de distribuție în ulei) sunt puse ultimele.</p>
+  <p class="lede">Bugetul e 10.000 €; până la 15.000 € intră doar o ofertă rară (⚡ pe listă).
+    Din toate mașinile din listă: din 2020, sub 100.000 km, SUV sau crossover de minim ~4,25 m,
+    fără Duster, fără utilitare, fără avariate. Azi trec doar două mașini, și nicio ofertă rară între 10.000 și 15.000 €.</p>
   <p class="lede" id="sincronizare">se citesc prețurile din listă…</p>
 </header>
 <div id="top"></div>
@@ -64,21 +64,16 @@
 </div>
 <script>
 var TOP = [
-  { loc:1, nume:"Peugeot 2008 1.5 BlueHDi Allure Pack", pret:11490,
-    url:"https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-bvm6-stt-allure-pack-ID7HQUtc.html",
-    meta:"2022 · 80.000 km · diesel 110 CP · manuală · București · dealer Star Auto",
-    bun:["Garanție dealer 12 luni, inclusă în preț","Primul proprietar, carte de service","Nu e PureTech: motor diesel 1.5","~4,30 m, cu 36 cm peste C3-ul tău"],
-    atentie:null },
-  { loc:2, nume:"Peugeot 2008 diesel", pret:11495,
-    url:"https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQSbO.html",
-    meta:"2022 · 76.349 km · diesel 110 CP · manuală · București · Ayvens (mașini ieșite din leasing)",
-    bun:["12 luni garanție, istoric complet de întreținere","Retur în 14 zile cu banii înapoi","Verificată în 42 de puncte de un service independent, scrie vânzătorul"],
-    atentie:null },
-  { loc:3, nume:"Jeep Renegade 1.0 Turbo Night Eagle", pret:10300,
-    url:"https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ver-1-0-turbo-4x2-m6-night-eagle-ID7HQBqh.html",
-    meta:"2021 · benzină 120 CP · manuală · Corbeanca · dealer Interni Motors",
-    bun:["Cea mai ieftină dintre cele trei","Primul proprietar, fără accident în istoric, carte de service","Nu e PureTech"],
-    atentie:"Câmpul de km spune 49.000, descrierea „kilometraj certificat 57.000”. ~4,24 m, la limita pragului tău." }
+  { loc:1, nume:"Jeep Renegade 1.0 Turbo", pret:8999,
+    url:"https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ID7HQRoZ.html",
+    meta:"înmatriculat 10.11.2022 · 82.000 km · benzină 120 CP · manuală · Ploiești · dealer Luxury All Cars",
+    bun:["Cea mai ieftină: cu 1.000 € sub buget","Primul proprietar, cumpărată nouă în România, service la zi","Nu e PureTech","Cameră spate, senzori față-spate, navigație"],
+    atentie:"Câmpul spune 2021, descrierea „prima înmatriculare 10.11.2022” — cere talonul. ~4,24 m, la limita pragului tău." },
+  { loc:2, nume:"Opel Grandland X 1.2 Turbo, automată", pret:10000,
+    url:"https://www.autovit.ro/autoturisme/anunt/opel-grandland-x-ver-1-2-turbo-start-stop-aut-enjoy-ID7HOuMB.html",
+    meta:"2020 · 63.100 km · benzină 130 CP · automată · București · vânzător privat",
+    bun:["Fix în buget","Cutie automată, primul proprietar (cumpărată prin leasing)","~4,48 m, cea mai mare"],
+    atentie:"Motorul e PureTech, cu cureaua de distribuție în ulei: cere dovada că a fost schimbată." }
 ];
 function euro(n){ return Math.round(n).toLocaleString("ro-RO")+" €"; }
 function deseneaza(){

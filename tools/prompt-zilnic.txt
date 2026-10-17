@@ -186,7 +186,8 @@ APARTAMENT  2 camere. Fara mansarda. Fara dezvoltator. Fara garsoniere -
             daca are o singura camera sau sub 30 mp, nu intra in lista.
             Cat mai ieftin, de preferat la casa.
 
-MASINA      pana in 11.500 EUR, an 2020+, sub 100.000 km, piese ieftine si
+MASINA      pana in 10.000 EUR; pana la 15.000 DOAR daca e oferta rara
+            (tare = true din oferte-tari.js). An 2020+, sub 100.000 km, piese ieftine si
             comune. Atentie la motoarele PureTech, care au curea in baie de
             ulei. Cvadriciclurile (Aixam, Ligier, Chatenet, Aigo, Elaris) nu
             sunt masini, nu le pune in lista.

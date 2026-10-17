@@ -377,7 +377,9 @@ function noteazaCautare(sursa, ce, date) {
 // Toata tara, nu doar in jurul Sibiului: lista de pe site e construita din
 // anunturi din Bucuresti, Pitesti, Cluj, iar in jurul Sibiului cautarea dadea
 // 14 rezultate si saptamani intregi fara nimic nou.
-async function scaneazaMasini({ anMinim = 2020, pretMax = 11500, kmMax = 100000, paginiMax = 40 } = {}) {
+// Pretul maxim e 15.000, nu bugetul de 10.000: intre 10.000 si 15.000 intra
+// doar ofertele rare (oferte-tari.js), dar ca sa le prind trebuie citite.
+async function scaneazaMasini({ anMinim = 2020, pretMax = 15000, kmMax = 100000, paginiMax = 40 } = {}) {
   const t0 = Date.now();
   let edges = [], totalCount = 0;
   for (let pagina = 1; pagina <= paginiMax; pagina++) {

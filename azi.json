@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-17 16:05",
+ "generat": "2026-10-17 16:20",
  "de_la": "2026-10-16",
  "pana_la": "2026-10-17",
  "case_noi": 0,
@@ -20,10 +20,10 @@
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-17 09:21",
-   "ce": "2020+, sub 11500 €, sub 100000 km, toată țara",
-   "gasite": 703,
-   "potrivite": 137,
+   "cand": "2026-10-17 16:17",
+   "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
+   "gasite": 1616,
+   "potrivite": 350,
    "stare": "azi",
    "veche": false
   }
@@ -54,27 +54,27 @@
    "zona": "Bucuresti",
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ID7HQTZs.html",
-   "scor": 58
+   "scor": 63
   },
   {
-   "pret": 11500,
-   "model": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
-   "an": 2024,
-   "km": 43700,
-   "zona": "Tecuci",
+   "pret": 9999,
+   "model": "Opel Combo 1.5 L1H1 Selection",
+   "an": 2022,
+   "km": 36850,
+   "zona": "Satu Mare",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQQkW.html",
-   "scor": 57
+   "url": "https://www.autovit.ro/autoturisme/anunt/opel-combo-ver-1-5-l1h1-selection-ID7HQHig.html",
+   "scor": 51
   },
   {
-   "pret": 11250,
-   "model": "Dacia Sandero Stepway TCe 90 MT6 Expression",
+   "pret": 8500,
+   "model": "Ford EcoSport",
    "an": 2023,
-   "km": 36690,
-   "zona": "Buzau",
+   "km": 79280,
+   "zona": "Targoviste",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-expression-ID7HQGog.html",
-   "scor": 52
+   "url": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQQwn.html",
+   "scor": 49
   }
  ]
 }

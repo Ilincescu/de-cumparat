@@ -1,7 +1,7 @@
 {
  "actualizat": "2026-10-17",
- "buget": 11000,
- "note": "Masini cautate pe Autovit si OLX: buget ~11.000 EUR, garda inalta, drum lung, piese ieftine in Romania. Campuri: m = model, an, km, cp, f = combustibil, p = pret EUR, z = locatie, u = link, warn = capcana de stiut, d = data vazuta.",
+ "buget": 10000,
+ "note": "Masini cautate pe Autovit si OLX: buget 10.000 EUR (pana la 15.000 doar pentru o oferta rara), garda inalta, drum lung, piese ieftine in Romania. Campuri: m = model, an, km, cp, f = combustibil, p = pret EUR, z = locatie, u = link, warn = capcana de stiut, d = data vazuta.",
  "observatii": [
   "La 11.000 EUR nu exista Tucson mai nou de 2016. Pe toata tara, sub 12.000 EUR, Autovit avea exact doua Tucsonuri, ambele din 2016, unul cu 119.000 km si unul cu 141.000 km. Un Tucson 2019-2020 pleaca de la ~16.000-20.000 EUR.",
   "Acelasi lucru la Mazda CX-5 (2015-2017) si Kia Sportage (2016-2019). Alegerea reala e: ori 2020+ cu marca modesta, ori marca premium si mai veche cu 4-6 ani.",
@@ -135,7 +135,8 @@
    "d": "2026-10-07",
    "avc": "2026-10-17",
    "av": true,
-   "av_motiv": "campul Avariata: Da"
+   "av_motiv": "campul Avariata: Da",
+   "gj": false
   },
   {
    "m": "Volkswagen Tiguan",
@@ -150,7 +151,8 @@
    "warn": null,
    "d": "2026-10-01",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Volkswagen Tiguan 2.0 TSI 4Motion Sport & Style",
@@ -196,7 +198,8 @@
    "warn": null,
    "d": "2026-09-25",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai 1.6 DCI Start/Stop Visia",
@@ -256,7 +259,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-ecotec-start-stop-enjoy-ID7HOgmb.html",
    "warn": null,
    "d": "2026-09-19",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai",
@@ -301,7 +305,8 @@
    "d": "2026-10-05",
    "avc": "2026-10-17",
    "av": true,
-   "av_motiv": "campul Avariata: Da"
+   "av_motiv": "campul Avariata: Da",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway 0.9 TCe SL Techroad",
@@ -315,7 +320,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-0-9-tce-sl-techroad-ID7HQJ7X.html",
    "warn": null,
    "d": "2026-10-05",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai 1.6 CVT Acenta",
@@ -405,7 +411,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-1-5-blue-dci-ambiance-ID7HQPrP.html",
    "warn": null,
    "d": "2026-09-27",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Mazda CX-5",
@@ -451,7 +458,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-tce-100-gpf-comfort-ID7HQK5I.html",
    "warn": null,
    "d": "2026-10-08",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Kia Sportage",
@@ -498,7 +506,8 @@
    "d": "2026-10-02",
    "avc": "2026-10-17",
    "av": true,
-   "av_motiv": "campul Avariata: Da"
+   "av_motiv": "campul Avariata: Da",
+   "gj": false
   },
   {
    "m": "Renault Express",
@@ -514,7 +523,8 @@
    "d": "2026-10-09",
    "avc": "2026-10-17",
    "av": true,
-   "av_motiv": "campul Avariata: Da"
+   "av_motiv": "campul Avariata: Da",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai",
@@ -559,7 +569,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-0-9-tce-easy-r-sl-techroad-ID7HQMCQ.html",
    "warn": null,
    "d": "2026-09-17",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Duster TCe 90 Essential",
@@ -575,7 +586,8 @@
    "d": "2026-10-04",
    "avc": "2026-10-17",
    "av": true,
-   "av_motiv": "campul Avariata: Da"
+   "av_motiv": "campul Avariata: Da",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 Start/Stop Edition",
@@ -589,7 +601,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-start-stop-edition-ID7HQUmK.html",
    "warn": null,
    "d": "2026-10-13",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -603,7 +616,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQNxB.html",
    "warn": null,
    "d": "2026-10-10",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -616,7 +630,8 @@
    "src": "autovit",
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQGyH.html",
    "warn": null,
-   "d": "2026-09-26"
+   "d": "2026-09-26",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -631,7 +646,8 @@
    "warn": null,
    "d": "2026-10-05",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Volkswagen Tiguan",
@@ -660,7 +676,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQCop.html",
    "warn": null,
    "d": "2026-09-10",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T ACENTA",
@@ -690,7 +707,8 @@
    "warn": null,
    "d": "2026-10-05",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -705,7 +723,8 @@
    "warn": null,
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -719,7 +738,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HNBdN.html",
    "warn": null,
    "d": "2026-09-09",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Dokker TCe 100 GPF Start",
@@ -733,7 +753,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-tce-100-gpf-start-ID7HQIyK.html",
    "warn": null,
    "d": "2026-10-04",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai 1.3 157CP 2WD Tekna DCT",
@@ -748,7 +769,8 @@
    "warn": null,
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Kia Sportage",
@@ -779,7 +801,8 @@
    "warn": null,
    "d": "2026-09-18",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport",
@@ -793,7 +816,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQQwn.html",
    "warn": null,
    "d": "2026-09-30",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 Business Elegance",
@@ -807,7 +831,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-business-elegance-ID7HJ6AS.html",
    "warn": null,
    "d": "2026-09-24",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Mazda CX-5 2.2 SKYACTIV-D AWD Aut. Sports-Line",
@@ -837,7 +862,8 @@
    "warn": null,
    "d": "2026-09-28",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Volkswagen Tiguan 1.4 TSI BMT Sport&Style",
@@ -883,7 +909,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ID7HQTZs.html",
    "warn": null,
    "d": "2026-10-12",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport",
@@ -897,7 +924,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQDT1.html",
    "warn": null,
    "d": "2026-09-16",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Citroen C3 Aircross 1.2 PureTech Shine",
@@ -927,7 +955,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-turbo-start-stop-aut-enjoy-ID7HKSxS.html",
    "warn": "Motor PureTech (la Opel scris 1.2 Turbo) cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-09-10",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Combo 1.5 L1H1 Start/Stop Edition",
@@ -941,7 +970,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-combo-ver-1-5-l1h1-start-stop-edition-ID7HQLdW.html",
    "warn": null,
    "d": "2026-09-13",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 ECOTEC Start/Stop Enjoy",
@@ -955,7 +985,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-ecotec-start-stop-enjoy-ID7HQPtO.html",
    "warn": null,
    "d": "2026-09-27",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Volkswagen Tiguan 2.0 TSI 4Motion DSG Track&Field",
@@ -999,7 +1030,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-1-5-blue-dci-laureate-ID7HQtxz.html",
    "warn": null,
    "d": "2026-09-25",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai 1.5 DCI DPF Visia",
@@ -1028,7 +1060,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQw67.html",
    "warn": null,
    "d": "2026-09-23",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -1042,7 +1075,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQoLN.html",
    "warn": null,
    "d": "2026-09-14",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -1057,7 +1091,8 @@
    "warn": null,
    "d": "2026-09-09",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Dokker 1.5 Blue dCi Laureate",
@@ -1071,7 +1106,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-1-5-blue-dci-laureate-ID7HQDgz.html",
    "warn": null,
    "d": "2026-09-13",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Volkswagen Tiguan 2.0 TDI DPF BlueMotion Technology Exclusive",
@@ -1107,16 +1143,17 @@
   {
    "m": "Jeep Renegade",
    "an": 2021,
-   "km": 88000,
+   "km": 82000,
    "cp": 120,
    "f": "benzina",
    "p": 8999,
    "z": "Ploiesti",
    "src": "autovit",
    "u": "https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ID7HQRoZ.html",
-   "warn": null,
+   "warn": "Prima inmatriculare 10.11.2022 (scrie in descriere), desi campul spune 2021.",
    "d": "2026-10-03",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland",
@@ -1130,7 +1167,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ID7HQQ9w.html",
    "warn": null,
    "d": "2026-09-29",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -1144,7 +1182,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQEQD.html",
    "warn": null,
    "d": "2026-09-23",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Suzuki Vitara 1.0 Passion",
@@ -1174,7 +1213,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQOXj.html",
    "warn": null,
    "d": "2026-09-25",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -1188,7 +1228,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HEJDq.html",
    "warn": null,
    "d": "2026-10-16",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Dokker 1.5 Blue dCi Laureate",
@@ -1203,7 +1244,8 @@
    "warn": null,
    "d": "2026-09-15",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "SsangYong Tivoli",
@@ -1233,7 +1275,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQSc9.html",
    "warn": null,
    "d": "2026-10-06",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 Start/Stop Enjoy",
@@ -1248,7 +1291,8 @@
    "warn": null,
    "d": "2026-09-16",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -1262,7 +1306,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HM8jX.html",
    "warn": null,
    "d": "2026-09-18",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -1277,7 +1322,8 @@
    "warn": null,
    "d": "2026-10-02",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Lodgy TCe 130 GPF Stepway",
@@ -1291,7 +1337,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-lodgy-ver-tce-130-gpf-stepway-ID7HQRXy.html",
    "warn": null,
    "d": "2026-10-14",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway 0.9 TCe",
@@ -1305,7 +1352,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-0-9-tce-ID7HQl0F.html",
    "warn": null,
    "d": "2026-10-03",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T Start/Stop X-TRONIC Tekna",
@@ -1335,7 +1383,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-1-5-blue-dci-ID7HQNjr.html",
    "warn": null,
    "d": "2026-09-19",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -1349,7 +1398,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQBI8.html",
    "warn": null,
    "d": "2026-10-11",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T Xtronic N-Vision",
@@ -1378,7 +1428,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-expression-ID7HQ6RX.html",
    "warn": null,
    "d": "2026-09-15",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Mazda CX-5 CD175 4x4 AT Revolution Top",
@@ -1408,7 +1459,8 @@
    "warn": null,
    "d": "2026-10-04",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost ST-Line",
@@ -1422,7 +1474,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-st-line-ID7HQQwn.html",
    "warn": null,
    "d": "2026-09-30",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Combo",
@@ -1436,21 +1489,23 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-combo-ID7HQRvq.html",
    "warn": null,
    "d": "2026-10-04",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Grandland X 1.2 Turbo START/STOP Aut. Ultimate",
    "an": 2020,
-   "km": 71000,
+   "km": 172000,
    "cp": 130,
    "f": "benzina",
    "p": 9500,
    "z": "Bucuresti",
    "src": "autovit",
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-grandland-x-ver-1-2-turbo-start-stop-aut-ultimate-ID7HQOTq.html",
-   "warn": "Motor PureTech (la Opel scris 1.2 Turbo) cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "warn": "Bordul arata 172.000 km; anuntul trece 71.000 = km motorului nou montat la 101.000. Plus motor PureTech.",
    "d": "2026-09-24",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
@@ -1464,7 +1519,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQJak.html",
    "warn": null,
    "d": "2026-10-05",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -1479,7 +1535,8 @@
    "warn": null,
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Dokker",
@@ -1493,7 +1550,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ID7HQUhW.html",
    "warn": null,
    "d": "2026-10-13",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 Start/Stop Edition",
@@ -1507,7 +1565,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-start-stop-edition-ID7HOewA.html",
    "warn": null,
    "d": "2026-09-17",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Volkswagen Tiguan 2.0 TDI 4Motion DSG BMT Track & Style",
@@ -1566,7 +1625,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQEMT.html",
    "warn": null,
    "d": "2026-09-21",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai",
@@ -1596,7 +1656,8 @@
    "warn": null,
    "d": "2026-10-05",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Peugeot Partner",
@@ -1610,7 +1671,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-partner-ID7HQTZE.html",
    "warn": null,
    "d": "2026-10-12",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Combo 1.5 L2H1 Start/Stop Edition XL",
@@ -1624,7 +1686,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-combo-ver-1-5-l2h1-start-stop-edition-xl-ID7HQR2Q.html",
    "warn": null,
    "d": "2026-10-02",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 Start/Stop Automatik 2020",
@@ -1639,7 +1702,8 @@
    "warn": null,
    "d": "2026-09-12",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
@@ -1653,7 +1717,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQDCq.html",
    "warn": null,
    "d": "2026-09-15",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -1683,7 +1748,8 @@
    "warn": null,
    "d": "2026-09-11",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 Turbo",
@@ -1727,7 +1793,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/citroen-c3-aircross-ver-1-2-puretech-s-s-eat6-shine-pack-ID7HQQJX.html",
    "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-10-01",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport",
@@ -1742,7 +1809,8 @@
    "warn": null,
    "d": "2026-09-15",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Mazda CX-5 CD150 4x4 AT",
@@ -1803,7 +1871,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-active-ID7HQRHG.html",
    "warn": null,
    "d": "2026-10-05",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
@@ -1817,7 +1886,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQQcY.html",
    "warn": null,
    "d": "2026-09-29",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Renault Express",
@@ -1832,7 +1902,8 @@
    "warn": null,
    "d": "2026-09-15",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Combo 1.5 L1H1 Selection",
@@ -1846,7 +1917,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-combo-ver-1-5-l1h1-selection-ID7HQHig.html",
    "warn": null,
    "d": "2026-10-01",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -1860,7 +1932,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQy3L.html",
    "warn": null,
    "d": "2026-10-06",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -1874,7 +1947,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQtxR.html",
    "warn": null,
    "d": "2026-09-25",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 Edition",
@@ -1888,7 +1962,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-edition-ID7HQn5P.html",
    "warn": null,
    "d": "2026-09-22",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -1902,7 +1977,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HPAdV.html",
    "warn": null,
    "d": "2026-10-02",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -1916,7 +1992,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HNC4l.html",
    "warn": null,
    "d": "2026-09-14",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 Comfort",
@@ -1930,7 +2007,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-comfort-ID7HQy3L.html",
    "warn": null,
    "d": "2026-10-06",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Renault Express",
@@ -1944,7 +2022,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQURf.html",
    "warn": null,
    "d": "2026-10-15",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Audi Q5 35 TDI S tronic",
@@ -2019,7 +2098,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQSwC.html",
    "warn": null,
    "d": "2026-10-07",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Grandland X 1.2 Turbo START/STOP Aut. Enjoy",
@@ -2033,7 +2113,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-grandland-x-ver-1-2-turbo-start-stop-aut-enjoy-ID7HOuMB.html",
    "warn": "Motor PureTech (la Opel scris 1.2 Turbo) cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-10-02",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -2047,7 +2128,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQUVy.html",
    "warn": null,
    "d": "2026-10-15",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai",
@@ -2108,7 +2190,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HKUbv.html",
    "warn": null,
    "d": "2026-09-09",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 Turbo Start/Stop Aut. Enjoy",
@@ -2122,7 +2205,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-turbo-start-stop-aut-enjoy-ID7HQIK4.html",
    "warn": "Motor PureTech (la Opel scris 1.2 Turbo) cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-09-30",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Kia Sportage 1.6 GDI 6MT 4x2 Classic",
@@ -2151,7 +2235,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQDo3.html",
    "warn": null,
    "d": "2026-09-16",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
@@ -2165,7 +2250,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQHGE.html",
    "warn": null,
    "d": "2026-09-30",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Peugeot 2008 PureTech 130 Active Pack",
@@ -2210,7 +2296,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ver-1-0-turbo-4x2-m6-night-eagle-ID7HQBqh.html",
    "warn": null,
    "d": "2026-10-07",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Mazda CX-5 Skyactiv-D 175 AWD",
@@ -2270,7 +2357,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-1-6-sce-basic-ID7HQMx8.html",
    "warn": null,
    "d": "2026-09-17",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Peugeot 2008 1.2 PureTech Turbo S&S Allure",
@@ -2285,7 +2373,8 @@
    "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-09-13",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Renault Express",
@@ -2299,7 +2388,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQS07.html",
    "warn": null,
    "d": "2026-10-06",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Renault Express",
@@ -2313,7 +2403,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQvhn.html",
    "warn": null,
    "d": "2026-09-30",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost",
@@ -2327,7 +2418,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-ID7HQkVP.html",
    "warn": null,
    "d": "2026-09-18",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -2341,7 +2433,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQ6Su.html",
    "warn": null,
    "d": "2026-09-16",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Connected",
@@ -2355,7 +2448,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-connected-ID7HKObw.html",
    "warn": null,
    "d": "2026-10-07",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 Essential",
@@ -2369,7 +2463,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-essential-ID7HQxb0.html",
    "warn": null,
    "d": "2026-10-11",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -2383,7 +2478,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQPNT.html",
    "warn": null,
    "d": "2026-09-28",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -2398,7 +2494,8 @@
    "warn": null,
    "d": "2026-09-17",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Kia Sportage 1.6 GDI Classic",
@@ -2460,7 +2557,8 @@
    "warn": null,
    "d": "2026-09-30",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -2474,7 +2572,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQPBH.html",
    "warn": null,
    "d": "2026-09-27",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford Puma 1.0 EcoBoost Hybrid ST-LINE X",
@@ -2489,7 +2588,8 @@
    "warn": null,
    "d": "2026-09-16",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Active",
@@ -2503,7 +2603,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-active-ID7HQxFD.html",
    "warn": null,
    "d": "2026-10-02",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Jeep Renegade 1.0 T-GDI Sport",
@@ -2516,7 +2617,8 @@
    "src": "autovit",
    "u": "https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ver-1-0-t-gdi-sport-ID7HQtkJ.html",
    "warn": null,
-   "d": "2026-09-17"
+   "d": "2026-09-17",
+   "gj": false
   },
   {
    "m": "Dacia Duster",
@@ -2532,7 +2634,8 @@
    "d": "2026-10-12",
    "avc": "2026-10-17",
    "av": true,
-   "av_motiv": "descrierea: \"avariat\""
+   "av_motiv": "descrierea: \"avariat\"",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai",
@@ -2577,7 +2680,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-puretech-130-stop-start-gpf-eat8-allure-ID7HQNmg.html",
    "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-09-20",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway ECO-G 100 MT6 Expression",
@@ -2591,7 +2695,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-expression-ID7HQQYe.html",
    "warn": null,
    "d": "2026-10-02",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Kia Sportage 2.0 DSL 6AT 4x4 Style",
@@ -2637,7 +2742,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-titanium-ID7HQOEb.html",
    "warn": null,
    "d": "2026-09-29",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 Turbo Start/Stop Aut. Ultimate",
@@ -2651,7 +2757,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-turbo-start-stop-aut-ultimate-ID7HGO4Q.html",
    "warn": "Motor PureTech (la Opel scris 1.2 Turbo) cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-09-27",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford Puma 1.0 EcoBoost MHEV ST Line",
@@ -2665,7 +2772,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-st-line-ID7HQSSj.html",
    "warn": null,
    "d": "2026-10-08",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford Puma",
@@ -2679,7 +2787,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQUSQ.html",
    "warn": null,
    "d": "2026-10-15",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai 1.6 DCI Start/Stop X-TRONIC N-Connecta",
@@ -2755,7 +2864,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-puretech-130-stop-start-gpf-active-business-paket-ID7HQSS9.html",
    "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-10-08",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Hyundai KONA 1.0 T-GDI 2WD Highway",
@@ -2770,7 +2880,8 @@
    "warn": null,
    "d": "2026-10-02",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost ST-Line",
@@ -2784,7 +2895,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-st-line-ID7HQB2f.html",
    "warn": null,
    "d": "2026-10-07",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Citroën C3 AIRCROSS 1.2 PureTech S&S EAT6 Shine",
@@ -2798,7 +2910,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/citroen-c3-aircross-ver-1-2-puretech-s-s-eat6-shine-ID7HP2TP.html",
    "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-09-16",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Duster TCe 90 Comfort",
@@ -2812,7 +2925,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-90-comfort-ID7HMWCd.html",
    "warn": null,
    "d": "2026-10-07",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Duster",
@@ -2826,7 +2940,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQUFf.html",
    "warn": null,
    "d": "2026-10-14",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Suzuki Vitara 1.6 4X4 Luxus",
@@ -2855,7 +2970,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ID7HKeUF.html",
    "warn": null,
    "d": "2026-09-18",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 Start/Stop Aut. Elegance",
@@ -2869,7 +2985,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-start-stop-aut-elegance-ID7HKeUF.html",
    "warn": null,
    "d": "2026-09-18",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Hyundai Tucson",
@@ -2975,7 +3092,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HP4ba.html",
    "warn": null,
    "d": "2026-09-24",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -2989,7 +3107,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HP2Hm.html",
    "warn": null,
    "d": "2026-09-21",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -3003,7 +3122,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQNK5.html",
    "warn": null,
    "d": "2026-09-21",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport",
@@ -3017,7 +3137,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQLO2.html",
    "warn": null,
    "d": "2026-09-15",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport",
@@ -3031,7 +3152,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQTQt.html",
    "warn": null,
    "d": "2026-10-12",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai 1.6 DCI TEKNA",
@@ -3092,7 +3214,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-cvt-extreme-ID7HQNLs.html",
    "warn": null,
    "d": "2026-09-21",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 Turbo Start/Stop Aut. Innovation",
@@ -3107,7 +3230,8 @@
    "warn": "Motor PureTech (la Opel scris 1.2 Turbo) cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-09-15",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -3121,7 +3245,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQGSP.html",
    "warn": null,
    "d": "2026-09-26",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Duster",
@@ -3135,7 +3260,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HJptg.html",
    "warn": null,
    "d": "2026-10-12",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland",
@@ -3149,7 +3275,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ID7HQUQL.html",
    "warn": null,
    "d": "2026-10-15",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Hyundai Kona 1.0 T-GDI Highway",
@@ -3226,7 +3353,8 @@
    "warn": null,
    "d": "2026-10-01",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Fiat Doblo Combi 1.3 Mjet 95 CP Maxi Confort",
@@ -3240,7 +3368,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/fiat-doblo-ver-combi-1-3-mjet-95-cp-maxi-confort-ID7HQMV3.html",
    "warn": null,
    "d": "2026-09-18",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Essential",
@@ -3254,7 +3383,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-essential-ID7HQMRy.html",
    "warn": null,
    "d": "2026-09-18",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Peugeot 2008 1.2 PureTech BVM6 STT Active Pack",
@@ -3268,7 +3398,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-puretech-bvm6-stt-active-pack-ID7HQugh.html",
    "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-09-20",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Jeep Renegade",
@@ -3282,7 +3413,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ID7HQlgK.html",
    "warn": null,
    "d": "2026-10-07",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
@@ -3296,7 +3428,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HOjaB.html",
    "warn": null,
    "d": "2026-10-04",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Duster",
@@ -3310,7 +3443,23 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQThw.html",
    "warn": null,
    "d": "2026-10-09",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway ECO-G 100 MT5 Journey",
+   "an": 2023,
+   "km": 48754,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 11000,
+   "z": "Balotesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt5-journey-ID7HQUxr.html",
+   "warn": null,
+   "d": "2026-10-16",
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Kia Sportage 1.6 GDI 6MT 4x2 Style",
@@ -3340,7 +3489,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-90-zen-ID7HPegO.html",
    "warn": null,
    "d": "2026-09-19",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai 1.5 DCI Start/Stop N-Connecta",
@@ -3370,7 +3520,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQPAY.html",
    "warn": null,
    "d": "2026-09-27",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Duster TCe 100 Comfort",
@@ -3384,7 +3535,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-100-comfort-ID7HQg03.html",
    "warn": null,
    "d": "2026-10-04",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 CVT Expression",
@@ -3398,7 +3550,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-cvt-expression-ID7HQStK.html",
    "warn": null,
    "d": "2026-10-07",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Renault Express",
@@ -3412,7 +3565,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQOG2.html",
    "warn": null,
    "d": "2026-09-24",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Expression",
@@ -3426,7 +3580,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-expression-ID7HQGog.html",
    "warn": null,
    "d": "2026-09-30",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Crossland 1.2 Start/Stop Edition",
@@ -3440,7 +3595,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-start-stop-edition-ID7HQQ3y.html",
    "warn": null,
    "d": "2026-09-29",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Nissan Qashqai 1.6L dCi Start/Stop 4X4-i N-Connecta",
@@ -3487,7 +3643,8 @@
    "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-10-05",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Duster Blue dCi 115 Prestige",
@@ -3501,7 +3658,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-prestige-ID7HQPjz.html",
    "warn": null,
    "d": "2026-10-04",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -3515,7 +3673,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQObI.html",
    "warn": null,
    "d": "2026-09-22",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -3529,7 +3688,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQIbU.html",
    "warn": null,
    "d": "2026-10-02",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Peugeot 3008",
@@ -3544,7 +3704,8 @@
    "warn": null,
    "d": "2026-10-09",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Renault Captur TCe 90 Intens",
@@ -3558,7 +3719,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-90-intens-ID7HMap1.html",
    "warn": null,
    "d": "2026-09-24",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Duster ECO-G 100 SL BlueLine",
@@ -3573,7 +3735,8 @@
    "warn": null,
    "d": "2026-09-13",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Peugeot 2008 1.5 BlueHDI BVM6 STT Allure Pack",
@@ -3587,7 +3750,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-bvm6-stt-allure-pack-ID7HQUtc.html",
    "warn": null,
    "d": "2026-10-14",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Peugeot 2008",
@@ -3601,7 +3765,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQSbO.html",
    "warn": null,
    "d": "2026-10-06",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Peugeot 2008",
@@ -3615,7 +3780,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HKi8C.html",
    "warn": null,
    "d": "2026-09-09",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Renault Captur",
@@ -3629,7 +3795,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ID7HQTD1.html",
    "warn": null,
    "d": "2026-10-11",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Renault Captur",
@@ -3643,7 +3810,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ID7HQU3h.html",
    "warn": null,
    "d": "2026-10-12",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Suzuki Vitara",
@@ -3735,7 +3903,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQSxg.html",
    "warn": null,
    "d": "2026-10-07",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -3749,7 +3918,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQScI.html",
    "warn": null,
    "d": "2026-10-06",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -3764,7 +3934,8 @@
    "warn": null,
    "d": "2026-10-04",
    "mort": true,
-   "mort_din": "2026-10-17"
+   "mort_din": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
@@ -3778,7 +3949,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQQkW.html",
    "warn": null,
    "d": "2026-09-30",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Peugeot 2008 1.5 BlueHDI FAP Active",
@@ -3792,7 +3964,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-fap-active-ID7HQNWD.html",
    "warn": null,
    "d": "2026-09-22",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Renault Express",
@@ -3806,7 +3979,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQFNa.html",
    "warn": null,
    "d": "2026-09-29",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -3820,7 +3994,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQnom.html",
    "warn": null,
    "d": "2026-10-08",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Ford Puma 1.0 EcoBoost Titanium",
@@ -3834,7 +4009,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-titanium-ID7HOH8r.html",
    "warn": null,
    "d": "2026-09-30",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Duster Blue dCi 115 Comfort",
@@ -3848,7 +4024,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-comfort-ID7HQUst.html",
    "warn": null,
    "d": "2026-10-14",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Opel Grandland 1.2 Turbo START/STOP GS Line",
@@ -3862,7 +4039,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/opel-grandland-ver-1-2-turbo-start-stop-gs-line-ID7HQMgE.html",
    "warn": "Motor PureTech (la Opel scris 1.2 Turbo) cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-10-02",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Dacia Dokker TCe 130 GPF Stepway",
@@ -3876,7 +4054,23 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-tce-130-gpf-stepway-ID7HQUPE.html",
    "warn": null,
    "d": "2026-10-15",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford EcoSport 1.0 EcoBoost ST-Line",
+   "an": 2021,
+   "km": 56253,
+   "cp": 125,
+   "f": "benzina",
+   "p": 11590,
+   "z": "Tunari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-st-line-ID7HQEPN.html",
+   "warn": null,
+   "d": "2026-09-19",
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Suzuki Vitara",
@@ -3893,6 +4087,231 @@
    "gj": false,
    "mort": true,
    "mort_din": "2026-10-17"
+  },
+  {
+   "m": "Dacia Duster TCe 90 Comfort",
+   "an": 2022,
+   "km": 32000,
+   "cp": 90,
+   "f": "benzina",
+   "p": 11650,
+   "z": "Cluj-Napoca",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-90-comfort-ID7HQREb.html",
+   "warn": null,
+   "d": "2026-10-04",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 90 MT6 Expression",
+   "an": 2023,
+   "km": 43942,
+   "cp": 90,
+   "f": "benzina",
+   "p": 11700,
+   "z": "Sfantu Gheorghe",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-expression-ID7HQTaj.html",
+   "warn": null,
+   "d": "2026-10-09",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Express",
+   "an": 2022,
+   "km": 40813,
+   "cp": 95,
+   "f": "diesel",
+   "p": 11700,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQSW3.html",
+   "warn": null,
+   "d": "2026-10-08",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA 1.0 T-GDI 2WD Comfort",
+   "an": 2020,
+   "km": 72512,
+   "cp": 120,
+   "f": "benzina",
+   "p": 11700,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-2wd-comfort-ID7HQQXR.html",
+   "warn": null,
+   "d": "2026-10-04",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 PureTech 130 EAT8 GT",
+   "an": 2021,
+   "km": 87909,
+   "cp": 131,
+   "f": "benzina",
+   "p": 11799,
+   "z": "Pitesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-130-eat8-gt-ID7HQTu8.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-10",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV ST Line",
+   "an": 2020,
+   "km": 71400,
+   "cp": 125,
+   "f": "benzina",
+   "p": 11799,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-st-line-ID7HQO3o.html",
+   "warn": null,
+   "d": "2026-09-22",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Express",
+   "an": 2022,
+   "km": 76954,
+   "cp": 75,
+   "f": "diesel",
+   "p": 11800,
+   "z": "Otopeni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQUC4.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA",
+   "an": 2020,
+   "km": 91300,
+   "cp": 120,
+   "f": "benzina",
+   "p": 11800,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ID7HQUwO.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Skoda Kamiq 1.0 TSI Active",
+   "an": 2021,
+   "km": 84388,
+   "cp": 95,
+   "f": "benzina",
+   "p": 11800,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/skoda-kamiq-ver-1-0-tsi-active-ID7HQONQ.html",
+   "warn": null,
+   "d": "2026-09-24",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Opel Crossland 1.2 Start/Stop Aut. Edition",
+   "an": 2023,
+   "km": 48500,
+   "cp": 130,
+   "f": "benzina",
+   "p": 11800,
+   "z": "Iasi",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-start-stop-aut-edition-ID7HQOdN.html",
+   "warn": null,
+   "d": "2026-09-22",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Captur TCe 90 Zen",
+   "an": 2021,
+   "km": 37140,
+   "cp": 90,
+   "f": "benzina",
+   "p": 11890,
+   "z": "Ramnicu Valcea",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-90-zen-ID7HQUyr.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2021,
+   "km": 45000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 11900,
+   "z": "Iasi",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQTb2.html",
+   "warn": null,
+   "d": "2026-10-09",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 90 CVT Expression",
+   "an": 2023,
+   "km": 100000,
+   "cp": 90,
+   "f": "benzina",
+   "p": 11950,
+   "z": "Otopeni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-cvt-expression-ID7HQUiH.html",
+   "warn": null,
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford EcoSport",
+   "an": 2020,
+   "km": 14313,
+   "cp": 125,
+   "f": "benzina",
+   "p": 11950,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQS7K.html",
+   "warn": null,
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
+   "an": 2022,
+   "km": 53129,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 11950,
+   "z": "Craiova",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQypd.html",
+   "warn": null,
+   "d": "2026-10-01",
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Suzuki Vitara 1.4 Boosterjet Comfort",
@@ -3926,6 +4345,66 @@
    "avc": "2026-10-17"
   },
   {
+   "m": "Ford Puma 1.5 EcoBlue Titanium",
+   "an": 2022,
+   "km": 98589,
+   "cp": 120,
+   "f": "diesel",
+   "p": 11990,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-5-ecoblue-titanium-ID7HQTcf.html",
+   "warn": null,
+   "d": "2026-10-09",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster",
+   "an": 2021,
+   "km": 81352,
+   "cp": 101,
+   "f": "benzina + gpl",
+   "p": 11990,
+   "z": "Nicolae Balcescu",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQSFe.html",
+   "warn": null,
+   "d": "2026-10-08",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2020,
+   "km": 27200,
+   "cp": 125,
+   "f": "benzina",
+   "p": 11990,
+   "z": "Ploiesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQRp4.html",
+   "warn": null,
+   "d": "2026-10-03",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost Hybrid TITANIUM DESIGN",
+   "an": 2022,
+   "km": 60000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 11990,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-hybrid-titanium-design-ID7HQHzF.html",
+   "warn": null,
+   "d": "2026-09-30",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
    "m": "Suzuki Vitara 1.6 DDIS 4X4 Luxus",
    "an": 2018,
    "km": 104000,
@@ -3940,6 +4419,413 @@
    "gj": false,
    "mort": true,
    "mort_din": "2026-10-17"
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 90 MT6 Extreme",
+   "an": 2024,
+   "km": 89711,
+   "cp": 90,
+   "f": "benzina + gpl",
+   "p": 11999,
+   "z": "Oradea",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-extreme-ID7HQUsy.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 PureTech 130 EAT8 GT",
+   "an": 2021,
+   "km": 78062,
+   "cp": 131,
+   "f": "benzina",
+   "p": 11999,
+   "z": "Pitesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-130-eat8-gt-ID7HQTJ3.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-11",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "an": 2022,
+   "km": 89700,
+   "cp": 125,
+   "f": "benzina",
+   "p": 12000,
+   "z": "Campina",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQRCZ.html",
+   "warn": null,
+   "d": "2026-10-04",
+   "avc": "2026-10-17",
+   "av": true,
+   "av_motiv": "descrierea: \"lovita\"",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.5 EcoBlue Titanium",
+   "an": 2020,
+   "km": 98700,
+   "cp": 120,
+   "f": "diesel",
+   "p": 12000,
+   "z": "Ploiesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-5-ecoblue-titanium-ID7HQRhk.html",
+   "warn": null,
+   "d": "2026-10-03",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Volkswagen T-Cross",
+   "an": 2020,
+   "km": 32000,
+   "cp": 110,
+   "f": "benzina",
+   "p": 12000,
+   "z": "Sighetu Marmatiei",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ID7HQPUe.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "an": 2020,
+   "km": 58821,
+   "cp": 125,
+   "f": "benzina",
+   "p": 12000,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQFto.html",
+   "warn": null,
+   "d": "2026-09-23",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 110 MT6 Extreme",
+   "an": 2023,
+   "km": 53500,
+   "cp": 110,
+   "f": "benzina",
+   "p": 12100,
+   "z": "Cluj-Napoca",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-110-mt6-extreme-ID7HQS5T.html",
+   "warn": null,
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Citroën C5 Aircross",
+   "an": 2021,
+   "km": 55771,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12100,
+   "z": "Slatina",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/citroen-c5-aircross-ID7HQDV4.html",
+   "warn": null,
+   "d": "2026-10-16",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster",
+   "an": 2021,
+   "km": 77938,
+   "cp": 114,
+   "f": "diesel",
+   "p": 12150,
+   "z": "Cluj-Napoca",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQR49.html",
+   "warn": null,
+   "d": "2026-10-02",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway",
+   "an": 2022,
+   "km": 38500,
+   "cp": 90,
+   "f": "benzina",
+   "p": 12150,
+   "z": "Mioveni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQQEs.html",
+   "warn": null,
+   "d": "2026-10-01",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster 1.5 Blue dCi Prestige",
+   "an": 2021,
+   "km": 80172,
+   "cp": 115,
+   "f": "diesel",
+   "p": 12190,
+   "z": "Maracineni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-5-blue-dci-prestige-ID7HQNUh.html",
+   "warn": null,
+   "d": "2026-09-21",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "an": 2020,
+   "km": 86767,
+   "cp": 125,
+   "f": "benzina",
+   "p": 12200,
+   "z": "Sfantu Gheorghe",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQSK8.html",
+   "warn": null,
+   "d": "2026-10-08",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster TCe 90 Comfort",
+   "an": 2021,
+   "km": 87000,
+   "cp": 90,
+   "f": "benzina + gpl",
+   "p": 12250,
+   "z": "Mioveni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-90-comfort-ID7HQGEo.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Opel Combo",
+   "an": 2022,
+   "km": 38998,
+   "cp": 100,
+   "f": "diesel",
+   "p": 12300,
+   "z": "Jilava",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-combo-ID7HQQ05.html",
+   "warn": null,
+   "d": "2026-09-29",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster 1.5 Blue dCi 4WD SL BlueLine",
+   "an": 2020,
+   "km": 94628,
+   "cp": 115,
+   "f": "diesel",
+   "p": 12300,
+   "z": "Cluj-Napoca",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-5-blue-dci-4wd-sl-blueline-ID7HQOBC.html",
+   "warn": null,
+   "d": "2026-09-24",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 1.2 L PureTech STT EAT8 Active",
+   "an": 2020,
+   "km": 99576,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12300,
+   "z": "Tunari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-l-puretech-stt-eat8-active-ID7HQNID.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-09-21",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster TCe 150 EDC Prestige",
+   "an": 2022,
+   "km": 56628,
+   "cp": 150,
+   "f": "benzina",
+   "p": 12300,
+   "z": "Oradea",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-150-edc-prestige-ID7HQJKo.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA 1.0 T-GDI 2WD Highway",
+   "an": 2020,
+   "km": 77000,
+   "cp": 120,
+   "f": "benzina",
+   "p": 12300,
+   "z": "Iasi",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-2wd-highway-ID7HQGIl.html",
+   "warn": null,
+   "d": "2026-09-30",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford EcoSport 1.0 EcoBoost ST-Line",
+   "an": 2022,
+   "km": 3550,
+   "cp": 100,
+   "f": "benzina",
+   "p": 12350,
+   "z": "Brasov",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-st-line-ID7HQUWQ.html",
+   "warn": null,
+   "d": "2026-10-15",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 PureTech 100 Stop&Start Active",
+   "an": 2021,
+   "km": 67260,
+   "cp": 101,
+   "f": "benzina",
+   "p": 12390,
+   "z": "Tunari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-100-stop-start-active-ID7HQKLx.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-11",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2020,
+   "km": 95288,
+   "cp": 155,
+   "f": "benzina",
+   "p": 12450,
+   "z": "Timisoara",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQT9b.html",
+   "warn": null,
+   "d": "2026-10-09",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster",
+   "an": 2022,
+   "km": 18000,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12450,
+   "z": "Pitesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQOqo.html",
+   "warn": null,
+   "d": "2026-09-23",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Fiat Doblo",
+   "an": 2022,
+   "km": 77280,
+   "cp": 90,
+   "f": "diesel",
+   "p": 12463,
+   "z": "Baia Mare",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/fiat-doblo-ID7HQUFu.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster ECO-G 100 Prestige",
+   "an": 2021,
+   "km": 92457,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 12490,
+   "z": "Sebes",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-eco-g-100-prestige-ID7HQQnr.html",
+   "warn": null,
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "an": 2023,
+   "km": 40000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 12490,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQPNx.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster Blue dCi 115 2WD Prestige",
+   "an": 2021,
+   "km": 99921,
+   "cp": 116,
+   "f": "diesel",
+   "p": 12490,
+   "z": "Geamana",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-2wd-prestige-ID7HQnc5.html",
+   "warn": null,
+   "d": "2026-10-10",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster TCe 130 GPF 4WD Prestige jante 17\"",
+   "an": 2020,
+   "km": 87718,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12499,
+   "z": "Cluj-Napoca",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-130-gpf-4wd-prestige-jante-17-ID7HQUl6.html",
+   "warn": null,
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Suzuki Vitara 1.6 Passion",
@@ -3972,6 +4858,261 @@
    "avc": "2026-10-17"
   },
   {
+   "m": "Peugeot 2008",
+   "an": 2024,
+   "km": 39162,
+   "cp": 101,
+   "f": "benzina",
+   "p": 12500,
+   "z": "Arad",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQUXN.html",
+   "warn": null,
+   "d": "2026-10-15",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2024,
+   "km": 34000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 12500,
+   "z": "Timisoara",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQUUU.html",
+   "warn": null,
+   "d": "2026-10-15",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Captur",
+   "an": 2020,
+   "km": 33000,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12500,
+   "z": "Cluj-Napoca",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ID7HQUC0.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Kia Sportage",
+   "an": 2021,
+   "km": 89000,
+   "cp": 136,
+   "f": "diesel",
+   "p": 12500,
+   "z": "Arad",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ID7HQUnz.html",
+   "warn": null,
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA 1.0 T-GDI 120 CP 6MT 2WD Highway",
+   "an": 2020,
+   "km": 45465,
+   "cp": 120,
+   "f": "benzina",
+   "p": 12500,
+   "z": "Constanta",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-120-cp-6mt-2wd-highway-ID7HQTzl.html",
+   "warn": null,
+   "d": "2026-10-11",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Captur TCe 90 Evolution",
+   "an": 2023,
+   "km": 45533,
+   "cp": 90,
+   "f": "benzina + gpl",
+   "p": 12500,
+   "z": "Tulcea",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-90-evolution-ID7HQSam.html",
+   "warn": null,
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 1.2 PureTech EAT8 STT Allure Pack",
+   "an": 2021,
+   "km": 57423,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12500,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-puretech-eat8-stt-allure-pack-ID7HQQ9c.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-09-29",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster TCe 130 2WD GPF Comfort",
+   "an": 2020,
+   "km": 46050,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12500,
+   "z": "Otopeni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-130-2wd-gpf-comfort-ID7HQEvp.html",
+   "warn": null,
+   "d": "2026-09-18",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 110 MT6 Extreme",
+   "an": 2023,
+   "km": 50912,
+   "cp": 110,
+   "f": "benzina",
+   "p": 12500,
+   "z": "Deva",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-110-mt6-extreme-ID7HQBUd.html",
+   "warn": null,
+   "d": "2026-10-09",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford EcoSport",
+   "an": 2022,
+   "km": 67130,
+   "cp": 125,
+   "f": "benzina",
+   "p": 12501,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQS0t.html",
+   "warn": null,
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford EcoSport",
+   "an": 2022,
+   "km": 62789,
+   "cp": 125,
+   "f": "benzina",
+   "p": 12501,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQDNt.html",
+   "warn": null,
+   "d": "2026-10-16",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster Blue dCi 115 4WD Comfort",
+   "an": 2021,
+   "km": 61000,
+   "cp": 115,
+   "f": "diesel",
+   "p": 12590,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-4wd-comfort-ID7HQPvk.html",
+   "warn": null,
+   "d": "2026-10-02",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway ECO-G 100 MT6 Extreme+",
+   "an": 2023,
+   "km": 42441,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 12590,
+   "z": "Cluj-Napoca",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-extremeplus-ID7HQO46.html",
+   "warn": null,
+   "d": "2026-09-22",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 1.2 PureTech BVM6 STT Active Pack",
+   "an": 2022,
+   "km": 98150,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12590,
+   "z": "Tunari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-puretech-bvm6-stt-active-pack-ID7HQvOP.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-09-26",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 3008 1.2 PureTech 130 EAT8 Active Pack",
+   "an": 2020,
+   "km": 84542,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12650,
+   "z": "Puchenii Mari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-1-2-puretech-130-eat8-active-pack-ID7HQPiK.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-09-26",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 90 CVT Comfort",
+   "an": 2023,
+   "km": 71429,
+   "cp": 90,
+   "f": "benzina",
+   "p": 12680,
+   "z": "Otopeni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-cvt-comfort-ID7HQyyC.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2021,
+   "km": 95700,
+   "cp": 125,
+   "f": "benzina",
+   "p": 12699,
+   "z": "Craiova",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQQfP.html",
+   "warn": null,
+   "d": "2026-09-29",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
    "m": "Suzuki Vitara 1.6 Passion Aut.",
    "an": 2018,
    "km": 84700,
@@ -3988,6 +5129,171 @@
    "mort_din": "2026-10-17"
   },
   {
+   "m": "Dacia Duster TCe 90 Comfort",
+   "an": 2021,
+   "km": 56614,
+   "cp": 90,
+   "f": "benzina",
+   "p": 12700,
+   "z": "Odorheiu Secuiesc",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-90-comfort-ID7HQw3k.html",
+   "warn": null,
+   "d": "2026-09-22",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 1.2 PureTech BVM6 STT Allure Pack",
+   "an": 2020,
+   "km": 80132,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12750,
+   "z": "Bengesti-Ciocadia",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-puretech-bvm6-stt-allure-pack-ID7HQBsV.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-09-21",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Volkswagen T-Cross 1.0 TSI OPF UNITED",
+   "an": 2022,
+   "km": 99703,
+   "cp": 95,
+   "f": "benzina",
+   "p": 12851,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-opf-united-ID7HQTPc.html",
+   "warn": null,
+   "d": "2026-10-12",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster",
+   "an": 2021,
+   "km": 98014,
+   "cp": 115,
+   "f": "diesel",
+   "p": 12900,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQUuh.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 3008",
+   "an": 2020,
+   "km": 98000,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12900,
+   "z": "Constanta",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ID7HQTpy.html",
+   "warn": null,
+   "d": "2026-10-10",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Captur",
+   "an": 2021,
+   "km": 38458,
+   "cp": 91,
+   "f": "benzina",
+   "p": 12900,
+   "z": "Sfantu Gheorghe",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ID7HQQES.html",
+   "warn": null,
+   "d": "2026-10-01",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost Titanium",
+   "an": 2021,
+   "km": 68268,
+   "cp": 125,
+   "f": "benzina",
+   "p": 12900,
+   "z": "Ghiroda",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-titanium-ID7HQOkx.html",
+   "warn": null,
+   "d": "2026-09-23",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Captur TCe 90 Zen",
+   "an": 2021,
+   "km": 37351,
+   "cp": 90,
+   "f": "benzina",
+   "p": 12900,
+   "z": "Iasi",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-90-zen-ID7HQOdy.html",
+   "warn": null,
+   "d": "2026-09-22",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway",
+   "an": 2023,
+   "km": 31127,
+   "cp": 90,
+   "f": "benzina",
+   "p": 12900,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQMGc.html",
+   "warn": null,
+   "d": "2026-09-17",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 BlueHDi 100 STOP & START Allure",
+   "an": 2021,
+   "km": 99900,
+   "cp": 102,
+   "f": "diesel",
+   "p": 12900,
+   "z": "Ploiesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-bluehdi-100-stop-start-allure-ID7HQByr.html",
+   "warn": null,
+   "d": "2026-10-11",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 90 CVT Extreme",
+   "an": 2021,
+   "km": 54707,
+   "cp": 90,
+   "f": "benzina + gpl",
+   "p": 12947,
+   "z": "Oradea",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-cvt-extreme-ID7HQPbc.html",
+   "warn": null,
+   "d": "2026-09-25",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
    "m": "Suzuki Vitara",
    "an": 2020,
    "km": 92633,
@@ -4001,6 +5307,2466 @@
    "d": "2026-09-24",
    "gj": false,
    "avc": "2026-10-17"
+  },
+  {
+   "m": "Dacia Sandero Stepway",
+   "an": 2022,
+   "km": 29106,
+   "cp": 90,
+   "f": "benzina",
+   "p": 12990,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQQ1a.html",
+   "warn": null,
+   "d": "2026-09-29",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 PureTech 130 GPF Stop&Start Allure",
+   "an": 2022,
+   "km": 66000,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12990,
+   "z": "Targu Jiu",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-130-gpf-stop-start-allure-ID7HQPz1.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-09-27",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost ST Line",
+   "an": 2020,
+   "km": 42000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 12990,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-st-line-ID7HQJal.html",
+   "warn": null,
+   "d": "2026-10-07",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Opel Combo 1.2 L2H1 Start/Stop Edition XL",
+   "an": 2022,
+   "km": 72000,
+   "cp": 110,
+   "f": "benzina",
+   "p": 12990,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-combo-ver-1-2-l2h1-start-stop-edition-xl-ID7HQDfu.html",
+   "warn": null,
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway",
+   "an": 2022,
+   "km": 26920,
+   "cp": 90,
+   "f": "benzina",
+   "p": 12990,
+   "z": "Nicolae Balcescu",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQBhE.html",
+   "warn": null,
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "SsangYong Tivoli 1.5 T-GDi 2WD Automatik Sapphire",
+   "an": 2022,
+   "km": 92000,
+   "cp": 163,
+   "f": "benzina",
+   "p": 12990,
+   "z": "Otopeni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ssangyong-tivoli-ver-1-5-t-gdi-2wd-automatik-sapphire-ID7HQyCU.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 90 CVT Extreme",
+   "an": 2024,
+   "km": 33090,
+   "cp": 90,
+   "f": "benzina",
+   "p": 12990,
+   "z": "Craiova",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-cvt-extreme-ID7HQl6b.html",
+   "warn": null,
+   "d": "2026-09-30",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008",
+   "an": 2020,
+   "km": 77259,
+   "cp": 101,
+   "f": "benzina",
+   "p": 12990,
+   "z": "Nicolae Balcescu",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQkke.html",
+   "warn": null,
+   "d": "2026-09-30",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 1.2 L PureTech STT Active",
+   "an": 2021,
+   "km": 67809,
+   "cp": 100,
+   "f": "benzina",
+   "p": 12991,
+   "z": "Chiajna",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-l-puretech-stt-active-ID7HQLba.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-12",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster",
+   "an": 2023,
+   "km": 90200,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12999,
+   "z": "Timisoara",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQWmd.html",
+   "warn": null,
+   "d": "2026-10-17",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway",
+   "an": 2023,
+   "km": 69000,
+   "cp": 90,
+   "f": "benzina + gpl",
+   "p": 12999,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQUuw.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster",
+   "an": 2021,
+   "km": 84995,
+   "cp": 150,
+   "f": "benzina",
+   "p": 12999,
+   "z": "Drobeta-Turnu Severin",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQUaH.html",
+   "warn": null,
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Opel Crossland 1.2 Business Elegance",
+   "an": 2021,
+   "km": 55524,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12999,
+   "z": "Otopeni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-business-elegance-ID7HQMSg.html",
+   "warn": null,
+   "d": "2026-09-18",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway",
+   "an": 2024,
+   "km": 61493,
+   "cp": 90,
+   "f": "benzina",
+   "p": 12999,
+   "z": "Piatra Neamt",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQI3Y.html",
+   "warn": null,
+   "d": "2026-10-02",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008",
+   "an": 2020,
+   "km": 56300,
+   "cp": 130,
+   "f": "benzina",
+   "p": 12999,
+   "z": "Onesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQwhl.html",
+   "warn": null,
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Volkswagen T-Roc",
+   "an": 2021,
+   "km": 73000,
+   "cp": 110,
+   "f": "benzina",
+   "p": 13000,
+   "z": "Ploiesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-roc-ID7HQTuG.html",
+   "warn": null,
+   "d": "2026-10-10",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 1.2 PureTech BVM6 STT Active Pack",
+   "an": 2021,
+   "km": 67000,
+   "cp": 130,
+   "f": "benzina",
+   "p": 13000,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-puretech-bvm6-stt-active-pack-ID7HQO26.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-09-22",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster TCe 100 Essential",
+   "an": 2021,
+   "km": 95000,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 13000,
+   "z": "Saftica",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-100-essential-ID7HQNqY.html",
+   "warn": null,
+   "d": "2026-09-21",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Skoda Kamiq",
+   "an": 2022,
+   "km": 68100,
+   "cp": 110,
+   "f": "benzina",
+   "p": 13000,
+   "z": "Mioveni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/skoda-kamiq-ID7HQL7c.html",
+   "warn": null,
+   "d": "2026-10-12",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "SsangYong Tivoli",
+   "an": 2022,
+   "km": 27000,
+   "cp": 163,
+   "f": "benzina",
+   "p": 13000,
+   "z": "Iasi",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ssangyong-tivoli-ID7HQmba.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster 1.5 Blue dCi 4WD SL BlueLine",
+   "an": 2021,
+   "km": 95000,
+   "cp": 115,
+   "f": "diesel",
+   "p": 13050,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-5-blue-dci-4wd-sl-blueline-ID7HQMpO.html",
+   "warn": null,
+   "d": "2026-10-16",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 110 MT6 Extreme+",
+   "an": 2023,
+   "km": 67907,
+   "cp": 110,
+   "f": "benzina",
+   "p": 13068,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-110-mt6-extremeplus-ID7HQLvS.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Suzuki Ignis",
+   "an": 2022,
+   "km": 21500,
+   "cp": 83,
+   "f": "hibrid",
+   "p": 13200,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-ignis-ID7HQQT7.html",
+   "warn": null,
+   "d": "2026-10-01",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA 1.0 T-GDI 120 CP 6MT 2WD Comfort",
+   "an": 2021,
+   "km": 63000,
+   "cp": 120,
+   "f": "benzina",
+   "p": 13200,
+   "z": "Timisoara",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-120-cp-6mt-2wd-comfort-ID7HQIeR.html",
+   "warn": null,
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA 1.0 T-GDI 120 CP 6MT 2WD Highway",
+   "an": 2021,
+   "km": 44700,
+   "cp": 120,
+   "f": "benzina",
+   "p": 13200,
+   "z": "Oradea",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-120-cp-6mt-2wd-highway-ID7HQnE5.html",
+   "warn": null,
+   "d": "2026-09-24",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster",
+   "an": 2022,
+   "km": 89000,
+   "cp": 90,
+   "f": "benzina + gpl",
+   "p": 13200,
+   "z": "Miercurea-Ciuc",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQfMw.html",
+   "warn": null,
+   "d": "2026-09-29",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Nissan Juke",
+   "an": 2021,
+   "km": 62300,
+   "cp": 115,
+   "f": "benzina",
+   "p": 13290,
+   "z": "Brasov",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-juke-ID7HQTQd.html",
+   "warn": null,
+   "d": "2026-10-12",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster",
+   "an": 2023,
+   "km": 31922,
+   "cp": 130,
+   "f": "benzina",
+   "p": 13300,
+   "z": "Oradea",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQSk8.html",
+   "warn": null,
+   "d": "2026-10-07",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "an": 2020,
+   "km": 72944,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13300,
+   "z": "Odorheiu Secuiesc",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQuu3.html",
+   "warn": null,
+   "d": "2026-09-21",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV ST Line",
+   "an": 2020,
+   "km": 79182,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13300,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-st-line-ID7HQp9M.html",
+   "warn": null,
+   "d": "2026-10-16",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "an": 2022,
+   "km": 87183,
+   "cp": 155,
+   "f": "benzina",
+   "p": 13301,
+   "z": "Blejoi",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQRQg.html",
+   "warn": null,
+   "d": "2026-10-05",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway",
+   "an": 2022,
+   "km": 14300,
+   "cp": 90,
+   "f": "benzina",
+   "p": 13350,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQQk1.html",
+   "warn": null,
+   "d": "2026-09-30",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway ECO-G 100 MT6 Extreme",
+   "an": 2023,
+   "km": 44365,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 13390,
+   "z": "Ramnicu Valcea",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-extreme-ID7HQT0c.html",
+   "warn": null,
+   "d": "2026-10-09",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster TCe 130 2WD Prestige",
+   "an": 2024,
+   "km": 67900,
+   "cp": 130,
+   "f": "benzina",
+   "p": 13399,
+   "z": "Salonta",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-130-2wd-prestige-ID7HQShv.html",
+   "warn": null,
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 1.2 L PureTech STT Allure",
+   "an": 2021,
+   "km": 25671,
+   "cp": 130,
+   "f": "benzina",
+   "p": 13400,
+   "z": "Chiajna",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-l-puretech-stt-allure-ID7HQBq4.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "SsangYong Tivoli 1.5 T-GDi 2WD Automatik Sapphire",
+   "an": 2022,
+   "km": 78000,
+   "cp": 163,
+   "f": "benzina",
+   "p": 13450,
+   "z": "Otopeni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ssangyong-tivoli-ver-1-5-t-gdi-2wd-automatik-sapphire-ID7HQLJs.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.5 EcoBlue Titanium",
+   "an": 2022,
+   "km": 84889,
+   "cp": 120,
+   "f": "diesel",
+   "p": 13450,
+   "z": "Bacau",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-5-ecoblue-titanium-ID7HQH8J.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "an": 2023,
+   "km": 39990,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13490,
+   "z": "Tunari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQUwS.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 3008",
+   "an": 2021,
+   "km": 99000,
+   "cp": 130,
+   "f": "benzina",
+   "p": 13490,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ID7HQSgi.html",
+   "warn": null,
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 81000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13490,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQvMG.html",
+   "warn": null,
+   "d": "2026-09-26",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Volkswagen T-Cross 1.0 TSI Style",
+   "an": 2023,
+   "km": 100000,
+   "cp": 110,
+   "f": "benzina",
+   "p": 13498,
+   "z": "Deva",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-style-ID7HQRPg.html",
+   "warn": null,
+   "d": "2026-10-05",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster Blue dCi 115 Prestige",
+   "an": 2023,
+   "km": 55000,
+   "cp": 115,
+   "f": "diesel",
+   "p": 13500,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-prestige-ID7HQUBy.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA",
+   "an": 2021,
+   "km": 35727,
+   "cp": 120,
+   "f": "benzina",
+   "p": 13500,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ID7HQU8L.html",
+   "warn": null,
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway ECO-G 100 MT6 Extreme",
+   "an": 2024,
+   "km": 25786,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 13500,
+   "z": "Braila",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-extreme-ID7HQSrE.html",
+   "warn": null,
+   "d": "2026-10-07",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2020,
+   "km": 69960,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13500,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQRim.html",
+   "warn": null,
+   "d": "2026-10-12",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA",
+   "an": 2020,
+   "km": 38676,
+   "cp": 120,
+   "f": "benzina",
+   "p": 13500,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ID7HQGeD.html",
+   "warn": null,
+   "d": "2026-09-25",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Kuga 2.0 EcoBlue mHEV FWD ST Line X",
+   "an": 2020,
+   "km": 89800,
+   "cp": 150,
+   "f": "diesel",
+   "p": 13500,
+   "z": "Alba Iulia",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ver-2-0-ecoblue-mhev-fwd-st-line-x-ID7HQFHp.html",
+   "warn": null,
+   "d": "2026-09-24",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 74049,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13500,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQDN4.html",
+   "warn": null,
+   "d": "2026-10-16",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost Titanium",
+   "an": 2020,
+   "km": 40000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13500,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-titanium-ID7HQDDR.html",
+   "warn": null,
+   "d": "2026-09-21",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "SsangYong Tivoli",
+   "an": 2020,
+   "km": 94560,
+   "cp": 163,
+   "f": "benzina",
+   "p": 13500,
+   "z": "Iasi",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ssangyong-tivoli-ID7HQCit.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2023,
+   "km": 25753,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13500,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQB1f.html",
+   "warn": null,
+   "d": "2026-10-05",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium X",
+   "an": 2021,
+   "km": 65000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13500,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-x-ID7HQtvD.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 77400,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13590,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQT30.html",
+   "warn": null,
+   "d": "2026-10-09",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 110 MT6 Extreme+",
+   "an": 2024,
+   "km": 65000,
+   "cp": 110,
+   "f": "benzina",
+   "p": 13600,
+   "z": "Medias",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-110-mt6-extremeplus-ID7HQRob.html",
+   "warn": null,
+   "d": "2026-10-03",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster 1.5 Blue dCi 4WD Essential",
+   "an": 2021,
+   "km": 98900,
+   "cp": 115,
+   "f": "diesel",
+   "p": 13650,
+   "z": "Pitesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-5-blue-dci-4wd-essential-ID7HQOJr.html",
+   "warn": null,
+   "d": "2026-09-24",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "an": 2022,
+   "km": 20000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13690,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQSrf.html",
+   "warn": null,
+   "d": "2026-10-07",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "an": 2022,
+   "km": 52220,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13690,
+   "z": "Nicolae Balcescu",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQlpr.html",
+   "warn": null,
+   "d": "2026-10-01",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Nissan Juke 1.0 DIG-T DCT Tekna",
+   "an": 2022,
+   "km": 91915,
+   "cp": 114,
+   "f": "benzina",
+   "p": 13699,
+   "z": "Pitesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-juke-ver-1-0-dig-t-dct-tekna-ID7HQTJd.html",
+   "warn": null,
+   "d": "2026-10-11",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Aut. Titanium",
+   "an": 2022,
+   "km": 72021,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13750,
+   "z": "Ploiesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-aut-titanium-ID7HQTdA.html",
+   "warn": null,
+   "d": "2026-10-09",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2020,
+   "km": 67000,
+   "cp": 155,
+   "f": "benzina",
+   "p": 13790,
+   "z": "Constanta",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQUAB.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster Blue dCi 115 Comfort",
+   "an": 2023,
+   "km": 93629,
+   "cp": 115,
+   "f": "diesel",
+   "p": 13790,
+   "z": "Tunari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-comfort-ID7HQK6n.html",
+   "warn": null,
+   "d": "2026-10-09",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 71300,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13790,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQvMM.html",
+   "warn": null,
+   "d": "2026-09-26",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway",
+   "an": 2025,
+   "km": 53000,
+   "cp": 90,
+   "f": "benzina + gpl",
+   "p": 13800,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQUKd.html",
+   "warn": null,
+   "d": "2026-10-15",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA 1.0 T-GDI 120 CP 6MT 2WD Highway",
+   "an": 2021,
+   "km": 59700,
+   "cp": 120,
+   "f": "benzina",
+   "p": 13800,
+   "z": "Targu-Mures",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-120-cp-6mt-2wd-highway-ID7HQTl6.html",
+   "warn": null,
+   "d": "2026-10-10",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster Blue dCi 115 4WD Prestige",
+   "an": 2022,
+   "km": 94000,
+   "cp": 115,
+   "f": "diesel",
+   "p": 13800,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-4wd-prestige-ID7HQRfE.html",
+   "warn": null,
+   "d": "2026-10-16",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Suzuki Vitara",
+   "an": 2023,
+   "km": 28685,
+   "cp": 115,
+   "f": "hibrid",
+   "p": 13800,
+   "z": "Craiova",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ID7HQG5t.html",
+   "warn": null,
+   "d": "2026-09-29",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 3008 PureTech 130 Stop & Start GPF EAT8 GT",
+   "an": 2020,
+   "km": 89600,
+   "cp": 131,
+   "f": "benzina",
+   "p": 13850,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-puretech-130-stop-start-gpf-eat8-gt-ID7HQNNx.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-09-21",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 1.5 BlueHDI EAT8 STT Allure Pack",
+   "an": 2021,
+   "km": 59000,
+   "cp": 130,
+   "f": "diesel",
+   "p": 13900,
+   "z": "Chiajna",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-eat8-stt-allure-pack-ID7HQUHr.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "an": 2022,
+   "km": 76890,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13900,
+   "z": "Nicolae Balcescu",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQSp5.html",
+   "warn": null,
+   "d": "2026-10-07",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway",
+   "an": 2024,
+   "km": 60000,
+   "cp": 110,
+   "f": "benzina + gpl",
+   "p": 13900,
+   "z": "Tulcea",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQSli.html",
+   "warn": null,
+   "d": "2026-10-07",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA",
+   "an": 2021,
+   "km": 26000,
+   "cp": 120,
+   "f": "benzina",
+   "p": 13900,
+   "z": "Fagaras",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ID7HQRmo.html",
+   "warn": null,
+   "d": "2026-10-03",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster TCe 150 EDC Comfort",
+   "an": 2022,
+   "km": 89700,
+   "cp": 150,
+   "f": "benzina",
+   "p": 13900,
+   "z": "Cluj-Napoca",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-150-edc-comfort-ID7HQOOi.html",
+   "warn": null,
+   "d": "2026-09-24",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2023,
+   "km": 65374,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13900,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQLv5.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Kuga",
+   "an": 2022,
+   "km": 58900,
+   "cp": 120,
+   "f": "diesel",
+   "p": 13900,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ID7HQuyR.html",
+   "warn": null,
+   "d": "2026-09-21",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Volkswagen T-Roc",
+   "an": 2021,
+   "km": 78000,
+   "cp": 115,
+   "f": "benzina",
+   "p": 13915,
+   "z": "Cernica",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-roc-ID7HQTT4.html",
+   "warn": null,
+   "d": "2026-10-12",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 20000,
+   "cp": 155,
+   "f": "benzina",
+   "p": 13990,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQW2a.html",
+   "warn": null,
+   "d": "2026-10-16",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Volkswagen T-Cross 1.0 TSI OPF Life",
+   "an": 2024,
+   "km": 76800,
+   "cp": 95,
+   "f": "benzina",
+   "p": 13990,
+   "z": "Sighetu Marmatiei",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-opf-life-ID7HQTuw.html",
+   "warn": null,
+   "d": "2026-10-11",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 PureTech 130 GT Pack",
+   "an": 2020,
+   "km": 71771,
+   "cp": 130,
+   "f": "benzina",
+   "p": 13990,
+   "z": "Tunari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-130-gt-pack-ID7HQSd4.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Nissan Qashqai",
+   "an": 2023,
+   "km": 90618,
+   "cp": 140,
+   "f": "benzina",
+   "p": 13990,
+   "z": "Timisoara",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ID7HQQNX.html",
+   "warn": null,
+   "d": "2026-10-01",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.5 EcoBlue Titanium",
+   "an": 2022,
+   "km": 87200,
+   "cp": 120,
+   "f": "diesel",
+   "p": 13990,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-5-ecoblue-titanium-ID7HQKVn.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 80901,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13990,
+   "z": "Braila",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQGhb.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "an": 2023,
+   "km": 43300,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13990,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQFEd.html",
+   "warn": null,
+   "d": "2026-09-23",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "an": 2022,
+   "km": 54296,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13990,
+   "z": "Geamana",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQBfi.html",
+   "warn": null,
+   "d": "2026-10-12",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Nissan Juke DIG-T DCT Acenta",
+   "an": 2020,
+   "km": 47000,
+   "cp": 115,
+   "f": "benzina",
+   "p": 13990,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-juke-ver-dig-t-dct-acenta-ID7HQA7N.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Kuga",
+   "an": 2022,
+   "km": 50909,
+   "cp": 150,
+   "f": "benzina",
+   "p": 13990,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ID7HQuPO.html",
+   "warn": null,
+   "d": "2026-09-22",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 61580,
+   "cp": 125,
+   "f": "benzina",
+   "p": 13991,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQIcU.html",
+   "warn": null,
+   "d": "2026-10-02",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 90 CVT Extreme",
+   "an": 2024,
+   "km": 23655,
+   "cp": 90,
+   "f": "benzina",
+   "p": 13991,
+   "z": "Craiova",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-cvt-extreme-ID7HQfB0.html",
+   "warn": null,
+   "d": "2026-09-24",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 3008 PureTech 130 Stop & Start GPF EAT8 Allure",
+   "an": 2020,
+   "km": 82000,
+   "cp": 130,
+   "f": "benzina",
+   "p": 13999,
+   "z": "Chiajna",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-puretech-130-stop-start-gpf-eat8-allure-ID7HQURh.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-15",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008",
+   "an": 2021,
+   "km": 80368,
+   "cp": 130,
+   "f": "benzina",
+   "p": 13999,
+   "z": "Satu Mare",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQSOF.html",
+   "warn": null,
+   "d": "2026-10-09",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 3008 1.2 PureTech Turbo S&S Allure",
+   "an": 2022,
+   "km": 74000,
+   "cp": 130,
+   "f": "benzina",
+   "p": 13999,
+   "z": "Targu Jiu",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-1-2-puretech-turbo-s-s-allure-ID7HQO5z.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-09-22",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2023,
+   "km": 74411,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14000,
+   "z": "Iasi",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQRLy.html",
+   "warn": null,
+   "d": "2026-10-05",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster ECO-G 100 Prestige Plus",
+   "an": 2022,
+   "km": 72000,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 14000,
+   "z": "Timisoara",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-eco-g-100-prestige-plus-ID7HQQ4v.html",
+   "warn": null,
+   "d": "2026-09-29",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Express",
+   "an": 2023,
+   "km": 39443,
+   "cp": 100,
+   "f": "benzina",
+   "p": 14000,
+   "z": "Satu Mare",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQORF.html",
+   "warn": null,
+   "d": "2026-09-24",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Audi Q3 45 TFSIe S tronic",
+   "an": 2021,
+   "km": 90000,
+   "cp": 245,
+   "f": "hibrid plug-in",
+   "p": 14000,
+   "z": "Constanta",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/audi-q3-ver-45-tfsie-s-tronic-ID7HQNjZ.html",
+   "warn": null,
+   "d": "2026-09-19",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 1.5 BlueHDI BVM6 STT Active Pack",
+   "an": 2021,
+   "km": 53000,
+   "cp": 110,
+   "f": "diesel",
+   "p": 14000,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-bvm6-stt-active-pack-ID7HQLvp.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 66000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14090,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQoS2.html",
+   "warn": null,
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Volkswagen T-Cross 1.0 TSI Life",
+   "an": 2023,
+   "km": 65913,
+   "cp": 95,
+   "f": "benzina",
+   "p": 14190,
+   "z": "Tunari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-life-ID7HQT1f.html",
+   "warn": null,
+   "d": "2026-10-09",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2024,
+   "km": 75000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14190,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQINZ.html",
+   "warn": null,
+   "d": "2026-10-04",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 57000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14190,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQoSt.html",
+   "warn": null,
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Kuga 1.5 EcoBoost FWD Titanium",
+   "an": 2023,
+   "km": 95191,
+   "cp": 150,
+   "f": "benzina",
+   "p": 14251,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ver-1-5-ecoboost-fwd-titanium-ID7HQErd.html",
+   "warn": null,
+   "d": "2026-09-21",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2024,
+   "km": 66500,
+   "cp": 125,
+   "f": "hibrid",
+   "p": 14290,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQIOa.html",
+   "warn": null,
+   "d": "2026-10-04",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 39100,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14290,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQvNc.html",
+   "warn": null,
+   "d": "2026-09-26",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Opel Combo 1.2 L1H1 Start/Stop Innovation",
+   "an": 2021,
+   "km": 21000,
+   "cp": 110,
+   "f": "benzina",
+   "p": 14300,
+   "z": "Arad",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-combo-ver-1-2-l1h1-start-stop-innovation-ID7HQTGK.html",
+   "warn": null,
+   "d": "2026-10-11",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Skoda Kamiq",
+   "an": 2020,
+   "km": 47301,
+   "cp": 95,
+   "f": "benzina",
+   "p": 14300,
+   "z": "Timisoara",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/skoda-kamiq-ID7HQRy0.html",
+   "warn": null,
+   "d": "2026-10-04",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 3008 1.2 PureTech Turbo S&S GT-Line",
+   "an": 2020,
+   "km": 78000,
+   "cp": 130,
+   "f": "benzina",
+   "p": 14300,
+   "z": "Popesti-Leordeni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-1-2-puretech-turbo-s-s-gt-line-ID7HQDEL.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 90 CVT Extreme",
+   "an": 2023,
+   "km": 41881,
+   "cp": 90,
+   "f": "benzina",
+   "p": 14300,
+   "z": "Pitesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-cvt-extreme-ID7HQoAe.html",
+   "warn": null,
+   "d": "2026-10-12",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
+   "an": 2022,
+   "km": 3000,
+   "cp": 90,
+   "f": "benzina",
+   "p": 14390,
+   "z": "Brasov",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQU3e.html",
+   "warn": null,
+   "d": "2026-10-12",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Kuga 2.0 EcoBlue mHEV FWD ST Line",
+   "an": 2020,
+   "km": 82213,
+   "cp": 150,
+   "f": "diesel",
+   "p": 14400,
+   "z": "Brasov",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ver-2-0-ecoblue-mhev-fwd-st-line-ID7HQScZ.html",
+   "warn": null,
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 3008 1.2 PureTech Turbo S&S EAT6 GT-Line",
+   "an": 2020,
+   "km": 75144,
+   "cp": 130,
+   "f": "benzina",
+   "p": 14400,
+   "z": "Sebes",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-1-2-puretech-turbo-s-s-eat6-gt-line-ID7HQKaU.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-11",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster ECO-G 100 Comfort",
+   "an": 2022,
+   "km": 43966,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 14450,
+   "z": "Oradea",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-eco-g-100-comfort-ID7HQHvi.html",
+   "warn": null,
+   "d": "2026-09-30",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway ECO-G 100 MT6 Essential",
+   "an": 2023,
+   "km": 11,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 14480,
+   "z": "Odorheiu Secuiesc",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-essential-ID7HQSiY.html",
+   "warn": null,
+   "d": "2026-10-07",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 PureTech 130 EAT8 GT Exclusive",
+   "an": 2020,
+   "km": 68529,
+   "cp": 131,
+   "f": "benzina",
+   "p": 14490,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-130-eat8-gt-exclusive-ID7HQRen.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-02",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 87846,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14490,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQKoq.html",
+   "warn": null,
+   "d": "2026-10-10",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2024,
+   "km": 57700,
+   "cp": 125,
+   "f": "hibrid",
+   "p": 14490,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQIOt.html",
+   "warn": null,
+   "d": "2026-10-04",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster 1.5 Blue dCi 4WD Comfort",
+   "an": 2022,
+   "km": 73347,
+   "cp": 115,
+   "f": "diesel",
+   "p": 14490,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-5-blue-dci-4wd-comfort-ID7HQIsM.html",
+   "warn": null,
+   "d": "2026-09-30",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Suzuki Vitara",
+   "an": 2023,
+   "km": 93550,
+   "cp": 116,
+   "f": "hibrid",
+   "p": 14499,
+   "z": "Iasi",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ID7HQPNl.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 1.2 L PureTech STT Active",
+   "an": 2021,
+   "km": 48246,
+   "cp": 100,
+   "f": "benzina",
+   "p": 14500,
+   "z": "Focsani",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-l-puretech-stt-active-ID7HQRoi.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-03",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008",
+   "an": 2022,
+   "km": 33417,
+   "cp": 131,
+   "f": "benzina",
+   "p": 14500,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQQ9S.html",
+   "warn": null,
+   "d": "2026-09-29",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster 1.5 Blue dCi Comfort",
+   "an": 2022,
+   "km": 88000,
+   "cp": 115,
+   "f": "diesel",
+   "p": 14500,
+   "z": "Timisoara",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-5-blue-dci-comfort-ID7HQOl1.html",
+   "warn": null,
+   "d": "2026-09-25",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV ST Line X",
+   "an": 2020,
+   "km": 69556,
+   "cp": 155,
+   "f": "benzina",
+   "p": 14500,
+   "z": "Braila",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-st-line-x-ID7HQM7Y.html",
+   "warn": null,
+   "d": "2026-10-16",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Titanium X",
+   "an": 2022,
+   "km": 23500,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14500,
+   "z": "Macin",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-x-ID7HQJuG.html",
+   "warn": null,
+   "d": "2026-10-10",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 35566,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14500,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQHsd.html",
+   "warn": null,
+   "d": "2026-09-30",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Volkswagen T-Roc 1.0 TSI Design",
+   "an": 2021,
+   "km": 55000,
+   "cp": 110,
+   "f": "benzina",
+   "p": 14500,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-roc-ver-1-0-tsi-design-ID7HQBxT.html",
+   "warn": null,
+   "d": "2026-09-27",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster ECO-G 100 SL BlueLine",
+   "an": 2023,
+   "km": 61513,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 14500,
+   "z": "Galati",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-eco-g-100-sl-blueline-ID7HQzhW.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway ECO-G 100 MT6 Extreme+",
+   "an": 2024,
+   "km": 59675,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 14500,
+   "z": "Pitesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-extremeplus-ID7HQgbJ.html",
+   "warn": null,
+   "d": "2026-09-27",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Arkana 140 EDC Intens",
+   "an": 2021,
+   "km": 90000,
+   "cp": 140,
+   "f": "benzina",
+   "p": 14519,
+   "z": "Bradu",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-arkana-ver-140-edc-intens-ID7HQN6W.html",
+   "warn": null,
+   "d": "2026-09-18",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster TCe 130 Journey",
+   "an": 2022,
+   "km": 73657,
+   "cp": 130,
+   "f": "benzina",
+   "p": 14590,
+   "z": "Tunari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-130-journey-ID7HQLBD.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2021,
+   "km": 42262,
+   "cp": 155,
+   "f": "benzina",
+   "p": 14600,
+   "z": "Baia Mare",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQQ0Y.html",
+   "warn": null,
+   "d": "2026-09-29",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV Aut. Titanium X",
+   "an": 2022,
+   "km": 46217,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14600,
+   "z": "Vaslui",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-aut-titanium-x-ID7HQMLx.html",
+   "warn": null,
+   "d": "2026-09-17",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Volkswagen T-Cross 1.0 TSI Life",
+   "an": 2023,
+   "km": 69698,
+   "cp": 95,
+   "f": "benzina",
+   "p": 14690,
+   "z": "Tunari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-life-ID7HQSPt.html",
+   "warn": null,
+   "d": "2026-10-08",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 3008 BlueHDi 130 Stop & Start Allure Business-Paket",
+   "an": 2020,
+   "km": 55000,
+   "cp": 130,
+   "f": "diesel",
+   "p": 14700,
+   "z": "Tomesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-bluehdi-130-stop-start-allure-business-paket-ID7HQWhU.html",
+   "warn": null,
+   "d": "2026-10-16",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Peugeot 2008 1.5 BlueHDI EAT8 STT Allure Pack",
+   "an": 2021,
+   "km": 76000,
+   "cp": 130,
+   "f": "diesel",
+   "p": 14700,
+   "z": "Pitesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-eat8-stt-allure-pack-ID7HQTkX.html",
+   "warn": null,
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster Blue dCi 115 4WD Comfort",
+   "an": 2022,
+   "km": 83950,
+   "cp": 115,
+   "f": "diesel",
+   "p": 14700,
+   "z": "Bacau",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-4wd-comfort-ID7HQOtW.html",
+   "warn": null,
+   "d": "2026-09-23",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster 1.5 Blue dCi 4WD Prestige",
+   "an": 2022,
+   "km": 95620,
+   "cp": 115,
+   "f": "diesel",
+   "p": 14700,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-5-blue-dci-4wd-prestige-ID7HQKce.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Captur TCe EDC FAP Intens",
+   "an": 2020,
+   "km": 66000,
+   "cp": 130,
+   "f": "benzina",
+   "p": 14750,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-edc-fap-intens-ID7HQkYE.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster Blue dCi 115 4WD Comfort",
+   "an": 2021,
+   "km": 89427,
+   "cp": 115,
+   "f": "diesel",
+   "p": 14790,
+   "z": "Afumati",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-4wd-comfort-ID7HQUsv.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Citroën C5 Aircross Pure Tech 130 S&S EAT8 SHINE PACK",
+   "an": 2021,
+   "km": 96533,
+   "cp": 131,
+   "f": "benzina",
+   "p": 14800,
+   "z": "Craiova",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/citroen-c5-aircross-ver-pure-tech-130-s-s-eat8-shine-pack-ID7HQU9F.html",
+   "warn": null,
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Suzuki Vitara 1.4 Boosterjet MHEV Passion",
+   "an": 2021,
+   "km": 50100,
+   "cp": 129,
+   "f": "benzina",
+   "p": 14800,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ver-1-4-boosterjet-mhev-passion-ID7HQQ9b.html",
+   "warn": null,
+   "d": "2026-09-29",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA 1.0 T-GDI 120 CP 7 DCT 2WD Highway",
+   "an": 2022,
+   "km": 52600,
+   "cp": 120,
+   "f": "benzina",
+   "p": 14800,
+   "z": "Popesti-Leordeni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-120-cp-7-dct-2wd-highway-ID7HQEKW.html",
+   "warn": null,
+   "d": "2026-09-16",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2024,
+   "km": 44550,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14899,
+   "z": "Pitesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQUga.html",
+   "warn": null,
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Captur E-TECH Full 145 Equilibre",
+   "an": 2022,
+   "km": 96200,
+   "cp": 145,
+   "f": "hibrid",
+   "p": 14900,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-e-tech-full-145-equilibre-ID7HQUiI.html",
+   "warn": null,
+   "d": "2026-10-13",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Citroën C5 Aircross",
+   "an": 2021,
+   "km": 45000,
+   "cp": 130,
+   "f": "benzina",
+   "p": 14900,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/citroen-c5-aircross-ID7HQSHq.html",
+   "warn": null,
+   "d": "2026-10-08",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster",
+   "an": 2023,
+   "km": 45000,
+   "cp": 115,
+   "f": "diesel",
+   "p": 14900,
+   "z": "Cluj-Napoca",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQRxB.html",
+   "warn": null,
+   "d": "2026-10-04",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Volkswagen Caddy",
+   "an": 2022,
+   "km": 82928,
+   "cp": 102,
+   "f": "diesel",
+   "p": 14900,
+   "z": "Buzau",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-caddy-ID7HQQNm.html",
+   "warn": null,
+   "d": "2026-10-01",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost MHEV ST Line",
+   "an": 2022,
+   "km": 65897,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14900,
+   "z": "Brasov",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-st-line-ID7HQMRQ.html",
+   "warn": null,
+   "d": "2026-09-18",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Kia Sportage 1.6 GDI 6MT 4x2 Plus",
+   "an": 2021,
+   "km": 82091,
+   "cp": 132,
+   "f": "benzina",
+   "p": 14900,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-gdi-6mt-4x2-plus-ID7HQMP5.html",
+   "warn": null,
+   "d": "2026-09-18",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Kuga 1.5 EcoBoost 2x4 Cool & Connect",
+   "an": 2022,
+   "km": 44000,
+   "cp": 150,
+   "f": "benzina",
+   "p": 14900,
+   "z": "Bacau",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ver-1-5-ecoboost-2x4-cool-connect-ID7HQGmL.html",
+   "warn": null,
+   "d": "2026-09-25",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster ECO-G 100 Comfort",
+   "an": 2021,
+   "km": 75258,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 14900,
+   "z": "Iasi",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-eco-g-100-comfort-ID7HQANT.html",
+   "warn": null,
+   "d": "2026-10-04",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA 1.0 T-GDI 120 CP 7 DCT 2WD Highway",
+   "an": 2022,
+   "km": 33000,
+   "cp": 120,
+   "f": "benzina",
+   "p": 14900,
+   "z": "Constanta",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-120-cp-7-dct-2wd-highway-ID7HQlAH.html",
+   "warn": null,
+   "d": "2026-09-28",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway ECO-G 100 MT6 Expression",
+   "an": 2025,
+   "km": 1970,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 14950,
+   "z": "Galati",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-expression-ID7HQGHE.html",
+   "warn": null,
+   "d": "2026-10-05",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Kia Sportage 1.6 DSL MHEV 7DCT HP 4x4 Plus",
+   "an": 2021,
+   "km": 92350,
+   "cp": 136,
+   "f": "diesel",
+   "p": 14950,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-dsl-mhev-7dct-hp-4x4-plus-ID7HQFaM.html",
+   "warn": null,
+   "d": "2026-09-20",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster TCe 150 EDC Prestige",
+   "an": 2022,
+   "km": 74733,
+   "cp": 150,
+   "f": "benzina",
+   "p": 14950,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-150-edc-prestige-ID7HQtCh.html",
+   "warn": null,
+   "d": "2026-09-22",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Koleos BLUE dCi 150 X-tronic LIMITED",
+   "an": 2020,
+   "km": 78118,
+   "cp": 149,
+   "f": "diesel",
+   "p": 14980,
+   "z": "Braila",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-koleos-ver-blue-dci-150-x-tronic-limited-ID7HQAZe.html",
+   "warn": null,
+   "d": "2026-10-05",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "SsangYong Tivoli Grand",
+   "an": 2022,
+   "km": 58730,
+   "cp": 163,
+   "f": "benzina",
+   "p": 14989,
+   "z": "Chiajna",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ssangyong-tivoli-grand-ID7HQSmS.html",
+   "warn": null,
+   "d": "2026-10-07",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Citroën Berlingo ver-puretech-130-stop-start-eat8-feel",
+   "an": 2021,
+   "km": 83586,
+   "cp": 130,
+   "f": "benzina",
+   "p": 14990,
+   "z": "Tunari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/citroen-berlingo-ver-puretech-130-stop-start-eat8-feel-ID7HQWe9.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-16",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Renault Captur",
+   "an": 2023,
+   "km": 97000,
+   "cp": 143,
+   "f": "hibrid",
+   "p": 14990,
+   "z": "Slatina",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ID7HQS5H.html",
+   "warn": null,
+   "d": "2026-10-06",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Puma 1.0 EcoBoost Hybrid Aut. ST-LINE",
+   "an": 2022,
+   "km": 85400,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14990,
+   "z": "Voluntari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-hybrid-aut-st-line-ID7HQE6C.html",
+   "warn": null,
+   "d": "2026-10-17",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Kuga 1.5 EcoBoost FWD ST Line",
+   "an": 2023,
+   "km": 77020,
+   "cp": 150,
+   "f": "benzina",
+   "p": 14990,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ver-1-5-ecoboost-fwd-st-line-ID7HQfif.html",
+   "warn": null,
+   "d": "2026-09-21",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Hyundai KONA",
+   "an": 2022,
+   "km": 45900,
+   "cp": 105,
+   "f": "hibrid",
+   "p": 14999,
+   "z": "Timisoara",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ID7HQW2l.html",
+   "warn": null,
+   "d": "2026-10-16",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Volkswagen T-Cross 1.0 TSI Style",
+   "an": 2021,
+   "km": 93048,
+   "cp": 110,
+   "f": "benzina",
+   "p": 14999,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-style-ID7HQQp4.html",
+   "warn": null,
+   "d": "2026-10-15",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Ford Kuga",
+   "an": 2020,
+   "km": 50707,
+   "cp": 150,
+   "f": "benzina",
+   "p": 15000,
+   "z": "Targoviste",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ID7HQUEW.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster",
+   "an": 2024,
+   "km": 42000,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 15000,
+   "z": "Drajna",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQTlW.html",
+   "warn": null,
+   "d": "2026-10-10",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Dacia Duster",
+   "an": 2021,
+   "km": 42000,
+   "cp": 100,
+   "f": "benzina + gpl",
+   "p": 15000,
+   "z": "Slanic",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQR3N.html",
+   "warn": null,
+   "d": "2026-10-02",
+   "avc": "2026-10-17",
+   "gj": false
+  },
+  {
+   "m": "Suzuki Vitara 1.4 Boosterjet MHEV Luxus",
+   "an": 2023,
+   "km": 88000,
+   "cp": 129,
+   "f": "benzina",
+   "p": 15000,
+   "z": "Bragadiru",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ver-1-4-boosterjet-mhev-luxus-ID7HQM3u.html",
+   "warn": null,
+   "d": "2026-10-15",
+   "avc": "2026-10-17",
+   "gj": false
   },
   {
    "m": "Kia Sportage 1.6 DSL 7DCT HP 4x2 GT Line",
@@ -4030,7 +7796,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-150-4wd-sondermodell-extreme-ID7HQLKv.html",
    "warn": null,
    "d": "2026-10-16",
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "gj": false
   }
  ]
 }
