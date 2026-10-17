@@ -15,25 +15,25 @@
  },
  "publi24": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-10-17 10:23",
-  "gasite": 112,
-  "noi": 22
+  "cand": "2026-10-17 12:13",
+  "gasite": 113,
+  "noi": 1
  },
  "lajumate": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-10-17 10:24",
+  "cand": "2026-10-17 12:13",
   "gasite": 225,
-  "noi": 27
+  "noi": 0
  },
  "agentii": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-10-17 10:24",
+  "cand": "2026-10-17 12:13",
   "gasite": 181,
-  "noi": 7
+  "noi": 0
  },
  "licitatii": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-10-17 10:24",
+  "cand": "2026-10-17 12:13",
   "gasite": 1,
   "noi": 0
  },
@@ -54,5 +54,11 @@
   "cand": "2026-10-17 10:23",
   "gasite": 21,
   "noi": 2
+ },
+ "anaf": {
+  "ce": "case in orasul Sibiu",
+  "cand": "2026-10-17 12:13",
+  "gasite": 0,
+  "noi": 0
  }
 }

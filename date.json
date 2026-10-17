@@ -4600,7 +4600,7 @@
    "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-amplasata-spitalul-judetean-si-promenada-mall-sibiu-IDHKlr",
    "warn": null,
    "d": "2026-09-30",
-   "dup": "https://www.imobiliare.ro/oferta/duplex-de-vanzare-sibiu-central-2-camere-275833427"
+   "dup": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-cu-2-camere-decomandate-335-mp-teren-in-zona-parcul-tineretului/632771e798d677g1eie5g18idh590i7h.html"
   },
   {
    "k": "casa",
@@ -13327,7 +13327,7 @@
    "u": "https://www.imobiliare.ro/oferta/duplex-de-vanzare-sibiu-central-2-camere-275833427",
    "warn": "Din imobiliare; detalii neverificate in descriere.",
    "d": "2026-10-17",
-   "alte": 2
+   "dup": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-cu-2-camere-decomandate-335-mp-teren-in-zona-parcul-tineretului/632771e798d677g1eie5g18idh590i7h.html"
   },
   {
    "k": "casa",
@@ -14496,7 +14496,7 @@
    "u": "https://lajumate.ro/ad/casa-cu-2-camere-decomandate-335-mp-teren-in-zona-parcul-tin-17072457",
    "warn": "Din lajumate; detalii neverificate in descriere.",
    "d": "2026-10-17",
-   "dup": "https://www.imobiliare.ro/oferta/duplex-de-vanzare-sibiu-central-2-camere-275833427"
+   "dup": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-cu-2-camere-decomandate-335-mp-teren-in-zona-parcul-tineretului/632771e798d677g1eie5g18idh590i7h.html"
   },
   {
    "k": "casa",
@@ -14701,6 +14701,22 @@
    "warn": "Din sibiuestate; detalii neverificate in descriere.",
    "d": "2026-10-17",
    "dup": "IDH1sL"
+  },
+  {
+   "k": "casa",
+   "p": 199900,
+   "t": "Casa cu 2 camere decomandate 335 mp teren in zona Parcul Tineretului",
+   "z": "Centrul Istoric",
+   "r": 2,
+   "a": null,
+   "g": "teren 335 mp",
+   "gm": null,
+   "c": null,
+   "src": "publi24",
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-cu-2-camere-decomandate-335-mp-teren-in-zona-parcul-tineretului/632771e798d677g1eie5g18idh590i7h.html",
+   "warn": "Din publi24; detalii neverificate in descriere.",
+   "d": "2026-10-17",
+   "alte": 3
   }
  ]
 }

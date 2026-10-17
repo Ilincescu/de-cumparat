@@ -165,6 +165,50 @@ function exclusePeStoria() {
   return m;
 }
 
+// ANAF eLicitatii: lista e o pagina Next.js citibila direct (?pagina=N), pe
+// categorii. Judetul si pretul de pornire sunt in datele paginii fiecarui bun
+// ("judet":"SIBIU", "pretPornireLicitatie":"297039.5", in lei). Leul il
+// transform in euro cu cursul BNR din ziua respectiva.
+async function cursEuro() {
+  // www.bnr.ro/nbrfxrates.xml redirecteaza acum la prima pagina; fluxul e pe curs.bnr.ro.
+  const x = await html('https://curs.bnr.ro/nbrfxrates.xml');
+  return +((x.match(/currency="EUR">([\d.]+)</) || [])[1]) || null;
+}
+
+async function anaf() {
+  const curs = await cursEuro();
+  const linkuri = new Set();
+  for (const cat of ['case-vile', 'duplexuri']) {
+    for (let p = 1; p <= 40; p++) {
+      const h = await html(`https://elicitatii.anaf.ro/publicitate/categorii/bunuri-imobile/${cat}?pagina=${p}`);
+      const n = linkuri.size;
+      (h.match(/\/publicitate\/produs\/[a-z0-9-]+/gi) || []).forEach(x => linkuri.add(x));
+      if (linkuri.size === n) break;
+    }
+  }
+  const out = [];
+  const L = [...linkuri];
+  for (let i = 0; i < L.length; i += 6) {
+    await Promise.all(L.slice(i, i + 6).map(async l => {
+      try {
+        const u = 'https://elicitatii.anaf.ro' + l;
+        const h = (await html(u)).replace(/\\"/g, '"');
+        if (!/"judet":"SIBIU"/i.test(h)) return;
+        const lei = +((h.match(/"pretPornireLicitatie":"([\d.]+)"/) || [])[1]) || null;
+        out.push({
+          src: 'licitatie',
+          titlu: 'Licitatie ANAF: ' + l.replace(/^.*\/\d+-/, '').replace(/-/g, ' '),
+          descriere: curat((h.match(/"descriere":"([^"]{0,2000})/) || [])[1]),
+          pret: lei && curs ? Math.round(lei / curs) : null,
+          url: u,
+        });
+      } catch (e) { /* un bun care nu raspunde nu opreste restul */ }
+    }));
+  }
+  console.log(`anaf: ${L.length} case si duplexuri in tara, ${out.length} in judetul Sibiu (curs BNR ${curs})`);
+  return out;
+}
+
 function coduriPeStoria() {
   const dosar = path.join(__dirname, 'snapshots');
   const ultim = fs.readdirSync(dosar).filter(x => /^storia-\d{4}-\d{2}-\d{2}\.json$/.test(x)).sort().pop();
@@ -287,7 +331,7 @@ function noteaza(sursa, ce, date) {
   };
   // Toate sursele fara browser merg zilnic: impreuna dureaza sub un minut.
   const surse = CE === 'fisier' ? [[path.basename(process.argv[3], '.json').replace(/-raw$/, ''), dinFisier]]
-    : [['publi24', publi24], ['lajumate', lajumate], ['agentii', agentii], ['licitatii', licitatii]];
+    : [['publi24', publi24], ['lajumate', lajumate], ['agentii', agentii], ['licitatii', licitatii], ['anaf', anaf]];
   const cale = path.join(RADACINA, 'date.json');
   const date = JSON.parse(fs.readFileSync(cale, 'utf8'));
   const zone = cartiere(date);
