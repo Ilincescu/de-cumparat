@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-17",
+ "actualizat": "2026-10-18",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -1091,7 +1091,7 @@
   },
   {
    "k": "casa",
-   "p": 215000,
+   "p": 199900,
    "t": "Casa cu 2 camere decomandate 335 mp teren in zona Parcul Tineretului",
    "z": "Three Oaks",
    "r": 2,
@@ -1100,7 +1100,7 @@
    "c": null,
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-cu-2-camere-decomandate-335-mp-teren-in-zona-parcul-tineretului-IDI75m",
-   "d": "2026-09-21"
+   "d": "2026-10-18"
   },
   {
    "k": "casa",
@@ -11923,7 +11923,7 @@
   },
   {
    "k": "casa",
-   "p": 215000,
+   "p": 199900,
    "t": "Casa cu 2 camere decomandate 335 mp teren in zona Parcul Tineretului",
    "z": "Lazaret, Sibiu",
    "r": 2,
@@ -11934,7 +11934,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-cu-2-camere-decomandate-335-mp-teren-in-zona-parcul-tineretului-IDIUBT",
    "warn": null,
-   "d": "2026-10-16"
+   "d": "2026-10-18"
   },
   {
    "k": "casa",
@@ -14717,6 +14717,66 @@
    "warn": "Din publi24; detalii neverificate in descriere.",
    "d": "2026-10-17",
    "alte": 3
+  },
+  {
+   "k": "casa",
+   "p": 135990,
+   "t": "Casa mica 3 dormitoare curte mica 60 mp zona Lupeni Sibiu",
+   "z": "Sibiu",
+   "r": 3,
+   "a": 115,
+   "g": "teren 115 mp",
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/casa-mica-3-dormitoare-curte-mica-60-mp-zona-lupeni-sibiu-IDIUTI",
+   "warn": null,
+   "d": "2026-10-18"
+  },
+  {
+   "k": "ap",
+   "p": 102990,
+   "t": "Apartament 2 camere decomandat 62 mp pivnita zona Central-Dioda Sibiu",
+   "z": "Trei Stejari, Sibiu",
+   "r": 2,
+   "a": 62,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-62-mp-pivnita-zona-central-dioda-sibiu-IDIUVd",
+   "warn": null,
+   "d": "2026-10-18"
+  },
+  {
+   "k": "ap",
+   "p": 48000,
+   "t": "P.F.Vand apartament la casa 48 mp Sibiu",
+   "z": "Strand I, Sibiu",
+   "r": 2,
+   "a": 48,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/p-f-vand-apartament-la-casa-48-mp-sibiu-IDIURS",
+   "warn": null,
+   "d": "2026-10-18"
+  },
+  {
+   "k": "ap",
+   "p": 88500,
+   "t": "Apartament Ready to Move Sibiu 2 parcari",
+   "z": "Zona Industriala Est, Sibiu",
+   "r": 2,
+   "a": 33,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-ready-to-move-sibiu-2-parcari-IDIUMP",
+   "warn": null,
+   "d": "2026-10-18"
   }
  ]
 }
