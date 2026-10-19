@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-18",
+ "actualizat": "2026-10-19",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -28947,6 +28947,126 @@
     {
      "d": "2026-10-17",
      "p": 15000
+    }
+   ]
+  },
+  "IDIW1t": {
+   "u": "https://www.storia.ro/ro/oferta/casa-in-centrul-istoric-sibiu-88-mp-pod-si-pivnita-IDIW1t",
+   "t": "Casa in Centrul Istoric Sibiu | 88 mp | Pod si pivnita",
+   "preturi": [
+    {
+     "d": "2026-10-19",
+     "p": 150000
+    }
+   ]
+  },
+  "IDIW8a": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-decoamandat-de-vanzare-renovat-complet-zona-rahovei-sibiu-IDIW8a",
+   "t": "Apartament decoamandat de vanzare renovat complet zona Rahovei Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-19",
+     "p": 105999
+    }
+   ]
+  },
+  "IDIW6U": {
+   "u": "https://www.storia.ro/ro/oferta/proprietar-vand-garsoniera-in-valea-aurie-sibiu-IDIW6U",
+   "t": "Proprietar vand garsoniera in Valea Aurie Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-19",
+     "p": 68000
+    }
+   ]
+  },
+  "IDIW3V": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-47-mp-utili-cu-o-mica-gradina-de-17-mp-IDIW3V",
+   "t": "Garsoniera de vanzare 47 mp utili cu o mica gradina de 17 mp",
+   "preturi": [
+    {
+     "d": "2026-10-19",
+     "p": 72000
+    }
+   ]
+  },
+  "IDIW1L": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-50-mp-aer-conditionat-strand-IDIW1L",
+   "t": "Apartament 2 camere - decomandat, 50 mp, aer conditionat - Strand",
+   "preturi": [
+    {
+     "d": "2026-10-19",
+     "p": 99000
+    }
+   ]
+  },
+  "IDIW1M": {
+   "u": "https://www.storia.ro/ro/oferta/ap-recent-renovat-cu-2-camere-balcon-terezian-IDIW1M",
+   "t": "Ap recent renovat, cu 2 camere, balcon - Terezian",
+   "preturi": [
+    {
+     "d": "2026-10-19",
+     "p": 109900
+    }
+   ]
+  },
+  "IDIW1s": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-3-lift-bucatarie-separata-turnisor-IDIW1s",
+   "t": "Apartament 2 camere - etaj 3, lift, bucatarie separata - Turnisor",
+   "preturi": [
+    {
+     "d": "2026-10-19",
+     "p": 94900
+    }
+   ]
+  },
+  "IDIQMh": {
+   "u": "https://www.storia.ro/ro/oferta/ap-2-camere-decomandat-cu-pivni-zona-calea-dumbrvii-siretului-et-3-IDIQMh",
+   "t": "Ap 2 camere decomandat cu pivniță zona Calea Dumbrăvii /Siretului et 3",
+   "preturi": [
+    {
+     "d": "2026-10-19",
+     "p": 109900
+    }
+   ]
+  },
+  "ID7HQWuE": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ID7HQWuE.html",
+   "t": "Dacia Dokker",
+   "preturi": [
+    {
+     "d": "2026-10-18",
+     "p": 8350
+    }
+   ]
+  },
+  "ID7HQCIN": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-2wd-highway-ID7HQCIN.html",
+   "t": "Hyundai KONA 1.0 T-GDI 2WD Highway",
+   "preturi": [
+    {
+     "d": "2026-10-18",
+     "p": 12799
+    }
+   ]
+  },
+  "ID7HQWv6": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-hybrid-titanium-ID7HQWv6.html",
+   "t": "Ford Puma 1.0 EcoBoost Hybrid TITANIUM",
+   "preturi": [
+    {
+     "d": "2026-10-18",
+     "p": 12990
+    }
+   ]
+  },
+  "ID7HQWwU": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQWwU.html",
+   "t": "Dacia Duster",
+   "preturi": [
+    {
+     "d": "2026-10-18",
+     "p": 13000
     }
    ]
   }

@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-18",
+ "actualizat": "2026-10-19",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -13988,7 +13988,9 @@
    "src": "publi24",
    "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-de-vanzare-in-veterani/38560hg8h1gi75g6e76h96g10eg3i29h.html",
    "warn": "Din publi24; detalii neverificate in descriere.",
-   "d": "2026-10-17"
+   "d": "2026-10-17",
+   "mort": true,
+   "mort_din": "2026-10-19"
   },
   {
    "k": "casa",
@@ -14160,7 +14162,9 @@
    "src": "publi24",
    "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/duplex-de-vanzare-langa-parcul-sub-arini/69058896ggi97e10150f8h558251d159.html",
    "warn": "Din publi24; detalii neverificate in descriere.",
-   "d": "2026-10-17"
+   "d": "2026-10-17",
+   "mort": true,
+   "mort_din": "2026-10-19"
   },
   {
    "k": "casa",
@@ -14777,6 +14781,36 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-ready-to-move-sibiu-2-parcari-IDIUMP",
    "warn": null,
    "d": "2026-10-18"
+  },
+  {
+   "k": "ap",
+   "p": 105999,
+   "t": "Apartament decoamandat de vanzare renovat complet zona Rahovei Sibiu",
+   "z": "Hipodrom I, Sibiu",
+   "r": 2,
+   "a": 44,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-decoamandat-de-vanzare-renovat-complet-zona-rahovei-sibiu-IDIW8a",
+   "warn": null,
+   "d": "2026-10-19"
+  },
+  {
+   "k": "ap",
+   "p": 109900,
+   "t": "Ap 2 camere decomandat cu pivniță zona Calea Dumbrăvii /Siretului et 3",
+   "z": "Hipodrom IV, Sibiu",
+   "r": 2,
+   "a": 43,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/ap-2-camere-decomandat-cu-pivni-zona-calea-dumbrvii-siretului-et-3-IDIQMh",
+   "warn": null,
+   "d": "2026-10-19"
   }
  ]
 }
