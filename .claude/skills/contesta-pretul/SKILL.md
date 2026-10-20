@@ -43,6 +43,12 @@ Cei 55.000 € puși pe Turnișor erau **o regulă generală pentru tot ce e mar
 
 **Niciun default pe categorie.** Fiecare linie se recalculează pe casa aia, pe cantitatea ei, și se scade ce există deja în poze sau în descriere.
 
+### 1c. Fiecare rând spune dacă e material + manoperă sau doar manoperă (casa Țiglari, 20.10.2026)
+
+Am dat „prize 18 lei/buc ≈ 135 €" — 18 lei era doar montajul, fără aparat. Iar la igrasie am pus tencuială obișnuită (39 lei/mp, doar manoperă) în loc de tencuială de asanare cu material (de la 80 lei/mp), și am scos tencuiala doar până la 1 m, deși fișa producătorului cere ~80 cm peste urmă. Mihai a prins amândouă dintr-o privire.
+
+**Pe fiecare rând scrie „material + manoperă" sau „doar manoperă".** Listele de manoperă (ghidamenajari, daibau) nu includ materialul; dacă rândul e doar manoperă, materialul se caută separat sau rândul spune că lipsește. La umezeală/igrasie se socotește sistemul întreg: decopertare până la ~80 cm peste urmă, tencuială de asanare cu material, glet + lavabil, plus barieră injectată ca linie separată condiționată de măsurarea umezelii.
+
 ### 2. Estimează doar ce folosește, nu toată clădirea
 
 Am dat 60.000–90.000 € pentru o casă din care el locuiește în 60 mp. Numărul nu era greșit, răspundea la altă întrebare.
