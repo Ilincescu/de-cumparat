@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-19",
+ "actualizat": "2026-10-20",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -1713,6 +1713,10 @@
     {
      "d": "2026-09-25",
      "p": 92000
+    },
+    {
+     "d": "2026-10-20",
+     "p": 109900
     }
    ]
   },
@@ -1943,6 +1947,10 @@
     {
      "d": "2026-09-25",
      "p": 66900
+    },
+    {
+     "d": "2026-10-20",
+     "p": 64900
     }
    ]
   },
@@ -2171,6 +2179,10 @@
     {
      "d": "2026-09-25",
      "p": 76000
+    },
+    {
+     "d": "2026-10-20",
+     "p": 75900
     }
    ]
   },
@@ -2571,6 +2583,10 @@
     {
      "d": "2026-09-25",
      "p": 96000
+    },
+    {
+     "d": "2026-10-20",
+     "p": 97000
     }
    ]
   },
@@ -2981,6 +2997,10 @@
     {
      "d": "2026-09-25",
      "p": 77000
+    },
+    {
+     "d": "2026-10-20",
+     "p": 72000
     }
    ]
   },
@@ -4727,6 +4747,10 @@
     {
      "d": "2026-09-30",
      "p": 88990
+    },
+    {
+     "d": "2026-10-20",
+     "p": 85000
     }
    ]
   },
@@ -7011,6 +7035,10 @@
     {
      "d": "2026-10-04",
      "p": 79500
+    },
+    {
+     "d": "2026-10-20",
+     "p": 78500
     }
    ]
   },
@@ -7413,6 +7441,10 @@
     {
      "d": "2026-10-04",
      "p": 87000
+    },
+    {
+     "d": "2026-10-20",
+     "p": 87001
     }
    ]
   },
@@ -10303,6 +10335,10 @@
     {
      "d": "2026-09-30",
      "p": 76000
+    },
+    {
+     "d": "2026-10-20",
+     "p": 75900
     }
    ]
   },
@@ -10483,6 +10519,10 @@
     {
      "d": "2026-09-30",
      "p": 220000
+    },
+    {
+     "d": "2026-10-20",
+     "p": 199110
     }
    ]
   },
@@ -12131,6 +12171,10 @@
     {
      "d": "2026-10-04",
      "p": 76000
+    },
+    {
+     "d": "2026-10-20",
+     "p": 74000
     }
    ]
   },
@@ -12817,6 +12861,10 @@
     {
      "d": "2026-10-04",
      "p": 92900
+    },
+    {
+     "d": "2026-10-20",
+     "p": 90000
     }
    ]
   },
@@ -16441,6 +16489,10 @@
     {
      "d": "2026-10-04",
      "p": 63900
+    },
+    {
+     "d": "2026-10-20",
+     "p": 63000
     }
    ]
   },
@@ -17891,6 +17943,10 @@
     {
      "d": "2026-10-04",
      "p": 73000
+    },
+    {
+     "d": "2026-10-20",
+     "p": 88330
     }
    ]
   },
@@ -19867,6 +19923,10 @@
     {
      "d": "2026-10-15",
      "p": 101900
+    },
+    {
+     "d": "2026-10-20",
+     "p": 95900
     }
    ]
   },
@@ -20097,6 +20157,10 @@
     {
      "d": "2026-10-07",
      "p": 205000
+    },
+    {
+     "d": "2026-10-20",
+     "p": 240000
     }
    ]
   },
@@ -22539,6 +22603,10 @@
     {
      "d": "2026-10-11",
      "p": 74999
+    },
+    {
+     "d": "2026-10-20",
+     "p": 75000
     }
    ]
   },
@@ -29067,6 +29135,216 @@
     {
      "d": "2026-10-18",
      "p": 13000
+    }
+   ]
+  },
+  "IDIV1U": {
+   "u": "https://www.storia.ro/ro/oferta/centrul-istoric-apartament-la-cas-88-98-mp-3-camere-pe-dou-nive-IDIV1U",
+   "t": "CENTRUL ISTORIC, APARTAMENT LA CASĂ, 88,98 MP, 3 CAMERE PE DOUĂ NIVE",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 180000
+    }
+   ]
+  },
+  "IDIVfs": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-tip-mansarda-3-camere-52-mp-zona-centrala-promenada-sibiu-IDIVfs",
+   "t": "Apartament tip mansarda 3 camere 52 mp zona centrala Promenada Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 95000
+    }
+   ]
+  },
+  "IDIVdn": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-decomandata-28-mp-utili-mobilata-utilata-zona-tilisca-sibiu-IDIVdn",
+   "t": "Garsoniera decomandata 28 mp utili mobilata utilata zona Tilisca Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 42990
+    }
+   ]
+  },
+  "IDIVbd": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-bloc-nou-2-camere-et-1-calea-cisnadiei-zona-kaufland-IDIVbd",
+   "t": "Apartament bloc nou 2 camere et. 1, Calea Cisnadiei zona Kaufland",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 86000
+    }
+   ]
+  },
+  "IDIV95": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-cu-gradina-39-mp-si-parcare-nou-IDIV95",
+   "t": "Apartament 2 Camere cu Gradina 39 mp si Parcare | Nou",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 105000
+    }
+   ]
+  },
+  "IDIV3S": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-modern-de-vnzare-n-sibiu-40-mp-balcon-7-mp-IDIV3S",
+   "t": "Garsonieră modernă de vânzare în Sibiu – 40 mp, balcon 7 mp",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 77000
+    }
+   ]
+  },
+  "IDIV2f": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-2-camere-balcon-pivnita-etaj-24-zona-sire-IDIV2f",
+   "t": "Apartament decomandat, 2 camere, balcon, pivnita - etaj 24 - Zona Sire",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 110000
+    }
+   ]
+  },
+  "IDIWVw": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-etaj-intermediar-36mp-zona-vasile-aaron-IDIWVw",
+   "t": "Apartament 2 camere de vanzare etaj intermediar 36mp zona Vasile Aaron",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 73900
+    }
+   ]
+  },
+  "IDIWJu": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-spatioasa-situata-la-parter-inalt-in-vasile-aaron-zona-omv-IDIWJu",
+   "t": "Garsoniera spatioasa situata la parter inalt in Vasile Aaron zona OMV",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 48000
+    }
+   ]
+  },
+  "IDIWIe": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-nou-2-camere-cu-balcon-si-parcare-subterana-zona-doamna-sta-IDIWIe",
+   "t": "Apartament nou 2 camere cu balcon si parcare subterana zona Doamna Sta",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 109000
+    }
+   ]
+  },
+  "IDIWEN": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-decomandata-26-mp-zona-turnisor-sibiu-IDIWEN",
+   "t": "Garsoniera de vanzare decomandata 26 mp zona Turnisor Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 64000
+    }
+   ]
+  },
+  "IDIWEg": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-decomandata-28-mp-balcon-5-mp-elimbar-parcare-inclusa-IDIWEg",
+   "t": "Garsoniera decomandata 28 mp + balcon 5 mp, Șelimbar, parcare inclusa",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 65000
+    }
+   ]
+  },
+  "IDIWD3": {
+   "u": "https://www.storia.ro/ro/oferta/3-camere-mihai-viteazul-complet-mobilat-i-utilat-110-000-eur-IDIWD3",
+   "t": "3 camere Mihai Viteazul – complet mobilat și utilat | 110.000 EUR",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 110000
+    }
+   ]
+  },
+  "IDIWzE": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-cu-pivnita-in-zona-lazaret-din-sibiu-comision-0-IDIWzE",
+   "t": "Garsoniera de vanzare cu pivnita in zona Lazaret din Sibiu Comision 0",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 35000
+    }
+   ]
+  },
+  "IDIWvz": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-3-camere-decomandat-mobilat-balcon-stefan-cel-mare-IDIWvz",
+   "t": "Apartament 3 camere - decomandat, mobilat, balcon - Stefan cel Mare",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 77000
+    }
+   ]
+  },
+  "IDIWvA": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-renovata-26-mp-balcon-siretului-IDIWvA",
+   "t": "Garsoniera renovata | 26 mp + balcon | Siretului",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 59000
+    }
+   ]
+  },
+  "IDIWot": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-43-mp-zona-calea-dumbravii-siretului-IDIWot",
+   "t": "Apartament 2 camere decomandat 43 mp zona Calea Dumbravii Siretului",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 109900
+    }
+   ]
+  },
+  "ID7HQWF4": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-combo-ID7HQWF4.html",
+   "t": "Opel Combo",
+   "preturi": [
+    {
+     "d": "2026-10-19",
+     "p": 9990
+    }
+   ]
+  },
+  "ID7HQWFG": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ID7HQWFG.html",
+   "t": "Opel Crossland",
+   "preturi": [
+    {
+     "d": "2026-10-19",
+     "p": 10500
+    }
+   ]
+  },
+  "ID7HQQBv": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQQBv.html",
+   "t": "Peugeot 2008",
+   "preturi": [
+    {
+     "d": "2026-10-19",
+     "p": 14800
+    }
+   ]
+  },
+  "ID7HQSt7": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQSt7.html",
+   "t": "Peugeot 2008",
+   "preturi": [
+    {
+     "d": "2026-10-19",
+     "p": 15000
     }
    ]
   }
