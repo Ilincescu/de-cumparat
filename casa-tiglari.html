@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2f6d4f">
+<title>Casa Țiglari — 3 camere</title>
+<style>
+  :root{
+    --bg:#eef1ec; --surface:#fff; --surface-2:#f6f8f4;
+    --ink:#1b241d; --muted:#5b6a60; --faint:#8a9890;
+    --line:#dde3dc; --accent:#2f6d4f; --accent-soft:#e3efe7;
+    --warn:#a8521f; --warn-soft:#fbeee3;
+    --good:#2f6d4f; --good-soft:#e3efe7;
+    --bad:#a8321f; --bad-soft:#fbe6e3;
+    --radius:14px;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+      --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+      --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+      --warn:#e0a16a; --warn-soft:#33281e;
+      --good:#6fbf92; --good-soft:#22322a;
+      --bad:#e08a7a; --bad-soft:#33211e;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+    --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+    --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+    --warn:#e0a16a; --warn-soft:#33281e;
+    --good:#6fbf92; --good-soft:#22322a;
+    --bad:#e08a7a; --bad-soft:#33211e;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    padding-bottom:60px;-webkit-text-size-adjust:100%}
+  .wrap{max-width:900px;margin:0 auto;padding:0 16px}
+  a{color:var(--accent)}
+  header{padding-block:22px 6px}
+  h1{font-size:22px;margin:0;letter-spacing:-.02em}
+  .stamp{font-size:12px;color:var(--faint);margin-top:4px}
+  .lede{color:var(--muted);margin:10px 0 0;font-size:14px}
+  h2{font-size:17px;margin:30px 0 10px;letter-spacing:-.01em}
+  p{margin:9px 0}
+  ul{padding-left:19px;margin:6px 0}
+  li{margin-bottom:5px}
+  .hero{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:baseline;
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:15px;margin-top:14px}
+  .hero .big{font-size:28px;font-weight:700;color:var(--accent);letter-spacing:-.02em}
+  .hero dl{margin:0;display:flex;flex-wrap:wrap;gap:4px 20px}
+  .hero dt{font-size:11px;text-transform:uppercase;letter-spacing:.05em;
+    color:var(--faint);font-weight:700;margin:0}
+  .hero dd{margin:0;font-size:14px;font-weight:600}
+  .hero .pair{display:flex;flex-direction:column}
+  .card{background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);padding:13px 15px;margin-bottom:12px}
+  .scroller{overflow-x:auto;-webkit-overflow-scrolling:touch;
+    border:1px solid var(--line);border-radius:var(--radius);
+    background:var(--surface);margin-top:12px}
+  table{border-collapse:collapse;width:100%;font-size:13px}
+  th,td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:var(--surface-2);color:var(--muted);font-weight:600;font-size:12px;white-space:nowrap}
+  tbody tr:last-child td{border-bottom:0}
+  td small{display:block;color:var(--faint);font-size:11.5px;margin-top:2px}
+  .num{white-space:nowrap;font-variant-numeric:tabular-nums}
+  .note{background:var(--warn-soft);border:1px solid var(--line);
+    border-radius:var(--radius);padding:12px 14px;font-size:13.5px;margin:12px 0}
+  .note b{color:var(--warn)}
+  .ok{background:var(--good-soft)} .ok b{color:var(--good)}
+  .bad{background:var(--bad-soft)} .bad b{color:var(--bad)}
+  .cols{display:grid;grid-template-columns:1fr;gap:12px}
+  @media(min-width:700px){.cols{grid-template-columns:1fr 1fr}}
+  .cols h3{margin:0 0 6px;font-size:12px;text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+  .g h3{color:var(--good)} .r h3{color:var(--bad)}
+  .legend{font-size:12px;color:var(--faint);margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Casa din Țiglari — 3 camere, teren 400 mp</h1>
+  <div class="stamp">Strâns pe 20.10.2026, ziua vizitei · <a href="index.html">înapoi la listă</a></div>
+  <p class="lede">Tot ce știm despre casă: din anunțuri, din actele primite de la vânzător, din hartă și din ce s-a aflat la vizită. Fiecare rând are lângă el de unde vine.</p>
+</header>
+
+<div class="hero">
+  <div class="big">185.000 €</div>
+  <dl>
+    <div class="pair"><dt>Utili</dt><dd>108 mp</dd></div>
+    <div class="pair"><dt>La sol (CF)</dt><dd>154 mp</dd></div>
+    <div class="pair"><dt>Teren (CF)</dt><dd>400 mp</dd></div>
+    <div class="pair"><dt>An</dt><dd>1980</dd></div>
+    <div class="pair"><dt>Pe piață</dt><dd>din 12.08.2026</dd></div>
+  </dl>
+</div>
+
+<h2>Verdictul pe scurt</h2>
+<div class="cols">
+  <div class="card g"><h3>Pentru</h3><ul>
+    <li>Acoperiș nou și izolație exterioară (spune vânzătorul).</li>
+    <li>Curte proprie, „singur în curte”, teren împrejmuit (anunț + CF).</li>
+    <li>CF fără ipoteci sau sechestre la data extrasului (nov. 2024).</li>
+    <li>Apă, canalizare, gaz și curent bifate în certificatul de urbanism.</li>
+    <li>Cel mai mare teren dintre casele din Țiglari de pe Storia.</li>
+  </ul></div>
+  <div class="card r"><h3>Contra / de lămurit</h3><ul>
+    <li><b>Calea ferată 208 chiar în spatele grădinii</b>, cu ~12 trenuri de călători pe zi.</li>
+    <li>Pereții afectați pe 15–30 cm după o țeavă spartă.</li>
+    <li><b>Certificatul de urbanism scrie „grevat cu servitute”</b>, iar CF spune „nu sunt”.</li>
+    <li>2 bucătării: poate fi casă împărțită în două locuințe.</li>
+    <li>Curtea e în parte pavată cu dale de beton.</li>
+    <li>Casa nu se mai poate extinde la sol.</li>
+  </ul></div>
+</div>
+
+<h2>Anunțuri</h2>
+<div class="scroller"><table>
+  <thead><tr><th>Unde</th><th>Cine</th><th>Preț</th></tr></thead>
+  <tbody>
+    <tr><td><a href="https://www.storia.ro/ro/oferta/cas-3-camere-de-vnzare-tiglari-sibiu-108-mp-teren-400-mp-IDIbXM">Storia</a></td><td>MAAC Imobiliare, cod CP3307534<small>comision 2%: 3.700 €, sau 4.477 € dacă e plus TVA 21%</small></td><td class="num">185.000 €</td></tr>
+    <tr><td><a href="https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/super-pret/h328defi94f477e7e6667eg66h5gge1h.html">publi24</a></td><td>„Apolonia”, persoană cu un singur anunț<small>poate fi proprietarul, fără comision; neconfirmat</small></td><td class="num">185.000 € „negociabil”</td></tr>
+    <tr><td><a href="https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-tiglari-3-camere-275994856">imobiliare.ro</a></td><td>neverificat (pagina cere JavaScript)</td><td class="num">185.000 €</td></tr>
+  </tbody>
+</table></div>
+<div class="note"><b>Atenție la fișa de vizionare MAAC:</b> dacă o semnezi, s-ar putea să datorezi comisionul chiar dacă apoi cumperi direct de la proprietar.</div>
+
+<h2>Istoric de preț</h2>
+<div class="scroller"><table>
+  <thead><tr><th>Data</th><th>Ce</th><th>Sursa</th></tr></thead>
+  <tbody>
+    <tr><td class="num">12.08.2026</td><td>apare pe Storia</td><td>câmpul createdAt din Storia</td></tr>
+    <tr><td class="num">13.09.2026</td><td>199.990 €, prima noastră observație</td><td>date.json, primul commit</td></tr>
+    <tr><td class="num">13–25.09</td><td>scade la 185.000 € (−14.990 €)</td><td>snapshotul Storia din 25.09</td></tr>
+    <tr><td class="num">25.09–20.10</td><td>stă la 185.000 €</td><td>snapshoturile zilnice</td></tr>
+    <tr><td class="num">12.10.2026</td><td>apare și pe publi24</td><td>pagina publi24</td></tr>
+  </tbody>
+</table></div>
+
+<h2>Casa</h2>
+<div class="scroller"><table>
+  <thead><tr><th>Ce</th><th>Valoare</th><th>Sursa</th></tr></thead>
+  <tbody>
+    <tr><td>Construcție</td><td>o singură clădire, C1, „subsol + parter”, 154 mp la sol, „cu acte”<small>subsolul din CF e pivnița mică de sub cămara de lângă bucătărie (spus la vizită); trecut în CF în martie 2025</small></td><td>CF, încheierea OCPI</td></tr>
+    <tr><td>Suprafață utilă</td><td>108 mp (108,04 mp pe publi24)</td><td>anunțuri</td></tr>
+    <tr><td>Suprafață construită</td><td>151,2 mp (MAAC) / 137,35 mp (publi24) / 154 mp la sol (CF)</td><td>anunțuri, CF</td></tr>
+    <tr><td>Camere</td><td>3 camere, 2 bucătării, 1 baie (MAAC) sau 2 băi (publi24), 2 holuri, debara, 2 cămări, bucătărie de vară, terasă</td><td>anunțuri</td></tr>
+    <tr><td>Material, acoperiș</td><td>cărămidă, țiglă; pod nefolosibil</td><td>fișa Storia</td></tr>
+    <tr><td>Acoperiș</td><td>nou</td><td>vânzătorul, la vizită<small>cere factura sau anul și firma</small></td></tr>
+    <tr><td>Izolație exterioară</td><td>da, pusă înainte de inundație</td><td>vânzătorul<small>materialul (polistiren sau vată) nu se știe</small></td></tr>
+    <tr><td>Încălzire</td><td>„centrală proprie”</td><td>doar publi24; MAAC nu spune</td></tr>
+    <tr><td>Plan vechi</td><td>24,40 × 5,10 m: 3 camere una după alta, 1 bucătărie, 1 baie, cămară, debara, magazie<small>azi e mai mare, deci extinsă după acest plan</small></td><td>planul parterului, sc. 1:200</td></tr>
+  </tbody>
+</table></div>
+
+<h2>Inundația</h2>
+<div class="card">
+  <ul>
+    <li><b>Cauza:</b> o țeavă spartă, acum 3–4 ani. Nu era nimeni acasă, iar apa a stat mult până să afle de la o vecină.</li>
+    <li><b>Urmele:</b> pereții de jur împrejur, la 15–30 cm de podea. Podelele n-au fost afectate (spune vânzătorul).</li>
+    <li><b>Nu vine de la pârâu.</b> Reussbach e la ~71 m, dar inundația n-are legătură cu el.</li>
+  </ul>
+  <p><b>De întrebat:</b> unde era țeava, cât a stat apa, cum s-a uscat casa, ce țevi s-au schimbat, dacă există un dosar de asigurare.</p>
+  <p><b>De verificat:</b> umezeala cu un umidometru la 10, 30 și 60 cm de la podea; fațada izolată la bază; mucegai după mobila de pe pereții exteriori.</p>
+</div>
+
+<h2>Terenul și vecinătatea</h2>
+<div class="scroller"><table>
+  <thead><tr><th>Ce</th><th>Valoare</th><th>Sursa</th></tr></thead>
+  <tbody>
+    <tr><td>Formă</td><td>~10 m lățime la stradă, ~40 m adâncime</td><td>planul de amplasament, 1:500</td></tr>
+    <tr><td>Casa pe teren</td><td>lipită de vecinul din vest pe ~27 m; ferestrele dau spre est</td><td>planul de amplasament</td></tr>
+    <tr><td>Grădina din spate</td><td>~10 × 11 m, ~110 mp<small>estimare din lungimile din plan, nu măsurătoare</small></td><td>planul de amplasament</td></tr>
+    <tr><td>Neconstruit</td><td>~246 mp (400 − 154), cu tot cu curtea pavată</td><td>CF</td></tr>
+    <tr><td>Curtea</td><td>dale de beton, grădină de legume, viță-de-vie</td><td>descrierea MAAC, poza 20</td></tr>
+    <tr><td>Orientare</td><td>casa și terenul pe direcția NNE–SSV; strada pe direcția VNV–ESE</td><td>OpenStreetMap, plan</td></tr>
+    <tr><td>Vecin cu etaj</td><td>pe o latură; pe care, încă nu știm</td><td>vizită</td></tr>
+    <tr><td>Calea ferată</td><td>linia CFR 208 Sibiu – Copșa Mică, neelectrificată, maxim 100 km/h, la ~43 m de stradă, adică la gardul din spate</td><td>OpenStreetMap</td></tr>
+  </tbody>
+</table></div>
+
+<h2>Trenurile din spatele grădinii</h2>
+<p>Trenurile de călători pe linia 208 care trec prin Ocna Sibiului, după mersul oficial 2025–2026 (valabil 14.12.2025 – 12.12.2026). Orele sunt <b>la gara Sibiu</b>. Pe lângă casă trec cu câteva minute înainte (cele care vin) sau după (cele care pleacă).</p>
+<div class="scroller"><table>
+  <thead><tr><th>Ora la Sibiu</th><th>Tren</th><th>Sens</th></tr></thead>
+  <tbody>
+    <tr><td class="num">05:53</td><td>R 2560 Mediaș → Sibiu</td><td>vine</td></tr>
+    <tr><td class="num">07:10</td><td>R 2562 Mediaș → Sibiu</td><td>vine</td></tr>
+    <tr><td class="num">07:15</td><td>R 2561 Sibiu → Mediaș</td><td>pleacă</td></tr>
+    <tr><td class="num">09:13</td><td>R 2564 Beia → Sibiu <i>sau</i> R 2572 Sighișoara → Sibiu<small>circulă în zile diferite</small></td><td>vine</td></tr>
+    <tr><td class="num">12:22</td><td>R 2563 Sibiu → Sighișoara</td><td>pleacă</td></tr>
+    <tr><td class="num">14:17</td><td>R 2566 Mediaș → Sibiu</td><td>vine</td></tr>
+    <tr><td class="num">15:30</td><td>R 2565 Sibiu → Copșa Mică</td><td>pleacă</td></tr>
+    <tr><td class="num">17:40</td><td>R 2567 Sibiu → Sighișoara</td><td>pleacă</td></tr>
+    <tr><td class="num">18:11</td><td>R 2568 Sighișoara → Sibiu</td><td>vine</td></tr>
+    <tr><td class="num">19:38</td><td>R 2569 Sibiu → Mediaș</td><td>pleacă</td></tr>
+    <tr><td class="num">23:34</td><td>R 2571 Sibiu → Mediaș</td><td>pleacă</td></tr>
+  </tbody>
+</table></div>
+<p class="legend">Încă două trenuri (R 2591 / 2592, spre Loamneș) circulă doar vara, între 20.06 și 06.09. <b>Trenurile de marfă nu apar în mersul public</b>: câte trec, mai ales noaptea, se află doar stând acolo sau întrebând vecinii. Linia 200, unde circulă alte trenuri, e la ~177 m.</p>
+
+<h2>Acte</h2>
+<div class="scroller"><table>
+  <thead><tr><th>Ce</th><th>Ce scrie</th><th>Sursa</th></tr></thead>
+  <tbody>
+    <tr><td>Proprietari</td><td>2 moștenitori, câte 1/2, prin certificat european de moștenitor (2023)<small>la notar vin amândoi sau împuterniciții lor; cere procurile</small></td><td>CF, Partea II</td></tr>
+    <tr><td>Sarcini</td><td>„NU SUNT”<small>extrasul e din noiembrie 2024; trebuie unul nou</small></td><td>CF, Partea III</td></tr>
+    <tr><td>Servitute</td><td><b>„grevat cu servitute CONFORM CF”</b>, în contradicție cu CF</td><td>certificatul de urbanism 1570/2024</td></tr>
+    <tr><td>Zone protejate</td><td>zona de protecție a căii ferate; zona STS, înălțime maximă 13 m</td><td>certificatul de urbanism</td></tr>
+    <tr><td>Cât se poate construi</td><td>cel mult 35% din teren ocupat la sol (casa ocupă deja 38,5%); suprafața totală construită de cel mult 0,7 × teren</td><td>certificatul de urbanism</td></tr>
+    <tr><td>Utilități</td><td>apă, canalizare, gaz, curent, telefon</td><td>certificatul de urbanism</td></tr>
+    <tr><td>Certificat de urbanism</td><td>expirat (valabil 12 luni de la 04.09.2024); folosit doar ca informare</td><td>certificatul de urbanism</td></tr>
+    <tr><td>Extindere</td><td>casa e mai mare decât în planul vechi; nu știm dacă extinderea a avut autorizație de construire</td><td>planul vechi vs CF</td></tr>
+  </tbody>
+</table></div>
+
+<h2>Prin zonă</h2>
+<p>Prețurile de vânzare nu sunt publice în România. Aici sunt doar prețurile cerute pe Storia, din snapshoturile 25.09–20.10.</p>
+<div class="scroller"><table>
+  <thead><tr><th>Casa</th><th>Preț cerut</th><th>Ce s-a întâmplat</th></tr></thead>
+  <tbody>
+    <tr><td><a href="https://www.storia.ro/ro/oferta/casa-individuala-90-mp-utili-4-camere-si-teren-252-mp-in-sibiu-tiglari-IDIcpW">89 mp, teren 252</a></td><td class="num">179.000 €</td><td>scoasă după 31 de zile (nu dovedește vânzarea)</td></tr>
+    <tr><td><a href="https://www.storia.ro/ro/oferta/casa-4-camere-individuala-cu-etaj-tiglari-IDCaww">136 mp, teren 136, cu etaj</a></td><td class="num">188.000 €</td><td>scoasă după 657 de zile</td></tr>
+    <tr><td><a href="https://www.storia.ro/ro/oferta/comision-0-casa-individuala-cu-curte-si-gradina-260-mp-terezian-tig-IDIJD2">65 mp, teren 261</a></td><td class="num">125.000 €</td><td>scoasă și pusă din nou la vânzare: nu s-a vândut</td></tr>
+    <tr><td><a href="https://www.storia.ro/ro/oferta/cas-de-vnzare-sibiu-3-camere-tiglari-159-mp-anex-IDIHFT">159 mp, teren 369, 1980</a></td><td class="num">189.900 €</td><td>activă</td></tr>
+    <tr><td><a href="https://www.storia.ro/ro/oferta/cas-individual-p-1-137-mp-utili-4-camere-acces-auto-zona-lac-IDHZPP">137 mp, teren 200, 1985</a></td><td class="num">189.000 €</td><td>activă</td></tr>
+    <tr><td><a href="https://www.storia.ro/ro/oferta/casa-de-vanzare-in-sibiu-quadruplex-4-camere-terasa-panoramica-IDH9Uw">116 mp, teren 253, 2021</a></td><td class="num">221.000 €</td><td>activă</td></tr>
+  </tbody>
+</table></div>
+
+<h2>Negociere</h2>
+<div class="note"><b>Părerea mea, nu o cifră de piață:</b> nu există date publice despre cât se negociază în Sibiu.</div>
+<div class="scroller"><table>
+  <thead><tr><th>Pas</th><th>Sumă</th></tr></thead>
+  <tbody>
+    <tr><td>Prima ofertă</td><td class="num">160.000 €</td></tr>
+    <tr><td>Ținta</td><td class="num">170.000–175.000 €</td></tr>
+    <tr><td>Maxim, până se lămuresc starea și actele</td><td class="num">180.000 €</td></tr>
+  </tbody>
+</table></div>
+<ul>
+  <li>Au scăzut deja o dată, cu 14.990 €. De peste 3 săptămâni stă la 185.000 € și nu se vinde.</li>
+  <li>Pe publi24 scrie „negociabil”.</li>
+  <li>Calea ferată la gard, zona de protecție CFR din certificatul de urbanism.</li>
+  <li>Reparația pereților după inundație: se scade doar cu un deviz scris.</li>
+  <li>Curtea parțial pavată. Anunțurile nu se potrivesc între ele (suprafețe, băi).</li>
+  <li>Comisionul se negociază separat, sau dispare dacă se cumpără direct.</li>
+</ul>
+
+<h2>De făcut înainte de ofertă</h2>
+<ol>
+  <li>Extras CF nou de pe ePay ANCPI: servitute, ipoteci, sechestre.</li>
+  <li>Procurile ambilor proprietari.</li>
+  <li>Autorizația pentru extindere.</li>
+  <li>Un deviz scris pentru pereți.</li>
+  <li>Câte trenuri trec noaptea: stai acolo seara, întreabă vecinii.</li>
+  <li>Expertiză tehnică înainte de antecontract.</li>
+</ol>
+
+</div>
+</body>
+</html>
