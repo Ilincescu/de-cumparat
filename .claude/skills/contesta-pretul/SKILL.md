@@ -49,6 +49,12 @@ Am dat „prize 18 lei/buc ≈ 135 €" — 18 lei era doar montajul, fără apa
 
 **Pe fiecare rând scrie „material + manoperă" sau „doar manoperă".** Listele de manoperă (ghidamenajari, daibau) nu includ materialul; dacă rândul e doar manoperă, materialul se caută separat sau rândul spune că lipsește. La umezeală/igrasie se socotește sistemul întreg: decopertare până la ~80 cm peste urmă, tencuială de asanare cu material, glet + lavabil, plus barieră injectată ca linie separată condiționată de măsurarea umezelii.
 
+### 1d. Totalul de jos în sus se verifică de sus în jos (casa Țiglari, 20.10.2026)
+
+Am adunat mediane naționale de manoperă pe 6 lucrări și am dat „≈ 5.400 €" pentru modernizarea unei case de 108 mp. Mihai: „nu cred că va fi doar 5000 de euro" — avea dreptate. Lista uita ușile, pardoselile, instalația de apă, mobila, marja firmei, TVA-ul și rezerva; un ghid de renovare dă 300–600 €/mp pentru renovare ușoară, adică 32.000–65.000 €.
+
+**Orice total pe bucăți se pune lângă prețul pe mp al treptei de renovare** (ușoară / completă) dintr-o sursă live. Dacă totalul pe bucăți e sub jumătate din capătul de jos al treptei, nu-l dau ca estimare: spun ce lipsește din listă și dau intervalul de sus în jos, cu sursa. Medianele de manoperă din liste naționale nu sunt oferte din Sibiu și nu includ marja firmei.
+
 ### 2. Estimează doar ce folosește, nu toată clădirea
 
 Am dat 60.000–90.000 € pentru o casă din care el locuiește în 60 mp. Numărul nu era greșit, răspundea la altă întrebare.
