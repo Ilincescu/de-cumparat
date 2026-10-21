@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-20",
+ "actualizat": "2026-10-21",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -15220,6 +15220,38 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-37-mpu-mobilat-terezian-IDDScT",
    "warn": null,
    "d": "2026-10-20"
+  },
+  {
+   "k": "casa",
+   "p": 245000,
+   "t": "Casa individuala cu 4 camere 230mp curte libera de vanzare Gusterita",
+   "z": "Gusterita",
+   "r": 4,
+   "a": null,
+   "g": "curte 230 mp",
+   "gm": 230,
+   "c": null,
+   "src": "publi24",
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-cu-4-camere-230mp-curte-libera-de-vanzare-gusterita/33fi6d3573887128e20f1g12e5897dg5.html",
+   "warn": "Din publi24; detalii neverificate in descriere.",
+   "d": "2026-10-21",
+   "alte": 1
+  },
+  {
+   "k": "casa",
+   "p": 245000,
+   "t": "Casa individuala cu 4 camere 230mp curte libera de vanzare G",
+   "z": "Gusterita",
+   "r": 4,
+   "a": 103,
+   "g": "curte 230 mp",
+   "gm": 230,
+   "c": null,
+   "src": "lajumate",
+   "u": "https://lajumate.ro/ad/casa-individuala-cu-4-camere-230mp-curte-libera-de-vanzare-g-17091031",
+   "warn": "Din lajumate; detalii neverificate in descriere.",
+   "d": "2026-10-21",
+   "dup": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-cu-4-camere-230mp-curte-libera-de-vanzare-gusterita/33fi6d3573887128e20f1g12e5897dg5.html"
   }
  ]
 }

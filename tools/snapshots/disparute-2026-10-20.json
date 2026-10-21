@@ -1,0 +1,58 @@
+[
+ {
+  "id": "IDIkXM",
+  "url": "https://www.storia.ro/ro/oferta/comision-0-casa-individuala-cu-curte-si-gradina-260-mp-zona-tiglari-IDIkXM",
+  "titlu": "Comision 0% Casa Individuala cu Curte si Gradina 260 mp - zona Tiglari",
+  "pret": 125000,
+  "pretInitial": 125000,
+  "mpu": 65,
+  "teren": 261,
+  "zona": "Tiglari, Sibiu",
+  "tip": "casa",
+  "creat": "2026-08-27",
+  "modificat": "2026-09-25",
+  "status": "removed_by_user"
+ },
+ {
+  "id": "IDIcpW",
+  "url": "https://www.storia.ro/ro/oferta/casa-individuala-90-mp-utili-4-camere-si-teren-252-mp-in-sibiu-tiglari-IDIcpW",
+  "titlu": "Casa individuala 90 mp utili 4 camere si teren 252 mp in Sibiu Tiglari",
+  "pret": 179000,
+  "pretInitial": 179000,
+  "mpu": 89,
+  "teren": 252,
+  "zona": "Tiglari, Sibiu",
+  "tip": "casa",
+  "creat": "2026-08-13",
+  "modificat": "2026-09-13",
+  "status": "removed_by_user"
+ },
+ {
+  "id": "IDHW8J",
+  "url": "https://www.storia.ro/ro/oferta/casa-individuala-d-p-pod-teren-252-mp-baie-cu-geam-si-curte-in-sibiu-IDHW8J",
+  "titlu": "Casa individuala D+P+Pod teren 252 mp baie cu geam si curte in Sibiu",
+  "pret": 179000,
+  "pretInitial": 179000,
+  "mpu": 88,
+  "teren": 252,
+  "zona": "Tiglari, Sibiu",
+  "tip": "casa",
+  "creat": "2026-07-17",
+  "modificat": "2026-10-19",
+  "status": "removed_by_user"
+ },
+ {
+  "id": "IDCaww",
+  "url": "https://www.storia.ro/ro/oferta/casa-4-camere-individuala-cu-etaj-tiglari-IDCaww",
+  "titlu": "Casa 4 camere, individuala cu etaj, Tiglari",
+  "pret": 188000,
+  "pretInitial": 188000,
+  "mpu": 136,
+  "teren": 136,
+  "zona": "Strand I, Sibiu",
+  "tip": "casa",
+  "creat": "2024-12-01",
+  "modificat": "2026-09-19",
+  "status": "removed_by_user"
+ }
+]

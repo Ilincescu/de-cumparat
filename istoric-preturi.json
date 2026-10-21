@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-20",
+ "actualizat": "2026-10-21",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -29345,6 +29345,126 @@
     {
      "d": "2026-10-19",
      "p": 15000
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-3-camere-zona-turnisor/858ii47i68ii766e2e60ge6h14fi8hh0.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-3-camere-zona-turnisor/858ii47i68ii766e2e60ge6h14fi8hh0.html",
+   "t": "Casă cu 3 camere zona Turnișor",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 95900
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-3-camere-de-vanzare-gusterita-sibiu-cp3005147/": {
+   "u": "https://www.maac.ro/casa-vila-3-camere-de-vanzare-gusterita-sibiu-cp3005147/",
+   "t": "Casă individuală | 3 camere | Curte mare | Zonă liniștită | Gusterita",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 170000
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-3-camere-de-vanzare-gusterita-sibiu-cp3241110/": {
+   "u": "https://www.maac.ro/casa-vila-3-camere-de-vanzare-gusterita-sibiu-cp3241110/",
+   "t": "Casa 3 Camere I Acces Auto I Curte I Gusterita",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 205000
+    }
+   ]
+  },
+  "ID7HQWVH": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQWVH.html",
+   "t": "Ford EcoSport",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 8000
+    }
+   ]
+  },
+  "ID7HQWVB": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQWVB.html",
+   "t": "Ford EcoSport",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 8000
+    }
+   ]
+  },
+  "ID7HQWYR": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HQWYR.html",
+   "t": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 11700
+    }
+   ]
+  },
+  "ID7HQWMS": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQWMS.html",
+   "t": "Ford Puma",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 11900
+    }
+   ]
+  },
+  "ID7HQV0J": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ID7HQV0J.html",
+   "t": "Kia Sportage",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 12500
+    }
+   ]
+  },
+  "ID7HQWOt": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQWOt.html",
+   "t": "Ford Puma",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 12500
+    }
+   ]
+  },
+  "ID7HQV0o": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQV0o.html",
+   "t": "Dacia Sandero Stepway",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 13500
+    }
+   ]
+  },
+  "ID7HQP2D": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-l-puretech-stt-eat8-active-ID7HQP2D.html",
+   "t": "Peugeot 2008 1.2 L PureTech STT EAT8 Active",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 14750
+    }
+   ]
+  },
+  "ID7HQEqJ": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-l-puretech-stt-allure-ID7HQEqJ.html",
+   "t": "Peugeot 2008 1.2 L PureTech STT Allure",
+   "preturi": [
+    {
+     "d": "2026-10-20",
+     "p": 14790
     }
    ]
   }

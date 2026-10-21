@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-20 08:34",
+ "generat": "2026-10-21 08:33",
  "de_la": "2026-10-19",
  "pana_la": "2026-10-20",
  "case_noi": 0,
@@ -14,36 +14,21 @@
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
    "gasite": 1453,
    "potrivite": 263,
-   "stare": "azi",
+   "stare": "ieri",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-20 08:32",
+   "cand": "2026-10-21 08:31",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1614,
-   "potrivite": 346,
+   "gasite": 1631,
+   "potrivite": 344,
    "stare": "azi",
    "veche": false
   }
  ],
  "case": [
-  {
-   "pret": 87900,
-   "mpu": 84,
-   "curte": 276,
-   "curte_sigura": false,
-   "teren": 335,
-   "zona": "Lazaret, Sibiu",
-   "an": "1970",
-   "creat": "2026-10-14",
-   "repostat": true,
-   "alte": [],
-   "titlu": "Casa 2 camere de vanzare - Lazaret Sibiu",
-   "url": "https://www.storia.ro/ro/oferta/casa-2-camere-de-vanzare-lazaret-sibiu-IDIShx",
-   "scor": 69
-  },
   {
    "pret": 180000,
    "mpu": 112,
@@ -61,16 +46,6 @@
   }
  ],
  "masini": [
-  {
-   "pret": 8700,
-   "model": "Opel Crossland",
-   "an": 2023,
-   "km": 34589,
-   "zona": "Bucuresti",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ID7HQTZs.html",
-   "scor": 63
-  },
   {
    "pret": 9999,
    "model": "Opel Combo 1.5 L1H1 Selection",
@@ -90,6 +65,16 @@
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQQwn.html",
    "scor": 49
+  },
+  {
+   "pret": 9499,
+   "model": "Ford EcoSport 1.0 EcoBoost ST-Line",
+   "an": 2023,
+   "km": 79280,
+   "zona": "Targoviste",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-st-line-ID7HQQwn.html",
+   "scor": 47
   }
  ]
 }
