@@ -1,29 +1,29 @@
 {
- "generat": "2026-10-21 08:33",
- "de_la": "2026-10-19",
- "pana_la": "2026-10-20",
- "case_noi": 0,
+ "generat": "2026-10-22 08:49",
+ "de_la": "2026-10-20",
+ "pana_la": "2026-10-22",
+ "case_noi": 3,
  "case_trec": 0,
  "din_rezerva": true,
- "masini_din_rezerva": true,
+ "masini_din_rezerva": false,
  "surse": [
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-10-20 08:31",
+   "cand": "2026-10-22 08:47",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1453,
-   "potrivite": 263,
-   "stare": "ieri",
+   "gasite": 1399,
+   "potrivite": 252,
+   "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-21 08:31",
+   "cand": "2026-10-22 08:48",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1631,
-   "potrivite": 344,
+   "gasite": 1629,
+   "potrivite": 338,
    "stare": "azi",
    "veche": false
   }
@@ -43,38 +43,33 @@
    "titlu": "Casa cu 4 camere singur in curte de vanzare in Sibiu - zona linistita",
    "url": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-singur-in-curte-de-vanzare-in-sibiu-zona-linistita-IDIUVV",
    "scor": 47
+  },
+  {
+   "pret": 98000,
+   "mpu": 50,
+   "curte": 140,
+   "curte_sigura": true,
+   "teren": 50,
+   "zona": "Turnisor, Sibiu",
+   "an": "1970",
+   "creat": "2026-10-20",
+   "repostat": false,
+   "alte": [],
+   "titlu": "Casa individuala de vanzare 2 camere curte 140 mp zona Turnisor",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-2-camere-curte-140-mp-zona-turnisor-IDIVfX",
+   "scor": 39
   }
  ],
  "masini": [
   {
-   "pret": 9999,
-   "model": "Opel Combo 1.5 L1H1 Selection",
-   "an": 2022,
-   "km": 36850,
-   "zona": "Satu Mare",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/opel-combo-ver-1-5-l1h1-selection-ID7HQHig.html",
-   "scor": 51
-  },
-  {
-   "pret": 8500,
-   "model": "Ford EcoSport",
+   "pret": 9500,
+   "model": "Renault Express",
    "an": 2023,
-   "km": 79280,
-   "zona": "Targoviste",
+   "km": 63800,
+   "zona": "Bucuresti",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQQwn.html",
-   "scor": 49
-  },
-  {
-   "pret": 9499,
-   "model": "Ford EcoSport 1.0 EcoBoost ST-Line",
-   "an": 2023,
-   "km": 79280,
-   "zona": "Targoviste",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-st-line-ID7HQQwn.html",
-   "scor": 47
+   "url": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQOxE.html",
+   "scor": 52
   }
  ]
 }

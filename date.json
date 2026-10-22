@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-21",
+ "actualizat": "2026-10-22",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -63,7 +63,7 @@
    "d": "2026-09-18",
    "gm": 140,
    "warn": "E pe Strada Stavilarului, aceeasi strada cu cea de 108.000 care are drept de servitute. Anuntul zice singur in curte, dar verifica accesul la fata locului. Acelasi imobil mai apare pe Storia si cu ID-ul IDIi3V.",
-   "alte": 3
+   "alte": 4
   },
   {
    "k": "casa",
@@ -125,7 +125,7 @@
    "d": "2026-09-18",
    "gm": 300,
    "warn": "In fata exista o alta casa, iar accesul se face comun, cu drept de servitute. Agentia ofera si varianta cumpararii ambelor case la un pret comun. Acelasi imobil mai apare pe Storia si cu ID-ul IDIia5.",
-   "alte": 3
+   "alte": 4
   },
   {
    "k": "casa",
@@ -199,7 +199,8 @@
    "u": "https://www.storia.ro/ro/oferta/casa-tip-duplex-2-camere-zona-vasile-aron-IDChbD",
    "warn": "Str. Semaforului, curte proprie 53 mp: pare acelasi imobil ca IDIoGl si IDCfSg (125.000), aici la 122.000. Duplex.",
    "d": "2026-09-23",
-   "d2": true
+   "d2": true,
+   "dup": "IDIoGl"
   },
   {
    "k": "casa",
@@ -215,7 +216,7 @@
    "u": "https://www.storia.ro/ro/oferta/casa-zona-vasile-aaron-sibiu-IDCfSg",
    "warn": "Acelasi imobil ca IDIoGl (zona Semaforului) si ca anuntul publi24 de 130.000. Acoperis nou, interior de renovat, parcare doar publica.",
    "d": "2026-09-20",
-   "alte": 1
+   "dup": "IDIoGl"
   },
   {
    "k": "casa",
@@ -395,7 +396,7 @@
    "warn": "Nu e casa individuala: e etajul 1 al unei vile, cu acces separat si curte proprie amenajata. Se vinde mobilata si utilata, gata de mutare.",
    "d": "2026-09-18",
    "gm": 100,
-   "alte": 1
+   "alte": 2
   },
   {
    "k": "casa",
@@ -440,7 +441,7 @@
    "warn": "Acelasi imobil ca IDImry. Pe imobiliare.ro e listat explicit ca DUPLEX (275573593), desi titlul de pe Storia nu spune.",
    "d": "2026-09-30",
    "d2": true,
-   "alte": 2
+   "alte": 3
   },
   {
    "k": "casa",
@@ -506,7 +507,7 @@
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-d-p-pod-teren-252-mp-baie-cu-geam-si-curte-in-sibiu-IDHW8J",
    "warn": "SINGURA din lista declarata ready_to_use, nu de renovat. Construita 1974 din caramida. Demisol cu bucatarie de vara 16 mp si pivnita. Toate cele patru utilitati, inclusiv canalizare. Curte pavata impecabil, cu vita de vie pe structura metalica, foisor si afumatoare, 2 locuri de parcare. Minus: tamplarie de lemn, pod neutilizabil, iar curtea e pavata, nu gradina. Acelasi imobil ca IDIcpW. Pret negociabil.",
    "d": "2026-09-20",
-   "alte": 2
+   "alte": 3
   },
   {
    "k": "casa",
@@ -1204,7 +1205,7 @@
    "u": "https://www.storia.ro/ro/oferta/casa-singur-in-curte-335-mp-teren-si-acces-auto-in-zona-promenada-mall-IDI6Ld",
    "warn": "Detalii neverificate in descriere.",
    "d": "2026-09-20",
-   "alte": 1
+   "alte": 2
   },
   {
    "k": "casa",
@@ -1261,7 +1262,8 @@
    "src": "olx",
    "u": "https://www.storia.ro/ro/oferta/casa-individual-teren-328-mp-piaa-cluj-IDEpQI",
    "warn": "Doar 50 mp utili pentru 225.000 - platesti practic terenul. Anexa de 60 mp poate deveni spatiu locuibil. Nu scrie daca e singur in curte.",
-   "d": "2026-09-23"
+   "d": "2026-09-23",
+   "alte": 1
   },
   {
    "k": "casa",
@@ -1504,7 +1506,8 @@
    "src": "olx",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-i-100-mp-utili-i-teren-600-mp-turnisor-IDGrIn",
    "warn": "Str. D. D. Rosca, construita 1990. Pretul e la limita bugetului total.",
-   "d": "2026-09-23"
+   "d": "2026-09-23",
+   "alte": 1
   },
   {
    "k": "casa",
@@ -2864,7 +2867,7 @@
   },
   {
    "k": "ap",
-   "p": 108500,
+   "p": 105900,
    "t": "Apartament 3 camere la vila, 47 mp",
    "z": "Cedonia",
    "r": 3,
@@ -2873,7 +2876,7 @@
    "c": null,
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-3-cam-la-vila-cedonia-IDIsYa",
-   "d": "2026-10-04"
+   "d": "2026-10-22"
   },
   {
    "k": "ap",
@@ -4262,7 +4265,7 @@
    "u": "https://www.storia.ro/ro/oferta/cas-3-camere-i-pivni-i-lazaret-IDDphw",
    "warn": null,
    "d": "2026-09-29",
-   "alte": 1
+   "alte": 2
   },
   {
    "k": "ap",
@@ -4523,8 +4526,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-cu-etaj-113-mp-utili-curte-libera-350mp-garaj-cu-pod-gusterita-IDHYdw",
    "warn": null,
-   "d": "2026-09-30",
-   "dup": "IDEqhl"
+   "d": "2026-09-30"
   },
   {
    "k": "casa",
@@ -4769,7 +4771,7 @@
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-i-4-camere-i-acces-auto-i-curte-i-terezian-IDEqhl",
    "warn": null,
    "d": "2026-10-11",
-   "alte": 1
+   "dup": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-terezian-sibiu-cp2116691/"
   },
   {
    "k": "casa",
@@ -7341,7 +7343,7 @@
   },
   {
    "k": "ap",
-   "p": 55000,
+   "p": 52990,
    "t": "Apartament 2 camere | Mobilat | Investitie | Broscarie",
    "z": "Zona Industriala Est, Sibiu",
    "r": 2,
@@ -7352,7 +7354,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-investitie-broscarie-IDFEBr",
    "warn": null,
-   "d": "2026-10-04"
+   "d": "2026-10-22"
   },
   {
    "k": "ap",
@@ -7431,7 +7433,7 @@
   },
   {
    "k": "ap",
-   "p": 110000,
+   "p": 105000,
    "t": "Apartament cu 2 camere si gradina la casa in zona Terezian in Sibiu",
    "z": "Terezian, Sibiu",
    "r": 2,
@@ -7442,7 +7444,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-si-gradina-la-casa-in-zona-terezian-in-sibiu-IDFwUa",
    "warn": null,
-   "d": "2026-10-04"
+   "d": "2026-10-22"
   },
   {
    "k": "ap",
@@ -8467,7 +8469,7 @@
   },
   {
    "k": "ap",
-   "p": 109900,
+   "p": 92000,
    "t": "APARTAMENT 2 CAMERE DE VÂNZARE | SIBIU RAHOVEI | 50 MP | PARTER",
    "z": "Hipodrom I, Sibiu",
    "r": 2,
@@ -8478,7 +8480,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-rahovei-50-mp-parter-IDIqvZ",
    "warn": null,
-   "d": "2026-10-20"
+   "d": "2026-10-22"
   },
   {
    "k": "ap",
@@ -8827,7 +8829,7 @@
   },
   {
    "k": "ap",
-   "p": 68500,
+   "p": 68000,
    "t": "Apartament de vanzare 2 camere balcon Mihai Viteazul etaj 4",
    "z": "Hipodrom II, Sibiu",
    "r": 2,
@@ -8838,7 +8840,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-balcon-mihai-viteazul-etaj-4-IDIO1P",
    "warn": null,
-   "d": "2026-10-16"
+   "d": "2026-10-22"
   },
   {
    "k": "ap",
@@ -8933,7 +8935,7 @@
   },
   {
    "k": "ap",
-   "p": 83000,
+   "p": 109900,
    "t": "APARTAMENT 2 CAMERE | ETAJ 3 | BULEVARDUL MIHAI VITEAZU",
    "z": "Hipodrom III, Sibiu",
    "r": 2,
@@ -8944,7 +8946,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-3-bulevardul-mihai-viteazu-IDHQ84",
    "warn": null,
-   "d": "2026-10-13"
+   "d": "2026-10-22"
   },
   {
    "k": "ap",
@@ -9203,7 +9205,7 @@
   },
   {
    "k": "casa",
-   "p": 125000,
+   "p": 122000,
    "t": "Casa individuala zona Vasile Milea",
    "z": "Vasile Aaron, Sibiu",
    "r": 2,
@@ -9214,8 +9216,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-zona-vasile-milea-IDIoGl",
    "warn": null,
-   "d": "2026-10-13",
-   "dup": "IDCfSg"
+   "d": "2026-10-22",
+   "alte": 3
   },
   {
    "k": "ap",
@@ -10716,8 +10718,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-2-camere-de-vanzare-lazaret-sibiu-IDIShx",
    "warn": null,
-   "d": "2026-10-15",
-   "tare": "51% sub mediana a 50 anunturi asemanatoare (179.000 €)"
+   "d": "2026-10-15"
   },
   {
    "k": "casa",
@@ -10768,7 +10769,7 @@
   },
   {
    "k": "ap",
-   "p": 99000,
+   "p": 98999,
    "t": "Apartament decomandat cu 2 camere de vânzare – zona Vasile Aaron,Sibiu",
    "z": "Vasile Aaron, Sibiu",
    "r": 2,
@@ -10779,7 +10780,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-cu-2-camere-de-vnzare-zona-vasile-aaron-sibiu-IDIT8E",
    "warn": null,
-   "d": "2026-10-15"
+   "d": "2026-10-22"
   },
   {
    "k": "ap",
@@ -11473,7 +11474,7 @@
   },
   {
    "k": "ap",
-   "p": 102000,
+   "p": 103840,
    "t": "Apartament 2 camere  - Calea Surii Mici, Sibiu",
    "z": "Centrul Istoric, Sibiu",
    "r": 2,
@@ -11484,7 +11485,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-calea-surii-mici-sibiu-IDHMev",
    "warn": null,
-   "d": "2026-10-15"
+   "d": "2026-10-22"
   },
   {
    "k": "ap",
@@ -11879,7 +11880,7 @@
   },
   {
    "k": "ap",
-   "p": 68500,
+   "p": 68000,
    "t": "Apartament de vanzare 2 camere balcon Mihai Viteazul etaj 4",
    "z": "Trei Stejari, Sibiu",
    "r": 2,
@@ -11890,7 +11891,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-balcon-mihai-viteazul-etaj-4-IDITcU",
    "warn": null,
-   "d": "2026-10-16"
+   "d": "2026-10-22"
   },
   {
    "k": "ap",
@@ -13747,21 +13748,6 @@
   },
   {
    "k": "casa",
-   "p": 138000,
-   "t": "Case de vanzare sibiu",
-   "z": "Sibiu",
-   "r": 3,
-   "a": 105,
-   "g": null,
-   "gm": null,
-   "c": "proprie",
-   "src": "olx",
-   "u": "https://www.olx.ro/d/oferta/case-de-vanzare-sibiu-IDhu4tK.html",
-   "warn": "Din olx; detalii neverificate in descriere.",
-   "d": "2026-10-17"
-  },
-  {
-   "k": "casa",
    "p": 188000,
    "t": "Casa 4 camere, individuala cu etaj, Tiglari",
    "z": "Tiglari",
@@ -14210,7 +14196,7 @@
    "u": "https://lajumate.ro/ad/casa-tip-cvadruplex-82-mp-teren-170mp-cartier-arhitectilor-16985517",
    "warn": "Din lajumate; detalii neverificate in descriere.",
    "d": "2026-10-17",
-   "alte": 2
+   "alte": 3
   },
   {
    "k": "casa",
@@ -14992,37 +14978,6 @@
   },
   {
    "k": "ap",
-   "p": 69900,
-   "t": "Ap cu 2 camere - 41 mp utili + balcon, mobilat si utilat, Piata Rahova",
-   "z": "Hipodrom III, Sibiu",
-   "r": 2,
-   "a": 41,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/ap-cu-2-camere-41-mp-utili-balcon-mobilat-si-utilat-piata-rahova-IDHlcw",
-   "warn": null,
-   "d": "2026-10-20"
-  },
-  {
-   "k": "ap",
-   "p": 52500,
-   "t": "Apartament 2 camere mobilat , 45 mp utili - zona Stefan cel Mare Sibiu",
-   "z": "Broscarie, Sibiu",
-   "r": 2,
-   "a": 45,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-45-mp-utili-zona-stefan-cel-mare-sibiu-IDHm7v",
-   "warn": null,
-   "d": "2026-10-20",
-   "tare": "44% sub mediana a 362 anunturi asemanatoare (92.950 €)"
-  },
-  {
-   "k": "ap",
    "p": 90000,
    "t": "Apartament 40 mp zona Centrala",
    "z": "Centrul Istoric, Sibiu",
@@ -15035,22 +14990,6 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-40-mp-zona-centrala-IDI2qm",
    "warn": null,
    "d": "2026-10-20"
-  },
-  {
-   "k": "ap",
-   "p": 45000,
-   "t": "Apartament 2 Camere I Finisat I Broscarie | 44 MPU",
-   "z": "Broscarie, Sibiu",
-   "r": 2,
-   "a": 43.5,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-finisat-i-broscarie-44-mpu-IDHZPY",
-   "warn": null,
-   "d": "2026-10-20",
-   "tare": "50% sub mediana a 410 anunturi asemanatoare (90.000 €)"
   },
   {
    "k": "ap",
@@ -15096,38 +15035,7 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-modern-i-decomandat-i-stefan-cel-mare-IDHkCf",
    "warn": null,
    "d": "2026-10-20",
-   "tare": "42% sub mediana a 362 anunturi asemanatoare (92.950 €)"
-  },
-  {
-   "k": "ap",
-   "p": 69000,
-   "t": "Apartament 2 camere I Ștrand I 50 MP I Pivniță",
-   "z": "Strand II, Sibiu",
-   "r": 2,
-   "a": 50,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-trand-i-50-mp-i-pivni-IDHgrq",
-   "warn": null,
-   "d": "2026-10-20"
-  },
-  {
-   "k": "ap",
-   "p": 58000,
-   "t": "Apartament de vanzare 50 mpu 2 camere in Sibiu zona Strand",
-   "z": "Strand II, Sibiu",
-   "r": 2,
-   "a": 50,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-50-mpu-2-camere-in-sibiu-zona-strand-IDH5pG",
-   "warn": null,
-   "d": "2026-10-20",
-   "tare": "40% sub mediana a 382 anunturi asemanatoare (97.000 €)"
+   "tare": "42% sub mediana a 368 anunturi asemanatoare (93.000 €)"
   },
   {
    "k": "ap",
@@ -15141,68 +15049,6 @@
    "c": null,
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-i-utilat-44-mp-utili-lazaret-IDH4M8",
-   "warn": null,
-   "d": "2026-10-20"
-  },
-  {
-   "k": "ap",
-   "p": 64900,
-   "t": "Apartament 2 camere I Decomandat I Zona Valea Aurie",
-   "z": "Valea Aurie, Sibiu",
-   "r": 2,
-   "a": 47,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-decomandat-i-zona-valea-aurie-IDGkXH",
-   "warn": null,
-   "d": "2026-10-20"
-  },
-  {
-   "k": "ap",
-   "p": 45000,
-   "t": "Apartament rezidențial I 2 camere I 44mpu I Stefan Cel Mare",
-   "z": "Broscarie, Sibiu",
-   "r": 2,
-   "a": 44,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-rezidenial-i-2-camere-i-44mpu-i-stefan-cel-mare-IDFNHJ",
-   "warn": null,
-   "d": "2026-10-20",
-   "tare": "52% sub mediana a 376 anunturi asemanatoare (92.900 €)"
-  },
-  {
-   "k": "ap",
-   "p": 45000,
-   "t": "Apartament 2 Camere I Finisat I Broscarie | 44 MPU",
-   "z": "Broscarie, Sibiu",
-   "r": 2,
-   "a": 43.5,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-finisat-i-broscarie-44-mpu-IDFNn1",
-   "warn": null,
-   "d": "2026-10-20",
-   "tare": "50% sub mediana a 410 anunturi asemanatoare (90.000 €)"
-  },
-  {
-   "k": "ap",
-   "p": 69900,
-   "t": "Apartament 2 camere  – Strand, str. Prof. Ioan Moga",
-   "z": "Strand II, Sibiu",
-   "r": 2,
-   "a": 46,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-strand-str-prof-ioan-moga-IDFqEL",
    "warn": null,
    "d": "2026-10-20"
   },
@@ -15252,6 +15098,607 @@
    "warn": "Din lajumate; detalii neverificate in descriere.",
    "d": "2026-10-21",
    "dup": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-cu-4-camere-230mp-curte-libera-de-vanzare-gusterita/33fi6d3573887128e20f1g12e5897dg5.html"
+  },
+  {
+   "k": "casa",
+   "p": 142500,
+   "t": "Casa tip Cvadruplex 82 mp teren 170mp cartier Arhitectilor",
+   "z": "Cartierul Arhitectilor",
+   "r": null,
+   "a": null,
+   "g": "teren 170 mp",
+   "gm": null,
+   "c": null,
+   "d2": true,
+   "src": "publi24",
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-tip-cvadruplex-82-mp-teren-170mp-cartier-arhitectilor/ie9640hdii637d76d5ih1d273516g031.html",
+   "warn": "Din publi24; detalii neverificate in descriere.",
+   "d": "2026-10-22",
+   "dup": "https://lajumate.ro/ad/casa-tip-cvadruplex-82-mp-teren-170mp-cartier-arhitectilor-16985517"
+  },
+  {
+   "k": "casa",
+   "p": 162990,
+   "t": "Casa de vanzare cu teren 412 mp pivnita garaj in Terezian Sibiu",
+   "z": "Terezian",
+   "r": 5,
+   "a": 163,
+   "g": "curte 52 mp",
+   "gm": 52,
+   "c": null,
+   "d2": true,
+   "src": "publi24",
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-de-vanzare-teren-412-mp-garaj-terezian-sibiu-comision-0/h39g0dg6g33571e92f73596i46ih0608.html",
+   "warn": "Din publi24; detalii neverificate in descriere.",
+   "d": "2026-10-22",
+   "dup": "IDHlw7"
+  },
+  {
+   "k": "casa",
+   "p": 122000,
+   "t": "Casa tip duplex | 2 camere | Zona Vasile Aron",
+   "z": "Vasile Aaron",
+   "r": 2,
+   "a": 50,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "d2": true,
+   "src": "maac",
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-vasile-aaron-sibiu-cp2260724/",
+   "warn": "Din maac; detalii neverificate in descriere.",
+   "d": "2026-10-22",
+   "dup": "IDIoGl"
+  },
+  {
+   "k": "casa",
+   "p": 129999,
+   "t": "Apartament la casa | 240 mp Teren | Zona Turnisor",
+   "z": "Zona Industriala Vest",
+   "r": 2,
+   "a": 52,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "maac",
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-turnisor-sibiu-cp2049366/",
+   "warn": "Din maac; detalii neverificate in descriere.",
+   "d": "2026-10-22"
+  },
+  {
+   "k": "casa",
+   "p": 154000,
+   "t": "Casă 3 camere I Pivniță I Lazaret",
+   "z": "Lazaret",
+   "r": 3,
+   "a": 85,
+   "g": "teren 150 mp",
+   "gm": null,
+   "c": null,
+   "src": "maac",
+   "u": "https://www.maac.ro/casa-vila-3-camere-de-vanzare-lazaret-sibiu-cp2492780/",
+   "warn": "Din maac; detalii neverificate in descriere.",
+   "d": "2026-10-22",
+   "dup": "IDDphw"
+  },
+  {
+   "k": "casa",
+   "p": 190000,
+   "t": "Casa cu 2 camere | Curte | Zona Terezian",
+   "z": "Terezian",
+   "r": 2,
+   "a": 90,
+   "g": "teren 450 mp",
+   "gm": null,
+   "c": null,
+   "src": "maac",
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-terezian-sibiu-cp2116691/",
+   "warn": "Din maac; detalii neverificate in descriere.",
+   "d": "2026-10-22",
+   "alte": 1
+  },
+  {
+   "k": "casa",
+   "p": 225000,
+   "t": "Casa individuală | Teren 328 mp | Piața Cluj",
+   "z": "Piata Cluj",
+   "r": 2,
+   "a": 50,
+   "g": "teren 328 mp",
+   "gm": null,
+   "c": null,
+   "src": "maac",
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-piata-cluj-sibiu-cp2650412/",
+   "warn": "Din maac; detalii neverificate in descriere.",
+   "d": "2026-10-22",
+   "dup": "IDEpQI"
+  },
+  {
+   "k": "casa",
+   "p": 230000,
+   "t": "Casa tip duplex | Teren 335 mp | Acces auto | Trei Stejari",
+   "z": "Trei Stejari",
+   "r": 2,
+   "a": 70,
+   "g": "teren 335 mp",
+   "gm": null,
+   "c": "proprie",
+   "d2": true,
+   "src": "maac",
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-trei-stejari-sibiu-cp3186866/",
+   "warn": "Din maac; detalii neverificate in descriere.",
+   "d": "2026-10-22",
+   "dup": "IDI6Ld"
+  },
+  {
+   "k": "casa",
+   "p": 249000,
+   "t": "Casa Individuala I 100 MP Utili I teren 600 MP | Turnisor",
+   "z": "Turnisor",
+   "r": 4,
+   "a": 100,
+   "g": "teren 600 mp",
+   "gm": null,
+   "c": null,
+   "src": "maac",
+   "u": "https://www.maac.ro/casa-vila-4-camere-de-vanzare-turnisor-sibiu-cp1547452/",
+   "warn": "Din maac; detalii neverificate in descriere.",
+   "d": "2026-10-22",
+   "dup": "IDGrIn"
+  },
+  {
+   "k": "casa",
+   "p": 204990,
+   "t": "Casa individuala de vanzare cu teren 237 mp garaj in zona Lupeni Sibiu",
+   "z": "Gusterita, Sibiu",
+   "r": 4,
+   "a": 122,
+   "g": "curte libera 134 mp",
+   "gm": 134,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-cu-teren-237-mp-garaj-in-zona-lupeni-sibiu-IDIXWe",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "casa",
+   "p": 245000,
+   "t": "Casa individuala 3 dormitoare 2 bai in Sibiu Gusterita",
+   "z": "Sibiu",
+   "r": 4,
+   "a": 124,
+   "g": "teren 300 mp",
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-3-dormitoare-2-bai-in-sibiu-gusterita-IDIXgH",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "casa",
+   "p": 160000,
+   "t": "Casa cu 4 camere, balcon si curte - zona Lazaret",
+   "z": "Lazaret, Sibiu",
+   "r": 4,
+   "a": 90,
+   "g": "curte libera 100 mp",
+   "gm": 100,
+   "c": "proprie",
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-balcon-si-curte-zona-lazaret-IDIXfm",
+   "warn": null,
+   "d": "2026-10-22",
+   "dup": "IDHOQk"
+  },
+  {
+   "k": "casa",
+   "p": 108000,
+   "t": "Casa individuala de vanzare 3 camere teren 300 mp zona Turnisor",
+   "z": "Turnisor, Sibiu",
+   "r": 3,
+   "a": 64,
+   "g": "teren 64 mp",
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-3-camere-teren-300-mp-zona-turnisor-IDIVNm",
+   "warn": null,
+   "d": "2026-10-22",
+   "dup": "IDHAdu"
+  },
+  {
+   "k": "casa",
+   "p": 98000,
+   "t": "Casa individuala de vanzare 2 camere curte 140 mp zona Turnisor",
+   "z": "Turnisor, Sibiu",
+   "r": 2,
+   "a": 50,
+   "g": "teren 50 mp",
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-2-camere-curte-140-mp-zona-turnisor-IDIVfX",
+   "warn": null,
+   "d": "2026-10-22",
+   "dup": "IDHgc3"
+  },
+  {
+   "k": "casa",
+   "p": 190000,
+   "t": "Apartament la casă, 80 mp utili și teren de 190 mp – zona centrală",
+   "z": "Dumbravii, Sibiu",
+   "r": 2,
+   "a": 74,
+   "g": "teren 477 mp",
+   "gm": null,
+   "c": "proprie",
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-la-cas-80-mp-utili-i-teren-de-190-mp-zona-central-IDIqWz",
+   "warn": "Declarata de renovat in fisa tehnica.",
+   "d": "2026-10-22"
+  },
+  {
+   "k": "casa",
+   "p": 179000,
+   "t": "Casa individuala 90 mp utili 4 camere si teren 252 mp in Sibiu Tiglari",
+   "z": "Tiglari, Sibiu",
+   "r": 3,
+   "a": 89,
+   "g": "teren 252 mp",
+   "gm": null,
+   "c": "proprie",
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-90-mp-utili-4-camere-si-teren-252-mp-in-sibiu-tiglari-IDIcpW",
+   "warn": null,
+   "d": "2026-10-22",
+   "dup": "IDHW8J"
+  },
+  {
+   "k": "casa",
+   "p": 249000,
+   "t": "Apartament la casa 4 camere 300 teren zona Centrala",
+   "z": "Terezian, Sibiu",
+   "r": 4,
+   "a": 159,
+   "g": "teren 300 mp",
+   "gm": null,
+   "c": "proprie",
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-la-casa-4-camere-300-teren-zona-centrala-IDH3xh",
+   "warn": "Declarata de renovat in fisa tehnica.",
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 88000,
+   "t": "Apartament 2 camere de vanzare 52 mp decomandat balcon Strand Sibiu",
+   "z": "Centrul Istoric, Sibiu",
+   "r": 2,
+   "a": 52,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-52-mp-decomandat-balcon-strand-sibiu-IDIXZT",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 92800,
+   "t": "Apartament 2 camere, 48 mp, balcon inchis – Zona Cedonia",
+   "z": "Hipodrom II, Sibiu",
+   "r": 2,
+   "a": 48,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-48-mp-balcon-inchis-zona-cedonia-IDIXKN",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 92800,
+   "t": "Apartament de vanzare in Sibiu – 2 camere, balcon amenajat - mobilat",
+   "z": "Hipodrom III, Sibiu",
+   "r": 2,
+   "a": 48,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-in-sibiu-2-camere-balcon-amenajat-mobilat-IDIXGz",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 92800,
+   "t": "Apartament mobilat, 2 camere, balcon amenajat - Mobilat si utilat - Zo",
+   "z": "Hipodrom II, Sibiu",
+   "r": 2,
+   "a": 48,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-mobilat-2-camere-balcon-amenajat-mobilat-si-utilat-zo-IDIXB2",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 92800,
+   "t": "Apartament mobilat, 2 camere, balcon amenajat - Mobilat si utilat - Zo",
+   "z": "Hipodrom II, Sibiu",
+   "r": 2,
+   "a": 48,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-mobilat-2-camere-balcon-amenajat-mobilat-si-utilat-zo-IDIXms",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 89999,
+   "t": "Apartament 2 camere de vanzare 38mpu si boxa zona Turnisor Sibiu",
+   "z": "Tiglari, Sibiu",
+   "r": 2,
+   "a": 38,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-38mpu-si-boxa-zona-turnisor-sibiu-IDIX3F",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 101990,
+   "t": "Ap.SUPERB 2 camere& parcare Et.2 strada Oncesti SIBIU",
+   "z": "Vasile Aaron, Sibiu",
+   "r": 2,
+   "a": 45,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/ap-superb-2-camere-parcare-et-2-strada-oncesti-sibiu-IDIVVn",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 110000,
+   "t": "Apartament 2 camere de vânzare | Sibiu, Ștrand | 55 mp",
+   "z": "Strand I, Sibiu",
+   "r": 2,
+   "a": 55,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-trand-55-mp-IDIVO2",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 103000,
+   "t": "Apartament 2 camere , incalzire in pardoseala, Gata de Mutare!",
+   "z": "Sibiu",
+   "r": 2,
+   "a": 49,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-incalzire-in-pardoseala-gata-de-mutare-IDIVLa",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 89000,
+   "t": "Apartament modern de vanzare 2 camere semidecomandate zona Rahovei",
+   "z": "Hipodrom I, Sibiu",
+   "r": 2,
+   "a": 50,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-modern-de-vanzare-2-camere-semidecomandate-zona-rahovei-IDIVKi",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 96000,
+   "t": "Apartament 2 camere, 2 balcoane, mobilat si utilat, Turnisor",
+   "z": "Turnisor, Sibiu",
+   "r": 2,
+   "a": 45,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-2-balcoane-mobilat-si-utilat-turnisor-IDIVGf",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 110000,
+   "t": "Apartament de vanzare Targul Fanului",
+   "z": "Centrul Istoric, Sibiu",
+   "r": 2,
+   "a": 54,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-targul-fanului-IDIVAb",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 110000,
+   "t": "Apartament 2 camere decomandat, balcon si pivnita de 8 mp – Siretulu",
+   "z": "Hipodrom IV, Sibiu",
+   "r": 2,
+   "a": 50,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-balcon-si-pivnita-de-8-mp-siretulu-IDIVAc",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 110000,
+   "t": "Apartament modern complet mobilat 2 camere in zona Dioda",
+   "z": "Centrul Civic, Sibiu",
+   "r": 2,
+   "a": 44,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-modern-complet-mobilat-2-camere-in-zona-dioda-IDIVyX",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 106000,
+   "t": "Apartament 2 camere - decomandat, renovat, etaj 3 - zona Rahovei",
+   "z": "Hipodrom III, Sibiu",
+   "r": 2,
+   "a": 43,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-renovat-etaj-3-zona-rahovei-IDIVkM",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 72900,
+   "t": "Apartament etajul 1 la casa cu 2 camere in zona Centrala din Sibiu",
+   "z": "Centrul Istoric, Sibiu",
+   "r": 2,
+   "a": 49,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIVkm",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 110000,
+   "t": "Apartament decomandat, 2 camere, balcon, pivnita - etaj 24 - Zona Sire",
+   "z": "Hipodrom IV, Sibiu",
+   "r": 2,
+   "a": 50,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-2-camere-balcon-pivnita-etaj-24-zona-sire-IDIVjK",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 93000,
+   "t": "Apartament 2 camere de vanzare decomandat 40 mp zona Calea Surii Mici",
+   "z": "Sibiu",
+   "r": 2,
+   "a": 40,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-decomandat-40-mp-zona-calea-surii-mici-IDIVfV",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 98000,
+   "t": "Apartament 2 camere MOBILAT UTILAT 53mpu loc de parcare Doamna Stanca",
+   "z": "Vasile Aaron, Sibiu",
+   "r": 2,
+   "a": 53,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-utilat-53mpu-loc-de-parcare-doamna-stanca-IDITQF",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 103960,
+   "t": "Apartament cu 2 camere, 38mp utili, renovat, langa Facultatea de Drept",
+   "z": "Hipodrom III, Sibiu",
+   "r": 2,
+   "a": 38,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-38mp-utili-renovat-langa-facultatea-de-drept-IDI9aF",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 110000,
+   "t": "Apartament 2 camere | Decomandat I Zona Milea | 54 mp",
+   "z": "Centrul Civic, Sibiu",
+   "r": 2,
+   "a": 54,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-i-zona-milea-54-mp-IDHVET",
+   "warn": null,
+   "d": "2026-10-22"
+  },
+  {
+   "k": "ap",
+   "p": 106000,
+   "t": "Proprietar, vand apartament 2 camere decomandat, et.3",
+   "z": "Strand I, Sibiu",
+   "r": 2,
+   "a": 51,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/proprietar-vand-apartament-2-camere-decomandat-et-3-IDFp2y",
+   "warn": null,
+   "d": "2026-10-22"
   }
  ]
 }
