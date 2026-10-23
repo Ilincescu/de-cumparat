@@ -18,7 +18,7 @@
    "warn": "Ciclocross, nu sosea pura - anvelope mai late, geometrie diferita",
    "d": "2026-09-21",
    "mort": true,
-   "mort_din": "2026-10-22"
+   "mort_din": "2026-10-23"
   },
   {
    "t": "Cube Agree, Shimano 105, marime 58",
@@ -85,7 +85,7 @@
    "warn": "M/L - cere cotele cadrului inainte de drum",
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-22"
+   "mort_din": "2026-10-23"
   },
   {
    "t": "Scott Speedster 20",
@@ -100,7 +100,7 @@
    "warn": "54 cm - prea mica pentru 181 cm",
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-22"
+   "mort_din": "2026-10-23"
   },
   {
    "t": "Merida Scultura 500 disc",
@@ -154,7 +154,7 @@
    "warn": "58 cm e la limita de sus pentru 181 cm - proba obligatorie",
    "d": "2026-09-24",
    "mort": true,
-   "mort_din": "2026-10-22"
+   "mort_din": "2026-10-23"
   },
   {
    "t": "Felt F5, full carbon",
@@ -208,7 +208,7 @@
    "warn": null,
    "d": "2026-09-21",
    "mort": true,
-   "mort_din": "2026-10-22"
+   "mort_din": "2026-10-23"
   },
   {
    "t": "Ritchey Logic, semicursiera otel/carbon",
@@ -221,7 +221,9 @@
    "src": "olx",
    "u": "https://www.olx.ro/d/oferta/semi-cursiera-otel-carbon-ritchey-logic-mas-l-cr-mo-IDkTqdK.html",
    "warn": null,
-   "d": "2026-09-14"
+   "d": "2026-09-14",
+   "mort": true,
+   "mort_din": "2026-10-23"
   },
   {
    "t": "Cannondale SuperSix EVO, full carbon",
@@ -236,7 +238,7 @@
    "warn": "Exact la limita bugetului. Di2 e electronic: verifica bateria si cablajul.",
    "d": "2026-09-21",
    "mort": true,
-   "mort_din": "2026-10-22"
+   "mort_din": "2026-10-23"
   },
   {
    "t": "Cervelo Soloist Team 2007, aluminiu, Shimano 105 11v, marime 56",
@@ -291,7 +293,7 @@
    "src": "olx",
    "d": "2026-10-16",
    "mort": true,
-   "mort_din": "2026-10-22"
+   "mort_din": "2026-10-23"
   },
   {
    "t": "Look clasica, cadru carbon, Shimano 600, marime 55",
@@ -304,8 +306,7 @@
    "u": "https://www.olx.ro/d/oferta/cursiera-look-carbon-IDktnWd.html",
    "warn": "Echipare vintage, nu expediaza",
    "src": "olx",
-   "d": "2026-10-16",
-   "tare": "50% sub mediana a 13 anunturi asemanatoare (2.700 lei)"
+   "d": "2026-10-16"
   },
   {
    "t": "Look KG 461 carbon, Campagnolo Veloce, roti carbon 50 mm, cadru 57",
@@ -335,7 +336,7 @@
    "src": "olx",
    "d": "2026-10-16",
    "mort": true,
-   "mort_din": "2026-10-22"
+   "mort_din": "2026-10-23"
   },
   {
    "t": "Cannondale SuperSix EVO carbon, Ultegra/105 2x10, Vision Team 30, 58 cm / XL",

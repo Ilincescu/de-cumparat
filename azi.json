@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-22 08:49",
+ "generat": "2026-10-23 09:08",
  "de_la": "2026-10-20",
  "pana_la": "2026-10-22",
  "case_noi": 3,
@@ -14,16 +14,16 @@
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
    "gasite": 1399,
    "potrivite": 252,
-   "stare": "azi",
+   "stare": "ieri",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-22 08:48",
+   "cand": "2026-10-23 09:07",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1629,
-   "potrivite": 338,
+   "gasite": 1630,
+   "potrivite": 336,
    "stare": "azi",
    "veche": false
   }
@@ -70,6 +70,16 @@
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQOxE.html",
    "scor": 52
+  },
+  {
+   "pret": 8500,
+   "model": "Citroën C3 AIRCROSS",
+   "an": 2022,
+   "km": 94000,
+   "zona": "Bucuresti",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/citroen-c3-aircross-ID7HQVU3.html",
+   "scor": 37
   }
  ]
 }

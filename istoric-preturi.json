@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-22",
+ "actualizat": "2026-10-23",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -30210,6 +30210,226 @@
    "preturi": [
     {
      "d": "2026-10-21",
+     "p": 15000
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-tip-cvadruplex-82-mp-teren-170mp-cartier-arhitectilor/ie9640hdii637d76d5ih1d273516g031.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-tip-cvadruplex-82-mp-teren-170mp-cartier-arhitectilor/ie9640hdii637d76d5ih1d273516g031.html",
+   "t": "Casa tip Cvadruplex 82 mp teren 170mp cartier Arhitectilor",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 142500
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-de-vanzare-teren-412-mp-garaj-terezian-sibiu-comision-0/h39g0dg6g33571e92f73596i46ih0608.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-de-vanzare-teren-412-mp-garaj-terezian-sibiu-comision-0/h39g0dg6g33571e92f73596i46ih0608.html",
+   "t": "Casa de vanzare cu teren 412 mp pivnita garaj in Terezian Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 162990
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-2-camere-de-vanzare-vasile-aaron-sibiu-cp2260724/": {
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-vasile-aaron-sibiu-cp2260724/",
+   "t": "Casa tip duplex | 2 camere | Zona Vasile Aron",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 122000
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-2-camere-de-vanzare-turnisor-sibiu-cp2049366/": {
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-turnisor-sibiu-cp2049366/",
+   "t": "Apartament la casa | 240 mp Teren | Zona Turnisor",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 129999
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-3-camere-de-vanzare-lazaret-sibiu-cp2492780/": {
+   "u": "https://www.maac.ro/casa-vila-3-camere-de-vanzare-lazaret-sibiu-cp2492780/",
+   "t": "Casă 3 camere I Pivniță I Lazaret",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 154000
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-2-camere-de-vanzare-terezian-sibiu-cp2116691/": {
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-terezian-sibiu-cp2116691/",
+   "t": "Casa cu 2 camere | Curte | Zona Terezian",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 190000
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-2-camere-de-vanzare-piata-cluj-sibiu-cp2650412/": {
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-piata-cluj-sibiu-cp2650412/",
+   "t": "Casa individuală | Teren 328 mp | Piața Cluj",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 225000
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-2-camere-de-vanzare-trei-stejari-sibiu-cp3186866/": {
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-trei-stejari-sibiu-cp3186866/",
+   "t": "Casa tip duplex | Teren 335 mp | Acces auto | Trei Stejari",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 230000
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-4-camere-de-vanzare-turnisor-sibiu-cp1547452/": {
+   "u": "https://www.maac.ro/casa-vila-4-camere-de-vanzare-turnisor-sibiu-cp1547452/",
+   "t": "Casa Individuala I 100 MP Utili I teren 600 MP | Turnisor",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 249000
+    }
+   ]
+  },
+  "ID7HQOxE": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQOxE.html",
+   "t": "Renault Express",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 9500
+    }
+   ]
+  },
+  "ID7HQVDq": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-5-blue-dci-prestige-ID7HQVDq.html",
+   "t": "Dacia Duster 1.5 Blue dCi Prestige",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 11490
+    }
+   ]
+  },
+  "ID7HQVva": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-140-edc-zen-ID7HQVva.html",
+   "t": "Renault Captur TCe 140 EDC Zen",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 13490
+    }
+   ]
+  },
+  "ID7HQVF5": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-arkana-ID7HQVF5.html",
+   "t": "Renault Arkana",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 13950
+    }
+   ]
+  },
+  "ID7HQVtD": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ver-1-4-boosterjet-mhev-passion-ID7HQVtD.html",
+   "t": "Suzuki Vitara 1.4 Boosterjet MHEV Passion",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 13950
+    }
+   ]
+  },
+  "ID7HQVJc": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ID7HQVJc.html",
+   "t": "Volkswagen T-Cross",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 14300
+    }
+   ]
+  },
+  "ID7HQVtl": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ID7HQVtl.html",
+   "t": "Renault Captur",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 14500
+    }
+   ]
+  },
+  "ID7HQODP": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-cvt-expression-ID7HQODP.html",
+   "t": "Dacia Sandero Stepway TCe 90 CVT Expression",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 14500
+    }
+   ]
+  },
+  "ID7HQVJu": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ID7HQVJu.html",
+   "t": "Hyundai KONA",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 14600
+    }
+   ]
+  },
+  "ID7HQVzg": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQVzg.html",
+   "t": "Ford Puma",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 14990
+    }
+   ]
+  },
+  "ID7HQUsB": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-aut-titanium-ID7HQUsB.html",
+   "t": "Ford Puma 1.0 EcoBoost Aut. Titanium",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 14990
+    }
+   ]
+  },
+  "ID7HQU2z": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ID7HQU2z.html",
+   "t": "Renault Captur",
+   "preturi": [
+    {
+     "d": "2026-10-22",
+     "p": 14990
+    }
+   ]
+  },
+  "ID7HQWUG": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQWUG.html",
+   "t": "Dacia Duster",
+   "preturi": [
+    {
+     "d": "2026-10-22",
      "p": 15000
     }
    ]

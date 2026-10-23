@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-22",
+ "actualizat": "2026-10-23",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -13702,21 +13702,6 @@
   },
   {
    "k": "casa",
-   "p": 80000,
-   "t": "Proprietate cu potențial de reconstrucție – Str. Gimnasticii, la 3 minute de Centrul Istoric din Sibiu",
-   "z": "Centrul Istoric",
-   "r": 3,
-   "a": 234,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "olx",
-   "u": "https://www.olx.ro/d/oferta/proprietate-cu-potential-de-reconstructie-str-gimnasticii-la-3-minute-de-centrul-istoric-din-sibiu-IDl1R28.html",
-   "warn": "Din olx; detalii neverificate in descriere.",
-   "d": "2026-10-17"
-  },
-  {
-   "k": "casa",
    "p": 115000,
    "t": "Casa de vanzare.",
    "z": "Sibiu",
@@ -13959,7 +13944,9 @@
    "src": "publi24",
    "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-la-cheie-cu-garaj-mutare-imediata-gusterita-sibiu/g013h8f62g8f7ifhdd1g4dd1ifi2e812.html",
    "warn": "Din publi24; detalii neverificate in descriere.",
-   "d": "2026-10-17"
+   "d": "2026-10-17",
+   "mort": true,
+   "mort_din": "2026-10-23"
   },
   {
    "k": "casa",
