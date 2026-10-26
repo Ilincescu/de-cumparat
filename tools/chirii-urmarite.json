@@ -1,0 +1,606 @@
+{
+ "nota": "Anunturi de inchiriat 2 camere Sibiu, urmarite zilnic de tools/urmarire-chirii.js.",
+ "scanari": [
+  "2026-10-26"
+ ],
+ "anunturi": {
+  "IDl3f23": {
+   "u": "https://www.olx.ro/d/oferta/propietar-inchiriez-apartament-2-camere-decomandate-strand-pret-330-euro-IDl3f23.html",
+   "t": "PROPIETAR,închiriez apartament 2 camere decomandate,Strand,pret 330 euro",
+   "mp": 50,
+   "zona": "Strand",
+   "postat": "2026-10-24",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    330
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkOZPb": {
+   "u": "https://www.olx.ro/d/oferta/pf-apt-2-cam-decomandat-confort-1-utilat-si-mobilat-strand-sibiu-IDkOZPb.html",
+   "t": "PF, apt 2 cam decomandat confort 1, utilat si mobilat, Strand, Sibiu",
+   "mp": 64,
+   "zona": "Strand",
+   "postat": "2026-10-25",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    99
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkWTBw": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-central-IDkWTBw.html",
+   "t": "Inchiriez apartament central",
+   "mp": 50,
+   "zona": null,
+   "postat": "2026-10-24",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    400
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkTeJu": {
+   "u": "https://www.olx.ro/d/oferta/apartament-central-sibiu-de-inchiriat-pe-termen-scurt-sau-lung-IDkTeJu.html",
+   "t": "Apartament central Sibiu de închiriat pe termen scurt sau lung",
+   "mp": 30,
+   "zona": null,
+   "postat": "2026-10-25",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    380
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkVIAh": {
+   "u": "https://www.olx.ro/d/oferta/apartament-2-camere-str-charles-darwin-sibiu-IDkVIAh.html",
+   "t": "Apartament 2 camere Str. Charles Darwin, Sibiu",
+   "mp": 67,
+   "zona": null,
+   "postat": "2026-10-25",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    450
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkxdzr": {
+   "u": "https://www.olx.ro/d/oferta/apartament-de-inchiriat-calea-dumbravii-IDkxdzr.html",
+   "t": "Apartament de inchiriat Calea Dumbravii",
+   "mp": 67,
+   "zona": "Calea Dumbravii",
+   "postat": "2026-10-19",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    790
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDjVnwe": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-camere-parcare-city-residence-langa-mall-si-centru-IDjVnwe.html",
+   "t": "Inchiriez apartament 2 camere + parcare, City Residence, langa mall si centru",
+   "mp": 48,
+   "zona": "centru",
+   "postat": "2026-10-21",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    415
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl2SpX": {
+   "u": "https://www.olx.ro/d/oferta/inchiriem-apartament-2-camere-lux-calea-dumbravii-dioda-IDl2SpX.html",
+   "t": "Inchiriem apartament 2 camere - LUX - Calea Dumbravii - Dioda",
+   "mp": 50,
+   "zona": "Calea Dumbravii",
+   "postat": "2026-10-22",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    430
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl279z": {
+   "u": "https://www.olx.ro/d/oferta/proprietar-inchiriez-apartament-2-camere-zona-m-vitezu-IDl279z.html",
+   "t": "Proprietar închiriez apartament 2 camere zona M. Vitezu",
+   "mp": 43,
+   "zona": "Mihai Viteazu",
+   "postat": "2026-10-18",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    270
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl1jAE": {
+   "u": "https://www.olx.ro/d/oferta/apartament-2-camere-decomandat-vasile-aaron-IDl1jAE.html",
+   "t": "Apartament 2 camere decomandat – Vasile Aaron",
+   "mp": 54,
+   "zona": "Vasile Aaron",
+   "postat": "2026-10-13",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    420
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl3ano": {
+   "u": "https://www.olx.ro/d/oferta/apartament-2-camere-1-dormitor-de-inchiriat-the-lake-home-sibiu-400-luna-IDl3ano.html",
+   "t": "Apartament 2 camere (1 dormitor) de închiriat – The Lake Home, Sibiu – 400 €/lună",
+   "mp": 40,
+   "zona": null,
+   "postat": "2026-10-23",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    400
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl1zrj": {
+   "u": "https://www.olx.ro/d/oferta/apartament-2-camere-decomandate-vasile-aron-de-inchiriat-IDl1zrj.html",
+   "t": "Apartament 2 camere decomandate Vasile Aron de inchiriat",
+   "mp": 50,
+   "zona": "Vasile Aaron",
+   "postat": "2026-10-15",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    350
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkYuII": {
+   "u": "https://www.olx.ro/d/oferta/apartament-cu-2-camere-situat-pe-b-dul-mihai-viteazu-IDkYuII.html",
+   "t": "Apartament cu 2 camere, situat pe B-dul Mihai Viteazu",
+   "mp": 54,
+   "zona": "Mihai Viteazu",
+   "postat": "2026-09-29",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    350
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl3tAa": {
+   "u": "https://www.olx.ro/d/oferta/apartament-2-camere-bd-m-viteazu-IDl3tAa.html",
+   "t": "Apartament 2 camere, Bd. M. Viteazu",
+   "mp": 50,
+   "zona": "Mihai Viteazu",
+   "postat": "2026-10-25",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    99
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl0mEk": {
+   "u": "https://www.olx.ro/d/oferta/2-camere-constructie-noua-IDl0mEk.html",
+   "t": "2 camere construcție noua",
+   "mp": 54,
+   "zona": null,
+   "postat": "2026-10-09",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    375
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl3ubx": {
+   "u": "https://www.olx.ro/d/oferta/inchiriere-apartament-2-camere-IDl3ubx.html",
+   "t": "Închiriere apartament 2 camere",
+   "mp": 62,
+   "zona": "Mihai Viteazu",
+   "postat": "2026-10-25",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    84
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkXwYO": {
+   "u": "https://www.olx.ro/d/oferta/apartament-de-lux-cu-2-camere-prima-inchiriere-langa-shopping-city-sibiu-IDkXwYO.html",
+   "t": "Apartament de lux cu 2 camere – prima închiriere, lângă Shopping City Sibiu",
+   "mp": 55,
+   "zona": "Mihai Viteazu",
+   "postat": "2026-10-19",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    650
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl0tKU": {
+   "u": "https://www.olx.ro/d/oferta/apartament-de-inchiriat-2-camere-zona-mihail-kogalniceanu-sibiu-IDl0tKU.html",
+   "t": "Apartament de inchiriat 2 camere zona Mihail Kogalniceanu-Sibiu",
+   "mp": 47,
+   "zona": null,
+   "postat": "2026-10-09",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    69
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkZ9Kx": {
+   "u": "https://www.olx.ro/d/oferta/apartament-decomandat-2-camere-sibiu-mihai-viteazu-IDkZ9Kx.html",
+   "t": "Apartament decomandat - 2 camere Sibiu- Mihai Viteazu",
+   "mp": 65,
+   "zona": "Mihai Viteazu",
+   "postat": "2026-10-03",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    450
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkZFjr": {
+   "u": "https://www.olx.ro/d/oferta/apartament-mansarda-etaj-3-proprietar-IDkZFjr.html",
+   "t": "Apartament mansarda etaj 3 - proprietar",
+   "mp": 50,
+   "zona": "Terezian",
+   "postat": "2026-10-07",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    79
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl06ux": {
+   "u": "https://www.olx.ro/d/oferta/apartament-2-camere-boxa-si-parcare-de-inchiriat-calea-cisnadiei-IDl06ux.html",
+   "t": "Apartament 2 camere+boxa si parcare de închiriat-Calea Cisnădiei",
+   "mp": 55,
+   "zona": null,
+   "postat": "2026-10-08",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    400
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl0G79": {
+   "u": "https://www.olx.ro/d/oferta/apartament-2-camere-doamna-stanca-sibiu-spre-inchiriere-IDl0G79.html",
+   "t": "Apartament 2 camere Doamna Stanca Sibiu spre închiriere",
+   "mp": 59,
+   "zona": "Doamna Stanca",
+   "postat": "2026-10-10",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    520
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDjSsnl": {
+   "u": "https://www.olx.ro/d/oferta/apartament-2-camere-de-inchiriat-turnisor-str-albert-bielz-nr-89-IDjSsnl.html",
+   "t": "Apartament 2 camere de închiriat – Turnișor, Str. Albert Bielz nr. 89",
+   "mp": 48,
+   "zona": "Turnișor",
+   "postat": "2026-10-21",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    375
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl0yET": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-etaj-1-cedonia-n-iorga-IDl0yET.html",
+   "t": "Inchiriez apartament etaj 1  Cedonia/ N. Iorga",
+   "mp": 47,
+   "zona": "Cedonia",
+   "postat": "2026-10-10",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    320
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkWVNX": {
+   "u": "https://www.olx.ro/d/oferta/apartament-bd-mihai-viteazu-sibiu-aproape-de-dumbravii-IDkWVNX.html",
+   "t": "Apartament bd Mihai Viteazu Sibiu aproape de Dumbravii",
+   "mp": 49,
+   "zona": "Mihai Viteazu",
+   "postat": "2026-10-22",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    410
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl1JyT": {
+   "u": "https://www.olx.ro/d/oferta/apartament-de-inchiriat-sibiu-turnisor-35-mp-etaj-1-350-IDl1JyT.html",
+   "t": "Apartament de inchiriat Sibiu – Turnisor, 35 mp, etaj 1, 350€",
+   "mp": null,
+   "zona": "Turnisor",
+   "postat": "2026-10-23",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    350
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl2meO": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-decomandat-zona-mihai-viteazu-IDl2meO.html",
+   "t": "Închiriez apartament Decomandat zona Mihai Viteazu",
+   "mp": null,
+   "zona": "Mihai Viteazu",
+   "postat": "2026-10-20",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    49
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkY68q": {
+   "u": "https://www.olx.ro/d/oferta/ofer-spre-inchiriere-apartament-2-camere-etaj-5-10-zona-cedonia-IDkY68q.html",
+   "t": "Ofer spre inchiriere apartament 2 camere, etaj 5/10, zona Cedonia",
+   "mp": 55,
+   "zona": "Cedonia",
+   "postat": "2026-09-26",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    300
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkYDPi": {
+   "u": "https://www.olx.ro/d/oferta/apartament-de-inchiriat-in-magnolia-IDkYDPi.html",
+   "t": "Apartament de închiriat in Magnolia",
+   "mp": 50,
+   "zona": null,
+   "postat": "2026-09-30",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    350
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl2NF8": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-camere-confort-1-IDl2NF8.html",
+   "t": "Inchiriez apartament 2 camere,confort 1",
+   "mp": 53,
+   "zona": "Vasile Aaron",
+   "postat": "2026-10-22",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    350
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkY8QX": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-camere-vasile-aaron-sibiu-IDkY8QX.html",
+   "t": "Inchiriez apartament 2 camere, Vasile Aaron Sibiu",
+   "mp": 40,
+   "zona": "Vasile Aaron",
+   "postat": "2026-09-26",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    350
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkZhQJ": {
+   "u": "https://www.olx.ro/d/oferta/pf-inchiriez-apartament-2-camere-strand-posta-de-inchiriat-chirie-parter-IDkZhQJ.html",
+   "t": "PF inchiriez apartament 2 camere Strand - Posta de inchiriat  chirie parter",
+   "mp": 50,
+   "zona": "Strand",
+   "postat": "2026-10-04",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    360
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl35iK": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-dormitoare-strand-IDl35iK.html",
+   "t": "Inchiriez apartament 2  dormitoare, Strand",
+   "mp": 50,
+   "zona": "Strand",
+   "postat": "2026-10-23",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    500
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl3d7O": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-camere-decomandate-zona-piata-rahovei-IDl3d7O.html",
+   "t": "Inchiriez apartament 2 camere decomandate, zona  Piata Rahovei",
+   "mp": 51,
+   "zona": null,
+   "postat": "2026-10-23",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    300
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkTagy": {
+   "u": "https://www.olx.ro/d/oferta/apartament-2-camere-et-parter-parcare-privata-arhitectilor-IDkTagy.html",
+   "t": "Apartament 2 camere, et. parter, parcare privata, Arhitectilor",
+   "mp": 56,
+   "zona": null,
+   "postat": "2026-10-05",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    400
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl0B9y": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-camere-proprietar-IDl0B9y.html",
+   "t": "Inchiriez apartament 2 camere, proprietar",
+   "mp": 52,
+   "zona": null,
+   "postat": "2026-10-10",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    390
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkYCKg": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-penthause-IDkYCKg.html",
+   "t": "Inchiriez penthause",
+   "mp": 70,
+   "zona": null,
+   "postat": "2026-09-30",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    635
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDk53gp": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-camere-nou-modern-direct-proprietar-etaj-1-cartier-turnisor-1-loc-de-parcare-cu-bariera-IDk53gp.html",
+   "t": "Inchiriez apartament 2 camere nou, modern  - direct Proprietar, etaj 1 cartier Turnisor + 1 loc de parcare cu bariera",
+   "mp": 40,
+   "zona": "Turnisor",
+   "postat": "2026-10-18",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    400
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl2eG8": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-camere-zona-centrala-IDl2eG8.html",
+   "t": "inchiriez apartament 2 camere zona centrala",
+   "mp": 43,
+   "zona": null,
+   "postat": "2026-10-19",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    350
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkT9Df": {
+   "u": "https://www.olx.ro/d/oferta/inchiriem-apartament-2-camere-lux-selimbar-n-brana-IDkT9Df.html",
+   "t": "Inchiriem apartament 2 camere - LUX - Selimbar - N.Brana",
+   "mp": 50,
+   "zona": "Selimbar",
+   "postat": "2026-09-30",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    500
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkZFwD": {
+   "u": "https://www.olx.ro/d/oferta/proprietar-inchiriez-ap-2-cam-decomandat-str-oasa-et-3-IDkZFwD.html",
+   "t": "Proprietar inchiriez ap.2 cam., decomandat, Str. Oasa, et.3",
+   "mp": 55,
+   "zona": null,
+   "postat": "2026-10-07",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    300
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkZaWD": {
+   "u": "https://www.olx.ro/d/oferta/apartament-2-camere-decomandat-balcon-de-inchiriat-turnisor-IDkZaWD.html",
+   "t": "Apartament 2 camere decomandat+balcon de închiriat-Turnisor",
+   "mp": 50,
+   "zona": "Turnisor",
+   "postat": "2026-10-03",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    430
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkXSyw": {
+   "u": "https://www.olx.ro/d/oferta/apartament-2-camere-central-IDkXSyw.html",
+   "t": "Apartament 2 camere central",
+   "mp": 60,
+   "zona": null,
+   "postat": "2026-10-22",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    390
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl24ZY": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-ap-2-camere-IDl24ZY.html",
+   "t": "Inchiriez ap 2 camere",
+   "mp": 47,
+   "zona": "Cedonia",
+   "postat": "2026-10-18",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    350
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDl2EEC": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-IDl2EEC.html",
+   "t": "Inchiriez apartament",
+   "mp": null,
+   "zona": null,
+   "postat": "2026-10-21",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    350
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  },
+  "IDkYULc": {
+   "u": "https://www.olx.ro/d/oferta/de-inchiriat-apartament-in-sibiu-IDkYULc.html",
+   "t": "De inchiriat apartament in Sibiu",
+   "mp": 50,
+   "zona": null,
+   "postat": "2026-10-01",
+   "vazut_prima": "2026-10-26",
+   "preturi": [
+    250
+   ],
+   "vazut_ultima": "2026-10-26",
+   "disparut": null
+  }
+ }
+}

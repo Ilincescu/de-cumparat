@@ -66,6 +66,8 @@ function numara() {
   if (fs.existsSync(externe)) fs.readdirSync(externe)
     .filter(f => f.endsWith('-raw.json') && fs.statSync(path.join(externe, f)).mtime.toISOString().slice(0, 10) === AZI)
     .forEach(f => ruleaza('node', ['tools/surse-case.js', 'fisier', path.join('tools', 'externe', f), '--scrie'], true));
+  // Cat de repede dispar chiriile, pe marimi: masura cererii (tools/urmarire-chirii.js)
+  ruleaza('node', ['tools/urmarire-chirii.js'], true);
   // Inainte de clasament, nu dupa: altfel ajunge in el un anunt deja sters.
   ruleaza('node', ['tools/scan.js', 'linkuri', '--scrie'], true);
   ruleaza('node', ['tools/publica.js', '--scrie']);
@@ -88,7 +90,7 @@ function numara() {
     + `apartamente ${inainte.ap} -> ${dupa.ap}.\n\n`
     + 'Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>';
 
-  ruleaza('git', ['add', 'date.json', 'masini.json', 'biciclete.json', 'istoric-preturi.json', 'azi.json', 'tools/snapshots', 'tools/cautari.json']);
+  ruleaza('git', ['add', 'date.json', 'masini.json', 'biciclete.json', 'istoric-preturi.json', 'azi.json', 'tools/snapshots', 'tools/cautari.json', 'tools/chirii-urmarite.json']);
   ruleaza('git', ['commit', '-q', '-m', mesaj]);
   // Credential Manager n-are contul personal si asteapta un login pe care
   // nimeni nu-l vede; push-ul statea pana la timeout. Tokenul il are gh.

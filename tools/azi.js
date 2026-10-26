@@ -141,6 +141,7 @@ function filtreazaAp(x, marcate) {
   if (marcate.has(x.url)) return 'sters sau dublura (date.json)';
   if (ID_AP_RESPINSE.has(idAnunt(x.url))) return 'respins deja';
   if (IGRASIE.test(t)) return 'igrasie';
+  if (RISC_SEISMIC.test(t)) return 'risc seismic, nu se poate inchiria';
   if (x.exclus && x.exclus.length) return 'exclus automat: ' + [].concat(x.exclus).join(', ');
   if (AFARA.test(t)) return 'in afara orasului';
   if (x.camere !== 'TWO') return 'nu are 2 camere';
@@ -180,9 +181,42 @@ function chirieZona(zona, mpu) {
   return { ...baza, mediana: baza.chirie, chirie: Math.round(Math.min(baza.chirie, pePm * mpu) / 5) * 5, pe_mp: Math.round(pePm * 100) / 100 };
 }
 
-function punctajAp(x) {
+// Ani de recuperare NETI, cu riscurile care au o cifra cu sursa (REGULI.md §7,
+// piata-chirii-sibiu.md):
+//   luni goale  1/an la toate - Rightmove: "o luna pe an goala", chiria x 11
+//               +1 sub 40 mp - PRESUPUNERE: nu exista date despre cat stau goale
+//               apartamentele mici; Mihai: "acest risc trebuie sa intre in calcul"
+//   impozit     8% din chirie - 10% dupa deducerea forfetara de 20% (ANAF)
+//   intretinere 1% din pret pe an - regula uzuala pentru reparatii (Howsy)
+const RISC = { luniGoale: 1, luniGoaleMic: 1, sub: 40, impozit: 0.08, intretinere: 0.01 };
+// Rs I / bulina rosie: legea 212/2022 modificata de 426/2023 interzice inchirierea
+// pana la consolidare (cotidianul.ro; textul legii neverificat) - deci blocker.
+const RISC_SEISMIC = /bulin[aă]\s+ro[sș]ie|clasa\s+(i|1)\s+de\s+risc|\brs\s*i\b|risc\s+seismic\s+(ridicat|clasa)|\bu[123]\b.*seismic/i;
+const PARTER = /\bparter\b(?!\s+[iî]nalt)|\bdemisol\b|\bsuteran/i;
+const ULTIMUL = /etaj(?:ul)?\s*(\d+)\s*(?:din|\/)\s*(\d+)/i;
+const CENTRALA = /central[aă]\s+(termic[aă]\s+)?(proprie|pe\s+gaz|individual)/i;
+
+function calculAp(x) {
   const c = chirieZona(x.zona, x.mpu);
-  return c.chirie ? x.pret / (c.chirie * 12) : Infinity;
+  const goale = RISC.luniGoale + (x.mpu < RISC.sub ? RISC.luniGoaleMic : 0);
+  const net = c.chirie * (12 - goale) * (1 - RISC.impozit) - x.pret * RISC.intretinere;
+  return { c, goale, net: Math.round(net), ani: net > 0 ? x.pret / net : Infinity };
+}
+
+// Riscuri fara cifra: nu schimba ordinea, dar se vad langa apartament.
+function avertismenteAp(x) {
+  const t = (x.titlu || '') + ' ' + (x.descriere || '');
+  const a = [];
+  if (PARTER.test(t)) a.push('parter/demisol');
+  const e = t.match(ULTIMUL);
+  if (e && e[1] === e[2] && Number(e[1]) > 0) a.push('ultimul etaj');
+  if (x.an && Number(x.an) < 1978) a.push(`bloc din ${x.an}`);
+  if (!CENTRALA.test(t)) a.push('nu scrie de centrală proprie');
+  return a;
+}
+
+function punctajAp(x) {
+  return calculAp(x).ani;
 }
 
 function alegeAp(lista, marcate) {
@@ -432,9 +466,12 @@ if (!topAp.length) console.log('  nimic care să bifeze criteriile.\n');
 else console.log('  Cele mai bune de pe toată lista Storia, nu doar cele noi:\n');
 topAp.forEach(({ x }, i) => {
   const t = (x.titlu || '') + ' ' + (x.descriere || '');
-  const c = chirieZona(x.zona, x.mpu);
+  const { c, goale, net, ani } = calculAp(x);
+  const av = avertismenteAp(x);
   console.log(`${i + 1}. ${x.pret.toLocaleString('ro-RO')} € · ${x.mpu} mp utili · ${x.zona}${LA_CASA.test(t) ? ' · la casă' : ''}${esteNou(x) ? ' · NOU' : ''}`);
-  console.log(`   chirie estimată ~${c.chirie} €/lună (${c.pe_mp ? `${c.pe_mp} €/mp × ${x.mpu} mp; ` : ''}${c.din === 'oras' ? 'cartier fără date' : `mediana ${c.din} ${c.mediana || c.chirie} €`}) · se recuperează în ${(x.pret / (c.chirie * 12)).toFixed(1)} ani`);
+  console.log(`   chirie estimată ~${c.chirie} €/lună (${c.pe_mp ? `${c.pe_mp} €/mp × ${x.mpu} mp; ` : ''}${c.din === 'oras' ? 'cartier fără date' : `mediana ${c.din} ${c.mediana || c.chirie} €`})`);
+  console.log(`   net ~${net.toLocaleString('ro-RO')} €/an (${goale} ${goale === 1 ? 'lună goală' : 'luni goale'}, impozit, reparații) · se recuperează în ${ani.toFixed(1)} ani`);
+  if (av.length) console.log(`   ! ${av.join(' · ')}`);
   console.log(`   ${String(x.titlu).slice(0, 66)}`);
   console.log(`   postat ${x.creat} · ${x.url}\n`);
 });
@@ -470,6 +507,7 @@ if (scrie) {
     apartamente: topAp.map(({ x, p }) => ({
       pret: x.pret, mpu: x.mpu, zona: x.zona, creat: x.creat, stare: x.stare,
       chirie: chirieZona(x.zona, x.mpu).chirie, chirie_din: chirieZona(x.zona, x.mpu).din, ani: Math.round(p * 10) / 10,
+      net: calculAp(x).net, luni_goale: calculAp(x).goale, riscuri: avertismenteAp(x),
       la_casa: LA_CASA.test((x.titlu || '') + ' ' + (x.descriere || '')), nou: esteNou(x),
       titlu: x.titlu, url: x.url, scor: p,
     })),

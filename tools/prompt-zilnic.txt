@@ -53,6 +53,18 @@ singur pe cele salvate azi:
     Preturile "RON" ale anunturilor proprii sunt de fapt euro, iar loc e a
     contului - surse-case.js stie asta.
 
+ d) OLX chirii 2 camere -> tools/externe/olx-chirii.json
+    browser_navigate la
+    https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/2-camere/sibiu/?currency=EUR
+    browser_evaluate (cu filename): ia paginile &page=1,2... pana nu mai apar
+    linkuri /d/oferta/ noi; din fiecare card {u fara ?query, t, p, ld: textul
+    din [data-testid="location-date"]}; apoi fetch pe fiecare anunt, cate 6,
+    si adauga mp (din [data-testid="ad-parameters-container"] p, "Suprafata
+    utila: N") si z (cartierul gasit in titlu sau in primele 400 de caractere
+    din descriere). update.js ruleaza tools/urmarire-chirii.js, care tine
+    istoria in tools/chirii-urmarite.json: in cate zile dispare o chirie, pe
+    marimi. Fara pasul asta zilnic, masuratoarea are goluri.
+
 Daca Playwright nu raspunde (browser_navigate sta fara raspuns), nu mai
 incerca: o singura incercare, apoi treci la update.js fara a), b), c).
 Celelalte surse tot trebuie publicate (2026-10-18: doua incercari x 30 min).
