@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-26 18:00",
+ "generat": "2026-10-26 18:05",
  "de_la": "2026-10-22",
  "pana_la": "2026-10-26",
  "case_noi": 7,
@@ -12,29 +12,6 @@
  "ap_din_rezerva": false,
  "chirii_din": "2026-10-26",
  "apartamente": [
-  {
-   "pret": 59000,
-   "mpu": 65,
-   "zona": "Terezian, Sibiu",
-   "creat": "2025-09-30",
-   "stare": "ready_to_use",
-   "chirie": 400,
-   "chirie_din": "Terezian",
-   "ani": 17.7,
-   "net": 3458,
-   "luni_goale": 1,
-   "cost_total": 61124,
-   "privat": false,
-   "riscuri": [
-    "bloc din 1900",
-    "nu scrie de centrală proprie"
-   ],
-   "la_casa": false,
-   "nou": false,
-   "titlu": "Apartament 2 camere | Investitie | Ultracentral",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-investitie-ultracentral-IDF6SF",
-   "scor": 17.676113360323885
-  },
   {
    "pret": 55000,
    "mpu": 42,
@@ -79,6 +56,27 @@
    "titlu": "Apartament de vânzare Sibiu | 2 camere | Lacul lui Binder",
    "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-lacul-lui-binder-IDIEgC",
    "scor": 21.41176470588235
+  },
+  {
+   "pret": 77500,
+   "mpu": 65,
+   "zona": "Lazaret, Sibiu",
+   "creat": "2026-05-18",
+   "chirie": 430,
+   "chirie_din": "Lazaret",
+   "ani": 22.4,
+   "net": 3577,
+   "luni_goale": 1,
+   "cost_total": 80290,
+   "privat": false,
+   "riscuri": [
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament 2 camere | 65 mp | Zona Lazaret",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-65-mp-zona-lazaret-IDHj86",
+   "scor": 22.448694290667113
   }
  ],
  "surse": [
