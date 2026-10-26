@@ -58,6 +58,30 @@ chiriei cerute pentru 2 camere, de orice mărime.
 - ULBS a ocupat ~4.000 de locuri la admiterea din iulie 2026, +14% față de anul trecut ([agerpres](https://agerpres.ro/comunicate/2026/08/05/comunicat-de-presa---universitatea-lucian-blaga-din-sibiu--1582380)).
 - Impozit: 10% după o deducere forfetară de 20% ([ANAF](https://static.anaf.ro/static/10/Galati/cedarea_folosintei.pdf)); pentru 2026 se discută 30% (neverificat în Codul fiscal).
 
+## Riscuri de investiție (2026-10-26)
+
+Cele cu cifră și sursă intră în anii de recuperare din `azi.js`. Celelalte apar ca „De verificat” lângă apartament.
+
+| Risc | Cum intră | Sursa |
+|---|---|---|
+| Luni goale | 1 lună pe an la toate | [Rightmove](https://www.rightmove.co.uk/guides/?p=830): „o lună pe an”, chiria × 11 |
+| Apartament mic, mai greu de închiriat | +1 lună goală sub 40 mp | **Presupunere**: nu există date. Se înlocuiește cu ce arată `tools/urmarire-chirii.js` |
+| Impozit | 8% din chirie | [ANAF](https://static.anaf.ro/static/10/Galati/cedarea_folosintei.pdf); pentru 2026 se discută altă deducere |
+| Reparații | 1% din preț pe an | regulă uzuală ([landlordtoday](https://www.landlordtoday.co.uk/breaking-news/2020/2/maintaining-the-average-btl-investment-currently-sits-at-28-of-annual-rental-income)); alt reper: 10% din chirie |
+| Risc seismic Rs I / bulină roșie | blocker: nu se poate închiria până la consolidare | [cotidianul.ro](https://www.cotidianul.ro/?p=1014730), [capital.ro](https://www.capital.ro/legea-care-interzice-inchirierea-apartamentelor-risc-seismic.html); textul legii neverificat |
+| U1/U2/U3 în acte | bancă poate refuza creditul | [playtech.ro](https://playtech.ro/2025/de-ce-sa-nu-cumperi-apartamente-din-cladiri-incadrate-u1-u2-u3-de-ce-sunt-o-capcana-imobiliara-si-ai-sanse-mici-la-ipoteca/) |
+| Datorii la asociație, CF cu litigii | de verificat înainte de ofertă | [capital.ro](https://www.capital.ro/obligatoriu-pentru-cei-care-vor-sa-cumpere-locuinte-nu-le-ignorati-verificati-cu-atentie.html) |
+| Fațadă, acoperiș, instalații vechi | de verificat la vizionare | [antena3.ro](https://www.antena3.ro/life/ce-sa-verifici-cand-cumperi-un-apartament-vechi-detaliile-la-care-sa-fii-atent-724823.html) |
+| Scara blocului, administrarea | de verificat la vizionare | [cotidianul.ro](https://www.cotidianul.ro/?p=1014730) |
+| Parter, ultimul etaj, bloc dinainte de 1978, fără centrală proprie | avertisment, fără cifră | nicio sursă cu impact măsurat |
+| Administrare: plăți întârziate, chiriași dificili | nu e în calcul; o administrare prin agenție costă 10–15% din chirie | [wall-street.ro](https://www.wall-street.ro/articol/Money/213998/sfaturi-imobiliare-ce-trebuie-sa-ai-in-vedere-inainte-de-a-investi-in-locuinte.html), [propertyreporter](https://propertyreporter.co.uk/landlords/investors-and-landlords-warned-to-get-their-finances-in-order.html) |
+
+Cu riscurile incluse, topul din 2026-10-26 iese la 18,1–21,5 ani, față de 12,9–14,2 pe brut.
+
+## Urmărirea chiriilor (din 2026-10-26)
+
+`tools/urmarire-chirii.js` salvează zilnic anunțurile OLX de 2 camere de închiriat (ID, preț, mp, cartier, data postării) în `tools/chirii-urmarite.json`. Când un anunț dispare, notează în câte zile. Prima scanare: 38 de chirii lunare, dintre care una singură sub 40 mp. Un anunț dispărut nu e sigur închiriat, poate fi expirat.
+
 ## Decizii deschise
 
 - Minimul de suprafață: de la 30 la **40 mp**? Sub 40 nu există dovezi că se închiriază.

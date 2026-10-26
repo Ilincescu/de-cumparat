@@ -781,7 +781,7 @@
         ? 'Nimic nou. Mai jos sunt cele mai bune de pe toată lista.'
         : AZI.din_tot_lista ? 'Prea puține noi. Mai jos sunt cele mai bune de pe toată lista.'
         : 'Nimic postat de ieri. Mai jos sunt cele mai bune din ultima săptămână.')+'</p>');
-      if(ap) h.push('<p class="nota">Investiție de închiriat: primele 3 din toată lista Storia după anii în care prețul se scoate din chirie (preț ÷ chiria estimată pe un an: chiria pe mp din OLX × mp, ajustată după cartier, plafonată la mediana cartierului din '+esc(AZI.chirii_din||'')+'). 2 camere, minim 30 mp, fără mansardă, dezvoltator sau igrasie.</p>');
+      if(ap) h.push('<p class="nota">Investiție de închiriat: primele 3 din toată lista Storia după anii în care prețul se scoate din chirie (preț ÷ chiria netă pe an: chiria estimată după mp și cartier, minus o lună goală pe an, două sub 40 mp, impozit 8% și reparații 1% din preț). 2 camere, minim 30 mp, fără mansardă, dezvoltator sau igrasie.</p>');
       else if(!masini&&!rezerva)
         h.push('<h3>'+AZI.case_noi+' postate, '+AZI.case_trec+' trec de criterii</h3>');
       h.push('<ol>');
@@ -790,7 +790,9 @@
           h.push('<li><a href="'+esc(c.url)+'" target="_blank" rel="noopener">'+nr(c.pret)+' € · '
             +esc(c.zona)+'</a><span class="det">'+(c.ani?'se scoate în <b>'+String(c.ani).replace('.',',')+' ani</b> · chirie estimată ~'+nr(c.chirie)+' €/lună'
               +(c.chirie_din==='oras'?' (media orașului)':'')+' · ':'')+c.mpu+' mp utili'+(c.la_casa?' · la casă':'')
-            +(c.nou?' · nou':'')+' · postat '+esc(c.creat)+'</span><span class="alte">'+esc(c.titlu)+'</span></li>');
+            +(c.nou?' · nou':'')+' · postat '+esc(c.creat)+'</span>'
+            +(c.riscuri&&c.riscuri.length?'<span class="alte">De verificat: '+esc(c.riscuri.join(' · '))+'</span>':'')
+            +'<span class="alte">'+esc(c.titlu)+'</span></li>');
           return;
         }
         if(masini){
