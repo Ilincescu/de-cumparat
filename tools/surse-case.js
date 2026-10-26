@@ -321,7 +321,11 @@ function noteaza(sursa, ce, date) {
     // suma in EUR, iar contul e setat pe lei), si localitatea de pe card e a
     // contului, nu a casei - de aceea "Sibiu, Romania" trece, iar orasul real il
     // verifica filtrele din descriere.
-    return lista.filter(x => !x.loc || /^sibiu\b/i.test(x.loc.trim())).map(x => x.titlu ? x : ({
+    // Cautarea Facebook "casa de vanzare" intoarce si garsoniere, apartamente si
+    // terenuri (2026-10-26: 13 intrate ca "casa"), deci titlul trebuie sa numeasca o casa.
+    const eCasa = x => src !== 'facebook' || (/cas[aăe]\b|vil[aă]\b|duplex|house/i.test(x.t || '')
+      && !/garsonier|apartament(?!\s+(la|de)\s+cas)|^\s*teren|combin[aă]|de\s+[iî]nchiriat|[iî]nchiriez/i.test(x.t || ''));
+    return lista.filter(x => (!x.loc || /^sibiu\b/i.test(x.loc.trim())) && eCasa(x)).map(x => x.titlu ? x : ({
       src,
       titlu: curat(x.t),
       descriere: curat(`${x.desc || ''} ${x.params || ''}`),
