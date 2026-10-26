@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-23 09:08",
+ "generat": "2026-10-26 06:42",
  "de_la": "2026-10-20",
  "pana_la": "2026-10-22",
  "case_noi": 3,
@@ -14,36 +14,21 @@
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
    "gasite": 1399,
    "potrivite": 252,
-   "stare": "ieri",
-   "veche": false
+   "stare": "acum 4 zile",
+   "veche": true
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-23 09:07",
+   "cand": "2026-10-26 06:40",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1630,
+   "gasite": 1608,
    "potrivite": 336,
    "stare": "azi",
    "veche": false
   }
  ],
  "case": [
-  {
-   "pret": 180000,
-   "mpu": 112,
-   "curte": 155,
-   "curte_sigura": true,
-   "teren": 112,
-   "zona": "Sibiu",
-   "an": "1970",
-   "creat": "2026-10-17",
-   "repostat": true,
-   "alte": [],
-   "titlu": "Casa cu 4 camere singur in curte de vanzare in Sibiu - zona linistita",
-   "url": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-singur-in-curte-de-vanzare-in-sibiu-zona-linistita-IDIUVV",
-   "scor": 47
-  },
   {
    "pret": 98000,
    "mpu": 50,
@@ -72,14 +57,24 @@
    "scor": 52
   },
   {
-   "pret": 8500,
-   "model": "Citroën C3 AIRCROSS",
+   "pret": 6690,
+   "model": "Dacia Sandero Stepway",
+   "an": 2020,
+   "km": 79000,
+   "zona": "Selimbar",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXqa.html",
+   "scor": 43
+  },
+  {
+   "pret": 8690,
+   "model": "Ford EcoSport 1.0 EcoBoost Titanium",
    "an": 2022,
-   "km": 94000,
+   "km": 90000,
    "zona": "Bucuresti",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/citroen-c3-aircross-ID7HQVU3.html",
-   "scor": 37
+   "url": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQXfJ.html",
+   "scor": 38
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-23",
+ "actualizat": "2026-10-26",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -30431,6 +30431,96 @@
     {
      "d": "2026-10-22",
      "p": 15000
+    }
+   ]
+  },
+  "ID7HQVU3": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/citroen-c3-aircross-ID7HQVU3.html",
+   "t": "Citroën C3 AIRCROSS",
+   "preturi": [
+    {
+     "d": "2026-10-23",
+     "p": 8500
+    }
+   ]
+  },
+  "ID7HQVMW": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ID7HQVMW.html",
+   "t": "Kia Sportage",
+   "preturi": [
+    {
+     "d": "2026-10-23",
+     "p": 12500
+    }
+   ]
+  },
+  "ID7HQVMw": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQVMw.html",
+   "t": "Peugeot 2008",
+   "preturi": [
+    {
+     "d": "2026-10-23",
+     "p": 12500
+    }
+   ]
+  },
+  "ID7HQVNA": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ssangyong-tivoli-ID7HQVNA.html",
+   "t": "SsangYong Tivoli",
+   "preturi": [
+    {
+     "d": "2026-10-23",
+     "p": 12700
+    }
+   ]
+  },
+  "ID7HQKjP": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ver-1-5-fwd-at7-mhev-ID7HQKjP.html",
+   "t": "Jeep Renegade 1.5 FWD AT7 MHEV",
+   "preturi": [
+    {
+     "d": "2026-10-23",
+     "p": 14450
+    }
+   ]
+  },
+  "ID7HQVNY": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/skoda-kamiq-ID7HQVNY.html",
+   "t": "Skoda Kamiq",
+   "preturi": [
+    {
+     "d": "2026-10-23",
+     "p": 14500
+    }
+   ]
+  },
+  "ID7HQVDB": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-st-line-ID7HQVDB.html",
+   "t": "Ford Puma 1.0 EcoBoost MHEV ST Line",
+   "preturi": [
+    {
+     "d": "2026-10-23",
+     "p": 14500
+    }
+   ]
+  },
+  "ID7HQVUs": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ID7HQVUs.html",
+   "t": "Volkswagen T-Cross",
+   "preturi": [
+    {
+     "d": "2026-10-23",
+     "p": 14990
+    }
+   ]
+  },
+  "ID7HQWE4": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-tucson-ID7HQWE4.html",
+   "t": "Hyundai Tucson",
+   "preturi": [
+    {
+     "d": "2026-10-23",
+     "p": 24900
     }
    ]
   }
