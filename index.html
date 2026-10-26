@@ -781,7 +781,7 @@
         ? 'Nimic nou. Mai jos sunt cele mai bune de pe toată lista.'
         : AZI.din_tot_lista ? 'Prea puține noi. Mai jos sunt cele mai bune de pe toată lista.'
         : 'Nimic postat de ieri. Mai jos sunt cele mai bune din ultima săptămână.')+'</p>');
-      if(ap) h.push('<p class="nota">Investiție de închiriat: primele 3 din toată lista Storia după anii în care prețul se scoate din chirie (cost total ÷ chiria netă pe an; cost total = preț + 2% comision agenție (0 când anunțul scrie comision 0) + ~1,6% notar și intabulare; chiria estimată = mediana chiriilor Storia din același cartier cu ±20% mp, bloc nou cu bloc nou, vechi cu vechi, minus o lună goală pe an, două sub 40 mp, impozit 8% și reparații 1% din preț). 2 camere, minim 30 mp, fără mansardă, dezvoltator sau igrasie.</p>');
+      if(ap) h.push('<p class="nota">Investiție de închiriat: primele 3 din toată lista Storia după anii în care prețul se scoate din chirie (cost total ÷ chiria netă pe an; cost total = preț + 2% comision agenție (0 când anunțul scrie comision 0) + ~1,6% notar și intabulare; chiria estimată = mediana chiriilor de pe Storia, imobiliare.ro, Publi24, lajumate, OLX și Facebook din același cartier cu ±20% mp (minim 5, altfel din tot orașul cu ±15%), bloc nou cu bloc nou, vechi cu vechi, minus o lună goală pe an, două sub 40 mp, impozit 8% și reparații 1% din preț). 2 camere, minim 30 mp, fără mansardă, dezvoltator sau igrasie.</p>');
       else if(!masini&&!rezerva)
         h.push('<h3>'+AZI.case_noi+' postate, '+AZI.case_trec+' trec de criterii</h3>');
       h.push('<ol>');

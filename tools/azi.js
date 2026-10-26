@@ -188,10 +188,22 @@ const CHIRIE_MP = (() => { try { return JSON.parse(fs.readFileSync(path.join(__d
 // Chiriile una cate una (tools/chirii.js, din 2026-10-26). Cand exista, chiria
 // unui apartament = mediana chiriilor din acelasi cartier cu mp apropiati, ca la
 // PropGenius; cartierul se largeste la oras doar daca are sub 3 asemanatoare.
+// Plus celelalte site-uri (tools/chirii-externe.js): cu Storia singur, in Tiglari
+// erau doar chirii din blocuri noi (2026-10-26). Aceeasi chirie pusa pe mai multe
+// site-uri (lajumate copiaza homezz, agentiile pun peste tot) se numara o data:
+// aceeasi suma, mp la ±1, acelasi cartier. Storia e citit primul, deci ramane el.
 const CHIRII_ANUNTURI = (() => {
-  const f = fs.readdirSync(DOSAR).filter(x => /^chirii-anunturi-\d{4}-\d{2}-\d{2}\.json$/.test(x)).sort().pop();
-  return f ? JSON.parse(fs.readFileSync(path.join(DOSAR, f), 'utf8')).filter(a => a.mp && a.chirie) : [];
+  const ultim = re => fs.readdirSync(DOSAR).filter(x => re.test(x)).sort().pop();
+  const citeste = f => f ? JSON.parse(fs.readFileSync(path.join(DOSAR, f), 'utf8')).filter(a => a.mp && a.chirie) : [];
+  const toate = citeste(ultim(/^chirii-anunturi-\d{4}-\d{2}-\d{2}\.json$/)).map(a => ({ ...a, sursa: 'storia' }))
+    .concat(citeste(ultim(/^chirii-externe-\d{4}-\d{2}-\d{2}\.json$/)));
+  const pastrate = [];
+  for (const a of toate) {
+    if (!pastrate.some(b => b.chirie === a.chirie && Math.abs(b.mp - a.mp) <= 1 && b.cartier === a.cartier)) pastrate.push(a);
+  }
+  return pastrate;
 })();
+const textChirie = a => a.url + ' ' + (a.titlu || '');
 
 // Chiria din bloc nou nu e chiria unui bloc din 1980: in Tiglari toate cele 4
 // chirii de ~40 mp erau "The Lake Home", "bloc nou", "prima inchiriere" (420 €),
@@ -200,7 +212,8 @@ const CHIRII_ANUNTURI = (() => {
 // "lux", "premium", "finisaje moderne" spun finisajul, nu anul blocului: cu ele, un
 // bloc din 2010 din Tilisca lua chiria penthouse-urilor din Terezian si Hipodrom
 // (550 €), cand in Tilisca 72 mp se cer 460-470 € (2026-10-26).
-const CHIRIE_NOUA = /bloc-nou|prima-i?nchiriere|lake-home|lake-city|ansamblu|rezidential|green-hill|constructie-noua|nou-|-nou\b|lift/i;
+// "the-lake": imobiliare.ro scrie "The Lake | Str. Tractorului", fara "home"
+const CHIRIE_NOUA = /bloc-nou|prima-i?nchiriere|lake-home|the-lake|lake-city|ansamblu|rezidential|green-hill|constructie-noua|nou-|-nou\b|lift/i;
 const apNou = x => Number(x.an) >= 2010;
 
 // Cartierul intreg, nu inceputul lui: "hipodrom iii, sibiu" incepe cu "hipodrom ii"
@@ -209,7 +222,8 @@ const eCartier = (z, c) => z === fara(c) || z.startsWith(fara(c) + ',');
 function chirieComparabile(zona, mpu, nou) {
   const z = fara(zona || '');
   const inCartier = a => a.cartier !== 'Fara cartier' && eCartier(z, a.cartier);
-  const potrivite = CHIRII_ANUNTURI.filter(a => CHIRIE_NOUA.test(a.url) === nou);
+  // CHIRIE_NOUA e scris pe slug ("bloc-nou"); titlul de pe alte site-uri il aduc la aceeasi forma
+  const potrivite = CHIRII_ANUNTURI.filter(a => CHIRIE_NOUA.test(fara(textChirie(a)).replace(/[^a-z0-9]+/g, '-') + '-') === nou);
   const dinCartier = potrivite.filter(inCartier);
   // ±20% mp in cartier, apoi ±15% in oras; o plaja mai larga punea 47 mp langa 36 mp.
   // Un bloc nou ia si chiriile vechi din cartier inainte de oras: iese mai mica, nu
@@ -219,7 +233,8 @@ function chirieComparabile(zona, mpu, nou) {
   incercari.push([potrivite, 0.15, 'oras']);
   for (const [lista, abatere, unde] of incercari) {
     const g = lista.filter(a => Math.abs(a.mp - mpu) <= mpu * abatere);
-    if (g.length < 3) continue;
+    // Minim 5: la 30 mp mediana a 3 chirii (una "pe termen scurt") dadea 390 € (2026-10-26)
+    if (g.length < 5) continue;
     const v = g.map(a => a.chirie).sort((a, b) => a - b);
     const din = unde || g[0].cartier;
     return { chirie: Math.round(v[Math.floor(v.length / 2)] / 5) * 5, din, n: g.length, mp: [Math.round(mpu * (1 - abatere)), Math.round(mpu * (1 + abatere))] };

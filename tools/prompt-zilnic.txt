@@ -67,7 +67,23 @@ singur pe cele salvate azi:
     utila: N") si z (cartierul gasit in titlu sau in primele 400 de caractere
     din descriere). update.js ruleaza tools/urmarire-chirii.js, care tine
     istoria in tools/chirii-urmarite.json: in cate zile dispare o chirie, pe
-    marimi. Fara pasul asta zilnic, masuratoarea are goluri.
+    marimi. Fara pasul asta zilnic, masuratoarea are goluri. Tot fisierul asta
+    il citeste tools/chirii-externe.js pentru chiria din topul de apartamente.
+ e) imobiliare.ro chirii 2 camere -> tools/externe/imobiliare-chirii.json
+    browser_navigate la
+    https://www.imobiliare.ro/inchirieri-apartamente/judetul-sibiu/sibiu?rooms=2
+    browser_evaluate (cu filename): fetch pe &page=2,3... (~22 pagini, 30 pe
+    pagina) pana nu mai apar anunturi noi; din fiecare <article>: {u fara
+    ?query, t, p: suma din "N € / luna", mp: din "camere N mp", desc: zona de
+    dupa "/ luna" + slug-ul + textul cardului}. Nu deschide anunturile (403
+    dupa ~100 de cereri).
+ f) Facebook chirii -> tools/externe/facebook-chirii.json
+    browser_run_code_unsafe: cauta "apartament 2 camere de inchiriat",
+    "inchiriez apartament 2 camere", "apartament de inchiriat" pe
+    /marketplace/sibiu/search, deruleaza, pastreaza cardurile cu Sibiu si
+    inchiriez/chirie, fara "partener" si fara 3-5 camere; page.goto pe fiecare,
+    "Vezi mai mult", ia descrierea. {u, t, p, desc}. Da putin (7 pe
+    2026-10-26, 2 cu mp scris) - daca nu merge, sari peste.
 
 Daca Playwright nu raspunde (browser_navigate sta fara raspuns), nu mai
 incerca: o singura incercare, apoi treci la update.js fara a), b), c).

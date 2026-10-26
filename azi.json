@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-26 21:16",
+ "generat": "2026-10-26 21:42",
  "de_la": "2026-10-22",
  "pana_la": "2026-10-26",
  "case_noi": 8,
@@ -27,15 +27,15 @@
    "mpu": 37,
    "zona": "Tiglari, Sibiu",
    "creat": "2025-08-17",
-   "chirie": 340,
+   "chirie": 350,
    "chirie_din": "oras",
-   "chirie_n": 19,
+   "chirie_n": 78,
    "chirie_mp": [
     31,
     43
    ],
-   "ani": 20.2,
-   "net": 2618,
+   "ani": 19.5,
+   "net": 2710,
    "luni_goale": 2,
    "cost_total": 52836,
    "fara_comision": false,
@@ -48,7 +48,35 @@
    "nou": false,
    "titlu": "Apartament de vânzare 2 camere Sibiu ,Tigllari",
    "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-2-camere-sibiu-tigllari-IDEAhs",
-   "scor": 20.181818181818183
+   "scor": 19.496678966789666
+  },
+  {
+   "alte": [],
+   "pret": 67000,
+   "mpu": 44,
+   "zona": "Centrul Istoric, Sibiu",
+   "creat": "2026-07-29",
+   "chirie": 410,
+   "chirie_din": "Centrul Istoric",
+   "chirie_n": 20,
+   "chirie_mp": [
+    35,
+    53
+   ],
+   "ani": 20,
+   "net": 3479,
+   "luni_goale": 1,
+   "cost_total": 69412,
+   "fara_comision": false,
+   "riscuri": [
+    "bloc din 1800",
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": true,
+   "nou": false,
+   "titlu": "Apartament 2 camere | Central, Sibiu | 44 mp",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-central-sibiu-44-mp-IDI2hq",
+   "scor": 19.950563347896068
   },
   {
    "alte": [],
@@ -59,7 +87,7 @@
    "stare": "ready_to_use",
    "chirie": 350,
    "chirie_din": "oras",
-   "chirie_n": 23,
+   "chirie_n": 89,
    "chirie_mp": [
     33,
     45
@@ -75,32 +103,6 @@
    "titlu": "Apartament de vânzare Sibiu | 2 camere | Țiglari | etaj 2, 39 mp",
    "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-iglari-etaj-2-39-mp-IDIpLK",
    "scor": 20.403019861050705
-  },
-  {
-   "alte": [],
-   "pret": 75000,
-   "mpu": 48,
-   "zona": "Gusterita, Sibiu",
-   "creat": "2026-02-17",
-   "stare": "ready_to_use",
-   "chirie": 435,
-   "chirie_din": "oras",
-   "chirie_n": 23,
-   "chirie_mp": [
-    41,
-    55
-   ],
-   "ani": 21.3,
-   "net": 3652,
-   "luni_goale": 1,
-   "cost_total": 77700,
-   "fara_comision": false,
-   "riscuri": [],
-   "la_casa": false,
-   "nou": false,
-   "titlu": "Apartament cu 2 camere in Gusterita",
-   "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-in-gusterita-IDGoIa",
-   "scor": 21.27484803679974
   }
  ],
  "surse": [

@@ -68,6 +68,8 @@ function numara() {
     .forEach(f => ruleaza('node', ['tools/surse-case.js', 'fisier', path.join('tools', 'externe', f), '--scrie'], true));
   // Chiriile Storia una cate una: azi.js estimeaza chiria din ele (~12 cereri de cautare)
   ruleaza('node', ['tools/chirii.js'], true);
+  // Si chiriile de pe Publi24, lajumate, plus OLX/imobiliare/Facebook scoase azi cu browserul
+  ruleaza('node', ['tools/chirii-externe.js'], true);
   // Cat de repede dispar chiriile, pe marimi: masura cererii (tools/urmarire-chirii.js)
   ruleaza('node', ['tools/urmarire-chirii.js'], true);
   // Inainte de clasament, nu dupa: altfel ajunge in el un anunt deja sters.
