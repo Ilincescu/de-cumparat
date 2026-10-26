@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-26 18:05",
+ "generat": "2026-10-26 18:08",
  "de_la": "2026-10-22",
  "pana_la": "2026-10-26",
  "case_noi": 7,
@@ -8,33 +8,10 @@
  "din_tot_lista": true,
  "masini_din_rezerva": false,
  "ap_noi": 61,
- "ap_trec": 26,
+ "ap_trec": 25,
  "ap_din_rezerva": false,
  "chirii_din": "2026-10-26",
  "apartamente": [
-  {
-   "pret": 55000,
-   "mpu": 42,
-   "zona": "Centrul Civic, Sibiu",
-   "creat": "2026-10-24",
-   "stare": "ready_to_use",
-   "chirie": 320,
-   "chirie_din": "Centrul Civic",
-   "ani": 21.2,
-   "net": 2688,
-   "luni_goale": 1,
-   "cost_total": 56980,
-   "privat": false,
-   "riscuri": [
-    "parter/demisol",
-    "nu scrie de centrală proprie"
-   ],
-   "la_casa": false,
-   "nou": true,
-   "titlu": "Apartament 2 camere de vânzare | Sibiu, Broscărie | 42 mp",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-broscrie-42-mp-IDIZWp",
-   "scor": 21.194762684124385
-  },
   {
    "pret": 65000,
    "mpu": 50,
@@ -58,25 +35,49 @@
    "scor": 21.41176470588235
   },
   {
-   "pret": 77500,
-   "mpu": 65,
+   "pret": 72900,
+   "mpu": 49,
+   "zona": "Centrul Istoric, Sibiu",
+   "creat": "2026-10-23",
+   "stare": "ready_to_use",
+   "chirie": 390,
+   "chirie_din": "Centrul Istoric",
+   "ani": 23.5,
+   "net": 3218,
+   "luni_goale": 1,
+   "cost_total": 75524,
+   "privat": false,
+   "riscuri": [
+    "bloc din 1900",
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": true,
+   "nou": true,
+   "titlu": "Apartament etajul 1 la casa cu 2 camere in zona Centrala din Sibiu",
+   "url": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIZ4M",
+   "scor": 23.470694263161164
+  },
+  {
+   "pret": 81900,
+   "mpu": 55,
    "zona": "Lazaret, Sibiu",
-   "creat": "2026-05-18",
+   "creat": "2026-10-10",
+   "stare": "ready_to_use",
    "chirie": 430,
    "chirie_din": "Lazaret",
-   "ani": 22.4,
-   "net": 3577,
+   "ani": 24,
+   "net": 3533,
    "luni_goale": 1,
-   "cost_total": 80290,
+   "cost_total": 84848,
    "privat": false,
    "riscuri": [
     "nu scrie de centrală proprie"
    ],
    "la_casa": false,
    "nou": false,
-   "titlu": "Apartament 2 camere | 65 mp | Zona Lazaret",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-65-mp-zona-lazaret-IDHj86",
-   "scor": 22.448694290667113
+   "titlu": "Apartament 2 camere, etaj 5, mobilat în Lazaret",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-5-mobilat-n-lazaret-IDIPGF",
+   "scor": 24.018569891864345
   }
  ],
  "surse": [

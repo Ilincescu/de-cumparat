@@ -60,6 +60,18 @@
    "ce": "Apartament 2 camere, 65 mp, la subsol, ultracentral (Terezian), sobe, hol comun",
    "pret": 59000,
    "motiv": "subsol/demisol si arata urat (2026-10-26)"
+  },
+  {
+   "id": "IDIZWp",
+   "ce": "Apartament 2 camere, 42 mp, Broscarie, 'parter' - de fapt pe doua niveluri, cu scara de lemn la dormitor",
+   "pret": 55000,
+   "motiv": "pe doua niveluri, scara de lemn in poze; textul nu o spune (2026-10-26)"
+  },
+  {
+   "id": "IDHj86",
+   "ce": "Apartament 2 camere la casa, 65 mp, Lazaret / zona Garii, acces din strada",
+   "pret": 77500,
+   "motiv": "pe doua niveluri: scara la mansarda sub acoperis, in poze; dezumidificatoare in camere (2026-10-26)"
   }
  ],
  "masini": [

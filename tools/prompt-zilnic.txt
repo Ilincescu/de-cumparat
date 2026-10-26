@@ -89,7 +89,10 @@ DUPA update.js, uita-te la pozele fiecarui anunt din topul de case si de
 apartamente din azi.json (node tools/verifica.js <ID>, apoi toate pozele, nu
 miniaturi). IGRASIA E BLOCKER: pete sau tencuiala cazuta jos pe pereti, pereti
 umezi, mucegai. Anunturile n-o spun aproape niciodata (2026-10-26: 0 din 1.399),
-se vede doar in poze. Daca o vezi, adauga anuntul in tools/respinse.json (case
+se vede doar in poze. La apartamente cauta in poze si: SCARA INTERIOARA (doua
+niveluri, mansarda - IDIZWp scria "parter", IDHj86 "la casa", amandoua aveau scara
+de lemn la etaj), subsol/demisol si dezumidificatoare in camere. Toate sunt
+blocker. Daca vezi ceva din ele, adauga anuntul in tools/respinse.json (case
 sau apartamente) cu motivul "igrasie in poze", ruleaza node tools/azi.js --scrie
 si repeta pana ai trei curate. Daca pozele nu se pot descarca, spune-o in raport. Push-ul e autorizat
 aici: e repo personal, iar GitHub Pages serveste din main. La final confirma
