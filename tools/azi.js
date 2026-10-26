@@ -159,8 +159,13 @@ function filtreazaAp(x, marcate) {
   if (DEZVOLTATOR.test(t) || Number(x.an) >= 2025) return 'de la dezvoltator';
   // "300 EUR" pe Storia la vanzare e o chirie pusa la categoria gresita
   if (!x.pret || x.pret < 20000) return 'fara pret de vanzare';
+  // Mihai, 2026-10-26, la IDIDTY (3 poze, una e schita): "dubios rau, nu vad poze".
+  // Fara poze nu se poate face verificarea obligatorie (igrasie, scara, subsol).
+  if (x.nrImagini != null && x.nrImagini < POZE_MIN) return `doar ${x.nrImagini} poze, nu se poate verifica`;
   return null;
 }
+// 4 inca trece: IDIpLK (39 mp) are 4 poze si arata camerele, baia si bucataria
+const POZE_MIN = 4;
 
 // Apartamentul e investitie de inchiriat: vrea banii inapoi cat mai repede.
 // Clasez pe ani de recuperare = pret / (chiria mediana a cartierului x 12),

@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-26 20:53",
+ "generat": "2026-10-26 21:16",
  "de_la": "2026-10-22",
  "pana_la": "2026-10-26",
  "case_noi": 8,
@@ -78,33 +78,29 @@
   },
   {
    "alte": [],
-   "pret": 53000,
-   "mpu": 36,
-   "zona": "Centrul Istoric, Sibiu",
-   "creat": "2026-09-23",
-   "stare": "to_renovation",
-   "chirie": 340,
+   "pret": 75000,
+   "mpu": 48,
+   "zona": "Gusterita, Sibiu",
+   "creat": "2026-02-17",
+   "stare": "ready_to_use",
+   "chirie": 435,
    "chirie_din": "oras",
-   "chirie_n": 18,
+   "chirie_n": 23,
    "chirie_mp": [
-    31,
-    41
+    41,
+    55
    ],
-   "ani": 21.1,
-   "net": 2598,
-   "luni_goale": 2,
-   "cost_total": 54908,
+   "ani": 21.3,
+   "net": 3652,
+   "luni_goale": 1,
+   "cost_total": 77700,
    "fara_comision": false,
-   "riscuri": [
-    "bloc din 1970",
-    "nu scrie de centrală proprie",
-    "necesită renovare: chiria estimată e pentru renovat"
-   ],
+   "riscuri": [],
    "la_casa": false,
    "nou": false,
-   "titlu": "Apartament de vanzare necesita renovare Sibiu Ultracentral",
-   "url": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-necesita-renovare-sibiu-ultracentral-IDIDTY",
-   "scor": 21.134719014626636
+   "titlu": "Apartament cu 2 camere in Gusterita",
+   "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-in-gusterita-IDGoIa",
+   "scor": 21.27484803679974
   }
  ],
  "surse": [
