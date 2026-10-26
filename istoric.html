@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2f6d4f">
+<title>Istoric anunțuri</title>
+<style>
+  :root{
+    --bg:#eef1ec; --surface:#fff; --surface-2:#f6f8f4;
+    --ink:#1b241d; --muted:#5b6a60; --faint:#8a9890;
+    --line:#dde3dc; --accent:#2f6d4f; --accent-soft:#e3efe7;
+    --warn:#a8521f; --warn-soft:#fbeee3;
+    --radius:14px;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+      --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+      --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+      --warn:#e0a16a; --warn-soft:#33281e;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
+    --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
+    --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
+    --warn:#e0a16a; --warn-soft:#33281e;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+  .wrap{max-width:960px;margin:0 auto;padding:0 16px 60px}
+  header{padding-block:22px 6px}
+  h1{font-size:21px;margin:0;letter-spacing:-.02em}
+  .lede{color:var(--muted);margin:4px 0 0;font-size:14px}
+  a{color:var(--accent)}
+  .bar{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0;align-items:center}
+  input[type=search],select{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
+  input[type=search]{flex:1 1 220px;min-width:0}
+  label.check{display:flex;gap:6px;align-items:center;font-size:14px;color:var(--muted)}
+  .count{color:var(--muted);font-size:13px;margin:0 0 8px}
+  .item{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;margin-bottom:10px}
+  .item h2{font-size:15px;margin:0 0 4px;line-height:1.35;overflow-wrap:anywhere}
+  .meta{color:var(--muted);font-size:13.5px}
+  .tag{display:inline-block;font-size:12px;border-radius:999px;padding:1px 8px;margin-right:6px;background:var(--accent-soft);color:var(--accent)}
+  .tag.dus{background:var(--warn-soft);color:var(--warn)}
+  .pret{font-weight:600}
+  .jos{color:var(--accent)} .sus{color:var(--warn)}
+  details{margin-top:6px;font-size:14px}
+  summary{cursor:pointer;color:var(--accent)}
+  .desc{white-space:pre-wrap;color:var(--ink);margin:6px 0 0;font-size:13.5px}
+  .poze{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:4px;margin-top:6px}
+  .poze img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px;display:block}
+  button.mai{font:inherit;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Istoric anunțuri</h1>
+  <p class="lede">Case și apartamente de 2 camere văzute pe piață, inclusiv cele dispărute de pe site-uri. <a href="index.html">Înapoi la listă</a></p>
+</header>
+<div class="bar">
+  <input type="search" id="q" placeholder="Caută în titlu, zonă, descriere…">
+  <select id="tip"><option value="">Case și apartamente</option><option value="casa">Case</option><option value="ap">Apartamente</option></select>
+  <select id="stare"><option value="">Active și dispărute</option><option value="activ">Active</option><option value="dus">Dispărute</option></select>
+  <label class="check"><input type="checkbox" id="cuPoze"> cu poze salvate</label>
+  <label class="check"><input type="checkbox" id="schimbat"> prețul s-a schimbat</label>
+</div>
+<p class="count" id="count">Se încarcă…</p>
+<div id="lista"></div>
+<p><button class="mai" id="mai" hidden>Arată mai multe</button></p>
+</div>
+<script>
+(function(){
+  var toate=[], aratate=0, PAS=60, filtrate=[];
+  var el=function(id){return document.getElementById(id)};
+  var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+  var fara=function(s){return String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase()};
+  var eur=function(n){return n==null?'?':Number(n).toLocaleString('ro-RO')+' €'};
+  var zile=function(a,b){return Math.round((Date.parse(b)-Date.parse(a))/86400000)};
+  var azi=new Date().toISOString().slice(0,10);
+
+  function card(e){
+    var p=e.preturi||[], prim=p[0], ultim=p[p.length-1];
+    var dif=prim&&ultim?ultim.p-prim.p:0;
+    var dePe=e.postat&&e.postat<e.prima?e.postat:e.prima;
+    var pana=e.disparut||azi;
+    var h='<div class="item"><h2><a href="'+esc(e.u)+'" target="_blank" rel="noopener">'+esc(e.t||e.u)+'</a></h2>';
+    h+='<div class="meta">'+(e.disparut?'<span class="tag dus">dispărut '+esc(e.disparut)+'</span>':'<span class="tag">activ</span>')
+      +esc(e.tip==='casa'?'casă':'apartament')+' · '+esc(e.zona||'zonă necunoscută')+(e.mp?' · '+esc(e.mp)+' mp':'')
+      +(e.teren&&e.tip==='casa'?' · teren '+esc(e.teren)+' mp':'')+(e.etaj?' · '+esc(e.etaj.toLowerCase())+'':'')+(e.an?' · '+esc(e.an):'')
+      +' · '+esc(e.sursa)+(e.agentie?' ('+esc(e.agentie)+')':'')+'</div>';
+    h+='<div class="meta"><span class="pret">'+eur(ultim&&ultim.p)+'</span>'
+      +(dif?' <span class="'+(dif<0?'jos':'sus')+'">('+(dif>0?'+':'')+eur(dif)+' față de '+eur(prim.p)+')</span>':'')
+      +' · pe piață din '+esc(dePe)+' ('+zile(dePe,pana)+' zile) · văzut de noi '+esc(e.prima)+' – '+esc(e.ultima)+'</div>';
+    if(p.length>1) h+='<details><summary>Prețuri ('+p.length+')</summary><div class="desc">'+p.map(function(x){return esc(x.d)+'  '+eur(x.p)}).join('\n')+'</div></details>';
+    if(e.descriere) h+='<details><summary>Descrierea salvată</summary><div class="desc">'+esc(e.descriere)+'</div></details>';
+    if(e.poze) h+='<details data-poze="'+esc(e.id)+'" data-n="'+e.poze+'"><summary>Poze salvate ('+e.poze+')</summary><div class="poze"></div></details>';
+    if(e.nota) h+='<div class="meta">'+esc(e.nota)+'</div>';
+    return h+'</div>';
+  }
+
+  function aplica(){
+    var q=fara(el('q').value).trim(), tip=el('tip').value, st=el('stare').value;
+    filtrate=toate.filter(function(e){
+      if(tip&&e.tip!==tip) return false;
+      if(st==='activ'&&e.disparut) return false;
+      if(st==='dus'&&!e.disparut) return false;
+      if(el('cuPoze').checked&&!e.poze) return false;
+      if(el('schimbat').checked&&!((e.preturi||[]).length>1)) return false;
+      return !q||fara(e.t+' '+e.zona+' '+e.descriere+' '+e.id).indexOf(q)>=0;
+    });
+    el('count').textContent=filtrate.length+' anunțuri'+(filtrate.length?' · cele mai recent văzute primele':'');
+    el('lista').innerHTML=''; aratate=0; mai();
+  }
+  function mai(){
+    el('lista').insertAdjacentHTML('beforeend',filtrate.slice(aratate,aratate+PAS).map(card).join(''));
+    aratate+=PAS; el('mai').hidden=aratate>=filtrate.length;
+  }
+  // Pozele se incarca doar cand deschizi sectiunea
+  document.addEventListener('toggle',function(ev){
+    var d=ev.target; if(!d.open||!d.dataset||!d.dataset.poze) return;
+    var box=d.querySelector('.poze'); if(box.childElementCount) return;
+    for(var i=1;i<=Number(d.dataset.n);i++) box.insertAdjacentHTML('beforeend','<a href="arhiva/poze/'+d.dataset.poze+'/'+String(i).padStart(2,'0')+'.jpg" target="_blank"><img loading="lazy" alt="" src="arhiva/poze/'+d.dataset.poze+'/'+String(i).padStart(2,'0')+'.jpg"></a>');
+  },true);
+  ['q','tip','stare','cuPoze','schimbat'].forEach(function(id){el(id).addEventListener('input',aplica)});
+  el('mai').addEventListener('click',mai);
+  fetch('arhiva.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(j){
+    toate=Object.values(j.anunturi).sort(function(a,b){return (b.ultima||'').localeCompare(a.ultima||'')||(b.prima||'').localeCompare(a.prima||'')});
+    aplica();
+  }).catch(function(){el('count').textContent='Nu am putut încărca arhiva.'});
+})();
+</script>
+</body>
+</html>
