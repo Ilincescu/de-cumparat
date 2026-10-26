@@ -21,6 +21,7 @@ const { grupeaza } = require('./dubluri.js');
 
 const respinse = JSON.parse(fs.readFileSync(path.join(__dirname, 'respinse.json'), 'utf8'));
 const ID_RESPINSE = new Set(respinse.case.map(x => x.id));
+const ID_AP_RESPINSE = new Set((respinse.apartamente || []).map(x => x.id));
 const MASINI_RESPINSE = new RegExp(
   respinse.masini.map(x => x.model).concat(respinse.modele_prea_mici)
     .map(s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'), 'i');
@@ -31,11 +32,14 @@ const idAnunt = u => ((String(u).match(/-(ID[A-Za-z0-9]+)(?:\.html)?$/) || [])[1
 // ---------- criteriile lui, ca filtre tari ----------
 
 const AFARA = /r[aă][sș]inari|al[tț][aâ]na|tili[sș]ca|p[aă]ltini[sș]|[sș]ura mic|[sș]ura mare|bavaria|cisn[aă]die|[sș]elimb[aă]r|nucet|dealul sibiului|dealul daii|tropini|sibiel|t[aă]lmaciu|poplaca|ocna sibiului|sadu|tocile|ro[sș]ia|cristian|vurp[aă]r|daia|corn[aă][tț]el|hosman|cop[sș]a|ru[sș]ciori|ru[sș]i|slimnic|de vacan[tț]/i;
-const COMUNA = /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă]\s+parte|p[aă]r[tț]i\s+comune|[iî]n\s+indiviziune/i;
+const COMUNA = /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă]\s+parte|\bcot[aă]\s+(de\s+)?\d+\s*\/\s*\d+|p[aă]r[tț]i\s+comune|[iî]n\s+indiviziune/i;
 // "Compartimentata in doua apartamente a cate 2 camere" e acelasi lucru cu
 // doua corpuri, scris altfel - asa a trecut casa din Moara de Scoarta.
 const CORPURI = /2 corpuri|dou[aă] corpuri|duplex|triplex|cvadruplex|garsonier|[iî]n[sș]iruit|dou[aă]\s+apartamente|2\s+apartamente|multifamilial|dou[aă]\s+locuin[tț]e|2\s+locuin[tț]e|dou[aă]\s+unit[aă][tț]i/i;
 const SERVITUTE = /servitute|drept de trecere|acces prin curtea/i;
+// Igrasia e blocker. Snapshotul are si excluderea din scan.js, dar doar din ziua
+// in care a fost scanat; aici prinde si snapshoturile mai vechi.
+const IGRASIE = /(?<!(f[aă]r[aă]|nu\s+(are|prezint[aă]|exist[aă])|lips[aă]|anti|zero)[\s\w&;-]{0,25})(igrasi|umezeal|mucegai|infiltra[tț]i)/i;
 // Curtea pavata e criteriu de respingere, nu de punctaj - a refuzat casa din
 // Petru Maior exact pentru asta. Prima varianta cerea cuvintele lipite,
 // "curte pavata", si scapa formularea agentiei: "curte individuala, amenajata
@@ -96,8 +100,11 @@ function filtreazaCasa(x) {
   if (COMUNA.test(t)) return 'curte comuna';
   if (CORPURI.test(t)) return 'doua corpuri sau garsoniera';
   if (SERVITUTE.test(t)) return 'acces prin curtea altuia';
+  if (IGRASIE.test(t)) return 'igrasie';
   // 250.000 e pentru casa SI apartament; ~50.000 raman pentru apartament.
   if (!x.pret || x.pret > 200000) return 'peste buget';
+  // Sub 20.000 nu e o casa intreaga: cota, avans sau chirie (ca PRET_MINIM din surse-case.js)
+  if (x.pret < 20000) return 'pret nerealist pentru o casa';
   if (!x.mpu || x.mpu < 50) return 'sub 50 mp utili';
   if (BETON.test(t)) return 'curte pavata, nu verde';
   const c = curteLibera(x);
@@ -132,6 +139,8 @@ const LA_CASA = /(apartament|locuin[tț][aă])\s+(la|[iî]n)\s+cas[aă]|\bla\s+c
 function filtreazaAp(x, marcate) {
   const t = (x.titlu || '') + ' ' + (x.descriere || '');
   if (marcate.has(x.url)) return 'sters sau dublura (date.json)';
+  if (ID_AP_RESPINSE.has(idAnunt(x.url))) return 'respins deja';
+  if (IGRASIE.test(t)) return 'igrasie';
   if (x.exclus && x.exclus.length) return 'exclus automat: ' + [].concat(x.exclus).join(', ');
   if (AFARA.test(t)) return 'in afara orasului';
   if (x.camere !== 'TWO') return 'nu are 2 camere';
@@ -326,6 +335,15 @@ if (!topCase.length) {
   topCase = await primeleVii(r.trec, 3, g => g.x.url);
   dinRezerva = topCase.length > 0;
 }
+// Vrea mereu trei optiuni in top, nu o caseta goala: completez din toata lista,
+// nu doar din ultima saptamana.
+let dinTotLista = false;
+if (topCase.length < 3) {
+  const deja = new Set(topCase.map(g => g.x.url));
+  const r = alege(toateCasele.filter(x => !deja.has(x.url)), index);
+  const rest = await primeleVii(r.trec.filter(g => !deja.has(g.x.url)), 3 - topCase.length, g => g.x.url);
+  if (rest.length) { topCase = topCase.concat(rest); dinRezerva = true; dinTotLista = true; }
+}
 
 const marcate = new Set(JSON.parse(fs.readFileSync(path.join(RADACINA, 'date.json'), 'utf8')).anunturi
   .filter(o => o.mort || o.dup).map(o => o.u));
@@ -366,6 +384,7 @@ surse().forEach(s => console.log(`  ${s.nume.padEnd(8)} ${s.cand || '—'}  ${s.
 
 console.log(`\nCASE — ${caseNoi.length} postate în interval, ${trec.length} trec de criterii\n`);
 if (!topCase.length) console.log('  nimic nou care să bifeze criteriile.\n');
+else if (dinTotLista) console.log('  Prea puține noi. Completat cu cele mai bune de pe toată lista:\n');
 else if (dinRezerva) console.log(`  Nimic postat în interval. Cele mai bune 3 de după ${SAPT}:\n`);
 topCase.forEach(({ x, alte }, i) => {
   const c = curteLibera(x);
@@ -417,7 +436,7 @@ if (scrie) {
     generat: new Date(Date.now() - new Date().getTimezoneOffset() * 60000)
       .toISOString().slice(0, 16).replace('T', ' '),
     de_la: referinta.data, pana_la: acum.data,
-    case_noi: caseNoi.length, case_trec: trec.length, din_rezerva: dinRezerva,
+    case_noi: caseNoi.length, case_trec: trec.length, din_rezerva: dinRezerva, din_tot_lista: dinTotLista,
     masini_din_rezerva: masiniDinRezerva,
     ap_noi: apNoi.length, ap_trec: apOk.length, ap_din_rezerva: apDinRezerva,
     apartamente: topAp.map(({ x, p }) => ({

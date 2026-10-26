@@ -1,27 +1,16 @@
 {
- "generat": "2026-10-26 07:11",
+ "generat": "2026-10-26 07:14",
  "de_la": "2026-10-20",
  "pana_la": "2026-10-22",
  "case_noi": 3,
  "case_trec": 0,
- "din_rezerva": false,
+ "din_rezerva": true,
+ "din_tot_lista": true,
  "masini_din_rezerva": false,
  "ap_noi": 14,
  "ap_trec": 2,
  "ap_din_rezerva": false,
  "apartamente": [
-  {
-   "pret": 65000,
-   "mpu": 45,
-   "zona": "Centrul Istoric, Sibiu",
-   "creat": "2026-07-30",
-   "stare": "ready_to_use",
-   "la_casa": true,
-   "nou": false,
-   "titlu": "Apartament la casă, 2 camere | Zona Strada 9 Mai – Constituției",
-   "url": "https://www.storia.ro/ro/oferta/apartament-la-cas-2-camere-zona-strada-9-mai-constituiei-IDI30T",
-   "scor": 44
-  },
   {
    "pret": 47000,
    "mpu": 30,
@@ -45,6 +34,18 @@
    "titlu": "Apartament etajul 1 la casa cu 2 camere in zona Centrala din Sibiu",
    "url": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIVkm",
    "scor": 39
+  },
+  {
+   "pret": 74500,
+   "mpu": 45,
+   "zona": "Trei Stejari, Sibiu",
+   "creat": "2026-04-07",
+   "stare": "ready_to_use",
+   "la_casa": true,
+   "nou": false,
+   "titlu": "Apartament 2 camere la casa 45 mp zona Centrala Sibiu",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-la-casa-45-mp-zona-centrala-sibiu-IDGWxw",
+   "scor": 38
   }
  ],
  "surse": [
@@ -69,7 +70,53 @@
    "veche": false
   }
  ],
- "case": [],
+ "case": [
+  {
+   "pret": 135000,
+   "mpu": 75,
+   "curte": 227,
+   "curte_sigura": false,
+   "teren": 280,
+   "zona": "Sibiu",
+   "stare": "to_renovation",
+   "creat": "2026-09-14",
+   "repostat": true,
+   "alte": [],
+   "titlu": "Casa de vanzare zona Calea Surii Mici",
+   "url": "https://www.storia.ro/ro/oferta/casa-de-vanzare-zona-calea-surii-mici-IDIx6O",
+   "scor": 73
+  },
+  {
+   "pret": 87900,
+   "mpu": 84,
+   "curte": 276,
+   "curte_sigura": false,
+   "teren": 335,
+   "zona": "Lazaret, Sibiu",
+   "an": "1970",
+   "creat": "2026-10-14",
+   "repostat": true,
+   "alte": [],
+   "titlu": "Casa 2 camere de vanzare - Lazaret Sibiu",
+   "url": "https://www.storia.ro/ro/oferta/casa-2-camere-de-vanzare-lazaret-sibiu-IDIShx",
+   "scor": 69
+  },
+  {
+   "pret": 170000,
+   "mpu": 80,
+   "curte": 264,
+   "curte_sigura": false,
+   "teren": 320,
+   "zona": "Lazaret, Sibiu",
+   "stare": "to_renovation",
+   "creat": "2026-04-21",
+   "repostat": true,
+   "alte": [],
+   "titlu": "Casa individuala de Vanzare in Sibiu, 80 mp utili, teren de 320 mp",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-in-sibiu-80-mp-utili-teren-de-320-mp-IDH24t",
+   "scor": 69
+  }
+ ],
  "masini": [
   {
    "pret": 9500,

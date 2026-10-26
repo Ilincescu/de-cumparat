@@ -37,9 +37,12 @@ const IN_AFARA = /r[aă][sș]inari|al[tț][aâ]na|tili[sș]ca|p[aă]ltini[sș]|[
 // Motive de excludere scrise in descriere, nu in titlu. Fiecare a costat o
 // recomandare data si apoi retrasa.
 const EXCLUDERI = [
-  { cheie: 'curte comuna', re: /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă]\s+parte|p[aă]r[tț]i\s+comune|[iî]n\s+indiviziune/i },
+  { cheie: 'curte comuna', re: /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă]\s+parte|\bcot[aă]\s+(de\s+)?\d+\s*\/\s*\d+|p[aă]r[tț]i\s+comune|[iî]n\s+indiviziune/i },
   { cheie: 'doua corpuri', re: /dou[aă]\s+corpuri|2\s+corpuri|dou[aă]\s+locuin[tț]e/i },
   { cheie: 'nefinisata', re: /la\s+alb|la\s+ro[sș]u|stadiul\s+de\s+gri|semifinisat/i },
+  // Igrasia e blocker (2026-10-26). Anunturile scriu mai des "fara infiltratii",
+  // de aceea negatia din fata nu declanseaza. Aceeasi regula in surse-case.js si azi.js.
+  { cheie: 'igrasie', re: /(?<!(f[aă]r[aă]|nu\s+(are|prezint[aă]|exist[aă])|lips[aă]|anti|zero)[\s\w&;-]{0,25})(igrasi|umezeal|mucegai|infiltra[tț]i)/i },
 ];
 
 function citesteJson(p) { return JSON.parse(fs.readFileSync(p, 'utf8')); }

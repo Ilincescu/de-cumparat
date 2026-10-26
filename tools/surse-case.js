@@ -28,6 +28,7 @@ const EXCLUS = [
   ['curte comuna', /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă]\s+parte|\bcot[aă]\s+(de\s+)?\d+\s*\/\s*\d+|[iî]n\s+indiviziune/i],
   ['doua corpuri', /(dou[aă]|2)\s+(corpuri|case|locuin[tț]e|apartamente|garsoniere)|aceea?(s|ș)i\s+curte/i],
   ['nefinisata', /\bla\s+alb\b|\bla\s+ro[sș]u\b|stadiul?\s+de\s+gri|semifinisat/i],
+  ['igrasie', /(?<!(f[aă]r[aă]|nu\s+(are|prezint[aă]|exist[aă])|lips[aă]|anti|zero)[\s\w&;-]{0,25})(igrasi|umezeal|mucegai|infiltra[tț]i)/i],
   ['nu e casa', /^apartament(?!\s+(la|de)\s+cas)|\bteren\s+intravilan\b(?!.*\bcas)|spa[tț]iu\s+comercial|\bhal[aă]\b|capsul|cas[aă]\s+mobil|glamping|c[aă]su[tț][aăe]|modular|container/i],
   ['alt judet', /v[aâ]lcea|\bbran\b|bra[sș]ov|bruiu|[sș]omartin|\bcomuna\b|\bcom\.|\bsat(ul|ului)?\b|[sș]eica|mic[aă]sasa|\bla\s+[tț]ar[aă]\b|\bjud(e[tț]ul)?\.?\s+(?!sibiu)[a-zăâîșț]{3,}|\bloc\.\s*(?!sibiu)[a-zăâîșț]{3,}/i],
 ];

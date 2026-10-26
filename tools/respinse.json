@@ -42,6 +42,14 @@
    "motiv": "mai e o casa in spate, scoasa si ea la vanzare - s-ar trece prin curte"
   }
  ],
+ "apartamente": [
+  {
+   "id": "IDI30T",
+   "ce": "Apartament la casa, 2 camere, 45 mp, str. 9 Mai - Constitutiei",
+   "pret": 65000,
+   "motiv": "arata urat si are igrasie jos pe pereti - se vede in poze (2026-10-26)"
+  }
+ ],
  "masini": [
   {
    "model": "duster",

@@ -779,6 +779,7 @@
     }else{
       if(rezerva) h.push('<p class="nota">'+(masini
         ? 'Nimic nou. Mai jos sunt cele mai bune de pe toată lista.'
+        : AZI.din_tot_lista ? 'Prea puține noi. Mai jos sunt cele mai bune de pe toată lista.'
         : 'Nimic postat de ieri. Mai jos sunt cele mai bune din ultima săptămână.')+'</p>');
       if(ap) h.push('<p class="nota">Cele mai bune 3 de pe toată lista Storia, nu doar cele noi: 2 camere, minim 30 mp, fără mansardă și dezvoltator, cele ieftine și cele la casă întâi.</p>');
       else if(!masini&&!rezerva)
