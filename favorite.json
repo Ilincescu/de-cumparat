@@ -1,5 +1,5 @@
 {
-  "actualizat": "2026-09-18",
+  "actualizat": "2026-10-26",
   "note": "Lista comuna de favorite si comentarii, vizibila pe toate dispozitivele si la amandoi. Se editeaza direct de pe GitHub. Forma: sub 'anunturi', cheia e linkul exact al anuntului asa cum apare in date.json / masini.json / biciclete.json; 'fav' e lista celor care l-au pus la favorite; 'note' sunt comentariile, fiecare cu autorul lui. Numele afisate vin din 'persoane'.",
   "persoane": {
     "mihai": "Mihai",
@@ -148,6 +148,21 @@
           "cine": "mihai",
           "text": "2 corpuri de cladiri",
           "d": "2026-09-18"
+        }
+      ]
+    },
+    "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIZ4M": {
+      "fav": [],
+      "note": [
+        {
+          "cine": "mihai",
+          "d": "2026-10-26",
+          "text": "Locatie (din poze, de verificat la fata locului): Str. 9 Mai, partea cu numere impare, intre nr. 29 si 37. Reper: pensiunea Casa Baciu (nr. 29) in poza 01; casa crem cu poarta verde mare in arc si grilaj, placuta pare 33. Casa P+1 din 1900, apartamentul e la etaj, podul si acoperisul direct deasupra: de vazut starea acoperisului si al cui e podul (CF). Harta: https://www.openstreetmap.org/?mlat=45.80013&mlon=24.15346#map=19/45.80013/24.15346"
+        },
+        {
+          "cine": "mihai",
+          "d": "2026-10-26",
+          "text": "Doar agentia I-Imob (+40753773005), fara anunt de la proprietar pe Publi24, OLX, Facebook. Repostat de 3 ori: IDIyoj 16 oct, IDIVkm 20 oct, IDIZ4M 23 oct, pret neschimbat 72.900 EUR negociabil."
         }
       ]
     }
