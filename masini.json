@@ -880,7 +880,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ID7HPami.html",
    "warn": null,
    "d": "2026-09-24",
-   "gj": false
+   "gj": false,
+   "avc": "2026-10-26"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 Essential",
@@ -1377,7 +1378,8 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-1-5-blue-dci-laureate-ID7HQM31.html",
    "warn": null,
    "d": "2026-09-15",
-   "gj": false
+   "gj": false,
+   "avc": "2026-10-26"
   },
   {
    "m": "SsangYong Tivoli",
@@ -7455,6 +7457,20 @@
    "d": "2026-10-14",
    "avc": "2026-10-17",
    "gj": false
+  },
+  {
+   "m": "Peugeot 3008 1.5 BlueHDI S&S EAT8 GT-Line",
+   "an": 2020,
+   "km": 16500,
+   "cp": 130,
+   "f": "diesel",
+   "p": 14000,
+   "z": "Craiova",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-1-5-bluehdi-s-s-eat8-gt-line-ID7HQzOO.html",
+   "warn": null,
+   "d": "2026-10-26",
+   "avc": "2026-10-26"
   },
   {
    "m": "Ford Puma",
