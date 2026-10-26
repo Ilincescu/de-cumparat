@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-26 17:41",
+ "generat": "2026-10-26 18:00",
  "de_la": "2026-10-22",
  "pana_la": "2026-10-26",
  "case_noi": 7,
@@ -20,9 +20,11 @@
    "stare": "ready_to_use",
    "chirie": 400,
    "chirie_din": "Terezian",
-   "ani": 17.1,
+   "ani": 17.7,
    "net": 3458,
    "luni_goale": 1,
+   "cost_total": 61124,
+   "privat": false,
    "riscuri": [
     "bloc din 1900",
     "nu scrie de centrală proprie"
@@ -31,7 +33,7 @@
    "nou": false,
    "titlu": "Apartament 2 camere | Investitie | Ultracentral",
    "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-investitie-ultracentral-IDF6SF",
-   "scor": 17.061885482938113
+   "scor": 17.676113360323885
   },
   {
    "pret": 55000,
@@ -41,9 +43,11 @@
    "stare": "ready_to_use",
    "chirie": 320,
    "chirie_din": "Centrul Civic",
-   "ani": 20.5,
+   "ani": 21.2,
    "net": 2688,
    "luni_goale": 1,
+   "cost_total": 56980,
+   "privat": false,
    "riscuri": [
     "parter/demisol",
     "nu scrie de centrală proprie"
@@ -52,7 +56,7 @@
    "nou": true,
    "titlu": "Apartament 2 camere de vânzare | Sibiu, Broscărie | 42 mp",
    "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-broscrie-42-mp-IDIZWp",
-   "scor": 20.458265139116204
+   "scor": 21.194762684124385
   },
   {
    "pret": 65000,
@@ -62,9 +66,11 @@
    "stare": "ready_to_use",
    "chirie": 375,
    "chirie_din": "Tiglari",
-   "ani": 20.7,
+   "ani": 21.4,
    "net": 3145,
    "luni_goale": 1,
+   "cost_total": 67340,
+   "privat": false,
    "riscuri": [
     "ultimul etaj"
    ],
@@ -72,7 +78,7 @@
    "nou": false,
    "titlu": "Apartament de vânzare Sibiu | 2 camere | Lacul lui Binder",
    "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-lacul-lui-binder-IDIEgC",
-   "scor": 20.66772655007949
+   "scor": 21.41176470588235
   }
  ],
  "surse": [

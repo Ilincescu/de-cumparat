@@ -5,6 +5,10 @@ si nu sari peste niciunul. Scrie in romana, fara diacritice in fisierele JSON.
 CEL MAI IMPORTANT: "update" inseamna PUBLICAT, nu cautat. Treaba nu e gata
 pana ce anunturile nu se vad pe pagina publica.
 
+PRIMUL PAS: `curl -s https://ipinfo.io/json`. Daca "org" e Visma (AS61213),
+VPN-ul Cisco e pornit si Storia da 403 (IP-ul Visma e blocat din 2026-10-23).
+Cere-i lui Mihai sa opreasca VPN-ul si nu rula scanarea pana nu iesi prin Digi.
+
 INAINTE de update.js, scoate cu browserul (Playwright) casele din cele doua
 surse care dau 403 la un GET si salveaza-le in tools/externe/. update.js le ia
 singur pe cele salvate azi:

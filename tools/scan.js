@@ -251,9 +251,10 @@ async function scaneazaStoria() {
     const oras = brute.filter(inOras);
     console.log(`${tip}: ${brute.length} in judet, ${oras.length} in oras`);
 
-    // Cu ~1.400 de fise citite zilnic, cate 8 odata, Storia (CloudFront) a blocat
-    // IP-ul de acasa din 2026-10-23: 403 pe Wi-Fi, merge pe date mobile. Recitesc
-    // doar anunturile noi sau cu pretul schimbat, cate 2, cu pauza intre cereri.
+    // Din 2026-10-23 Storia (CloudFront) da 403 pe IP-ul Visma (91.123.49.215,
+    // Oslo), pe unde iese laptopul cand VPN-ul Cisco e pornit; fara VPN, pe Digi,
+    // merge (2026-10-26). Recitesc doar anunturile noi sau cu pretul schimbat,
+    // cate 2, cu pauza intre cereri, ca sa nu ajunga blocat si IP-ul de acasa.
     const vechi = fiseDinSnapshot();
     const t0 = Date.now();
     let citite = 0;

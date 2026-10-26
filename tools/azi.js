@@ -189,6 +189,16 @@ function chirieZona(zona, mpu) {
 //   impozit     8% din chirie - 10% dupa deducerea forfetara de 20% (ANAF)
 //   intretinere 1% din pret pe an - regula uzuala pentru reparatii (Howsy)
 const RISC = { luniGoale: 1, luniGoaleMic: 1, sub: 40, impozit: 0.08, intretinere: 0.01 };
+// Banii dati la cumparare, peste pret (2026-10-26, Mihai: "comision de 2% ptr
+// MAAC, plus altele la notar"):
+//   comision  2% - cat cer agentiile; 0 doar la anunt direct de la proprietar
+//             (x.privat). Storia nu ne spune inca cine a pus anuntul, deci
+//             presupun agentie
+//   notar     1,6% - onorariu + TVA + intabulare 0,15% + extras CF. Exemplu:
+//             350.000 lei -> ~5.072 lei onorariu cu TVA, 1,45% (notari.pro/calculator-taxe-notariale),
+//             plus 0,15% intabulare (capital.ro). Plateste cumparatorul (Codul civil)
+const ACHIZITIE = { comision: 0.02, notar: 0.016 };
+const costTotal = x => Math.round(x.pret * (1 + ACHIZITIE.notar + (x.privat ? 0 : ACHIZITIE.comision)));
 // Rs I / bulina rosie: legea 212/2022 modificata de 426/2023 interzice inchirierea
 // pana la consolidare (cotidianul.ro; textul legii neverificat) - deci blocker.
 const RISC_SEISMIC = /bulin[aă]\s+ro[sș]ie|clasa\s+(i|1)\s+de\s+risc|\brs\s*i\b|risc\s+seismic\s+(ridicat|clasa)|\bu[123]\b.*seismic/i;
@@ -200,7 +210,8 @@ function calculAp(x) {
   const c = chirieZona(x.zona, x.mpu);
   const goale = RISC.luniGoale + (x.mpu < RISC.sub ? RISC.luniGoaleMic : 0);
   const net = c.chirie * (12 - goale) * (1 - RISC.impozit) - x.pret * RISC.intretinere;
-  return { c, goale, net: Math.round(net), ani: net > 0 ? x.pret / net : Infinity };
+  const cost = costTotal(x);
+  return { c, goale, cost, net: Math.round(net), ani: net > 0 ? cost / net : Infinity };
 }
 
 // Riscuri fara cifra: nu schimba ordinea, dar se vad langa apartament.
@@ -507,7 +518,7 @@ if (scrie) {
     apartamente: topAp.map(({ x, p }) => ({
       pret: x.pret, mpu: x.mpu, zona: x.zona, creat: x.creat, stare: x.stare,
       chirie: chirieZona(x.zona, x.mpu).chirie, chirie_din: chirieZona(x.zona, x.mpu).din, ani: Math.round(p * 10) / 10,
-      net: calculAp(x).net, luni_goale: calculAp(x).goale, riscuri: avertismenteAp(x),
+      net: calculAp(x).net, luni_goale: calculAp(x).goale, cost_total: calculAp(x).cost, privat: !!x.privat, riscuri: avertismenteAp(x),
       la_casa: LA_CASA.test((x.titlu || '') + ' ' + (x.descriere || '')), nou: esteNou(x),
       titlu: x.titlu, url: x.url, scor: p,
     })),
