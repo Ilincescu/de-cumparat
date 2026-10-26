@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-26 18:53",
+ "generat": "2026-10-26 20:53",
  "de_la": "2026-10-22",
  "pana_la": "2026-10-26",
  "case_noi": 8,
@@ -13,36 +13,19 @@
  "chirii_din": "2026-10-26",
  "apartamente": [
   {
-   "pret": 89000,
-   "mpu": 67,
-   "zona": "Tilisca, Sibiu",
-   "creat": "2026-10-23",
-   "stare": "ready_to_use",
-   "chirie": 550,
-   "chirie_din": "oras",
-   "chirie_n": 7,
-   "chirie_mp": [
-    57,
-    77
+   "alte": [
+    {
+     "pret": 52000,
+     "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-tiglari-parter-inalt-IDECHg"
+    },
+    {
+     "pret": 53000,
+     "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-parter-37-mpu-tiglari-IDFnVg"
+    }
    ],
-   "ani": 19.7,
-   "net": 4676,
-   "luni_goale": 1,
-   "cost_total": 92204,
-   "fara_comision": false,
-   "riscuri": [
-    "nu scrie de centrală proprie"
-   ],
-   "la_casa": false,
-   "nou": true,
-   "titlu": "Apartament 2 camere decomandate etaj 2 zona Strand 2",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandate-etaj-2-zona-strand-2-IDIZcb",
-   "scor": 19.718562874251496
-  },
-  {
    "pret": 51000,
    "mpu": 37,
-   "zona": "Strand I, Sibiu",
+   "zona": "Tiglari, Sibiu",
    "creat": "2025-08-17",
    "chirie": 340,
    "chirie_din": "oras",
@@ -57,6 +40,7 @@
    "cost_total": 52836,
    "fara_comision": false,
    "riscuri": [
+    "zona din anunț Tiglari, pinul Storia Strand I",
     "parter",
     "nu scrie de centrală proprie"
    ],
@@ -67,6 +51,7 @@
    "scor": 20.181818181818183
   },
   {
+   "alte": [],
    "pret": 52981,
    "mpu": 39,
    "zona": "Tiglari, Sibiu",
@@ -90,6 +75,36 @@
    "titlu": "Apartament de vânzare Sibiu | 2 camere | Țiglari | etaj 2, 39 mp",
    "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-iglari-etaj-2-39-mp-IDIpLK",
    "scor": 20.403019861050705
+  },
+  {
+   "alte": [],
+   "pret": 53000,
+   "mpu": 36,
+   "zona": "Centrul Istoric, Sibiu",
+   "creat": "2026-09-23",
+   "stare": "to_renovation",
+   "chirie": 340,
+   "chirie_din": "oras",
+   "chirie_n": 18,
+   "chirie_mp": [
+    31,
+    41
+   ],
+   "ani": 21.1,
+   "net": 2598,
+   "luni_goale": 2,
+   "cost_total": 54908,
+   "fara_comision": false,
+   "riscuri": [
+    "bloc din 1970",
+    "nu scrie de centrală proprie",
+    "necesită renovare: chiria estimată e pentru renovat"
+   ],
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament de vanzare necesita renovare Sibiu Ultracentral",
+   "url": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-necesita-renovare-sibiu-ultracentral-IDIDTY",
+   "scor": 21.134719014626636
   }
  ],
  "surse": [

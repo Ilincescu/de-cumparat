@@ -192,15 +192,26 @@ const CHIRII_ANUNTURI = (() => {
 // chirii de ~40 mp erau "The Lake Home", "bloc nou", "prima inchiriere" (420 €),
 // iar un 39 mp din 1980 iesea la 420 € (2026-10-26). Cautarea nu da anul, dar
 // slug-ul are titlul.
-const CHIRIE_NOUA = /bloc-nou|prima-i?nchiriere|lake-home|lake-city|ansamblu|rezidential|green-hill|constructie-noua|nou-|-nou\b|lux|premium|finisaje-moderne|lift/i;
+// "lux", "premium", "finisaje moderne" spun finisajul, nu anul blocului: cu ele, un
+// bloc din 2010 din Tilisca lua chiria penthouse-urilor din Terezian si Hipodrom
+// (550 €), cand in Tilisca 72 mp se cer 460-470 € (2026-10-26).
+const CHIRIE_NOUA = /bloc-nou|prima-i?nchiriere|lake-home|lake-city|ansamblu|rezidential|green-hill|constructie-noua|nou-|-nou\b|lift/i;
 const apNou = x => Number(x.an) >= 2010;
+
+// Cartierul intreg, nu inceputul lui: "hipodrom iii, sibiu" incepe cu "hipodrom ii"
+const eCartier = (z, c) => z === fara(c) || z.startsWith(fara(c) + ',');
 
 function chirieComparabile(zona, mpu, nou) {
   const z = fara(zona || '');
+  const inCartier = a => a.cartier !== 'Fara cartier' && eCartier(z, a.cartier);
   const potrivite = CHIRII_ANUNTURI.filter(a => CHIRIE_NOUA.test(a.url) === nou);
-  const dinCartier = potrivite.filter(a => a.cartier !== 'Fara cartier' && z.startsWith(fara(a.cartier)));
-  // ±20% mp in cartier, apoi ±15% in oras; o plaja mai larga punea 47 mp langa 36 mp
-  const incercari = [[dinCartier, 0.2, null], [potrivite, 0.15, 'oras']];
+  const dinCartier = potrivite.filter(inCartier);
+  // ±20% mp in cartier, apoi ±15% in oras; o plaja mai larga punea 47 mp langa 36 mp.
+  // Un bloc nou ia si chiriile vechi din cartier inainte de oras: iese mai mica, nu
+  // mai mare. Invers nu - un bloc vechi langa chirii noi iese prea scump.
+  const incercari = [[dinCartier, 0.2, null]];
+  if (nou) incercari.push([CHIRII_ANUNTURI.filter(inCartier), 0.2, null]);
+  incercari.push([potrivite, 0.15, 'oras']);
   for (const [lista, abatere, unde] of incercari) {
     const g = lista.filter(a => Math.abs(a.mp - mpu) <= mpu * abatere);
     if (g.length < 3) continue;
@@ -214,7 +225,7 @@ function chirieComparabile(zona, mpu, nou) {
 function chirieZona(zona, mpu, nou = false) {
   if (CHIRII_ANUNTURI.length && mpu) { const c = chirieComparabile(zona, mpu, nou); if (c) return c; }
   const z = fara(zona || '');
-  const g = CHIRII.zone.find(c => z.startsWith(fara(c.cartier)));
+  const g = CHIRII.zone.find(c => eCartier(z, c.cartier));
   // Sub 5 anunturi de inchiriat, mediana cartierului e doua-trei apartamente
   const baza = g && g.nc >= 5 ? { chirie: g.chirie, din: g.cartier, n: g.nc } : { chirie: CHIRII.oras, din: 'oras', n: null };
   if (!CHIRIE_MP || !mpu || !CHIRII.oras) return baza;
@@ -252,8 +263,27 @@ const PARTER = /\bparter\b(?!\s+[iî]nalt)|\bdemisol\b|\bsuteran/i;
 const ULTIMUL = /etaj(?:ul)?\s*(\d+)\s*(?:din|\/)\s*(\d+)/i;
 const CENTRALA = /central[aă]\s+(termic[aă]\s+)?(proprie|pe\s+gaz|individual)/i;
 
+// Cartierul vine din pinul pus de agent pe harta Storia, si pinul poate fi gresit:
+// IDEAhs scrie "Tiglari" in titlu si "zona Tiglari" in descriere, pinul e pe str.
+// Rennes, deci Strand I (2026-10-26). Cand titlul sau "zona/cartierul X" din
+// descriere numeste alt cartier cunoscut, acela castiga.
+const fara2 = s => fara(s).replace(/(.)\1+/g, '$1');
+const CARTIERE = [...new Set(CHIRII_ANUNTURI.map(a => a.cartier).concat((CHIRII.zone || []).map(c => c.cartier)))]
+  .filter(c => c && c !== 'Fara cartier').sort((a, b) => b.length - a.length);
+const scapa = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+function cartierDinText(x) {
+  const zonaD = ((x.descriere || '').match(/(?:zona|cartier(?:ul)?)\s+([^.,;:!\n]{3,30})/gi) || []).join(' ');
+  const t = fara2((x.titlu || '') + ' ' + zonaD);
+  return CARTIERE.find(c => new RegExp('\\b' + scapa(fara2(c)) + '\\b').test(t)) || null;
+}
+function zonaAp(x) {
+  const c = cartierDinText(x);
+  if (!c || fara2(x.zona || '').startsWith(fara2(c))) return { zona: x.zona, pin: null };
+  return { zona: c + ', Sibiu', pin: x.zona };
+}
+
 function calculAp(x) {
-  const c = chirieZona(x.zona, x.mpu, apNou(x));
+  const c = chirieZona(zonaAp(x).zona, x.mpu, apNou(x));
   const goale = RISC.luniGoale + (x.mpu < RISC.sub ? RISC.luniGoaleMic : 0);
   const net = c.chirie * (12 - goale) * (1 - RISC.impozit) - x.pret * RISC.intretinere;
   const cost = costTotal(x);
@@ -264,6 +294,8 @@ function calculAp(x) {
 function avertismenteAp(x) {
   const t = (x.titlu || '') + ' ' + (x.descriere || '');
   const a = [];
+  const za = zonaAp(x);
+  if (za.pin) a.push(`zona din anunț ${za.zona.replace(', Sibiu', '')}, pinul Storia ${za.pin.replace(', Sibiu', '')}`);
   // Etajul din fisa Storia bate textul, care pomeneste "parter" si la etajul 4 (IDIXZT)
   if (x.etaj ? x.etaj === 'GROUND' : PARTER.test(t)) a.push('parter');
   const e = t.match(ULTIMUL);
@@ -282,10 +314,20 @@ function punctajAp(x) {
 function alegeAp(lista, marcate) {
   // Acelasi apartament la doua agentii: acelasi pret si aceiasi mp. Cartierul nu
   // intra in cheie - doua agentii l-au pus pe acelasi in Hipodrom II si III.
-  const vazut = new Set();
-  return lista.filter(x => !filtreazaAp(x, marcate))
-    .map(x => ({ x, p: punctajAp(x) })).sort((a, b) => a.p - b.p)
-    .filter(({ x }) => { const k = `${x.pret}|${x.mpu}`; if (vazut.has(k)) return false; vazut.add(k); return true; });
+  // Pretul nu trebuie sa fie identic: IDEAhs (51.000) si IDECHg la I-Imob (52.000)
+  // au aceleasi poze si erau locurile 1 si 3 (2026-10-26). Anul nu intra: unul
+  // scrie 1997, celalalt 1980. Deci: aceiasi mp, acelasi etaj (cand il stim la
+  // amandoua), acelasi cartier din anunt, pret la ±5%. Mp la ±1: Blitz il are pe
+  // acelasi cu 36 mp (IDECg4, 49.900).
+  const acelasi = (a, b) => Math.abs(a.mpu - b.mpu) <= 1
+    && (!a.etaj || !b.etaj || a.etaj === b.etaj)
+    && Math.abs(a.pret - b.pret) <= 0.05 * Math.min(a.pret, b.pret)
+    && (a.pret === b.pret || fara2(zonaAp(a).zona) === fara2(zonaAp(b).zona));
+  const pastrate = [];
+  lista.filter(x => !filtreazaAp(x, marcate))
+    .map(x => ({ x, p: punctajAp(x), alte: [] })).sort((a, b) => a.p - b.p)
+    .forEach(g => { const s = pastrate.find(k => acelasi(k.x, g.x)); if (s) { if (s.x.url !== g.x.url && !s.alte.some(a => a.url === g.x.url)) s.alte.push(g.x); } else pastrate.push(g); });
+  return pastrate;
 }
 
 // ---------- masini ----------
@@ -524,14 +566,15 @@ topCase.forEach(({ x, alte }, i) => {
 console.log(`APARTAMENTE — ${apNoi.length} postate în interval, ${apOk.length} trec de criterii\n`);
 if (!topAp.length) console.log('  nimic care să bifeze criteriile.\n');
 else console.log('  Cele mai bune de pe toată lista Storia, nu doar cele noi:\n');
-topAp.forEach(({ x }, i) => {
+topAp.forEach(({ x, alte }, i) => {
   const t = (x.titlu || '') + ' ' + (x.descriere || '');
   const { c, goale, net, ani } = calculAp(x);
   const av = avertismenteAp(x);
-  console.log(`${i + 1}. ${x.pret.toLocaleString('ro-RO')} € · ${x.mpu} mp utili · ${x.zona}${LA_CASA.test(t) ? ' · la casă' : ''}${esteNou(x) ? ' · NOU' : ''}`);
+  console.log(`${i + 1}. ${x.pret.toLocaleString('ro-RO')} € · ${x.mpu} mp utili · ${zonaAp(x).zona}${LA_CASA.test(t) ? ' · la casă' : ''}${esteNou(x) ? ' · NOU' : ''}`);
   console.log(`   chirie estimată ~${c.chirie} €/lună (${c.pe_mp ? `${c.pe_mp} €/mp × ${x.mpu} mp; ` : ''}${c.din === 'oras' ? 'cartier fără date' : `mediana ${c.din} ${c.mediana || c.chirie} €`})`);
   console.log(`   net ~${net.toLocaleString('ro-RO')} €/an (${goale} ${goale === 1 ? 'lună goală' : 'luni goale'}, impozit, reparații) · se recuperează în ${ani.toFixed(1)} ani`);
   if (av.length) console.log(`   ! ${av.join(' · ')}`);
+  (alte || []).forEach(a => console.log(`   același apartament: ${a.pret.toLocaleString('ro-RO')} € · ${a.url}`));
   console.log(`   ${String(x.titlu).slice(0, 66)}`);
   console.log(`   postat ${x.creat} · ${x.url}\n`);
 });
@@ -564,8 +607,9 @@ if (scrie) {
     masini_din_rezerva: masiniDinRezerva,
     ap_noi: apNoi.length, ap_trec: apOk.length, ap_din_rezerva: apDinRezerva,
     chirii_din: CHIRII.data,
-    apartamente: topAp.map(({ x, p }) => ({
-      pret: x.pret, mpu: x.mpu, zona: x.zona, creat: x.creat, stare: x.stare,
+    apartamente: topAp.map(({ x, p, alte }) => ({
+      alte: (alte || []).map(a => ({ pret: a.pret, url: a.url })),
+      pret: x.pret, mpu: x.mpu, zona: zonaAp(x).zona, creat: x.creat, stare: x.stare,
       chirie: calculAp(x).c.chirie, chirie_din: calculAp(x).c.din, chirie_n: calculAp(x).c.n, chirie_mp: calculAp(x).c.mp, ani: Math.round(p * 10) / 10,
       net: calculAp(x).net, luni_goale: calculAp(x).goale, cost_total: calculAp(x).cost, fara_comision: faraComision(x), riscuri: avertismenteAp(x),
       la_casa: LA_CASA.test((x.titlu || '') + ' ' + (x.descriere || '')), nou: esteNou(x),
