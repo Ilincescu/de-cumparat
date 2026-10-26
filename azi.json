@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-26 18:28",
+ "generat": "2026-10-26 18:53",
  "de_la": "2026-10-22",
  "pana_la": "2026-10-26",
  "case_noi": 8,
@@ -13,71 +13,83 @@
  "chirii_din": "2026-10-26",
  "apartamente": [
   {
-   "pret": 72900,
-   "mpu": 49,
-   "zona": "Centrul Istoric, Sibiu",
+   "pret": 89000,
+   "mpu": 67,
+   "zona": "Tilisca, Sibiu",
    "creat": "2026-10-23",
    "stare": "ready_to_use",
-   "chirie": 390,
-   "chirie_din": "Centrul Istoric",
-   "ani": 23.5,
-   "net": 3218,
-   "luni_goale": 1,
-   "cost_total": 75524,
-   "fara_comision": false,
-   "riscuri": [
-    "bloc din 1900",
-    "nu scrie de centrală proprie"
+   "chirie": 550,
+   "chirie_din": "oras",
+   "chirie_n": 7,
+   "chirie_mp": [
+    57,
+    77
    ],
-   "la_casa": true,
-   "nou": true,
-   "titlu": "Apartament etajul 1 la casa cu 2 camere in zona Centrala din Sibiu",
-   "url": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIZ4M",
-   "scor": 23.470694263161164
-  },
-  {
-   "pret": 67000,
-   "mpu": 44,
-   "zona": "Centrul Istoric, Sibiu",
-   "creat": "2026-07-29",
-   "chirie": 350,
-   "chirie_din": "Centrul Istoric",
-   "ani": 24.2,
-   "net": 2872,
+   "ani": 19.7,
+   "net": 4676,
    "luni_goale": 1,
-   "cost_total": 69412,
-   "fara_comision": false,
-   "riscuri": [
-    "bloc din 1800",
-    "nu scrie de centrală proprie"
-   ],
-   "la_casa": true,
-   "nou": false,
-   "titlu": "Apartament 2 camere | Central, Sibiu | 44 mp",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-central-sibiu-44-mp-IDI2hq",
-   "scor": 24.168523676880223
-  },
-  {
-   "pret": 85000,
-   "mpu": 77,
-   "zona": "Centrul Istoric, Sibiu",
-   "creat": "2026-07-17",
-   "stare": "ready_to_use",
-   "chirie": 430,
-   "chirie_din": "Centrul Istoric",
-   "ani": 25.1,
-   "net": 3502,
-   "luni_goale": 1,
-   "cost_total": 88060,
+   "cost_total": 92204,
    "fara_comision": false,
    "riscuri": [
     "nu scrie de centrală proprie"
    ],
    "la_casa": false,
+   "nou": true,
+   "titlu": "Apartament 2 camere decomandate etaj 2 zona Strand 2",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandate-etaj-2-zona-strand-2-IDIZcb",
+   "scor": 19.718562874251496
+  },
+  {
+   "pret": 51000,
+   "mpu": 37,
+   "zona": "Strand I, Sibiu",
+   "creat": "2025-08-17",
+   "chirie": 340,
+   "chirie_din": "oras",
+   "chirie_n": 19,
+   "chirie_mp": [
+    31,
+    43
+   ],
+   "ani": 20.2,
+   "net": 2618,
+   "luni_goale": 2,
+   "cost_total": 52836,
+   "fara_comision": false,
+   "riscuri": [
+    "parter",
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": false,
    "nou": false,
-   "titlu": "Apartament 2 camere, 77 mp si gradina de 30 mp - Zona Centrala",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-77-mp-si-gradina-de-30-mp-zona-centrala-IDHWoh",
-   "scor": 25.148503541238288
+   "titlu": "Apartament de vânzare 2 camere Sibiu ,Tigllari",
+   "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-2-camere-sibiu-tigllari-IDEAhs",
+   "scor": 20.181818181818183
+  },
+  {
+   "pret": 52981,
+   "mpu": 39,
+   "zona": "Tiglari, Sibiu",
+   "creat": "2026-09-03",
+   "stare": "ready_to_use",
+   "chirie": 350,
+   "chirie_din": "oras",
+   "chirie_n": 23,
+   "chirie_mp": [
+    33,
+    45
+   ],
+   "ani": 20.4,
+   "net": 2690,
+   "luni_goale": 2,
+   "cost_total": 54888,
+   "fara_comision": false,
+   "riscuri": [],
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament de vânzare Sibiu | 2 camere | Țiglari | etaj 2, 39 mp",
+   "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-iglari-etaj-2-39-mp-IDIpLK",
+   "scor": 20.403019861050705
   }
  ],
  "surse": [

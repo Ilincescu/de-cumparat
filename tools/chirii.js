@@ -138,6 +138,28 @@ const mediana = v => {
       .map((v, i) => String(v == null ? '-' : v).padEnd(lat[i])).join(''));
   });
 
-  fs.writeFileSync(path.join(__dirname, 'snapshots', `chirii-${new Date().toISOString().slice(0, 10)}.json`),
+  const azi = new Date().toISOString().slice(0, 10);
+  fs.writeFileSync(path.join(__dirname, 'snapshots', `chirii-${azi}.json`),
     JSON.stringify(randuri, null, 1));
+
+  // Fiecare chirie, nu doar mediana: azi.js estimeaza chiria unui apartament din
+  // chiriile asemanatoare din cartier (mp apropiati), ca PropGenius, in loc de
+  // chirie pe mp x factor de cartier - aceea dadea prea putin la 39 mp si prea
+  // mult la 65 (2026-10-26). Sub 150 € e pe noapte, peste 1.500 € e alt tip.
+  const anunturi = chirii
+    .filter(x => x.totalPrice && x.totalPrice.currency === 'EUR' && x.totalPrice.value >= 150 && x.totalPrice.value <= 1500)
+    .map(x => ({
+      id: x.id, url: 'https://www.storia.ro/ro/oferta/' + x.slug,
+      chirie: x.totalPrice.value, mp: x.areaInSquareMeters || null, etaj: x.floorNumber || null,
+      cartier: cartier(x).nume, postat: (x.createdAtFirst || x.dateCreated || '').slice(0, 10) || null,
+    }));
+  fs.writeFileSync(path.join(__dirname, 'snapshots', `chirii-anunturi-${azi}.json`), JSON.stringify(anunturi, null, 1));
+
+  // De cate zile stau publicate chiriile active, pe cartier. Arata cat de greu se
+  // inchiriaza; cat dureaza pana dispar iese din compararea zilelor (urmarire-chirii.js)
+  const zile = a => Math.round((Date.parse(azi) - Date.parse(a.postat)) / 86400000);
+  console.log('\nde cate zile sunt publicate chiriile active (mediana):');
+  Object.entries(anunturi.reduce((g, a) => { if (a.postat) (g[a.cartier] = g[a.cartier] || []).push(zile(a)); return g; }, {}))
+    .filter(([, v]) => v.length >= 3).sort((a, b) => mediana(a[1]) - mediana(b[1]))
+    .forEach(([c, v]) => console.log(`  ${c.padEnd(20)} ${String(mediana(v)).padStart(4)} zile  (${v.length} anunturi)`));
 })().catch(e => { console.error('EROARE:', e.message); process.exit(1); });

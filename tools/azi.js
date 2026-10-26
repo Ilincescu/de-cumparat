@@ -180,7 +180,39 @@ const CHIRII = (() => {
 // orasului) x mp, plafonata la mediana cartierului.
 const CHIRIE_MP = (() => { try { return JSON.parse(fs.readFileSync(path.join(__dirname, 'chirii-mp.json'), 'utf8')); } catch (e) { return null; } })();
 
-function chirieZona(zona, mpu) {
+// Chiriile una cate una (tools/chirii.js, din 2026-10-26). Cand exista, chiria
+// unui apartament = mediana chiriilor din acelasi cartier cu mp apropiati, ca la
+// PropGenius; cartierul se largeste la oras doar daca are sub 3 asemanatoare.
+const CHIRII_ANUNTURI = (() => {
+  const f = fs.readdirSync(DOSAR).filter(x => /^chirii-anunturi-\d{4}-\d{2}-\d{2}\.json$/.test(x)).sort().pop();
+  return f ? JSON.parse(fs.readFileSync(path.join(DOSAR, f), 'utf8')).filter(a => a.mp && a.chirie) : [];
+})();
+
+// Chiria din bloc nou nu e chiria unui bloc din 1980: in Tiglari toate cele 4
+// chirii de ~40 mp erau "The Lake Home", "bloc nou", "prima inchiriere" (420 €),
+// iar un 39 mp din 1980 iesea la 420 € (2026-10-26). Cautarea nu da anul, dar
+// slug-ul are titlul.
+const CHIRIE_NOUA = /bloc-nou|prima-i?nchiriere|lake-home|lake-city|ansamblu|rezidential|green-hill|constructie-noua|nou-|-nou\b|lux|premium|finisaje-moderne|lift/i;
+const apNou = x => Number(x.an) >= 2010;
+
+function chirieComparabile(zona, mpu, nou) {
+  const z = fara(zona || '');
+  const potrivite = CHIRII_ANUNTURI.filter(a => CHIRIE_NOUA.test(a.url) === nou);
+  const dinCartier = potrivite.filter(a => a.cartier !== 'Fara cartier' && z.startsWith(fara(a.cartier)));
+  // ±20% mp in cartier, apoi ±15% in oras; o plaja mai larga punea 47 mp langa 36 mp
+  const incercari = [[dinCartier, 0.2, null], [potrivite, 0.15, 'oras']];
+  for (const [lista, abatere, unde] of incercari) {
+    const g = lista.filter(a => Math.abs(a.mp - mpu) <= mpu * abatere);
+    if (g.length < 3) continue;
+    const v = g.map(a => a.chirie).sort((a, b) => a - b);
+    const din = unde || g[0].cartier;
+    return { chirie: Math.round(v[Math.floor(v.length / 2)] / 5) * 5, din, n: g.length, mp: [Math.round(mpu * (1 - abatere)), Math.round(mpu * (1 + abatere))] };
+  }
+  return null;
+}
+
+function chirieZona(zona, mpu, nou = false) {
+  if (CHIRII_ANUNTURI.length && mpu) { const c = chirieComparabile(zona, mpu, nou); if (c) return c; }
   const z = fara(zona || '');
   const g = CHIRII.zone.find(c => z.startsWith(fara(c.cartier)));
   // Sub 5 anunturi de inchiriat, mediana cartierului e doua-trei apartamente
@@ -221,7 +253,7 @@ const ULTIMUL = /etaj(?:ul)?\s*(\d+)\s*(?:din|\/)\s*(\d+)/i;
 const CENTRALA = /central[aă]\s+(termic[aă]\s+)?(proprie|pe\s+gaz|individual)/i;
 
 function calculAp(x) {
-  const c = chirieZona(x.zona, x.mpu);
+  const c = chirieZona(x.zona, x.mpu, apNou(x));
   const goale = RISC.luniGoale + (x.mpu < RISC.sub ? RISC.luniGoaleMic : 0);
   const net = c.chirie * (12 - goale) * (1 - RISC.impozit) - x.pret * RISC.intretinere;
   const cost = costTotal(x);
@@ -238,6 +270,8 @@ function avertismenteAp(x) {
   if (e && e[1] === e[2] && Number(e[1]) > 0) a.push('ultimul etaj');
   if (x.an && Number(x.an) < 1978) a.push(`bloc din ${x.an}`);
   if (!CENTRALA.test(t)) a.push('nu scrie de centrală proprie');
+  // Chiria vine din apartamente locuibile; aici renovarea se plateste inainte
+  if (/necesit[aă]\s+renov|de\s+renovat|trebuie\s+renovat/i.test(t)) a.push('necesită renovare: chiria estimată e pentru renovat');
   return a;
 }
 
@@ -532,7 +566,7 @@ if (scrie) {
     chirii_din: CHIRII.data,
     apartamente: topAp.map(({ x, p }) => ({
       pret: x.pret, mpu: x.mpu, zona: x.zona, creat: x.creat, stare: x.stare,
-      chirie: chirieZona(x.zona, x.mpu).chirie, chirie_din: chirieZona(x.zona, x.mpu).din, ani: Math.round(p * 10) / 10,
+      chirie: calculAp(x).c.chirie, chirie_din: calculAp(x).c.din, chirie_n: calculAp(x).c.n, chirie_mp: calculAp(x).c.mp, ani: Math.round(p * 10) / 10,
       net: calculAp(x).net, luni_goale: calculAp(x).goale, cost_total: calculAp(x).cost, fara_comision: faraComision(x), riscuri: avertismenteAp(x),
       la_casa: LA_CASA.test((x.titlu || '') + ' ' + (x.descriere || '')), nou: esteNou(x),
       titlu: x.titlu, url: x.url, scor: p,
