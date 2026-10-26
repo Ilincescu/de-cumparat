@@ -132,6 +132,25 @@ explicație a fost prea lungă — o tai, nu o reformulez mai pe larg.
 
 ---
 
+## 7. Apartamentul de investiție, Sibiu — reguli de căutare
+
+Apartamentul e pentru închiriat: vrea banii înapoi cât mai repede, într-o zonă
+căutată, cu chirie mare (2026-10-26). Regulile vin din ghiduri de investiții
+citite pe 2026-10-26; sursa e la fiecare. Ce scrie „presupunere" nu e din sursă.
+
+1. **Clasez pe ani de recuperare NETI, nu pe preț.** Ani = (preț + renovare) ÷ chiria netă pe an. Net = chirie × 12 − impozit − luni goale − întreținere. În Sibiu, randamentul brut e ~4,5–7%, iar cel net ~3–4% ([capital.ro](https://www.capital.ro/mitul-chiriei-sigure-cat-ramane-in-mana-dupa-toate-costurile-in-2026.html)). Formula: [playtech.ro](https://playtech.ro/2025/cum-se-calculeaza-randamentul-investitiei-intr-un-apartament-in-cati-ani-trebuie-amortizata-cheltuiala-din-chirie/).
+2. **Impozitul pe chirie:** 10% din venitul net, după o deducere forfetară de 20%, adică ~8% din chirie ([ANAF](https://static.anaf.ro/static/10/Galati/cedarea_folosintei.pdf)). Pentru 2026 sursele se contrazic: un proiect de lege duce deducerea la 30% ([capital.ro](https://www.capital.ro/obligatii-noi-din-2026-pentru-proprietarii-de-locuinte-impozit-marit-si-reguli-la-chirii-se-cere-inclusiv-bon-fiscal.html), [newsweek.ro](https://newsweek.ro/economie/impozit-chirii-2026-dispar-norme-venit-proprietari)). Neverificat în Codul fiscal.
+3. **Lunile goale sunt un cost, nu o excepție.** Câteva luni goale pe an pot inversa clasamentul ([capital.ro](https://www.capital.ro/mitul-chiriei-sigure-cat-ramane-in-mana-dupa-toate-costurile-in-2026.html)). Presupunere implicită: 1 lună goală pe an. Test de stres: mai merge cu 3 luni goale sau cu chiria −10%?
+4. **Chiria se compară cu apartamente de aceeași mărime din aceeași zonă,** nu cu mediana cartierului. Unitățile mici au randament mai mare, dar chiriașii se schimbă mai des, deci mai multe luni goale ([propertyinvestmentsuk](https://www.propertyinvestmentsuk.co.uk/perfect-buy-to-let/)). Un 2 camere de 30 mp nu ia mediana unui 2 camere de 50 mp.
+5. **Chiria cerută nu e chiria încasată.** Cererea se vede în cât de repede dispar anunțurile de închiriat din cartier, nu în câte sunt. Multe anunțuri de închiriat înseamnă concurență.
+6. **2 camere e tipul cel mai lichid în Sibiu.** Cerere tot anul, vârf la începutul anului universitar ([antena3.ro](https://www.antena3.ro/continut-platit/piata-chiriilor-din-sibiu-in-2026-cerere-sustinuta-in-timp-ce-cresterea-preturilor-de-vanzare-pierde-ritm-798253.html), conținut plătit de o agenție). ULBS a ocupat ~4.000 de locuri la admiterea din iulie 2026, cu 14% mai mult ca anul trecut ([agerpres](https://agerpres.ro/comunicate/2026/08/05/comunicat-de-presa---universitatea-lucian-blaga-din-sibiu--1582380)). Ce cartiere sunt aproape de facultăți: neverificat, de stabilit pe hartă, nu din memorie.
+7. **Locația pe care o plătește un chiriaș:** pe jos până la magazine, transport și centru. Zonele degradate aduc chiriași slabi ([saga.co.uk](https://www.saga.co.uk/magazine/money/property/letting/five-things-that-make-a-good-buy-to-let-property)).
+8. **Gata de închiriat sau de renovat:** renovarea intră în preț înainte de calculul anilor ([moneytothemasses](https://moneytothemasses.com/owning-a-home/the-buy-to-let-guide/amp)). Igrasia e blocker (regula de mai sus), nu cost de renovare.
+9. **„Ideal investiție” și „randament garantat” din anunț nu sunt argumente** ([wall-street.ro](https://www.wall-street.ro/articol/Real-Estate/248223/de-ce-sa-fugi-de-ideal-investitie-si-randament-garantat-la-anunturi-imobiliare.html)). Cifrele de randament de la dezvoltatori vin de la vânzători ([bursa.ro](https://www.bursa.ro/dezvoltatorii-imobiliari-peste-30-procente-din-vanzarile-apartamentelor-noi-sunt-cu-scop-de-investitie-41988837)).
+10. **Înainte de ofertă:** extras CF, datoriile și costurile asociației de proprietari, starea blocului, apoi vizionare în persoană ([op.fi](https://www.op.fi/en/private-customers/themes/housing/dreaming-of-getting-a-buy-to-let-home)). Administrarea (plăți întârziate, chiriași dificili) e un cost real ([wall-street.ro](https://www.wall-street.ro/articol/Money/213998/sfaturi-imobiliare-ce-trebuie-sa-ai-in-vedere-inainte-de-a-investi-in-locuinte.html)).
+
+**Ce face azi `azi.js` din regulile astea:** doar 1, pe bruto (preț ÷ chiria mediană a cartierului). Regulile 2 și 3 scad toți anii în aceeași proporție, deci nu schimbă ordinea. Regulile 4 și 5 o schimbă, dar cer chirii pe anunț cu mp și dată (`tools/chirii.js` salvează acum doar mediane).
+
 ## Ce caută Mihai
 
 Criteriile complete sunt în memoria `de-cumparat-criterii-cumparare`. Pe scurt:
