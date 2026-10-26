@@ -25,6 +25,7 @@ const MASINI_RESPINSE = new RegExp(
   respinse.masini.map(x => x.model).concat(respinse.modele_prea_mici)
     .map(s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'), 'i');
 
+const fara = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 const idAnunt = u => ((String(u).match(/-(ID[A-Za-z0-9]+)(?:\.html)?$/) || [])[1]) || String(u);
 
 // ---------- criteriile lui, ca filtre tari ----------
@@ -83,6 +84,13 @@ function curteLibera(x) {
 function filtreazaCasa(x) {
   const t = (x.titlu || '') + ' ' + (x.descriere || '');
   if (ID_RESPINSE.has(idAnunt(x.url))) return 'respinsa deja';
+  // Aceeasi casa republicata de alta agentie are alt ID: Turnisor IDHgc3 a revenit
+  // ca IDIVfX pe locul 1, fara casa din spate pomenita in text. Potrivesc si pe
+  // proprietate: cartier + mp utili + pret in 15%.
+  const z = fara(x.zona || '');
+  const r = respinse.case.find(c => c.zona && c.mpu && fara(c.zona) && z.includes(fara(c.zona))
+    && c.mpu === x.mpu && x.pret && Math.abs(x.pret - c.pret) <= c.pret * 0.15);
+  if (r) return `respinsa deja, aceeasi proprietate ca ${r.id}`;
   if (x.exclus && x.exclus.length) return 'exclusa automat: ' + [].concat(x.exclus).join(', ');
   if (AFARA.test(t)) return 'in afara orasului';
   if (COMUNA.test(t)) return 'curte comuna';

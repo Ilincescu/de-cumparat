@@ -213,6 +213,24 @@ function inOras(x) {
   return locs.some(l => l.locationLevel === 'county_capital' && /^sibiu$/i.test(l.name));
 }
 
+function fiseDinSnapshot() {
+  const m = new Map();
+  if (!fs.existsSync(DOSAR_SNAPSHOT)) return m;
+  const ult = fs.readdirSync(DOSAR_SNAPSHOT).filter(f => /^storia-\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().pop();
+  if (!ult) return m;
+  JSON.parse(fs.readFileSync(path.join(DOSAR_SNAPSHOT, ult), 'utf8')).forEach(r => m.set(r.id, {
+    pret: r.pret, descriere: r.descriere,
+    fisa: {
+      creat: r.creat, descriere: r.descriere, imagini: new Array(r.nrImagini || 0),
+      ch: {
+        construction_status: r.stare, terrain_area: r.teren == null ? null : String(r.teren), build_year: r.an,
+        building_material: r.material, windows_type: r.ferestre, garret_type: r.pod, building_type: r.formaCladire,
+      },
+    },
+  }));
+  return m;
+}
+
 async function scaneazaStoria() {
   const rezultat = [];
   for (const tip of ['casa', 'apartament']) {
@@ -230,9 +248,20 @@ async function scaneazaStoria() {
     const oras = brute.filter(inOras);
     console.log(`${tip}: ${brute.length} in judet, ${oras.length} in oras`);
 
+    // Cu ~1.400 de fise citite zilnic, cate 8 odata, Storia (CloudFront) a blocat
+    // IP-ul de acasa din 2026-10-23: 403 pe Wi-Fi, merge pe date mobile. Recitesc
+    // doar anunturile noi sau cu pretul schimbat, cate 2, cu pauza intre cereri.
+    const vechi = fiseDinSnapshot();
     const t0 = Date.now();
-    const fise = await paralel(oras, 8, x => fisaTehnica(x.slug));
-    console.log(`  fise tehnice citite in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
+    let citite = 0;
+    const fise = await paralel(oras, 2, async x => {
+      const v = vechi.get(x.id);
+      if (v && v.pret === (x.totalPrice ? x.totalPrice.value : null) && v.descriere) return v.fisa;
+      citite++;
+      await new Promise(r => setTimeout(r, 400));
+      return fisaTehnica(x.slug);
+    });
+    console.log(`  ${citite} fise tehnice citite, ${oras.length - citite} luate din snapshotul anterior, in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
 
     oras.forEach((x, idx) => {
       const d = fise[idx];

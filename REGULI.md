@@ -31,7 +31,7 @@ suficientă — trebuie construit ceva care s-o facă imposibilă.
 | Verdicte despre structură din poze | 3 | `tools/verifica.js` + afirmații interzise |
 | Clasament pe €/mp | 3 | regula de cost total |
 | Text de agenție repetat ca fapt | 3 | regula de citare a sursei |
-| I-am propus case pe care le respinsese | 2 | memoria `case-respinse-de-mihai`, verificată de `verifica.js` |
+| I-am propus case pe care le respinsese | 3 | memoria `case-respinse-de-mihai`, verificată de `verifica.js`; `azi.js` respinge și pe proprietate (cartier + mp + preț), fiindcă aceeași casă revine cu alt ID |
 | Potrivire pe titlu, nu pe ID | 2 | regula de ID |
 
 ---

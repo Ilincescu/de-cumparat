@@ -23,7 +23,17 @@
    "id": "IDHgc3",
    "ce": "Turnisor, 2 camere, 50 mp, curte 140 mp",
    "pret": 98000,
+   "zona": "Turnisor",
+   "mpu": 50,
    "motiv": "mai e o casa in spate, scoasa si ea la vanzare - s-ar trece prin curte"
+  },
+  {
+   "id": "IDIVfX",
+   "ce": "Turnisor, 2 camere, 50 mp, curte 140 mp - aceeasi casa ca IDHgc3, republicata de TABOO Imobiliare",
+   "pret": 98000,
+   "zona": "Turnisor",
+   "mpu": 50,
+   "motiv": "casa din spate - drept de trecere prin curte; nu vrea servitute (2026-10-26)"
   },
   {
    "id": "IDIBj0",
