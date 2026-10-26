@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-26 07:14",
+ "generat": "2026-10-26 07:53",
  "de_la": "2026-10-20",
  "pana_la": "2026-10-22",
  "case_noi": 3,
@@ -10,6 +10,7 @@
  "ap_noi": 14,
  "ap_trec": 2,
  "ap_din_rezerva": false,
+ "chirii_din": "2026-09-30",
  "apartamente": [
   {
    "pret": 47000,
@@ -17,35 +18,44 @@
    "zona": "Tiglari, Sibiu",
    "creat": "2026-09-14",
    "stare": "ready_to_use",
+   "chirie": 450,
+   "chirie_din": "Tiglari",
+   "ani": 8.7,
    "la_casa": false,
    "nou": false,
    "titlu": "Apartament 2 camere parter Zona Tiglari",
    "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-parter-zona-tiglari-IDIvVP",
-   "scor": 40
+   "scor": 8.703703703703704
   },
   {
-   "pret": 72900,
-   "mpu": 49,
-   "zona": "Centrul Istoric, Sibiu",
-   "creat": "2026-10-20",
+   "pret": 49990,
+   "mpu": 30,
+   "zona": "Tiglari, Sibiu",
+   "creat": "2025-08-21",
    "stare": "ready_to_use",
-   "la_casa": true,
+   "chirie": 450,
+   "chirie_din": "Tiglari",
+   "ani": 9.3,
+   "la_casa": false,
    "nou": false,
-   "titlu": "Apartament etajul 1 la casa cu 2 camere in zona Centrala din Sibiu",
-   "url": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIVkm",
-   "scor": 39
+   "titlu": "De vanzare - Apartament cu 2 camere in zona Tiglari Sibiu",
+   "url": "https://www.storia.ro/ro/oferta/de-vanzare-apartament-cu-2-camere-in-zona-tiglari-sibiu-IDED8z",
+   "scor": 9.257407407407408
   },
   {
-   "pret": 74500,
-   "mpu": 45,
-   "zona": "Trei Stejari, Sibiu",
-   "creat": "2026-04-07",
+   "pret": 52981,
+   "mpu": 39,
+   "zona": "Tiglari, Sibiu",
+   "creat": "2026-09-03",
    "stare": "ready_to_use",
-   "la_casa": true,
+   "chirie": 450,
+   "chirie_din": "Tiglari",
+   "ani": 9.8,
+   "la_casa": false,
    "nou": false,
-   "titlu": "Apartament 2 camere la casa 45 mp zona Centrala Sibiu",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-la-casa-45-mp-zona-centrala-sibiu-IDGWxw",
-   "scor": 38
+   "titlu": "Apartament de vânzare Sibiu | 2 camere | Țiglari | etaj 2, 39 mp",
+   "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-iglari-etaj-2-39-mp-IDIpLK",
+   "scor": 9.811296296296296
   }
  ],
  "surse": [

@@ -130,8 +130,8 @@ function punctajCasa(x) {
 
 // ---------- apartamente ----------
 
-// Apartamentul e cel de inchiriat, din ce ramane dupa casa: 2 camere, cat mai
-// ieftin, de preferat la casa. Fara mansarda, fara dezvoltator, fara garsoniere.
+// Apartamentul e investitie de inchiriat, din ce ramane dupa casa: 2 camere,
+// fara mansarda, fara dezvoltator, fara garsoniere, fara igrasie.
 const MANSARDA = /mansard|pe\s+(2|dou[aă])\s+niveluri/i;
 const DEZVOLTATOR = /dezvoltator|ansamblu\s+reziden|direct\s+de\s+la\s+constructor|bloc\s+nou|finalizare\s+[iî]n|predare\s+[iî]n/i;
 const LA_CASA = /(apartament|locuin[tț][aă])\s+(la|[iî]n)\s+cas[aă]|\bla\s+cas[aă]\b/i;
@@ -152,12 +152,29 @@ function filtreazaAp(x, marcate) {
   return null;
 }
 
-// Pretul cantareste cel mai mult: e cel care se inchiriaza, nu cel in care sta.
+// Apartamentul e investitie de inchiriat: vrea banii inapoi cat mai repede.
+// Clasez pe ani de recuperare = pret / (chiria mediana a cartierului x 12),
+// din ultimul snapshot al tools/chirii.js (chirii cerute pe Storia, 2 camere).
+// Primul top era pe pret si a pus sus apartamente din cartiere cu chirie mica.
+const CHIRII = (() => {
+  const f = fs.readdirSync(DOSAR).filter(x => /^chirii-\d{4}-\d{2}-\d{2}\.json$/.test(x)).sort().pop();
+  if (!f) return { data: null, zone: [], oras: null };
+  const zone = JSON.parse(fs.readFileSync(path.join(DOSAR, f), 'utf8')).filter(z => z.cartier !== 'Fara cartier' && z.chirie);
+  const v = zone.map(z => z.chirie).sort((a, b) => a - b);
+  return { data: f.slice(7, 17), zone, oras: v[Math.floor(v.length / 2)] };
+})();
+
+function chirieZona(zona) {
+  const z = fara(zona || '');
+  const g = CHIRII.zone.find(c => z.startsWith(fara(c.cartier)));
+  // Sub 5 anunturi de inchiriat, mediana cartierului e doua-trei apartamente
+  if (g && g.nc >= 5) return { chirie: g.chirie, din: g.cartier, n: g.nc };
+  return { chirie: CHIRII.oras, din: 'oras', n: null };
+}
+
 function punctajAp(x) {
-  let p = Math.round((100000 - x.pret) / 100000 * 60);
-  if (LA_CASA.test((x.titlu || '') + ' ' + (x.descriere || ''))) p += 15;
-  if (x.stare === 'ready_to_use') p += 8;
-  return p;
+  const c = chirieZona(x.zona);
+  return c.chirie ? x.pret / (c.chirie * 12) : Infinity;
 }
 
 function alegeAp(lista, marcate) {
@@ -165,7 +182,7 @@ function alegeAp(lista, marcate) {
   // intra in cheie - doua agentii l-au pus pe acelasi in Hipodrom II si III.
   const vazut = new Set();
   return lista.filter(x => !filtreazaAp(x, marcate))
-    .map(x => ({ x, p: punctajAp(x) })).sort((a, b) => b.p - a.p)
+    .map(x => ({ x, p: punctajAp(x) })).sort((a, b) => a.p - b.p)
     .filter(({ x }) => { const k = `${x.pret}|${x.mpu}`; if (vazut.has(k)) return false; vazut.add(k); return true; });
 }
 
@@ -407,7 +424,9 @@ if (!topAp.length) console.log('  nimic care să bifeze criteriile.\n');
 else console.log('  Cele mai bune de pe toată lista Storia, nu doar cele noi:\n');
 topAp.forEach(({ x }, i) => {
   const t = (x.titlu || '') + ' ' + (x.descriere || '');
+  const c = chirieZona(x.zona);
   console.log(`${i + 1}. ${x.pret.toLocaleString('ro-RO')} € · ${x.mpu} mp utili · ${x.zona}${LA_CASA.test(t) ? ' · la casă' : ''}${esteNou(x) ? ' · NOU' : ''}`);
+  console.log(`   chirie ~${c.chirie} €/lună (${c.din === 'oras' ? 'media orașului, cartier fără date' : `mediana ${c.din}, ${c.n} anunțuri`}) · se recuperează în ${(x.pret / (c.chirie * 12)).toFixed(1)} ani`);
   console.log(`   ${String(x.titlu).slice(0, 66)}`);
   console.log(`   postat ${x.creat} · ${x.url}\n`);
 });
@@ -439,8 +458,10 @@ if (scrie) {
     case_noi: caseNoi.length, case_trec: trec.length, din_rezerva: dinRezerva, din_tot_lista: dinTotLista,
     masini_din_rezerva: masiniDinRezerva,
     ap_noi: apNoi.length, ap_trec: apOk.length, ap_din_rezerva: apDinRezerva,
+    chirii_din: CHIRII.data,
     apartamente: topAp.map(({ x, p }) => ({
       pret: x.pret, mpu: x.mpu, zona: x.zona, creat: x.creat, stare: x.stare,
+      chirie: chirieZona(x.zona).chirie, chirie_din: chirieZona(x.zona).din, ani: Math.round(p * 10) / 10,
       la_casa: LA_CASA.test((x.titlu || '') + ' ' + (x.descriere || '')), nou: esteNou(x),
       titlu: x.titlu, url: x.url, scor: p,
     })),
