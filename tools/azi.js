@@ -136,6 +136,7 @@ const MANSARDA = /mansard|pe\s+(2|dou[aă])\s+niveluri/i;
 const DEZVOLTATOR = /dezvoltator|ansamblu\s+reziden|direct\s+de\s+la\s+constructor|bloc\s+nou|finalizare\s+[iî]n|predare\s+[iî]n/i;
 // Apartamentul insusi e la subsol/demisol - nu pivnita sau boxa de la subsol, pe care o au multe blocuri
 const SUBSOL = /(?<!(pivni\w*|box[aăe]\w*|beci\w*|garaj\w*|parcare\w*|camar\w*|camer\w*|spa[tț]i\w*|depozit\w*)[^.]{0,25})((?<!\bde\s)(la|[iî]n)\s+(subsol|demisol|suteran)|\betaj(ul)?\s*:?\s*(subsol|demisol)|apartament\w*\s+(de\s+|la\s+)?(subsol|demisol)|\b(subsol|demisol)\s*(\/|din)\s*\d)/i;
+const ETAJ_SUS = new Set(['FOURTH', 'FIFTH', 'SIXTH', 'SEVENTH', 'EIGHTH', 'NINTH', 'TENTH', 'ABOVE_TENTH']);
 const LA_CASA = /(apartament|locuin[tț][aă])\s+(la|[iî]n)\s+cas[aă]|\bla\s+cas[aă]\b/i;
 
 function filtreazaAp(x, marcate) {
@@ -152,6 +153,9 @@ function filtreazaAp(x, marcate) {
   // Mihai, 2026-10-26, la IDF6SF ("la subsolul unui imobil"): "beci, demisol, nu e ceva okay"
   if (x.etaj === 'CELLAR' || (!x.etaj && SUBSOL.test(t))) return 'subsol/demisol';
   if (x.etaj === 'GARRET') return 'mansarda';
+  // Mihai, 2026-10-26: "sotia mea nu vrea la etajul 4". Il iau ca "4 si mai sus":
+  // 5 e mai rau din aceleasi motive. Etajul vine din fisa Storia (scan.js)
+  if (ETAJ_SUS.has(x.etaj)) return 'etajul 4 sau mai sus';
   if (DEZVOLTATOR.test(t) || Number(x.an) >= 2025) return 'de la dezvoltator';
   // "300 EUR" pe Storia la vanzare e o chirie pusa la categoria gresita
   if (!x.pret || x.pret < 20000) return 'fara pret de vanzare';

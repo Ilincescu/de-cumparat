@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-26 18:21",
+ "generat": "2026-10-26 18:28",
  "de_la": "2026-10-22",
  "pana_la": "2026-10-26",
  "case_noi": 8,
@@ -8,32 +8,10 @@
  "din_tot_lista": true,
  "masini_din_rezerva": false,
  "ap_noi": 62,
- "ap_trec": 25,
+ "ap_trec": 13,
  "ap_din_rezerva": false,
  "chirii_din": "2026-10-26",
  "apartamente": [
-  {
-   "pret": 65000,
-   "mpu": 50,
-   "zona": "Tiglari, Sibiu",
-   "creat": "2026-09-24",
-   "stare": "ready_to_use",
-   "chirie": 375,
-   "chirie_din": "Tiglari",
-   "ani": 21.4,
-   "net": 3145,
-   "luni_goale": 1,
-   "cost_total": 67340,
-   "fara_comision": false,
-   "riscuri": [
-    "ultimul etaj"
-   ],
-   "la_casa": false,
-   "nou": false,
-   "titlu": "Apartament de vânzare Sibiu | 2 camere | Lacul lui Binder",
-   "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-lacul-lui-binder-IDIEgC",
-   "scor": 21.41176470588235
-  },
   {
    "pret": 72900,
    "mpu": 49,
@@ -58,26 +36,48 @@
    "scor": 23.470694263161164
   },
   {
-   "pret": 81900,
-   "mpu": 55,
-   "zona": "Lazaret, Sibiu",
-   "creat": "2026-10-10",
+   "pret": 67000,
+   "mpu": 44,
+   "zona": "Centrul Istoric, Sibiu",
+   "creat": "2026-07-29",
+   "chirie": 350,
+   "chirie_din": "Centrul Istoric",
+   "ani": 24.2,
+   "net": 2872,
+   "luni_goale": 1,
+   "cost_total": 69412,
+   "fara_comision": false,
+   "riscuri": [
+    "bloc din 1800",
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": true,
+   "nou": false,
+   "titlu": "Apartament 2 camere | Central, Sibiu | 44 mp",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-central-sibiu-44-mp-IDI2hq",
+   "scor": 24.168523676880223
+  },
+  {
+   "pret": 85000,
+   "mpu": 77,
+   "zona": "Centrul Istoric, Sibiu",
+   "creat": "2026-07-17",
    "stare": "ready_to_use",
    "chirie": 430,
-   "chirie_din": "Lazaret",
-   "ani": 24,
-   "net": 3533,
+   "chirie_din": "Centrul Istoric",
+   "ani": 25.1,
+   "net": 3502,
    "luni_goale": 1,
-   "cost_total": 84848,
+   "cost_total": 88060,
    "fara_comision": false,
    "riscuri": [
     "nu scrie de centrală proprie"
    ],
    "la_casa": false,
    "nou": false,
-   "titlu": "Apartament 2 camere, etaj 5, mobilat în Lazaret",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-5-mobilat-n-lazaret-IDIPGF",
-   "scor": 24.018569891864345
+   "titlu": "Apartament 2 camere, 77 mp si gradina de 30 mp - Zona Centrala",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-77-mp-si-gradina-de-30-mp-zona-centrala-IDHWoh",
+   "scor": 25.148503541238288
   }
  ],
  "surse": [
