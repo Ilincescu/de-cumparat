@@ -37,12 +37,21 @@ singur pe cele salvate azi:
     browser_navigate la
     https://www.facebook.com/marketplace/sibiu/search/?query=casa%20de%20vanzare
     (merge fara cont; /marketplace/sibiu/propertyforsale redirecteaza la
-    pagina generala). browser_evaluate (cu filename): sterge [role="dialog"],
-    ia toate a[href*="/marketplace/item/"] -> {u, p: linia cu RON/€, t: prima
-    linie de text, loc: ultima linie}; apoi pentru fiecare fetch pe pagina
-    anuntului, cate 4 odata, si pune in desc meta og:description (decodat cu
-    un textarea). Preturile "RON" sunt de fapt euro, iar loc e a contului -
-    surse-case.js stie asta.
+    pagina generala). browser_evaluate: sterge [role="dialog"], deruleaza
+    pana nu mai apar carduri, ia toate a[href*="/marketplace/item/"].
+    Pe card: sari cardurile cu "Anunt de la partener" (sunt anunturi Publi24,
+    deja luate de update.js, cu pret convertit REAL in lei, cu zecimale).
+    Liniile de pret pot fi doua (pret nou + pret vechi): p = prima linie de
+    pret, t = prima linie care NU e pret si nu e "Listat ...".
+    Descrierea: fetch pe pagina anuntului NU merge fara cont (2026-10-26:
+    pagina goala, fara og:description). Merge doar click pe card in pagina
+    de cautare: asteapta "Descriere", apasa "Mai mult", ia textul dintre
+    "Descriere" si "Vezi mai multe", apoi history.back(). Dureaza ~6 s pe
+    anunt, deci fa-o doar pentru titlurile care par case de vanzare, in
+    mai multe apeluri de sub 2 minute (tine lista in window.__fb), si
+    salveaza la final cu filename. window.open e blocat.
+    Preturile "RON" ale anunturilor proprii sunt de fapt euro, iar loc e a
+    contului - surse-case.js stie asta.
 
 Daca Playwright nu raspunde (browser_navigate sta fara raspuns), nu mai
 incerca: o singura incercare, apoi treci la update.js fara a), b), c).
