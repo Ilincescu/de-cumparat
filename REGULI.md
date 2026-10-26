@@ -149,7 +149,37 @@ citite pe 2026-10-26; sursa e la fiecare. Ce scrie „presupunere" nu e din surs
 9. **„Ideal investiție” și „randament garantat” din anunț nu sunt argumente** ([wall-street.ro](https://www.wall-street.ro/articol/Real-Estate/248223/de-ce-sa-fugi-de-ideal-investitie-si-randament-garantat-la-anunturi-imobiliare.html)). Cifrele de randament de la dezvoltatori vin de la vânzători ([bursa.ro](https://www.bursa.ro/dezvoltatorii-imobiliari-peste-30-procente-din-vanzarile-apartamentelor-noi-sunt-cu-scop-de-investitie-41988837)).
 10. **Înainte de ofertă:** extras CF, datoriile și costurile asociației de proprietari, starea blocului, apoi vizionare în persoană ([op.fi](https://www.op.fi/en/private-customers/themes/housing/dreaming-of-getting-a-buy-to-let-home)). Administrarea (plăți întârziate, chiriași dificili) e un cost real ([wall-street.ro](https://www.wall-street.ro/articol/Money/213998/sfaturi-imobiliare-ce-trebuie-sa-ai-in-vedere-inainte-de-a-investi-in-locuinte.html)).
 
-**Ce face azi `azi.js` din regulile astea:** 1 pe brut și 4. Chiria estimată = chiria pe mp din oraș (`tools/chirii-mp.json`, OLX: 7,45 €/mp, 36 de anunțuri, 2026-10-26) × factorul cartierului × mp, plafonată la mediana cartierului. Mihai a prins asta: 450 € pe un 30 mp în Țiglari e mediana cartierului, nu chiria lui. Regulile 2 și 3 scad toți anii în aceeași proporție, deci nu schimbă ordinea. Regula 5 cere chirii pe anunț cu dată (`tools/chirii.js` salvează doar mediane).
+**Ce face azi `azi.js` din regulile astea:** 1 (net, pe cost total), 2 (8%), 3 (1 lună goală, +1 sub 40 mp — presupunere) și 4. Chiria estimată = mediana chiriilor Storia din același cartier cu ±20% mp, bloc nou cu bloc nou; sub 3 asemănătoare, orașul cu ±15% mp (`tools/chirii.js` salvează fiecare chirie cu data postării, de la 2026-10-26). Regula 5: `tools/urmarire-chirii.js` urmărește în fiecare zi cât stau anunțurile.
+
+## 8. Ce a hotărât Mihai pe 2026-10-26, la apartamente
+
+Fiecare are un filtru sau un pas în cod; aici e motivul.
+
+**Ce scoate un apartament din listă**
+- **Igrasie** în text sau în poze (IDI30T, IDGWxw). Pozele se verifică la toate trei din top.
+- **Subsol sau demisol.** „Beci, demisol, nu e ceva okay” (IDF6SF).
+- **Două niveluri / scară interioară**, ca mansarda. Se vede doar în poze: IDIZWp apărea „parter”, IDHj86 „la casă”.
+- **Etajul 4 sau mai sus.** „Soția mea nu vrea la etajul 4.” Etajul se ia din fișa Storia, nu din text (IDIXZT scria „parter” și era la 4).
+- **La roșu** nu e locuibil (IDHjZt).
+- **Sub 4 poze.** „Dubios rău, nu văd poze” (IDIDTY: 3 poze, una schița). Fără poze nu se poate face verificarea.
+- **Servitute / trecere prin curtea altuia** (Turnișor 98.000 €, la case).
+
+**Cum se calculează**
+- **Cost total, nu prețul:** + 2% comision la agenție, + ~1,6% notar și intabulare. Fără comision când anunțul scrie „comision 0” sau vinde proprietarul.
+- **Chiria:** doar din chirii asemănătoare (cartier, mp, bloc nou/vechi). „Lux”, „premium” spun finisajul, nu anul: cu ele, IDIZcb lua 550 € de la penthouse-uri, când în Tilișca se cer 460 €.
+- **Cartierul din titlu sau din „zona X” bate pinul de pe hartă.** IDEAhs scrie Țiglari, pinul agentului era în Ștrand.
+- **Topul are mereu 3**, din ce rămâne după filtre.
+
+**Același apartament, mai multe anunțuri**
+- Se grupează înainte de clasament: același etaj, mp la ±1, același cartier, preț la ±5%. Țiglari 37 mp era în 6 anunțuri (proprietar, Blitz, OLX, I-Imob, MAAC), între 49.900 și 53.000 €.
+- **Se compară toate descrierile**, nu se ia una: suprafața era 34 / 36 / 37 / 41 mp, anul 1980 / 1986 / 1997. Cifra adevărată e în extrasul CF, nu în anunț.
+
+**Proprietarul direct**
+- Pentru fiecare din top 3 se caută anunțul proprietarului: Publi24 (`?commercial=false`), OLX (persoane fizice), Facebook Marketplace.
+- **Mesajul către proprietar:** scurt, nu pomenește celelalte anunțuri, nu afirmă ce scrie în CF — întreabă.
+
+**Locația**
+- Când anunțul nu dă numărul, se caută din poze (firme, plăcuțe, case vecine) și harta OSM, cu „probabil” până se confirmă la fața locului. Ce se află se salvează ca notă în `favorite.json` la anunț, ca să o vadă și Raluca.
 
 ## Ce caută Mihai
 
