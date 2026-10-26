@@ -280,6 +280,11 @@ async function scaneazaStoria() {
         pret: x.totalPrice ? x.totalPrice.value : null,
         mpu: x.areaInSquareMeters || null,
         camere: x.roomsNumber,
+        // Din cautare, fara cereri in plus. Textul minte la etaj: IDIXZT pomenea
+        // "parter" si e la etajul 4 (2026-10-26)
+        etaj: x.floorNumber || null,
+        privat: x.isPrivateOwner === true,
+        agentie: (x.agency && x.agency.name) || null,
         zona: ((locs[locs.length - 1] || {}).fullName || '').replace(', Sibiu', ''),
         url: 'https://www.storia.ro/ro/oferta/' + x.slug,
         creat: d ? d.creat : null,

@@ -150,7 +150,8 @@ function filtreazaAp(x, marcate) {
   if (!x.mpu || x.mpu < 30) return 'sub 30 mp, practic garsoniera';
   if (MANSARDA.test(t)) return 'mansarda';
   // Mihai, 2026-10-26, la IDF6SF ("la subsolul unui imobil"): "beci, demisol, nu e ceva okay"
-  if (SUBSOL.test(t)) return 'subsol/demisol';
+  if (x.etaj === 'CELLAR' || (!x.etaj && SUBSOL.test(t))) return 'subsol/demisol';
+  if (x.etaj === 'GARRET') return 'mansarda';
   if (DEZVOLTATOR.test(t) || Number(x.an) >= 2025) return 'de la dezvoltator';
   // "300 EUR" pe Storia la vanzare e o chirie pusa la categoria gresita
   if (!x.pret || x.pret < 20000) return 'fara pret de vanzare';
@@ -227,7 +228,8 @@ function calculAp(x) {
 function avertismenteAp(x) {
   const t = (x.titlu || '') + ' ' + (x.descriere || '');
   const a = [];
-  if (PARTER.test(t)) a.push('parter/demisol');
+  // Etajul din fisa Storia bate textul, care pomeneste "parter" si la etajul 4 (IDIXZT)
+  if (x.etaj ? x.etaj === 'GROUND' : PARTER.test(t)) a.push('parter');
   const e = t.match(ULTIMUL);
   if (e && e[1] === e[2] && Number(e[1]) > 0) a.push('ultimul etaj');
   if (x.an && Number(x.an) < 1978) a.push(`bloc din ${x.an}`);
