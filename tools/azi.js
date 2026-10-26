@@ -202,7 +202,12 @@ const RISC = { luniGoale: 1, luniGoaleMic: 1, sub: 40, impozit: 0.08, intretiner
 //             350.000 lei -> ~5.072 lei onorariu cu TVA, 1,45% (notari.pro/calculator-taxe-notariale),
 //             plus 0,15% intabulare (capital.ro). Plateste cumparatorul (Codul civil)
 const ACHIZITIE = { comision: 0.02, notar: 0.016 };
-const costTotal = x => Math.round(x.pret * (1 + ACHIZITIE.notar + (x.privat ? 0 : ACHIZITIE.comision)));
+// Mihai, 2026-10-26: "sunt unele agentii care au comision 0". Pe 2026-10-26: 113 din
+// 1.228 de apartamente Storia scriu asa. Plus proprietarii care refuza agentiile.
+// "0% pentru vanzator" nu ajuta cumparatorul.
+const FARA_COMISION = /(comision(ul)?\s*(pentru\s+cump[aă]r[aă]tor\s+este\s+)?(de\s*)?(0|zero)\s*%?|0\s*%\s*comision|f[aă]r[aă]\s+comision|scutit\w*\s+de\s+comision|nu\s+(percepem|se\s+percepe|perceput)\s+comision|nu\s+(pl[aă]tesc|ofer)\s+comision|nu\s+colaborez\s+cu\s+agen)(?![^.]{0,25}v[aâ]nz[aă]tor)/i;
+const faraComision = x => !!x.privat || FARA_COMISION.test((x.titlu || '') + ' ' + (x.descriere || ''));
+const costTotal = x => Math.round(x.pret * (1 + ACHIZITIE.notar + (faraComision(x) ? 0 : ACHIZITIE.comision)));
 // Rs I / bulina rosie: legea 212/2022 modificata de 426/2023 interzice inchirierea
 // pana la consolidare (cotidianul.ro; textul legii neverificat) - deci blocker.
 const RISC_SEISMIC = /bulin[aă]\s+ro[sș]ie|clasa\s+(i|1)\s+de\s+risc|\brs\s*i\b|risc\s+seismic\s+(ridicat|clasa)|\bu[123]\b.*seismic/i;
@@ -522,7 +527,7 @@ if (scrie) {
     apartamente: topAp.map(({ x, p }) => ({
       pret: x.pret, mpu: x.mpu, zona: x.zona, creat: x.creat, stare: x.stare,
       chirie: chirieZona(x.zona, x.mpu).chirie, chirie_din: chirieZona(x.zona, x.mpu).din, ani: Math.round(p * 10) / 10,
-      net: calculAp(x).net, luni_goale: calculAp(x).goale, cost_total: calculAp(x).cost, privat: !!x.privat, riscuri: avertismenteAp(x),
+      net: calculAp(x).net, luni_goale: calculAp(x).goale, cost_total: calculAp(x).cost, fara_comision: faraComision(x), riscuri: avertismenteAp(x),
       la_casa: LA_CASA.test((x.titlu || '') + ' ' + (x.descriere || '')), nou: esteNou(x),
       titlu: x.titlu, url: x.url, scor: p,
     })),

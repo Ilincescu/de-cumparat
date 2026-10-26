@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-26 18:08",
+ "generat": "2026-10-26 18:13",
  "de_la": "2026-10-22",
  "pana_la": "2026-10-26",
  "case_noi": 7,
@@ -24,7 +24,7 @@
    "net": 3145,
    "luni_goale": 1,
    "cost_total": 67340,
-   "privat": false,
+   "fara_comision": false,
    "riscuri": [
     "ultimul etaj"
    ],
@@ -46,7 +46,7 @@
    "net": 3218,
    "luni_goale": 1,
    "cost_total": 75524,
-   "privat": false,
+   "fara_comision": false,
    "riscuri": [
     "bloc din 1900",
     "nu scrie de centrală proprie"
@@ -69,7 +69,7 @@
    "net": 3533,
    "luni_goale": 1,
    "cost_total": 84848,
-   "privat": false,
+   "fara_comision": false,
    "riscuri": [
     "nu scrie de centrală proprie"
    ],
