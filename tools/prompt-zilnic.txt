@@ -44,6 +44,10 @@ singur pe cele salvate azi:
     un textarea). Preturile "RON" sunt de fapt euro, iar loc e a contului -
     surse-case.js stie asta.
 
+Daca Playwright nu raspunde (browser_navigate sta fara raspuns), nu mai
+incerca: o singura incercare, apoi treci la update.js fara a), b), c).
+Celelalte surse tot trebuie publicate (2026-10-18: doua incercari x 30 min).
+
 Apoi lantul complet:
 
    node tools/update.js
