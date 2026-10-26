@@ -1,0 +1,7 @@
+{
+ "nota": "Chiria ceruta pe mp pentru 2 camere in Sibiu, din anunturile proprii OLX (tools/externe/olx-chirii.json). Storia nu are mp in tools/chirii.js. Se reface cand se reface si olx-chirii.json.",
+ "data": "2026-10-26",
+ "eur_mp": 7.45,
+ "n": 36,
+ "sursa": "https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/2-camere/sibiu/"
+}

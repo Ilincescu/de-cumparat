@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-26 08:04",
+ "generat": "2026-10-26 08:11",
  "de_la": "2026-10-20",
  "pana_la": "2026-10-22",
  "case_noi": 3,
@@ -13,34 +13,19 @@
  "chirii_din": "2026-09-30",
  "apartamente": [
   {
-   "pret": 47000,
-   "mpu": 30,
+   "pret": 65000,
+   "mpu": 50,
    "zona": "Tiglari, Sibiu",
-   "creat": "2026-09-14",
+   "creat": "2026-09-24",
    "stare": "ready_to_use",
-   "chirie": 450,
+   "chirie": 420,
    "chirie_din": "Tiglari",
-   "ani": 8.7,
+   "ani": 12.9,
    "la_casa": false,
    "nou": false,
-   "titlu": "Apartament 2 camere parter Zona Tiglari",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-parter-zona-tiglari-IDIvVP",
-   "scor": 8.703703703703704
-  },
-  {
-   "pret": 49990,
-   "mpu": 30,
-   "zona": "Tiglari, Sibiu",
-   "creat": "2025-08-21",
-   "stare": "ready_to_use",
-   "chirie": 450,
-   "chirie_din": "Tiglari",
-   "ani": 9.3,
-   "la_casa": false,
-   "nou": false,
-   "titlu": "De vanzare - Apartament cu 2 camere in zona Tiglari Sibiu",
-   "url": "https://www.storia.ro/ro/oferta/de-vanzare-apartament-cu-2-camere-in-zona-tiglari-sibiu-IDED8z",
-   "scor": 9.257407407407408
+   "titlu": "Apartament de vânzare Sibiu | 2 camere | Lacul lui Binder",
+   "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-lacul-lui-binder-IDIEgC",
+   "scor": 12.896825396825397
   },
   {
    "pret": 52981,
@@ -48,14 +33,29 @@
    "zona": "Tiglari, Sibiu",
    "creat": "2026-09-03",
    "stare": "ready_to_use",
-   "chirie": 450,
+   "chirie": 325,
    "chirie_din": "Tiglari",
-   "ani": 9.8,
+   "ani": 13.6,
    "la_casa": false,
    "nou": false,
    "titlu": "Apartament de vânzare Sibiu | 2 camere | Țiglari | etaj 2, 39 mp",
    "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-iglari-etaj-2-39-mp-IDIpLK",
-   "scor": 9.811296296296296
+   "scor": 13.584871794871795
+  },
+  {
+   "pret": 53000,
+   "mpu": 37,
+   "zona": "Tiglari, Sibiu",
+   "creat": "2025-10-24",
+   "stare": "ready_to_use",
+   "chirie": 310,
+   "chirie_din": "Tiglari",
+   "ani": 14.2,
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament 2 camere | Parter | 37 MPU | Tiglari",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-parter-37-mpu-tiglari-IDFnVg",
+   "scor": 14.24731182795699
   }
  ],
  "surse": [

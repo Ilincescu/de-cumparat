@@ -164,16 +164,24 @@ const CHIRII = (() => {
   return { data: f.slice(7, 17), zone, oras: v[Math.floor(v.length / 2)] };
 })();
 
-function chirieZona(zona) {
+// Mediana cartierului e pentru 2 camere de orice marime. Un 30 mp nu ia 450 €
+// in Tiglari doar pentru ca mediana e 450 (2026-10-26, pe OLX 7,45 €/mp => ~225 €).
+// Chiria estimata = €/mp din oras x factorul cartierului (mediana lui / mediana
+// orasului) x mp, plafonata la mediana cartierului.
+const CHIRIE_MP = (() => { try { return JSON.parse(fs.readFileSync(path.join(__dirname, 'chirii-mp.json'), 'utf8')); } catch (e) { return null; } })();
+
+function chirieZona(zona, mpu) {
   const z = fara(zona || '');
   const g = CHIRII.zone.find(c => z.startsWith(fara(c.cartier)));
   // Sub 5 anunturi de inchiriat, mediana cartierului e doua-trei apartamente
-  if (g && g.nc >= 5) return { chirie: g.chirie, din: g.cartier, n: g.nc };
-  return { chirie: CHIRII.oras, din: 'oras', n: null };
+  const baza = g && g.nc >= 5 ? { chirie: g.chirie, din: g.cartier, n: g.nc } : { chirie: CHIRII.oras, din: 'oras', n: null };
+  if (!CHIRIE_MP || !mpu || !CHIRII.oras) return baza;
+  const pePm = CHIRIE_MP.eur_mp * baza.chirie / CHIRII.oras;
+  return { ...baza, mediana: baza.chirie, chirie: Math.round(Math.min(baza.chirie, pePm * mpu) / 5) * 5, pe_mp: Math.round(pePm * 100) / 100 };
 }
 
 function punctajAp(x) {
-  const c = chirieZona(x.zona);
+  const c = chirieZona(x.zona, x.mpu);
   return c.chirie ? x.pret / (c.chirie * 12) : Infinity;
 }
 
@@ -424,9 +432,9 @@ if (!topAp.length) console.log('  nimic care să bifeze criteriile.\n');
 else console.log('  Cele mai bune de pe toată lista Storia, nu doar cele noi:\n');
 topAp.forEach(({ x }, i) => {
   const t = (x.titlu || '') + ' ' + (x.descriere || '');
-  const c = chirieZona(x.zona);
+  const c = chirieZona(x.zona, x.mpu);
   console.log(`${i + 1}. ${x.pret.toLocaleString('ro-RO')} € · ${x.mpu} mp utili · ${x.zona}${LA_CASA.test(t) ? ' · la casă' : ''}${esteNou(x) ? ' · NOU' : ''}`);
-  console.log(`   chirie ~${c.chirie} €/lună (${c.din === 'oras' ? 'media orașului, cartier fără date' : `mediana ${c.din}, ${c.n} anunțuri`}) · se recuperează în ${(x.pret / (c.chirie * 12)).toFixed(1)} ani`);
+  console.log(`   chirie estimată ~${c.chirie} €/lună (${c.pe_mp ? `${c.pe_mp} €/mp × ${x.mpu} mp; ` : ''}${c.din === 'oras' ? 'cartier fără date' : `mediana ${c.din} ${c.mediana || c.chirie} €`}) · se recuperează în ${(x.pret / (c.chirie * 12)).toFixed(1)} ani`);
   console.log(`   ${String(x.titlu).slice(0, 66)}`);
   console.log(`   postat ${x.creat} · ${x.url}\n`);
 });
@@ -461,7 +469,7 @@ if (scrie) {
     chirii_din: CHIRII.data,
     apartamente: topAp.map(({ x, p }) => ({
       pret: x.pret, mpu: x.mpu, zona: x.zona, creat: x.creat, stare: x.stare,
-      chirie: chirieZona(x.zona).chirie, chirie_din: chirieZona(x.zona).din, ani: Math.round(p * 10) / 10,
+      chirie: chirieZona(x.zona, x.mpu).chirie, chirie_din: chirieZona(x.zona, x.mpu).din, ani: Math.round(p * 10) / 10,
       la_casa: LA_CASA.test((x.titlu || '') + ' ' + (x.descriere || '')), nou: esteNou(x),
       titlu: x.titlu, url: x.url, scor: p,
     })),

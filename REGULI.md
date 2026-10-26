@@ -149,7 +149,7 @@ citite pe 2026-10-26; sursa e la fiecare. Ce scrie „presupunere" nu e din surs
 9. **„Ideal investiție” și „randament garantat” din anunț nu sunt argumente** ([wall-street.ro](https://www.wall-street.ro/articol/Real-Estate/248223/de-ce-sa-fugi-de-ideal-investitie-si-randament-garantat-la-anunturi-imobiliare.html)). Cifrele de randament de la dezvoltatori vin de la vânzători ([bursa.ro](https://www.bursa.ro/dezvoltatorii-imobiliari-peste-30-procente-din-vanzarile-apartamentelor-noi-sunt-cu-scop-de-investitie-41988837)).
 10. **Înainte de ofertă:** extras CF, datoriile și costurile asociației de proprietari, starea blocului, apoi vizionare în persoană ([op.fi](https://www.op.fi/en/private-customers/themes/housing/dreaming-of-getting-a-buy-to-let-home)). Administrarea (plăți întârziate, chiriași dificili) e un cost real ([wall-street.ro](https://www.wall-street.ro/articol/Money/213998/sfaturi-imobiliare-ce-trebuie-sa-ai-in-vedere-inainte-de-a-investi-in-locuinte.html)).
 
-**Ce face azi `azi.js` din regulile astea:** doar 1, pe bruto (preț ÷ chiria mediană a cartierului). Regulile 2 și 3 scad toți anii în aceeași proporție, deci nu schimbă ordinea. Regulile 4 și 5 o schimbă, dar cer chirii pe anunț cu mp și dată (`tools/chirii.js` salvează acum doar mediane).
+**Ce face azi `azi.js` din regulile astea:** 1 pe brut și 4. Chiria estimată = chiria pe mp din oraș (`tools/chirii-mp.json`, OLX: 7,45 €/mp, 36 de anunțuri, 2026-10-26) × factorul cartierului × mp, plafonată la mediana cartierului. Mihai a prins asta: 450 € pe un 30 mp în Țiglari e mediana cartierului, nu chiria lui. Regulile 2 și 3 scad toți anii în aceeași proporție, deci nu schimbă ordinea. Regula 5 cere chirii pe anunț cu dată (`tools/chirii.js` salvează doar mediane).
 
 ## Ce caută Mihai
 
