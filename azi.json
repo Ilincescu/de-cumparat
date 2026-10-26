@@ -1,27 +1,69 @@
 {
- "generat": "2026-10-26 08:29",
- "de_la": "2026-10-20",
- "pana_la": "2026-10-22",
- "case_noi": 3,
+ "generat": "2026-10-26 17:41",
+ "de_la": "2026-10-22",
+ "pana_la": "2026-10-26",
+ "case_noi": 7,
  "case_trec": 0,
  "din_rezerva": true,
  "din_tot_lista": true,
  "masini_din_rezerva": false,
- "ap_noi": 14,
- "ap_trec": 2,
+ "ap_noi": 61,
+ "ap_trec": 26,
  "ap_din_rezerva": false,
- "chirii_din": "2026-09-30",
+ "chirii_din": "2026-10-26",
  "apartamente": [
+  {
+   "pret": 59000,
+   "mpu": 65,
+   "zona": "Terezian, Sibiu",
+   "creat": "2025-09-30",
+   "stare": "ready_to_use",
+   "chirie": 400,
+   "chirie_din": "Terezian",
+   "ani": 17.1,
+   "net": 3458,
+   "luni_goale": 1,
+   "riscuri": [
+    "bloc din 1900",
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament 2 camere | Investitie | Ultracentral",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-investitie-ultracentral-IDF6SF",
+   "scor": 17.061885482938113
+  },
+  {
+   "pret": 55000,
+   "mpu": 42,
+   "zona": "Centrul Civic, Sibiu",
+   "creat": "2026-10-24",
+   "stare": "ready_to_use",
+   "chirie": 320,
+   "chirie_din": "Centrul Civic",
+   "ani": 20.5,
+   "net": 2688,
+   "luni_goale": 1,
+   "riscuri": [
+    "parter/demisol",
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": false,
+   "nou": true,
+   "titlu": "Apartament 2 camere de vânzare | Sibiu, Broscărie | 42 mp",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-broscrie-42-mp-IDIZWp",
+   "scor": 20.458265139116204
+  },
   {
    "pret": 65000,
    "mpu": 50,
    "zona": "Tiglari, Sibiu",
    "creat": "2026-09-24",
    "stare": "ready_to_use",
-   "chirie": 420,
+   "chirie": 375,
    "chirie_din": "Tiglari",
-   "ani": 18.1,
-   "net": 3600,
+   "ani": 20.7,
+   "net": 3145,
    "luni_goale": 1,
    "riscuri": [
     "ultimul etaj"
@@ -30,71 +72,48 @@
    "nou": false,
    "titlu": "Apartament de vânzare Sibiu | 2 camere | Lacul lui Binder",
    "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-lacul-lui-binder-IDIEgC",
-   "scor": 18.053549605599375
-  },
-  {
-   "pret": 72900,
-   "mpu": 49,
-   "zona": "Centrul Istoric, Sibiu",
-   "creat": "2026-10-20",
-   "stare": "ready_to_use",
-   "chirie": 410,
-   "chirie_din": "Centrul Istoric",
-   "ani": 21.3,
-   "net": 3420,
-   "luni_goale": 1,
-   "riscuri": [
-    "bloc din 1900",
-    "nu scrie de centrală proprie"
-   ],
-   "la_casa": true,
-   "nou": false,
-   "titlu": "Apartament etajul 1 la casa cu 2 camere in zona Centrala din Sibiu",
-   "url": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIVkm",
-   "scor": 21.31454300918075
-  },
-  {
-   "pret": 52981,
-   "mpu": 39,
-   "zona": "Tiglari, Sibiu",
-   "creat": "2026-09-03",
-   "stare": "ready_to_use",
-   "chirie": 325,
-   "chirie_din": "Tiglari",
-   "ani": 21.5,
-   "net": 2460,
-   "luni_goale": 2,
-   "riscuri": [],
-   "la_casa": false,
-   "nou": false,
-   "titlu": "Apartament de vânzare Sibiu | 2 camere | Țiglari | etaj 2, 39 mp",
-   "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-iglari-etaj-2-39-mp-IDIpLK",
-   "scor": 21.53532857218345
+   "scor": 20.66772655007949
   }
  ],
  "surse": [
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-10-22 08:47",
+   "cand": "2026-10-26 17:35",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1399,
-   "potrivite": 252,
-   "stare": "acum 4 zile",
-   "veche": true
+   "gasite": 1485,
+   "potrivite": 257,
+   "stare": "azi",
+   "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-26 08:01",
+   "cand": "2026-10-26 17:37",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1608,
-   "potrivite": 337,
+   "gasite": 1614,
+   "potrivite": 340,
    "stare": "azi",
    "veche": false
   }
  ],
  "case": [
+  {
+   "pret": 170000,
+   "mpu": 98,
+   "curte": 251,
+   "curte_sigura": false,
+   "teren": 320,
+   "zona": "Centrul Istoric, Sibiu",
+   "an": "1978",
+   "stare": "ready_to_use",
+   "creat": "2026-04-15",
+   "repostat": false,
+   "alte": [],
+   "titlu": "Casă individuală | 3 camere | Curte mare | Zonă liniștită | Gusterita",
+   "url": "https://www.storia.ro/ro/oferta/cas-individual-3-camere-curte-mare-zon-linitit-gusterita-IDGY6n",
+   "scor": 81
+  },
   {
    "pret": 135000,
    "mpu": 75,
@@ -124,34 +143,9 @@
    "titlu": "Casa 2 camere de vanzare - Lazaret Sibiu",
    "url": "https://www.storia.ro/ro/oferta/casa-2-camere-de-vanzare-lazaret-sibiu-IDIShx",
    "scor": 69
-  },
-  {
-   "pret": 170000,
-   "mpu": 80,
-   "curte": 264,
-   "curte_sigura": false,
-   "teren": 320,
-   "zona": "Lazaret, Sibiu",
-   "stare": "to_renovation",
-   "creat": "2026-04-21",
-   "repostat": true,
-   "alte": [],
-   "titlu": "Casa individuala de Vanzare in Sibiu, 80 mp utili, teren de 320 mp",
-   "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-in-sibiu-80-mp-utili-teren-de-320-mp-IDH24t",
-   "scor": 69
   }
  ],
  "masini": [
-  {
-   "pret": 9500,
-   "model": "Renault Express",
-   "an": 2023,
-   "km": 63800,
-   "zona": "Bucuresti",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQOxE.html",
-   "scor": 52
-  },
   {
    "pret": 6690,
    "model": "Dacia Sandero Stepway",
@@ -161,6 +155,16 @@
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXqa.html",
    "scor": 43
+  },
+  {
+   "pret": 9990,
+   "model": "Renault Express",
+   "an": 2022,
+   "km": 67000,
+   "zona": "Bucuresti",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQGdi.html",
+   "scor": 42
   },
   {
    "pret": 8690,

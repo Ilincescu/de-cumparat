@@ -113,7 +113,9 @@
    "src": "olx",
    "u": "https://www.olx.ro/d/oferta/merida-scultura-500-disc-ultegra-cursiera-bicicleta-gravel-sosea-IDkNpfy.html",
    "warn": "Marimea nu e trecuta - intreaba prima data",
-   "d": "2026-09-14"
+   "d": "2026-09-14",
+   "mort": true,
+   "mort_din": "2026-10-26"
   },
   {
    "t": "Pinnacle Laterite 28 inch, aluminiu, XL",
@@ -236,7 +238,9 @@
    "src": "olx",
    "u": "https://www.olx.ro/d/oferta/cannondale-supersix-evo-carbon-56-cm-shimano-ultegra-di2-2x11-IDkX0U2.html",
    "warn": "Exact la limita bugetului. Di2 e electronic: verifica bateria si cablajul.",
-   "d": "2026-09-21"
+   "d": "2026-09-21",
+   "mort": true,
+   "mort_din": "2026-10-26"
   },
   {
    "t": "Cervelo Soloist Team 2007, aluminiu, Shimano 105 11v, marime 56",
@@ -334,9 +338,7 @@
    "warn": null,
    "jante": 35,
    "src": "olx",
-   "d": "2026-10-16",
-   "mort": true,
-   "mort_din": "2026-10-26"
+   "d": "2026-10-16"
   },
   {
    "t": "Cannondale SuperSix EVO carbon, Ultegra/105 2x10, Vision Team 30, 58 cm / XL",
