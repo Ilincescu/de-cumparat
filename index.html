@@ -571,9 +571,14 @@
     else if(car){ s.min=3000; s.max=15000; s.step=250; state.maxp=10000; }
     // Cei 250.000 acopera casa SI apartamentul de inchiriat; cel mai ieftin
     // apartament de 2 camere locuibil e ~50.000, deci casa porneste de la 200.000.
-    else { s.min=50000; s.max=IMO.buget_total; s.step=5000; state.maxp=state.k==="casa"?200000:IMO.buget_total; }
+    else if(state.k==="casa"){ s.min=50000; s.max=IMO.buget_total; s.step=5000; state.maxp=200000; }
+    // Apartamentul ia ce ramane din buget dupa casa: ~50.000. Cursorul merge
+    // pana la 100.000; la 250.000 aratam 243 de apartamente pe care nu le vrea.
+    else { s.min=30000; s.max=100000; s.step=1000; state.maxp=IMO.buget_total-200000; }
     s.value=state.maxp;
     el("maxpVal").textContent=money(state.maxp);
+    // 50 mp e minimul la casa; la apartament criteriul e 30 mp (sub, e garsoniera)
+    if(imo){ state.minmp=state.k==="ap"?30:50; el("minmp").value=state.minmp; el("minmpVal").textContent=state.minmp+" mp"; }
     notes(); zones(); setPortals(); render(); sums(); dimineata();
   }
 
@@ -755,9 +760,10 @@
 
   function dimineata(){
     var box=el("azi");
-    if(!AZI||(state.k!=="casa"&&state.k!=="masina")){ box.hidden=true; return; }
-    var masini=state.k==="masina", lista=masini?AZI.masini:AZI.case;
-    var rezerva=masini?AZI.masini_din_rezerva:AZI.din_rezerva;
+    if(!AZI||(state.k!=="casa"&&state.k!=="masina"&&state.k!=="ap")){ box.hidden=true; return; }
+    var masini=state.k==="masina", ap=state.k==="ap";
+    var lista=masini?AZI.masini:ap?(AZI.apartamente||[]):AZI.case;
+    var rezerva=masini?AZI.masini_din_rezerva:ap?false:AZI.din_rezerva;
     var h=['<div class="cap"><div>'
             +'<h2>În dimineața asta</h2>'
             +'<p class="cand">'+esc(AZI.de_la)+' → '+esc(AZI.pana_la)+'</p></div>'
@@ -774,10 +780,17 @@
       if(rezerva) h.push('<p class="nota">'+(masini
         ? 'Nimic nou. Mai jos sunt cele mai bune de pe toată lista.'
         : 'Nimic postat de ieri. Mai jos sunt cele mai bune din ultima săptămână.')+'</p>');
-      if(!masini&&!rezerva)
+      if(ap) h.push('<p class="nota">Cele mai bune 3 de pe toată lista Storia, nu doar cele noi: 2 camere, minim 30 mp, fără mansardă și dezvoltator, cele ieftine și cele la casă întâi.</p>');
+      else if(!masini&&!rezerva)
         h.push('<h3>'+AZI.case_noi+' postate, '+AZI.case_trec+' trec de criterii</h3>');
       h.push('<ol>');
       lista.forEach(function(c){
+        if(ap){
+          h.push('<li><a href="'+esc(c.url)+'" target="_blank" rel="noopener">'+nr(c.pret)+' € · '
+            +esc(c.zona)+'</a><span class="det">'+c.mpu+' mp utili'+(c.la_casa?' · la casă':'')
+            +(c.nou?' · nou':'')+' · postat '+esc(c.creat)+'</span><span class="alte">'+esc(c.titlu)+'</span></li>');
+          return;
+        }
         if(masini){
           h.push('<li><a href="'+esc(c.url)+'" target="_blank" rel="noopener">'+nr(c.pret)+' € · '
             +esc(c.model)+'</a><span class="det">'+c.an+' · '+nr(c.km)+' km · '+esc(c.zona)+'</span>');

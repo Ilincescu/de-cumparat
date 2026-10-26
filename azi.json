@@ -1,11 +1,52 @@
 {
- "generat": "2026-10-26 06:42",
+ "generat": "2026-10-26 07:03",
  "de_la": "2026-10-20",
  "pana_la": "2026-10-22",
  "case_noi": 3,
  "case_trec": 0,
  "din_rezerva": true,
  "masini_din_rezerva": false,
+ "ap_noi": 14,
+ "ap_trec": 2,
+ "ap_din_rezerva": false,
+ "apartamente": [
+  {
+   "pret": 65000,
+   "mpu": 45,
+   "zona": "Centrul Istoric, Sibiu",
+   "creat": "2026-07-30",
+   "stare": "ready_to_use",
+   "la_casa": true,
+   "nou": false,
+   "titlu": "Apartament la casă, 2 camere | Zona Strada 9 Mai – Constituției",
+   "url": "https://www.storia.ro/ro/oferta/apartament-la-cas-2-camere-zona-strada-9-mai-constituiei-IDI30T",
+   "scor": 44
+  },
+  {
+   "pret": 47000,
+   "mpu": 30,
+   "zona": "Tiglari, Sibiu",
+   "creat": "2026-09-14",
+   "stare": "ready_to_use",
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament 2 camere parter Zona Tiglari",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-parter-zona-tiglari-IDIvVP",
+   "scor": 40
+  },
+  {
+   "pret": 72900,
+   "mpu": 49,
+   "zona": "Centrul Istoric, Sibiu",
+   "creat": "2026-10-20",
+   "stare": "ready_to_use",
+   "la_casa": true,
+   "nou": false,
+   "titlu": "Apartament etajul 1 la casa cu 2 camere in zona Centrala din Sibiu",
+   "url": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIVkm",
+   "scor": 39
+  }
+ ],
  "surse": [
   {
    "nume": "Storia",

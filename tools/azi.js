@@ -1,4 +1,4 @@
-// Ce a mai aparut de ieri. Trei case, trei masini, atat.
+// Ce a mai aparut de ieri. Trei case, trei apartamente, trei masini, atat.
 //
 //   node tools/azi.js              fata de rularea anterioara
 //   node tools/azi.js --zile 7     ce a aparut in ultimele 7 zile
@@ -111,6 +111,45 @@ function punctajCasa(x) {
   p += Math.round((200000 - x.pret) / 200000 * 25);
   if (VERDE.test((x.titlu || '') + ' ' + (x.descriere || ''))) p += 10;
   return p;
+}
+
+// ---------- apartamente ----------
+
+// Apartamentul e cel de inchiriat, din ce ramane dupa casa: 2 camere, cat mai
+// ieftin, de preferat la casa. Fara mansarda, fara dezvoltator, fara garsoniere.
+const MANSARDA = /mansard|pe\s+(2|dou[aă])\s+niveluri/i;
+const DEZVOLTATOR = /dezvoltator|ansamblu\s+reziden|direct\s+de\s+la\s+constructor|bloc\s+nou|finalizare\s+[iî]n|predare\s+[iî]n/i;
+const LA_CASA = /(apartament|locuin[tț][aă])\s+(la|[iî]n)\s+cas[aă]|\bla\s+cas[aă]\b/i;
+
+function filtreazaAp(x, marcate) {
+  const t = (x.titlu || '') + ' ' + (x.descriere || '');
+  if (marcate.has(x.url)) return 'sters sau dublura (date.json)';
+  if (x.exclus && x.exclus.length) return 'exclus automat: ' + [].concat(x.exclus).join(', ');
+  if (AFARA.test(t)) return 'in afara orasului';
+  if (x.camere !== 'TWO') return 'nu are 2 camere';
+  if (!x.mpu || x.mpu < 30) return 'sub 30 mp, practic garsoniera';
+  if (MANSARDA.test(t)) return 'mansarda';
+  if (DEZVOLTATOR.test(t) || Number(x.an) >= 2025) return 'de la dezvoltator';
+  // "300 EUR" pe Storia la vanzare e o chirie pusa la categoria gresita
+  if (!x.pret || x.pret < 20000) return 'fara pret de vanzare';
+  return null;
+}
+
+// Pretul cantareste cel mai mult: e cel care se inchiriaza, nu cel in care sta.
+function punctajAp(x) {
+  let p = Math.round((100000 - x.pret) / 100000 * 60);
+  if (LA_CASA.test((x.titlu || '') + ' ' + (x.descriere || ''))) p += 15;
+  if (x.stare === 'ready_to_use') p += 8;
+  return p;
+}
+
+function alegeAp(lista, marcate) {
+  // Acelasi apartament la doua agentii: acelasi pret si aceiasi mp. Cartierul nu
+  // intra in cheie - doua agentii l-au pus pe acelasi in Hipodrom II si III.
+  const vazut = new Set();
+  return lista.filter(x => !filtreazaAp(x, marcate))
+    .map(x => ({ x, p: punctajAp(x) })).sort((a, b) => b.p - a.p)
+    .filter(({ x }) => { const k = `${x.pret}|${x.mpu}`; if (vazut.has(k)) return false; vazut.add(k); return true; });
 }
 
 // ---------- masini ----------
@@ -280,6 +319,17 @@ if (!topCase.length) {
   dinRezerva = topCase.length > 0;
 }
 
+const marcate = new Set(JSON.parse(fs.readFileSync(path.join(RADACINA, 'date.json'), 'utf8')).anunturi
+  .filter(o => o.mort || o.dup).map(o => o.u));
+const toateAp = azi.filter(x => x.tip === 'apartament');
+const apNoi = toateAp.filter(esteNou);
+// Spre deosebire de case, la apartament nu conteaza ce e nou, ci ce e ieftin:
+// primele trei "postate azi" ieseau la 90.000, cand bugetul e ~50.000. Aleg din
+// toata lista si marchez ce e nou.
+const apOk = alegeAp(apNoi, marcate);
+const topAp = await primeleVii(alegeAp(toateAp, marcate), 3, g => g.x.url);
+const apDinRezerva = false;
+
 let topMasini = [], masiniDinRezerva = false, masiniNoi = 0, masiniOk = 0, pragMasini = null;
 const mCale = path.join(RADACINA, 'masini.json');
 if (fs.existsSync(mCale)) {
@@ -325,6 +375,16 @@ topCase.forEach(({ x, alte }, i) => {
   console.log();
 });
 
+console.log(`APARTAMENTE — ${apNoi.length} postate în interval, ${apOk.length} trec de criterii\n`);
+if (!topAp.length) console.log('  nimic care să bifeze criteriile.\n');
+else console.log('  Cele mai bune de pe toată lista Storia, nu doar cele noi:\n');
+topAp.forEach(({ x }, i) => {
+  const t = (x.titlu || '') + ' ' + (x.descriere || '');
+  console.log(`${i + 1}. ${x.pret.toLocaleString('ro-RO')} € · ${x.mpu} mp utili · ${x.zona}${LA_CASA.test(t) ? ' · la casă' : ''}${esteNou(x) ? ' · NOU' : ''}`);
+  console.log(`   ${String(x.titlu).slice(0, 66)}`);
+  console.log(`   postat ${x.creat} · ${x.url}\n`);
+});
+
 if (pragMasini) {
   console.log(`MAȘINI — ${masiniNoi} apărute după ${pragMasini}, ${masiniOk} trec de criterii\n`);
   if (!topMasini.length) console.log('  nimic nou care să bifeze criteriile.\n');
@@ -351,6 +411,12 @@ if (scrie) {
     de_la: referinta.data, pana_la: acum.data,
     case_noi: caseNoi.length, case_trec: trec.length, din_rezerva: dinRezerva,
     masini_din_rezerva: masiniDinRezerva,
+    ap_noi: apNoi.length, ap_trec: apOk.length, ap_din_rezerva: apDinRezerva,
+    apartamente: topAp.map(({ x, p }) => ({
+      pret: x.pret, mpu: x.mpu, zona: x.zona, creat: x.creat, stare: x.stare,
+      la_casa: LA_CASA.test((x.titlu || '') + ' ' + (x.descriere || '')), nou: esteNou(x),
+      titlu: x.titlu, url: x.url, scor: p,
+    })),
     surse: surse(),
     case: topCase.map(({ x, p, alte }) => {
       const c = curteLibera(x);
