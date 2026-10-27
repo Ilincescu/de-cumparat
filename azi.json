@@ -1,16 +1,16 @@
 {
- "generat": "2026-10-26 21:42",
- "de_la": "2026-10-22",
- "pana_la": "2026-10-26",
- "case_noi": 8,
+ "generat": "2026-10-27 06:38",
+ "de_la": "2026-10-26",
+ "pana_la": "2026-10-27",
+ "case_noi": 0,
  "case_trec": 0,
  "din_rezerva": true,
  "din_tot_lista": true,
- "masini_din_rezerva": false,
- "ap_noi": 62,
- "ap_trec": 13,
+ "masini_din_rezerva": true,
+ "ap_noi": 0,
+ "ap_trec": 0,
  "ap_din_rezerva": false,
- "chirii_din": "2026-10-26",
+ "chirii_din": "2026-10-27",
  "apartamente": [
   {
    "alte": [
@@ -27,15 +27,15 @@
    "mpu": 37,
    "zona": "Tiglari, Sibiu",
    "creat": "2025-08-17",
-   "chirie": 350,
+   "chirie": 340,
    "chirie_din": "oras",
-   "chirie_n": 78,
+   "chirie_n": 49,
    "chirie_mp": [
     31,
     43
    ],
-   "ani": 19.5,
-   "net": 2710,
+   "ani": 20.2,
+   "net": 2618,
    "luni_goale": 2,
    "cost_total": 52836,
    "fara_comision": false,
@@ -48,7 +48,33 @@
    "nou": false,
    "titlu": "Apartament de vânzare 2 camere Sibiu ,Tigllari",
    "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-2-camere-sibiu-tigllari-IDEAhs",
-   "scor": 19.496678966789666
+   "scor": 20.181818181818183
+  },
+  {
+   "alte": [],
+   "pret": 75000,
+   "mpu": 48,
+   "zona": "Gusterita, Sibiu",
+   "creat": "2026-02-17",
+   "stare": "ready_to_use",
+   "chirie": 450,
+   "chirie_din": "oras",
+   "chirie_n": 27,
+   "chirie_mp": [
+    41,
+    55
+   ],
+   "ani": 20.4,
+   "net": 3804,
+   "luni_goale": 1,
+   "cost_total": 77700,
+   "fara_comision": false,
+   "riscuri": [],
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament cu 2 camere in Gusterita",
+   "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-in-gusterita-IDGoIa",
+   "scor": 20.425867507886434
   },
   {
    "alte": [],
@@ -56,15 +82,15 @@
    "mpu": 44,
    "zona": "Centrul Istoric, Sibiu",
    "creat": "2026-07-29",
-   "chirie": 410,
+   "chirie": 400,
    "chirie_din": "Centrul Istoric",
-   "chirie_n": 20,
+   "chirie_n": 13,
    "chirie_mp": [
     35,
     53
    ],
-   "ani": 20,
-   "net": 3479,
+   "ani": 20.5,
+   "net": 3378,
    "luni_goale": 1,
    "cost_total": 69412,
    "fara_comision": false,
@@ -76,42 +102,16 @@
    "nou": false,
    "titlu": "Apartament 2 camere | Central, Sibiu | 44 mp",
    "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-central-sibiu-44-mp-IDI2hq",
-   "scor": 19.950563347896068
-  },
-  {
-   "alte": [],
-   "pret": 52981,
-   "mpu": 39,
-   "zona": "Tiglari, Sibiu",
-   "creat": "2026-09-03",
-   "stare": "ready_to_use",
-   "chirie": 350,
-   "chirie_din": "oras",
-   "chirie_n": 89,
-   "chirie_mp": [
-    33,
-    45
-   ],
-   "ani": 20.4,
-   "net": 2690,
-   "luni_goale": 2,
-   "cost_total": 54888,
-   "fara_comision": false,
-   "riscuri": [],
-   "la_casa": false,
-   "nou": false,
-   "titlu": "Apartament de vânzare Sibiu | 2 camere | Țiglari | etaj 2, 39 mp",
-   "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-iglari-etaj-2-39-mp-IDIpLK",
-   "scor": 20.403019861050705
+   "scor": 20.548253404381292
   }
  ],
  "surse": [
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-10-26 18:21",
+   "cand": "2026-10-27 06:32",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1486,
+   "gasite": 1485,
    "potrivite": 258,
    "stare": "azi",
    "veche": false
@@ -119,10 +119,10 @@
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-26 17:37",
+   "cand": "2026-10-27 06:33",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1614,
-   "potrivite": 340,
+   "gasite": 1616,
+   "potrivite": 336,
    "stare": "azi",
    "veche": false
   }
@@ -138,7 +138,7 @@
    "an": "1978",
    "stare": "ready_to_use",
    "creat": "2026-04-15",
-   "repostat": false,
+   "repostat": true,
    "alte": [],
    "titlu": "Casă individuală | 3 camere | Curte mare | Zonă liniștită | Gusterita",
    "url": "https://www.storia.ro/ro/oferta/cas-individual-3-camere-curte-mare-zon-linitit-gusterita-IDGY6n",
@@ -177,34 +177,34 @@
  ],
  "masini": [
   {
-   "pret": 6690,
-   "model": "Dacia Sandero Stepway",
-   "an": 2020,
-   "km": 79000,
-   "zona": "Selimbar",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXqa.html",
-   "scor": 43
-  },
-  {
-   "pret": 9990,
+   "pret": 9500,
    "model": "Renault Express",
-   "an": 2022,
-   "km": 67000,
+   "an": 2023,
+   "km": 63800,
    "zona": "Bucuresti",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQGdi.html",
-   "scor": 42
+   "url": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQOxE.html",
+   "scor": 52
   },
   {
-   "pret": 8690,
-   "model": "Ford EcoSport 1.0 EcoBoost Titanium",
+   "pret": 9999,
+   "model": "Opel Combo 1.5 L1H1 Selection",
    "an": 2022,
-   "km": 90000,
-   "zona": "Bucuresti",
+   "km": 36850,
+   "zona": "Satu Mare",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQXfJ.html",
-   "scor": 38
+   "url": "https://www.autovit.ro/autoturisme/anunt/opel-combo-ver-1-5-l1h1-selection-ID7HQHig.html",
+   "scor": 51
+  },
+  {
+   "pret": 9700,
+   "model": "Opel Crossland 1.2 Start/Stop Edition",
+   "an": 2023,
+   "km": 87922,
+   "zona": "Otopeni",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-start-stop-edition-ID7HOewA.html",
+   "scor": 45
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-26",
+ "actualizat": "2026-10-27",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -5790,21 +5790,6 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-zona-valea-aurie-IDGRlj",
    "warn": null,
    "d": "2026-10-04"
-  },
-  {
-   "k": "ap",
-   "p": 97001,
-   "t": "Apartament de vanzare central Sibiu",
-   "z": "Hipodrom II, Sibiu",
-   "r": 2,
-   "a": 48.5,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-central-sibiu-IDGR2v",
-   "warn": null,
-   "d": "2026-10-15"
   },
   {
    "k": "ap",
@@ -13709,8 +13694,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-modern-i-decomandat-i-stefan-cel-mare-IDHkCf",
    "warn": null,
-   "d": "2026-10-20",
-   "tare": "43% sub mediana a 349 anunturi asemanatoare (94.000 €)"
+   "d": "2026-10-20"
   },
   {
    "k": "casa",
@@ -14405,7 +14389,7 @@
    "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-mihai-viteazul-3-camere-275737091",
    "warn": "Din imobiliare; detalii neverificate in descriere.",
    "d": "2026-10-26",
-   "tare": "55% sub mediana a 29 anunturi asemanatoare (240.000 €)"
+   "tare": "55% sub mediana a 30 anunturi asemanatoare (240.000 €)"
   },
   {
    "k": "casa",
@@ -15165,6 +15149,21 @@
    "u": "https://www.storia.ro/ro/oferta/ap-semidecomandat-2-camere-balcon-inchis-53-mp-7-mp-m-viteazu-IDEmlH",
    "warn": null,
    "d": "2026-10-26"
+  },
+  {
+   "k": "casa",
+   "p": 245000,
+   "t": "Casa Sibiu central cu spatiu comercial",
+   "z": "Centrul Istoric, Sibiu",
+   "r": 5,
+   "a": 170,
+   "g": "teren 198 mp",
+   "gm": null,
+   "c": "proprie",
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/casa-sibiu-central-cu-spatiu-comercial-IDJ1au",
+   "warn": null,
+   "d": "2026-10-27"
   }
  ]
 }

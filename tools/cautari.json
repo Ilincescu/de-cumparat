@@ -1,39 +1,39 @@
 {
  "Autovit": {
   "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-  "cand": "2026-10-26 17:37",
-  "gasite": 1614,
-  "potrivite": 340,
-  "adaugate": 10
+  "cand": "2026-10-27 06:33",
+  "gasite": 1616,
+  "potrivite": 336,
+  "adaugate": 2
  },
  "Storia": {
   "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-  "cand": "2026-10-26 17:35",
+  "cand": "2026-10-27 06:32",
   "gasite": 1485,
-  "case": 257,
-  "excluse": 358
+  "case": 258,
+  "excluse": 360
  },
  "publi24": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-10-26 17:37",
-  "gasite": 171,
+  "cand": "2026-10-27 06:33",
+  "gasite": 170,
   "noi": 0
  },
  "lajumate": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-10-26 17:37",
+  "cand": "2026-10-27 06:34",
   "gasite": 223,
   "noi": 0
  },
  "agentii": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-10-26 17:37",
+  "cand": "2026-10-27 06:34",
   "gasite": 174,
   "noi": 0
  },
  "licitatii": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-10-26 17:37",
+  "cand": "2026-10-27 06:34",
   "gasite": 1,
   "noi": 0
  },
@@ -57,8 +57,14 @@
  },
  "anaf": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-10-26 17:37",
+  "cand": "2026-10-27 06:34",
   "gasite": 0,
   "noi": 0
+ },
+ "anaf-masini": {
+  "ce": "autoturisme la licitatie, judetul Sibiu",
+  "cand": "2026-10-27 06:34",
+  "gasite": 8,
+  "noi": 8
  }
 }

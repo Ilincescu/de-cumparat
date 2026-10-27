@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-26",
+ "actualizat": "2026-10-27",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -1993,6 +1993,10 @@
     {
      "d": "2026-09-25",
      "p": 105000
+    },
+    {
+     "d": "2026-10-26",
+     "p": 99000
     }
    ]
   },
@@ -3285,6 +3289,10 @@
     {
      "d": "2026-09-25",
      "p": 89500
+    },
+    {
+     "d": "2026-10-26",
+     "p": 94500
     }
    ]
   },
@@ -7541,6 +7549,10 @@
     {
      "d": "2026-09-22",
      "p": 210000
+    },
+    {
+     "d": "2026-10-26",
+     "p": 205000
     }
    ]
   },
@@ -10041,6 +10053,10 @@
     {
      "d": "2026-09-30",
      "p": 80000
+    },
+    {
+     "d": "2026-10-26",
+     "p": 75000
     }
    ]
   },
@@ -10359,6 +10375,10 @@
     {
      "d": "2026-09-30",
      "p": 101990
+    },
+    {
+     "d": "2026-10-26",
+     "p": 99990
     }
    ]
   },
@@ -10607,6 +10627,10 @@
     {
      "d": "2026-09-30",
      "p": 250000
+    },
+    {
+     "d": "2026-10-26",
+     "p": 249000
     }
    ]
   },
@@ -10879,6 +10903,10 @@
     {
      "d": "2026-09-30",
      "p": 250000
+    },
+    {
+     "d": "2026-10-26",
+     "p": 249000
     }
    ]
   },
@@ -10899,6 +10927,10 @@
     {
      "d": "2026-09-30",
      "p": 212000
+    },
+    {
+     "d": "2026-10-26",
+     "p": 205000
     }
    ]
   },
@@ -14893,6 +14925,10 @@
     {
      "d": "2026-10-04",
      "p": 79900
+    },
+    {
+     "d": "2026-10-26",
+     "p": 79500
     }
    ]
   },
@@ -15775,6 +15811,10 @@
     {
      "d": "2026-10-13",
      "p": 81500
+    },
+    {
+     "d": "2026-10-26",
+     "p": 86500
     }
    ]
   },
@@ -20343,6 +20383,10 @@
     {
      "d": "2026-10-07",
      "p": 85000
+    },
+    {
+     "d": "2026-10-26",
+     "p": 90000
     }
    ]
   },
@@ -20419,6 +20463,10 @@
     {
      "d": "2026-10-11",
      "p": 99000
+    },
+    {
+     "d": "2026-10-26",
+     "p": 98999
     }
    ]
   },
@@ -20653,6 +20701,10 @@
     {
      "d": "2026-10-08",
      "p": 100000
+    },
+    {
+     "d": "2026-10-26",
+     "p": 99990
     }
    ]
   },
@@ -20663,6 +20715,10 @@
     {
      "d": "2026-10-08",
      "p": 105000
+    },
+    {
+     "d": "2026-10-26",
+     "p": 104999
     }
    ]
   },
@@ -23137,6 +23193,10 @@
     {
      "d": "2026-10-13",
      "p": 80000
+    },
+    {
+     "d": "2026-10-26",
+     "p": 75000
     }
    ]
   },
@@ -29911,6 +29971,10 @@
     {
      "d": "2026-10-22",
      "p": 101990
+    },
+    {
+     "d": "2026-10-26",
+     "p": 99990
     }
    ]
   },
@@ -31981,6 +32045,116 @@
     {
      "d": "2026-10-26",
      "p": 14000
+    }
+   ]
+  },
+  "IDJ1au": {
+   "u": "https://www.storia.ro/ro/oferta/casa-sibiu-central-cu-spatiu-comercial-IDJ1au",
+   "t": "Casa Sibiu central cu spatiu comercial",
+   "preturi": [
+    {
+     "d": "2026-10-26",
+     "p": 245000
+    }
+   ]
+  },
+  "IDJ18E": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-renovata-comision-0-loc-de-parcare-zona-vasile-aaron-sibiu-IDJ18E",
+   "t": "Garsoniera renovata Comision 0% loc de parcare zona Vasile Aaron Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-26",
+     "p": 51900
+    }
+   ]
+  },
+  "ID7HQXUG": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-tucson-ID7HQXUG.html",
+   "t": "Hyundai Tucson",
+   "preturi": [
+    {
+     "d": "2026-10-26",
+     "p": 8200
+    }
+   ]
+  },
+  "ID7HQXVN": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-grandland-x-ver-1-2-turbo-start-stop-at8-business-edition-ID7HQXVN.html",
+   "t": "Opel Grandland X 1.2 Turbo START/STOP AT8 Business Edition",
+   "preturi": [
+    {
+     "d": "2026-10-26",
+     "p": 8750
+    }
+   ]
+  },
+  "ID7HQXTF": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-connected-ID7HQXTF.html",
+   "t": "Ford EcoSport 1.0 EcoBoost Connected",
+   "preturi": [
+    {
+     "d": "2026-10-26",
+     "p": 9990
+    }
+   ]
+  },
+  "ID7HQGdi": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HQGdi.html",
+   "t": "Renault Express",
+   "preturi": [
+    {
+     "d": "2026-10-26",
+     "p": 9990
+    }
+   ]
+  },
+  "ID7HQMy0": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQMy0.html",
+   "t": "Dacia Sandero Stepway",
+   "preturi": [
+    {
+     "d": "2026-10-26",
+     "p": 11750
+    }
+   ]
+  },
+  "ID7HQXLy": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQXLy.html",
+   "t": "Ford EcoSport",
+   "preturi": [
+    {
+     "d": "2026-10-26",
+     "p": 12501
+    }
+   ]
+  },
+  "ID7HQXOq": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/citroen-c3-aircross-ID7HQXOq.html",
+   "t": "Citroën C3 AIRCROSS",
+   "preturi": [
+    {
+     "d": "2026-10-26",
+     "p": 12700
+    }
+   ]
+  },
+  "ID7HQXCp": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXCp.html",
+   "t": "Dacia Sandero Stepway",
+   "preturi": [
+    {
+     "d": "2026-10-26",
+     "p": 14000
+    }
+   ]
+  },
+  "ID7HQXMv": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-arkana-ver-e-tech-full-145-evolution-ID7HQXMv.html",
+   "t": "Renault Arkana E-TECH Full 145 Evolution",
+   "preturi": [
+    {
+     "d": "2026-10-26",
+     "p": 14991
     }
    ]
   }
