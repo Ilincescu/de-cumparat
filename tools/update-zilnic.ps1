@@ -1,10 +1,12 @@
 # Baleiaza zilnic sursele si actualizeaza listele de pe https://ilincescu.github.io/de-cumparat/
 # Rulat de Task Scheduler: "de-cumparat update". Oprire: schtasks /Delete /TN "de-cumparat update" /F
 #
-# Porneste la 8:00, la 13:00 si la deschiderea sesiunii. Daca rularea de azi a
-# mers complet (tools/ultima-rulare.json: nimic esuat, toate fisierele din
-# browser de azi), iese fara sa faca nimic. Altfel reia - asa se recupereaza o
-# sursa care a picat dimineata (VPN pornit, Storia 403, browserul nu a raspuns).
+# O data pe zi, la 8:00; Task Scheduler o porneste imediat ce laptopul e pornit
+# daca a ratat ora (StartWhenAvailable). Mihai, 2026-10-27: nu vrea rulare la
+# pranz, "e ok zilnic candva daca este rapid". Daca azi a mers deja tot
+# (tools/ultima-rulare.json), iese fara sa faca nimic - pornita de mana a doua
+# oara nu reface treaba. Ce a picat ieri se recupereaza la rularea urmatoare:
+# prompt-ul primeste lista si face intai pasii aceia.
 
 $repo = 'C:\Visma\case-sibiu'
 $log  = Join-Path $repo 'tools\jurnal-update.txt'
@@ -27,8 +29,8 @@ if (Test-Path $stare) {
 git pull --rebase --quiet 2>&1 | Out-File -Append -Encoding utf8 $log
 
 $prompt = Get-Content (Join-Path $repo 'tools\prompt-zilnic.txt') -Raw
-if ((Test-Path $stare) -and $s.data -eq $azi) {
-  $prompt = "RELUARE: rularea de azi de la $($s.ora) nu a mers complet. Au esuat: $($s.esuate -join ', '). Fisiere din browser lipsa: $($s.lipsa_browser -join ', '). Fa intai pasii din browser care lipsesc, apoi update.js.`n`n" + $prompt
+if ((Test-Path $stare) -and ($s.esuate.Count -gt 0 -or $s.lipsa_browser.Count -gt 0)) {
+  $prompt = "RELUARE: rularea din $($s.data) $($s.ora) nu a mers complet. Au esuat: $($s.esuate -join ', '). Fisiere din browser lipsa: $($s.lipsa_browser -join ', '). Nu sari peste pasii astia azi.`n`n" + $prompt
 }
 
 claude -p $prompt --permission-mode acceptEdits 2>&1 | Out-File -Append -Encoding utf8 $log
