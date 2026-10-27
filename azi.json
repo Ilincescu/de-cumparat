@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-27 08:07",
+ "generat": "2026-10-27 08:08",
  "de_la": "2026-10-26",
  "pana_la": "2026-10-27",
  "case_noi": 0,
@@ -78,31 +78,29 @@
   },
   {
    "alte": [],
-   "pret": 67000,
-   "mpu": 44,
-   "zona": "Centrul Istoric, Sibiu",
-   "creat": "2026-07-29",
-   "chirie": 400,
-   "chirie_din": "Centrul Istoric",
-   "chirie_n": 13,
+   "pret": 52981,
+   "mpu": 39,
+   "zona": "Tiglari, Sibiu",
+   "creat": "2026-09-03",
+   "stare": "ready_to_use",
+   "chirie": 340,
+   "chirie_din": "oras",
+   "chirie_n": 55,
    "chirie_mp": [
-    35,
-    53
+    33,
+    45
    ],
-   "ani": 20.5,
-   "net": 3378,
-   "luni_goale": 1,
-   "cost_total": 69412,
+   "ani": 21.1,
+   "net": 2598,
+   "luni_goale": 2,
+   "cost_total": 54888,
    "fara_comision": false,
-   "riscuri": [
-    "bloc din 1800",
-    "nu scrie de centrală proprie"
-   ],
-   "la_casa": true,
+   "riscuri": [],
+   "la_casa": false,
    "nou": false,
-   "titlu": "Apartament 2 camere | Central, Sibiu | 44 mp",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-central-sibiu-44-mp-IDI2hq",
-   "scor": 20.548253404381292
+   "titlu": "Apartament de vânzare Sibiu | 2 camere | Țiglari | etaj 2, 39 mp",
+   "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-iglari-etaj-2-39-mp-IDIpLK",
+   "scor": 21.12547581200759
   }
  ],
  "surse": [
@@ -129,22 +127,6 @@
  ],
  "case": [
   {
-   "pret": 170000,
-   "mpu": 98,
-   "curte": 251,
-   "curte_sigura": false,
-   "teren": 320,
-   "zona": "Centrul Istoric, Sibiu",
-   "an": "1978",
-   "stare": "ready_to_use",
-   "creat": "2026-04-15",
-   "repostat": true,
-   "alte": [],
-   "titlu": "Casă individuală | 3 camere | Curte mare | Zonă liniștită | Gusterita",
-   "url": "https://www.storia.ro/ro/oferta/cas-individual-3-camere-curte-mare-zon-linitit-gusterita-IDGY6n",
-   "scor": 81
-  },
-  {
    "pret": 135000,
    "mpu": 75,
    "curte": 227,
@@ -160,19 +142,35 @@
    "scor": 73
   },
   {
-   "pret": 87900,
-   "mpu": 84,
-   "curte": 276,
+   "pret": 170000,
+   "mpu": 80,
+   "curte": 264,
    "curte_sigura": false,
-   "teren": 335,
+   "teren": 320,
    "zona": "Lazaret, Sibiu",
-   "an": "1970",
-   "creat": "2026-10-14",
+   "stare": "to_renovation",
+   "creat": "2026-04-21",
    "repostat": true,
    "alte": [],
-   "titlu": "Casa 2 camere de vanzare - Lazaret Sibiu",
-   "url": "https://www.storia.ro/ro/oferta/casa-2-camere-de-vanzare-lazaret-sibiu-IDIShx",
+   "titlu": "Casa individuala de Vanzare in Sibiu, 80 mp utili, teren de 320 mp",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-in-sibiu-80-mp-utili-teren-de-320-mp-IDH24t",
    "scor": 69
+  },
+  {
+   "pret": 190000,
+   "mpu": 90,
+   "curte": 387,
+   "curte_sigura": false,
+   "teren": 450,
+   "zona": "Marmelada, Sibiu",
+   "an": "1980",
+   "stare": "ready_to_use",
+   "creat": "2024-09-19",
+   "repostat": true,
+   "alte": [],
+   "titlu": "Casa cu 2 camere | Curte | Zona Terezian",
+   "url": "https://www.storia.ro/ro/oferta/casa-cu-2-camere-curte-zona-terezian-IDBsmy",
+   "scor": 68
   }
  ],
  "masini": [

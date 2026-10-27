@@ -2,6 +2,18 @@
  "nota": "Ce a respins Mihai explicit. tools/azi.js nu i le mai arata. Cand respinge ceva nou, se adauga aici, nu in cod.",
  "case": [
   {
+   "id": "IDGY6n",
+   "ce": "Gusterita, 3 camere, 98 mp, curte 251 mp, MAAC",
+   "pret": 170000,
+   "motiv": "igrasie in poze: tencuiala cazuta si pete jos pe peretele de la scara de la intrare, tavan cojit in camera (2026-10-27)"
+  },
+  {
+   "id": "IDIShx",
+   "ce": "Lazaret, 2 camere, 84 mp, curte 276 mp",
+   "pret": 87900,
+   "motiv": "igrasie in poze: pete mari de apa si tencuiala cazuta pe tavane, pete pe pereti (2026-10-27)"
+  },
+  {
    "id": "IDIhoz",
    "ce": "Turnisor, 4 camere, 475 mp teren",
    "pret": 129900,
@@ -43,6 +55,12 @@
   }
  ],
  "apartamente": [
+  {
+   "id": "IDI2hq",
+   "ce": "Apartament 2 camere la casa, 44 mp, Centrul Istoric, cladire din 1800, MAAC",
+   "pret": 67000,
+   "motiv": "igrasie in poze: tencuiala cazuta pe tavanul bucatariei, gangul cu pereti umezi si tencuiala cazuta (2026-10-27)"
+  },
   {
    "id": "IDI30T",
    "ce": "Apartament la casa, 2 camere, 45 mp, str. 9 Mai - Constitutiei",
