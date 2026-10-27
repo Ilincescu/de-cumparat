@@ -4925,6 +4925,10 @@
     {
      "d": "2026-10-22",
      "p": 215000
+    },
+    {
+     "d": "2026-10-27",
+     "p": 230000
     }
    ]
   },
@@ -32155,6 +32159,96 @@
     {
      "d": "2026-10-26",
      "p": 14991
+    }
+   ]
+  },
+  "ID7HQXYe": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-l-puretech-stt-eat8-allure-ID7HQXYe.html",
+   "t": "Peugeot 2008 1.2 L PureTech STT EAT8 Allure",
+   "preturi": [
+    {
+     "d": "2026-10-27",
+     "p": 12990
+    }
+   ]
+  },
+  "https://elicitatii.anaf.ro/publicitate/produs/12600035624000000037680-autoturism-ford-focus-1999": {
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600035624000000037680-autoturism-ford-focus-1999",
+   "t": "Ford Focus",
+   "preturi": [
+    {
+     "d": "2026-10-27",
+     "p": 917
+    }
+   ]
+  },
+  "https://elicitatii.anaf.ro/publicitate/produs/12600035459000000037404-autoturism-marca-audi-model-q5": {
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600035459000000037404-autoturism-marca-audi-model-q5",
+   "t": "Audi Q5",
+   "preturi": [
+    {
+     "d": "2026-10-27",
+     "p": 10522
+    }
+   ]
+  },
+  "https://elicitatii.anaf.ro/publicitate/produs/12600020845000000037436-autoturism-audi-a4-an-fabricatie-2007": {
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600020845000000037436-autoturism-audi-a4-an-fabricatie-2007",
+   "t": "AUDI a4",
+   "preturi": [
+    {
+     "d": "2026-10-27",
+     "p": 2874
+    }
+   ]
+  },
+  "https://elicitatii.anaf.ro/publicitate/produs/12600032081000000036340-autoturism-dacia-logan-an-2009": {
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600032081000000036340-autoturism-dacia-logan-an-2009",
+   "t": "Dacia Logan",
+   "preturi": [
+    {
+     "d": "2026-10-27",
+     "p": 373
+    }
+   ]
+  },
+  "https://elicitatii.anaf.ro/publicitate/produs/12600034576000000034428-autoturism-dacia-sandero-an-2009": {
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600034576000000034428-autoturism-dacia-sandero-an-2009",
+   "t": "Dacia Sandero",
+   "preturi": [
+    {
+     "d": "2026-10-27",
+     "p": 1195
+    }
+   ]
+  },
+  "https://elicitatii.anaf.ro/publicitate/produs/12600015778000000032642-autoturism-marca-volkswagen-phaeton-3daa6qa69l141s5nu-bmk": {
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600015778000000032642-autoturism-marca-volkswagen-phaeton-3daa6qa69l141s5nu-bmk",
+   "t": "VOLKSWAGEN PHAETON",
+   "preturi": [
+    {
+     "d": "2026-10-27",
+     "p": 1706
+    }
+   ]
+  },
+  "https://elicitatii.anaf.ro/publicitate/produs/12600023292000000031569-autoturism-marca-dacia-model-logan": {
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600023292000000031569-autoturism-marca-dacia-model-logan",
+   "t": "Dacia Logan",
+   "preturi": [
+    {
+     "d": "2026-10-27",
+     "p": 428
+    }
+   ]
+  },
+  "https://elicitatii.anaf.ro/publicitate/produs/12600033361000000030618-autoturism-audi-a3-an-2005": {
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600033361000000030618-autoturism-audi-a3-an-2005",
+   "t": "Audi A3",
+   "preturi": [
+    {
+     "d": "2026-10-27",
+     "p": 2297
     }
    ]
   }

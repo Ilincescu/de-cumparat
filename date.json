@@ -1307,7 +1307,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-in-sibiu-curte-individuala-zona-turnisor-IDGYfa",
    "d": "2026-09-18",
-   "alte": 2
+   "alte": 4
   },
   {
    "k": "casa",
@@ -3786,22 +3786,6 @@
    "warn": "Declarata de renovat in fisa tehnica.",
    "d": "2026-09-30",
    "dup": "IDIII7"
-  },
-  {
-   "k": "casa",
-   "p": 249000,
-   "t": "Casa individuala - Singur in curte, 122 mp, 4 camere - Turnisor",
-   "z": "Turnisor, Sibiu",
-   "r": 4,
-   "a": 122,
-   "g": "teren 560 mp",
-   "gm": null,
-   "c": "proprie",
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/casa-individuala-singur-in-curte-122-mp-4-camere-turnisor-IDH1sL",
-   "warn": "Declarata de renovat in fisa tehnica.",
-   "d": "2026-09-30",
-   "alte": 2
   },
   {
    "k": "casa",
@@ -12326,7 +12310,7 @@
    "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-turnisor-4-camere-276067413",
    "warn": "Din imobiliare; detalii neverificate in descriere.",
    "d": "2026-10-17",
-   "dup": "IDH1sL"
+   "dup": "IDGYfa"
   },
   {
    "k": "casa",
@@ -13361,7 +13345,7 @@
    "u": "https://www.sibiuestate.ro/casa-vila-4-camere-de-vanzare-turnisor-sibiu-cp3209801/",
    "warn": "Din sibiuestate; detalii neverificate in descriere.",
    "d": "2026-10-17",
-   "dup": "IDH1sL"
+   "dup": "IDGYfa"
   },
   {
    "k": "casa",

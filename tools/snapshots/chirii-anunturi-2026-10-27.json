@@ -1044,6 +1044,15 @@
   "postat": "2026-10-20"
  },
  {
+  "id": 10645420,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-greenhill-parcare-privat-IDIFmk",
+  "chirie": 495,
+  "mp": 45,
+  "etaj": "THIRD",
+  "cartier": "Turnisor",
+  "postat": "2026-09-25"
+ },
+ {
   "id": 10711696,
   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-hipodrom-2-IDIVBi",
   "chirie": 350,
@@ -1602,6 +1611,15 @@
   "postat": "2026-10-15"
  },
  {
+  "id": 9000062259,
+  "url": "https://www.storia.ro/ro/oferta/inchiriez-ap-2-camere-IDIUZa",
+  "chirie": 350,
+  "mp": 47,
+  "etaj": "THIRD",
+  "cartier": "Strand I",
+  "postat": "1999-02-29"
+ },
+ {
   "id": 10699614,
   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-zona-turnisor-IDITsq",
   "chirie": 500,
@@ -1609,15 +1627,6 @@
   "etaj": "GROUND",
   "cartier": "Terezian",
   "postat": "2026-10-15"
- },
- {
-  "id": 9000062259,
-  "url": "https://www.storia.ro/ro/oferta/penthouse-cu-2-camere-decomandate-2-terase-si-2-locuri-de-parcare-IDIUVX",
-  "chirie": 550,
-  "mp": 55,
-  "etaj": "FOURTH",
-  "cartier": "Fara cartier",
-  "postat": "1999-02-29"
  },
  {
   "id": 10699610,
@@ -1879,5 +1888,14 @@
   "etaj": "THIRD",
   "cartier": "Tiglari",
   "postat": "2026-10-13"
+ },
+ {
+  "id": 9000062259,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-zona-turnisor-IDITsq",
+  "chirie": 500,
+  "mp": 80,
+  "etaj": "GROUND",
+  "cartier": "Terezian",
+  "postat": "1999-02-29"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generat": "2026-10-27 06:38",
+ "generat": "2026-10-27 08:07",
  "de_la": "2026-10-26",
  "pana_la": "2026-10-27",
  "case_noi": 0,
@@ -109,19 +109,19 @@
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-10-27 06:32",
+   "cand": "2026-10-27 08:01",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1485,
-   "potrivite": 258,
+   "gasite": 1484,
+   "potrivite": 257,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-27 06:33",
+   "cand": "2026-10-27 08:02",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1616,
+   "gasite": 1619,
    "potrivite": 336,
    "stare": "azi",
    "veche": false

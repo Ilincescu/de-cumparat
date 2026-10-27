@@ -14,6 +14,83 @@
  ],
  "masini": [
   {
+   "m": "Dacia Logan",
+   "an": 2009,
+   "km": null,
+   "p": 373,
+   "z": "Sibiu (licitatie ANAF)",
+   "src": "anaf",
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600032081000000036340-autoturism-dacia-logan-an-2009",
+   "warn": "Licitatie ANAF: pornire 1996.5 lei, licitatia din 2026-11-16. Fara km in anunt; se cumpara cum e, fara garantie.",
+   "d": "2026-10-27"
+  },
+  {
+   "m": "Dacia Logan",
+   "an": 2007,
+   "km": null,
+   "p": 428,
+   "z": "Sibiu (licitatie ANAF)",
+   "src": "anaf",
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600023292000000031569-autoturism-marca-dacia-model-logan",
+   "warn": "Licitatie ANAF: pornire 2290 lei, licitatia din 2026-11-02. Fara km in anunt; se cumpara cum e, fara garantie.",
+   "d": "2026-10-27"
+  },
+  {
+   "m": "Ford Focus",
+   "an": 1999,
+   "km": null,
+   "p": 917,
+   "z": "Sibiu (licitatie ANAF)",
+   "src": "anaf",
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600035624000000037680-autoturism-ford-focus-1999",
+   "warn": "Licitatie ANAF: pornire 4900.5 lei, licitatia din 2026-11-23. Fara km in anunt; se cumpara cum e, fara garantie.",
+   "d": "2026-10-27"
+  },
+  {
+   "m": "Dacia Sandero",
+   "an": 2009,
+   "km": null,
+   "p": 1195,
+   "z": "Sibiu (licitatie ANAF)",
+   "src": "anaf",
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600034576000000034428-autoturism-dacia-sandero-an-2009",
+   "warn": "Licitatie ANAF: pornire 6388.8 lei, licitatia din 2026-11-12. Fara km in anunt; se cumpara cum e, fara garantie.",
+   "d": "2026-10-27"
+  },
+  {
+   "m": "VOLKSWAGEN PHAETON",
+   "an": 2006,
+   "km": null,
+   "p": 1706,
+   "z": "Sibiu (licitatie ANAF)",
+   "src": "anaf",
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600015778000000032642-autoturism-marca-volkswagen-phaeton-3daa6qa69l141s5nu-bmk",
+   "warn": "Licitatie ANAF: pornire 9120 lei, licitatia din 2026-11-08. Fara km in anunt; se cumpara cum e, fara garantie.",
+   "d": "2026-10-27"
+  },
+  {
+   "m": "Audi A3",
+   "an": 2005,
+   "km": null,
+   "p": 2297,
+   "z": "Sibiu (licitatie ANAF)",
+   "src": "anaf",
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600033361000000030618-autoturism-audi-a3-an-2005",
+   "warn": "Licitatie ANAF: pornire 12281.5 lei, licitatia din 2026-10-29. Fara km in anunt; se cumpara cum e, fara garantie.",
+   "d": "2026-10-27"
+  },
+  {
+   "m": "AUDI a4",
+   "an": 2007,
+   "km": null,
+   "p": 2874,
+   "z": "Sibiu (licitatie ANAF)",
+   "src": "anaf",
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600020845000000037436-autoturism-audi-a4-an-fabricatie-2007",
+   "warn": "Licitatie ANAF: pornire 15367 lei, licitatia din 2026-11-22. Fara km in anunt; se cumpara cum e, fara garantie.",
+   "d": "2026-10-27"
+  },
+  {
    "m": "Suzuki Vitara",
    "an": 1995,
    "km": 105369,
@@ -2924,6 +3001,17 @@
    "warn": null,
    "d": "2026-10-18",
    "avc": "2026-10-19"
+  },
+  {
+   "m": "Audi Q5",
+   "an": 2013,
+   "km": null,
+   "p": 10522,
+   "z": "Sibiu (licitatie ANAF)",
+   "src": "anaf",
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600035459000000037404-autoturism-marca-audi-model-q5",
+   "warn": "Licitatie ANAF: pornire 56260 lei, licitatia din 2026-11-22. Fara km in anunt; se cumpara cum e, fara garantie.",
+   "d": "2026-10-27"
   },
   {
    "m": "Nissan Qashqai",
@@ -6798,9 +6886,7 @@
    "warn": null,
    "d": "2026-09-24",
    "avc": "2026-10-17",
-   "gj": false,
-   "mort": true,
-   "mort_din": "2026-10-27"
+   "gj": false
   },
   {
    "m": "Ford Puma",
@@ -8712,6 +8798,20 @@
    "gj": false
   },
   {
+   "m": "Dacia Duster Blue dCi 115 4WD Prestige",
+   "an": 2021,
+   "km": 88155,
+   "cp": 115,
+   "f": "diesel",
+   "p": 14950,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-4wd-prestige-ID7HQDuw.html",
+   "warn": null,
+   "d": "2026-10-14",
+   "avc": "2026-10-27"
+  },
+  {
    "m": "Renault Koleos BLUE dCi 150 X-tronic LIMITED",
    "an": 2020,
    "km": 78118,
@@ -9157,94 +9257,6 @@
    "avc": "2026-10-23",
    "mort": true,
    "mort_din": "2026-10-27"
-  },
-  {
-   "m": "Ford Focus",
-   "an": 1999,
-   "km": null,
-   "p": 917,
-   "z": "Sibiu (licitatie ANAF)",
-   "src": "anaf",
-   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600035624000000037680-autoturism-ford-focus-1999",
-   "warn": "Licitatie ANAF: pornire 4900.5 lei, licitatia din 2026-11-23. Fara km in anunt; se cumpara cum e, fara garantie.",
-   "d": "2026-10-27"
-  },
-  {
-   "m": "Audi Q5",
-   "an": 2013,
-   "km": null,
-   "p": 10522,
-   "z": "Sibiu (licitatie ANAF)",
-   "src": "anaf",
-   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600035459000000037404-autoturism-marca-audi-model-q5",
-   "warn": "Licitatie ANAF: pornire 56260 lei, licitatia din 2026-11-22. Fara km in anunt; se cumpara cum e, fara garantie.",
-   "d": "2026-10-27"
-  },
-  {
-   "m": "AUDI a4",
-   "an": 2007,
-   "km": null,
-   "p": 2874,
-   "z": "Sibiu (licitatie ANAF)",
-   "src": "anaf",
-   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600020845000000037436-autoturism-audi-a4-an-fabricatie-2007",
-   "warn": "Licitatie ANAF: pornire 15367 lei, licitatia din 2026-11-22. Fara km in anunt; se cumpara cum e, fara garantie.",
-   "d": "2026-10-27"
-  },
-  {
-   "m": "Dacia Logan",
-   "an": 2009,
-   "km": null,
-   "p": 373,
-   "z": "Sibiu (licitatie ANAF)",
-   "src": "anaf",
-   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600032081000000036340-autoturism-dacia-logan-an-2009",
-   "warn": "Licitatie ANAF: pornire 1996.5 lei, licitatia din 2026-11-16. Fara km in anunt; se cumpara cum e, fara garantie.",
-   "d": "2026-10-27"
-  },
-  {
-   "m": "Dacia Sandero",
-   "an": 2009,
-   "km": null,
-   "p": 1195,
-   "z": "Sibiu (licitatie ANAF)",
-   "src": "anaf",
-   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600034576000000034428-autoturism-dacia-sandero-an-2009",
-   "warn": "Licitatie ANAF: pornire 6388.8 lei, licitatia din 2026-11-12. Fara km in anunt; se cumpara cum e, fara garantie.",
-   "d": "2026-10-27"
-  },
-  {
-   "m": "VOLKSWAGEN PHAETON",
-   "an": 2006,
-   "km": null,
-   "p": 1706,
-   "z": "Sibiu (licitatie ANAF)",
-   "src": "anaf",
-   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600015778000000032642-autoturism-marca-volkswagen-phaeton-3daa6qa69l141s5nu-bmk",
-   "warn": "Licitatie ANAF: pornire 9120 lei, licitatia din 2026-11-08. Fara km in anunt; se cumpara cum e, fara garantie.",
-   "d": "2026-10-27"
-  },
-  {
-   "m": "Dacia Logan",
-   "an": 2007,
-   "km": null,
-   "p": 428,
-   "z": "Sibiu (licitatie ANAF)",
-   "src": "anaf",
-   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600023292000000031569-autoturism-marca-dacia-model-logan",
-   "warn": "Licitatie ANAF: pornire 2290 lei, licitatia din 2026-11-02. Fara km in anunt; se cumpara cum e, fara garantie.",
-   "d": "2026-10-27"
-  },
-  {
-   "m": "Audi A3",
-   "an": 2005,
-   "km": null,
-   "p": 2297,
-   "z": "Sibiu (licitatie ANAF)",
-   "src": "anaf",
-   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600033361000000030618-autoturism-audi-a3-an-2005",
-   "warn": "Licitatie ANAF: pornire 12281.5 lei, licitatia din 2026-10-29. Fara km in anunt; se cumpara cum e, fara garantie.",
-   "d": "2026-10-27"
   }
  ]
 }

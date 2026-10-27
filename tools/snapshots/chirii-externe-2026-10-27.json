@@ -1,14 +1,14 @@
 [
  {
-  "id": "publi24:14ih59h2e1h87933e655h175de25382f.html",
-  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-nou-2-camere-balcon-generos-acces-bariera-zona-turnisor/14ih59h2e1h87933e655h175de25382f.html",
+  "id": "publi24:6091664hdihd7eh42fe44f078g9hf15h.html",
+  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-de-inchiriat-cu-2-camere-etaj-intermediar-doamna-stanca/6091664hdihd7eh42fe44f078g9hf15h.html",
   "chirie": 400,
-  "mp": 40,
+  "mp": 55,
   "etaj": null,
-  "cartier": "Turnisor",
+  "cartier": "Fara cartier",
   "postat": null,
   "sursa": "publi24",
-  "titlu": "Apartament Nou 2 camere | balcon generos | acces bariera | zona Turnisor"
+  "titlu": "Apartament de inchiriat cu 2 camere etaj intermediar Doamna Stanca"
  },
  {
   "id": "publi24:8id91hf09h9377eee4e5f7gi2e33i517.html",
@@ -22,15 +22,70 @@
   "titlu": "Inchiriere ap. 2 camere, etaj 3, Sibiu, str, Distributiei"
  },
  {
-  "id": "publi24:6091664hdihd7eh42fe44f078g9hf15h.html",
-  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-de-inchiriat-cu-2-camere-etaj-intermediar-doamna-stanca/6091664hdihd7eh42fe44f078g9hf15h.html",
+  "id": "publi24:f99eh423i94175h1d8i166ei56f265g5.html",
+  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-renovat-de-inchiriat-2-camere-2-balcoane-central-sibiu/f99eh423i94175h1d8i166ei56f265g5.html",
   "chirie": 400,
-  "mp": 55,
+  "mp": 52,
   "etaj": null,
   "cartier": "Fara cartier",
   "postat": null,
   "sursa": "publi24",
-  "titlu": "Apartament de inchiriat cu 2 camere etaj intermediar Doamna Stanca"
+  "titlu": "Apartament renovat de inchiriat 2 camere 2 balcoane Central Sibiu"
+ },
+ {
+  "id": "publi24:5i7602h953f27i52177e8gff8f48g3id.html",
+  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-la-prima-inchiriere-2-camere-balcon-parcare-si-lift-sibiu/5i7602h953f27i52177e8gff8f48g3id.html",
+  "chirie": 430,
+  "mp": 40,
+  "etaj": null,
+  "cartier": "Turnisor",
+  "postat": null,
+  "sursa": "publi24",
+  "titlu": "Apartament la prima inchiriere 2 camere balcon parcare si lift Sibiu"
+ },
+ {
+  "id": "publi24:9099e0de64f27gd92efhd5e345d5i573.html",
+  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/inchiriez-penthause/9099e0de64f27gd92efhd5e345d5i573.html",
+  "chirie": 635,
+  "mp": 20,
+  "etaj": null,
+  "cartier": "Tineretului",
+  "postat": null,
+  "sursa": "publi24",
+  "titlu": "inchiriez penthause"
+ },
+ {
+  "id": "publi24:14ih59h2e1h87933e655h175de25382f.html",
+  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-nou-2-camere-balcon-generos-acces-bariera-zona-turnisor/14ih59h2e1h87933e655h175de25382f.html",
+  "chirie": 400,
+  "mp": 40,
+  "etaj": null,
+  "cartier": "Turnisor",
+  "postat": null,
+  "sursa": "publi24",
+  "titlu": "Apartament Nou 2 camere | balcon generos | acces bariera | zona Turnisor"
+ },
+ {
+  "id": "publi24:ge0egge8ddf87647df7667edf09h476e.html",
+  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-etajul-1-cu-2-camere-zona-centrala-din-sibiu/ge0egge8ddf87647df7667edf09h476e.html",
+  "chirie": 400,
+  "mp": 48,
+  "etaj": null,
+  "cartier": "Fara cartier",
+  "postat": null,
+  "sursa": "publi24",
+  "titlu": "Apartament etajul 1 cu 2 camere zona centrala din Sibiu"
+ },
+ {
+  "id": "publi24:g85e223gddhe71i0e4dd7d6g84e58ffg.html",
+  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-cu-2-camere-balcon-si-terasa-in-strand/g85e223gddhe71i0e4dd7d6g84e58ffg.html",
+  "chirie": 460,
+  "mp": 86,
+  "etaj": null,
+  "cartier": "Fara cartier",
+  "postat": null,
+  "sursa": "publi24",
+  "titlu": "Apartament cu 2 camere balcon si terasa in Strand"
  },
  {
   "id": "publi24:d97e7049h3f47h59e83004e7e3995f2h.html",
@@ -154,6 +209,17 @@
   "titlu": "Apartament 2 camere de închiriat  37 mp zona Mihai Viteazul Sibiu"
  },
  {
+  "id": "publi24:6411fg6920157ed2ei8d7gh3fe3hgg75.html",
+  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-de-inchiriat-cu-2-camere-semidecomandat-modern-zona-rahovei/6411fg6920157ed2ei8d7gh3fe3hgg75.html",
+  "chirie": 350,
+  "mp": 50,
+  "etaj": null,
+  "cartier": "Hipodrom III",
+  "postat": null,
+  "sursa": "publi24",
+  "titlu": "Apartament modern semidecomandat de inchiriat cu 2 camere zona Rahovei"
+ },
+ {
   "id": "publi24:2h4e59f34ddg78ed12g2ghdfe2egd1ef.html",
   "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-de-inchiriat-etaj-3-parcare-proprie-bloc-cu-lift-piata-cluj/2h4e59f34ddg78ed12g2ghdfe2egd1ef.html",
   "chirie": 500,
@@ -163,17 +229,6 @@
   "postat": null,
   "sursa": "publi24",
   "titlu": "Apartament de inchiriat etaj 3 parcare proprie bloc cu lift Piata Cluj"
- },
- {
-  "id": "publi24:f99eh423i94175h1d8i166ei56f265g5.html",
-  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-renovat-de-inchiriat-2-camere-2-balcoane-central-sibiu/f99eh423i94175h1d8i166ei56f265g5.html",
-  "chirie": 400,
-  "mp": 52,
-  "etaj": null,
-  "cartier": "Fara cartier",
-  "postat": null,
-  "sursa": "publi24",
-  "titlu": "Apartament renovat de inchiriat 2 camere 2 balcoane Central Sibiu"
  },
  {
   "id": "publi24:e553d70eh9d07d23227g259907f2dg0g.html",
@@ -196,17 +251,6 @@
   "postat": null,
   "sursa": "publi24",
   "titlu": "Penthouse  2 camere Turnisor str Ogorului"
- },
- {
-  "id": "publi24:h2d47ihh49fi7i30d3991880821hif38.html",
-  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/inchiriere-apartament/h2d47ihh49fi7i30d3991880821hif38.html",
-  "chirie": 350,
-  "mp": 60,
-  "etaj": null,
-  "cartier": "Fara cartier",
-  "postat": null,
-  "sursa": "publi24",
-  "titlu": "inchiriere apartament"
  },
  {
   "id": "publi24:6d632572957f76f3e6418784f64571d4.html",
@@ -297,17 +341,6 @@
   "titlu": "apartament de lux Turnisor str. Ogorului"
  },
  {
-  "id": "publi24:6411fg6920157ed2ei8d7gh3fe3hgg75.html",
-  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-de-inchiriat-cu-2-camere-semidecomandat-modern-zona-rahovei/6411fg6920157ed2ei8d7gh3fe3hgg75.html",
-  "chirie": 350,
-  "mp": 50,
-  "etaj": null,
-  "cartier": "Hipodrom III",
-  "postat": null,
-  "sursa": "publi24",
-  "titlu": "Apartament modern semidecomandat de inchiriat cu 2 camere zona Rahovei"
- },
- {
   "id": "publi24:5d4g71g72h1f7hdd2if5542hdd84d03d.html",
   "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-2-cam-balcon-parcare-aproape-de-shopping-city/5d4g71g72h1f7hdd2if5542hdd84d03d.html",
   "chirie": 330,
@@ -352,15 +385,15 @@
   "titlu": "apartament nou 2 camere luminos str. distributiei et 3"
  },
  {
-  "id": "publi24:9099e0de64f27gd92efhd5e345d5i573.html",
-  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/inchiriez-penthause/9099e0de64f27gd92efhd5e345d5i573.html",
-  "chirie": 635,
-  "mp": 20,
+  "id": "publi24:h2d47ihh49fi7i30d3991880821hif38.html",
+  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/inchiriere-apartament/h2d47ihh49fi7i30d3991880821hif38.html",
+  "chirie": 350,
+  "mp": 60,
   "etaj": null,
-  "cartier": "Tineretului",
+  "cartier": "Fara cartier",
   "postat": null,
   "sursa": "publi24",
-  "titlu": "inchiriez penthause"
+  "titlu": "inchiriere apartament"
  },
  {
   "id": "publi24:e252dd0e22i776i0121743231718df0d.html",
@@ -405,39 +438,6 @@
   "postat": null,
   "sursa": "publi24",
   "titlu": "Apartament spatios 2 camere nedecomandat zona Mihai Viteazul"
- },
- {
-  "id": "publi24:5i7602h953f27i52177e8gff8f48g3id.html",
-  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-la-prima-inchiriere-2-camere-balcon-parcare-si-lift-sibiu/5i7602h953f27i52177e8gff8f48g3id.html",
-  "chirie": 430,
-  "mp": 40,
-  "etaj": null,
-  "cartier": "Turnisor",
-  "postat": null,
-  "sursa": "publi24",
-  "titlu": "Apartament la prima inchiriere 2 camere balcon parcare si lift Sibiu"
- },
- {
-  "id": "publi24:ge0egge8ddf87647df7667edf09h476e.html",
-  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-etajul-1-cu-2-camere-zona-centrala-din-sibiu/ge0egge8ddf87647df7667edf09h476e.html",
-  "chirie": 400,
-  "mp": 48,
-  "etaj": null,
-  "cartier": "Fara cartier",
-  "postat": null,
-  "sursa": "publi24",
-  "titlu": "Apartament etajul 1 cu 2 camere zona centrala din Sibiu"
- },
- {
-  "id": "publi24:g85e223gddhe71i0e4dd7d6g84e58ffg.html",
-  "url": "https://www.publi24.ro/anunturi/imobiliare/de-inchiriat/apartamente/apartamente-2-camere/anunt/apartament-cu-2-camere-balcon-si-terasa-in-strand/g85e223gddhe71i0e4dd7d6g84e58ffg.html",
-  "chirie": 460,
-  "mp": 86,
-  "etaj": null,
-  "cartier": "Fara cartier",
-  "postat": null,
-  "sursa": "publi24",
-  "titlu": "Apartament cu 2 camere balcon si terasa in Strand"
  },
  {
   "id": "publi24:8177dgi0e3he7202d16e3id12726g14f.html",
