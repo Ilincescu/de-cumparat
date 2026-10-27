@@ -86,8 +86,16 @@ singur pe cele salvate azi:
     2026-10-26, 2 cu mp scris) - daca nu merge, sari peste.
 
 Daca Playwright nu raspunde (browser_navigate sta fara raspuns), nu mai
-incerca: o singura incercare, apoi treci la update.js fara a), b), c).
+incerca: o singura incercare, apoi treci la update.js fara a)-f).
 Celelalte surse tot trebuie publicate (2026-10-18: doua incercari x 30 min).
+
+RELUARE: update.js scrie in tools/ultima-rulare.json ce a esuat (esuate) si
+ce fisiere din browser nu sunt de azi (lipsa_browser). update-zilnic.ps1
+porneste si la 13:00 si la deschiderea sesiunii; daca dimineata a mers tot,
+iese singur, altfel te porneste cu "RELUARE:" in fata acestui text. Atunci
+fa doar pasii din browser din lipsa_browser, apoi update.js (sursele fara
+browser se citesc oricum toate, dureaza sub un minut). Mihai, 2026-10-27:
+"sa nu uiti sa mai citesti daca nu ai apucat cand trebuia".
 
 Apoi lantul complet:
 

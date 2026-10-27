@@ -55,7 +55,7 @@ function inFormaListei(x, zone) {
   const teren = nr(/teren\D{0,12}(\d{2,4})\s*m/i, text);
   const curte = nr(/curte\D{0,12}(\d{2,4})\s*m/i, text);
   return {
-    k: 'casa',
+    k: x.k || 'casa',
     p: x.pret,
     t: x.titlu,
     z: zona || 'Sibiu',
@@ -178,19 +178,20 @@ async function cursEuro() {
 
 async function anaf() {
   const curs = await cursEuro();
-  const linkuri = new Set();
+  const linkuri = new Map();
   // Filtrul pe judet e ?filtre={"judet":"32"} (32 = Sibiu); ?judet=32 e ignorat.
+  // Apartamentele din 2026-10-27 (Mihai: "sa citesti si pentru apartamente").
   const filtru = encodeURIComponent(JSON.stringify({ judet: '32' }));
-  for (const cat of ['case-vile', 'duplexuri']) {
+  for (const [cat, k] of [['case-vile', 'casa'], ['duplexuri', 'casa'], ['apartamente', 'ap']]) {
     for (let p = 1; p <= 40; p++) {
       const h = await html(`https://elicitatii.anaf.ro/publicitate/categorii/bunuri-imobile/${cat}?filtre=${filtru}&pagina=${p}`);
       const n = linkuri.size;
-      (h.match(/\/publicitate\/produs\/[a-z0-9-]+/gi) || []).forEach(x => linkuri.add(x));
+      (h.match(/\/publicitate\/produs\/[a-z0-9-]+/gi) || []).forEach(x => linkuri.set(x, k));
       if (linkuri.size === n) break;
     }
   }
   const out = [];
-  const L = [...linkuri];
+  const L = [...linkuri.keys()];
   for (let i = 0; i < L.length; i += 6) {
     await Promise.all(L.slice(i, i + 6).map(async l => {
       try {
@@ -199,6 +200,7 @@ async function anaf() {
         if (!/"judet":"SIBIU"/i.test(h)) return;
         const lei = +((h.match(/"pretPornireLicitatie":"([\d.]+)"/) || [])[1]) || null;
         out.push({
+          k: linkuri.get(l),
           src: 'licitatie',
           titlu: 'Licitatie ANAF: ' + l.replace(/^.*\/\d+-/, '').replace(/-/g, ' '),
           descriere: curat((h.match(/"descriere":"([^"]{0,2000})/) || [])[1]),
@@ -208,7 +210,50 @@ async function anaf() {
       } catch (e) { /* un bun care nu raspunde nu opreste restul */ }
     }));
   }
-  console.log(`anaf: ${out.length} case si duplexuri in judetul Sibiu (curs BNR ${curs})`);
+  console.log(`anaf: ${out.length} case, duplexuri si apartamente in judetul Sibiu (curs BNR ${curs})`);
+  return out;
+}
+
+// Autoturismele scoase la licitatie de ANAF in judetul Sibiu, in masini.json.
+// Pagina da marca, modelul si anul ("An fabricatie: 2013"), nu kilometrii, asa
+// ca filtrele din azi.js le scot pana se afla km - dar raman in lista, cu data
+// licitatiei, ca sa le poti cere fisa.
+async function anafMasini() {
+  const curs = await cursEuro();
+  const filtru = encodeURIComponent(JSON.stringify({ judet: '32' }));
+  const linkuri = new Set();
+  for (let p = 1; p <= 20; p++) {
+    const h = await html(`https://elicitatii.anaf.ro/publicitate/categorii/bunuri-mobile/autovehicule/auto/autoturisme?filtre=${filtru}&pagina=${p}`);
+    const n = linkuri.size;
+    (h.match(/\/publicitate\/produs\/[a-z0-9-]+/gi) || []).forEach(x => linkuri.add(x));
+    if (linkuri.size === n) break;
+  }
+  const out = [];
+  for (const l of linkuri) {
+    try {
+      const u = 'https://elicitatii.anaf.ro' + l;
+      const h = (await html(u)).replace(/\\"/g, '"');
+      if (!/"judet":"SIBIU"/i.test(h)) continue;
+      const brut = curat((h.match(/"nume":"([^"]{0,200})"/) || [])[1]).replace(/^Autoturism\s+(marca\s+)?/i, '').replace(/\s+model\s+/i, ' ');
+      // "AUDI a4, an 2007", "PHAETON 3DAA6QA69L141S5NU BMK": anul si seria de sasiu nu sunt modelul
+      const nume = brut.replace(/,?\s*\ban(ul)?\s*(de\s*)?(fabrica[tț]ie)?\s*\d{4}.*$/i, '').replace(/\s+\S*\d\S{6,}.*$/, '').replace(/\s+(19|20)\d\d$/, '').trim();
+      // Anul sta in textul "An fabricatie: 2013", care apare de mai multe ori in pagina
+      const text = curat((h.match(/[^"]{0,300}An\s*fabrica[tț]ie[^"]{0,300}/i) || [''])[0]) + ' ' + brut;
+      const lei = +((h.match(/"pretPornireLicitatie":"([\d.]+)"/) || [])[1]) || null;
+      const start = ((h.match(/"dataOraStart":"([\d-]{10})/) || [])[1]) || null;
+      out.push({
+        m: nume.split(/\s+/).slice(0, 3).join(' '),
+        an: nr(/an(?:ul)?\s*(?:de\s*)?fabrica[tț]ie\D{0,3}(\d{4})/i, text) || nr(/\ban\s+(\d{4})/i, brut) || nr(/\b(19[89]\d|20[0-2]\d)\b/, brut),
+        km: nr(/(\d[\d.]{3,8})\s*km/i, text.replace(/\./g, '')),
+        p: lei && curs ? Math.round(lei / curs) : null,
+        z: 'Sibiu (licitatie ANAF)', src: 'anaf', u,
+        warn: `Licitatie ANAF: pornire ${lei} lei${start ? ', licitatia din ' + start : ''}. Fara km in anunt; se cumpara cum e, fara garantie.`,
+        d: AZI,
+      });
+      await new Promise(r => setTimeout(r, 300));
+    } catch (e) { /* un bun care nu raspunde nu opreste restul */ }
+  }
+  console.log(`anaf masini: ${out.length} autoturisme in judetul Sibiu`);
   return out;
 }
 
@@ -375,5 +420,21 @@ function noteaza(sursa, ce, date) {
     }
   }
   if (SCRIE) fs.writeFileSync(cale, JSON.stringify(date, null, 1) + '\n');
+
+  if (CE !== 'fisier') {
+    try {
+      const masini = await anafMasini();
+      const cm = path.join(RADACINA, 'masini.json');
+      const mj = JSON.parse(fs.readFileSync(cm, 'utf8'));
+      const are = new Set(mj.masini.map(m => m.u));
+      const noi = masini.filter(m => !are.has(m.u));
+      noi.forEach(m => console.log(`  + ${String(m.p).padStart(6)} € · ${m.m} ${m.an || ''} · ${m.u}`));
+      if (SCRIE) {
+        mj.masini.push(...noi);
+        fs.writeFileSync(cm, JSON.stringify(mj, null, 1) + '\n');
+        noteaza('anaf-masini', 'autoturisme la licitatie, judetul Sibiu', { gasite: masini.length, noi: noi.length });
+      }
+    } catch (e) { console.log('anaf masini: EROARE', e.message); }
+  }
   process.exit(0);
 })().catch(e => { console.error('EROARE:', e.message); process.exit(1); });

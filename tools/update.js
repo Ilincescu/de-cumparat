@@ -24,19 +24,41 @@ const fs = require('fs');
 const RADACINA = path.join(__dirname, '..');
 const AZI = new Date().toISOString().slice(0, 10);
 
+// Ce n-a mers azi ramane scris in tools/ultima-rulare.json; update-zilnic.ps1
+// reia rularea mai tarziu in aceeasi zi pana nu mai lipseste nimic (Mihai,
+// 2026-10-27: "sa nu uiti sa mai citesti daca nu ai apucat cand trebuia").
+const ESUATE = [];
 function ruleaza(comanda, argumente, optional = false) {
   console.log(`\n=== ${comanda} ${argumente.join(' ')} ===`);
   try {
     const iesire = execFileSync(comanda, argumente, { cwd: RADACINA, encoding: 'utf8', stdio: 'pipe' });
     process.stdout.write(iesire);
+    // Storia da 403 fara sa iasa cu eroare: scanarea scrie doar ca s-a oprit
+    if (/\b403\b/.test(iesire) && /storia/i.test(argumente.join(' '))) ESUATE.push(argumente.join(' ') + ' (403)');
     return iesire;
   } catch (e) {
     process.stdout.write(e.stdout || '');
     process.stderr.write(e.stderr || '');
-    if (!optional) throw new Error(`${comanda} ${argumente.join(' ')} a esuat`);
+    ESUATE.push(argumente.join(' '));
+    if (!optional) { scrieStare(); throw new Error(`${comanda} ${argumente.join(' ')} a esuat`); }
     console.log('(pas optional, continui)');
     return '';
   }
+}
+
+// Sursele din browser (prompt-zilnic.txt a-f) conteaza doar daca fisierul e de azi
+const DIN_BROWSER = ['olx-raw.json', 'imobiliare-raw.json', 'facebook-raw.json', 'olx-chirii.json', 'imobiliare-chirii.json', 'facebook-chirii.json'];
+function scrieStare() {
+  const dir = path.join(RADACINA, 'tools', 'externe');
+  const lipsa = DIN_BROWSER.filter(f => {
+    const c = path.join(dir, f);
+    return !fs.existsSync(c) || fs.statSync(c).mtime.toISOString().slice(0, 10) !== AZI;
+  });
+  const t = new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString();
+  fs.writeFileSync(path.join(RADACINA, 'tools', 'ultima-rulare.json'), JSON.stringify({
+    data: t.slice(0, 10), ora: t.slice(11, 16), esuate: ESUATE, lipsa_browser: lipsa,
+  }, null, 1) + '\n');
+  if (ESUATE.length || lipsa.length) console.log(`\nDE RELUAT: ${[...ESUATE, ...lipsa].join(', ')}`);
 }
 
 function numara() {
@@ -84,6 +106,7 @@ function numara() {
   ruleaza('node', ['tools/arhiva.js'], true);
 
   const dupa = numara();
+  scrieStare();
   const schimbari = ruleaza('git', ['status', '--porcelain']);
   if (!schimbari.trim()) {
     console.log('\nnimic de publicat, site-ul e deja la zi');
