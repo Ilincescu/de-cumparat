@@ -56,10 +56,13 @@ async function fisa(id) {
   const url = gasit ? gasit.url : null;
   if (!url) return { eroare: `nu gasesc ${id} in ${f}. Da URL-ul complet.` };
 
-  const h = await (await fetch(url, { headers: UA })).text();
-  const m = h.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
-  if (!m) return { eroare: 'pagina nu are __NEXT_DATA__' };
-  const ad = ((JSON.parse(m[1]).props || {}).pageProps || {}).ad || {};
+  // Pagina HTML a anuntului da 403 (CloudFront) si de pe Digi din 2026-10-28;
+  // JSON-ul /_next/data, pe care il foloseste si scan.js, raspunde.
+  const slug = url.split('/oferta/')[1];
+  const b = JSON.parse(fs.readFileSync(path.join(__dirname, 'storia-build.json'), 'utf8')).buildId;
+  const r = await fetch(`https://www.storia.ro/_next/data/${b}/ro/oferta/${slug}.json?id=${slug}`, { headers: UA });
+  if (!r.ok) return { eroare: `fisa JSON Storia status ${r.status} (buildId expirat? ruleaza node tools/scan.js storia)` };
+  const ad = ((await r.json()).pageProps || {}).ad || {};
   const ch = {};
   (ad.characteristics || []).forEach(c => { ch[c.key] = c.localizedValue || c.value; });
   return {
