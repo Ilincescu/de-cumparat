@@ -151,7 +151,8 @@ function ultimulSnapshot() {
 
   if (!SCRIE) { console.log('\n(proba; ruleaza cu --scrie ca sa salvez)'); return; }
   j.anunturi = vii.concat(noi);
-  j.actualizat = AZI;
+  // Cu ora, ca pe site sa se vada cand a rulat (Mihai, 2026-10-28)
+  j.actualizat = new Date().toLocaleString('sv-SE', { timeZone: 'Europe/Bucharest' }).slice(0, 16);
   fs.writeFileSync(caleDate, JSON.stringify(j, null, 1));
   console.log('\nscris in date.json');
 })().catch(e => { console.error('EROARE:', e.message); process.exit(1); });

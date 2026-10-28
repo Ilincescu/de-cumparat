@@ -285,6 +285,10 @@
   });
 
   var IMO={anunturi:[],buget_total:250000,actualizat:""};
+  // Dube de marfa (Mihai, 2026-10-28): Express si Partner noi exista doar ca
+  // duba (varianta de persoane e Kangoo, Rifter); Combo fara "Life" si orice
+  // L1H1/L2H1 e Combo Cargo. Pastreaza in tools/azi.js aceeasi lista.
+  var DE_MARFA=/\bL\dH\d\b|cargo|\bvan\b|furgon|marf[aă]|\bN1\b|renault express|peugeot partner|combo(?!\s+life)/i;
   var CAR={masini:[],buget:11000};
   var BIKE={biciclete:[],buget:4000};
   var SHARE={persoane:{},anunturi:{}};
@@ -417,6 +421,7 @@
         if(o.km>state.maxkm) return false;
         // gj = garda joasa; masinile joase raman in lista, doar ascunse
         if(state.nogj && o.gj) return false;
+        if(DE_MARFA.test(o.m||"")) return false;
         if(state.nowarn && o.warn) return false;
         return true;
       }

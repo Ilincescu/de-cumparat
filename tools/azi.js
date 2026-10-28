@@ -357,9 +357,14 @@ function alegeAp(lista, marcate) {
 // si nu e comparabil cu restul listei.
 const LEASING = /predare leasing|preluare leasing|preiei?\s+\d+\s+rate|rate\s+r[aă]mase|transfer leasing/i;
 
+// Dube de marfa (Mihai, 2026-10-28: Opel Combo 1.5 L1H1 Selection). Aceeasi
+// lista ca DE_MARFA din index.html.
+const DE_MARFA = /\bL\dH\d\b|cargo|\bvan\b|furgon|marf[aă]|\bN1\b|renault express|peugeot partner|combo(?!\s+life)/i;
+
 function filtreazaMasina(m) {
   if (m.mort) return `anunt sters de pe site (${m.mort_din})`;
   if (m.gj) return 'garda joasa';
+  if (DE_MARFA.test(m.m || '')) return 'duba de marfa';
   if (m.av) return 'avariata: ' + (m.av_motiv || '');
   if (LEASING.test((m.m || '') + ' ' + (m.warn || ''))) return 'preluare leasing, pretul e doar avansul';
   if (MASINI_RESPINSE.test(m.m || '')) return 'respinsa sau mai mica decat C3';
