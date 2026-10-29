@@ -1,0 +1,145 @@
+[
+ {
+  "cartier": "Lazaret",
+  "nv": 3,
+  "nc": 8,
+  "pret": 81500,
+  "ppm": 2153,
+  "chirie": 428,
+  "ani": 15.9,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/lazaret",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/lazaret"
+ },
+ {
+  "cartier": "Tiglari",
+  "nv": 10,
+  "nc": 9,
+  "pret": 112500,
+  "ppm": 2145,
+  "chirie": 500,
+  "ani": 18.8,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/tiglari",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/tiglari"
+ },
+ {
+  "cartier": "Vasile Aaron",
+  "nv": 10,
+  "nc": 16,
+  "pret": 93900,
+  "ppm": 1817,
+  "chirie": 410,
+  "ani": 19.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/vasile-aaron",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/vasile-aaron"
+ },
+ {
+  "cartier": "Fara cartier",
+  "nv": 10,
+  "nc": 11,
+  "pret": 93975,
+  "ppm": 1981,
+  "chirie": 380,
+  "ani": 20.6,
+  "linkVanzare": null,
+  "linkChirie": null
+ },
+ {
+  "cartier": "Hipodrom II",
+  "nv": 7,
+  "nc": 22,
+  "pret": 91990,
+  "ppm": 1933,
+  "chirie": 363,
+  "ani": 21.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-ii",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-ii"
+ },
+ {
+  "cartier": "Trei Stejari",
+  "nv": 3,
+  "nc": 5,
+  "pret": 89000,
+  "ppm": 1780,
+  "chirie": 350,
+  "ani": 21.2,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/trei-stejari",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/trei-stejari"
+ },
+ {
+  "cartier": "Centrul Istoric",
+  "nv": 32,
+  "nc": 20,
+  "pret": 114000,
+  "ppm": 2092,
+  "chirie": 430,
+  "ani": 22.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/centrul-istoric",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/centrul-istoric"
+ },
+ {
+  "cartier": "Hipodrom III",
+  "nv": 26,
+  "nc": 26,
+  "pret": 104500,
+  "ppm": 1965,
+  "chirie": 370,
+  "ani": 23.5,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-iii",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-iii"
+ },
+ {
+  "cartier": "Turnisor",
+  "nv": 8,
+  "nc": 24,
+  "pret": 115900,
+  "ppm": 2146,
+  "chirie": 400,
+  "ani": 24.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/turnisor",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/turnisor"
+ },
+ {
+  "cartier": "Strand I",
+  "nv": 3,
+  "nc": 16,
+  "pret": 110000,
+  "ppm": 1833,
+  "chirie": 380,
+  "ani": 24.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/strand-i",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/strand-i"
+ },
+ {
+  "cartier": "Centrul Civic",
+  "nv": 12,
+  "nc": 10,
+  "pret": 125000,
+  "ppm": 2298,
+  "chirie": 420,
+  "ani": 24.8,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/centrul-civic",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/centrul-civic"
+ },
+ {
+  "cartier": "Hipodrom I",
+  "nv": 15,
+  "nc": 12,
+  "pret": 115000,
+  "ppm": 2031,
+  "chirie": 380,
+  "ani": 25.2,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-i",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-i"
+ },
+ {
+  "cartier": "Terezian",
+  "nv": 11,
+  "nc": 13,
+  "pret": 122000,
+  "ppm": 2179,
+  "chirie": 400,
+  "ani": 25.4,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/terezian",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/terezian"
+ }
+]

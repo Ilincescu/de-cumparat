@@ -1,7 +1,7 @@
 {
- "generat": "2026-10-28 17:29",
- "de_la": "2026-10-27",
- "pana_la": "2026-10-28",
+ "generat": "2026-10-29 08:08",
+ "de_la": "2026-10-28",
+ "pana_la": "2026-10-29",
  "case_noi": 0,
  "case_trec": 0,
  "din_rezerva": true,
@@ -10,7 +10,7 @@
  "ap_noi": 0,
  "ap_trec": 0,
  "ap_din_rezerva": false,
- "chirii_din": "2026-10-28",
+ "chirii_din": "2026-10-29",
  "apartamente": [
   {
    "alte": [
@@ -29,7 +29,7 @@
    "creat": "2025-08-17",
    "chirie": 340,
    "chirie_din": "oras",
-   "chirie_n": 51,
+   "chirie_n": 54,
    "chirie_mp": [
     31,
     43
@@ -59,7 +59,7 @@
    "stare": "ready_to_use",
    "chirie": 350,
    "chirie_din": "oras",
-   "chirie_n": 57,
+   "chirie_n": 61,
    "chirie_mp": [
     33,
     45
@@ -85,7 +85,7 @@
    "stare": "ready_to_use",
    "chirie": 450,
    "chirie_din": "oras",
-   "chirie_n": 21,
+   "chirie_n": 17,
    "chirie_mp": [
     41,
     55
@@ -107,25 +107,39 @@
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-10-28 08:01",
+   "cand": "2026-10-29 08:01",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1456,
-   "potrivite": 257,
+   "gasite": 1452,
+   "potrivite": 255,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-28 08:02",
+   "cand": "2026-10-29 08:02",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1607,
-   "potrivite": 334,
+   "gasite": 1623,
+   "potrivite": 330,
    "stare": "azi",
    "veche": false
   }
  ],
  "case": [
+  {
+   "pret": 199000,
+   "mpu": 120,
+   "curte": 226,
+   "curte_sigura": false,
+   "teren": 310,
+   "zona": "Lupeni, Sibiu",
+   "creat": "2026-10-28",
+   "repostat": false,
+   "alte": [],
+   "titlu": "Casa de vanzare in Sibiu zona Lupeni",
+   "url": "https://www.storia.ro/ro/oferta/casa-de-vanzare-in-sibiu-zona-lupeni-IDJ2LV",
+   "scor": 44
+  },
   {
    "pret": 135000,
    "mpu": 75,
@@ -140,21 +154,6 @@
    "titlu": "Casa de vanzare zona Calea Surii Mici",
    "url": "https://www.storia.ro/ro/oferta/casa-de-vanzare-zona-calea-surii-mici-IDIx6O",
    "scor": 73
-  },
-  {
-   "pret": 170000,
-   "mpu": 80,
-   "curte": 264,
-   "curte_sigura": false,
-   "teren": 320,
-   "zona": "Lazaret, Sibiu",
-   "stare": "to_renovation",
-   "creat": "2026-04-21",
-   "repostat": true,
-   "alte": [],
-   "titlu": "Casa individuala de Vanzare in Sibiu, 80 mp utili, teren de 320 mp",
-   "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-in-sibiu-80-mp-utili-teren-de-320-mp-IDH24t",
-   "scor": 69
   },
   {
    "pret": 190000,

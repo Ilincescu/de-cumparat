@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-28",
+ "actualizat": "2026-10-29",
  "buget": 10000,
  "note": "Masini cautate pe Autovit si OLX: buget 10.000 EUR (pana la 15.000 doar pentru o oferta rara), garda inalta, drum lung, piese ieftine in Romania. Campuri: m = model, an, km, cp, f = combustibil, p = pret EUR, z = locatie, u = link, warn = capcana de stiut, d = data vazuta.",
  "observatii": [
@@ -105,7 +105,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Suzuki Vitara",
@@ -121,7 +121,7 @@
    "d": "2026-09-29",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Hyundai Tucson 2.0 CRDI VGT 4WD",
@@ -182,7 +182,7 @@
    "d": "2026-09-29",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai",
@@ -229,7 +229,7 @@
    "warn": null,
    "d": "2026-10-01",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -246,7 +246,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Volkswagen Tiguan",
@@ -263,7 +263,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway 1.0 SCe Ambiance",
@@ -278,7 +278,7 @@
    "warn": null,
    "d": "2026-09-25",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -294,9 +294,7 @@
    "warn": null,
    "d": "2026-09-24",
    "gj": false,
-   "avc": "2026-10-17",
-   "mort": true,
-   "mort_din": "2026-10-28"
+   "avc": "2026-10-17"
   },
   {
    "m": "Nissan Qashqai 1.6 DCI Start/Stop Visia",
@@ -313,7 +311,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Mitsubishi Space Star",
@@ -329,7 +327,7 @@
    "d": "2026-09-25",
    "gj": true,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -451,7 +449,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero",
@@ -467,7 +465,7 @@
    "d": "2026-09-25",
    "gj": true,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T TEKNA+",
@@ -499,7 +497,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Volkswagen Tiguan 2.0 TDI DPF 4Motion Life",
@@ -516,7 +514,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Dokker 1.5 Blue dCi Ambiance",
@@ -531,9 +529,7 @@
    "warn": null,
    "d": "2026-09-27",
    "avc": "2026-10-17",
-   "gj": false,
-   "mort": true,
-   "mort_din": "2026-10-28"
+   "gj": false
   },
   {
    "m": "Mazda CX-5",
@@ -549,7 +545,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai",
@@ -565,7 +561,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Dokker TCe 100 GPF Comfort",
@@ -596,7 +592,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T Start/Stop Acenta",
@@ -613,7 +609,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster Blue dCi 115 4WD Comfort",
@@ -664,7 +660,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Volkswagen Tiguan",
@@ -680,7 +676,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway 0.9 TCe Easy-R SL Techroad",
@@ -696,6 +692,20 @@
    "d": "2026-09-17",
    "avc": "2026-10-17",
    "gj": false
+  },
+  {
+   "m": "Citroën C3 AIRCROSS 1.2 PureTech S&S BVM6 Feel",
+   "an": 2021,
+   "km": 96400,
+   "cp": 110,
+   "f": "benzina",
+   "p": 7990,
+   "z": "Ploiesti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/citroen-c3-aircross-ver-1-2-puretech-s-s-bvm6-feel-ID7HQYrM.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-28",
+   "avc": "2026-10-29"
   },
   {
    "m": "Dacia Duster TCe 90 Essential",
@@ -714,7 +724,7 @@
    "av_motiv": "campul Avariata: Da",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Crossland 1.2 Start/Stop Edition",
@@ -731,7 +741,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -748,7 +758,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford EcoSport",
@@ -792,7 +802,7 @@
    "d": "2026-09-26",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Hyundai Tucson",
@@ -823,7 +833,7 @@
    "warn": null,
    "d": "2026-10-05",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -855,7 +865,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -900,7 +910,7 @@
    "warn": null,
    "d": "2026-10-05",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -916,7 +926,7 @@
    "warn": null,
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -976,7 +986,7 @@
    "warn": null,
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -1007,7 +1017,7 @@
    "warn": null,
    "d": "2026-09-18",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -1025,7 +1035,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Citroën C3 AIRCROSS",
@@ -1084,7 +1094,7 @@
    "warn": null,
    "d": "2026-09-28",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -1133,7 +1143,7 @@
    "av": true,
    "av_motiv": "campul Avariata: Da",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Crossland",
@@ -1150,7 +1160,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford EcoSport",
@@ -1181,7 +1191,7 @@
    "d": "2026-09-21",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Grandland X 1.2 Turbo START/STOP AT8 Business Edition",
@@ -1225,7 +1235,9 @@
    "warn": null,
    "d": "2026-09-13",
    "avc": "2026-10-17",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Crossland 1.2 ECOTEC Start/Stop Enjoy",
@@ -1242,7 +1254,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -1303,7 +1315,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai 1.5 DCI DPF Visia",
@@ -1320,7 +1332,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -1365,7 +1377,7 @@
    "warn": null,
    "d": "2026-09-09",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -1397,7 +1409,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Volkswagen Tiguan 1.4 TSI BMT Trend & Fun",
@@ -1473,7 +1485,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -1534,7 +1546,7 @@
    "d": "2026-09-21",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -1594,7 +1606,7 @@
    "warn": null,
    "d": "2026-10-02",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -1641,7 +1653,7 @@
    "d": "2026-09-29",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway 1.5 Blue dCi",
@@ -1658,7 +1670,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -1719,7 +1731,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Mazda CX-5 CD175 4x4 AT Revolution Top",
@@ -1749,8 +1761,22 @@
    "warn": null,
    "d": "2026-10-04",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 90 MT6 Essential",
+   "an": 2022,
+   "km": 80000,
+   "cp": 90,
+   "f": "benzina",
+   "p": 9491,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-essential-ID7HQYAv.html",
+   "warn": null,
+   "d": "2026-10-28",
+   "avc": "2026-10-29"
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost ST-Line",
@@ -1767,7 +1793,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Combo",
@@ -1799,7 +1825,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
@@ -1816,7 +1842,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Express",
@@ -1845,7 +1871,7 @@
    "warn": null,
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -1908,7 +1934,7 @@
    "gj": true,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster TCe 100 Comfort",
@@ -1925,7 +1951,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -2015,7 +2041,7 @@
    "warn": null,
    "d": "2026-09-12",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -2061,7 +2087,7 @@
    "warn": null,
    "d": "2026-09-11",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -2079,7 +2105,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai 1.5 DCI N-Connecta",
@@ -2196,7 +2222,7 @@
    "d": "2026-09-14",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T Start/Stop Acenta",
@@ -2227,7 +2253,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Active",
@@ -2259,7 +2285,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Express",
@@ -2274,7 +2300,7 @@
    "warn": null,
    "d": "2026-09-15",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -2307,7 +2333,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -2324,7 +2350,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Crossland 1.2 Edition",
@@ -2371,7 +2397,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 Comfort",
@@ -2388,7 +2414,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Express",
@@ -2449,7 +2475,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Volkswagen Polo",
@@ -2526,7 +2552,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster TCe 100 Comfort",
@@ -2542,7 +2568,7 @@
    "d": "2026-09-14",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster TCe 90 Essential",
@@ -2558,7 +2584,7 @@
    "d": "2026-09-14",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -2605,7 +2631,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma",
@@ -2622,7 +2648,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
@@ -2653,7 +2679,7 @@
    "d": "2026-09-21",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Mazda CX-5 CD175 4x4 Revolution Top",
@@ -2713,7 +2739,9 @@
    "warn": null,
    "d": "2026-09-14",
    "gj": false,
-   "avc": "2026-10-17"
+   "avc": "2026-10-17",
+   "mort": true,
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Suzuki Vitara 1.0 Boosterjet Comfort",
@@ -2729,7 +2757,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Dokker 1.6 SCe Basic",
@@ -2759,7 +2787,7 @@
    "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-09-13",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -2867,7 +2895,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -2882,7 +2910,7 @@
    "warn": null,
    "d": "2026-09-17",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -2899,7 +2927,7 @@
    "d": "2026-09-14",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T 360",
@@ -2931,7 +2959,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Mazda CX-5",
@@ -2946,7 +2974,7 @@
    "warn": null,
    "d": "2026-09-30",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -2964,7 +2992,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost Hybrid ST-LINE X",
@@ -2981,7 +3009,7 @@
    "gj": false,
    "avc": "2026-10-19",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Active",
@@ -3030,7 +3058,7 @@
    "av_motiv": "descrierea: \"avariat\"",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Crossland",
@@ -3072,7 +3100,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai 1.2 DIG-T TEKNA+",
@@ -3088,7 +3116,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 3008 PureTech 130 Stop & Start GPF EAT8 Allure",
@@ -3105,7 +3133,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway ECO-G 100 MT6 Expression",
@@ -3122,7 +3150,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Kia Sportage 2.0 DSL 6AT 4x4 Style",
@@ -3138,7 +3166,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost Titanium",
@@ -3168,7 +3196,7 @@
    "d": "2026-09-25",
    "gj": true,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost Titanium",
@@ -3185,7 +3213,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Crossland 1.2 Turbo Start/Stop Aut. Ultimate",
@@ -3202,7 +3230,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost Titanium",
@@ -3218,7 +3246,7 @@
    "d": "2026-10-24",
    "avc": "2026-10-26",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost MHEV ST Line",
@@ -3250,7 +3278,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai 1.6 DCI Start/Stop X-TRONIC N-Connecta",
@@ -3281,7 +3309,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Astra",
@@ -3298,7 +3326,7 @@
    "gj": true,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai",
@@ -3314,7 +3342,7 @@
    "d": "2026-09-29",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 3008 PureTech 130 Stop & Start GPF Active Business-Paket",
@@ -3344,7 +3372,7 @@
    "warn": null,
    "d": "2026-10-02",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -3392,7 +3420,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster",
@@ -3439,7 +3467,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Crossland 1.2 Start/Stop Aut. Elegance",
@@ -3456,7 +3484,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Hyundai Tucson",
@@ -3472,7 +3500,7 @@
    "d": "2026-09-29",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai 1.6 DCI Start/Stop X-TRONIC Tekna",
@@ -3488,7 +3516,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008 1.2 PureTech Allure",
@@ -3639,7 +3667,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai 1.5 DCI ACENTA",
@@ -3670,7 +3698,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 CVT Extreme",
@@ -3687,7 +3715,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Crossland 1.2 Turbo Start/Stop Aut. Innovation",
@@ -3702,7 +3730,7 @@
    "warn": "Motor PureTech (la Opel scris 1.2 Turbo) cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-09-15",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -3720,7 +3748,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster",
@@ -3766,7 +3794,7 @@
    "d": "2026-09-14",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Jeep Compass 1.4 MultiAir 4x2",
@@ -3797,7 +3825,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Suzuki Swift 1.2 Dualjet 12V MHEV Passion",
@@ -3827,7 +3855,7 @@
    "warn": null,
    "d": "2026-10-01",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -3845,7 +3873,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Essential",
@@ -3862,7 +3890,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008 1.2 PureTech BVM6 STT Active Pack",
@@ -3939,7 +3967,21 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
+  },
+  {
+   "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
+   "an": 2021,
+   "km": 89192,
+   "cp": 90,
+   "f": "benzina + gpl",
+   "p": 11000,
+   "z": "Otopeni",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQVOO.html",
+   "warn": null,
+   "d": "2026-10-28",
+   "avc": "2026-10-29"
   },
   {
    "m": "Kia Sportage 1.6 GDI 6MT 4x2 Style",
@@ -3955,7 +3997,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Captur TCe 90 Zen",
@@ -3986,7 +4028,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
@@ -4018,7 +4060,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 CVT Expression",
@@ -4050,7 +4092,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Expression",
@@ -4096,7 +4138,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai",
@@ -4112,7 +4154,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008 1.2 PureTech EAT8 STT Active Pack",
@@ -4127,7 +4169,7 @@
    "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-10-05",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -4145,7 +4187,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -4162,7 +4204,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -4192,7 +4234,7 @@
    "warn": null,
    "d": "2026-10-09",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -4223,7 +4265,7 @@
    "warn": null,
    "d": "2026-09-13",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -4270,7 +4312,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008",
@@ -4302,7 +4344,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Captur",
@@ -4333,7 +4375,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai",
@@ -4349,7 +4391,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai 1.6 DCI Start/Stop X-TRONIC Tekna",
@@ -4365,7 +4407,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Kia Sportage 2,0 CRDI AWD Aut. Platinum",
@@ -4397,7 +4439,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma",
@@ -4414,7 +4456,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford EcoSport 1.0 EcoBoost Titanium",
@@ -4444,7 +4486,7 @@
    "warn": null,
    "d": "2026-10-04",
    "mort": true,
-   "mort_din": "2026-10-28",
+   "mort_din": "2026-10-29",
    "gj": false
   },
   {
@@ -4477,7 +4519,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Express",
@@ -4612,7 +4654,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster TCe 90 Comfort",
@@ -4659,7 +4701,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Hyundai KONA 1.0 T-GDI 2WD Comfort",
@@ -4705,6 +4747,20 @@
    "avc": "2026-10-26"
   },
   {
+   "m": "Ford Puma",
+   "an": 2020,
+   "km": 44556,
+   "cp": 125,
+   "f": "hibrid plug-in",
+   "p": 11750,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQYyH.html",
+   "warn": null,
+   "d": "2026-10-28",
+   "avc": "2026-10-29"
+  },
+  {
    "m": "Peugeot 2008 PureTech 130 EAT8 GT",
    "an": 2021,
    "km": 87909,
@@ -4734,7 +4790,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Express",
@@ -4781,7 +4837,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Crossland 1.2 Start/Stop Aut. Edition",
@@ -4798,7 +4854,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Captur TCe 90 Zen",
@@ -4887,7 +4943,9 @@
    "warn": null,
    "d": "2026-10-01",
    "avc": "2026-10-17",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Suzuki Vitara 1.4 Boosterjet Comfort",
@@ -5007,7 +5065,7 @@
    "d": "2026-10-23",
    "avc": "2026-10-26",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Grandland X",
@@ -5024,6 +5082,20 @@
    "avc": "2026-10-26"
   },
   {
+   "m": "Ford Puma",
+   "an": 2024,
+   "km": 34000,
+   "cp": 125,
+   "f": "benzina",
+   "p": 11990,
+   "z": "Timisoara",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQYqf.html",
+   "warn": null,
+   "d": "2026-10-28",
+   "avc": "2026-10-29"
+  },
+  {
    "m": "Suzuki Vitara 1.6 DDIS 4X4 Luxus",
    "an": 2018,
    "km": 104000,
@@ -5037,7 +5109,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Extreme",
@@ -5116,7 +5188,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
@@ -5133,7 +5205,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
@@ -5149,7 +5221,7 @@
    "d": "2026-10-20",
    "avc": "2026-10-21",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Captur",
@@ -5195,7 +5267,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster",
@@ -5270,7 +5342,9 @@
    "warn": null,
    "d": "2026-09-28",
    "avc": "2026-10-17",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Opel Combo",
@@ -5302,7 +5376,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008 1.2 L PureTech STT EAT8 Active",
@@ -5439,7 +5513,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
@@ -5454,7 +5528,9 @@
    "warn": null,
    "d": "2026-09-28",
    "avc": "2026-10-17",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster Blue dCi 115 2WD Prestige",
@@ -5545,7 +5621,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma",
@@ -5562,7 +5638,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Captur",
@@ -5594,7 +5670,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Hyundai KONA 1.0 T-GDI 120 CP 6MT 2WD Highway",
@@ -5611,7 +5687,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Captur TCe 90 Evolution",
@@ -5628,7 +5704,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008 1.2 PureTech EAT8 STT Allure Pack",
@@ -5689,7 +5765,7 @@
    "d": "2026-10-19",
    "avc": "2026-10-20",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma",
@@ -5705,7 +5781,7 @@
    "d": "2026-10-19",
    "avc": "2026-10-20",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Kia Sportage",
@@ -5721,7 +5797,7 @@
    "d": "2026-10-22",
    "avc": "2026-10-23",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008",
@@ -5737,7 +5813,21 @@
    "d": "2026-10-22",
    "avc": "2026-10-23",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
+  },
+  {
+   "m": "Kia Sportage",
+   "an": 2021,
+   "km": 89000,
+   "cp": 136,
+   "f": "diesel",
+   "p": 12500,
+   "z": "Arad",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ID7HQYsO.html",
+   "warn": null,
+   "d": "2026-10-28",
+   "avc": "2026-10-29"
   },
   {
    "m": "Ford EcoSport",
@@ -5813,7 +5903,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008 1.2 PureTech BVM6 STT Active Pack",
@@ -5845,7 +5935,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway TCe 90 CVT Comfort",
@@ -5891,7 +5981,7 @@
    "d": "2026-09-24",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster TCe 90 Comfort",
@@ -5908,7 +5998,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "SsangYong Tivoli",
@@ -5967,7 +6057,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Hyundai KONA 1.0 T-GDI 2WD Highway",
@@ -6147,7 +6237,7 @@
    "gj": false,
    "avc": "2026-10-17",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -6179,7 +6269,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost ST Line",
@@ -6256,7 +6346,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008",
@@ -6419,7 +6509,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008",
@@ -6480,7 +6570,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster TCe 100 Essential",
@@ -6512,7 +6602,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "SsangYong Tivoli",
@@ -6527,7 +6617,9 @@
    "warn": null,
    "d": "2026-09-28",
    "avc": "2026-10-17",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster",
@@ -6603,7 +6695,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Hyundai KONA 1.0 T-GDI 120 CP 6MT 2WD Highway",
@@ -6620,7 +6712,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster",
@@ -6800,7 +6892,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "SsangYong Tivoli 1.5 T-GDi 2WD Automatik Sapphire",
@@ -6920,7 +7012,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster Blue dCi 115 Prestige",
@@ -6937,7 +7029,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Hyundai KONA",
@@ -6954,7 +7046,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway ECO-G 100 MT6 Extreme",
@@ -7046,7 +7138,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "SsangYong Tivoli",
@@ -7091,7 +7183,9 @@
    "warn": null,
    "d": "2026-09-28",
    "avc": "2026-10-17",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway",
@@ -7152,7 +7246,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
@@ -7345,7 +7439,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQY7c.html",
    "warn": null,
    "d": "2026-10-27",
-   "avc": "2026-10-28"
+   "avc": "2026-10-28",
+   "mort": true,
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 3008 PureTech 130 Stop & Start GPF EAT8 GT",
@@ -7377,7 +7473,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
@@ -7469,7 +7565,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Volkswagen T-Roc",
@@ -7500,7 +7596,7 @@
    "d": "2026-10-21",
    "avc": "2026-10-22",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Suzuki Vitara 1.4 Boosterjet MHEV Passion",
@@ -7516,7 +7612,7 @@
    "d": "2026-10-21",
    "avc": "2026-10-22",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma",
@@ -7563,7 +7659,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Nissan Qashqai",
@@ -7593,7 +7689,9 @@
    "warn": null,
    "d": "2026-10-14",
    "avc": "2026-10-17",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma",
@@ -7608,7 +7706,9 @@
    "warn": null,
    "d": "2026-09-28",
    "avc": "2026-10-17",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost MHEV Titanium",
@@ -7696,7 +7796,23 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-aut-titanium-ID7HQKVn.html",
    "warn": null,
    "d": "2026-10-14",
-   "avc": "2026-10-27"
+   "avc": "2026-10-27",
+   "mort": true,
+   "mort_din": "2026-10-29"
+  },
+  {
+   "m": "Peugeot 2008 1.5 BlueHDI EAT8 STT Allure Pack",
+   "an": 2022,
+   "km": 90000,
+   "cp": 130,
+   "f": "diesel",
+   "p": 13990,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-eat8-stt-allure-pack-ID7HQYAe.html",
+   "warn": null,
+   "d": "2026-10-28",
+   "avc": "2026-10-29"
   },
   {
    "m": "Ford Puma",
@@ -7728,7 +7844,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 3008 PureTech 130 Stop & Start GPF EAT8 Allure",
@@ -7805,7 +7921,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Express",
@@ -7822,7 +7938,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Audi Q3 45 TFSIe S tronic",
@@ -7839,7 +7955,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008 1.5 BlueHDI BVM6 STT Active Pack",
@@ -7943,6 +8059,20 @@
    "d": "2026-10-13",
    "avc": "2026-10-17",
    "gj": false
+  },
+  {
+   "m": "Peugeot 2008 PureTech 100 Stop&Start Active Pack",
+   "an": 2023,
+   "km": 36844,
+   "cp": 101,
+   "f": "benzina",
+   "p": 14190,
+   "z": "Tunari",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-100-stop-start-active-pack-ID7HQYz9.html",
+   "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
+   "d": "2026-10-28",
+   "avc": "2026-10-29"
   },
   {
    "m": "Ford Puma",
@@ -8136,7 +8266,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster ECO-G 100 Comfort",
@@ -8257,7 +8387,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008 1.2 L PureTech STT Active",
@@ -8274,7 +8404,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008",
@@ -8306,7 +8436,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Puma 1.0 EcoBoost MHEV ST Line X",
@@ -8368,7 +8498,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster ECO-G 100 SL BlueLine",
@@ -8412,7 +8542,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-5008-ver-1-2l-puretech-eat8-s-s-allure-pack-ID7HQnQf.html",
    "warn": "Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.",
    "d": "2026-10-20",
-   "avc": "2026-10-21"
+   "avc": "2026-10-21",
+   "mort": true,
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Renault Captur",
@@ -8485,7 +8617,21 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
+  },
+  {
+   "m": "Ford Puma",
+   "an": 2022,
+   "km": 40892,
+   "cp": 125,
+   "f": "benzina",
+   "p": 14520,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQYyi.html",
+   "warn": null,
+   "d": "2026-10-28",
+   "avc": "2026-10-29"
   },
   {
    "m": "Dacia Duster TCe 130 Journey",
@@ -8500,7 +8646,9 @@
    "warn": null,
    "d": "2026-10-14",
    "avc": "2026-10-17",
-   "gj": false
+   "gj": false,
+   "mort": true,
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008 1.2 PureTech EAT8 STT Active Pack",
@@ -8589,7 +8737,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster Blue dCi 115 4WD Comfort",
@@ -8782,7 +8930,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Peugeot 2008",
@@ -8798,7 +8946,21 @@
    "d": "2026-10-01",
    "avc": "2026-10-19",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
+  },
+  {
+   "m": "Kia Sportage 1.6 DSL MHEV 6MT HP 4x2 Classic",
+   "an": 2020,
+   "km": 93668,
+   "cp": 136,
+   "f": "diesel",
+   "p": 14800,
+   "z": "Odorheiu Secuiesc",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-dsl-mhev-6mt-hp-4x2-classic-ID7HQYwO.html",
+   "warn": null,
+   "d": "2026-10-28",
+   "avc": "2026-10-29"
   },
   {
    "m": "Ford Puma",
@@ -8860,7 +9022,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Volkswagen Caddy",
@@ -8907,7 +9069,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Ford Kuga 1.5 EcoBoost 2x4 Cool & Connect",
@@ -9014,6 +9176,20 @@
    "avc": "2026-10-27"
   },
   {
+   "m": "Dacia Duster 1.5 dCi 4WD Comfort",
+   "an": 2021,
+   "km": 39841,
+   "cp": 109,
+   "f": "diesel",
+   "p": 14950,
+   "z": "Buzau",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-5-dci-4wd-comfort-ID7HQYz1.html",
+   "warn": null,
+   "d": "2026-10-28",
+   "avc": "2026-10-29"
+  },
+  {
    "m": "Renault Koleos BLUE dCi 150 X-tronic LIMITED",
    "an": 2020,
    "km": 78118,
@@ -9103,7 +9279,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Sandero Stepway ECO-G 100 MT6 Expression",
@@ -9161,7 +9337,7 @@
    "d": "2026-10-12",
    "avc": "2026-10-22",
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Volkswagen T-Cross",
@@ -9236,6 +9412,36 @@
    "avc": "2026-10-26"
   },
   {
+   "m": "Kia Sportage 1.6 CRDI 2WD EDITION 7",
+   "an": 2020,
+   "km": 95661,
+   "cp": 115,
+   "f": "diesel",
+   "p": 14990,
+   "z": "Suceava",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-crdi-2wd-edition-7-ID7HQYvO.html",
+   "warn": null,
+   "d": "2026-10-28",
+   "avc": "2026-10-29"
+  },
+  {
+   "m": "Dacia Sandero Stepway",
+   "an": 2024,
+   "km": 9507,
+   "cp": 90,
+   "f": "benzina",
+   "p": 14990,
+   "z": "Bucuresti",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQWR5.html",
+   "warn": null,
+   "d": "2026-10-19",
+   "avc": "2026-10-29",
+   "av": true,
+   "av_motiv": "descrierea: \"accidentat\""
+  },
+  {
    "m": "Renault Arkana E-TECH Full 145 Evolution",
    "an": 2023,
    "km": 99120,
@@ -9278,7 +9484,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Volkswagen T-Cross 1.0 TSI Style",
@@ -9325,7 +9531,7 @@
    "avc": "2026-10-17",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster",
@@ -9427,7 +9633,7 @@
    "d": "2026-09-29",
    "gj": false,
    "mort": true,
-   "mort_din": "2026-10-28"
+   "mort_din": "2026-10-29"
   },
   {
    "m": "Dacia Duster TCe 150 4WD Sondermodell Extreme",
@@ -9456,9 +9662,18 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-tucson-ID7HQWE4.html",
    "warn": null,
    "d": "2026-10-22",
-   "avc": "2026-10-23",
-   "mort": true,
-   "mort_din": "2026-10-28"
+   "avc": "2026-10-23"
+  },
+  {
+   "m": "Autoturism",
+   "an": null,
+   "km": null,
+   "p": 1063,
+   "z": "Sibiu (licitatie ANAF)",
+   "src": "anaf",
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600014672000000038688-autoturism",
+   "warn": "Licitatie ANAF: pornire 5687 lei, licitatia din 2026-11-27. Fara km in anunt; se cumpara cum e, fara garantie.",
+   "d": "2026-10-29"
   }
  ]
 }
