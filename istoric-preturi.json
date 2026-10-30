@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-29",
+ "actualizat": "2026-10-30",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -6247,6 +6247,10 @@
     {
      "d": "2026-09-21",
      "p": 245000
+    },
+    {
+     "d": "2026-10-30",
+     "p": 234900
     }
    ]
   },
@@ -10821,6 +10825,10 @@
     {
      "d": "2026-09-30",
      "p": 250000
+    },
+    {
+     "d": "2026-10-30",
+     "p": 199990
     }
    ]
   },
@@ -20099,6 +20107,10 @@
     {
      "d": "2026-10-05",
      "p": 81500
+    },
+    {
+     "d": "2026-10-30",
+     "p": 86500
     }
    ]
   },
@@ -20227,6 +20239,10 @@
     {
      "d": "2026-10-05",
      "p": 70000
+    },
+    {
+     "d": "2026-10-30",
+     "p": 68000
     }
    ]
   },
@@ -20415,6 +20431,10 @@
     {
      "d": "2026-10-07",
      "p": 100000
+    },
+    {
+     "d": "2026-10-30",
+     "p": 105000
     }
    ]
   },
@@ -20599,6 +20619,10 @@
     {
      "d": "2026-10-07",
      "p": 81500
+    },
+    {
+     "d": "2026-10-30",
+     "p": 86500
     }
    ]
   },
@@ -23521,6 +23545,10 @@
     {
      "d": "2026-10-13",
      "p": 70000
+    },
+    {
+     "d": "2026-10-30",
+     "p": 68000
     }
    ]
   },
@@ -29817,6 +29845,10 @@
     {
      "d": "2026-10-22",
      "p": 245000
+    },
+    {
+     "d": "2026-10-30",
+     "p": 234900
     }
    ]
   },
@@ -29847,6 +29879,10 @@
     {
      "d": "2026-10-22",
      "p": 245000
+    },
+    {
+     "d": "2026-10-30",
+     "p": 234900
     }
    ]
   },
@@ -31699,6 +31735,10 @@
     {
      "d": "2026-10-26",
      "p": 81500
+    },
+    {
+     "d": "2026-10-30",
+     "p": 86500
     }
    ]
   },
@@ -32353,6 +32393,10 @@
     {
      "d": "2026-10-28",
      "p": 245000
+    },
+    {
+     "d": "2026-10-30",
+     "p": 234900
     }
    ]
   },
@@ -32583,6 +32627,10 @@
     {
      "d": "2026-10-28",
      "p": 100000
+    },
+    {
+     "d": "2026-10-30",
+     "p": 105000
     }
    ]
   },
@@ -32743,6 +32791,10 @@
     {
      "d": "2026-10-29",
      "p": 85000
+    },
+    {
+     "d": "2026-10-30",
+     "p": 80000
     }
    ]
   },
@@ -33103,6 +33155,296 @@
     {
      "d": "2026-10-28",
      "p": 14690
+    }
+   ]
+  },
+  "IDJ3RH": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-aproape-de-centru-cu-bucatarie-separata-IDJ3RH",
+   "t": "Garsoniera de vanzare aproape de centru cu bucatarie separata",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 74000
+    }
+   ]
+  },
+  "IDJ3QP": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-la-mansarda-cu-balcon-terezian-IDJ3QP",
+   "t": "Apartament de vanzare la mansarda cu balcon Terezian",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 69000
+    }
+   ]
+  },
+  "IDJ3Np": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-1-camera-de-vanzare-sibiu-lidl-IDJ3Np",
+   "t": "Apartament cu 1 camera de vanzare Sibiu Lidl",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 67000
+    }
+   ]
+  },
+  "IDJ3KO": {
+   "u": "https://www.storia.ro/ro/oferta/ap-clasic-3-4-camere-2-bai-vasile-aaron-et-intermediar-IDJ3KO",
+   "t": "Ap.CLASIC 3- 4 camere 2 bai Vasile Aaron Et. Intermediar",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 109900
+    }
+   ]
+  },
+  "IDJ3EH": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-decomandate-si-pivnita-zona-semaforului-IDJ3EH",
+   "t": "Apartament cu 2 camere decomandate si pivnita zona Semaforului",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 88000
+    }
+   ]
+  },
+  "IDJ3Eg": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-cedonia-etaj-1-fara-mobilier-IDJ3Eg",
+   "t": "Apartament de vanzare 2 camere Cedonia etaj 1 fara mobilier",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 72000
+    }
+   ]
+  },
+  "IDJ3Dj": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-inedita-cu-o-panorama-minunata-in-vasile-aaron-sibiu-IDJ3Dj",
+   "t": "Garsoniera inedita cu o panorama minunata in Vasile Aaron Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 59900
+    }
+   ]
+  },
+  "IDJ3Cl": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-utilat-41-mp-utili-zona-ultracentrala-IDJ3Cl",
+   "t": "Apartament 2 camere, mobilat + utilat, 41 mp utili, zona Ultracentrala",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 105000
+    }
+   ]
+  },
+  "IDJ3vi": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-la-mansarda-de-vanzare-3-camere-vasile-aaron-IDJ3vi",
+   "t": "Apartament la mansarda de vanzare 3 camere Vasile Aaron",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 85000
+    }
+   ]
+  },
+  "IDJ3vf": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-zona-broscarie-IDJ3vf",
+   "t": "Garsoniera zona Broscarie",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 37000
+    }
+   ]
+  },
+  "IDJ3tK": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-mobilata-utilata-zona-tiglari-comision-0-IDJ3tK",
+   "t": "Garsoniera de vanzare mobilata utilata zona Tiglari comision 0%",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 25000
+    }
+   ]
+  },
+  "IDJ3sf": {
+   "u": "https://www.storia.ro/ro/oferta/comision-0-garsoniera-renovata-complet-de-30-mpu-zona-centrala-sibiu-IDJ3sf",
+   "t": "COMISION 0 Garsoniera renovata complet de 30 mpu zona Centrala Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 75900
+    }
+   ]
+  },
+  "IDJ3dV": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-3-camere-de-vanzare-decomandat-58-mp-zona-valea-aurie-sibiu-IDJ3dV",
+   "t": "Apartament 3 camere de vanzare decomandat 58 mp zona Valea Aurie Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 108500
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/proiect-autorizat-de-reabilitare-casa-individuala-in-centrul-sibiului/di0h33733f7578321eh5d3683ii67f45.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/proiect-autorizat-de-reabilitare-casa-individuala-in-centrul-sibiului/di0h33733f7578321eh5d3683ii67f45.html",
+   "t": "Proiect autorizat de reabilitare casa individuala in centrul Sibiului",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 199000
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-3-camere-de-vanzare-tiglari-sibiu-cp3447194/": {
+   "u": "https://www.maac.ro/casa-vila-3-camere-de-vanzare-tiglari-sibiu-cp3447194/",
+   "t": "Casă de vânzare Sibiu | 3 camere | Tiglari | 159 mp | anexă",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 189900
+    }
+   ]
+  },
+  "ID7HQYrM": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/citroen-c3-aircross-ver-1-2-puretech-s-s-bvm6-feel-ID7HQYrM.html",
+   "t": "Citroën C3 AIRCROSS 1.2 PureTech S&S BVM6 Feel",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 7990
+    }
+   ]
+  },
+  "ID7HQYAv": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-essential-ID7HQYAv.html",
+   "t": "Dacia Sandero Stepway TCe 90 MT6 Essential",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 9491
+    }
+   ]
+  },
+  "ID7HQVOO": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQVOO.html",
+   "t": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 11000
+    }
+   ]
+  },
+  "ID7HQYyH": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQYyH.html",
+   "t": "Ford Puma",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 11750
+    }
+   ]
+  },
+  "ID7HQYqf": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQYqf.html",
+   "t": "Ford Puma",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 11990
+    }
+   ]
+  },
+  "ID7HQYsO": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ID7HQYsO.html",
+   "t": "Kia Sportage",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 12500
+    }
+   ]
+  },
+  "ID7HQYAe": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-eat8-stt-allure-pack-ID7HQYAe.html",
+   "t": "Peugeot 2008 1.5 BlueHDI EAT8 STT Allure Pack",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 13990
+    }
+   ]
+  },
+  "ID7HQYz9": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-100-stop-start-active-pack-ID7HQYz9.html",
+   "t": "Peugeot 2008 PureTech 100 Stop&Start Active Pack",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 14190
+    }
+   ]
+  },
+  "ID7HQYyi": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQYyi.html",
+   "t": "Ford Puma",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 14520
+    }
+   ]
+  },
+  "ID7HQYwO": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-dsl-mhev-6mt-hp-4x2-classic-ID7HQYwO.html",
+   "t": "Kia Sportage 1.6 DSL MHEV 6MT HP 4x2 Classic",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 14800
+    }
+   ]
+  },
+  "ID7HQYz1": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-5-dci-4wd-comfort-ID7HQYz1.html",
+   "t": "Dacia Duster 1.5 dCi 4WD Comfort",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 14950
+    }
+   ]
+  },
+  "ID7HQYvO": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-crdi-2wd-edition-7-ID7HQYvO.html",
+   "t": "Kia Sportage 1.6 CRDI 2WD EDITION 7",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 14990
+    }
+   ]
+  },
+  "ID7HQWR5": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQWR5.html",
+   "t": "Dacia Sandero Stepway",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 14990
+    }
+   ]
+  },
+  "https://elicitatii.anaf.ro/publicitate/produs/12600014672000000038688-autoturism": {
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600014672000000038688-autoturism",
+   "t": "Autoturism",
+   "preturi": [
+    {
+     "d": "2026-10-29",
+     "p": 1063
     }
    ]
   }

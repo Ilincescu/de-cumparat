@@ -18,7 +18,7 @@
    "warn": "Ciclocross, nu sosea pura - anvelope mai late, geometrie diferita",
    "d": "2026-09-21",
    "mort": true,
-   "mort_din": "2026-10-29"
+   "mort_din": "2026-10-30"
   },
   {
    "t": "Cube Agree, Shimano 105, marime 58",
@@ -85,7 +85,7 @@
    "warn": "M/L - cere cotele cadrului inainte de drum",
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-29"
+   "mort_din": "2026-10-30"
   },
   {
    "t": "Scott Speedster 20",
@@ -100,7 +100,7 @@
    "warn": "54 cm - prea mica pentru 181 cm",
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-29"
+   "mort_din": "2026-10-30"
   },
   {
    "t": "Merida Scultura 500 disc",
@@ -115,7 +115,7 @@
    "warn": "Marimea nu e trecuta - intreaba prima data",
    "d": "2026-09-14",
    "mort": true,
-   "mort_din": "2026-10-29"
+   "mort_din": "2026-10-30"
   },
   {
    "t": "Pinnacle Laterite 28 inch, aluminiu, XL",
@@ -141,7 +141,9 @@
    "src": "olx",
    "u": "https://www.olx.ro/d/oferta/cursiera-carbon-jamis-xenith-comp-2012-marimea-l-IDkwuyl.html",
    "warn": "Era 2.200 RON pe 14 septembrie, acum 2.700 - verifica daca e acelasi anunt sau altul",
-   "d": "2026-09-29"
+   "d": "2026-09-29",
+   "mort": true,
+   "mort_din": "2026-10-30"
   },
   {
    "t": "Stevens SCF 2, carbon",
@@ -156,7 +158,7 @@
    "warn": "58 cm e la limita de sus pentru 181 cm - proba obligatorie",
    "d": "2026-09-24",
    "mort": true,
-   "mort_din": "2026-10-29"
+   "mort_din": "2026-10-30"
   },
   {
    "t": "Felt F5, full carbon",
@@ -210,7 +212,7 @@
    "warn": null,
    "d": "2026-09-21",
    "mort": true,
-   "mort_din": "2026-10-29"
+   "mort_din": "2026-10-30"
   },
   {
    "t": "Ritchey Logic, semicursiera otel/carbon",
@@ -223,9 +225,7 @@
    "src": "olx",
    "u": "https://www.olx.ro/d/oferta/semi-cursiera-otel-carbon-ritchey-logic-mas-l-cr-mo-IDkTqdK.html",
    "warn": null,
-   "d": "2026-09-14",
-   "mort": true,
-   "mort_din": "2026-10-29"
+   "d": "2026-09-14"
   },
   {
    "t": "Cannondale SuperSix EVO, full carbon",
@@ -240,7 +240,7 @@
    "warn": "Exact la limita bugetului. Di2 e electronic: verifica bateria si cablajul.",
    "d": "2026-09-21",
    "mort": true,
-   "mort_din": "2026-10-29"
+   "mort_din": "2026-10-30"
   },
   {
    "t": "Cervelo Soloist Team 2007, aluminiu, Shimano 105 11v, marime 56",
@@ -256,7 +256,7 @@
    "d": "2026-10-16",
    "jante": 40,
    "mort": true,
-   "mort_din": "2026-10-29"
+   "mort_din": "2026-10-30"
   },
   {
    "t": "Radon R1 Road, aluminiu + furca carbon, Shimano 105, XL",
@@ -297,7 +297,7 @@
    "src": "olx",
    "d": "2026-10-16",
    "mort": true,
-   "mort_din": "2026-10-29"
+   "mort_din": "2026-10-30"
   },
   {
    "t": "Look clasica, cadru carbon, Shimano 600, marime 55",
@@ -340,7 +340,7 @@
    "src": "olx",
    "d": "2026-10-16",
    "mort": true,
-   "mort_din": "2026-10-29"
+   "mort_din": "2026-10-30"
   },
   {
    "t": "Cannondale SuperSix EVO carbon, Ultegra/105 2x10, Vision Team 30, 58 cm / XL",
