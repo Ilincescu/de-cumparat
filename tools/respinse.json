@@ -2,6 +2,12 @@
  "nota": "Ce a respins Mihai explicit. tools/azi.js nu i le mai arata. Cand respinge ceva nou, se adauga aici, nu in cod.",
  "case": [
   {
+   "id": "IDIx6O",
+   "ce": "Calea Surii Mici, 75 mp, curte 227 mp, de renovat",
+   "pret": 135000,
+   "motiv": "igrasie in poze: pivnita cu tencuiala cazuta din tavan si pete pe pereti (2026-10-30)"
+  },
+  {
    "id": "IDGY6n",
    "ce": "Gusterita, 3 camere, 98 mp, curte 251 mp, MAAC",
    "pret": 170000,
