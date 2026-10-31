@@ -1,0 +1,145 @@
+[
+ {
+  "cartier": "Lazaret",
+  "nv": 3,
+  "nc": 11,
+  "pret": 81500,
+  "ppm": 2153,
+  "chirie": 430,
+  "ani": 15.8,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/lazaret",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/lazaret"
+ },
+ {
+  "cartier": "Hipodrom II",
+  "nv": 8,
+  "nc": 21,
+  "pret": 75500,
+  "ppm": 2000,
+  "chirie": 375,
+  "ani": 16.8,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-ii",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-ii"
+ },
+ {
+  "cartier": "Tiglari",
+  "nv": 10,
+  "nc": 9,
+  "pret": 113675,
+  "ppm": 2147,
+  "chirie": 500,
+  "ani": 18.9,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/tiglari",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/tiglari"
+ },
+ {
+  "cartier": "Vasile Aaron",
+  "nv": 13,
+  "nc": 14,
+  "pret": 90000,
+  "ppm": 1800,
+  "chirie": 395,
+  "ani": 19,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/vasile-aaron",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/vasile-aaron"
+ },
+ {
+  "cartier": "Trei Stejari",
+  "nv": 3,
+  "nc": 5,
+  "pret": 89000,
+  "ppm": 1780,
+  "chirie": 380,
+  "ani": 19.5,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/trei-stejari",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/trei-stejari"
+ },
+ {
+  "cartier": "Fara cartier",
+  "nv": 6,
+  "nc": 10,
+  "pret": 93975,
+  "ppm": 1985,
+  "chirie": 390,
+  "ani": 20.1,
+  "linkVanzare": null,
+  "linkChirie": null
+ },
+ {
+  "cartier": "Terezian",
+  "nv": 13,
+  "nc": 10,
+  "pret": 105000,
+  "ppm": 2106,
+  "chirie": 400,
+  "ani": 21.9,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/terezian",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/terezian"
+ },
+ {
+  "cartier": "Centrul Istoric",
+  "nv": 31,
+  "nc": 20,
+  "pret": 114000,
+  "ppm": 2157,
+  "chirie": 430,
+  "ani": 22.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/centrul-istoric",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/centrul-istoric"
+ },
+ {
+  "cartier": "Hipodrom III",
+  "nv": 30,
+  "nc": 28,
+  "pret": 103500,
+  "ppm": 1980,
+  "chirie": 370,
+  "ani": 23.3,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-iii",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-iii"
+ },
+ {
+  "cartier": "Centrul Civic",
+  "nv": 13,
+  "nc": 11,
+  "pret": 129000,
+  "ppm": 2345,
+  "chirie": 450,
+  "ani": 23.9,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/centrul-civic",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/centrul-civic"
+ },
+ {
+  "cartier": "Turnisor",
+  "nv": 10,
+  "nc": 23,
+  "pret": 115900,
+  "ppm": 2146,
+  "chirie": 400,
+  "ani": 24.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/turnisor",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/turnisor"
+ },
+ {
+  "cartier": "Hipodrom I",
+  "nv": 12,
+  "nc": 12,
+  "pret": 114950,
+  "ppm": 2087,
+  "chirie": 380,
+  "ani": 25.2,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-i",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-i"
+ },
+ {
+  "cartier": "Zona Industriala Est",
+  "nv": 9,
+  "nc": 3,
+  "pret": 125000,
+  "ppm": 2049,
+  "chirie": 380,
+  "ani": 27.4,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/zona-industriala-est",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/zona-industriala-est"
+ }
+]

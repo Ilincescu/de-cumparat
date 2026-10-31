@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-30",
+ "actualizat": "2026-10-31",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -641,6 +641,10 @@
     {
      "d": "2026-10-09",
      "p": 134900
+    },
+    {
+     "d": "2026-10-31",
+     "p": 135900
     }
    ]
   },
@@ -15945,6 +15949,10 @@
     {
      "d": "2026-10-04",
      "p": 107990
+    },
+    {
+     "d": "2026-10-31",
+     "p": 99990
     }
    ]
   },
@@ -16377,6 +16385,10 @@
     {
      "d": "2026-10-04",
      "p": 94900
+    },
+    {
+     "d": "2026-10-31",
+     "p": 89900
     }
    ]
   },
@@ -16427,6 +16439,10 @@
     {
      "d": "2026-10-04",
      "p": 97900
+    },
+    {
+     "d": "2026-10-31",
+     "p": 96900
     }
    ]
   },
@@ -22817,6 +22833,10 @@
     {
      "d": "2026-10-11",
      "p": 100000
+    },
+    {
+     "d": "2026-10-31",
+     "p": 105000
     }
    ]
   },
@@ -22867,6 +22887,10 @@
     {
      "d": "2026-10-11",
      "p": 71999
+    },
+    {
+     "d": "2026-10-31",
+     "p": 72000
     }
    ]
   },
@@ -23353,6 +23377,10 @@
     {
      "d": "2026-10-13",
      "p": 81500
+    },
+    {
+     "d": "2026-10-31",
+     "p": 86500
     }
    ]
   },
@@ -23659,6 +23687,10 @@
     {
      "d": "2026-10-15",
      "p": 245000
+    },
+    {
+     "d": "2026-10-31",
+     "p": 234900
     }
    ]
   },
@@ -23709,6 +23741,10 @@
     {
      "d": "2026-10-15",
      "p": 245000
+    },
+    {
+     "d": "2026-10-31",
+     "p": 234900
     }
    ]
   },
@@ -31251,6 +31287,10 @@
     {
      "d": "2026-10-26",
      "p": 245000
+    },
+    {
+     "d": "2026-10-31",
+     "p": 234900
     }
    ]
   },
@@ -31371,6 +31411,10 @@
     {
      "d": "2026-10-26",
      "p": 94900
+    },
+    {
+     "d": "2026-10-31",
+     "p": 89900
     }
    ]
   },
@@ -32711,6 +32755,10 @@
     {
      "d": "2026-10-29",
      "p": 245000
+    },
+    {
+     "d": "2026-10-31",
+     "p": 234900
     }
    ]
   },
@@ -33445,6 +33493,426 @@
     {
      "d": "2026-10-29",
      "p": 1063
+    }
+   ]
+  },
+  "IDJ43p": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-mobilata-cu-4-camere-2-bai-si-garaj-in-gusterita-IDJ43p",
+   "t": "Casa individuala mobilata cu 4 camere 2 bai si garaj in Gusterita",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 234900
+    }
+   ]
+  },
+  "IDJ40E": {
+   "u": "https://www.storia.ro/ro/oferta/casa-renovata-hala-productie-garaj-2-corpuri-casa-cristian-IDJ40E",
+   "t": "Casa Renovata | Hala Productie / Garaj | 2 Corpuri Casa | Cristian",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 230000
+    }
+   ]
+  },
+  "IDJ4DM": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-decomandat-parcare-balcon-doamna-stanca-in-sibiu-IDJ4DM",
+   "t": "Apartament de vanzare decomandat parcare balcon Doamna Stanca in Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 109900
+    }
+   ]
+  },
+  "IDJ4DC": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-la-mansard-renovat-trand-sibiu-IDJ4DC",
+   "t": "Apartament 2 camere la mansardă renovat, Ștrand, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 55000
+    }
+   ]
+  },
+  "IDJ4Dz": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-etaj-3-i-lift-i-balcon-i-mihai-viteazu-IDJ4Dz",
+   "t": "Apartament 2 camere I Etaj 3 I Lift I Balcon I Mihai Viteazu",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 105000
+    }
+   ]
+  },
+  "IDJ4Dx": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-60mpu-vasile-aaron-IDJ4Dx",
+   "t": "Apartament 2 Camere | 60MPU | Vasile Aaron",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 84900
+    }
+   ]
+  },
+  "IDJ4Bt": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-moderna-32mpu-de-vanzare-in-centrul-istoric-al-sibiului-IDJ4Bt",
+   "t": "Garsoniera moderna 32mpu de vanzare in centrul istoric al Sibiului",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 92900
+    }
+   ]
+  },
+  "IDJ4Ak": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-la-casa-de-vanzare-2-camere-garaj-curte-comuna-cu-2-vecini-IDJ4Ak",
+   "t": "Apartament la casa de vanzare 2 camere garaj curte comuna cu 2 vecini",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 71000
+    }
+   ]
+  },
+  "IDJ4yg": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-de-vanzare-43-mpu-pivnita-zona-orasul-de-jos-sibiu-IDJ4yg",
+   "t": "Garsoniera de vanzare 43 mpu pivnita zona Orasul de Jos Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 105000
+    }
+   ]
+  },
+  "IDJ4qH": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-mihai-viteazul-37-mp-IDJ4qH",
+   "t": "Apartament 2 camere de vânzare | Sibiu, Mihai Viteazul | 37 mp",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 73500
+    }
+   ]
+  },
+  "IDJ4pm": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-de-vnzare-sibiu-25-mp-parter-nalt-zona-milea-IDJ4pm",
+   "t": "Garsonieră de vânzare Sibiu – 25 mp, parter înalt, zona Milea",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 57000
+    }
+   ]
+  },
+  "IDJ4m5": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-sibiu-cedonia-mediu-IDJ4m5",
+   "t": "Apartament 2 camere de vanzare Sibiu Cedonia Mediu",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 81000
+    }
+   ]
+  },
+  "IDJ4lC": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-amenajat-cu-3-camere-56-mp-bvd-mihai-viteazu-sibiu-IDJ4lC",
+   "t": "Apartament amenajat cu 3 camere 56 mp Bvd Mihai Viteazu Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 99500
+    }
+   ]
+  },
+  "IDJ4lm": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-si-balcon-mobilat-zona-cedonia-sibiu-IDJ4lm",
+   "t": "Apartament 2 camere si balcon mobilat zona Cedonia Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 68000
+    }
+   ]
+  },
+  "IDJ4jt": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-turnior-54-mp-IDJ4jt",
+   "t": "Apartament 2 camere de vânzare | Sibiu, Turnișor | 54 mp",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 104000
+    }
+   ]
+  },
+  "IDJ4gO": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-mihai-viteazul-50-mp-IDJ4gO",
+   "t": "Apartament 2 camere de vânzare | Sibiu, Mihai Viteazul | 50 mp",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 103000
+    }
+   ]
+  },
+  "IDJ4gF": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-si-balcon-zona-vasile-aaron-IDJ4gF",
+   "t": "Apartament 2 camere decomandat si balcon zona Vasile Aaron",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 89900
+    }
+   ]
+  },
+  "IDJ4gq": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-pivnita-zona-rahovei-IDJ4gq",
+   "t": "Apartament 2 camere decomandat pivnita zona Rahovei",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 103000
+    }
+   ]
+  },
+  "IDJ4eq": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-balcon-pivnita-zona-valea-aurie-IDJ4eq",
+   "t": "Apartament 2 camere decomandat balcon pivnita zona Valea Aurie",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 105000
+    }
+   ]
+  },
+  "IDJ49X": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-si-pivnita-et-2-zona-rahovei-IDJ49X",
+   "t": "Apartament 2 camere balcon si pivnita et 2  zona Rahovei",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 103000
+    }
+   ]
+  },
+  "IDJ467": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-zona-terezian-IDJ467",
+   "t": "Apartament 2 camere, balcon - Zona Terezian",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 98000
+    }
+   ]
+  },
+  "IDJ44I": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-terasa-de-10-mp-si-parcare-sibiu-vest-IDJ44I",
+   "t": "Apartament 2 camere, terasa de 10 mp si parcare – Sibiu Vest",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 97000
+    }
+   ]
+  },
+  "IDJ40X": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-4-camere-mansarda-vasile-aaron-sibiu-IDJ40X",
+   "t": "Apartament de vanzare 4 camere mansarda Vasile Aaron Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 84800
+    }
+   ]
+  },
+  "IDH0OF": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-mihai-viteazu-50-mp-etajul-1-IDH0OF",
+   "t": "Apartament 2 camere | Zona Mihai Viteazu | 50 mp | Etajul 1",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 82500
+    }
+   ]
+  },
+  "IDGbmA": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-decomandat-i-etajul-1i-valea-aurie-IDGbmA",
+   "t": "Apartament 2 camere I Decomandat I Etajul 1I Valea Aurie",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 102000
+    }
+   ]
+  },
+  "IDDFun": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-etaj-1-mobilata-renovata-vasile-aaron-IDDFun",
+   "t": "Garsoniera | Etaj 1 | Mobilata | Renovata | Vasile Aaron",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 40000
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/schimba-apartamentul-cu-aceasta-casa-cu-3-dormitoare-si-60-mp-curte/760e530i5d127dd4d8f1f989i606h690.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/schimba-apartamentul-cu-aceasta-casa-cu-3-dormitoare-si-60-mp-curte/760e530i5d127dd4d8f1f989i606h690.html",
+   "t": "Casa mica 3 dormitoare curte mica 60 mp zona Lupeni Sibiu",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 135990
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-mobilata-cu-4-camere-2-bai-si-garaj-in-gusterita/5941025g9d977i691196d23e1di43677.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-mobilata-cu-4-camere-2-bai-si-garaj-in-gusterita/5941025g9d977i691196d23e1di43677.html",
+   "t": "Casa individuala mobilata cu 4 camere 2 bai si garaj in Gusterita",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 234900
+    }
+   ]
+  },
+  "ID7HQYQZ": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ID7HQYQZ.html",
+   "t": "Dacia Dokker",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 10951
+    }
+   ]
+  },
+  "ID7HQtiB": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-grandland-x-ver-1-2-turbo-ecotec-start-stop-selection-ID7HQtiB.html",
+   "t": "Opel Grandland X 1.2 Turbo ecoTEC START/STOP Selection",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 11200
+    }
+   ]
+  },
+  "ID7HQYLl": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-eco-g-100-comfort-ID7HQYLl.html",
+   "t": "Dacia Duster ECO-G 100 Comfort",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 11990
+    }
+   ]
+  },
+  "ID7HQY7p": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQY7p.html",
+   "t": "Ford Puma",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 11999
+    }
+   ]
+  },
+  "ID7HQYvd": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQYvd.html",
+   "t": "Dacia Duster",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 12300
+    }
+   ]
+  },
+  "ID7HQYR3": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-juke-ID7HQYR3.html",
+   "t": "Nissan Juke",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 13299
+    }
+   ]
+  },
+  "ID7HQHFy": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-5-blue-dci-4wd-essential-ID7HQHFy.html",
+   "t": "Dacia Duster 1.5 Blue dCi 4WD Essential",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 13650
+    }
+   ]
+  },
+  "ID7HQYMM": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-life-ID7HQYMM.html",
+   "t": "Volkswagen T-Cross 1.0 TSI Life",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 13990
+    }
+   ]
+  },
+  "ID7HQYP2": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQYP2.html",
+   "t": "Dacia Duster",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 14800
+    }
+   ]
+  },
+  "ID7HQWcD": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-sx4-s-cross-ver-1-4-boosterjet-mild-hybrid-cool-ID7HQWcD.html",
+   "t": "Suzuki S-Cross 1.4 Boosterjet Mild Hybrid Cool",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 14900
+    }
+   ]
+  },
+  "ID7HQW9E": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ID7HQW9E.html",
+   "t": "Volkswagen T-Cross",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 14990
+    }
+   ]
+  },
+  "ID7HQYMj": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQYMj.html",
+   "t": "Ford Puma",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 14999
+    }
+   ]
+  },
+  "ID7HQKQg": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ver-1-3-t-gdi-4xe-automatik-trailhawk-ID7HQKQg.html",
+   "t": "Jeep Renegade 1.3 T-GDI 4xe Automatik Trailhawk",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 14999
+    }
+   ]
+  },
+  "https://elicitatii.anaf.ro/publicitate/produs/12600035848000000038784-autoturism-marca-audi-a4-model-limousine-b8": {
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600035848000000038784-autoturism-marca-audi-a4-model-limousine-b8",
+   "t": "Audi A4 Limousine",
+   "preturi": [
+    {
+     "d": "2026-10-30",
+     "p": 5912
     }
    ]
   }

@@ -1,7 +1,7 @@
 {
- "generat": "2026-10-30 08:11",
- "de_la": "2026-10-29",
- "pana_la": "2026-10-30",
+ "generat": "2026-10-31 08:08",
+ "de_la": "2026-10-30",
+ "pana_la": "2026-10-31",
  "case_noi": 0,
  "case_trec": 0,
  "din_rezerva": true,
@@ -10,7 +10,7 @@
  "ap_noi": 0,
  "ap_trec": 0,
  "ap_din_rezerva": false,
- "chirii_din": "2026-10-30",
+ "chirii_din": "2026-10-31",
  "apartamente": [
   {
    "alte": [],
@@ -55,7 +55,7 @@
    "creat": "2025-08-17",
    "chirie": 340,
    "chirie_din": "oras",
-   "chirie_n": 55,
+   "chirie_n": 54,
    "chirie_mp": [
     31,
     43
@@ -83,15 +83,15 @@
    "zona": "Tiglari, Sibiu",
    "creat": "2026-09-03",
    "stare": "ready_to_use",
-   "chirie": 350,
+   "chirie": 340,
    "chirie_din": "oras",
-   "chirie_n": 61,
+   "chirie_n": 60,
    "chirie_mp": [
     33,
     45
    ],
-   "ani": 20.4,
-   "net": 2690,
+   "ani": 21.1,
+   "net": 2598,
    "luni_goale": 2,
    "cost_total": 54888,
    "fara_comision": false,
@@ -100,27 +100,27 @@
    "nou": false,
    "titlu": "Apartament de vânzare Sibiu | 2 camere | Țiglari | etaj 2, 39 mp",
    "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-iglari-etaj-2-39-mp-IDIpLK",
-   "scor": 20.403019861050705
+   "scor": 21.12547581200759
   }
  ],
  "surse": [
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-10-30 08:01",
+   "cand": "2026-10-31 08:01",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1440,
-   "potrivite": 252,
+   "gasite": 1491,
+   "potrivite": 253,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-10-30 08:02",
+   "cand": "2026-10-31 08:02",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1619,
-   "potrivite": 341,
+   "gasite": 1615,
+   "potrivite": 343,
    "stare": "azi",
    "veche": false
   }
