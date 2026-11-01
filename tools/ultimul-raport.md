@@ -1,11 +1,30 @@
-# Raport 24 sep 2026
+# Raport 1 nov 2026
 
-**Surse:** Storia prin API (buildId expirat, reinnoit cu node direct din HTML-ul paginii de cautare, fara browser) si publi24 (citit cu node, 3 pagini case + 3 pagini 2 camere). **Nu au fost citite OLX, Facebook Marketplace si imobiliare.ro:** Playwright nu s-a conectat (timeout la pornire), iar WebFetch nu era permis; OLX intoarce 403 la cereri directe.
+**Surse:** toate. Storia, publi24, lajumate/homezz, agentiile, licitatiile si ANAF fara browser; OLX, imobiliare.ro si Facebook (case si chirii) din browser, toate salvate azi (`tools/ultima-rulare.json`: nimic esuat, niciun fisier lipsa). Reluarea dupa 31 oct, cand lipsisera toate cele sase fisiere din browser.
 
-**Adaugate: 25** (14 case, dintre care 7 in afara orasului, si 11 apartamente). **Sterse: 4** anunturi Storia cu 410 (duplexul Sura Mica de 129.750, 67.500 Aleea Rosiorilor, 79.000 Selimbar, 89.999 ultracentral), verificate pe toate cele 288 de linkuri Storia. Cele 31 de linkuri publi24 au raspuns 200; OLX neverificat. **Total: 252 case, 193 apartamente.**
+**Cum s-au luat sursele din browser azi:** `browser_evaluate` si `browser_run_code_unsafe` nu erau permise in sesiune, asa ca datele s-au scos din snapshoturile paginilor (navigare pagina cu pagina), nu cu fetch in pagina. OLX case: 25 de pagini, 71 de anunturi OLX (restul copii Storia). imobiliare.ro case: 24 de pagini, 250 sub 250.000 €. OLX chirii: 20 de pagini, 104 anunturi. imobiliare.ro chirii: 21 de pagini, 627. Facebook: fara derulare (nici tastatura nu era permisa), deci doar primele carduri - 22 de case si 14 chirii.
 
-**Cel mai bun anunt nou: 238.000 EUR, Piata Cluj (publi24)** - casa singur in curte cu doua apartamente alaturate si intrari separate, 180 mp, ~320 mp curte libera spre sud: locuiesti intr-unul si il inchiriezi pe celalalt, deci inlocuieste apartamentul separat. Minus: constructie din 1901, necesita renovare (are autorizatie de construire), si ramai fara buget de renovare.
+**Adaugate: 9** (8 case, 1 apartament):
+- 85.000 € - casa la 300 m de Piata Mica (OLX) - https://www.olx.ro/d/oferta/casa-de-vanzare-in-sibiu-la-300-m-de-piata-mica-IDl1pv9.html
+- 85.000 € - casa 2 camere, central, mansarda si terasa (Storia) - https://www.storia.ro/ro/oferta/cas-2-camere-de-vnzare-sibiu-central-mansard-i-teras-IDJ4OV
+- 95.900 € - casa 3 camere, Turnisor (imobiliare.ro) - https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-turnisor-3-camere-276143525
+- 129.000 € - casa cu curte, ultracentral, 82 mp (imobiliare.ro) - https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-ultracentral-2-camere-276015430
+- 179.999 € - duplex singur in curte, Piata Cluj (OLX) - https://www.olx.ro/d/oferta/vand-duplex-in-sibiu-singur-in-curte-zona-piata-cluj-IDkyKNu.html
+- 199.990 € - casa duplex, zona foarte centrala (OLX) - https://www.olx.ro/d/oferta/vand-casa-zona-foarte-centrala-IDkK3RN.html
+- 205.000 € - duplex 113 mp + 400 mp teren, Gusterita (Facebook) - https://www.facebook.com/marketplace/item/2472986393192709/
+- 234.900 € - casa 4 camere mobilata, Gusterita (imobiliare.ro) - https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276151686
+- 79.999 € - apartament 2 camere, Vasile Aaron (Storia) - https://www.storia.ro/ro/oferta/apartament-de-vanzare-cu-2-camere-balcon-pivnita-vasile-aaron-IDJ4I6
 
-**Apartamente:** cel mai ieftin 2 camere nou e de 53.000, la etajul 1 al unei vile pe str. Masarilor (IDIDTY), deci apartament la casa, dar necesita renovare completa. Urmeaza doua de 49.999 si 50.000 la parter in Tiglari (poate acelasi, poate si IDIzcp). Au fost sarite 3 mansarde si 8 anunturi de la dezvoltator (Magnolia, Ogorului, Lidl, Doamna Stanca).
+**Sterse: 5** - casa de 125.000 din Tiglari/Terezian si apartamentele de 79.999 (Vasile Aaron), 86.000 (Vasile Aaron), 85.000 (central, cu gradina) si 92.000 (Hipodrom III).
 
-**Capcane prinse azi:** casa de 195.000 din Turnisor cu doua apartamente are curte cu drept de servitute pentru un vecin. Duplexul de 158.000 de pe Storia e de fapt in Rasinari, cu pinul pus fals in centrul Sibiului. Casele de 245.000 de pe Croitorilor (Storia), Morilor (publi24) si IDEnVY par a fi acelasi imobil, iar IDIE1I e a treia republicare a casei de 235.000 cu 585 mp din Turnisor.
+**Pret schimbat: 1** - apartamentul nou mobilat din Turnisor a crescut de la 89.500 la 93.000 €: https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-constructie-noua-boxa-turnisor-sibiu-IDIyaI
+
+**Total pe site (citit live):** 386 case, 634 apartamente.
+
+**Capcane prinse azi:**
+- Apartamentul de 79.999 din Vasile Aaron a fost sters si republicat cu alt cod (IDIJZZ -> IDJ4I6), acelasi titlu si pret.
+- Casa de 85.000 de langa Piata Mica (OLX) si casa de 85.000 din centru (Storia) pot fi acelasi imobil; de verificat in poze.
+- Scoase de mana din fisierele extrase, ca sa nu intre gresit in lista: un penthouse din Cartierul Arhitectilor (Facebook; filtrul de "casa" il lasa sa treaca din cauza cuvantului "house"), o casa in Apoldu de Jos (Facebook) si una in Pauca (OLX) - ambele localitati lipsesc din lista "in afara orasului".
+- La OLX au cazut la filtre, dupa citirea descrierii: 3 case "doua corpuri" si 2 cu curte comuna.
+
+**Poze: NEVERIFICATE.** Storia da 403 (CloudFront) si la fisa JSON a anuntului, si la pagina anuntului, si din node si din browser, desi reteaua e Digi si scanarea de dimineata a mers. `node tools/verifica.js` nu a putut descarca nicio poza pentru top 3 case si top 3 apartamente din azi.json, deci igrasia, scara interioara si subsolul nu au fost verificate azi.
