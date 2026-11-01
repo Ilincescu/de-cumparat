@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-10-31",
+ "actualizat": "2026-11-01",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -3361,6 +3361,10 @@
     {
      "d": "2026-09-25",
      "p": 89500
+    },
+    {
+     "d": "2026-11-01",
+     "p": 93000
     }
    ]
   },
@@ -21097,6 +21101,10 @@
     {
      "d": "2026-10-22",
      "p": 95000
+    },
+    {
+     "d": "2026-11-01",
+     "p": 89000
     }
    ]
   },
@@ -21115,6 +21123,10 @@
     {
      "d": "2026-10-22",
      "p": 95000
+    },
+    {
+     "d": "2026-11-01",
+     "p": 89000
     }
    ]
   },
@@ -21197,6 +21209,10 @@
     {
      "d": "2026-10-22",
      "p": 94990
+    },
+    {
+     "d": "2026-11-01",
+     "p": 89000
     }
    ]
   },
@@ -22891,6 +22907,10 @@
     {
      "d": "2026-10-31",
      "p": 72000
+    },
+    {
+     "d": "2026-11-01",
+     "p": 71900
     }
    ]
   },
@@ -29551,6 +29571,10 @@
     {
      "d": "2026-10-20",
      "p": 95000
+    },
+    {
+     "d": "2026-11-01",
+     "p": 89000
     }
    ]
   },
@@ -33913,6 +33937,176 @@
     {
      "d": "2026-10-30",
      "p": 5912
+    }
+   ]
+  },
+  "IDJ4OV": {
+   "u": "https://www.storia.ro/ro/oferta/cas-2-camere-de-vnzare-sibiu-central-mansard-i-teras-IDJ4OV",
+   "t": "Casă 2 camere de vânzare | Sibiu, Central | mansardă și terasă",
+   "preturi": [
+    {
+     "d": "2026-11-01",
+     "p": 85000
+    }
+   ]
+  },
+  "IDJ4I6": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-cu-2-camere-balcon-pivnita-vasile-aaron-IDJ4I6",
+   "t": "Apartament de vanzare cu 2 camere balcon  pivnita Vasile Aaron",
+   "preturi": [
+    {
+     "d": "2026-11-01",
+     "p": 79999
+    }
+   ]
+  },
+  "IDIgev": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-52-mpu-ultracentral-3-camere-ocnei-etaj-1-IDIgev",
+   "t": "Apartament | 52 MpU | Ultracentral | 3 camere | Ocnei | Etaj 1",
+   "preturi": [
+    {
+     "d": "2026-11-01",
+     "p": 105000
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/casa/anunt/casa-individuala-de-vanzare-4-camere-184-mp-utili-zona-mihai-viteazul/e38941h18g8574ifdfi3372307d7f822.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/casa/anunt/casa-individuala-de-vanzare-4-camere-184-mp-utili-zona-mihai-viteazul/e38941h18g8574ifdfi3372307d7f822.html",
+   "t": "Casa individuala 4 camere cu pompa de caldura si panouri fotovoltaice",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 244990
+    }
+   ]
+  },
+  "ID7HQZ0l": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ID7HQZ0l.html",
+   "t": "Jeep Renegade",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 6900
+    }
+   ]
+  },
+  "ID7HQVCU": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ID7HQVCU.html",
+   "t": "Hyundai KONA",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 9900
+    }
+   ]
+  },
+  "ID7HQZ8S": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HQZ8S.html",
+   "t": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 11990
+    }
+   ]
+  },
+  "ID7HQZ1T": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ID7HQZ1T.html",
+   "t": "Hyundai KONA",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 12000
+    }
+   ]
+  },
+  "ID7HQZ8v": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQZ8v.html",
+   "t": "Ford EcoSport 1.0 EcoBoost Titanium",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 12350
+    }
+   ]
+  },
+  "ID7HQZ55": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQZ55.html",
+   "t": "Peugeot 2008",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 12500
+    }
+   ]
+  },
+  "ID7HQZ3Z": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HQZ3Z.html",
+   "t": "Ford EcoSport",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 12500
+    }
+   ]
+  },
+  "ID7HQZ56": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-140-edc-zen-ID7HQZ56.html",
+   "t": "Renault Captur TCe 140 EDC Zen",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 13490
+    }
+   ]
+  },
+  "ID7HQYOp": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ID7HQYOp.html",
+   "t": "Ford Kuga",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 13500
+    }
+   ]
+  },
+  "ID7HQZ4F": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-aut-titanium-ID7HQZ4F.html",
+   "t": "Ford Puma 1.0 EcoBoost MHEV Aut. Titanium",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 13990
+    }
+   ]
+  },
+  "ID7HQZ0w": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ID7HQZ0w.html",
+   "t": "Peugeot 2008",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 14500
+    }
+   ]
+  },
+  "ID7HQZ0S": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-5008-ID7HQZ0S.html",
+   "t": "Peugeot 5008",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 14900
+    }
+   ]
+  },
+  "ID7HQJwv": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ver-1-6-t-gdi-7dct-4x4-style-ID7HQJwv.html",
+   "t": "Kia Sportage 1.6 T-GDI 7DCT 4x4 Style",
+   "preturi": [
+    {
+     "d": "2026-10-31",
+     "p": 15000
     }
    ]
   }
