@@ -28,6 +28,11 @@
  ],
  "conditionate": [
   {
+   "cand": "o cazare sau un apartament e peste parter si nici facilitatile, nici descrierea nu pomenesc liftul",
+   "text": "ca are lift - scriu 'etajul N, liftul nu apare' si intreb gazda",
+   "din": "2026-11-02, Praga: am scris 'are lift (etajul 3)' la Maramures Residence; Booking spune doar etajul 3, iar Ralu a vazut ca nu are lift"
+  },
+  {
    "cand": "lipseste heating din fisa SI descrierea nu pomeneste incalzirea",
    "text": "ORICE despre incalzire - nici fisa, nici descrierea nu o pomenesc",
    "din": "2026-10-03, Tiglari: am scris 'te muti maine' fara sa verific incalzirea"
