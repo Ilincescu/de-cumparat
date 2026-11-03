@@ -557,9 +557,12 @@ if (fs.existsSync(mCale)) {
   topMasini = await primeleVii(ok, 3, g => g.m.u);
   // Criteriile de masina sunt stranse si multe zile nu aduc nimic. Ca la case,
   // arat atunci cele mai bune de pe toata lista, spunand ca nu sunt noi.
-  if (!topMasini.length) {
-    topMasini = await primeleVii(alese(masini.filter(m => !noi.includes(m))), 3, g => g.m.u);
-    masiniDinRezerva = topMasini.length > 0;
+  // Mereu trei, ca la case: cu o singura masina noua, topul avea un rand
+  // (Mihai, 2026-11-03: "au disparut masinile din top 3").
+  if (topMasini.length < 3) {
+    const rest = await primeleVii(alese(masini.filter(m => !noi.includes(m))), 3 - topMasini.length, g => g.m.u);
+    masiniDinRezerva = rest.length > 0;
+    topMasini = topMasini.concat(rest);
   }
 }
 
@@ -607,7 +610,7 @@ topAp.forEach(({ x, alte }, i) => {
 if (pragMasini) {
   console.log(`MAȘINI — ${masiniNoi} apărute după ${pragMasini}, ${masiniOk} trec de criterii\n`);
   if (!topMasini.length) console.log('  nimic nou care să bifeze criteriile.\n');
-  else if (masiniDinRezerva) console.log('  Nimic nou. Cele mai bune de pe toată lista:\n');
+  else if (masiniDinRezerva) console.log(masiniOk ? '  Prea puține noi. Completat cu cele mai bune de pe toată lista:\n' : '  Nimic nou. Cele mai bune de pe toată lista:\n');
   topMasini.forEach(({ m }, i) => {
     console.log(`${i + 1}. ${m.p.toLocaleString('ro-RO')} € · ${m.m} · ${m.an} · ${m.km.toLocaleString('ro-RO')} km · ${m.z}`);
     if (CUREA_IN_ULEI.test(m.m + ' ' + (m.warn || ''))) console.log('   ! curea de distribuție în ulei');
@@ -652,7 +655,7 @@ if (scrie) {
     }),
     masini: topMasini.map(({ m, p }) => ({
       pret: m.p, model: m.m, an: m.an, km: m.km, zona: m.z,
-      warn: m.warn || null, url: m.u, scor: p,
+      warn: m.warn || null, url: m.u, scor: p, nou: m.d > pragMasini,
     })),
   }, null, 1));
   console.log('scris în azi.json');
