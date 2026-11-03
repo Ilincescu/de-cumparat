@@ -2,6 +2,8 @@
 
 **Surse:** Storia, publi24, lajumate/homezz, agentiile, licitatiile si ANAF fara browser; din browser OLX (case si chirii), imobiliare.ro case, Facebook (case si chirii). **Lipsa azi: chiriile imobiliare.ro** (`tools/ultima-rulare.json`: `lipsa_browser: imobiliare-chirii.json`). imobiliare.ro a dat 403 dupa pasul cu casele (24 de pagini + 48 de anunturi deschise), iar la chirii a dat 403 de la prima cerere, si la reincercare. Rularea de maine trebuie sa le ia (RELUARE).
 
+**Reluare 08:08:** chiriile imobiliare.ro luate: 630 din 630 (21 de pagini, pagina 22 a dat 404 = sfarsitul listei), 607 cu pret, 608 cu mp. `ultima-rulare.json`: nimic esuat, nimic lipsa. Fata de 06:52: apartamente 629 -> 628, masini 680 -> 681.
+
 **Din browser:**
 - OLX case: 82 de anunturi OLX, 80 cu descriere.
 - imobiliare.ro case: toate 709 citite (24 de pagini), 251 sub 250.000 €; din 80 noi s-au deschis 48 inainte de 403, restul au doar textul cardului.
@@ -37,7 +39,7 @@
 - 86.500 € (crescut de la 81.500) - apartament cu pod, Arhitectilor - https://www.storia.ro/ro/oferta/apartament-2-camere-cu-pod-n-cartierul-arhitecilor-IDIc73
 - doua schimbari de 1 €: apartamentul la casa de 59.000 si cel din Calea Surii Mici de 108.799.
 
-**Total pe site (citit live):** 390 case, 629 apartamente.
+**Total pe site (citit live dupa reluare):** 1018 anunturi (390 case, 628 apartamente), actualizat 2026-11-03 08:08.
 
 **Capcane prinse azi:**
 - Casa din Lazaret de 195.000 si casa din Gusterita de 245.000 apar fiecare pe Storia si pe imobiliare.ro.
@@ -52,3 +54,12 @@
 - apartament Tiglari, 51.000 € - 6 din 6 - curat.
 - apartament la casa, Centrul Istoric, 72.900 € - 8 din 9 - curat, fara scara interioara; in poza 5 se vede o centrala pe perete, desi anuntul nu o pomeneste.
 Nimic respins azi.
+
+**Poze dupa reluare (topul s-a schimbat):** verifica.js tot 403, deci tot din `arhiva/poze/`:
+- casa Terezian 190.000 € - 5 din 5 - curata.
+- casa Lazaret 199.990 € - 8 arhivate - aceeasi pata deschisa pe hol, poza 7; de verificat la vizionare.
+- casa Turnisor 135.000 € - 8 arhivate acum - curata (centrala pe perete in bucatarie).
+- apartament Tiglari 51.000 € - 6 din 6 - curat.
+- apartament Lacul lui Binder 65.500 € (nou in top, in locul celui din Gusterita) - **0 poze arhivate, nici pentru copia de la Storia; NEVERIFICAT.**
+- apartament la casa, Centrul Istoric, 72.900 € - 8 arhivate - curat, fara scara interioara.
+Nimic respins.
