@@ -33,7 +33,10 @@ singur pe cele salvate azi:
     <article>: {u, t, p: textul pretului, camere, mp, desc: textul cardului}.
     Pastreaza doar cele cu pret pana in 250.000 €. NU deschide toate
     anunturile: dupa ~100 de cereri imobiliare.ro da 403 si pe pagina din
-    browser. Deschide doar ce nu e deja in date.json (cate 2 odata) si pune in
+    browser. Fa pasul e) (chiriile imobiliare.ro, ~22 de cereri) INAINTE de
+    b): limita e pe toata sesiunea, nu pe pagina (2026-11-03: 24 de pagini +
+    48 de anunturi la b), apoi e) a dat 403 de la prima cerere si s-a pierdut).
+    Deschide doar ce nu e deja in date.json (cate 2 odata) si pune in
     desc textul din [class*="description"]. Pentru restul ajunge cardul:
     surse-case.js scoate oricum casele pe care Storia le-a exclus (acelasi pret
     si teren).
@@ -118,7 +121,10 @@ niveluri, mansarda - IDIZWp scria "parter", IDHj86 "la casa", amandoua aveau sca
 de lemn la etaj), subsol/demisol si dezumidificatoare in camere. Toate sunt
 blocker. Daca vezi ceva din ele, adauga anuntul in tools/respinse.json (case
 sau apartamente) cu motivul "igrasie in poze", ruleaza node tools/azi.js --scrie
-si repeta pana ai trei curate. Daca pozele nu se pot descarca, spune-o in raport. Push-ul e autorizat
+si repeta pana ai trei curate. Daca verifica.js da 403 (Storia blocheaza
+IP-ul si din browser cateva minute dupa scanare - 2026-11-03), uita-te in
+arhiva/poze/<ID>/, unde arhiva.js tine primele 8 poze; spune in raport cate
+din cate ai vazut si ce anunt n-are deloc poze arhivate. Daca pozele nu se pot descarca, spune-o in raport. Push-ul e autorizat
 aici: e repo personal, iar GitHub Pages serveste din main. La final confirma
 cu numarul citit LIVE de pe site, nu cu ce e local, si spune-i sa dea Ctrl+F5,
 fiindca browserul tine JSON-ul in cache. Pagina se reconstruieste in ~1 minut.
