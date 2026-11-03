@@ -119,7 +119,7 @@ function numara() {
     + `apartamente ${inainte.ap} -> ${dupa.ap}.\n\n`
     + 'Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>';
 
-  ruleaza('git', ['add', 'date.json', 'masini.json', 'biciclete.json', 'istoric-preturi.json', 'azi.json', 'tools/snapshots', 'tools/cautari.json', 'tools/chirii-urmarite.json', 'arhiva.json', 'arhiva']);
+  ruleaza('git', ['add', 'date.json', 'masini.json', 'biciclete.json', 'istoric-preturi.json', 'azi.json', 'tools/snapshots', 'tools/cautari.json', 'tools/chirii-urmarite.json', 'tools/storia-build.json', 'arhiva.json', 'arhiva']);
   ruleaza('git', ['commit', '-q', '-m', mesaj]);
   // Credential Manager n-are contul personal si asteapta un login pe care
   // nimeni nu-l vede; push-ul statea pana la timeout. Tokenul il are gh.

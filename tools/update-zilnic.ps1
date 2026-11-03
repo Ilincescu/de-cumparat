@@ -28,11 +28,15 @@ if (Test-Path $stare) {
 # porneste de la ultima versiune, ca sa nu suprascrie ce ai editat de pe telefon
 git pull --rebase --quiet 2>&1 | Out-File -Append -Encoding utf8 $log
 
-$prompt = Get-Content (Join-Path $repo 'tools\prompt-zilnic.txt') -Raw
+$prompt = Get-Content (Join-Path $repo 'tools\prompt-zilnic.txt') -Raw -Encoding UTF8
 if ((Test-Path $stare) -and ($s.esuate.Count -gt 0 -or $s.lipsa_browser.Count -gt 0)) {
   $prompt = "RELUARE: rularea din $($s.data) $($s.ora) nu a mers complet. Au esuat: $($s.esuate -join ', '). Fisiere din browser lipsa: $($s.lipsa_browser -join ', '). Nu sari peste pasii astia azi.`n`n" + $prompt
 }
 
-claude -p $prompt --permission-mode acceptEdits 2>&1 | Out-File -Append -Encoding utf8 $log
+# Prompt-ul merge pe stdin, nu ca argument: Windows PowerShell 5.1 rupe
+# argumentul la primele ghilimele din el, iar Claude primea doar ~25 de randuri
+# din prompt-zilnic.txt (2026-11-02: s-a oprit si a cerut restul).
+$OutputEncoding = New-Object System.Text.UTF8Encoding $false
+$prompt | claude -p --permission-mode acceptEdits 2>&1 | Out-File -Append -Encoding utf8 $log
 
 "=== $(Get-Date -Format 'yyyy-MM-dd HH:mm') : terminat ===" | Out-File -Append -Encoding utf8 $log
