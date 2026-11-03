@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-03 06:52",
+ "actualizat": "2026-11-03 08:08",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -4169,21 +4169,6 @@
   },
   {
    "k": "ap",
-   "p": 99900,
-   "t": "Apartament la casa,  2 camere, mobilat si utiliat, un vecin in curte",
-   "z": "Centrul Istoric, Sibiu",
-   "r": 2,
-   "a": 49,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-la-casa-2-camere-mobilat-si-utiliat-un-vecin-in-curte-IDI5vy",
-   "warn": null,
-   "d": "2026-10-04"
-  },
-  {
-   "k": "ap",
    "p": 79900,
    "t": "Apartament 2 camere de vânzare, zona Rahovei",
    "z": "Hipodrom III, Sibiu",
@@ -6930,7 +6915,7 @@
   },
   {
    "k": "ap",
-   "p": 68000,
+   "p": 62000,
    "t": "Apartament 2 camere de vanzare, Aleea Rosiorilor Sibiu",
    "z": "Hipodrom I, Sibiu",
    "r": 2,
@@ -6941,7 +6926,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-aleea-rosiorilor-sibiu-IDHiyN",
    "warn": "Declarata de renovat in fisa tehnica.",
-   "d": "2026-10-08"
+   "d": "2026-11-03"
   },
   {
    "k": "ap",

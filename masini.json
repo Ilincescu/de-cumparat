@@ -1244,6 +1244,20 @@
    "mort_din": "2026-11-03"
   },
   {
+   "m": "Dacia Dokker 1.5 Blue dCi Laureate",
+   "an": 2020,
+   "km": 78188,
+   "cp": 95,
+   "f": "diesel",
+   "p": 8700,
+   "z": "Brasov",
+   "src": "autovit",
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-1-5-blue-dci-laureate-ID7HQZVR.html",
+   "warn": null,
+   "d": "2026-11-03",
+   "avc": "2026-11-03"
+  },
+  {
    "m": "Ford EcoSport",
    "an": 2021,
    "km": 82000,
@@ -6181,7 +6195,9 @@
    "u": "https://www.autovit.ro/autoturisme/anunt/kia-sportage-ID7HQYsO.html",
    "warn": null,
    "d": "2026-10-28",
-   "avc": "2026-10-29"
+   "avc": "2026-10-29",
+   "mort": true,
+   "mort_din": "2026-11-03"
   },
   {
    "m": "Peugeot 2008",

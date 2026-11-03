@@ -44,15 +44,15 @@
   "linkChirie": null
  },
  {
-  "cartier": "Terezian",
-  "nv": 11,
-  "nc": 5,
-  "pret": 112530,
-  "ppm": 2152,
-  "chirie": 450,
-  "ani": 20.8,
-  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/terezian",
-  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/terezian"
+  "cartier": "Vasile Aaron",
+  "nv": 12,
+  "nc": 16,
+  "pret": 90000,
+  "ppm": 1800,
+  "chirie": 370,
+  "ani": 20.3,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/vasile-aaron",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/vasile-aaron"
  },
  {
   "cartier": "Trei Stejari",
@@ -66,17 +66,6 @@
   "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/trei-stejari"
  },
  {
-  "cartier": "Vasile Aaron",
-  "nv": 12,
-  "nc": 15,
-  "pret": 90000,
-  "ppm": 1800,
-  "chirie": 350,
-  "ani": 21.4,
-  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/vasile-aaron",
-  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/vasile-aaron"
- },
- {
   "cartier": "Centrul Istoric",
   "nv": 25,
   "nc": 15,
@@ -86,6 +75,17 @@
   "ani": 21.9,
   "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/centrul-istoric",
   "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/centrul-istoric"
+ },
+ {
+  "cartier": "Terezian",
+  "nv": 11,
+  "nc": 4,
+  "pret": 112530,
+  "ppm": 2152,
+  "chirie": 425,
+  "ani": 22.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/terezian",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/terezian"
  },
  {
   "cartier": "Centrul Civic",
@@ -112,7 +112,7 @@
  {
   "cartier": "Turnisor",
   "nv": 8,
-  "nc": 25,
+  "nc": 24,
   "pret": 112950,
   "ppm": 2140,
   "chirie": 400,

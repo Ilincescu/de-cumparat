@@ -1593,6 +1593,15 @@
   "postat": "2026-10-22"
  },
  {
+  "id": 9000062280,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-vasile-aaron-sibiu-IDJ0nZ",
+  "chirie": 390,
+  "mp": 55,
+  "etaj": "THIRD",
+  "cartier": "Vasile Aaron",
+  "postat": "1999-02-29"
+ },
+ {
   "id": 10717913,
   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-strada-calugareni-sibiu-IDIYdz",
   "chirie": 400,
@@ -1600,15 +1609,6 @@
   "etaj": null,
   "cartier": "Hipodrom II",
   "postat": "2026-10-22"
- },
- {
-  "id": 9000062280,
-  "url": "https://www.storia.ro/ro/oferta/prima-inchiriere-ap-lux-2-camere-si-gradina-dedeman-IDJ0nw",
-  "chirie": 500,
-  "mp": 55,
-  "etaj": "GROUND",
-  "cartier": "Terezian",
-  "postat": "1999-02-29"
  },
  {
   "id": 10717877,
@@ -1944,21 +1944,12 @@
   "postat": "2026-10-20"
  },
  {
-  "id": 10712167,
-  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-zona-mediu-290e-IDIVIT",
-  "chirie": 290,
-  "mp": 36,
-  "etaj": "SECOND",
-  "cartier": "Hipodrom II",
-  "postat": "2026-10-20"
- },
- {
   "id": 9000062280,
-  "url": "https://www.storia.ro/ro/oferta/apartament-nou-de-inchiriat-strada-ogorului-IDIYcZ",
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-strada-calugareni-sibiu-IDIYdz",
   "chirie": 400,
-  "mp": 40,
-  "etaj": "FIRST",
-  "cartier": "Turnisor",
+  "mp": 64,
+  "etaj": null,
+  "cartier": "Hipodrom II",
   "postat": "1999-02-29"
  }
 ]
