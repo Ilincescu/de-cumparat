@@ -461,7 +461,7 @@ async function scaneazaMasini({ anMinim = 2020, pretMax = 15000, kmMax = 100000,
       src: 'autovit',
       u: n.url,
       // PureTech si 1.0 EcoBoost: regula e in curea-ulei.js
-      warn: avertismentCurea(n.title),
+      warn: avertismentCurea(n.title, { f: p.fuel_type, cp: numar(p.engine_power), an: parseInt(p.year, 10) }),
       // Data postarii pe Autovit, ca azi.js sa arate doar ce e postat de ieri,
       // nu tot ce a intrat azi in lista.
       d: (n.createdAt || new Date().toISOString()).slice(0, 10),

@@ -14,8 +14,21 @@
 
 const CUREA_IN_ULEI = /puretech|\b1\.0\s*eco\s*boost\b|\beco\s*boost\s*1\.0\b|\b(opel|citro[eë]n|ds)\b.*\b1\.2\b/i;
 
+// Cand titlul nu spune motorul ("Ford EcoSport", "Peugeot 2008"), il spun modelul,
+// benzina si puterea: din 2018, aceste modele pe benzina pana la 160 CP au doar
+// 1.0 EcoBoost (Ford) sau 1.2 PureTech (Peugeot, Citroen, Opel, DS). Asa a urcat
+// pe 2026-11-04 un "Ford EcoSport" de 125 CP pe locul 3, dupa ce regula pe titlu
+// le scosese pe celelalte.
+const MODEL_CU_CUREA = /\bford\b.*\b(ecosport|puma)\b|\bopel\b.*\b(crossland|grandland)\b|\bpeugeot\b.*\b(2008|3008|5008)\b|\bcitro[eë]n\b.*\b(c3 aircross|c4 cactus|c5 aircross)\b|\bds\s*[37]\b/i;
+
 const MESAJ = 'Motor cu curea de distributie in baie de ulei (PureTech sau 1.0 EcoBoost) - cere dovada schimbarii ei.';
 
-const avertisment = titlu => (CUREA_IN_ULEI.test(titlu || '') ? MESAJ : null);
+// titlu + (optional) combustibil, putere si an, ca in masini.json: { f, cp, an }
+function avertisment(titlu, { f, cp, an } = {}) {
+  const t = titlu || '';
+  if (CUREA_IN_ULEI.test(t)) return MESAJ;
+  if (MODEL_CU_CUREA.test(t) && /benzin/i.test(f || '') && cp && cp <= 160 && (an || 0) >= 2018) return MESAJ;
+  return null;
+}
 
-module.exports = { CUREA_IN_ULEI, MESAJ, avertisment };
+module.exports = { CUREA_IN_ULEI, MODEL_CU_CUREA, MESAJ, avertisment };

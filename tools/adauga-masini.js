@@ -73,7 +73,7 @@ function dinNextData(html) {
       z: (n.location && n.location.city && n.location.city.name) || '',
       src: 'autovit', u: n.url,
       // PureTech si 1.0 EcoBoost: regula e in curea-ulei.js
-      warn: avertismentCurea(n.title),
+      warn: avertismentCurea(n.title, { f: p.fuel_type, cp: numar(p.engine_power), an: parseInt(p.year, 10) }),
       d: azi,
     };
   }).filter(x => !CVADRICICLU.test(x.m));

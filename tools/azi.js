@@ -355,9 +355,10 @@ function alegeAp(lista, marcate) {
 // si nu e comparabil cu restul listei.
 const LEASING = /predare leasing|preluare leasing|preiei?\s+\d+\s+rate|rate\s+r[aă]mase|transfer leasing/i;
 
-// Dube de marfa (Mihai, 2026-10-28: Opel Combo 1.5 L1H1 Selection). Aceeasi
+// Dube de marfa (Mihai, 2026-10-28: Opel Combo 1.5 L1H1 Selection) si utilitarele
+// cu aceeasi caroserie (Mihai, 2026-11-04: Dacia Dokker "e de transport"). Aceeasi
 // lista ca DE_MARFA din index.html.
-const DE_MARFA = /\bL\dH\d\b|cargo|\bvan\b|furgon|marf[aă]|\bN1\b|renault express|peugeot partner|combo(?!\s+life)/i;
+const DE_MARFA = /\bL\dH\d\b|cargo|\bvan\b|furgon|marf[aă]|\bN1\b|renault express|peugeot partner|combo(?!\s+life)|dokker|kangoo|doblo|caddy|berlingo|citan|townstar/i;
 
 function filtreazaMasina(m) {
   if (m.mort) return `anunt sters de pe site (${m.mort_din})`;

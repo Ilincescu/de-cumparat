@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-04 11:05",
+ "generat": "2026-11-04 11:44",
  "de_la": "2026-11-03",
  "pana_la": "2026-11-04",
  "case_noi": 0,
@@ -211,14 +211,14 @@
    "nou": false
   },
   {
-   "pret": 9600,
-   "model": "Dacia Dokker",
-   "an": 2021,
-   "km": 39238,
-   "zona": "Mioveni",
+   "pret": 9000,
+   "model": "Dacia Sandero Stepway",
+   "an": 2022,
+   "km": 85000,
+   "zona": "Brasov",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ID7HQUhW.html",
-   "scor": 43,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQOXj.html",
+   "scor": 39,
    "nou": false
   }
  ]
