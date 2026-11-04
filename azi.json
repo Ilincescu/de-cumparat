@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-04 11:44",
+ "generat": "2026-11-04 11:50",
  "de_la": "2026-11-03",
  "pana_la": "2026-11-04",
  "case_noi": 0,
@@ -189,6 +189,17 @@
  ],
  "masini": [
   {
+   "pret": 8950,
+   "model": "Ford EcoSport 1.0 EcoBoost Titanium",
+   "an": 2022,
+   "km": 45000,
+   "zona": "Bucuresti",
+   "warn": "Curea de distributie in baie de ulei (PureTech sau 1.0 EcoBoost; la Ford dupa 2019 sursele se contrazic) - verifica pe VIN la service si cere istoricul reviziilor.",
+   "url": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQZkG.html",
+   "scor": 48,
+   "nou": false
+  },
+  {
    "pret": 9999,
    "model": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
    "an": 2021,
@@ -208,17 +219,6 @@
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXqa.html",
    "scor": 43,
-   "nou": false
-  },
-  {
-   "pret": 9000,
-   "model": "Dacia Sandero Stepway",
-   "an": 2022,
-   "km": 85000,
-   "zona": "Brasov",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQOXj.html",
-   "scor": 39,
    "nou": false
   }
  ]

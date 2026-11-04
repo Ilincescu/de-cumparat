@@ -1,5 +1,5 @@
 {
-  "actualizat": "2026-10-26",
+  "actualizat": "2026-11-04",
   "note": "Lista comuna de favorite si comentarii, vizibila pe toate dispozitivele si la amandoi. Se editeaza direct de pe GitHub. Forma: sub 'anunturi', cheia e linkul exact al anuntului asa cum apare in date.json / masini.json / biciclete.json; 'fav' e lista celor care l-au pus la favorite; 'note' sunt comentariile, fiecare cu autorul lui. Numele afisate vin din 'persoane'.",
   "persoane": {
     "mihai": "Mihai",
@@ -188,6 +188,16 @@
           "cine": "mihai",
           "d": "2026-11-03",
           "text": "Aceeasi casa (se vede din poze) cu un alt anunt, 129.900 EUR, tel. 0754 699 994 (nu se stie daca e agentie sau proprietar; anul acolo 1975, la Luana 1980): https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-in-cartierul-turnisor-teren-292-mp-IDGNdM (pe Storia 25 mar - 13 oct 2026). Acolo scrie 41,9 mp utili, ~55 mp construiti, intabulata; Luana scrie 60 mp. De intrebat: cati mp sunt in CF si daca incaperea cu intrare din curte e intabulata. E de vanzare de mult: Luana are anuntul din 10 mar 2023, pret neschimbat 135.000 EUR din 25 sep 2026 - loc de negociere, pornind de la 129.900. In poze: fara igrasie vizibila, vopsea crapata la colturile tavanului in bucataria cu centrala, soclu placat cu piatra spre curte (de vazut pe dinauntru), podul nu apare in poze."
+        }
+      ]
+    },
+    "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQZkG.html": {
+      "fav": [],
+      "note": [
+        {
+          "cine": "mihai",
+          "d": "2026-11-04",
+          "text": "Anunt de verificat: fisa zice 45.000 km si 2022, descrierea zice 51.000 km (ultima revizie la 48.000), fabricat 2021. Vinde o firma (TVA deductibil, leasing), desi apare ca persoana fizica; acelasi text si aceeasi garantie pana pe 15.11.2027 la alt EcoSport al lui (ID7HQEMT, 9.490). Pret negociabil, in piata (8.000-9.500). Inainte de avans: VIN WF01XXERK1MC77828 la service Ford (revizii, km, garantie, cureaua pompei de ulei)."
         }
       ]
     }

@@ -48,7 +48,7 @@ const BETON = /(curte|gr[aă]din[aă]|teren)[^.!?]{0,60}(pavaj|pavat|betonat|dal
 const VERDE = /gr[aă]din[aă]|curte verde|spa[tț]iu verde|pomi fructiferi|iarb[aă]|livad[aă] [iî]n curte/i;
 
 // Curea de distributie in baie de ulei: regula e in curea-ulei.js, comuna cu scan.js.
-const { CUREA_IN_ULEI } = require('./curea-ulei');
+const { CUREA_IN_ULEI, DOAR_CUREA } = require('./curea-ulei');
 
 const snapshots = () => fs.readdirSync(DOSAR)
   .filter(x => /^storia-\d{4}-\d{2}-\d{2}\.json$/.test(x)).sort()
@@ -382,8 +382,14 @@ function punctajMasina(m) {
   p += Math.round((100000 - m.km) / 100000 * 30);
   p += Math.round((15000 - m.p) / 15000 * 25);
   if (/sibiu|[sș]elimb[aă]r|cristian|cisn[aă]die/i.test(m.z || '')) p += 15;
-  if (CUREA_IN_ULEI.test((m.m || '') + ' ' + (m.warn || ''))) p -= 25;
-  else if (m.warn) p -= 8;
+  // Curea in ulei = un cost, nu o excludere (Mihai, 2026-11-04, a cerut inapoi
+  // EcoSport-ul scos de pe locul 1). Schimbul ei, 1.000-1.500 EUR, valoreaza
+  // ~2-3 puncte pe scara de pret (25 de puncte = 15.000 EUR). Riscul de defect:
+  // rechemarea Ford 23V-905 (NHTSA, 2023) numara 2.099 de reclamatii in garantie
+  // la 139.730 de masini cu 1.0, adica ~1,5%. Inainte era -25, practic excludere.
+  if (CUREA_IN_ULEI.test((m.m || '') + ' ' + (m.warn || ''))) p -= 3;
+  // Alt avertisment decat cureaua (km dati altfel, leasing, licitatie) scade in plus
+  if (m.warn && !DOAR_CUREA.test(m.warn)) p -= 8;
   return p;
 }
 
