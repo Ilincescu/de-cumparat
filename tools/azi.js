@@ -47,10 +47,8 @@ const IGRASIE = /(?<!(f[aă]r[aă]|nu\s+(are|prezint[aă]|exist[aă])|lips[aă]|
 const BETON = /(curte|gr[aă]din[aă]|teren)[^.!?]{0,60}(pavaj|pavat|betonat|dale de beton)|(pavaj|pavat|betonat)[^.!?]{0,40}(curte|gr[aă]din[aă])/i;
 const VERDE = /gr[aă]din[aă]|curte verde|spa[tț]iu verde|pomi fructiferi|iarb[aă]|livad[aă] [iî]n curte/i;
 
-// Curea de distributie in baie de ulei - se schimba la 100.000 km si costa cat
-// o reparatie mare daca se rupe. Nu e un defect al anuntului, e un cost de stiut.
-// Opel, Citroen si DS au acelasi 1.2 PureTech, in titlu doar "1.2 Turbo".
-const CUREA_IN_ULEI = /puretech|ecoboost 1\.0|\b(opel|citro[eë]n|ds)\b.*\b1\.2\s*(turbo|t)\b/i;
+// Curea de distributie in baie de ulei: regula e in curea-ulei.js, comuna cu scan.js.
+const { CUREA_IN_ULEI } = require('./curea-ulei');
 
 const snapshots = () => fs.readdirSync(DOSAR)
   .filter(x => /^storia-\d{4}-\d{2}-\d{2}\.json$/.test(x)).sort()

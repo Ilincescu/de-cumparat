@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-04 06:02",
+ "generat": "2026-11-04 11:05",
  "de_la": "2026-11-03",
  "pana_la": "2026-11-04",
  "case_noi": 0,
@@ -189,28 +189,6 @@
  ],
  "masini": [
   {
-   "pret": 8950,
-   "model": "Ford EcoSport 1.0 EcoBoost Titanium",
-   "an": 2022,
-   "km": 45000,
-   "zona": "Bucuresti",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HQZkG.html",
-   "scor": 51,
-   "nou": false
-  },
-  {
-   "pret": 9700,
-   "model": "Opel Crossland 1.2 Start/Stop Edition",
-   "an": 2023,
-   "km": 87922,
-   "zona": "Otopeni",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-start-stop-edition-ID7HOewA.html",
-   "scor": 45,
-   "nou": false
-  },
-  {
    "pret": 9999,
    "model": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
    "an": 2021,
@@ -219,6 +197,28 @@
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQtxR.html",
    "scor": 45,
+   "nou": false
+  },
+  {
+   "pret": 6690,
+   "model": "Dacia Sandero Stepway",
+   "an": 2020,
+   "km": 79000,
+   "zona": "Selimbar",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXqa.html",
+   "scor": 43,
+   "nou": false
+  },
+  {
+   "pret": 9600,
+   "model": "Dacia Dokker",
+   "an": 2021,
+   "km": 39238,
+   "zona": "Mioveni",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ID7HQUhW.html",
+   "scor": 43,
    "nou": false
   }
  ]
