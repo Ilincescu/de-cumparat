@@ -21,11 +21,7 @@ const CUREA_IN_ULEI = /puretech|\b1\.0\s*eco\s*boost\b|\beco\s*boost\s*1\.0\b|\b
 // le scosese pe celelalte.
 const MODEL_CU_CUREA = /\bford\b.*\b(ecosport|puma)\b|\bopel\b.*\b(crossland|grandland)\b|\bpeugeot\b.*\b(2008|3008|5008)\b|\bcitro[eë]n\b.*\b(c3 aircross|c4 cactus|c5 aircross)\b|\bds\s*[37]\b/i;
 
-const MESAJ = 'Curea de distributie in baie de ulei (PureTech sau 1.0 EcoBoost; la Ford dupa 2019 sursele se contrazic) - verifica pe VIN la service si cere istoricul reviziilor.';
-
-// Avertisment care spune DOAR de curea: pe site nu ascunde masina, in azi.js
-// scade putin. Aceeasi regula ca DOAR_CUREA din index.html.
-const DOAR_CUREA = /^(Curea de distributie in baie de ulei|Motor (PureTech( \(la Opel scris 1\.2 Turbo\))? )?cu curea de distributie in baie de ulei)/;
+const MESAJ = 'Motor cu curea de distributie in baie de ulei (PureTech sau 1.0 EcoBoost) - cere dovada schimbarii ei.';
 
 // titlu + (optional) combustibil, putere si an, ca in masini.json: { f, cp, an }
 function avertisment(titlu, { f, cp, an } = {}) {
@@ -35,4 +31,4 @@ function avertisment(titlu, { f, cp, an } = {}) {
   return null;
 }
 
-module.exports = { CUREA_IN_ULEI, MODEL_CU_CUREA, MESAJ, DOAR_CUREA, avertisment };
+module.exports = { CUREA_IN_ULEI, MODEL_CU_CUREA, MESAJ, avertisment };
