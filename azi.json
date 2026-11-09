@@ -1,17 +1,43 @@
 {
- "generat": "2026-11-04 11:44",
- "de_la": "2026-11-03",
- "pana_la": "2026-11-04",
- "case_noi": 0,
+ "generat": "2026-11-09 09:48",
+ "de_la": "2026-11-04",
+ "pana_la": "2026-11-09",
+ "case_noi": 5,
  "case_trec": 0,
  "din_rezerva": true,
  "din_tot_lista": true,
  "masini_din_rezerva": true,
- "ap_noi": 0,
- "ap_trec": 0,
+ "ap_noi": 33,
+ "ap_trec": 7,
  "ap_din_rezerva": false,
- "chirii_din": "2026-11-04",
+ "chirii_din": "2026-11-09",
  "apartamente": [
+  {
+   "alte": [],
+   "pret": 75000,
+   "mpu": 48,
+   "zona": "Gusterita, Sibiu",
+   "creat": "2026-02-17",
+   "stare": "ready_to_use",
+   "chirie": 495,
+   "chirie_din": "oras",
+   "chirie_n": 39,
+   "chirie_mp": [
+    41,
+    55
+   ],
+   "ani": 18.2,
+   "net": 4259,
+   "luni_goale": 1,
+   "cost_total": 77700,
+   "fara_comision": false,
+   "riscuri": [],
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament cu 2 camere in Gusterita",
+   "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-in-gusterita-IDGoIa",
+   "scor": 18.242005916326242
+  },
   {
    "alte": [
     {
@@ -27,15 +53,15 @@
    "mpu": 37,
    "zona": "Tiglari, Sibiu",
    "creat": "2025-08-17",
-   "chirie": 340,
+   "chirie": 350,
    "chirie_din": "oras",
-   "chirie_n": 55,
+   "chirie_n": 87,
    "chirie_mp": [
     31,
     43
    ],
-   "ani": 20.2,
-   "net": 2618,
+   "ani": 19.5,
+   "net": 2710,
    "luni_goale": 2,
    "cost_total": 52836,
    "fara_comision": false,
@@ -48,98 +74,62 @@
    "nou": false,
    "titlu": "Apartament de vânzare 2 camere Sibiu ,Tigllari",
    "url": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-2-camere-sibiu-tigllari-IDEAhs",
-   "scor": 20.181818181818183
+   "scor": 19.496678966789666
   },
   {
    "alte": [],
-   "pret": 75000,
-   "mpu": 48,
-   "zona": "Gusterita, Sibiu",
-   "creat": "2026-02-17",
-   "stare": "ready_to_use",
-   "chirie": 450,
-   "chirie_din": "oras",
-   "chirie_n": 20,
-   "chirie_mp": [
-    41,
-    55
-   ],
-   "ani": 20.4,
-   "net": 3804,
-   "luni_goale": 1,
-   "cost_total": 77700,
-   "fara_comision": false,
-   "riscuri": [],
-   "la_casa": false,
-   "nou": false,
-   "titlu": "Apartament cu 2 camere in Gusterita",
-   "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-in-gusterita-IDGoIa",
-   "scor": 20.425867507886434
-  },
-  {
-   "alte": [
-    {
-     "pret": 72900,
-     "url": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIVkm"
-    },
-    {
-     "pret": 72900,
-     "url": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIyoj"
-    }
-   ],
-   "pret": 72900,
-   "mpu": 49,
-   "zona": "Centrul Istoric, Sibiu",
+   "pret": 89000,
+   "mpu": 67,
+   "zona": "Tilisca, Sibiu",
    "creat": "2026-10-23",
    "stare": "ready_to_use",
-   "chirie": 420,
-   "chirie_din": "Centrul Istoric",
-   "chirie_n": 15,
+   "chirie": 550,
+   "chirie_din": "oras",
+   "chirie_n": 13,
    "chirie_mp": [
-    39,
-    59
+    57,
+    77
    ],
-   "ani": 21.4,
-   "net": 3521,
+   "ani": 19.7,
+   "net": 4676,
    "luni_goale": 1,
-   "cost_total": 75524,
+   "cost_total": 92204,
    "fara_comision": false,
    "riscuri": [
-    "bloc din 1900",
     "nu scrie de centrală proprie"
    ],
-   "la_casa": true,
+   "la_casa": false,
    "nou": false,
-   "titlu": "Apartament etajul 1 la casa cu 2 camere in zona Centrala din Sibiu",
-   "url": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIZ4M",
-   "scor": 21.447151701027998
+   "titlu": "Apartament 2 camere decomandate etaj 2 zona Strand 2",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandate-etaj-2-zona-strand-2-IDIZcb",
+   "scor": 19.718562874251496
   }
  ],
  "surse": [
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-11-04 05:52",
+   "cand": "2026-11-09 09:40",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1472,
-   "potrivite": 255,
+   "gasite": 1375,
+   "potrivite": 229,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-11-04 05:53",
+   "cand": "2026-11-09 09:42",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1612,
-   "potrivite": 350,
+   "gasite": 1644,
+   "potrivite": 349,
    "stare": "azi",
    "veche": false
   }
  ],
  "case": [
   {
-   "pret": 190000,
+   "pret": 180000,
    "mpu": 90,
    "curte": 387,
    "curte_sigura": false,
@@ -150,9 +140,9 @@
    "creat": "2024-09-19",
    "repostat": true,
    "alte": [],
-   "titlu": "Casa cu 2 camere | Curte | Zona Terezian",
-   "url": "https://www.storia.ro/ro/oferta/casa-cu-2-camere-curte-zona-terezian-IDBsmy",
-   "scor": 68
+   "titlu": "Casă 2 camere de vânzare | Sibiu, Terezian | 90 mp",
+   "url": "https://www.storia.ro/ro/oferta/cas-2-camere-de-vnzare-sibiu-terezian-90-mp-IDBsmy",
+   "scor": 80
   },
   {
    "pret": 199990,
@@ -175,11 +165,11 @@
    "mpu": 79,
    "curte": 265,
    "curte_sigura": false,
-   "teren": 292,
-   "zona": "Turnisor, Sibiu",
-   "an": "1980",
-   "stare": "ready_to_use",
-   "creat": "2023-03-10",
+   "teren": 320,
+   "zona": "Terezian, Sibiu",
+   "an": "1960",
+   "stare": "to_renovation",
+   "creat": "2026-03-30",
    "repostat": true,
    "alte": [],
    "titlu": "Casa Individuala I Acces auto  I Piata Cluj- Kogalniceanu",
@@ -190,6 +180,28 @@
  "masini": [
   {
    "pret": 9999,
+   "model": "Ford EcoSport 1.0 EcoBoost Active",
+   "an": 2021,
+   "km": 40000,
+   "zona": "Chiajna",
+   "warn": "Motor cu curea de distributie in baie de ulei (PureTech sau 1.0 EcoBoost) - cere dovada schimbarii ei.",
+   "url": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-active-ID7HR10t.html",
+   "scor": 17,
+   "nou": true
+  },
+  {
+   "pret": 10900,
+   "model": "Peugeot 3008",
+   "an": 2020,
+   "km": 92000,
+   "zona": "Slatina",
+   "warn": "Motor cu curea de distributie in baie de ulei (PureTech sau 1.0 EcoBoost) - cere dovada schimbarii ei.",
+   "url": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ID7HQXlf.html",
+   "scor": -8,
+   "nou": true
+  },
+  {
+   "pret": 9999,
    "model": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
    "an": 2021,
    "km": 29763,
@@ -197,28 +209,6 @@
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQtxR.html",
    "scor": 45,
-   "nou": false
-  },
-  {
-   "pret": 6690,
-   "model": "Dacia Sandero Stepway",
-   "an": 2020,
-   "km": 79000,
-   "zona": "Selimbar",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXqa.html",
-   "scor": 43,
-   "nou": false
-  },
-  {
-   "pret": 9000,
-   "model": "Dacia Sandero Stepway",
-   "an": 2022,
-   "km": 85000,
-   "zona": "Brasov",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQOXj.html",
-   "scor": 39,
    "nou": false
   }
  ]
