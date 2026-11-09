@@ -37,7 +37,13 @@ singur pe cele salvate azi:
     b): limita e pe toata sesiunea, nu pe pagina (2026-11-03: 24 de pagini +
     48 de anunturi la b), apoi e) a dat 403 de la prima cerere si s-a pierdut).
     Deschide doar ce nu e deja in date.json (cate 2 odata) si pune in
-    desc textul din [class*="description"]. Pentru restul ajunge cardul:
+    desc descrierea. Ea NU e in DOM-ul raspunsului la fetch ([class*=
+    "description"] nu gaseste nimic, 2026-11-04: 32 de cereri irosite): e in
+    JSON.parse(d.querySelector('[data-page]').getAttribute('data-page'))
+    .props.sections - ia sectiunea cu cel mai lung text din
+    data.blocks[].segments[].value. Dupa 22+24 de cereri mai incap ~45
+    deschideri: alege intai casele din oras, fara curte comuna/duplex/doua
+    corpuri, cele mai ieftine. Pentru restul ajunge cardul:
     surse-case.js scoate oricum casele pe care Storia le-a exclus (acelasi pret
     si teren).
  c) Facebook Marketplace -> tools/externe/facebook-raw.json

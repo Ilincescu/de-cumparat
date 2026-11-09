@@ -58,6 +58,22 @@
    "ce": "Turnisor, 2 camere, 50 mp, curte 140 mp",
    "pret": 98000,
    "motiv": "mai e o casa in spate, scoasa si ea la vanzare - s-ar trece prin curte"
+  },
+  {
+   "id": "IDwjcV",
+   "ce": "Turnisor, teren 292 mp, Luana Imobiliare, 135.000 EUR (anuntul spune 2 camere)",
+   "pret": 135000,
+   "zona": "Turnisor",
+   "mpu": 60,
+   "motiv": "doar un dormitor in casa; a doua incapere are intrare separata din curte (2026-11-04)"
+  },
+  {
+   "id": "IDGNdM",
+   "ce": "Turnisor, teren 292 mp - aceeasi casa ca IDwjcV, 129.900 EUR",
+   "pret": 129900,
+   "zona": "Turnisor",
+   "mpu": 41.9,
+   "motiv": "aceeasi casa ca IDwjcV: doar un dormitor (2026-11-04)"
   }
  ],
  "apartamente": [
