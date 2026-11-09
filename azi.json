@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-03 08:08",
+ "generat": "2026-11-04 07:15",
  "de_la": "2026-11-01",
  "pana_la": "2026-11-03",
  "case_noi": 6,
@@ -131,7 +131,7 @@
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
    "gasite": 1478,
    "potrivite": 258,
-   "stare": "azi",
+   "stare": "ieri",
    "veche": false
   },
   {
@@ -141,7 +141,7 @@
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
    "gasite": 1599,
    "potrivite": 346,
-   "stare": "azi",
+   "stare": "ieri",
    "veche": false
   }
  ],
@@ -179,19 +179,19 @@
    "scor": 66
   },
   {
-   "pret": 135000,
-   "mpu": 60,
-   "curte": 250,
+   "pret": 129900,
+   "mpu": 79,
+   "curte": 265,
    "curte_sigura": false,
-   "teren": 292,
-   "zona": "Turnisor, Sibiu",
-   "an": "1980",
-   "stare": "ready_to_use",
-   "creat": "2023-03-10",
-   "repostat": false,
+   "teren": 320,
+   "zona": "Terezian, Sibiu",
+   "an": "1960",
+   "stare": "to_renovation",
+   "creat": "2026-03-30",
+   "repostat": true,
    "alte": [],
-   "titlu": "Casa individuala de vanzare  - Turnisor - teren 292 mp",
-   "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-turnisor-teren-292-mp-IDwjcV",
+   "titlu": "Casa Individuala I Acces auto  I Piata Cluj- Kogalniceanu",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-i-acces-auto-i-piata-cluj-kogalniceanu-IDGPlk",
    "scor": 64
   }
  ],
