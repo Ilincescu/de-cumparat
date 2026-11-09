@@ -8,6 +8,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { avertisment: avertismentCurea } = require('./curea-ulei');
 
 const RADACINA = path.join(__dirname, '..');
 const UA = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)', 'Accept': 'text/html' };
@@ -71,9 +72,8 @@ function dinNextData(html) {
       p: (n.price && n.price.amount && n.price.amount.units) || null,
       z: (n.location && n.location.city && n.location.city.name) || '',
       src: 'autovit', u: n.url,
-      // Opel, Citroen si DS au acelasi 1.2 PureTech, in titlu doar "1.2 Turbo".
-      warn: /puretech|\b(opel|citro[eë]n|ds)\b.*\b1\.2\s*(turbo|t)\b/i.test(n.title || '')
-        ? 'Motor PureTech cu curea de distributie in baie de ulei - cere dovada schimbarii ei.' : null,
+      // PureTech si 1.0 EcoBoost: regula e in curea-ulei.js
+      warn: avertismentCurea(n.title, { f: p.fuel_type, cp: numar(p.engine_power), an: parseInt(p.year, 10) }),
       d: azi,
     };
   }).filter(x => !CVADRICICLU.test(x.m));
