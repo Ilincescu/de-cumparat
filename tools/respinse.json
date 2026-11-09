@@ -78,6 +78,12 @@
  ],
  "apartamente": [
   {
+   "id": "IDIZcb",
+   "ce": "Apartament 2 camere decomandate, 67 mp, zona Strand 2 (Storia il pune la Tilisca)",
+   "pret": 89000,
+   "motiv": "scara interioara in poze: balustrada de lemn in diagonala in baie, poza 7 (2026-11-09)"
+  },
+  {
    "id": "IDI2hq",
    "ce": "Apartament 2 camere la casa, 44 mp, Centrul Istoric, cladire din 1800, MAAC",
    "pret": 67000,

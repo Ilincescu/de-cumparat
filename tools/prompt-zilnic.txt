@@ -41,8 +41,8 @@ singur pe cele salvate azi:
     "description"] nu gaseste nimic, 2026-11-04: 32 de cereri irosite): e in
     JSON.parse(d.querySelector('[data-page]').getAttribute('data-page'))
     .props.sections - ia sectiunea cu cel mai lung text din
-    data.blocks[].segments[].value. Dupa 22+24 de cereri mai incap ~45
-    deschideri: alege intai casele din oras, fara curte comuna/duplex/doua
+    data.blocks[].segments[].value. Dupa 22+24 de cereri mai incap doar ~25
+    deschideri (2026-11-09: 403 dupa 21+24+27): alege intai casele din oras, fara curte comuna/duplex/doua
     corpuri, cele mai ieftine. Pentru restul ajunge cardul:
     surse-case.js scoate oricum casele pe care Storia le-a exclus (acelasi pret
     si teren).
@@ -63,6 +63,10 @@ singur pe cele salvate azi:
     anunt, deci fa-o doar pentru titlurile care par case de vanzare, in
     mai multe apeluri de sub 2 minute (tine lista in window.__fb), si
     salveaza la final cu filename. window.open e blocat.
+    SALVEAZA CARDURILE CU filename INAINTE de click-uri: 2026-11-09 un
+    browser_run_code_unsafe cu click + page.goBack() a inchis tab-ul,
+    window.__fb s-a pierdut si Playwright n-a mai raspuns. Fa click-urile
+    cu browser_evaluate (el.click() + history.back()), nu cu page.goBack().
     Preturile "RON" ale anunturilor proprii sunt de fapt euro, iar loc e a
     contului - surse-case.js stie asta.
 

@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-09 09:48",
+ "generat": "2026-11-09 09:50",
  "de_la": "2026-11-04",
  "pana_la": "2026-11-09",
  "case_noi": 5,
@@ -77,32 +77,38 @@
    "scor": 19.496678966789666
   },
   {
-   "alte": [],
-   "pret": 89000,
-   "mpu": 67,
-   "zona": "Tilisca, Sibiu",
-   "creat": "2026-10-23",
-   "stare": "ready_to_use",
-   "chirie": 550,
-   "chirie_din": "oras",
-   "chirie_n": 13,
-   "chirie_mp": [
-    57,
-    77
+   "alte": [
+    {
+     "pret": 65500,
+     "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-pretabil-investitie-i-lacul-lui-binder-IDB86s"
+    }
    ],
-   "ani": 19.7,
-   "net": 4676,
+   "pret": 65000,
+   "mpu": 40,
+   "zona": "Tiglari, Sibiu",
+   "creat": "2026-09-02",
+   "chirie": 400,
+   "chirie_din": "Tiglari",
+   "chirie_n": 5,
+   "chirie_mp": [
+    32,
+    48
+   ],
+   "ani": 19.8,
+   "net": 3398,
    "luni_goale": 1,
-   "cost_total": 92204,
+   "cost_total": 67340,
    "fara_comision": false,
    "riscuri": [
-    "nu scrie de centrală proprie"
+    "zona din anunț Tiglari, pinul Storia Terezian",
+    "parter",
+    "bloc din 1977"
    ],
    "la_casa": false,
    "nou": false,
-   "titlu": "Apartament 2 camere decomandate etaj 2 zona Strand 2",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandate-etaj-2-zona-strand-2-IDIZcb",
-   "scor": 19.718562874251496
+   "titlu": "Apartament 2 camere zona Lacul lui Binder",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lacul-lui-binder-IDIp0J",
+   "scor": 19.817539729252502
   }
  ],
  "surse": [
