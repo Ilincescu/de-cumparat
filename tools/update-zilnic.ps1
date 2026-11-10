@@ -25,8 +25,17 @@ if (Test-Path $stare) {
 
 "=== $(Get-Date -Format 'yyyy-MM-dd HH:mm') : pornit ===" | Out-File -Append -Encoding utf8 $log
 
-# porneste de la ultima versiune, ca sa nu suprascrie ce ai editat de pe telefon
-git pull --rebase --quiet 2>&1 | Out-File -Append -Encoding utf8 $log
+# porneste de la ultima versiune, ca sa nu suprascrie ce ai editat de pe telefon.
+# Explicit pe origin/main: ramura locala urmarea origin/update-13-sep-2026 (oprita
+# pe 26 oct), iar un "git pull --rebase" simplu a rejucat 87 de commituri peste
+# ea si a lasat repo-ul in conflict; update.js n-a mai putut publica (2026-11-10).
+if (Test-Path (Join-Path $repo '.git\rebase-merge')) { git rebase --abort 2>&1 | Out-File -Append -Encoding utf8 $log }
+git fetch --quiet origin 2>&1 | Out-File -Append -Encoding utf8 $log
+git rebase --quiet origin/main 2>&1 | Out-File -Append -Encoding utf8 $log
+if ($LASTEXITCODE -ne 0) {
+  git rebase --abort 2>&1 | Out-File -Append -Encoding utf8 $log
+  "rebase pe origin/main a dat conflict, l-am anulat; push-ul din update.js va fi respins" | Out-File -Append -Encoding utf8 $log
+}
 
 $prompt = Get-Content (Join-Path $repo 'tools\prompt-zilnic.txt') -Raw -Encoding UTF8
 if ((Test-Path $stare) -and ($s.esuate.Count -gt 0 -or $s.lipsa_browser.Count -gt 0)) {
