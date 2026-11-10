@@ -4,7 +4,8 @@
   "2026-10-26",
   "2026-11-01",
   "2026-11-03",
-  "2026-11-09"
+  "2026-11-09",
+  "2026-11-10"
  ],
  "anunturi": {
   "IDl3f23": {
@@ -31,9 +32,10 @@
     99,
     43,
     67,
-    44
+    44,
+    37
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkWTBw": {
@@ -46,7 +48,7 @@
    "preturi": [
     400
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkTeJu": {
@@ -72,7 +74,7 @@
    "preturi": [
     450
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkxdzr": {
@@ -85,7 +87,7 @@
    "preturi": [
     790
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDjVnwe": {
@@ -98,7 +100,7 @@
    "preturi": [
     415
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl2SpX": {
@@ -111,7 +113,7 @@
    "preturi": [
     430
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl279z": {
@@ -124,7 +126,7 @@
    "preturi": [
     270
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl1jAE": {
@@ -137,7 +139,7 @@
    "preturi": [
     420
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl3ano": {
@@ -163,7 +165,7 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkYuII": {
@@ -190,9 +192,10 @@
     99,
     43,
     67,
-    44
+    44,
+    360
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl0mEk": {
@@ -219,9 +222,10 @@
     84,
     75,
     95,
-    91
+    91,
+    90
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkXwYO": {
@@ -235,7 +239,7 @@
     650,
     600
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl0tKU": {
@@ -317,7 +321,7 @@
    "preturi": [
     375
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl0yET": {
@@ -344,7 +348,7 @@
     410,
     400
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl1JyT": {
@@ -357,7 +361,7 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl2meO": {
@@ -371,9 +375,10 @@
     49,
     7,
     281,
-    83
+    83,
+    78
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkY68q": {
@@ -412,7 +417,7 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkY8QX": {
@@ -451,7 +456,7 @@
    "preturi": [
     500
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl3d7O": {
@@ -464,7 +469,7 @@
    "preturi": [
     300
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkTagy": {
@@ -477,7 +482,7 @@
    "preturi": [
     400
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl0B9y": {
@@ -492,7 +497,7 @@
     370
    ],
    "vazut_ultima": "2026-11-09",
-   "disparut": null
+   "disparut": "2026-11-10"
   },
   "IDkYCKg": {
    "u": "https://www.olx.ro/d/oferta/inchiriez-penthause-IDkYCKg.html",
@@ -504,7 +509,7 @@
    "preturi": [
     635
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDk53gp": {
@@ -518,7 +523,7 @@
     400,
     380
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl2eG8": {
@@ -583,7 +588,7 @@
    "preturi": [
     390
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl24ZY": {
@@ -611,7 +616,7 @@
     350,
     310
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkYULc": {
@@ -664,7 +669,7 @@
    "preturi": [
     310
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4mTf": {
@@ -677,7 +682,7 @@
    "preturi": [
     550
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4n6w": {
@@ -690,7 +695,7 @@
    "preturi": [
     345
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4hgx": {
@@ -704,7 +709,7 @@
     300
    ],
    "vazut_ultima": "2026-11-09",
-   "disparut": null
+   "disparut": "2026-11-10"
   },
   "IDl4pb1": {
    "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-camere-la-casa-strand-2-IDl4pb1.html",
@@ -716,7 +721,7 @@
    "preturi": [
     300
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl3Nzj": {
@@ -729,7 +734,7 @@
    "preturi": [
     400
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl49Lw": {
@@ -742,7 +747,7 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkLuAo": {
@@ -756,7 +761,7 @@
     320,
     295
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkXzrI": {
@@ -769,7 +774,7 @@
    "preturi": [
     430
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkXqBB": {
@@ -782,7 +787,7 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4fMj": {
@@ -795,7 +800,7 @@
    "preturi": [
     400
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4lKC": {
@@ -808,9 +813,10 @@
    "preturi": [
     41,
     47,
-    28
+    28,
+    22
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl3PJU": {
@@ -836,7 +842,7 @@
    "preturi": [
     330
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl40u1": {
@@ -849,7 +855,7 @@
    "preturi": [
     340
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDjQyOU": {
@@ -862,7 +868,7 @@
    "preturi": [
     400
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkZGyr": {
@@ -889,7 +895,7 @@
    "preturi": [
     330
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl3DBM": {
@@ -902,9 +908,10 @@
    "preturi": [
     82,
     6,
-    2
+    2,
+    73
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl28q6": {
@@ -930,7 +937,7 @@
    "preturi": [
     375
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl2aSP": {
@@ -944,7 +951,7 @@
     600,
     570
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl0SBc": {
@@ -957,7 +964,7 @@
    "preturi": [
     450
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl2TuU": {
@@ -970,7 +977,7 @@
    "preturi": [
     300
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkMZJp": {
@@ -996,7 +1003,7 @@
    "preturi": [
     450
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl2c0O": {
@@ -1010,7 +1017,7 @@
     7,
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl3Y2O": {
@@ -1049,7 +1056,7 @@
    "preturi": [
     550
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4r8X": {
@@ -1062,7 +1069,7 @@
    "preturi": [
     430
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl1XtZ": {
@@ -1088,7 +1095,7 @@
    "preturi": [
     250
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl0YYf": {
@@ -1101,7 +1108,7 @@
    "preturi": [
     380
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl48ZR": {
@@ -1114,7 +1121,7 @@
    "preturi": [
     400
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl2x1S": {
@@ -1127,9 +1134,10 @@
    "preturi": [
     78,
     33,
-    61
+    61,
+    53
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkZahL": {
@@ -1143,7 +1151,7 @@
     350,
     450
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl40aI": {
@@ -1156,9 +1164,10 @@
    "preturi": [
     80,
     53,
-    22
+    22,
+    12
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkNgE2": {
@@ -1171,7 +1180,7 @@
    "preturi": [
     450
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl3fLz": {
@@ -1197,7 +1206,7 @@
    "preturi": [
     450
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl26XJ": {
@@ -1210,7 +1219,7 @@
    "preturi": [
     20
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl2c3r": {
@@ -1223,7 +1232,7 @@
    "preturi": [
     270
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkSqjk": {
@@ -1249,7 +1258,7 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkZ9Kg": {
@@ -1263,7 +1272,7 @@
     350,
     330
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl1mKw": {
@@ -1289,7 +1298,7 @@
    "preturi": [
     450
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDjJQdM": {
@@ -1302,7 +1311,7 @@
    "preturi": [
     600
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl3ykL": {
@@ -1316,7 +1325,7 @@
     350,
     320
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkZLrm": {
@@ -1342,7 +1351,7 @@
    "preturi": [
     380
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl2x9q": {
@@ -1355,9 +1364,10 @@
    "preturi": [
     98,
     67,
-    66
+    66,
+    23
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl49eQ": {
@@ -1370,7 +1380,7 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl1y23": {
@@ -1383,7 +1393,7 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl0lL1": {
@@ -1421,9 +1431,10 @@
    "vazut_prima": "2026-11-01",
    "preturi": [
     470,
-    440
+    440,
+    430
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkOxhk": {
@@ -1452,7 +1463,7 @@
     72
    ],
    "vazut_ultima": "2026-11-09",
-   "disparut": null
+   "disparut": "2026-11-10"
   },
   "IDkZtko": {
    "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-zona-strand-strada-islazului-IDkZtko.html",
@@ -1477,7 +1488,7 @@
    "preturi": [
     450
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDiv1HU": {
@@ -1490,7 +1501,7 @@
    "preturi": [
     370
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkeeKU": {
@@ -1503,7 +1514,7 @@
    "preturi": [
     380
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkZdWu": {
@@ -1543,7 +1554,7 @@
     360,
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4KEX": {
@@ -1556,7 +1567,7 @@
    "preturi": [
     380
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4Aid": {
@@ -1569,7 +1580,7 @@
    "preturi": [
     460
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4D36": {
@@ -1582,7 +1593,7 @@
    "preturi": [
     590
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4Iwu": {
@@ -1594,9 +1605,10 @@
    "vazut_prima": "2026-11-03",
    "preturi": [
     281,
-    83
+    83,
+    78
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4M6a": {
@@ -1621,9 +1633,10 @@
    "vazut_prima": "2026-11-03",
    "preturi": [
     93,
-    72
+    72,
+    65
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4yNm": {
@@ -1649,7 +1662,7 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4GMq": {
@@ -1662,7 +1675,7 @@
    "preturi": [
     400
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl5oZE": {
@@ -1675,7 +1688,7 @@
    "preturi": [
     340
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkIgLp": {
@@ -1688,7 +1701,7 @@
    "preturi": [
     320
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl5k8H": {
@@ -1701,7 +1714,7 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl597V": {
@@ -1712,9 +1725,10 @@
    "postat": "2026-11-04",
    "vazut_prima": "2026-11-09",
    "preturi": [
-    28
+    28,
+    22
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkB8wL": {
@@ -1727,7 +1741,7 @@
    "preturi": [
     380
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4ZMR": {
@@ -1740,7 +1754,7 @@
    "preturi": [
     360
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl59K6": {
@@ -1753,7 +1767,7 @@
    "preturi": [
     365
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl5x9y": {
@@ -1766,7 +1780,7 @@
    "preturi": [
     280
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl1pZd": {
@@ -1779,7 +1793,7 @@
    "preturi": [
     200
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl5V6x": {
@@ -1792,7 +1806,7 @@
    "preturi": [
     430
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl5S3b": {
@@ -1805,7 +1819,7 @@
    "preturi": [
     470
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl5wYh": {
@@ -1818,7 +1832,7 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl5IC2": {
@@ -1831,7 +1845,7 @@
    "preturi": [
     400
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkYCLL": {
@@ -1844,7 +1858,7 @@
    "preturi": [
     390
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl5s3z": {
@@ -1857,7 +1871,7 @@
    "preturi": [
     450
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl2Z2X": {
@@ -1870,7 +1884,7 @@
    "preturi": [
     330
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkQa1V": {
@@ -1883,7 +1897,7 @@
    "preturi": [
     310
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl5fhw": {
@@ -1896,7 +1910,7 @@
    "preturi": [
     400
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDkq32b": {
@@ -1909,7 +1923,7 @@
    "preturi": [
     500
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDl4Qzt": {
@@ -1922,7 +1936,7 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   },
   "IDjXPPk": {
@@ -1935,7 +1949,98 @@
    "preturi": [
     350
    ],
-   "vazut_ultima": "2026-11-09",
+   "vazut_ultima": "2026-11-10",
+   "disparut": null
+  },
+  "IDl64dC": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-camere-zona-centrala-sibiu-blocul-plomba-politie-IDl64dC.html",
+   "t": "Închiriez apartament 2 camere – Zona Centrală, Sibiu (Blocul Plombă / Poliție)",
+   "mp": null,
+   "zona": null,
+   "postat": "2026-11-09",
+   "vazut_prima": "2026-11-10",
+   "preturi": [
+    400
+   ],
+   "vazut_ultima": "2026-11-10",
+   "disparut": null
+  },
+  "IDl61rJ": {
+   "u": "https://www.olx.ro/d/oferta/inchiriere-apartament-la-mansarda-IDl61rJ.html",
+   "t": "Inchiriere apartament la mansarda",
+   "mp": 60,
+   "zona": null,
+   "postat": "2026-11-09",
+   "vazut_prima": "2026-11-10",
+   "preturi": [
+    78
+   ],
+   "vazut_ultima": "2026-11-10",
+   "disparut": null
+  },
+  "IDl6anw": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-ap-2-camere-IDl6anw.html",
+   "t": "Închiriez ap. 2 camere",
+   "mp": 54,
+   "zona": null,
+   "postat": "2026-11-09",
+   "vazut_prima": "2026-11-10",
+   "preturi": [
+    450
+   ],
+   "vazut_ultima": "2026-11-10",
+   "disparut": null
+  },
+  "IDl5ZQH": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-camere-zona-dedeman-IDl5ZQH.html",
+   "t": "Inchiriez apartament 2 camere - zona DEDEMAN",
+   "mp": 57,
+   "zona": null,
+   "postat": "2026-11-09",
+   "vazut_prima": "2026-11-10",
+   "preturi": [
+    400
+   ],
+   "vazut_ultima": "2026-11-10",
+   "disparut": null
+  },
+  "IDl60iy": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-camere-sibiu-IDl60iy.html",
+   "t": "Închiriez apartament 2 camere Sibiu",
+   "mp": 50,
+   "zona": null,
+   "postat": "2026-11-09",
+   "vazut_prima": "2026-11-10",
+   "preturi": [
+    450
+   ],
+   "vazut_ultima": "2026-11-10",
+   "disparut": null
+  },
+  "IDl67s7": {
+   "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-in-terezian-IDl67s7.html",
+   "t": "Închiriez apartament în Terezian",
+   "mp": null,
+   "zona": "Terezian",
+   "postat": "2026-11-09",
+   "vazut_prima": "2026-11-10",
+   "preturi": [
+    250
+   ],
+   "vazut_ultima": "2026-11-10",
+   "disparut": null
+  },
+  "IDl60Nc": {
+   "u": "https://www.olx.ro/d/oferta/persoana-fizica-ofer-spre-inchiriere-apartament-2-camere-magnolia-residence-IDl60Nc.html",
+   "t": "Persoana fizica, ofer spre inchiriere apartament 2 camere Magnolia Residence",
+   "mp": 42,
+   "zona": null,
+   "postat": "2026-11-09",
+   "vazut_prima": "2026-11-10",
+   "preturi": [
+    370
+   ],
+   "vazut_ultima": "2026-11-10",
    "disparut": null
   }
  }

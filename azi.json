@@ -1,43 +1,17 @@
 {
- "generat": "2026-11-09 09:50",
- "de_la": "2026-11-04",
- "pana_la": "2026-11-09",
+ "generat": "2026-11-10 20:09",
+ "de_la": "2026-11-09",
+ "pana_la": "2026-11-10",
  "case_noi": 5,
  "case_trec": 0,
  "din_rezerva": true,
  "din_tot_lista": true,
  "masini_din_rezerva": true,
- "ap_noi": 33,
- "ap_trec": 7,
+ "ap_noi": 12,
+ "ap_trec": 2,
  "ap_din_rezerva": false,
- "chirii_din": "2026-11-09",
+ "chirii_din": "2026-11-10",
  "apartamente": [
-  {
-   "alte": [],
-   "pret": 75000,
-   "mpu": 48,
-   "zona": "Gusterita, Sibiu",
-   "creat": "2026-02-17",
-   "stare": "ready_to_use",
-   "chirie": 495,
-   "chirie_din": "oras",
-   "chirie_n": 39,
-   "chirie_mp": [
-    41,
-    55
-   ],
-   "ani": 18.2,
-   "net": 4259,
-   "luni_goale": 1,
-   "cost_total": 77700,
-   "fara_comision": false,
-   "riscuri": [],
-   "la_casa": false,
-   "nou": false,
-   "titlu": "Apartament cu 2 camere in Gusterita",
-   "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-in-gusterita-IDGoIa",
-   "scor": 18.242005916326242
-  },
   {
    "alte": [
     {
@@ -55,7 +29,7 @@
    "creat": "2025-08-17",
    "chirie": 350,
    "chirie_din": "oras",
-   "chirie_n": 87,
+   "chirie_n": 93,
    "chirie_mp": [
     31,
     43
@@ -109,26 +83,54 @@
    "titlu": "Apartament 2 camere zona Lacul lui Binder",
    "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lacul-lui-binder-IDIp0J",
    "scor": 19.817539729252502
+  },
+  {
+   "alte": [],
+   "pret": 54000,
+   "mpu": 36,
+   "zona": "Lazaret, Sibiu",
+   "creat": "2024-08-22",
+   "chirie": 350,
+   "chirie_din": "oras",
+   "chirie_n": 85,
+   "chirie_mp": [
+    31,
+    41
+   ],
+   "ani": 20.9,
+   "net": 2680,
+   "luni_goale": 2,
+   "cost_total": 55944,
+   "fara_comision": false,
+   "riscuri": [
+    "zona din anunț Lazaret, pinul Storia Strand I",
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament 2 camere zona Lazaret",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lazaret-IDBcBD",
+   "scor": 20.87462686567164
   }
  ],
  "surse": [
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-11-09 09:40",
+   "cand": "2026-11-10 20:02",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1375,
-   "potrivite": 229,
+   "gasite": 1417,
+   "potrivite": 240,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-11-09 09:42",
+   "cand": "2026-11-10 20:03",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1644,
-   "potrivite": 349,
+   "gasite": 1671,
+   "potrivite": 353,
    "stare": "azi",
    "veche": false
   }
@@ -186,28 +188,6 @@
  "masini": [
   {
    "pret": 9999,
-   "model": "Ford EcoSport 1.0 EcoBoost Active",
-   "an": 2021,
-   "km": 40000,
-   "zona": "Chiajna",
-   "warn": "Motor cu curea de distributie in baie de ulei (PureTech sau 1.0 EcoBoost) - cere dovada schimbarii ei.",
-   "url": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-active-ID7HR10t.html",
-   "scor": 17,
-   "nou": true
-  },
-  {
-   "pret": 10900,
-   "model": "Peugeot 3008",
-   "an": 2020,
-   "km": 92000,
-   "zona": "Slatina",
-   "warn": "Motor cu curea de distributie in baie de ulei (PureTech sau 1.0 EcoBoost) - cere dovada schimbarii ei.",
-   "url": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ID7HQXlf.html",
-   "scor": -8,
-   "nou": true
-  },
-  {
-   "pret": 9999,
    "model": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
    "an": 2021,
    "km": 29763,
@@ -215,6 +195,28 @@
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQtxR.html",
    "scor": 45,
+   "nou": false
+  },
+  {
+   "pret": 9350,
+   "model": "Dacia Sandero Stepway 0.9 TCe",
+   "an": 2020,
+   "km": 9500,
+   "zona": "Brasov",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-0-9-tce-ID7HQl0F.html",
+   "scor": 44,
+   "nou": false
+  },
+  {
+   "pret": 6690,
+   "model": "Dacia Sandero Stepway",
+   "an": 2020,
+   "km": 79000,
+   "zona": "Selimbar",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXqa.html",
+   "scor": 43,
    "nou": false
   }
  ]
