@@ -321,7 +321,9 @@ async function licitatii() {
   const linkuri = new Set();
   for (let p = 1; p <= 30; p++) {
     const h = await html('https://www.executari.com/lista_bunuri.php?cat=5&judet=39' + (p > 1 ? '&p=' + p : ''));
-    const L = (h.match(/href="((?:licitatie|vanzare)-\d+-[^"]+\.html)"/g) || []).map(x => x.slice(6, -1));
+    // Din 2026-11 linkurile incep cu "/" (href="/licitatie-...") si regula veche
+    // nu mai prindea nimic: 0 case in judet, desi pagina avea 10.
+    const L = (h.match(/href="\/?((?:licitatie|vanzare)-\d+-[^"]+\.html)"/g) || []).map(x => x.replace(/^href="\/?/, '').slice(0, -1));
     const inainte = linkuri.size;
     L.forEach(x => linkuri.add(x));
     if (linkuri.size === inainte) break;
