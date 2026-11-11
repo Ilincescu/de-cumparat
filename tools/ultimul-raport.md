@@ -1,44 +1,38 @@
-# Raport 9 nov 2026
+# Raport 11 nov 2026
 
-**Surse:** Storia, publi24, lajumate/homezz, agentiile, licitatiile si ANAF fara browser; din browser OLX (case si chirii), imobiliare.ro (case si chirii). **Lipsa azi: Facebook, case si chirii** (`tools/ultima-rulare.json`: `lipsa_browser: facebook-raw.json, facebook-chirii.json`). La deschiderea anunturilor Facebook tab-ul s-a inchis si Playwright n-a mai raspuns; conform regulii, o singura incercare. Rularea de maine trebuie sa le ia (RELUARE).
-
-**Inainte de rulare:** main avea deja rularea de 4 nov (facuta din alta parte), plus pagina Praga, Black Friday si regulile noi la masini (curea in ulei, utilitare). Clona locala avea o rulare de 4 nov nepublicata; am pus-o intr-un commit local si am adus main peste ea, ca update.js sa ruleze cu scripturile la zi.
+**Surse:** toate. Storia, publi24, lajumate/homezz, agentiile, licitatiile si ANAF fara browser; din browser OLX (case si chirii), imobiliare.ro (case si chirii) si Facebook (case si chirii). `tools/ultima-rulare.json`: nimic esuat, nimic lipsa din browser. Iesire prin Digi, nu prin VPN.
 
 **Din browser:**
-- imobiliare.ro chirii: 627 din 627 (21 de pagini, a 22-a da 404 = sfarsitul listei).
-- imobiliare.ro case: 685 citite (24 de pagini), 245 sub 250.000 €; din 44 alese de deschis s-au deschis 26, apoi 403. Limita a venit dupa ~72 de cereri, nu ~90 (scris in prompt).
-- OLX case: 97 de anunturi OLX, 95 cu descriere.
-- OLX chirii: 103 (87 cu mp, 70 cu cartier).
+- imobiliare.ro chirii: 638 din 638 (22 de pagini, a 23-a da 404 = sfarsitul listei).
+- imobiliare.ro case: 712 citite (24 de pagini), 260 sub 250.000 €; 17 deschise (casele din oras, fara curte comuna, duplex sau doua corpuri, cele mai ieftine), niciun 403.
+- OLX case: 91 de anunturi OLX, 89 cu descriere.
+- OLX chirii: 106 (88 cu mp, 75 cu cartier).
+- Facebook case: cautarea "casa de vanzare" a dat 48 de carduri, aproape toate apartamente si obiecte. Am mai cautat "casa de vanzare sibiu" si "vand casa": 5 case din zona, cu descriere.
+- Facebook chirii: 10, 3 cu descriere.
 
-**Adaugate: 45** (23 case, 22 apartamente). Casele mai ieftine:
-- 108.000 € - casa 3 camere, teren 300 mp, Turnisor (publi24) - https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-de-vanzare-3-camere-curte-400-mp-zona-turnisor/5548298e59827e9d1h174d9216347255.html
-- 145.000 € - imobil P+E+M, Orasul de Jos (maac.ro) - https://www.maac.ro/casa-vila-3-camere-de-vanzare-orasul-de-jos-sibiu-cp1885192/
-- 180.000 € - casa 2 camere, 90 mp, Terezian (imobiliare.ro; aceeasi cu cea de pe Storia din top) - https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-terezian-mobilata-2-camere-276175940
-- 189.999 € - casa 4 camere, 105 mp, curte libera 54 mp, Arhitectilor (publi24) - https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-4-camere-105-mpu-acces-auto-si-gradina-in-cartierul-arhitectilor/dg68e1034dd07g9i29hd85420ef4220i.html
-- 198.000 € - casa 4 camere, Terezian (maac.ro) - https://www.maac.ro/casa-vila-4-camere-de-vanzare-terezian-sibiu-cp2643500/
-- 204.990 € - casa cu teren 237 mp si garaj, Lupeni (publi24) - https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-de-vanzare-cu-teren-237-mp-garaj-in-zona-lupeni-sibiu/gg979f79353h775e1e2538916e990f1e.html
-- Apartamentele noi: 63.000-109.900 €, cele mai ieftine 63.000 € Tiglari (https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-etaj-2-tiglari-sibiu-comision-0-IDJ7yE) si 69.990 € Ciresica (https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-inchis-zona-ciresica-IDJ8WP).
+**Adaugate: 5** (4 case, 1 apartament):
+- 49.500 € - apartament 2 camere, 39 mp, Tiglari (Storia, nou azi) - https://www.storia.ro/ro/oferta/apartament-cu-2-camere-39-mp-zona-iglari-vizavi-de-lacul-lu-IDJ8oQ
+- 220.000 € - casa 3 camere, 140 mp, Lazaret (imobiliare.ro; a disparut azi de pe Storia la acelasi pret) - https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-lazaret-3-camere-275994823
+- 225.000 € - casa singura in curte, 100 mp, teren 585 mp, Turnisor (Facebook, proprietar) - https://www.facebook.com/marketplace/item/1759925495143442/
+- 234.900 € - casa mobilata 4 camere, Gusterita (imobiliare.ro; aceeasi casa de 5 ori, vezi raportul din 9 nov) - https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276175593
+- 249.000 € - casa individuala, Gusterita (imobiliare.ro) - https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-3-camere-276123560
 
-**Sterse: 85** (20 case, 65 apartamente). Multe case MAAC au disparut de pe Storia si au reaparut azi pe maac.ro sau imobiliare.ro, cu acelasi pret (145.000, 198.000, 214.000, 230.000, 250.000).
+**Sterse: 6** (2 case, 4 apartamente):
+- casa noua, Cartierul Arhitectilor, 219.990 € - https://www.storia.ro/ro/oferta/casa-cartierul-arhitectilor-de-vanzare-noua-pivnita-teren-250-IDIacj
+- casa 3 camere Lazaret, 220.000 € (Storia; ramane pe imobiliare.ro) - https://www.storia.ro/ro/oferta/cas-3-camere-de-vnzare-sibiu-lazaret-140-mp-IDIv41
+- apartamente: Hipodrom 1 107.000 €, Aleea Rosiorilor 64.000 €, Tiglari 47.999 € si Tiglari 28 mp 47.500 €.
 
-**Pret schimbat: 23.** Scaderile mai mari:
-- casa duplex Trei Stejari: 230.000 -> 199.999 € - https://www.storia.ro/ro/oferta/casa-tip-duplex-teren-335-mp-acces-auto-trei-stejari-IDHZQM
-- casa 3 camere Lupeni (Black Friday): 239.000 -> 227.050 € - https://www.storia.ro/ro/oferta/cas-3-camere-de-vnzare-lupeni-sibiu-garaj-pivni-IDHM4l
-- casa cu doua apartamente Turnisor: 200.000 -> 190.000 € - https://www.storia.ro/ro/oferta/casa-5-camere-curte-pivni-turnior-IDB5Vj
-- apartament Doamna Stanca: 108.900 -> 99.500 € - https://www.storia.ro/ro/oferta/apartament-decomandat-43-mpu-2-camere-zona-doamna-stanca-sibiu-IDIQ3O
-- apartament cu gradina, Lacul lui Binder: 90.000 -> 82.000 € - https://www.storia.ro/ro/oferta/apartament-de-vnzare-cu-grdin-zona-lacul-lui-binder-IDIR1F
-- apartament 54 mp parter Terezian: 86.000 -> 81.000 € - https://www.storia.ro/ro/oferta/apartament-2-camere-parter-terezian-IDHj7K
-- apartament la casa 36 mp: 59.000 -> 56.000 € - https://www.storia.ro/ro/oferta/apartament-la-cas-etaj-1-1-36-mp-utili-pivni-grdin-80-mp-IDHqcs
+**Pret schimbat: 0.**
 
 **Capcane prinse azi:**
-- Casa mobilata din Gusterita (234.700 / 234.900 €) apare de 5 ori: de doua ori pe Storia, de doua ori pe publi24, o data pe imobiliare.ro.
-- Apartamentul de 89.000 € din Strand 2 (Storia il pune la Tilisca): in poza baii se vede o balustrada de lemn in diagonala, adica o scara interioara. Respins.
-- Apartamente noi "pe 2 niveluri" in Trei Stejari (87.900 si 99.500 €), de fapt 3 camere: nu intra.
+- Din cele 7 anunturi noi de pe Storia, 6 sunt republicari ale celor disparute azi, cu alt ID (garsonierele din Centrul Istoric si Lazaret, apartamentul de 88.000 € din Strand).
+- Apartamentul de 47.999 € din Tiglari, Lacul lui Binder, a disparut azi, iar cel nou de 49.500 € e tot in Tiglari, vizavi de Lacul lui Binder. Poate fi acelasi, republicat mai scump.
+- Pe Facebook, casa de renovat din Turnisor (139.000 €) are "2 intrari separate", deci e de fapt pe doua locuinte, iar casa noua din Gusterita (320.000 €) se preda la alb si e peste buget. Niciuna nu a intrat in lista.
 
-**Poze (top 3 case si top 3 apartamente din azi.json):** `node tools/verifica.js` a dat 403 (Storia blocheaza IP-ul dupa scanare), deci din `arhiva/poze/`, cel mult 8 pe anunt:
-- casa 2 camere, Terezian, 180.000 € - 5 arhivate - curata.
-- casa Lazaret/Lupeni, 199.990 € - 8 arhivate - aceeasi pata deschisa pe hol, poza 7, langa usa; de verificat la vizionare.
-- casa Piata Cluj - Kogalniceanu, 129.900 € - **0 poze arhivate, NEVERIFICATA.**
-- apartament Gusterita, 75.000 € - 8 arhivate - curat.
-- apartament Tiglari, 51.000 € - 6 arhivate - curat.
-- apartament Strand 2, 89.000 € - 8 arhivate - **scara interioara (poza 7), respins**. In locul lui a intrat apartamentul de 65.000 € de la Lacul lui Binder - **0 poze arhivate, NEVERIFICAT.**
+**Poze (top 3 case si top 3 apartamente din azi.json):** `node tools/verifica.js` a dat 403, si din browser (Storia blocheaza IP-ul dupa scanare), deci le-am luat din `arhiva/poze/`, cel mult 8 pe anunt:
+- casa 2 camere, Terezian, 180.000 € - 5 din 5 arhivate - curata.
+- casa Lazaret/Lupeni, 199.990 € - 8 din 8 arhivate - aceeasi pata deschisa pe hol, langa usa, in poza 7; de verificat la vizionare.
+- casa Piata Cluj - Kogalniceanu, 129.900 € - **0 poze arhivate, NEVERIFICATA** (a treia zi la rand).
+- apartament Tiglari, 49.500 € (nou azi) - **0 poze arhivate, NEVERIFICAT.**
+- apartament Tiglari, 51.000 € - 6 arhivate, plus 7 la aceeasi locuinta publicata de alta agentie - curat, fara scara si fara dezumidificatoare.
+- apartament Lacul lui Binder, 65.000 € - **0 poze arhivate, NEVERIFICAT.**
