@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-10",
+ "actualizat": "2026-11-11",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -37453,6 +37453,376 @@
     {
      "d": "2026-11-09",
      "p": 1725
+    }
+   ]
+  },
+  "IDJ8oQ": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-39-mp-zona-iglari-vizavi-de-lacul-lu-IDJ8oQ",
+   "t": "Apartament cu 2 camere – 39 mp – Zona Țiglari, vizavi de Lacul lu",
+   "preturi": [
+    {
+     "d": "2026-11-11",
+     "p": 49500
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-si-curte-de-480-mp-zona-piata-cluj/f6fed8g5i92170101gg5516d1g7i2507.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-si-curte-de-480-mp-zona-piata-cluj/f6fed8g5i92170101gg5516d1g7i2507.html",
+   "t": "Casa individuala si curte de 480 mp zona Piata Cluj",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 198000
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-2-camere-de-vanzare-piata-cluj-sibiu-cp3361205/": {
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-piata-cluj-sibiu-cp3361205/",
+   "t": "Casă 2 camere de vânzare | Sibiu, Piața Cluj | curte",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 149999
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-3-camere-de-vanzare-tiglari-sibiu-cp3307534/": {
+   "u": "https://www.maac.ro/casa-vila-3-camere-de-vanzare-tiglari-sibiu-cp3307534/",
+   "t": "Casă 3 camere de vânzare | Tiglari, Sibiu | 108 mp | teren 400 mp",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 185000
+    }
+   ]
+  },
+  "https://www.facebook.com/marketplace/item/1413503584281553/": {
+   "u": "https://www.facebook.com/marketplace/item/1413503584281553/",
+   "t": "De vanzare Penthouse, Cartierul Arhitectilor",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 200000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/duplex-de-vanzare-sibiu-aeroport-2-camere-276188644": {
+   "u": "https://www.imobiliare.ro/oferta/duplex-de-vanzare-sibiu-aeroport-2-camere-276188644",
+   "t": "Casă tip duplex, 2 camere, 113 mp, Zona Semaforului, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 130000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-terezian-6-camere-276188719": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-terezian-6-camere-276188719",
+   "t": "Casa individuala 5 camere cu teren de 190 mp in Terezian",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 230000
+    }
+   ]
+  },
+  "ID7HR1ZN": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HR1ZN.html",
+   "t": "Renault Express",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 7600
+    }
+   ]
+  },
+  "ID7HR25b": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ID7HR25b.html",
+   "t": "Dacia Dokker",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 7991
+    }
+   ]
+  },
+  "ID7HR276": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ID7HR276.html",
+   "t": "Dacia Dokker",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 8500
+    }
+   ]
+  },
+  "ID7HR1M6": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HR1M6.html",
+   "t": "Renault Express",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 8990
+    }
+   ]
+  },
+  "ID7HR1Xv": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-136cp-highway-ID7HR1Xv.html",
+   "t": "Hyundai KONA 136CP Highway",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 8999
+    }
+   ]
+  },
+  "ID7HR24g": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-titanium-ID7HR24g.html",
+   "t": "Ford Puma 1.0 EcoBoost Titanium",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 10448
+    }
+   ]
+  },
+  "ID7HR1TF": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/citroen-c3-aircross-ver-1-5-bluehdi-s-s-eat6-shine-ID7HR1TF.html",
+   "t": "Citroën C3 AIRCROSS 1.5 BlueHDi S&S EAT6 Shine",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 10600
+    }
+   ]
+  },
+  "ID7HQCUp": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-automatik-gs-line-ID7HQCUp.html",
+   "t": "Opel Crossland X 1.2 Automatik GS Line",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 10900
+    }
+   ]
+  },
+  "ID7HR1LR": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HR1LR.html",
+   "t": "Ford EcoSport 1.0 EcoBoost Titanium",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 10990
+    }
+   ]
+  },
+  "ID7HR26z": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-expression-ID7HR26z.html",
+   "t": "Dacia Sandero Stepway ECO-G 100 MT6 Expression",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 11190
+    }
+   ]
+  },
+  "ID7HR1Ah": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-st-line-ID7HR1Ah.html",
+   "t": "Ford EcoSport 1.0 EcoBoost ST-Line",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 11500
+    }
+   ]
+  },
+  "ID7HR20y": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HR20y.html",
+   "t": "Dacia Sandero Stepway",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 11990
+    }
+   ]
+  },
+  "ID7HR1Q2": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-130-eat8-gt-ID7HR1Q2.html",
+   "t": "Peugeot 2008 PureTech 130 EAT8 GT",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 12499
+    }
+   ]
+  },
+  "ID7HQUYh": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-2wd-highway-ID7HQUYh.html",
+   "t": "Hyundai KONA 1.0 T-GDI 2WD Highway",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 12500
+    }
+   ]
+  },
+  "ID7HR1Jz": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-automatik-elegance-ID7HR1Jz.html",
+   "t": "Opel Crossland X 1.2 Automatik Elegance",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 12700
+    }
+   ]
+  },
+  "ID7HR269": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-140-edc-zen-ID7HR269.html",
+   "t": "Renault Captur TCe 140 EDC Zen",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 12990
+    }
+   ]
+  },
+  "ID7HR1J2": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-titanium-ID7HR1J2.html",
+   "t": "Ford Puma 1.0 EcoBoost Titanium",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 13499
+    }
+   ]
+  },
+  "ID7HR26d": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-qashqai-ver-1-3-138cp-2wd-n-connecta-ID7HR26d.html",
+   "t": "Nissan Qashqai 1.3 138CP 2WD N-Connecta",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 13500
+    }
+   ]
+  },
+  "ID7HR1BL": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-130-eat8-gt-ID7HR1BL.html",
+   "t": "Peugeot 2008 PureTech 130 EAT8 GT",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 13790
+    }
+   ]
+  },
+  "ID7HR1DV": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-extreme-ID7HR1DV.html",
+   "t": "Dacia Sandero Stepway TCe 90 MT6 Extreme",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 13800
+    }
+   ]
+  },
+  "ID7HQPzH": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/skoda-kamiq-ver-1-0-tsi-dsg-ambition-ID7HQPzH.html",
+   "t": "Skoda Kamiq 1.0 TSI DSG Ambition",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 13900
+    }
+   ]
+  },
+  "ID7HR1Fk": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HR1Fk.html",
+   "t": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 13951
+    }
+   ]
+  },
+  "ID7HR1Cn": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ver-1-4-boosterjet-mhev-passion-ID7HR1Cn.html",
+   "t": "Suzuki Vitara 1.4 Boosterjet MHEV Passion",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 14000
+    }
+   ]
+  },
+  "ID7HR1Yi": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-eco-g-100-journeyplus-ID7HR1Yi.html",
+   "t": "Dacia Duster ECO-G 100 Journey+",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 14200
+    }
+   ]
+  },
+  "ID7HR1ON": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ver-1-5-ecoboost-2wd-titanium-ID7HR1ON.html",
+   "t": "Ford Kuga 1.5 EcoBoost 2WD Titanium",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 14300
+    }
+   ]
+  },
+  "ID7HR200": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-mhev-140-techno-ID7HR200.html",
+   "t": "Renault Captur MHEV 140 Techno",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 14550
+    }
+   ]
+  },
+  "ID7HR1E6": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ver-1-4-boosterjet-mhev-cool-ID7HR1E6.html",
+   "t": "Suzuki Vitara 1.4 Boosterjet MHEV Cool",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 14700
+    }
+   ]
+  },
+  "ID7HR24u": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-dsg-life-ID7HR24u.html",
+   "t": "Volkswagen T-Cross 1.0 TSI DSG Life",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 14900
+    }
+   ]
+  },
+  "ID7HQQ6c": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-140-edc-intense-ID7HQQ6c.html",
+   "t": "Renault Captur TCe 140 EDC Intense",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 14950
+    }
+   ]
+  },
+  "ID7HR1R0": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-tucson-ver-1-6-gdi-2wd-6mt-comfort-ID7HR1R0.html",
+   "t": "Hyundai Tucson 1.6 GDI 2WD 6MT Comfort",
+   "preturi": [
+    {
+     "d": "2026-11-10",
+     "p": 15000
     }
    ]
   }

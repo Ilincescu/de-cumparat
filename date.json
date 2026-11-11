@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-10 20:09",
+ "actualizat": "2026-11-11 08:56",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -840,34 +840,6 @@
   },
   {
    "k": "casa",
-   "p": 219990,
-   "t": "Casa noua in Cartierul Arhitectilor, 110 mp, pivnita, teren 250 mp",
-   "z": "Cartierul Arhitectilor",
-   "r": 4,
-   "a": 110,
-   "g": "teren 250 mp",
-   "gm": 250,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/casa-cartierul-arhitectilor-de-vanzare-noua-pivnita-teren-250-IDIacj",
-   "warn": "Constructie noua - intreaba de TVA si de stadiul finisajelor. Detalii neverificate in descriere.",
-   "d": "2026-09-20"
-  },
-  {
-   "k": "casa",
-   "p": 220000,
-   "t": "Casa 3 camere, 140 mp",
-   "z": "Lazaret",
-   "r": 3,
-   "a": 140,
-   "g": null,
-   "c": "proprie",
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/cas-3-camere-de-vnzare-sibiu-lazaret-140-mp-IDIv41",
-   "d": "2026-09-18"
-  },
-  {
-   "k": "casa",
    "p": 220000,
    "t": "Casa cu doua corpuri de cladire si teren 330 mp, 4 camere, 80 mp utili",
    "z": "Lupeni",
@@ -1025,7 +997,7 @@
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-mobilata-cu-4-camere-2-bai-si-garaj-in-gusterita-IDIrXe",
    "warn": "Detalii neverificate in descriere.",
    "d": "2026-11-09",
-   "alte": 9
+   "alte": 10
   },
   {
    "k": "casa",
@@ -2782,21 +2754,6 @@
    "c": null,
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-43-mpu-2-camere-zona-doamna-stanca-IDIvd8",
-   "warn": null,
-   "d": "2026-09-25"
-  },
-  {
-   "k": "ap",
-   "p": 107000,
-   "t": "Apartament de vânzare Sibiu | 2 camere | Hipodrom 1, balcon",
-   "z": "Hipodrom I, Sibiu",
-   "r": 2,
-   "a": 50,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-hipodrom-1-balcon-IDIv3Y",
    "warn": null,
    "d": "2026-09-25"
   },
@@ -5632,21 +5589,6 @@
   },
   {
    "k": "ap",
-   "p": 64000,
-   "t": "Apartament 2 camere de vanzare, Aleea Rosiorilor Sibiu",
-   "z": "Hipodrom I, Sibiu",
-   "r": 2,
-   "a": 38,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-aleea-rosiorilor-sibiu-IDHiyN",
-   "warn": "Declarata de renovat in fisa tehnica.",
-   "d": "2026-11-10"
-  },
-  {
-   "k": "ap",
    "p": 99890,
    "t": "Apartament de vânzare Sibiu | Calea Dumbrăvii | 2 camere",
    "z": "Centrul Istoric, Sibiu",
@@ -5915,36 +5857,6 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-cu-grdin-zona-lacul-lui-binder-IDIR1F",
    "warn": null,
    "d": "2026-11-09"
-  },
-  {
-   "k": "ap",
-   "p": 47999,
-   "t": "Apartament 2 camere de vânzare | Sibiu, Țiglari | Lacul lui Binder",
-   "z": "Terezian, Sibiu",
-   "r": 2,
-   "a": 28,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-sibiu-iglari-lacul-lui-binder-IDIQUp",
-   "warn": null,
-   "d": "2026-10-13"
-  },
-  {
-   "k": "ap",
-   "p": 47500,
-   "t": "Apartament 2 Camere 28mpu - Tiglari",
-   "z": "Terezian, Sibiu",
-   "r": 2,
-   "a": 28,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-28mpu-tiglari-IDIQLx",
-   "warn": null,
-   "d": "2026-11-03"
   },
   {
    "k": "ap",
@@ -14997,6 +14909,82 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-40mp-utili-balcon-pretabil-pentru-investitii-IDBJvR",
    "warn": null,
    "d": "2026-11-10"
+  },
+  {
+   "k": "casa",
+   "p": 225000,
+   "t": "Vand casa singur in curte situata in zona Turnisor",
+   "z": "Turnisor",
+   "r": 3,
+   "a": null,
+   "g": "teren 585 mp",
+   "gm": null,
+   "c": "proprie",
+   "src": "facebook",
+   "u": "https://www.facebook.com/marketplace/item/1759925495143442/",
+   "warn": "Din facebook; detalii neverificate in descriere.",
+   "d": "2026-11-11"
+  },
+  {
+   "k": "casa",
+   "p": 220000,
+   "t": "Casă 3 camere de vânzare | Sibiu, Lazaret | 140 mp",
+   "z": "Lazaret",
+   "r": 3,
+   "a": 140,
+   "g": "teren 360 mp",
+   "gm": null,
+   "c": null,
+   "src": "imobiliare",
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-lazaret-3-camere-275994823",
+   "warn": "Din imobiliare; detalii neverificate in descriere.",
+   "d": "2026-11-11"
+  },
+  {
+   "k": "casa",
+   "p": 234900,
+   "t": "Casa individuala mobilata cu 4 camere 2 bai si garaj in Gusterita",
+   "z": "Gusterita",
+   "r": 4,
+   "a": 300,
+   "g": "teren 300 mp",
+   "gm": null,
+   "c": null,
+   "src": "imobiliare",
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276175593",
+   "warn": "Din imobiliare; detalii neverificate in descriere.",
+   "d": "2026-11-11",
+   "dup": "IDIrXe"
+  },
+  {
+   "k": "casa",
+   "p": 249000,
+   "t": "Casă individuală, curte generoasă și intimitate – o combinație rară în Sibiu",
+   "z": "Gusterita",
+   "r": 3,
+   "a": 349,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "imobiliare",
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-3-camere-276123560",
+   "warn": "Din imobiliare; detalii neverificate in descriere.",
+   "d": "2026-11-11"
+  },
+  {
+   "k": "ap",
+   "p": 49500,
+   "t": "Apartament cu 2 camere – 39 mp – Zona Țiglari, vizavi de Lacul lu",
+   "z": "Tiglari, Sibiu",
+   "r": 2,
+   "a": 39,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-39-mp-zona-iglari-vizavi-de-lacul-lu-IDJ8oQ",
+   "warn": null,
+   "d": "2026-11-11"
   }
  ]
 }
