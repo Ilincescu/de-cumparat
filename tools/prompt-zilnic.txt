@@ -134,7 +134,11 @@ sau apartamente) cu motivul "igrasie in poze", ruleaza node tools/azi.js --scrie
 si repeta pana ai trei curate. Daca verifica.js da 403 (Storia blocheaza
 IP-ul si din browser cateva minute dupa scanare - 2026-11-03), uita-te in
 arhiva/poze/<ID>/, unde arhiva.js tine primele 8 poze; spune in raport cate
-din cate ai vazut si ce anunt n-are deloc poze arhivate. Daca pozele nu se pot descarca, spune-o in raport. Push-ul e autorizat
+din cate ai vazut si ce anunt n-are deloc poze arhivate. Daca pozele nu se pot descarca, spune-o in raport.
+Un anunt din top NU ramane "neverificat": daca n-are poze arhivate, ia pagina
+HTML a anuntului (curl, __NEXT_DATA__ -> props.pageProps.ad.images), care merge
+si cand /_next/data da 404. Casa de langa Piata Cluj (IDGPlk) a stat 3 zile in
+top "neverificata" si avea igrasie in poze (2026-11-11). Push-ul e autorizat
 aici: e repo personal, iar GitHub Pages serveste din main. La final confirma
 cu numarul citit LIVE de pe site, nu cu ce e local, si spune-i sa dea Ctrl+F5,
 fiindca browserul tine JSON-ul in cache. Pagina se reconstruieste in ~1 minut.

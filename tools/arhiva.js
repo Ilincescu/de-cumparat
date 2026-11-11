@@ -122,9 +122,15 @@ function deArhivatPoze(arhiva) {
 
 async function fisaStoria(slug) {
   const b = citeste(path.join(__dirname, 'storia-build.json'), {}).buildId;
-  const r = await fetch(`https://www.storia.ro/_next/data/${b}/ro/oferta/${slug}.json`, { headers: UA });
-  if (!r.ok) return null;
-  return ((await r.json()).pageProps || {}).ad || null;
+  const r = await fetch(`https://www.storia.ro/_next/data/${b}/ro/oferta/${slug}.json`, { headers: UA }).catch(() => null);
+  if (r && r.ok) return ((await r.json()).pageProps || {}).ad || null;
+  // /_next/data da 404 cand buildId-ul s-a schimbat; pagina HTML are aceeasi fisa
+  // in __NEXT_DATA__. Fara asta casa de langa Piata Cluj (IDGPlk) a stat trei zile
+  // in top "neverificata", cu igrasie in poze (2026-11-11).
+  const h = await fetch(`https://www.storia.ro/ro/oferta/${slug}`, { headers: UA }).catch(() => null);
+  if (!h || !h.ok) return null;
+  const m = (await h.text()).match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+  try { return m ? (JSON.parse(m[1]).props.pageProps || {}).ad || null : null; } catch (e) { return null; }
 }
 
 async function poze(arhiva) {

@@ -46,7 +46,7 @@ function curteDinDescriere(text) {
 // absenta mentiunii - exact ce cere filtrul de curte proprie.
 function tipCurte(text, formaCladire) {
   const t = text || '';
-  if (/curte\s+comun|[iî]n\s+comun|cot[aă]\s+parte/i.test(t)) return 'comuna';
+  if (/curte\s+comun|[iî]n\s+comun|cot[aă][\s-]+parte|indiviz[aă]/i.test(t)) return 'comuna';
   if (formaCladire === 'detached') return 'proprie';
   if (/curte\s+proprie|curte\s+privat|curte\s+individual|singur\s+[iî]n\s+curte|f[aă]r[aă]\s+p[aă]r[tț]i\s+comune/i.test(t)) return 'proprie';
   return null;

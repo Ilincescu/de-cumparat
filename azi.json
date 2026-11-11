@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-11 08:56",
+ "generat": "2026-11-11 21:34",
  "de_la": "2026-11-10",
  "pana_la": "2026-11-11",
  "case_noi": 0,
@@ -168,20 +168,19 @@
    "scor": 66
   },
   {
-   "pret": 129900,
-   "mpu": 79,
-   "curte": 265,
+   "pret": 174900,
+   "mpu": 60,
+   "curte": 196,
    "curte_sigura": false,
-   "teren": 320,
-   "zona": "Terezian, Sibiu",
-   "an": "1960",
-   "stare": "to_renovation",
-   "creat": "2026-03-30",
+   "teren": 238,
+   "zona": "Turnisor, Sibiu",
+   "stare": "ready_to_use",
+   "creat": "2025-11-02",
    "repostat": true,
    "alte": [],
-   "titlu": "Casa Individuala I Acces auto  I Piata Cluj- Kogalniceanu",
-   "url": "https://www.storia.ro/ro/oferta/casa-individuala-i-acces-auto-i-piata-cluj-kogalniceanu-IDGPlk",
-   "scor": 64
+   "titlu": "Casa individuala in Sibiu, pivnita + pod, teren 238 mp, zona Turnisor",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-in-sibiu-pivnita-pod-teren-238-mp-zona-turnisor-IDFsCl",
+   "scor": 59
   }
  ],
  "masini": [
