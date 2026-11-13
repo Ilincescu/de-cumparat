@@ -1,0 +1,145 @@
+[
+ {
+  "cartier": "Hipodrom III",
+  "nv": 23,
+  "nc": 36,
+  "pret": 77000,
+  "ppm": 2000,
+  "chirie": 375,
+  "ani": 17.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-iii",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-iii"
+ },
+ {
+  "cartier": "Hipodrom II",
+  "nv": 16,
+  "nc": 9,
+  "pret": 72000,
+  "ppm": 1967,
+  "chirie": 350,
+  "ani": 17.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-ii",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-ii"
+ },
+ {
+  "cartier": "Tiglari",
+  "nv": 5,
+  "nc": 8,
+  "pret": 91000,
+  "ppm": 2220,
+  "chirie": 420,
+  "ani": 18.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/tiglari",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/tiglari"
+ },
+ {
+  "cartier": "Fara cartier",
+  "nv": 18,
+  "nc": 16,
+  "pret": 97995,
+  "ppm": 1961,
+  "chirie": 425,
+  "ani": 19.2,
+  "linkVanzare": null,
+  "linkChirie": null
+ },
+ {
+  "cartier": "Centrul Istoric",
+  "nv": 23,
+  "nc": 18,
+  "pret": 109900,
+  "ppm": 2081,
+  "chirie": 440,
+  "ani": 20.8,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/centrul-istoric",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/centrul-istoric"
+ },
+ {
+  "cartier": "Trei Stejari",
+  "nv": 11,
+  "nc": 13,
+  "pret": 99500,
+  "ppm": 2000,
+  "chirie": 380,
+  "ani": 21.8,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/trei-stejari",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/trei-stejari"
+ },
+ {
+  "cartier": "Turnisor",
+  "nv": 12,
+  "nc": 24,
+  "pret": 109950,
+  "ppm": 2036,
+  "chirie": 400,
+  "ani": 22.9,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/turnisor",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/turnisor"
+ },
+ {
+  "cartier": "Vasile Aaron",
+  "nv": 21,
+  "nc": 10,
+  "pret": 92900,
+  "ppm": 1858,
+  "chirie": 335,
+  "ani": 23.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/vasile-aaron",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/vasile-aaron"
+ },
+ {
+  "cartier": "Hipodrom I",
+  "nv": 18,
+  "nc": 10,
+  "pret": 105995,
+  "ppm": 2176,
+  "chirie": 350,
+  "ani": 25.2,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-i",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-i"
+ },
+ {
+  "cartier": "Terezian",
+  "nv": 16,
+  "nc": 8,
+  "pret": 145995,
+  "ppm": 2446,
+  "chirie": 475,
+  "ani": 25.6,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/terezian",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/terezian"
+ },
+ {
+  "cartier": "Strand I",
+  "nv": 4,
+  "nc": 11,
+  "pret": 114000,
+  "ppm": 1463,
+  "chirie": 370,
+  "ani": 25.7,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/strand-i",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/strand-i"
+ },
+ {
+  "cartier": "Centrul Civic",
+  "nv": 5,
+  "nc": 15,
+  "pret": 134999,
+  "ppm": 2264,
+  "chirie": 430,
+  "ani": 26.2,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/centrul-civic",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/centrul-civic"
+ },
+ {
+  "cartier": "Hipodrom IV",
+  "nv": 8,
+  "nc": 7,
+  "pret": 119900,
+  "ppm": 2262,
+  "chirie": 350,
+  "ani": 28.5,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-iv",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-iv"
+ }
+]
