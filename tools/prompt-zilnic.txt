@@ -50,8 +50,12 @@ singur pe cele salvate azi:
     browser_navigate la
     https://www.facebook.com/marketplace/sibiu/search/?query=casa%20de%20vanzare
     (merge fara cont; /marketplace/sibiu/propertyforsale redirecteaza la
-    pagina generala). browser_evaluate: sterge [role="dialog"], deruleaza
-    pana nu mai apar carduri, ia toate a[href*="/marketplace/item/"].
+    pagina generala). browser_evaluate: deruleaza pana nu mai apar carduri,
+    ia toate a[href*="/marketplace/item/"]. NU sterge [role="dialog"]:
+    anuntul deschis la click se afiseaza intr-un dialog, iar dupa stergere
+    click-ul schimba URL-ul dar dialogul ramane gol, fara "Descriere"
+    (2026-11-13: 0 descrieri din 6 pana la reincarcarea paginii). Daca
+    textul cardului e acoperit, ia-l cu innerText, nu sterge nimic.
     Pe card: sari cardurile cu "Anunt de la partener" (sunt anunturi Publi24,
     deja luate de update.js, cu pret convertit REAL in lei, cu zecimale).
     Liniile de pret pot fi doua (pret nou + pret vechi): p = prima linie de

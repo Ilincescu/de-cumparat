@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-13 09:20",
+ "generat": "2026-11-13 09:24",
  "de_la": "2026-11-11",
  "pana_la": "2026-11-13",
  "case_noi": 6,
@@ -12,33 +12,6 @@
  "ap_din_rezerva": false,
  "chirii_din": "2026-11-13",
  "apartamente": [
-  {
-   "alte": [],
-   "pret": 49500,
-   "mpu": 39,
-   "zona": "Tiglari, Sibiu",
-   "creat": "2026-11-05",
-   "chirie": 400,
-   "chirie_din": "Tiglari",
-   "chirie_n": 5,
-   "chirie_mp": [
-    31,
-    47
-   ],
-   "ani": 16.1,
-   "net": 3185,
-   "luni_goale": 2,
-   "cost_total": 51282,
-   "fara_comision": false,
-   "riscuri": [
-    "nu scrie de centrală proprie"
-   ],
-   "la_casa": false,
-   "nou": false,
-   "titlu": "Apartament cu 2 camere – 39 mp – Zona Țiglari, vizavi de Lacul lu",
-   "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-39-mp-zona-iglari-vizavi-de-lacul-lu-IDJ8oQ",
-   "scor": 16.1010989010989
-  },
   {
    "alte": [
     {
@@ -110,6 +83,34 @@
    "titlu": "Apartament 2 camere zona Lacul lui Binder",
    "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lacul-lui-binder-IDIp0J",
    "scor": 19.817539729252502
+  },
+  {
+   "alte": [],
+   "pret": 54000,
+   "mpu": 36,
+   "zona": "Lazaret, Sibiu",
+   "creat": "2024-08-22",
+   "chirie": 350,
+   "chirie_din": "oras",
+   "chirie_n": 82,
+   "chirie_mp": [
+    31,
+    41
+   ],
+   "ani": 20.9,
+   "net": 2680,
+   "luni_goale": 2,
+   "cost_total": 55944,
+   "fara_comision": false,
+   "riscuri": [
+    "zona din anunț Lazaret, pinul Storia Strand I",
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament 2 camere zona Lazaret",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lazaret-IDBcBD",
+   "scor": 20.87462686567164
   }
  ],
  "surse": [
@@ -152,35 +153,36 @@
    "scor": 80
   },
   {
-   "pret": 199990,
-   "mpu": 110,
-   "curte": 282,
-   "curte_sigura": false,
-   "teren": 359,
+   "pret": 195000,
+   "mpu": 121,
+   "curte": 160,
+   "curte_sigura": true,
+   "teren": 240,
    "zona": "Lupeni, Sibiu",
-   "an": "1980",
+   "an": "1960",
    "stare": "ready_to_use",
-   "creat": "2026-02-18",
+   "creat": "2026-09-16",
    "repostat": true,
    "alte": [],
-   "titlu": "Casa individuala | Teren 359 MP | Pivnita | Lazaret",
-   "url": "https://www.storia.ro/ro/oferta/casa-individuala-teren-359-mp-pivnita-lazaret-IDGptL",
-   "scor": 66
+   "titlu": "Casă individuală cu 3 camere, curte , în Sibiu, zona Lupeni",
+   "url": "https://www.storia.ro/ro/oferta/cas-individual-cu-3-camere-curte-n-sibiu-zona-lupeni-IDIyH3",
+   "scor": 57
   },
   {
-   "pret": 174900,
-   "mpu": 60,
-   "curte": 196,
+   "pret": 198000,
+   "mpu": 112,
+   "curte": 372,
    "curte_sigura": false,
-   "teren": 238,
-   "zona": "Turnisor, Sibiu",
+   "teren": 450,
+   "zona": "Terezian, Sibiu",
+   "an": "1960",
    "stare": "ready_to_use",
-   "creat": "2025-11-02",
-   "repostat": true,
+   "creat": "2025-07-29",
+   "repostat": false,
    "alte": [],
-   "titlu": "Casa individuala in Sibiu, pivnita + pod, teren 238 mp, zona Turnisor",
-   "url": "https://www.storia.ro/ro/oferta/casa-individuala-in-sibiu-pivnita-pod-teren-238-mp-zona-turnisor-IDFsCl",
-   "scor": 59
+   "titlu": "Casa Individuala I 4 Camere I Acces auto I Curte I Terezian",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-i-4-camere-i-acces-auto-i-curte-i-terezian-IDEqhl",
+   "scor": 56
   }
  ],
  "masini": [

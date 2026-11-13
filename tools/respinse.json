@@ -82,6 +82,41 @@
    "zona": "Terezian",
    "mpu": 79,
    "motiv": "igrasie in poze: baza peretilor in camere si bucatarie, tencuiala cazuta; sobe (2026-11-11)"
+  },
+  {
+   "id": "IDFsCl",
+   "ce": "Turnisor, casa individuala cu pivnita si pod, teren 238 mp",
+   "pret": 174900,
+   "zona": "Turnisor",
+   "motiv": "igrasie in poze: pete de umezeala pe peretele si tavanul dormitorului (poza 5), tencuiala patata la baza fatadei (poza 1) (2026-11-13)"
+  },
+  {
+   "id": "IDGptL",
+   "ce": "Lazaret, casa individuala cu pivnita, teren 359 mp, MAAC",
+   "pret": 199990,
+   "zona": "Lazaret",
+   "motiv": "igrasie in poze: tencuiala cazuta si patata la baza peretelui langa usa baii (poza 10) (2026-11-13)"
+  },
+  {
+   "id": "IDCPZh",
+   "ce": "Turnisor, casa individuala, 60 mp, teren 238 mp - aceeasi casa ca IDFsCl",
+   "pret": 174900,
+   "zona": "Turnisor",
+   "motiv": "aceeasi casa ca IDFsCl (aceleasi poze): mucegai pe peretele si tavanul dormitorului (poza 5); releveul pune bucataria si baia la subsol (2026-11-13)"
+  },
+  {
+   "id": "IDGlPb",
+   "ce": "Milea, str. Paltinului, 52 mp, teren 329 mp",
+   "pret": 169000,
+   "zona": "Hipodrom II",
+   "motiv": "releveul are Corp A (mai multe corpuri pe teren), nicio poza din interior, tencuiala desprinsa la baza fatadei (2026-11-13)"
+  },
+  {
+   "id": "IDHk9t",
+   "ce": "Centru, str. Filarmonicii, apartament la casa 96 mp, MAAC",
+   "pret": 189900,
+   "zona": "Centrul Istoric",
+   "motiv": "doua locuinte: parter si etaj, fiecare cu camera, bucatarie si baie, pentru regim hotelier; scara la etaj (2026-11-13)"
   }
  ],
  "apartamente": [
@@ -138,6 +173,12 @@
    "ce": "Apartament 48 mp la casa, parter, zona Garii (Centrul Istoric), 1950",
    "pret": 63900,
    "motiv": "igrasie in poze: pete si tencuiala scorojita pe peretele bucatariei, la geam si sub incalzitorul pe gaz (poza 5), tencuiala cazuta la baza zidului exterior (poza 1); releveul arata o singura camera (23,55 mp) plus veranda, nu 2 camere (2026-11-04)"
+  },
+  {
+   "id": "IDJ8oQ",
+   "ce": "Apartament 2 camere, 39 mp, Tiglari, vizavi de Lacul lui Binder",
+   "pret": 49500,
+   "motiv": "igrasie in poze: pete negre de mucegai sub fereastra si langa calorifer in dormitor (poza 14, 9) (2026-11-13)"
   }
  ],
  "masini": [
