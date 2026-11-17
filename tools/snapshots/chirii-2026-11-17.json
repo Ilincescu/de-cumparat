@@ -55,17 +55,6 @@
   "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/vasile-aaron"
  },
  {
-  "cartier": "Hipodrom III",
-  "nv": 20,
-  "nc": 43,
-  "pret": 101995,
-  "ppm": 2000,
-  "chirie": 375,
-  "ani": 22.7,
-  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-iii",
-  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-iii"
- },
- {
   "cartier": "Lazaret",
   "nv": 5,
   "nc": 4,
@@ -77,9 +66,20 @@
   "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/lazaret"
  },
  {
+  "cartier": "Hipodrom III",
+  "nv": 20,
+  "nc": 42,
+  "pret": 101995,
+  "ppm": 2000,
+  "chirie": 373,
+  "ani": 22.8,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-iii",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-iii"
+ },
+ {
   "cartier": "Turnisor",
   "nv": 11,
-  "nc": 23,
+  "nc": 25,
   "pret": 109900,
   "ppm": 2036,
   "chirie": 400,
@@ -134,7 +134,7 @@
  {
   "cartier": "Centrul Civic",
   "nv": 8,
-  "nc": 15,
+  "nc": 14,
   "pret": 127500,
   "ppm": 2257,
   "chirie": 430,

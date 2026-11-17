@@ -1,70 +1,70 @@
 {
  "Autovit": {
   "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-  "cand": "2026-11-17 08:11",
-  "gasite": 1668,
+  "cand": "2026-11-17 08:21",
+  "gasite": 1667,
   "potrivite": 375,
-  "adaugate": 42
+  "adaugate": 0
  },
  "Storia": {
   "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-  "cand": "2026-11-13 09:12",
-  "gasite": 1472,
-  "case": 249,
+  "cand": "2026-11-17 08:20",
+  "gasite": 1430,
+  "case": 241,
   "excluse": 344
  },
  "publi24": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-11-17 08:12",
+  "cand": "2026-11-17 08:21",
   "gasite": 287,
   "noi": 0
  },
  "lajumate": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-11-17 08:12",
+  "cand": "2026-11-17 08:21",
   "gasite": 226,
   "noi": 0
  },
  "agentii": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-11-17 08:12",
+  "cand": "2026-11-17 08:21",
   "gasite": 169,
   "noi": 0
  },
  "licitatii": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-11-17 08:12",
+  "cand": "2026-11-17 08:21",
   "gasite": 0,
   "noi": 0
  },
  "imobiliare": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-11-17 08:12",
+  "cand": "2026-11-17 08:22",
   "gasite": 261,
-  "noi": 2
+  "noi": 0
  },
  "olx": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-11-17 08:12",
+  "cand": "2026-11-17 08:22",
   "gasite": 22,
-  "noi": 1
+  "noi": 0
  },
  "facebook": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-11-17 08:12",
+  "cand": "2026-11-17 08:22",
   "gasite": 0,
   "noi": 0
  },
  "anaf": {
   "ce": "case in orasul Sibiu",
-  "cand": "2026-11-17 08:12",
+  "cand": "2026-11-17 08:21",
   "gasite": 0,
   "noi": 0
  },
  "anaf-masini": {
   "ce": "autoturisme la licitatie, judetul Sibiu",
-  "cand": "2026-11-17 08:12",
+  "cand": "2026-11-17 08:22",
   "gasite": 9,
-  "noi": 1
+  "noi": 0
  }
 }

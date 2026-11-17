@@ -1,5 +1,14 @@
 [
  {
+  "id": 10786477,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-intermediar-cartier-turnisor-IDJg3r",
+  "chirie": 350,
+  "mp": 38,
+  "etaj": "THIRD",
+  "cartier": "Turnisor",
+  "postat": "2026-11-17"
+ },
+ {
   "id": 10689314,
   "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-parcare-turnisor-IDIQMi",
   "chirie": 400,
@@ -648,6 +657,15 @@
   "postat": "2026-11-12"
  },
  {
+  "id": 9000062322,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-de-nchiriat-n-turnior-prima-nchiriere-ac-IDJerx",
+  "chirie": 400,
+  "mp": 50,
+  "etaj": "SECOND",
+  "cartier": "Turnisor",
+  "postat": "1999-02-29"
+ },
+ {
   "id": 10774836,
   "url": "https://www.storia.ro/ro/oferta/apartament-prima-inchiriere-2-camere-43-mp-utili-zona-mihai-viteazul-IDJd1G",
   "chirie": 365,
@@ -1287,15 +1305,6 @@
   "postat": "2026-11-07"
  },
  {
-  "id": 9000062322,
-  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-central-55-mp-IDJbdU",
-  "chirie": 399,
-  "mp": 55,
-  "etaj": "FIRST",
-  "cartier": "Centrul Civic",
-  "postat": "1999-02-29"
- },
- {
   "id": 10761069,
   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-1-mobilat-si-utilat-IDJ9rD",
   "chirie": 360,
@@ -1573,6 +1582,15 @@
   "etaj": "GROUND",
   "cartier": "Hipodrom II",
   "postat": "2026-11-04"
+ },
+ {
+  "id": 9000062322,
+  "url": "https://www.storia.ro/ro/oferta/ap-mobilat-modern-2-camere-decomandat-2-teresa-deventer-IDJ9s3",
+  "chirie": 580,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Tineretului",
+  "postat": "1999-02-29"
  },
  {
   "id": 10753746,
@@ -1968,15 +1986,6 @@
   "mp": 35,
   "etaj": "SECOND",
   "cartier": "Centrul Istoric",
-  "postat": "2026-11-02"
- },
- {
-  "id": 10747028,
-  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-sibiu-mihai-viteazu-lidl-IDJ5Na",
-  "chirie": 420,
-  "mp": 63,
-  "etaj": "NINTH",
-  "cartier": "Hipodrom III",
   "postat": "2026-11-02"
  }
 ]
