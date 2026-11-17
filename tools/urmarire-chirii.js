@@ -49,6 +49,7 @@ function adauga(stare) {
   }
   let lista = JSON.parse(fs.readFileSync(INTRARE, 'utf8'));
   if (typeof lista === 'string') lista = JSON.parse(lista);
+  if (!Array.isArray(lista)) lista = lista.out || lista.anunturi || [];
   const vazute = new Set();
   for (const x of lista) {
     // Cardul poate avea doua sume lipite ("330 €Pretul e negociabil 280"): iau suma din fata lui €

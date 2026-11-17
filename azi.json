@@ -1,9 +1,9 @@
 {
- "generat": "2026-11-17 08:27",
+ "generat": "2026-11-17 08:33",
  "de_la": "2026-11-13",
  "pana_la": "2026-11-17",
  "case_noi": 9,
- "case_trec": 1,
+ "case_trec": 0,
  "din_rezerva": true,
  "din_tot_lista": true,
  "masini_din_rezerva": false,
@@ -130,21 +130,6 @@
  "case": [
   {
    "pret": 180000,
-   "mpu": 112,
-   "curte": 155,
-   "curte_sigura": true,
-   "teren": 112,
-   "zona": "Sibiu",
-   "an": "1970",
-   "creat": "2026-11-15",
-   "repostat": false,
-   "alte": [],
-   "titlu": "Casa cu 4 camere singur in curte de vanzare in Sibiu - zona linistita",
-   "url": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-singur-in-curte-de-vanzare-in-sibiu-zona-linistita-IDJeJ6",
-   "scor": 47
-  },
-  {
-   "pret": 180000,
    "mpu": 90,
    "curte": 387,
    "curte_sigura": false,
@@ -174,6 +159,22 @@
    "titlu": "Casă individuală cu 3 camere, curte , în Sibiu, zona Lupeni",
    "url": "https://www.storia.ro/ro/oferta/cas-individual-cu-3-camere-curte-n-sibiu-zona-lupeni-IDIyH3",
    "scor": 57
+  },
+  {
+   "pret": 198000,
+   "mpu": 112,
+   "curte": 372,
+   "curte_sigura": false,
+   "teren": 450,
+   "zona": "Terezian, Sibiu",
+   "an": "1960",
+   "stare": "ready_to_use",
+   "creat": "2025-07-29",
+   "repostat": true,
+   "alte": [],
+   "titlu": "Casa Individuala I 4 Camere I Acces auto I Curte I Terezian",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-i-4-camere-i-acces-auto-i-curte-i-terezian-IDEqhl",
+   "scor": 56
   }
  ],
  "masini": [
