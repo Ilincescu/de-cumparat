@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-13",
+ "actualizat": "2026-11-17",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -38597,6 +38597,536 @@
     {
      "d": "2026-11-11",
      "p": 13700
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-cu-5-camere-de-vanzare-in-sibiu/00ge885fi87g79f9d38ddeii4288g7eg.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-cu-5-camere-de-vanzare-in-sibiu/00ge885fi87g79f9d38ddeii4288g7eg.html",
+   "t": "Casa individuala cu 5 camere de vanzare in Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 180000
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-noua-120mp-teren-100mp-zona-gusterita/h72129gdg665719id64fid64i3801915.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-noua-120mp-teren-100mp-zona-gusterita/h72129gdg665719id64fid64i3801915.html",
+   "t": "Casa noua 120mp + teren 100mp zona Gusterita",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 205000
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-cu-7-camere-zona-lazaret/50i12f5i37157d8d1h71475f946h70d7.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-cu-7-camere-zona-lazaret/50i12f5i37157d8d1h71475f946h70d7.html",
+   "t": "Casa cu 7 camere zona Lazaret",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 210000
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-mobilata-cu-4-camere-2-bai-si-garaj-in-gusterita/ei4egg0810f07g03174i989gd62f25df.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-mobilata-cu-4-camere-2-bai-si-garaj-in-gusterita/ei4egg0810f07g03174i989gd62f25df.html",
+   "t": "Casa individuala mobilata cu 4 camere 2 bai si garaj in Gusterita",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 229900
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-3-camere-teren-245mp-zona-gusterita/i156ffe818d87gi2d5f341h554619dei.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-3-camere-teren-245mp-zona-gusterita/i156ffe818d87gi2d5f341h554619dei.html",
+   "t": "Casa individuala 3 camere + teren 245mp zona Gusterita",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 240000
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-cu-4-camere-zona-hipodrom-3/1e294f64d4ed7ef7d4hhfe99225gd11g.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-cu-4-camere-zona-hipodrom-3/1e294f64d4ed7ef7d4hhfe99225gd11g.html",
+   "t": "Casa cu 4 camere zona Hipodrom 3",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 250000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-arhitectilor-calea-cisnadiei-3-camere-271267604": {
+   "u": "https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-arhitectilor-calea-cisnadiei-3-camere-271267604",
+   "t": "Casa 3 camere \\ 170 mp curte \\ Arhitectilor - Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 172000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-arhitectilor-calea-cisnadiei-3-camere-273002167": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-arhitectilor-calea-cisnadiei-3-camere-273002167",
+   "t": "Locuinta moderna si curte de 170 mp – Cartierul Arhitectilor Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 172000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-arhitectilor-calea-cisnadiei-4-camere-275493905": {
+   "u": "https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-arhitectilor-calea-cisnadiei-4-camere-275493905",
+   "t": "Casa insiruita de vanzare in Sibiu, 116 mp + 40 mp curte si 2 parcarii",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 180000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-5-camere-276198839": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-5-camere-276198839",
+   "t": "Casa individuala cu 5 camere de vanzare in Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 180000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-arhitectilor-calea-cisnadiei-4-camere-271268214": {
+   "u": "https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-arhitectilor-calea-cisnadiei-4-camere-271268214",
+   "t": "Casa 4 camere \\ 60 mp curte + 2 balcoane\\ Arhitectilor",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 182000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/duplex-de-vanzare-sibiu-central-3-camere-276200928": {
+   "u": "https://www.imobiliare.ro/oferta/duplex-de-vanzare-sibiu-central-3-camere-276200928",
+   "t": "Casa singur in curte 335 mp teren si acces auto in zona Promenada Mall",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 199999
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-sub-arini-3-camere-276201301": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-sub-arini-3-camere-276201301",
+   "t": "Casă individuală,aproape de Parcul Sub Arini|Teren 291 mp |Comision 0%",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 225000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-4-camere-276201294": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-4-camere-276201294",
+   "t": "Casa individuala noua, 110 mp utili, garaj si gradina – Gusterita",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 229900
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276200656": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276200656",
+   "t": "Casa individuala mobilata cu 4 camere 2 bai si garaj in Gusterita",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 229900
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276197753": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276197753",
+   "t": "Casa individuala mobilata cu 4 camere 2 bai si garaj in Gusterita",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 229900
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276203532": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276203532",
+   "t": "Casă 4 camere de vânzare | Sibiu, Gușterița | 120 mp",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 229900
+    }
+   ]
+  },
+  "ID7HR2OC": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-0-9-tce-easy-r-sl-techroad-ID7HR2OC.html",
+   "t": "Dacia Sandero Stepway 0.9 TCe Easy-R SL Techroad",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 8600
+    }
+   ]
+  },
+  "ID7HR2PB": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-1-2-puretech-s-s-bvm6-allure-ID7HR2PB.html",
+   "t": "Peugeot 3008 1.2 PureTech S&S BVM6 Allure",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 9990
+    }
+   ]
+  },
+  "ID7HR2sk": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HR2sk.html",
+   "t": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 10000
+    }
+   ]
+  },
+  "ID7HR2qP": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/toyota-rav-4-ver-2-0p-cvt-awd-dynamic-ID7HR2qP.html",
+   "t": "Toyota RAV4 2.0P CVT AWD Dynamic",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 10000
+    }
+   ]
+  },
+  "ID7HR2G4": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-titanium-ID7HR2G4.html",
+   "t": "Ford Puma 1.0 EcoBoost Titanium",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 10400
+    }
+   ]
+  },
+  "ID7HR2ky": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ver-1-0-turbo-4x2-m6-longitude-ID7HR2ky.html",
+   "t": "Jeep Renegade 1.0 Turbo 4x2 M6 Longitude",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 10999
+    }
+   ]
+  },
+  "ID7HR2DS": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HR2DS.html",
+   "t": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 11000
+    }
+   ]
+  },
+  "ID7HR2G5": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-mhev-140-techno-ID7HR2G5.html",
+   "t": "Renault Captur MHEV 140 Techno",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 11099
+    }
+   ]
+  },
+  "ID7HR2Fp": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-comfort-ID7HR2Fp.html",
+   "t": "Dacia Sandero Stepway ECO-G 100 MT6 Comfort",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 11200
+    }
+   ]
+  },
+  "ID7HQI2B": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-120-cp-6mt-2wd-highway-ID7HQI2B.html",
+   "t": "Hyundai KONA 1.0 T-GDI 120 CP 6MT 2WD Highway",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 11450
+    }
+   ]
+  },
+  "ID7HR2Gb": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-opf-united-ID7HR2Gb.html",
+   "t": "Volkswagen T-Cross 1.0 TSI OPF UNITED",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 11491
+    }
+   ]
+  },
+  "ID7HR1eg": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-titanium-ID7HR1eg.html",
+   "t": "Ford Puma 1.0 EcoBoost Titanium",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 11500
+    }
+   ]
+  },
+  "ID7HR2iv": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-150-edc-prestige-ID7HR2iv.html",
+   "t": "Dacia Duster TCe 150 EDC Prestige",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 11600
+    }
+   ]
+  },
+  "ID7HR2Ed": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-eco-g-100-comfort-ID7HR2Ed.html",
+   "t": "Dacia Duster ECO-G 100 Comfort",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 11650
+    }
+   ]
+  },
+  "ID7HR2Py": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-cvt-extreme-ID7HR2Py.html",
+   "t": "Dacia Sandero Stepway TCe 90 CVT Extreme",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 11900
+    }
+   ]
+  },
+  "ID7HR2rG": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-st-line-ID7HR2rG.html",
+   "t": "Ford Puma 1.0 EcoBoost MHEV ST Line",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 12000
+    }
+   ]
+  },
+  "ID7HR2zU": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-cvt-extreme-ID7HR2zU.html",
+   "t": "Dacia Sandero Stepway TCe 90 CVT Extreme",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 12150
+    }
+   ]
+  },
+  "ID7HR22A": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-titanium-ID7HR22A.html",
+   "t": "Ford Puma 1.0 EcoBoost MHEV Titanium",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 12490
+    }
+   ]
+  },
+  "ID7HQHJv": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-130-eat8-gt-ID7HQHJv.html",
+   "t": "Peugeot 2008 PureTech 130 EAT8 GT",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 12499
+    }
+   ]
+  },
+  "ID7HR2BV": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ID7HR2BV.html",
+   "t": "Ford EcoSport",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 12501
+    }
+   ]
+  },
+  "ID7HR2Cb": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/skoda-kamiq-ver-1-0-tsi-ambition-ID7HR2Cb.html",
+   "t": "Skoda Kamiq 1.0 TSI Ambition",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 12900
+    }
+   ]
+  },
+  "ID7HR2FP": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/skoda-kamiq-ver-1-0-tsi-ambition-ID7HR2FP.html",
+   "t": "Skoda Kamiq 1.0 TSI Ambition",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 13000
+    }
+   ]
+  },
+  "ID7HR2yA": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ID7HR2yA.html",
+   "t": "Suzuki Vitara",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 13450
+    }
+   ]
+  },
+  "ID7HR2j4": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-bvm6-stt-active-pack-ID7HR2j4.html",
+   "t": "Peugeot 2008 1.5 BlueHDI BVM6 STT Active Pack",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 13490
+    }
+   ]
+  },
+  "ID7HR2j1": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-grandland-x-ID7HR2j1.html",
+   "t": "Opel Grandland X",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 13500
+    }
+   ]
+  },
+  "ID7HR2HK": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-eco-g-100-prestige-plus-ID7HR2HK.html",
+   "t": "Dacia Duster ECO-G 100 Prestige Plus",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 13590
+    }
+   ]
+  },
+  "ID7HR2Ny": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HR2Ny.html",
+   "t": "Dacia Duster",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 13700
+    }
+   ]
+  },
+  "ID7HR2gH": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/citroen-c5-aircross-ID7HR2gH.html",
+   "t": "Citroën C5 Aircross",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 13900
+    }
+   ]
+  },
+  "ID7HR2me": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-2wd-prestige-ID7HR2me.html",
+   "t": "Dacia Duster Blue dCi 115 2WD Prestige",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 13990
+    }
+   ]
+  },
+  "ID7HQE6o": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ID7HQE6o.html",
+   "t": "Ford Puma",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 14190
+    }
+   ]
+  },
+  "ID7HR2P2": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-l-puretech-stt-eat8-gt-line-ID7HR2P2.html",
+   "t": "Peugeot 2008 1.2 L PureTech STT EAT8 GT Line",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 14500
+    }
+   ]
+  },
+  "ID7HR2hi": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-st-line-ID7HR2hi.html",
+   "t": "Ford Puma 1.0 EcoBoost MHEV ST Line",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 14500
+    }
+   ]
+  },
+  "ID7HR2HX": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-130-2wd-journey-plus-ID7HR2HX.html",
+   "t": "Dacia Duster TCe 130 2WD Journey +",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 14890
+    }
+   ]
+  },
+  "ID7HR2Cs": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ID7HR2Cs.html",
+   "t": "Ford Kuga",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 14900
+    }
+   ]
+  },
+  "ID7HR2f4": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-stt-eat8-allure-ID7HR2f4.html",
+   "t": "Peugeot 2008 1.5 BlueHDI STT EAT8 Allure",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 14950
+    }
+   ]
+  },
+  "ID7HR2LP": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/skoda-kamiq-ver-1-0-tsi-ambition-ID7HR2LP.html",
+   "t": "Skoda Kamiq 1.0 TSI Ambition",
+   "preturi": [
+    {
+     "d": "2026-11-13",
+     "p": 14990
     }
    ]
   }

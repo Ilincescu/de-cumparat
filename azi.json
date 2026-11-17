@@ -1,17 +1,45 @@
 {
- "generat": "2026-11-13 09:24",
+ "generat": "2026-11-17 08:18",
  "de_la": "2026-11-11",
  "pana_la": "2026-11-13",
  "case_noi": 6,
  "case_trec": 0,
  "din_rezerva": true,
  "din_tot_lista": true,
- "masini_din_rezerva": true,
+ "masini_din_rezerva": false,
  "ap_noi": 22,
  "ap_trec": 6,
  "ap_din_rezerva": false,
- "chirii_din": "2026-11-13",
+ "chirii_din": "2026-11-17",
  "apartamente": [
+  {
+   "alte": [],
+   "pret": 85000,
+   "mpu": 77,
+   "zona": "Centrul Istoric, Sibiu",
+   "creat": "2026-07-17",
+   "stare": "ready_to_use",
+   "chirie": 550,
+   "chirie_din": "Centrul Istoric",
+   "chirie_n": 11,
+   "chirie_mp": [
+    62,
+    92
+   ],
+   "ani": 18.7,
+   "net": 4716,
+   "luni_goale": 1,
+   "cost_total": 88060,
+   "fara_comision": false,
+   "riscuri": [
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament 2 camere, 77 mp si gradina de 30 mp - Zona Centrala",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-77-mp-si-gradina-de-30-mp-zona-centrala-IDHWoh",
+   "scor": 18.672603901611534
+  },
   {
    "alte": [
     {
@@ -29,7 +57,7 @@
    "creat": "2025-08-17",
    "chirie": 350,
    "chirie_din": "oras",
-   "chirie_n": 91,
+   "chirie_n": 63,
    "chirie_mp": [
     31,
     43
@@ -51,66 +79,30 @@
    "scor": 19.496678966789666
   },
   {
-   "alte": [
-    {
-     "pret": 65500,
-     "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-pretabil-investitie-i-lacul-lui-binder-IDB86s"
-    }
-   ],
-   "pret": 65000,
-   "mpu": 40,
-   "zona": "Tiglari, Sibiu",
-   "creat": "2026-09-02",
-   "chirie": 400,
-   "chirie_din": "Tiglari",
-   "chirie_n": 5,
-   "chirie_mp": [
-    32,
-    48
-   ],
-   "ani": 19.8,
-   "net": 3398,
-   "luni_goale": 1,
-   "cost_total": 67340,
-   "fara_comision": false,
-   "riscuri": [
-    "zona din anunț Tiglari, pinul Storia Terezian",
-    "parter",
-    "bloc din 1977"
-   ],
-   "la_casa": false,
-   "nou": false,
-   "titlu": "Apartament 2 camere zona Lacul lui Binder",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lacul-lui-binder-IDIp0J",
-   "scor": 19.817539729252502
-  },
-  {
    "alte": [],
-   "pret": 54000,
-   "mpu": 36,
-   "zona": "Lazaret, Sibiu",
-   "creat": "2024-08-22",
-   "chirie": 350,
+   "pret": 75000,
+   "mpu": 48,
+   "zona": "Gusterita, Sibiu",
+   "creat": "2026-02-17",
+   "stare": "ready_to_use",
+   "chirie": 450,
    "chirie_din": "oras",
-   "chirie_n": 82,
+   "chirie_n": 23,
    "chirie_mp": [
-    31,
-    41
+    41,
+    55
    ],
-   "ani": 20.9,
-   "net": 2680,
-   "luni_goale": 2,
-   "cost_total": 55944,
+   "ani": 20.4,
+   "net": 3804,
+   "luni_goale": 1,
+   "cost_total": 77700,
    "fara_comision": false,
-   "riscuri": [
-    "zona din anunț Lazaret, pinul Storia Strand I",
-    "nu scrie de centrală proprie"
-   ],
+   "riscuri": [],
    "la_casa": false,
    "nou": false,
-   "titlu": "Apartament 2 camere zona Lazaret",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lazaret-IDBcBD",
-   "scor": 20.87462686567164
+   "titlu": "Apartament cu 2 camere in Gusterita",
+   "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-in-gusterita-IDGoIa",
+   "scor": 20.425867507886434
   }
  ],
  "surse": [
@@ -121,16 +113,16 @@
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
    "gasite": 1472,
    "potrivite": 249,
-   "stare": "azi",
-   "veche": false
+   "stare": "acum 4 zile",
+   "veche": true
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-11-13 09:13",
+   "cand": "2026-11-17 08:11",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1666,
-   "potrivite": 380,
+   "gasite": 1668,
+   "potrivite": 375,
    "stare": "azi",
    "veche": false
   }
@@ -198,26 +190,26 @@
    "nou": true
   },
   {
-   "pret": 9990,
-   "model": "Peugeot 3008 1.2 PureTech S&S BVM6 Allure",
-   "an": 2021,
-   "km": 99000,
-   "zona": "Otopeni",
+   "pret": 8900,
+   "model": "Opel Crossland X",
+   "an": 2020,
+   "km": 22584,
+   "zona": "Bucuresti",
    "warn": "Motor cu curea de distributie in baie de ulei (PureTech sau 1.0 EcoBoost) - cere dovada schimbarii ei.",
-   "url": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-1-2-puretech-s-s-bvm6-allure-ID7HR2PB.html",
-   "scor": -1,
+   "url": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ID7HR335.html",
+   "scor": 16,
    "nou": true
   },
   {
-   "pret": 10000,
-   "model": "Toyota RAV4 2.0P CVT AWD Dynamic",
-   "an": 2023,
-   "km": 58000,
-   "zona": "Bucuresti",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/toyota-rav-4-ver-2-0p-cvt-awd-dynamic-ID7HR2qP.html",
-   "scor": 53,
-   "nou": false
+   "pret": 8500,
+   "model": "Opel Crossland",
+   "an": 2021,
+   "km": 74500,
+   "zona": "Oradea",
+   "warn": "Motor cu curea de distributie in baie de ulei (PureTech sau 1.0 EcoBoost) - cere dovada schimbarii ei.",
+   "url": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-ID7HR3hf.html",
+   "scor": 10,
+   "nou": true
   }
  ]
 }
