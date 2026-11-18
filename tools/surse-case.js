@@ -377,7 +377,9 @@ function noteaza(sursa, ce, date) {
       src,
       titlu: curat(x.t),
       descriere: curat(`${x.desc || ''} ${x.params || ''}`),
-      pret: (src === 'facebook' || /€|eur/i.test(x.p || '')) ? +String(x.p).replace(/[^\d]/g, '') || null : null,
+      // Pretul de pe cardul OLX vine lipit de CSS ("229 700 €.css-o2j8v0{...16px...}",
+      // 2026-11-17 si 11-18): fara taiere, cifrele din CSS intrau in pret.
+      pret: (src === 'facebook' || /€|eur/i.test(x.p || '')) ? +String(x.p).split('.css')[0].replace(/[^\d]/g, '') || null : null,
       mpu: nr(/Suprafa[tț]a utila:\s*(\d+)/i, x.params || '') || x.mp || null,
       camere: nr(/Camere:\s*(\d)/i, x.params || '') || x.camere || null,
       url: x.u,
