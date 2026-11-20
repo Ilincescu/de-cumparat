@@ -43,7 +43,9 @@ singur pe cele salvate azi:
     .props.sections - ia sectiunea cu cel mai lung text din
     data.blocks[].segments[].value. Dupa 22+24 de cereri mai incap doar ~25
     deschideri (2026-11-09: 403 dupa 21+24+27): alege intai casele din oras, fara curte comuna/duplex/doua
-    corpuri, cele mai ieftine. Pentru restul ajunge cardul:
+    corpuri, cele mai ieftine. 2026-11-20: 403 deja dupa 22+25+2 -
+    limita variaza, deci salveaza cardurile cu filename INAINTE de
+    deschideri (window.__im) si scrie-le iar dupa. Pentru restul ajunge cardul:
     surse-case.js scoate oricum casele pe care Storia le-a exclus (acelasi pret
     si teren).
  c) Facebook Marketplace -> tools/externe/facebook-raw.json
@@ -63,7 +65,13 @@ singur pe cele salvate azi:
     Descrierea: fetch pe pagina anuntului NU merge fara cont (2026-10-26:
     pagina goala, fara og:description). Merge doar click pe card in pagina
     de cautare: asteapta "Descriere", apasa "Mai mult", ia textul dintre
-    "Descriere" si "Vezi mai multe", apoi history.back(). Dureaza ~6 s pe
+    "Descriere" si "Vezi mai multe", apoi history.back(). Unele anunturi
+    n-au titlul "Descriere": textul e direct sub "Detalii" (dupa "Stare");
+    asteapta deci "Descriere" SAU "Detalii" si taie de la primul gasit
+    (2026-11-20: 5 din 14 ieseau goale). Cardul se cauta derulind de sus
+    pana apare linkul - lista e virtualizata. Prima derulare poate aduce
+    "Recomandarile de azi" (haine, mobila): colecteaza la fiecare pas si
+    pastreaza doar titlurile cu casa/imobil/vila/duplex. Dureaza ~6 s pe
     anunt, deci fa-o doar pentru titlurile care par case de vanzare, in
     mai multe apeluri de sub 2 minute (tine lista in window.__fb), si
     salveaza la final cu filename. window.open e blocat.
@@ -91,7 +99,9 @@ singur pe cele salvate azi:
     https://www.imobiliare.ro/inchirieri-apartamente/judetul-sibiu/sibiu?rooms=2
     browser_evaluate (cu filename): fetch pe &page=2,3... (~22 pagini, 30 pe
     pagina) pana nu mai apar anunturi noi; din fiecare <article>: {u fara
-    ?query, t, p: suma din "N € / luna", mp: din "camere N mp", desc: zona de
+    ?query, t, p: suma din "N € / luna" (numai cu punct ca separator de
+    mii: cardul are inainte "1 / 13" de la poze, si "13 380 €" a iesit 13380
+    pe 2026-11-18), mp: din "camere N mp", desc: zona de
     dupa "/ luna" + slug-ul + textul cardului}. Nu deschide anunturile (403
     dupa ~100 de cereri).
  f) Facebook chirii -> tools/externe/facebook-chirii.json

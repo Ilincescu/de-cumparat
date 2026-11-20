@@ -373,6 +373,9 @@ function filtreazaMasina(m) {
   // oferte-tari.js). Il urcasem pe nesimtite la 11.500 si toate recomandarile
   // ajunsesera peste buget.
   if (!m.p || m.p > 15000) return 'peste buget';
+  // Un SUV din 2020+ nu se vinde sub 3.000: e pret de momeala ("1 €", rata,
+  // avans). 2026-11-20: un BMW X5 din 2026 la 1 € a iesit pe locul 1.
+  if (m.p < 3000) return 'pret nerealist (momeala sau avans)';
   if (m.p > 10000 && !m.tare) return 'peste 10.000 si nu e oferta rara';
   return null;
 }
@@ -450,9 +453,25 @@ const esteNou = x => x.creat && x.creat > referinta.data;
 // doar pe cele postate in aceeasi saptamana.
 // Grupez pe TOATE casele, inclusiv pe cele care pica filtrele. Altfel anuntul
 // care spune defectul e scos inainte de grupare si grupul nu mai afla de el.
+//
+// Legaturile scrise de mana in date.json ("Acelasi imobil ca IDJiCe", puse dupa
+// ce am comparat pozele) trec peste gruparea automata, ca in marcheaza-dubluri.js.
+// 2026-11-20: casa din Lupeni a stat de doua ori in top (IDJiCe si IDIyH3) -
+// o agentie a pus pinul in Gusterita si terenul 122 in loc de 237, deci
+// grupeaza() n-avea cum s-o prinda.
 function indexeazaGrupuri(toate) {
   const dupaUrl = new Map();
   grupeaza(toate).forEach(g => g.anunturi.forEach(a => dupaUrl.set(a.url, g)));
+  const dupaId = new Map(toate.map(x => [idAnunt(x.url), x]));
+  JSON.parse(fs.readFileSync(path.join(RADACINA, 'date.json'), 'utf8')).anunturi.forEach(o => {
+    const m = String(o.warn || '').match(/Acelasi imobil ca (ID[A-Za-z0-9]+)/);
+    const a = m && dupaId.get(idAnunt(o.u)), b = m && dupaId.get(m[1]);
+    const ga = a && dupaUrl.get(a.url), gb = b && dupaUrl.get(b.url);
+    if (!ga || !gb || ga === gb) return;
+    gb.anunturi.forEach(x => { if (!ga.anunturi.includes(x)) ga.anunturi.push(x); });
+    ga.sef = ga.anunturi.reduce((s, x) => ((x.pret || 1e9) < (s.pret || 1e9) ? x : s));
+    ga.anunturi.forEach(x => dupaUrl.set(x.url, ga));
+  });
   return dupaUrl;
 }
 

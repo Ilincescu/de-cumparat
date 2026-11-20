@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-20 08:28",
+ "generat": "2026-11-20 08:32",
  "de_la": "2026-11-18",
  "pana_la": "2026-11-20",
  "case_noi": 4,
@@ -135,7 +135,13 @@
    "an": "1980",
    "creat": "2026-11-19",
    "repostat": false,
-   "alte": [],
+   "alte": [
+    {
+     "pret": 195000,
+     "url": "https://www.storia.ro/ro/oferta/cas-individual-cu-3-camere-curte-n-sibiu-zona-lupeni-IDIyH3",
+     "creat": "2026-09-16"
+    }
+   ],
    "titlu": "Casa individuala de vanzare cu teren 237 mp garaj in zona Lupeni Sibiu",
    "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-cu-teren-237-mp-garaj-in-zona-lupeni-sibiu-IDJiCe",
    "scor": 27
@@ -157,34 +163,23 @@
    "scor": 80
   },
   {
-   "pret": 195000,
-   "mpu": 121,
-   "curte": 160,
-   "curte_sigura": true,
-   "teren": 240,
-   "zona": "Lupeni, Sibiu",
+   "pret": 198000,
+   "mpu": 112,
+   "curte": 372,
+   "curte_sigura": false,
+   "teren": 450,
+   "zona": "Terezian, Sibiu",
    "an": "1960",
    "stare": "ready_to_use",
-   "creat": "2026-09-16",
+   "creat": "2025-07-29",
    "repostat": true,
    "alte": [],
-   "titlu": "Casă individuală cu 3 camere, curte , în Sibiu, zona Lupeni",
-   "url": "https://www.storia.ro/ro/oferta/cas-individual-cu-3-camere-curte-n-sibiu-zona-lupeni-IDIyH3",
-   "scor": 57
+   "titlu": "Casa Individuala I 4 Camere I Acces auto I Curte I Terezian",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-i-4-camere-i-acces-auto-i-curte-i-terezian-IDEqhl",
+   "scor": 56
   }
  ],
  "masini": [
-  {
-   "pret": 1,
-   "model": "BMW X5 xDrive40i",
-   "an": 2026,
-   "km": 9600,
-   "zona": "Tulcea",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/bmw-x5-ver-xdrive40i-ID7HR4LO.html",
-   "scor": 108,
-   "nou": true
-  },
   {
    "pret": 10000,
    "model": "Toyota RAV4 2.0P CVT AWD Dynamic",
@@ -205,6 +200,17 @@
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQtxR.html",
    "scor": 45,
+   "nou": false
+  },
+  {
+   "pret": 6690,
+   "model": "Dacia Sandero Stepway",
+   "an": 2020,
+   "km": 79000,
+   "zona": "Selimbar",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXqa.html",
+   "scor": 43,
    "nou": false
   }
  ]

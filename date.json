@@ -653,8 +653,9 @@
    "c": "proprie",
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/cas-individual-cu-3-camere-curte-n-sibiu-zona-lupeni-IDIyH3",
-   "warn": "Detalii neverificate in descriere.",
-   "d": "2026-11-13"
+   "warn": "Acelasi imobil ca IDJiCe (194.990, TABOO): aceeasi mobila, aceeasi pivnita boltita, aceeasi curte cu vita - comparat pe poze 2026-11-20. Demisol cu bucatarie si o camera, parter cu 3 camere.",
+   "d": "2026-11-13",
+   "dup": "IDJiCe"
   },
   {
    "k": "casa",
@@ -15433,7 +15434,8 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-cu-teren-237-mp-garaj-in-zona-lupeni-sibiu-IDJiCe",
    "warn": null,
-   "d": "2026-11-20"
+   "d": "2026-11-20",
+   "alte": 1
   },
   {
    "k": "casa",
