@@ -1,16 +1,16 @@
 {
- "generat": "2026-11-18 08:45",
- "de_la": "2026-11-17",
- "pana_la": "2026-11-18",
- "case_noi": 0,
- "case_trec": 0,
+ "generat": "2026-11-20 08:28",
+ "de_la": "2026-11-18",
+ "pana_la": "2026-11-20",
+ "case_noi": 4,
+ "case_trec": 1,
  "din_rezerva": true,
  "din_tot_lista": true,
  "masini_din_rezerva": true,
- "ap_noi": 0,
+ "ap_noi": 20,
  "ap_trec": 0,
  "ap_din_rezerva": false,
- "chirii_din": "2026-11-18",
+ "chirii_din": "2026-11-20",
  "apartamente": [
   {
    "alte": [],
@@ -21,7 +21,7 @@
    "stare": "ready_to_use",
    "chirie": 350,
    "chirie_din": "oras",
-   "chirie_n": 5,
+   "chirie_n": 6,
    "chirie_mp": [
     26,
     35
@@ -64,8 +64,8 @@
    ],
    "la_casa": false,
    "nou": false,
-   "titlu": "Apartament 2 camere, 77 mp si gradina de 30 mp - Zona Centrala",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-77-mp-si-gradina-de-30-mp-zona-centrala-IDHWoh",
+   "titlu": "Apartament cu 2 camere-77mp utili+gradina+pivnita+debara | 1100€/mp",
+   "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-77mp-utili-gradina-pivnita-debara-1100EUR-mp-IDHWoh",
    "scor": 18.672603901611534
   },
   {
@@ -81,7 +81,7 @@
    "creat": "2026-11-13",
    "chirie": 350,
    "chirie_din": "oras",
-   "chirie_n": 5,
+   "chirie_n": 6,
    "chirie_mp": [
     26,
     35
@@ -92,7 +92,7 @@
    "cost_total": 51790,
    "fara_comision": false,
    "riscuri": [
-    "zona din anunț Tiglari, pinul Storia Sibiu",
+    "zona din anunț Tiglari, pinul Storia Veteranilor De Razboi",
     "parter"
    ],
    "la_casa": false,
@@ -106,25 +106,40 @@
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-11-18 08:35",
+   "cand": "2026-11-20 08:21",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1469,
-   "potrivite": 248,
+   "gasite": 1468,
+   "potrivite": 253,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-11-18 08:36",
+   "cand": "2026-11-20 08:21",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1679,
-   "potrivite": 372,
+   "gasite": 1716,
+   "potrivite": 376,
    "stare": "azi",
    "veche": false
   }
  ],
  "case": [
+  {
+   "pret": 194990,
+   "mpu": 122,
+   "curte": 134,
+   "curte_sigura": true,
+   "teren": 122,
+   "zona": "Gusterita, Sibiu",
+   "an": "1980",
+   "creat": "2026-11-19",
+   "repostat": false,
+   "alte": [],
+   "titlu": "Casa individuala de vanzare cu teren 237 mp garaj in zona Lupeni Sibiu",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-cu-teren-237-mp-garaj-in-zona-lupeni-sibiu-IDJiCe",
+   "scor": 27
+  },
   {
    "pret": 180000,
    "mpu": 90,
@@ -156,35 +171,19 @@
    "titlu": "Casă individuală cu 3 camere, curte , în Sibiu, zona Lupeni",
    "url": "https://www.storia.ro/ro/oferta/cas-individual-cu-3-camere-curte-n-sibiu-zona-lupeni-IDIyH3",
    "scor": 57
-  },
-  {
-   "pret": 198000,
-   "mpu": 112,
-   "curte": 372,
-   "curte_sigura": false,
-   "teren": 450,
-   "zona": "Terezian, Sibiu",
-   "an": "1960",
-   "stare": "ready_to_use",
-   "creat": "2025-07-29",
-   "repostat": true,
-   "alte": [],
-   "titlu": "Casa Individuala I 4 Camere I Acces auto I Curte I Terezian",
-   "url": "https://www.storia.ro/ro/oferta/casa-individuala-i-4-camere-i-acces-auto-i-curte-i-terezian-IDEqhl",
-   "scor": 56
   }
  ],
  "masini": [
   {
-   "pret": 10000,
-   "model": "BMW X5",
-   "an": 2025,
-   "km": 45000,
-   "zona": "Botosani",
+   "pret": 1,
+   "model": "BMW X5 xDrive40i",
+   "an": 2026,
+   "km": 9600,
+   "zona": "Tulcea",
    "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/bmw-x5-OLX_ID7HR4eo.html",
-   "scor": 73,
-   "nou": false
+   "url": "https://www.autovit.ro/autoturisme/anunt/bmw-x5-ver-xdrive40i-ID7HR4LO.html",
+   "scor": 108,
+   "nou": true
   },
   {
    "pret": 10000,
