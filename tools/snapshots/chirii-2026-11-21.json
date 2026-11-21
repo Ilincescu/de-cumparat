@@ -1,0 +1,178 @@
+[
+ {
+  "cartier": "Dumbravii",
+  "nv": 5,
+  "nc": 3,
+  "pret": 109900,
+  "ppm": 2290,
+  "chirie": 600,
+  "ani": 15.3,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/dumbravii",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/dumbravii"
+ },
+ {
+  "cartier": "Gusterita",
+  "nv": 3,
+  "nc": 3,
+  "pret": 87000,
+  "ppm": 1842,
+  "chirie": 450,
+  "ani": 16.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/gusterita",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/gusterita"
+ },
+ {
+  "cartier": "Hipodrom III",
+  "nv": 19,
+  "nc": 42,
+  "pret": 77000,
+  "ppm": 2000,
+  "chirie": 350,
+  "ani": 18.3,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-iii",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-iii"
+ },
+ {
+  "cartier": "Tiglari",
+  "nv": 3,
+  "nc": 6,
+  "pret": 91000,
+  "ppm": 2275,
+  "chirie": 400,
+  "ani": 19,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/tiglari",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/tiglari"
+ },
+ {
+  "cartier": "Hipodrom II",
+  "nv": 14,
+  "nc": 12,
+  "pret": 86000,
+  "ppm": 1855,
+  "chirie": 350,
+  "ani": 20.5,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-ii",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-ii"
+ },
+ {
+  "cartier": "Lazaret",
+  "nv": 4,
+  "nc": 4,
+  "pret": 105000,
+  "ppm": 1998,
+  "chirie": 415,
+  "ani": 21.1,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/lazaret",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/lazaret"
+ },
+ {
+  "cartier": "Terezian",
+  "nv": 8,
+  "nc": 12,
+  "pret": 109945,
+  "ppm": 1929,
+  "chirie": 425,
+  "ani": 21.6,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/terezian",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/terezian"
+ },
+ {
+  "cartier": "Trei Stejari",
+  "nv": 5,
+  "nc": 10,
+  "pret": 109990,
+  "ppm": 2000,
+  "chirie": 420,
+  "ani": 21.8,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/trei-stejari",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/trei-stejari"
+ },
+ {
+  "cartier": "Hipodrom I",
+  "nv": 22,
+  "nc": 13,
+  "pret": 101999,
+  "ppm": 2118,
+  "chirie": 380,
+  "ani": 22.4,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-i",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-i"
+ },
+ {
+  "cartier": "Centrul Civic",
+  "nv": 5,
+  "nc": 9,
+  "pret": 107900,
+  "ppm": 2036,
+  "chirie": 399,
+  "ani": 22.5,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/centrul-civic",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/centrul-civic"
+ },
+ {
+  "cartier": "Turnisor",
+  "nv": 9,
+  "nc": 20,
+  "pret": 109900,
+  "ppm": 2036,
+  "chirie": 400,
+  "ani": 22.9,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/turnisor",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/turnisor"
+ },
+ {
+  "cartier": "Fara cartier",
+  "nv": 19,
+  "nc": 19,
+  "pret": 114900,
+  "ppm": 2263,
+  "chirie": 400,
+  "ani": 23.9,
+  "linkVanzare": null,
+  "linkChirie": null
+ },
+ {
+  "cartier": "Vasile Aaron",
+  "nv": 24,
+  "nc": 8,
+  "pret": 96000,
+  "ppm": 2037,
+  "chirie": 330,
+  "ani": 24.2,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/vasile-aaron",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/vasile-aaron"
+ },
+ {
+  "cartier": "Strand I",
+  "nv": 6,
+  "nc": 15,
+  "pret": 109000,
+  "ppm": 1912,
+  "chirie": 370,
+  "ani": 24.5,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/strand-i",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/strand-i"
+ },
+ {
+  "cartier": "Centrul Istoric",
+  "nv": 24,
+  "nc": 24,
+  "pret": 125000,
+  "ppm": 2453,
+  "chirie": 400,
+  "ani": 26,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/centrul-istoric",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/centrul-istoric"
+ },
+ {
+  "cartier": "Hipodrom IV",
+  "nv": 6,
+  "nc": 5,
+  "pret": 119900,
+  "ppm": 2556,
+  "chirie": 350,
+  "ani": 28.5,
+  "linkVanzare": "https://www.storia.ro/ro/rezultate/vanzare/apartament/sibiu/sibiu/hipodrom-iv",
+  "linkChirie": "https://www.storia.ro/ro/rezultate/inchiriere/apartament/sibiu/sibiu/hipodrom-iv"
+ }
+]
