@@ -46,6 +46,13 @@ const IGRASIE = /(?<!(f[aă]r[aă]|nu\s+(are|prezint[aă]|exist[aă])|lips[aă]|
 // cu pavaj". Casa din Lupeni a ajuns asa pe locul 2, cu curtea betonata toata.
 const BETON = /(curte|gr[aă]din[aă]|teren)[^.!?]{0,60}(pavaj|pavat|betonat|dale de beton)|(pavaj|pavat|betonat)[^.!?]{0,40}(curte|gr[aă]din[aă])/i;
 const VERDE = /gr[aă]din[aă]|curte verde|spa[tț]iu verde|pomi fructiferi|iarb[aă]|livad[aă] [iî]n curte/i;
+// Mihai, 2026-11-22: demisolul e de evitat - "friguros, fara lumina, risc de
+// mucegai". Casa ramane in liste, dar intra in top doar la un pret exceptional.
+// Casa de pe locul 1 din 21 nov (Lupeni, IDJiCe) avea intrarea si un dormitor la
+// demisol. Pragul: din cele 41 de case care au trecut de filtre intre 25 sep si
+// 21 nov (mediana 180.000), doar 8 au fost la 150.000 sau mai putin.
+const DEMISOL = /(?<!(f[aă]r[aă]|nu\s+are)\s+)demisol|\bD\s*\+\s*P\b/i;
+const PRET_DEMISOL = 150000;
 
 // Curea de distributie in baie de ulei: regula e in curea-ulei.js, comuna cu scan.js.
 const { CUREA_IN_ULEI } = require('./curea-ulei');
@@ -490,8 +497,13 @@ function alege(lista, index) {
     // un singur anunt al proprietatii cade pe un filtru tare, cade toata.
     const caderi = g.anunturi.map(filtreazaCasa).filter(Boolean);
     if (caderi.length) { picate.push({ x: g.sef, motiv: caderi[0] + ' (din alt anunț al aceleiași case)' }); return; }
+    // Si demisolul e al casei: ajunge sa-l scrie un singur agent. Pretul e al
+    // celui mai ieftin anunt, ca in clasament.
+    const demisol = g.anunturi.some(a => DEMISOL.test((a.titlu || '') + ' ' + (a.descriere || '')));
+    if (demisol && g.sef.pret > PRET_DEMISOL) { picate.push({ x: g.sef, motiv: `demisol, peste ${PRET_DEMISOL} €` }); return; }
     grupuri.push({
       x: g.sef,
+      demisol,
       p: punctajCasa(g.sef),
       alte: g.anunturi.filter(a => a.url !== g.sef.url)
         .map(a => ({ pret: a.pret, url: a.url, creat: a.creat }))
@@ -593,9 +605,10 @@ console.log(`\nCASE — ${caseNoi.length} postate în interval, ${trec.length} t
 if (!topCase.length) console.log('  nimic nou care să bifeze criteriile.\n');
 else if (dinTotLista) console.log('  Prea puține noi. Completat cu cele mai bune de pe toată lista:\n');
 else if (dinRezerva) console.log(`  Nimic postat în interval. Cele mai bune 3 de după ${SAPT}:\n`);
-topCase.forEach(({ x, alte }, i) => {
+topCase.forEach(({ x, alte, demisol }, i) => {
   const c = curteLibera(x);
   console.log(`${i + 1}. ${x.pret.toLocaleString('ro-RO')} € · ${x.mpu} mp utili · curte ${c.sigur ? '' : '~'}${c.mp} mp · ${x.zona}`);
+  if (demisol) console.log(`   ! are demisol - intră doar pentru că e sub ${PRET_DEMISOL.toLocaleString('ro-RO')} €`);
   console.log(`   ${String(x.titlu).slice(0, 66)}`);
   const repus = !dinRezerva && vazute.has(idAnunt(x.url)) ? ' · repostat, îl aveam deja' : '';
   console.log(`   postat ${x.creat}${x.stare === 'ready_to_use' ? ' · dat ca gata de locuit' : ''}${repus}`);
@@ -662,10 +675,10 @@ if (scrie) {
       titlu: x.titlu, url: x.url, scor: p,
     })),
     surse: surse(),
-    case: topCase.map(({ x, p, alte }) => {
+    case: topCase.map(({ x, p, alte, demisol }) => {
       const c = curteLibera(x);
       return {
-        pret: x.pret, mpu: x.mpu, curte: c.mp, curte_sigura: c.sigur, teren: x.teren,
+        pret: x.pret, mpu: x.mpu, curte: c.mp, curte_sigura: c.sigur, teren: x.teren, demisol,
         zona: x.zona, an: x.an, stare: x.stare, creat: x.creat,
         repostat: vazute.has(idAnunt(x.url)), alte,
         titlu: x.titlu, url: x.url, scor: p,

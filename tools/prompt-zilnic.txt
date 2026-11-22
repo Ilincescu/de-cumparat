@@ -279,6 +279,8 @@ CASA        oras Sibiu, toate cartierele. Curte PROPRIE confirmata in
             descriere, minim 100 mp. Minim 50 mp utili, dar tinta e o casa
             MICA cu curte, nu maximul de metri: 70-100 mp utili e banda buna.
             Fara doua corpuri. De renovat e acceptabil, bomba nu.
+            Demisolul e de evitat (frig, lumina putina, risc de mucegai):
+            azi.js nu-l pune in top decat sub 150.000 €.
 
 APARTAMENT  2 camere. Fara mansarda. Fara dezvoltator. Fara garsoniere -
             daca are o singura camera sau sub 30 mp, nu intra in lista.

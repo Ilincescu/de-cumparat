@@ -815,6 +815,7 @@
           +esc(c.zona)+'</a><span class="det">'+c.mpu+' mp utili · curte '
           +(c.curte_sigura?"":"~")+c.curte+' mp · postat '+esc(c.creat)
           +(c.stare==="ready_to_use"?' · dat ca gata de locuit':'')+'</span>');
+        if(c.demisol) h.push('<span class="alte">Are demisol: e în top doar pentru că prețul e sub 150.000 €.</span>');
         if(c.alte&&c.alte.length){
           var max=c.alte[c.alte.length-1].pret;
           h.push('<span class="alte">Aceeași casă la încă '+c.alte.length
