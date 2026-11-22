@@ -196,3 +196,14 @@ cu demisol intră în top doar sub 150.000 €.
 
 **Nu vrea chiriaș în curte.** A spus-o pe 3 octombrie 2026. Garsoniera din Berzelor nu
 mai e un argument.
+
+## Excursia în Asia, primăvara 2027 (primavara-2027.html)
+
+Ce a hotărât Mihai pe 2026-11-22. Pagina și sarcina de prețuri la două zile pornesc de aici.
+
+- **Doar Asia.** Fără Egipt și fără Canare: le-am pus fiindcă cererea zicea „sau undeva cald”, iar Mihai le-a scos („de ce îmi dai Egipt?”; Canarele, 4 săptămâni, „nu e o idee bună”).
+- **Merg Mihai și Raluca, cam 4 săptămâni,** oricând între 7 februarie și începutul lui aprilie 2027. Aprobările de la muncă din februarie nu sunt o piedică.
+- **Prețul se arată de persoană, dus-întors,** nu pentru doi.
+- **Zborurile:** sosire într-un oraș și întoarcere din altul, o escală, fără Qatar și fără escală în Orientul Mijlociu; Istanbulul e acceptat (31 octombrie, pagina Black Friday).
+- **Înainte de o pagină nouă, caut în repo ce s-a mai căutat pe subiect.** Pagina asta a pornit de la zero, deși zborurile erau deja căutate pe black-friday.html.
+
