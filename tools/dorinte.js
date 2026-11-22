@@ -25,6 +25,11 @@ const DORINTE = [
     url: p => 'https://www.autovit.ro/autoturisme/ford?search%5Bfilter_enum_color%5D=green'
       + `&search%5Bfilter_float_year%3Afrom%5D=2018&page=${p}`,
     pastreaza: x => /\b(kuga|puma|ecosport|edge|explorer|bronco)\b/i.test(x.m),
+    // Culoarea e cea bifata de vanzator pe Autovit, nu cea din poze. Anunturile
+    // care in poze nu sunt verzi se scot aici, pe ID, cu motivul.
+    nuSunt: {
+      ID7HQQ9e: 'Puma ST Line din Iasi: in poze nu e verde (Mihai, 2026-11-22)',
+    },
   },
   {
     id: 'mg-ehs-phev',
@@ -39,6 +44,7 @@ const DORINTE = [
 ];
 
 const numar = t => parseInt(String(t || '').replace(/[^\d]/g, ''), 10) || null;
+const idAnunt = u => ((String(u).match(/-(ID[A-Za-z0-9]+)\.html/) || [])[1]) || String(u);
 
 async function pagina(url) {
   const h = await (await fetch(url, { headers: UA, signal: AbortSignal.timeout(20000) })).text();
@@ -73,7 +79,7 @@ async function cauta(dorinta) {
       z: (n.location && n.location.city && n.location.city.name) || '', u: n.url,
       d: (n.createdAt || '').slice(0, 10),
     };
-  }).filter(x => x.p && dorinta.pastreaza(x)).sort((a, b) => a.p - b.p);
+  }).filter(x => x.p && dorinta.pastreaza(x) && !(dorinta.nuSunt || {})[idAnunt(x.u)]).sort((a, b) => a.p - b.p);
 }
 
 (async () => {
