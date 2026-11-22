@@ -3755,8 +3755,9 @@
    "c": null,
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-parter-37-mpu-tiglari-IDFnVg",
-   "warn": null,
-   "d": "2026-10-04"
+   "warn": "Acelasi apartament ca IDJejJ si IDEAhs (aceleasi poze), la MAAC, 53.000 EUR.",
+   "d": "2026-10-04",
+   "dup": "IDJejJ"
   },
   {
    "k": "ap",
@@ -3890,8 +3891,9 @@
    "c": null,
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-2-camere-sibiu-tigllari-IDEAhs",
-   "warn": null,
-   "d": "2026-10-04"
+   "warn": "Acelasi apartament ca IDJejJ (TABOO, 49.990 EUR): aceleasi camere, mobila si baie in poze; aici scrie 37 mp, acolo 30 mp - suprafata reala e in CF. Pare anuntul proprietarului (telefon in descriere).",
+   "d": "2026-10-04",
+   "dup": "IDJejJ"
   },
   {
    "k": "ap",

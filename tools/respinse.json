@@ -135,6 +135,12 @@
  ],
  "apartamente": [
   {
+   "id": "IDIvVP",
+   "ce": "Apartament 2 camere, parter, Tiglari langa Simpa, 1985, MAAC",
+   "pret": 47000,
+   "motiv": "practic garsoniera: releveul din poze da 29,9 mp utili (sub 30); camera de 9,6 mp e de trecere prin cea de 12,8 mp, bucataria are 3,2 mp (Mihai, 2026-11-22)"
+  },
+  {
    "id": "IDIZcb",
    "ce": "Apartament 2 camere decomandate, 67 mp, zona Strand 2 (Storia il pune la Tilisca)",
    "pret": 89000,

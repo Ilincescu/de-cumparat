@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-22 09:45",
+ "generat": "2026-11-22 10:16",
  "de_la": "2026-11-21",
  "pana_la": "2026-11-22",
  "case_noi": 0,
@@ -12,34 +12,6 @@
  "ap_din_rezerva": false,
  "chirii_din": "2026-11-22",
  "apartamente": [
-  {
-   "alte": [],
-   "pret": 47000,
-   "mpu": 30,
-   "zona": "Tiglari, Sibiu",
-   "creat": "2026-09-14",
-   "stare": "ready_to_use",
-   "chirie": 350,
-   "chirie_din": "oras",
-   "chirie_n": 6,
-   "chirie_mp": [
-    26,
-    35
-   ],
-   "ani": 17.7,
-   "net": 2750,
-   "luni_goale": 2,
-   "cost_total": 48692,
-   "fara_comision": false,
-   "riscuri": [
-    "parter"
-   ],
-   "la_casa": false,
-   "nou": false,
-   "titlu": "Apartament 2 camere parter Zona Tiglari",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-parter-zona-tiglari-IDIvVP",
-   "scor": 17.70618181818182
-  },
   {
    "alte": [
     {
@@ -100,6 +72,34 @@
    "titlu": "Apartament 64 mpu lângă Parcul Belvedere – Comision 0%",
    "url": "https://www.storia.ro/ro/oferta/apartament-64-mpu-lng-parcul-belvedere-comision-0-IDI0sk",
    "scor": 20.00749063670412
+  },
+  {
+   "alte": [],
+   "pret": 54000,
+   "mpu": 36,
+   "zona": "Lazaret, Sibiu",
+   "creat": "2024-08-22",
+   "chirie": 340,
+   "chirie_din": "oras",
+   "chirie_n": 58,
+   "chirie_mp": [
+    31,
+    41
+   ],
+   "ani": 21.6,
+   "net": 2588,
+   "luni_goale": 2,
+   "cost_total": 55944,
+   "fara_comision": false,
+   "riscuri": [
+    "zona din anunț Lazaret, pinul Storia Strand I",
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament 2 camere zona Lazaret",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lazaret-IDBcBD",
+   "scor": 21.616692426584233
   }
  ],
  "surse": [

@@ -30,7 +30,7 @@ suficientă — trebuie construit ceva care s-o facă imposibilă.
 | Cifre default pe categorie, nu pe casa aia | 4 | regula de recalculare pe linii |
 | Verdicte despre structură din poze | 3 | `tools/verifica.js` + afirmații interzise |
 | Clasament pe €/mp | 3 | regula de cost total |
-| Text de agenție repetat ca fapt | 3 | regula de citare a sursei |
+| Text de agenție repetat ca fapt | 4 | regula de citare a sursei; verificarea camerelor și a suprafeței în poze la top (prompt-zilnic.txt) |
 | I-am propus case pe care le respinsese | 3 | memoria `case-respinse-de-mihai`, verificată de `verifica.js`; `azi.js` respinge și pe proprietate (cartier + mp + preț), fiindcă aceeași casă revine cu alt ID |
 | Potrivire pe titlu, nu pe ID | 2 | regula de ID |
 
@@ -162,6 +162,7 @@ Fiecare are un filtru sau un pas în cod; aici e motivul.
 - **Etajul 4 sau mai sus.** „Soția mea nu vrea la etajul 4.” Etajul se ia din fișa Storia, nu din text (IDIXZT scria „parter” și era la 4).
 - **La roșu** nu e locuibil (IDHjZt).
 - **Sub 4 poze.** „Dubios rău, nu văd poze” (IDIDTY: 3 poze, una schița). Fără poze nu se poate face verificarea.
+- **Sub 30 mp pe releveu sau o singură cameră în poze**, chiar dacă fișa scrie „2 camere, 30 mp”. Releveul bate fișa (IDIvVP, 2026-11-22: 29,9 mp, camera mică de trecere, bucătărie de 3,2 mp — „e garsonieră, nu apartament”).
 - **Servitute / trecere prin curtea altuia** (Turnișor 98.000 €, la case).
 
 **Cum se calculează**
@@ -173,6 +174,7 @@ Fiecare are un filtru sau un pas în cod; aici e motivul.
 **Același apartament, mai multe anunțuri**
 - Se grupează înainte de clasament: același etaj, mp la ±1, același cartier, preț la ±5%. Țiglari 37 mp era în 6 anunțuri (proprietar, Blitz, OLX, I-Imob, MAAC), între 49.900 și 53.000 €.
 - **Se compară toate descrierile**, nu se ia una: suprafața era 34 / 36 / 37 / 41 mp, anul 1980 / 1986 / 1997. Cifra adevărată e în extrasul CF, nu în anunț.
+- **Se compară și pozele din top.** Același apartament a ieșit pe locurile 1 și 3 (IDJejJ 30 mp, IDEAhs 37 mp, 2026-11-22): gruparea pe mp la ±1 nu l-a prins. Legătura se pune în date.json cu `dup`.
 
 **Proprietarul direct**
 - Pentru fiecare din top 3 se caută anunțul proprietarului: Publi24 (`?commercial=false`), OLX (persoane fizice), Facebook Marketplace.

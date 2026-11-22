@@ -162,7 +162,18 @@ niveluri, mansarda - IDIZWp scria "parter", IDHj86 "la casa", amandoua aveau sca
 de lemn la etaj), subsol/demisol si dezumidificatoare in camere. Toate sunt
 blocker. Daca vezi ceva din ele, adauga anuntul in tools/respinse.json (case
 sau apartamente) cu motivul "igrasie in poze", ruleaza node tools/azi.js --scrie
-si repeta pana ai trei curate. Daca verifica.js da 403 (Storia blocheaza
+si repeta pana ai trei curate.
+VERIFICA IN POZE CE SCRIE ANUNTUL, nu doar defectele (Mihai, 2026-11-22):
+ - La apartamente, camerele si suprafata. Releveul (schita cu suprafete) bate
+   fisa si textul. Sub 30 mp utili pe releveu inseamna garsoniera: iese, in
+   respinse, cu cifra in motiv. "2 camere" inseamna doua camere de locuit
+   vazute in poze; o camera plus bucatarie sau nisa nu e 2 camere. O regula
+   care exista se aplica, nu se lasa ca "decizia e a ta" (IDIvVP: 29,9 mp pe
+   releveu, camera mica de trecere, bucatarie 3,2 mp, lasat pe locul 1).
+ - Compara pozele intre anunturile din top. Acelasi apartament poate aparea cu
+   alta suprafata si alt pret (IDJejJ 30 mp si IDEAhs 37 mp, aceleasi camere):
+   leaga-le in date.json cu "dup": "<ID-ul celui mai ieftin>" si un warn, ca
+   sa nu ocupe doua locuri. Daca verifica.js da 403 (Storia blocheaza
 IP-ul si din browser cateva minute dupa scanare - 2026-11-03), uita-te in
 arhiva/poze/<ID>/, unde arhiva.js tine primele 8 poze; spune in raport cate
 din cate ai vazut si ce anunt n-are deloc poze arhivate. Daca pozele nu se pot descarca, spune-o in raport.
