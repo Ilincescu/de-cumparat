@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-22 17:56",
+ "generat": "2026-11-22 17:58",
  "de_la": "2026-11-21",
  "pana_la": "2026-11-22",
  "case_noi": 0,
@@ -179,17 +179,6 @@
  "masini": [
   {
    "pret": 9999,
-   "model": "Renault Captur TCe 100 BUSINESS EDITION",
-   "an": 2021,
-   "km": 18169,
-   "zona": "Pitesti",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-100-business-edition-ID7HR5bn.html",
-   "scor": 49,
-   "nou": false
-  },
-  {
-   "pret": 9999,
    "model": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
    "an": 2021,
    "km": 29763,
@@ -208,6 +197,17 @@
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXqa.html",
    "scor": 43,
+   "nou": false
+  },
+  {
+   "pret": 9257,
+   "model": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
+   "an": 2022,
+   "km": 82000,
+   "zona": "Bucuresti",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HM8jX.html",
+   "scor": 39,
    "nou": false
   }
  ]

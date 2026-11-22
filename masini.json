@@ -3166,14 +3166,14 @@
   {
    "m": "Renault Captur TCe 100 BUSINESS EDITION",
    "an": 2021,
-   "km": 18169,
+   "km": 184169,
    "cp": 100,
    "f": "benzina",
    "p": 9999,
    "z": "Pitesti",
    "src": "autovit",
    "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-100-business-edition-ID7HR5bn.html",
-   "warn": null,
+   "warn": "Kilometrajul din anunt e 184.169 km; in lista ajunsese 18.169 (verificat pe Autovit, 2026-11-22). Vanzatorul pare parc auto (factura, credit).",
    "d": "2026-11-20",
    "avc": "2026-11-21"
   },
