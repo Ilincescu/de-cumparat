@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-21",
+ "actualizat": "2026-11-22",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -55,7 +55,7 @@
      "p": 158000
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 165000
     }
    ]
@@ -503,7 +503,7 @@
      "p": 199990
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 185000
     }
    ]
@@ -1803,7 +1803,7 @@
      "p": 75000
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 92000
     }
    ]
@@ -3005,7 +3005,7 @@
      "p": 77000
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 110000
     }
    ]
@@ -3017,6 +3017,10 @@
     {
      "d": "2026-09-13",
      "p": 68000
+    },
+    {
+     "d": "2026-09-25",
+     "p": 55000
     },
     {
      "d": "2026-09-28",
@@ -3197,7 +3201,7 @@
      "p": 85900
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 81990
     },
     {
@@ -4453,7 +4457,7 @@
      "p": 89000
     },
     {
-     "d": "2026-10-04",
+     "d": "2026-09-25",
      "p": 84999
     }
    ]
@@ -32401,6 +32405,10 @@
     {
      "d": "2026-10-26",
      "p": 99490
+    },
+    {
+     "d": "2026-11-22",
+     "p": 91500
     }
    ]
   },
@@ -42219,6 +42227,256 @@
     {
      "d": "2026-11-20",
      "p": 897
+    }
+   ]
+  },
+  "IDJjuG": {
+   "u": "https://www.storia.ro/ro/oferta/casa-in-zona-mihai-viteazu-ideal-investitie-disponibila-imediat-IDJjuG",
+   "t": "Casa in zona Mihai Viteazu - ideal investitie, disponibila imediat",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 107000
+    }
+   ]
+  },
+  "IDJjwI": {
+   "u": "https://www.storia.ro/ro/oferta/vnd-apartament-situat-la-etajul-2-din-2-ntr-o-vil-din-zona-turnior-IDJjwI",
+   "t": "Vând apartament situat la etajul 2 din 2 într-o vilă din zona Turnișor",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 85000
+    }
+   ]
+  },
+  "IDJjs0": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-de-vnzare-sibiu-ultracentral-30-mp-IDJjs0",
+   "t": "Garsonieră de vânzare | Sibiu, Ultracentral | 30 mp",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 71500
+    }
+   ]
+  },
+  "IDJjrM": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-de-vnzare-sibiu-trand-21-mp-IDJjrM",
+   "t": "Garsonieră de vânzare | Sibiu, Ștrand | 21 mp",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 49600
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-ultracentral-4-camere-276135629": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-ultracentral-4-camere-276135629",
+   "t": "Casă 4 camere în centrul istoric al Sibiului – Str. Bastionului",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 195000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-calea-dumbravii-4-camere-276234244": {
+   "u": "https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-calea-dumbravii-4-camere-276234244",
+   "t": "Casa cu 4 camere zona Hipodrom III",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 250000
+    }
+   ]
+  },
+  "ID7HR5cu": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-titanium-ID7HR5cu.html",
+   "t": "Ford EcoSport 1.0 EcoBoost Titanium",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 8990
+    }
+   ]
+  },
+  "ID7HR5bn": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-100-business-edition-ID7HR5bn.html",
+   "t": "Renault Captur TCe 100 BUSINESS EDITION",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 9999
+    }
+   ]
+  },
+  "ID7HR568": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-hybrid-titanium-ID7HR568.html",
+   "t": "Ford Puma 1.0 EcoBoost Hybrid TITANIUM",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 12450
+    }
+   ]
+  },
+  "ID7HR4YO": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-expression-ID7HR4YO.html",
+   "t": "Dacia Sandero Stepway TCe 90 MT6 Expression",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 12699
+    }
+   ]
+  },
+  "https://www.autovit.ro/autoturisme/anunt/dacia-duster-OLX_ID7HR5fg.html": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-OLX_ID7HR5fg.html",
+   "t": "Dacia Duster",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 12700
+    }
+   ]
+  },
+  "ID7HR52Q": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-4wd-comfort-ID7HR52Q.html",
+   "t": "Dacia Duster Blue dCi 115 4WD Comfort",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 12700
+    }
+   ]
+  },
+  "https://www.autovit.ro/autoturisme/anunt/dacia-duster-OLX_ID7HR51G.html": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-OLX_ID7HR51G.html",
+   "t": "Dacia Duster",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 12850
+    }
+   ]
+  },
+  "ID7HR575": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-trend-ID7HR575.html",
+   "t": "Volkswagen T-Cross 1.0 TSI Trend",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 12990
+    }
+   ]
+  },
+  "ID7HR52I": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-life-ID7HR52I.html",
+   "t": "Volkswagen T-Cross 1.0 TSI Life",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 13950
+    }
+   ]
+  },
+  "https://www.autovit.ro/autoturisme/anunt/dacia-duster-OLX_ID7HR57r.html": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-OLX_ID7HR57r.html",
+   "t": "Dacia Duster",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 13990
+    }
+   ]
+  },
+  "ID7HR1NO": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-eco-g-100-journey-ID7HR1NO.html",
+   "t": "Dacia Duster ECO-G 100 Journey",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 14350
+    }
+   ]
+  },
+  "ID7HR4Qt": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-trend-ID7HR4Qt.html",
+   "t": "Volkswagen T-Cross 1.0 TSI Trend",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 14450
+    }
+   ]
+  },
+  "ID7HR50F": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HR50F.html",
+   "t": "Dacia Duster",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 14800
+    }
+   ]
+  },
+  "ID7HR5eH": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ver-1-3-turbo-4x2-ddct6-limited-ID7HR5eH.html",
+   "t": "Jeep Renegade 1.3 Turbo 4x2 DDCT6 Limited",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 14850
+    }
+   ]
+  },
+  "ID7HR55G": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-150-4wd-prestige-ID7HR55G.html",
+   "t": "Dacia Duster TCe 150 4WD Prestige",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 14900
+    }
+   ]
+  },
+  "ID7HR4DH": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-4wd-comfort-ID7HR4DH.html",
+   "t": "Dacia Duster Blue dCi 115 4WD Comfort",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 14900
+    }
+   ]
+  },
+  "ID7HR2OZ": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-l-puretech-stt-eat8-gt-line-ID7HR2OZ.html",
+   "t": "Peugeot 2008 1.2 L PureTech STT EAT8 GT Line",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 14900
+    }
+   ]
+  },
+  "ID7HR4Rf": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/volkswagen-t-cross-ver-1-0-tsi-trend-ID7HR4Rf.html",
+   "t": "Volkswagen T-Cross 1.0 TSI Trend",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 14950
+    }
+   ]
+  },
+  "ID7HQYx6": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ID7HQYx6.html",
+   "t": "Dacia Duster",
+   "preturi": [
+    {
+     "d": "2026-11-21",
+     "p": 14999
     }
    ]
   }

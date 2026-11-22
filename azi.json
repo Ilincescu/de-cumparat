@@ -1,7 +1,7 @@
 {
- "generat": "2026-11-21 08:21",
- "de_la": "2026-11-20",
- "pana_la": "2026-11-21",
+ "generat": "2026-11-22 09:43",
+ "de_la": "2026-11-21",
+ "pana_la": "2026-11-22",
  "case_noi": 0,
  "case_trec": 0,
  "din_rezerva": true,
@@ -10,7 +10,7 @@
  "ap_noi": 0,
  "ap_trec": 0,
  "ap_din_rezerva": false,
- "chirii_din": "2026-11-21",
+ "chirii_din": "2026-11-22",
  "apartamente": [
   {
    "alte": [],
@@ -49,7 +49,7 @@
    "stare": "ready_to_use",
    "chirie": 550,
    "chirie_din": "Centrul Istoric",
-   "chirie_n": 10,
+   "chirie_n": 9,
    "chirie_mp": [
     62,
     92
@@ -106,68 +106,32 @@
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-11-21 08:14",
+   "cand": "2026-11-22 09:34",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1471,
-   "potrivite": 252,
+   "gasite": 1391,
+   "potrivite": 238,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-11-21 08:15",
+   "cand": "2026-11-22 09:35",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1719,
-   "potrivite": 378,
+   "gasite": 1699,
+   "potrivite": 382,
    "stare": "azi",
    "veche": false
   }
  ],
  "case": [
   {
-   "pret": 194990,
-   "mpu": 122,
-   "curte": 134,
-   "curte_sigura": true,
-   "teren": 122,
-   "zona": "Gusterita, Sibiu",
-   "an": "1980",
-   "creat": "2026-11-19",
-   "repostat": true,
-   "alte": [
-    {
-     "pret": 195000,
-     "url": "https://www.storia.ro/ro/oferta/cas-individual-cu-3-camere-curte-n-sibiu-zona-lupeni-IDIyH3",
-     "creat": "2026-09-16"
-    }
-   ],
-   "titlu": "Casa individuala de vanzare cu teren 237 mp garaj in zona Lupeni Sibiu",
-   "url": "https://www.storia.ro/ro/oferta/casa-individuala-de-vanzare-cu-teren-237-mp-garaj-in-zona-lupeni-sibiu-IDJiCe",
-   "scor": 27
-  },
-  {
-   "pret": 180000,
-   "mpu": 90,
-   "curte": 387,
-   "curte_sigura": false,
-   "teren": 450,
-   "zona": "Marmelada, Sibiu",
-   "an": "1980",
-   "stare": "ready_to_use",
-   "creat": "2024-09-19",
-   "repostat": true,
-   "alte": [],
-   "titlu": "Casă 2 camere de vânzare | Sibiu, Terezian | 90 mp",
-   "url": "https://www.storia.ro/ro/oferta/cas-2-camere-de-vnzare-sibiu-terezian-90-mp-IDBsmy",
-   "scor": 80
-  },
-  {
    "pret": 198000,
    "mpu": 112,
    "curte": 372,
    "curte_sigura": false,
    "teren": 450,
+   "demisol": false,
    "zona": "Terezian, Sibiu",
    "an": "1960",
    "stare": "ready_to_use",
@@ -177,6 +141,44 @@
    "titlu": "Casa Individuala I 4 Camere I Acces auto I Curte I Terezian",
    "url": "https://www.storia.ro/ro/oferta/casa-individuala-i-4-camere-i-acces-auto-i-curte-i-terezian-IDEqhl",
    "scor": 56
+  },
+  {
+   "pret": 149000,
+   "mpu": 95,
+   "curte": 133,
+   "curte_sigura": false,
+   "teren": 200,
+   "demisol": false,
+   "zona": "Centrul Istoric, Sibiu",
+   "an": "1980",
+   "creat": "2026-09-02",
+   "repostat": true,
+   "alte": [
+    {
+     "pret": 150000,
+     "url": "https://www.storia.ro/ro/oferta/casa-in-zona-centrala-IDI0GT",
+     "creat": "2026-07-27"
+    }
+   ],
+   "titlu": "Apartament 2 camere la casa zona Centrala",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-la-casa-zona-centrala-IDIp2T",
+   "scor": 53
+  },
+  {
+   "pret": 160000,
+   "mpu": 90,
+   "curte": 100,
+   "curte_sigura": true,
+   "teren": 100,
+   "demisol": false,
+   "zona": "Lazaret, Sibiu",
+   "an": "1987",
+   "creat": "2026-06-02",
+   "repostat": true,
+   "alte": [],
+   "titlu": "Casa cu 4 camere, balcon si curte - zona Lazaret",
+   "url": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-balcon-si-curte-zona-lazaret-IDHs2G",
+   "scor": 52
   }
  ],
  "masini": [
