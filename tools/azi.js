@@ -219,7 +219,12 @@ const textChirie = a => a.url + ' ' + (a.titlu || '');
 // (550 €), cand in Tilisca 72 mp se cer 460-470 € (2026-10-26).
 // "the-lake": imobiliare.ro scrie "The Lake | Str. Tractorului", fara "home"
 const CHIRIE_NOUA = /bloc-nou|prima-i?nchiriere|lake-home|the-lake|lake-city|ansamblu|rezidential|green-hill|constructie-noua|nou-|-nou\b|lift/i;
-const apNou = x => Number(x.an) >= 2010;
+// Chiriile "noi" de mai sus sunt ansambluri de acum cativa ani ("bloc nou",
+// "prima inchiriere", The Lake). Cu pragul la 2010, acelasi bloc din 2010 din
+// Tilisca (IDI0sk, 64 mp) lua iar mediana lor din tot orasul, 600 €, cand in
+// Tilisca 64 mp se cer 350-470 € (Mihai, 2026-11-22: "nu cred ca chiria in
+// Tilisca e de 600"). 2018 e o presupunere: chiriile n-au anul blocului.
+const apNou = x => Number(x.an) >= 2018;
 
 // Cartierul intreg, nu inceputul lui: "hipodrom iii, sibiu" incepe cu "hipodrom ii"
 const eCartier = (z, c) => z === fara(c) || z.startsWith(fara(c) + ',');

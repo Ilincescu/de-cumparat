@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-22 10:16",
+ "generat": "2026-11-22 10:22",
  "de_la": "2026-11-21",
  "pana_la": "2026-11-22",
  "case_noi": 0,
@@ -47,34 +47,6 @@
   },
   {
    "alte": [],
-   "pret": 99900,
-   "mpu": 64,
-   "zona": "Tilisca, Sibiu",
-   "creat": "2026-07-27",
-   "stare": "ready_to_use",
-   "chirie": 600,
-   "chirie_din": "oras",
-   "chirie_n": 12,
-   "chirie_mp": [
-    54,
-    74
-   ],
-   "ani": 20,
-   "net": 5073,
-   "luni_goale": 1,
-   "cost_total": 101498,
-   "fara_comision": true,
-   "riscuri": [
-    "nu scrie de centrală proprie"
-   ],
-   "la_casa": false,
-   "nou": false,
-   "titlu": "Apartament 64 mpu lângă Parcul Belvedere – Comision 0%",
-   "url": "https://www.storia.ro/ro/oferta/apartament-64-mpu-lng-parcul-belvedere-comision-0-IDI0sk",
-   "scor": 20.00749063670412
-  },
-  {
-   "alte": [],
    "pret": 54000,
    "mpu": 36,
    "zona": "Lazaret, Sibiu",
@@ -100,6 +72,35 @@
    "titlu": "Apartament 2 camere zona Lazaret",
    "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lazaret-IDBcBD",
    "scor": 21.616692426584233
+  },
+  {
+   "alte": [],
+   "pret": 72900,
+   "mpu": 49,
+   "zona": "Centrul Istoric, Sibiu",
+   "creat": "2026-10-23",
+   "stare": "ready_to_use",
+   "chirie": 400,
+   "chirie_din": "Centrul Istoric",
+   "chirie_n": 21,
+   "chirie_mp": [
+    39,
+    59
+   ],
+   "ani": 22.8,
+   "net": 3319,
+   "luni_goale": 1,
+   "cost_total": 75524,
+   "fara_comision": false,
+   "riscuri": [
+    "bloc din 1900",
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": true,
+   "nou": false,
+   "titlu": "Apartament etajul 1 la casa cu 2 camere in zona Centrala din Sibiu",
+   "url": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIZ4M",
+   "scor": 22.755046700813498
   }
  ],
  "surse": [
