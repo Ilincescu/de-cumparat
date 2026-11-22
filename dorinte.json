@@ -1,13 +1,69 @@
 {
- "actualizat": null,
+ "actualizat": "2026-11-22",
  "grupuri": [
   {
    "id": "ford-verde",
    "nume": "Ford SUV verde",
    "nota": "Urmarit din 4 noiembrie (\"Ford verde, daca vezi ceva sa imi zici\"). Puma si Kuga: motoarele 1.0 si 1.5 EcoBoost au cureaua in baie de ulei.",
    "reper": null,
-   "anunturi": [],
-   "eroare": "nu s-a citit inca: prima citire e la rularea de dimineata"
+   "total": 23,
+   "anunturi": [
+    {
+     "m": "Ford Puma 1.0 EcoBoost MHEV Aut. ST Line",
+     "an": 2024,
+     "km": 35042,
+     "cp": 125,
+     "f": "Benzina",
+     "p": 19490,
+     "z": "Iasi",
+     "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-aut-st-line-ID7HQQ9e.html",
+     "d": "2026-10-29"
+    },
+    {
+     "m": "Ford Kuga",
+     "an": 2024,
+     "km": 74865,
+     "cp": 150,
+     "f": "Benzina",
+     "p": 19850,
+     "z": "Otopeni",
+     "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ID7HOqx1.html",
+     "d": "2026-11-11"
+    },
+    {
+     "m": "Ford Kuga 1.5 Ecoboost A8 FWD Titanium",
+     "an": 2024,
+     "km": 10500,
+     "cp": 186,
+     "f": "Benzina",
+     "p": 20000,
+     "z": "Pitesti",
+     "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ver-1-5-ecoboost-a8-fwd-titanium-ID7HQtnk.html",
+     "d": "2026-11-17"
+    },
+    {
+     "m": "Ford Kuga 1.5 Ecoboost A8 FWD Titanium",
+     "an": 2025,
+     "km": 13500,
+     "cp": 186,
+     "f": "Benzina",
+     "p": 20300,
+     "z": "Paulesti",
+     "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ver-1-5-ecoboost-a8-fwd-titanium-ID7HQFD2.html",
+     "d": "2026-11-03"
+    },
+    {
+     "m": "Ford Kuga",
+     "an": 2024,
+     "km": 29128,
+     "cp": 150,
+     "f": "Benzina",
+     "p": 21000,
+     "z": "Bucuresti",
+     "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ID7HR0aN.html",
+     "d": "2026-11-03"
+    }
+   ]
   },
   {
    "id": "mg-ehs-phev",
@@ -21,8 +77,64 @@
     "p": 14500,
     "nota": "50-60 km pe electric, motor 1.5 benzina"
    },
-   "anunturi": [],
-   "eroare": "nu s-a citit inca: prima citire e la rularea de dimineata"
+   "total": 21,
+   "anunturi": [
+    {
+     "m": "MG EHS",
+     "an": 2021,
+     "km": 138000,
+     "cp": 258,
+     "f": "Hibrid Plug-In",
+     "p": 16490,
+     "z": "Oradea",
+     "u": "https://www.autovit.ro/autoturisme/anunt/mg-ehs-ID7HQUM1.html",
+     "d": "2026-11-14"
+    },
+    {
+     "m": "MG EHS Luxury",
+     "an": 2021,
+     "km": 136551,
+     "cp": 258,
+     "f": "Hibrid Plug-In",
+     "p": 16499,
+     "z": "Bragadiru",
+     "u": "https://www.autovit.ro/autoturisme/anunt/mg-ehs-ver-luxury-ID7HR3hF.html",
+     "d": "2026-11-14"
+    },
+    {
+     "m": "MG EHS 1.5T-GDI Luxury",
+     "an": 2021,
+     "km": 92701,
+     "cp": 258,
+     "f": "Hibrid Plug-In",
+     "p": 16990,
+     "z": "Satu Mare",
+     "u": "https://www.autovit.ro/autoturisme/anunt/mg-ehs-ver-1-5t-gdi-luxury-ID7HQZs5.html",
+     "d": "2026-11-01"
+    },
+    {
+     "m": "MG EHS 1.5T-GDI Luxury",
+     "an": 2021,
+     "km": 66117,
+     "cp": 258,
+     "f": "Hibrid Plug-In",
+     "p": 17122,
+     "z": "Satu Mare",
+     "u": "https://www.autovit.ro/autoturisme/anunt/mg-ehs-ver-1-5t-gdi-luxury-ID7HR4rg.html",
+     "d": "2026-11-18"
+    },
+    {
+     "m": "MG EHS Luxury",
+     "an": 2022,
+     "km": 99000,
+     "cp": 258,
+     "f": "Hibrid Plug-In",
+     "p": 17690,
+     "z": "Oradea",
+     "u": "https://www.autovit.ro/autoturisme/anunt/mg-ehs-ver-luxury-ID7HP4BV.html",
+     "d": "2026-11-21"
+    }
+   ]
   }
  ]
 }
