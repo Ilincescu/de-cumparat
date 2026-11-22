@@ -365,10 +365,9 @@ function alegeAp(lista, marcate) {
 
 // ---------- masini ----------
 
-// La preluarea de leasing pretul afisat e doar avansul: un Audi Q5 din 2024
-// aparea la 10.000 EUR, cu inca 39 de rate pe deasupra. Nu intra in buget
-// si nu e comparabil cu restul listei.
-const LEASING = /predare leasing|preluare leasing|preiei?\s+\d+\s+rate|rate\s+r[aă]mase|transfer leasing/i;
+// La preluarea de leasing pretul afisat e doar avansul. Regula e in leasing.js;
+// cand o scrie doar descrierea, masini-avariate.js pune m.leasing.
+const { LEASING } = require('./leasing');
 
 // Dube de marfa (Mihai, 2026-10-28: Opel Combo 1.5 L1H1 Selection) si utilitarele
 // cu aceeasi caroserie (Mihai, 2026-11-04: Dacia Dokker "e de transport"). Aceeasi
@@ -380,7 +379,7 @@ function filtreazaMasina(m) {
   if (m.gj) return 'garda joasa';
   if (DE_MARFA.test(m.m || '')) return 'duba de marfa';
   if (m.av) return 'avariata: ' + (m.av_motiv || '');
-  if (LEASING.test((m.m || '') + ' ' + (m.warn || ''))) return 'preluare leasing, pretul e doar avansul';
+  if (m.leasing || LEASING.test((m.m || '') + ' ' + (m.warn || ''))) return 'preluare leasing, pretul e doar avansul';
   if (MASINI_RESPINSE.test(m.m || '')) return 'respinsa sau mai mica decat C3';
   if (!m.an || m.an < 2020) return 'mai veche de 2020';
   if (!m.km || m.km >= 100000) return 'peste 100.000 km';

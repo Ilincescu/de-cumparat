@@ -3339,9 +3339,10 @@
    "z": "Bucuresti",
    "src": "autovit",
    "u": "https://www.autovit.ro/autoturisme/anunt/toyota-rav-4-ver-2-0p-cvt-awd-dynamic-ID7HR2qP.html",
-   "warn": null,
+   "warn": "Predare leasing, pretul e doar avansul: mai sunt 47 rate x ~2900 lei cu TVA si CASCO (citat de Mihai din anunt, 2026-11-22)",
    "d": "2026-11-11",
-   "avc": "2026-11-13"
+   "avc": "2026-11-13",
+   "leasing": "Predare leasing, mai sunt 47 rate x ~2900 lei TVA inclus + CASCO inclus"
   },
   {
    "m": "BMW X5",

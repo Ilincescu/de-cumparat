@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-22 17:27",
+ "generat": "2026-11-22 17:56",
  "de_la": "2026-11-21",
  "pana_la": "2026-11-22",
  "case_noi": 0,
@@ -178,17 +178,6 @@
  ],
  "masini": [
   {
-   "pret": 10000,
-   "model": "Toyota RAV4 2.0P CVT AWD Dynamic",
-   "an": 2023,
-   "km": 58000,
-   "zona": "Bucuresti",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/toyota-rav-4-ver-2-0p-cvt-awd-dynamic-ID7HR2qP.html",
-   "scor": 53,
-   "nou": false
-  },
-  {
    "pret": 9999,
    "model": "Renault Captur TCe 100 BUSINESS EDITION",
    "an": 2021,
@@ -208,6 +197,17 @@
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HQtxR.html",
    "scor": 45,
+   "nou": false
+  },
+  {
+   "pret": 6690,
+   "model": "Dacia Sandero Stepway",
+   "an": 2020,
+   "km": 79000,
+   "zona": "Selimbar",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXqa.html",
+   "scor": 43,
    "nou": false
   }
  ]
