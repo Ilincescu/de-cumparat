@@ -14,6 +14,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { CLADIRE_COMUNA } = require('./cladire-comuna');
 
 const RADACINA = path.join(__dirname, '..');
 const SCRIE = process.argv.includes('--scrie');
@@ -27,6 +28,7 @@ const IN_AFARA = /r[aă][sș]inari|al[tț][aâ]na|tili[sș]ca|p[aă]ltini[sș]|[
 const EXCLUS = [
   ['curte comuna', /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă]\s+parte|\bcot[aă]\s+(de\s+)?\d+\s*\/\s*\d+|[iî]n\s+indiviziune/i],
   ['doua corpuri', /(dou[aă]|2)\s+(corpuri|case|locuin[tț]e|apartamente|garsoniere)|aceea?(s|ș)i\s+curte/i],
+  ['cladire comuna', CLADIRE_COMUNA],
   ['nefinisata', /\bla\s+alb\b|\bla\s+ro[sș]u\b|stadiul?\s+de\s+gri|semifinisat/i],
   ['igrasie', /(?<!(f[aă]r[aă]|nu\s+(are|prezint[aă]|exist[aă])|lips[aă]|anti|zero)[\s\w&;-]{0,25})(igrasi|umezeal|mucegai|infiltra[tț]i)/i],
   ['nu e casa', /^apartament(?!\s+(la|de)\s+cas)|\bteren\s+intravilan\b(?!.*\bcas)|spa[tț]iu\s+comercial|\bhal[aă]\b|capsul|cas[aă]\s+mobil|glamping|c[aă]su[tț][aăe]|modular|container/i],

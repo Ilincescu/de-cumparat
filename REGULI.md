@@ -188,6 +188,9 @@ Fiecare are un filtru sau un pas în cod; aici e motivul.
 Criteriile complete sunt în memoria `de-cumparat-criterii-cumparare`. Pe scurt:
 casă mică cu **grădină verde** în orașul Sibiu, minim 100 mp curte **proprie confirmată**,
 fără două corpuri, bucătăria accesibilă din interior. Buget 250.000 € pentru tot.
+**Singur în clădire și în curte** (2026-11-22): fără apartament la casă, fără etajul
+sau parterul unei vile, chiar cu intrare separată și curte „delimitată” — „la prețul
+ăsta vreau să fiu singur în curte”. Regula e în `tools/cladire-comuna.js`.
 **Demisolul e de evitat** (frig, lumină puțină, risc de mucegai — 2026-11-22): casa
 cu demisol intră în top doar sub 150.000 €.
 

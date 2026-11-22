@@ -37,6 +37,8 @@ const COMUNA = /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă][
 // doua corpuri, scris altfel - asa a trecut casa din Moara de Scoarta.
 const CORPURI = /2 corpuri|dou[aă] corpuri|duplex|triplex|cvadruplex|garsonier|[iî]n[sș]iruit|dou[aă]\s+apartamente|2\s+apartamente|multifamilial|dou[aă]\s+locuin[tț]e|2\s+locuin[tț]e|dou[aă]\s+unit[aă][tț]i/i;
 const SERVITUTE = /servitute|drept de trecere|acces prin curtea/i;
+// Apartament la casa, etaj sau parter de vila: regula e in cladire-comuna.js
+const { CLADIRE_COMUNA } = require('./cladire-comuna');
 // Igrasia e blocker. Snapshotul are si excluderea din scan.js, dar doar din ziua
 // in care a fost scanat; aici prinde si snapshoturile mai vechi.
 const IGRASIE = /(?<!(f[aă]r[aă]|nu\s+(are|prezint[aă]|exist[aă])|lips[aă]|anti|zero)[\s\w&;-]{0,25})(igrasi|umezeal|mucegai|infiltra[tț]i)/i;
@@ -104,6 +106,7 @@ function filtreazaCasa(x) {
   if (AFARA.test(t)) return 'in afara orasului';
   if (COMUNA.test(t)) return 'curte comuna';
   if (CORPURI.test(t)) return 'doua corpuri sau garsoniera';
+  if (CLADIRE_COMUNA.test(t)) return 'cladire comuna (apartament la casa, etaj sau parter de vila)';
   if (SERVITUTE.test(t)) return 'acces prin curtea altuia';
   if (IGRASIE.test(t)) return 'igrasie';
   // 250.000 e pentru casa SI apartament; ~50.000 raman pentru apartament.

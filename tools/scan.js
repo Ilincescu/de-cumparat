@@ -21,6 +21,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const { avertisment: avertismentCurea } = require('./curea-ulei');
+const { CLADIRE_COMUNA } = require('./cladire-comuna');
 
 const RADACINA = path.join(__dirname, '..');
 const UA = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)', 'Accept': 'text/html' };
@@ -40,6 +41,8 @@ const IN_AFARA = /r[aă][sș]inari|al[tț][aâ]na|tili[sș]ca|p[aă]ltini[sș]|[
 const EXCLUDERI = [
   { cheie: 'curte comuna', re: /curt[eiă][^.!?]{0,40}comun|comun[ăa][^.!?]{0,40}curt|cot[aă][\s-]+parte|indiviz[aă]|\bcot[aă]\s+(de\s+)?\d+\s*\/\s*\d+|p[aă]r[tț]i\s+comune|[iî]n\s+indiviziune/i },
   { cheie: 'doua corpuri', re: /dou[aă]\s+corpuri|2\s+corpuri|dou[aă]\s+locuin[tț]e/i },
+  // Doar la case: apartamentul la casa e cautat (regula e in cladire-comuna.js)
+  { cheie: 'cladire comuna', re: CLADIRE_COMUNA, doar: 'casa' },
   { cheie: 'nefinisata', re: /la\s+alb|la\s+ro[sș]u|stadiul\s+de\s+gri|semifinisat/i },
   // Igrasia e blocker (2026-10-26). Anunturile scriu mai des "fara infiltratii",
   // de aceea negatia din fata nu declanseaza. Aceeasi regula in surse-case.js si azi.js.
@@ -273,7 +276,7 @@ async function scaneazaStoria() {
       const text = x.title + ' ' + ((d && d.descriere) || '');
       const motive = [];
       if (IN_AFARA.test(text)) motive.push('in afara orasului');
-      EXCLUDERI.forEach(e => { if (e.re.test(text)) motive.push(e.cheie); });
+      EXCLUDERI.forEach(e => { if ((!e.doar || e.doar === tip) && e.re.test(text)) motive.push(e.cheie); });
 
       const locs = (((x.location || {}).reverseGeocoding || {}).locations) || [];
       rezultat.push({

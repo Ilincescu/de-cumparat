@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-22 10:22",
+ "generat": "2026-11-22 17:27",
  "de_la": "2026-11-21",
  "pana_la": "2026-11-22",
  "case_noi": 0,
@@ -144,42 +144,36 @@
    "scor": 56
   },
   {
-   "pret": 149000,
-   "mpu": 95,
-   "curte": 133,
+   "pret": 199000,
+   "mpu": 146,
+   "curte": 224,
    "curte_sigura": false,
-   "teren": 200,
+   "teren": 326,
    "demisol": false,
-   "zona": "Centrul Istoric, Sibiu",
-   "an": "1980",
-   "creat": "2026-09-02",
-   "repostat": true,
-   "alte": [
-    {
-     "pret": 150000,
-     "url": "https://www.storia.ro/ro/oferta/casa-in-zona-centrala-IDI0GT",
-     "creat": "2026-07-27"
-    }
-   ],
-   "titlu": "Apartament 2 camere la casa zona Centrala",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-la-casa-zona-centrala-IDIp2T",
-   "scor": 53
-  },
-  {
-   "pret": 160000,
-   "mpu": 90,
-   "curte": 100,
-   "curte_sigura": true,
-   "teren": 100,
-   "demisol": false,
-   "zona": "Lazaret, Sibiu",
-   "an": "1987",
-   "creat": "2026-06-02",
+   "zona": "Gusterita, Sibiu",
+   "an": "2000",
+   "stare": "ready_to_use",
+   "creat": "2026-07-29",
    "repostat": true,
    "alte": [],
-   "titlu": "Casa cu 4 camere, balcon si curte - zona Lazaret",
-   "url": "https://www.storia.ro/ro/oferta/casa-cu-4-camere-balcon-si-curte-zona-lazaret-IDHs2G",
-   "scor": 52
+   "titlu": "Casă 4 camere | Gușterița, Sibiu | 146 mp, teren 326 mp",
+   "url": "https://www.storia.ro/ro/oferta/cas-4-camere-guteria-sibiu-146-mp-teren-326-mp-IDI2JG",
+   "scor": 46
+  },
+  {
+   "pret": 198000,
+   "mpu": 117,
+   "curte": 351,
+   "curte_sigura": false,
+   "teren": 433,
+   "demisol": false,
+   "zona": "Terezian, Sibiu",
+   "creat": "2026-05-11",
+   "repostat": true,
+   "alte": [],
+   "titlu": "Casa individuala zona Piata Cluj",
+   "url": "https://www.storia.ro/ro/oferta/casa-individuala-zona-piata-cluj-IDHeWV",
+   "scor": 44
   }
  ],
  "masini": [

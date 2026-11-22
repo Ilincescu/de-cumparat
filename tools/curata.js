@@ -37,11 +37,15 @@ const descriere = new Map();
 if (ultim) JSON.parse(fs.readFileSync(path.join(dosar, ultim), 'utf8'))
   .forEach(x => descriere.set(x.url, x.descriere || ''));
 
-const scoase = { afara: [], comuna: [], mansarda: [] };
+// Mihai, 2026-11-22: la casa vrea sa fie singur in cladire si in curte. Regula e
+// in cladire-comuna.js; descrierea vine din snapshot, ca la mansarda.
+const { CLADIRE_COMUNA } = require('./cladire-comuna');
+const scoase = { afara: [], comuna: [], cladire: [], mansarda: [] };
 j.anunturi = j.anunturi.filter(o => {
   const text = `${o.t || ''} ${o.z || ''} ${o.g || ''}`;
   if (o.af || IN_AFARA.test(text)) { scoase.afara.push(o); return false; }
   if (o.c === 'comuna' || CURTE_COMUNA.test(text)) { scoase.comuna.push(o); return false; }
+  if (o.k === 'casa' && CLADIRE_COMUNA.test(`${o.t || ''} ${descriere.get(o.u) || ''}`)) { scoase.cladire.push(o); return false; }
   if (o.k === 'ap' && (MANSARDA_TITLU.test(o.t || '') || MANSARDA_DESCRIERE.test(descriere.get(o.u) || ''))) {
     scoase.mansarda.push(o); return false;
   }
@@ -51,6 +55,7 @@ j.anunturi = j.anunturi.filter(o => {
 console.log(`date.json: ${inainte} -> ${j.anunturi.length}`);
 console.log(`  ${scoase.afara.length} in afara orasului Sibiu`);
 console.log(`  ${scoase.comuna.length} cu curte comuna`);
+console.log(`  ${scoase.cladire.length} case care sunt doar o parte dintr-o cladire`);
 console.log(`  ${scoase.mansarda.length} apartamente la mansarda`);
 
 if (!SCRIE) { console.log('\n(proba; ruleaza cu --scrie ca sa salvez)'); process.exit(0); }

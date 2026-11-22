@@ -296,6 +296,9 @@ Scannerul marcheaza cu "exclus" tot ce contine in titlu sau descriere:
   Rosia, Vurpar, Daia, Cornatel) si "de vacanta"
 - "curte comuna", "curte in comun", "cota parte"
 - "doua corpuri", "2 corpuri", "doua locuinte"
+- la case, cladire comuna: "apartament la casa", "etajul/parterul unei vile",
+  "jumatate de casa" (regula in tools/cladire-comuna.js; la apartamente "la
+  casa" ramane un plus)
 - "la alb", "la rosu", "stadiul de gri", "semifinisat"
 
 Nu le sterge din snapshot, doar nu le propune. Fiecare din regulile astea a
@@ -307,6 +310,11 @@ CASA        oras Sibiu, toate cartierele. Curte PROPRIE confirmata in
             descriere, minim 100 mp. Minim 50 mp utili, dar tinta e o casa
             MICA cu curte, nu maximul de metri: 70-100 mp utili e banda buna.
             Fara doua corpuri. De renovat e acceptabil, bomba nu.
+            Singur in cladire si in curte: fara apartament la casa, fara
+            etajul sau parterul unei vile, chiar cu intrare separata si curte
+            "delimitata" (Mihai, 2026-11-22: "la pretul asta vreau sa fiu
+            singur in curte"). In poze: o casa cu doua intrari, doua cutii
+            postale sau scara exterioara spre alt etaj e la fel.
             Demisolul e de evitat (frig, lumina putina, risc de mucegai):
             azi.js nu-l pune in top decat sub 150.000 €.
 
