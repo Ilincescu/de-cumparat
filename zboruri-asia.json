@@ -1,0 +1,180 @@
+{
+ "descriere": "Preturi zbor pe persoana, EUR, OTP 2027-03-05 dus / 2027-04-05 intors, o escala, fara Qatar si fara escala in Orientul Mijlociu (Istanbul acceptat). Pentru doi se dubleaza.",
+ "trasee": [
+  [
+   "Bangkok",
+   "Ho Chi Minh",
+   "OTP-BKK",
+   "SGN-OTP"
+  ],
+  [
+   "Hanoi",
+   "Bangkok",
+   "OTP-HAN",
+   "BKK-OTP"
+  ],
+  [
+   "Bangkok",
+   "Singapore",
+   "OTP-BKK",
+   "SIN-OTP"
+  ],
+  [
+   "Singapore",
+   "Bangkok",
+   "OTP-SIN",
+   "BKK-OTP"
+  ],
+  [
+   "Kuala Lumpur",
+   "Bangkok",
+   "OTP-KUL",
+   "BKK-OTP"
+  ],
+  [
+   "Bangkok",
+   "Kuala Lumpur",
+   "OTP-BKK",
+   "KUL-OTP"
+  ],
+  [
+   "Bali",
+   "Singapore",
+   "OTP-DPS",
+   "SIN-OTP"
+  ]
+ ],
+ "rulari": [
+  {
+   "data": "2026-11-03",
+   "sursa": "black-friday.html, Google Flights 31 oct - 3 nov",
+   "sensuri": {
+    "OTP-BKK": {
+     "pret": 504,
+     "companii": "Austrian",
+     "escala": "Viena"
+    },
+    "OTP-HAN": {
+     "pret": 621,
+     "companii": "Turkish Airlines",
+     "escala": "Istanbul"
+    },
+    "OTP-SIN": {
+     "pret": 567,
+     "companii": "SWISS",
+     "escala": "Zurich"
+    },
+    "OTP-KUL": {
+     "pret": 418,
+     "companii": "Pegasus + AirAsia X",
+     "escala": "Istanbul",
+     "nota": "low-cost, probabil bilete separate"
+    },
+    "OTP-DPS": {
+     "pret": 624,
+     "companii": "Turkish Airlines",
+     "escala": "Istanbul"
+    },
+    "BKK-OTP": {
+     "pret": 474,
+     "companii": "Turkish Airlines",
+     "escala": "Istanbul"
+    },
+    "SGN-OTP": {
+     "pret": 693,
+     "companii": "Turkish Airlines",
+     "escala": "Istanbul"
+    },
+    "SIN-OTP": {
+     "pret": 537,
+     "companii": "SWISS",
+     "escala": "Zurich"
+    },
+    "KUL-OTP": {
+     "pret": 611,
+     "companii": "Lufthansa",
+     "escala": "Frankfurt"
+    }
+   }
+  },
+  {
+   "data": "2026-11-22",
+   "sursa": "Google Flights, citit cu Playwright pe 2026-11-22 (hl=en, curr=EUR, gl=RO), 1 adult, economic",
+   "sensuri": {
+    "OTP-BKK": {
+     "pret": 505,
+     "companii": "Austrian",
+     "escala": "Vienna",
+     "durata": "15 hr 20 min",
+     "escala_durata": "3 hr 35 min",
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-03-05&hl=en&curr=EUR&gl=RO"
+    },
+    "OTP-HAN": {
+     "pret": 895,
+     "companii": "Turkish Airlines",
+     "escala": "Istanbul",
+     "durata": "12 hr 50 min",
+     "escala_durata": "2 hr 10 min",
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20HAN%20from%20OTP%20on%202027-03-05&hl=en&curr=EUR&gl=RO"
+    },
+    "OTP-SIN": {
+     "pret": 567,
+     "companii": "SWISS",
+     "escala": "Zürich",
+     "durata": "19 hr 25 min",
+     "escala_durata": "4 hr 15 min",
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20SIN%20from%20OTP%20on%202027-03-05&hl=en&curr=EUR&gl=RO"
+    },
+    "OTP-KUL": {
+     "pret": 633,
+     "companii": "Lufthansa",
+     "escala": "Frankfurt am Main",
+     "durata": "28 hr 45 min",
+     "escala_durata": "14 hr",
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20KUL%20from%20OTP%20on%202027-03-05&hl=en&curr=EUR&gl=RO"
+    },
+    "OTP-DPS": {
+     "pret": 637,
+     "companii": "Turkish Airlines",
+     "escala": "Istanbul",
+     "durata": "15 hr 55 min",
+     "escala_durata": "1 hr 50 min",
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20DPS%20from%20OTP%20on%202027-03-05&hl=en&curr=EUR&gl=RO"
+    },
+    "BKK-OTP": {
+     "pret": 559,
+     "companii": "THAI and Turkish Airlines",
+     "escala": "Istanbul",
+     "durata": "13 hr",
+     "escala_durata": "1 hr 40 min",
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20OTP%20from%20BKK%20on%202027-04-05&hl=en&curr=EUR&gl=RO"
+    },
+    "SGN-OTP": {
+     "pret": 1081,
+     "companii": "Turkish Airlines",
+     "escala": "Istanbul",
+     "durata": "17 hr 45 min",
+     "escala_durata": "6 hr",
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20OTP%20from%20SGN%20on%202027-04-05&hl=en&curr=EUR&gl=RO",
+     "nota": "Google a aratat doar 10 rezultate (lista \"Other flights\" nu s-a putut deschide); doua reincercari au picat. Pretul e cel mai mic dintre rezultatele vazute care respecta conditiile."
+    },
+    "SIN-OTP": {
+     "pret": 479,
+     "companii": "SWISS",
+     "escala": "Zürich",
+     "durata": "21 hr 15 min",
+     "escala_durata": "5 hr 45 min",
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20OTP%20from%20SIN%20on%202027-04-05&hl=en&curr=EUR&gl=RO"
+    },
+    "KUL-OTP": {
+     "pret": 549,
+     "companii": "Lufthansa and Lufthansa City Airlines",
+     "escala": "Frankfurt am Main",
+     "durata": "29 hr 25 min",
+     "escala_durata": "14 hr 20 min",
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20OTP%20from%20KUL%20on%202027-04-05&hl=en&curr=EUR&gl=RO"
+    }
+   }
+  }
+ ]
+}
