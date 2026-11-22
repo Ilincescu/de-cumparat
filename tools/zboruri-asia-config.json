@@ -1,0 +1,82 @@
+{
+ "descriere": "Ce caută sarcina programată „Prețuri zboruri Asia 2027” la fiecare rulare. Mihai poate schimba datele de aici; sarcina nu le schimbă singură.",
+ "plecare_din": "OTP",
+ "date_dus": [
+  "2027-02-07",
+  "2027-02-13",
+  "2027-02-20",
+  "2027-02-22",
+  "2027-02-27",
+  "2027-03-01",
+  "2027-03-06"
+ ],
+ "date_intors": [
+  "2027-03-07",
+  "2027-03-13",
+  "2027-03-20",
+  "2027-03-27",
+  "2027-03-28",
+  "2027-03-30",
+  "2027-04-03"
+ ],
+ "durata_zile": {
+  "min": 25,
+  "max": 31
+ },
+ "trasee": [
+  [
+   "BKK",
+   "KUL"
+  ],
+  [
+   "BKK",
+   "SIN"
+  ],
+  [
+   "DPS",
+   "SIN"
+  ],
+  [
+   "SIN",
+   "BKK"
+  ],
+  [
+   "KUL",
+   "BKK"
+  ],
+  [
+   "HAN",
+   "BKK"
+  ],
+  [
+   "BKK",
+   "SGN"
+  ]
+ ],
+ "conditii": {
+  "escale_max": 1,
+  "exclus_companii": [
+   "Qatar Airways"
+  ],
+  "exclus_escale": [
+   "DOH",
+   "DXB",
+   "DWC",
+   "AUH",
+   "SHJ",
+   "BAH",
+   "KWI",
+   "RUH",
+   "JED",
+   "MCT",
+   "AMM",
+   "CAI",
+   "TLV",
+   "BEY"
+  ],
+  "escala_acceptata": "Istanbul",
+  "clasa": "economy",
+  "adulti": 1,
+  "moneda": "EUR"
+ }
+}
