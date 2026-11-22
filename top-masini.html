@@ -9,21 +9,21 @@
     --bg:#eef1ec; --surface:#fff; --surface-2:#f6f8f4;
     --ink:#1b241d; --muted:#5b6a60; --faint:#8a9890;
     --line:#dde3dc; --accent:#2f6d4f; --accent-soft:#e3efe7;
-    --warn:#a8521f; --warn-soft:#fbeee3; --radius:14px;
+    --warn:#a8521f; --warn-soft:#fbeee3; --wish:#6a4fa8; --wish-soft:#efeaf8; --radius:14px;
   }
   @media (prefers-color-scheme:dark){
     :root:not([data-theme="light"]){
       --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
       --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
       --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
-      --warn:#e0a16a; --warn-soft:#33281e;
+      --warn:#e0a16a; --warn-soft:#33281e; --wish:#b9a2ea; --wish-soft:#2a2438;
     }
   }
   :root[data-theme="dark"]{
     --bg:#141a16; --surface:#1c2420; --surface-2:#222b26;
     --ink:#e8efe9; --muted:#9fb0a5; --faint:#7b8b81;
     --line:#2c372f; --accent:#6fbf92; --accent-soft:#22322a;
-    --warn:#e0a16a; --warn-soft:#33281e;
+    --warn:#e0a16a; --warn-soft:#33281e; --wish:#b9a2ea; --wish-soft:#2a2438;
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);
@@ -32,76 +32,85 @@
   a{color:var(--accent)}
   header{padding-block:22px 6px}
   h1{font-size:21px;margin:0;letter-spacing:-.02em}
+  h2.sect{font-size:18px;margin:28px 0 2px}
+  h3{font-size:16px;margin:20px 0 2px;color:var(--wish)}
   .stamp{font-size:12px;color:var(--faint);margin-top:4px}
-  .lede{color:var(--muted);margin:10px 0 0;font-size:14px}
+  .lede{color:var(--muted);margin:6px 0 0;font-size:14px}
   .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
-    padding:14px;margin-top:14px}
-  .card h2{font-size:17px;margin:0 0 4px}
-  .rank{display:inline-block;width:26px;height:26px;border-radius:50%;background:var(--accent);
-    color:var(--surface);text-align:center;line-height:26px;font-weight:700;margin-right:8px;font-size:14px}
-  .price{float:right;font-weight:700}
-  .meta{color:var(--muted);font-size:13.5px;margin:2px 0 8px}
-  ul{margin:6px 0 0;padding-left:18px}
-  li{font-size:14px;margin-bottom:3px}
+    padding:14px;margin-top:12px}
+  .card h4{font-size:16px;margin:0 0 4px;display:flex;gap:8px;align-items:baseline}
+  .card h4 a{flex:1;min-width:0;overflow-wrap:anywhere}
+  .rank{flex:none;display:inline-block;width:26px;height:26px;border-radius:50%;background:var(--accent);
+    color:var(--surface);text-align:center;line-height:26px;font-weight:700;font-size:14px}
+  .price{flex:none;font-weight:700}
+  .meta{color:var(--muted);font-size:13.5px;margin:2px 0 0}
   .warn{background:var(--warn-soft);color:var(--ink);border-radius:9px;padding:8px 10px;font-size:13.5px;margin-top:8px}
   .warn b{color:var(--warn)}
-  .scos{opacity:.55}
-  footer{margin-top:24px;font-size:12px;color:var(--faint)}
+  .wish{border-color:var(--wish-soft)}
+  .reper{background:var(--wish-soft);border-color:transparent}
+  .tag{font-size:12px;font-weight:600;color:var(--wish);margin-right:6px}
+  .gol{color:var(--faint);font-size:13.5px;margin-top:8px}
+  footer{margin-top:28px;font-size:12px;color:var(--faint)}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header>
   <h1>Top mașini</h1>
-  <div class="stamp">17 octombrie 2026 · <a href="index.html">înapoi la listă</a> · <a href="comparatie.html">top case</a></div>
-  <p class="lede">Bugetul e 10.000 €; până la 15.000 € intră doar o ofertă rară (⚡ pe listă).
-    Din toate mașinile din listă: din 2020, sub 100.000 km, SUV sau crossover de minim ~4,25 m,
-    fără Duster, fără utilitare, fără avariate. Azi trec doar două mașini, și nicio ofertă rară între 10.000 și 15.000 €.</p>
-  <p class="lede" id="sincronizare">se citesc prețurile din listă…</p>
+  <div class="stamp"><a href="index.html">înapoi la listă</a> · <a href="comparatie.html">top case</a></div>
 </header>
-<div id="top"></div>
-<footer>Ce scrie aici vine din anunțuri (câmpuri și descriere); lungimile sunt din datele de catalog ale modelului, nu din anunț. Nimic nu înlocuiește o verificare la un service independent.</footer>
+
+<h2 class="sect">Practice, în bugetul tău</h2>
+<p class="lede">Primele 3 din căutarea zilnică: din 2020, sub 100.000 km, SUV sau crossover, fără garda joasă,
+  fără utilitare, avariate sau preluări de leasing. Buget 10.000 €; până la 15.000 € doar o ofertă rară.</p>
+<p class="stamp" id="stamp-practice">se citește topul…</p>
+<div id="practice"></div>
+
+<h2 class="sect">Din dorință, de curiozitate</h2>
+<p class="lede">Peste buget: urmărite doar ca să prinzi o ofertă bună. Cele mai ieftine 5 de pe Autovit, pe fiecare dorință.</p>
+<p class="stamp" id="stamp-dorinte">se citește lista…</p>
+<div id="dorinte"></div>
+
+<footer>Ce scrie aici vine din anunțuri. Kilometrii și prețul se verifică la vânzător (talon, istoric de service, kilometraj la ITP), iar mașina la un service independent.</footer>
 </div>
 <script>
-var TOP = [
-  { loc:1, nume:"Jeep Renegade 1.0 Turbo", pret:8999,
-    url:"https://www.autovit.ro/autoturisme/anunt/jeep-renegade-ID7HQRoZ.html",
-    meta:"înmatriculat 10.11.2022 · 82.000 km · benzină 120 CP · manuală · Ploiești · dealer Luxury All Cars",
-    bun:["Cea mai ieftină: cu 1.000 € sub buget","Primul proprietar, cumpărată nouă în România, service la zi","Nu e PureTech","Cameră spate, senzori față-spate, navigație"],
-    consum:"Anunțul nu-l dă. Oficial ~6,4 l/100 km (WLTP). Real ~6,3–8 l/100 km: un proprietar pe Spritmonitor are 7,1 media pe 146.000 km; testele Motor1 (6,3) și Auto Motor und Sport (8,0 în medie, 9,7 condus tare).",
-    atentie:"Câmpul spune 2021, descrierea „prima înmatriculare 10.11.2022” — cere talonul. ~4,24 m, la limita pragului tău." },
-  { loc:2, nume:"Opel Grandland X 1.2 Turbo, automată", pret:10000,
-    url:"https://www.autovit.ro/autoturisme/anunt/opel-grandland-x-ver-1-2-turbo-start-stop-aut-enjoy-ID7HOuMB.html",
-    meta:"2020 · 63.100 km · benzină 130 CP · automată · București · vânzător privat",
-    bun:["Fix în buget","Cutie automată, primul proprietar (cumpărată prin leasing)","~4,48 m, cea mai mare"],
-    consum:"Anunțul: 6 l/100 km în oraș, 4,8 în afara orașului (cifre de catalog). Real ~6,9–7,7 l/100 km, din jurnalele proprietarilor de Grandland X 1.2 automat pe Spritmonitor (6,86 pe 38.000 km; 7,71 pe 22.000 km; 7,07 și 7,21 la modelele 2024).",
-    atentie:"Motorul e PureTech, cu cureaua de distribuție în ulei: cere dovada că a fost schimbată." }
-];
-function euro(n){ return Math.round(n).toLocaleString("ro-RO")+" €"; }
-function deseneaza(){
-  document.getElementById("top").innerHTML = TOP.map(function(m){
-    return '<div class="card'+(m.scos?' scos':'')+'"><h2><span class="rank">'+m.loc+'</span>'+
-      '<a href="'+m.url+'" target="_blank" rel="noopener">'+m.nume+(m.scos?' (vândută / ștearsă)':'')+' ↗</a>'+
-      '<span class="price">'+euro(m.pret)+'</span></h2>'+
-      '<div class="meta">'+m.meta+'</div><ul>'+m.bun.map(function(b){return '<li>'+b+'</li>';}).join('')+'</ul>'+
-      (m.consum?'<div class="meta" style="margin-top:8px"><b>Consum:</b> '+m.consum+'</div>':'')+
-      (m.atentie?'<div class="warn"><b>De întrebat:</b> '+m.atentie+'</div>':'')+'</div>';
+function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
+function euro(n){ return n ? Math.round(n).toLocaleString("ro-RO")+" €" : "preț necunoscut"; }
+function km(n){ return n ? n.toLocaleString("ro-RO")+" km" : "km necunoscuți"; }
+
+fetch("azi.json?v="+Date.now()).then(function(r){return r.json();}).then(function(a){
+  var l = a.masini || [];
+  document.getElementById("stamp-practice").textContent = "Actualizat " + (a.generat||"?") +
+    (a.masini_din_rezerva ? " · nimic nou azi care să bifeze tot, deci cele mai bune de pe toată lista" : "");
+  document.getElementById("practice").innerHTML = l.length ? l.map(function(m,i){
+    return '<div class="card"><h4><span class="rank">'+(i+1)+'</span>'+
+      '<a href="'+esc(m.url)+'" target="_blank" rel="noopener">'+esc(m.model)+' ↗</a>'+
+      '<span class="price">'+euro(m.pret)+'</span></h4>'+
+      '<div class="meta">'+esc(m.an)+' · '+km(m.km)+' · '+esc(m.zona)+(m.nou?' · nou':'')+'</div>'+
+      (m.warn?'<div class="warn"><b>De știut:</b> '+esc(m.warn)+'</div>':'')+'</div>';
+  }).join("") : '<p class="gol">Nimic azi care să bifeze criteriile.</p>';
+}).catch(function(){ document.getElementById("stamp-practice").textContent = "Nu am putut citi azi.json."; });
+
+fetch("dorinte.json?v="+Date.now()).then(function(r){return r.json();}).then(function(d){
+  document.getElementById("stamp-dorinte").textContent = d.actualizat ? "Actualizat " + d.actualizat : "Se completează la prima rulare de dimineață.";
+  document.getElementById("dorinte").innerHTML = (d.grupuri||[]).map(function(g){
+    var h = '<h3>'+esc(g.nume)+'</h3>'+(g.nota?'<p class="lede">'+esc(g.nota)+'</p>':'');
+    if(g.reper){
+      var r = g.reper;
+      h += '<div class="card reper"><h4><span class="tag">REPER</span><span style="flex:1">'+esc(r.m)+'</span>'+
+        '<span class="price">'+euro(r.p)+'</span></h4><div class="meta">'+esc(r.an)+' · '+km(r.km)+' · '+esc(r.f)+
+        (r.nota?' · '+esc(r.nota):'')+'</div></div>';
+    }
+    var a = g.anunturi || [];
+    h += a.length ? a.map(function(x){
+      return '<div class="card wish"><h4><a href="'+esc(x.u)+'" target="_blank" rel="noopener">'+esc(x.m)+' ↗</a>'+
+        '<span class="price">'+euro(x.p)+'</span></h4><div class="meta">'+esc(x.an)+' · '+km(x.km)+' · '+esc(x.f)+
+        ' · '+esc(x.z)+(x.d?' · pus '+esc(x.d):'')+'</div></div>';
+    }).join("") + (g.total>a.length ? '<p class="gol">'+g.total+' anunțuri în total; aici sunt cele mai ieftine '+a.length+'.</p>' : '')
+      : '<p class="gol">'+(g.eroare?esc(g.eroare):'Niciun anunț acum.')+'</p>';
+    return h;
   }).join("");
-}
-deseneaza();
-// Pretul si starea se iau din masini.json, care se actualizeaza zilnic.
-fetch("masini.json?v="+Date.now()).then(function(r){return r.json();}).then(function(d){
-  var dupaUrl = {}; (d.masini||[]).forEach(function(o){ dupaUrl[o.u]=o; });
-  TOP.forEach(function(m){
-    var o = dupaUrl[m.url];
-    if(!o || o.mort || o.av){ m.scos = true; return; }
-    if(o.p) m.pret = o.p;
-  });
-  deseneaza();
-  document.getElementById("sincronizare").textContent = "Prețurile vin din lista de pe site, actualizată " + (d.actualizat||"?") + ".";
-}).catch(function(){
-  document.getElementById("sincronizare").textContent = "Nu am putut citi masini.json - prețurile pot fi vechi.";
-});
+}).catch(function(){ document.getElementById("stamp-dorinte").textContent = "Nu am putut citi dorinte.json."; });
 </script>
 </body>
 </html>

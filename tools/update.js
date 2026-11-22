@@ -86,6 +86,8 @@ function numara() {
     ruleaza('node', ['tools/scan.js', 'storia'], true);
     ruleaza('node', ['tools/scan.js', 'masini'], true);
     ruleaza('node', ['tools/masini-avariate.js', '--scrie'], true);
+    // Masinile din dorinta, peste buget, pentru top-masini.html (Mihai, 2026-11-22)
+    ruleaza('node', ['tools/dorinte.js', '--scrie'], true);
     // Case din alte surse: publi24, lajumate/homezz, agentiile si licitatiile, fara
     // browser, plus ce a scos browserul azi din OLX, imobiliare.ro si Facebook in
     // tools/externe/*-raw.json (vezi prompt-zilnic.txt).
@@ -128,7 +130,7 @@ function numara() {
     + `apartamente ${inainte.ap} -> ${dupa.ap}.\n\n`
     + 'Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>';
 
-  ruleaza('git', ['add', 'date.json', 'masini.json', 'biciclete.json', 'istoric-preturi.json', 'azi.json', 'tools/snapshots', 'tools/cautari.json', 'tools/chirii-urmarite.json', 'tools/storia-build.json', 'arhiva.json', 'arhiva']);
+  ruleaza('git', ['add', 'date.json', 'masini.json', 'dorinte.json', 'biciclete.json', 'istoric-preturi.json', 'azi.json', 'tools/snapshots', 'tools/cautari.json', 'tools/chirii-urmarite.json', 'tools/storia-build.json', 'arhiva.json', 'arhiva']);
   ruleaza('git', ['commit', '-q', '-m', mesaj]);
   // Credential Manager n-are contul personal si asteapta un login pe care
   // nimeni nu-l vede; push-ul statea pana la timeout. Tokenul il are gh.
