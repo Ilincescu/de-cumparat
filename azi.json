@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-22 09:43",
+ "generat": "2026-11-22 09:45",
  "de_la": "2026-11-21",
  "pana_la": "2026-11-22",
  "case_noi": 0,
@@ -41,34 +41,6 @@
    "scor": 17.70618181818182
   },
   {
-   "alte": [],
-   "pret": 85000,
-   "mpu": 77,
-   "zona": "Centrul Istoric, Sibiu",
-   "creat": "2026-07-17",
-   "stare": "ready_to_use",
-   "chirie": 550,
-   "chirie_din": "Centrul Istoric",
-   "chirie_n": 9,
-   "chirie_mp": [
-    62,
-    92
-   ],
-   "ani": 18.7,
-   "net": 4716,
-   "luni_goale": 1,
-   "cost_total": 88060,
-   "fara_comision": false,
-   "riscuri": [
-    "nu scrie de centrală proprie"
-   ],
-   "la_casa": false,
-   "nou": false,
-   "titlu": "Apartament cu 2 camere-77mp utili+gradina+pivnita+debara | 1100€/mp",
-   "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-77mp-utili-gradina-pivnita-debara-1100EUR-mp-IDHWoh",
-   "scor": 18.672603901611534
-  },
-  {
    "alte": [
     {
      "pret": 49990,
@@ -100,6 +72,34 @@
    "titlu": "Apartament de vanzare cu 2 camere in zona Tiglari Sibiu",
    "url": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-cu-2-camere-in-zona-tiglari-sibiu-IDJejJ",
    "scor": 19.03974118598581
+  },
+  {
+   "alte": [],
+   "pret": 99900,
+   "mpu": 64,
+   "zona": "Tilisca, Sibiu",
+   "creat": "2026-07-27",
+   "stare": "ready_to_use",
+   "chirie": 600,
+   "chirie_din": "oras",
+   "chirie_n": 12,
+   "chirie_mp": [
+    54,
+    74
+   ],
+   "ani": 20,
+   "net": 5073,
+   "luni_goale": 1,
+   "cost_total": 101498,
+   "fara_comision": true,
+   "riscuri": [
+    "nu scrie de centrală proprie"
+   ],
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament 64 mpu lângă Parcul Belvedere – Comision 0%",
+   "url": "https://www.storia.ro/ro/oferta/apartament-64-mpu-lng-parcul-belvedere-comision-0-IDI0sk",
+   "scor": 20.00749063670412
   }
  ],
  "surse": [
