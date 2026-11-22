@@ -38,7 +38,15 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 $prompt = Get-Content (Join-Path $repo 'tools\prompt-zilnic.txt') -Raw -Encoding UTF8
-if ((Test-Path $stare) -and ($s.esuate.Count -gt 0 -or $s.lipsa_browser.Count -gt 0)) {
+# Mihai, 2026-11-22: dimineata ruleaza sarcina din cloud, care publica "Update <azi>"
+# pe main. Din cloud imobiliare.ro si Facebook sunt blocate, deci daca cloud-ul a
+# publicat azi si laptopul n-a rulat inca azi, laptopul face doar pasii din browser.
+$laptopAzi = (Test-Path $stare) -and ($s.data -eq $azi)
+$cloudAzi = git log origin/main -n 30 --format=%s | Select-String -Pattern "^Update $azi"
+if ($cloudAzi -and -not $laptopAzi) {
+  "cloud-ul a publicat deja azi, fac doar pasii din browser" | Out-File -Append -Encoding utf8 $log
+  $prompt = "DOAR BROWSER: cloud-ul a publicat deja azi. Urmeaza sectiunea DOAR BROWSER de mai jos.`n`n" + $prompt
+} elseif ((Test-Path $stare) -and ($s.esuate.Count -gt 0 -or $s.lipsa_browser.Count -gt 0)) {
   $prompt = "RELUARE: rularea din $($s.data) $($s.ora) nu a mers complet. Au esuat: $($s.esuate -join ', '). Fisiere din browser lipsa: $($s.lipsa_browser -join ', '). Nu sari peste pasii astia azi.`n`n" + $prompt
 }
 

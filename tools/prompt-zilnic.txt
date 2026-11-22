@@ -124,6 +124,23 @@ acolo nu se sar azi, chiar daca dureaza. Sursele fara browser se citesc
 oricum toate. Mihai, 2026-10-27: "sa nu uiti sa mai citesti daca nu ai
 apucat cand trebuia".
 
+DOAR BROWSER: din 2026-11-23, rularea de dimineata se face din cloud, cu sarcina
+programata "de-cumparat: actualizare zilnica din cloud". Ea citeste Storia,
+Autovit, publi24, lajumate, agentiile, licitatiile, ANAF si OLX. Din cloud
+imobiliare.ro da 403 si Facebook cere login, asa ca laptopul le completeaza.
+Cand update-zilnic.ps1 te porneste cu "DOAR BROWSER:" in fata acestui text:
+ - fa pasii din browser a)-f) ca de obicei, si OLX. tools/externe/ nu e in git,
+   deci ce a scos cloud-ul nu e aici, iar chiriile de azi trebuie sa fie toate
+   in acelasi fisier;
+ - in loc de node tools/update.js, ruleaza node tools/update.js --doar-browser.
+   El sare Storia, Autovit, linkurile si sursele fara browser, citite deja azi
+   de cloud, si publica restul;
+ - verifica pozele doar la anunturile din topul din azi.json care nu erau in
+   top dimineata (git diff azi.json);
+ - adauga in tools/ultimul-raport.md o sectiune "Completare de pe laptop" cu ce
+   au adus imobiliare.ro si Facebook. Nu sterge raportul din cloud. Fa commit
+   si push.
+
 Apoi lantul complet:
 
    node tools/update.js

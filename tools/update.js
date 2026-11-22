@@ -23,6 +23,11 @@ const fs = require('fs');
 
 const RADACINA = path.join(__dirname, '..');
 const AZI = new Date().toISOString().slice(0, 10);
+// Mihai, 2026-11-22: dimineata ruleaza sarcina din cloud, care citeste Storia,
+// Autovit, publi24, agentiile, licitatiile si OLX. Din cloud imobiliare.ro da
+// 403 si Facebook cere login, asa ca laptopul le completeaza cand e pornit. Cu
+// --doar-browser sare ce a citit cloud-ul deja azi si publica ce a adus browserul.
+const DOAR_BROWSER = process.argv.includes('--doar-browser');
 
 // Ce n-a mers azi ramane scris in tools/ultima-rulare.json; update-zilnic.ps1
 // reia rularea mai tarziu in aceeasi zi pana nu mai lipseste nimic (Mihai,
@@ -76,26 +81,28 @@ function numara() {
 (async () => {
   const inainte = numara();
 
-  // Optional: cand Storia da 403 (dupa multe cereri), restul surselor tot se publica.
-  ruleaza('node', ['tools/scan.js', 'storia'], true);
-  ruleaza('node', ['tools/scan.js', 'masini'], true);
-  ruleaza('node', ['tools/masini-avariate.js', '--scrie'], true);
-  // Case din alte surse: publi24, lajumate/homezz, agentiile si licitatiile, fara
-  // browser, plus ce a scos browserul azi din OLX, imobiliare.ro si Facebook in
-  // tools/externe/*-raw.json (vezi prompt-zilnic.txt).
-  ruleaza('node', ['tools/surse-case.js', 'zilnic', '--scrie'], true);
+  if (!DOAR_BROWSER) {
+    // Optional: cand Storia da 403 (dupa multe cereri), restul surselor tot se publica.
+    ruleaza('node', ['tools/scan.js', 'storia'], true);
+    ruleaza('node', ['tools/scan.js', 'masini'], true);
+    ruleaza('node', ['tools/masini-avariate.js', '--scrie'], true);
+    // Case din alte surse: publi24, lajumate/homezz, agentiile si licitatiile, fara
+    // browser, plus ce a scos browserul azi din OLX, imobiliare.ro si Facebook in
+    // tools/externe/*-raw.json (vezi prompt-zilnic.txt).
+    ruleaza('node', ['tools/surse-case.js', 'zilnic', '--scrie'], true);
+  }
   const externe = path.join(RADACINA, 'tools', 'externe');
   if (fs.existsSync(externe)) fs.readdirSync(externe)
     .filter(f => f.endsWith('-raw.json') && fs.statSync(path.join(externe, f)).mtime.toISOString().slice(0, 10) === AZI)
     .forEach(f => ruleaza('node', ['tools/surse-case.js', 'fisier', path.join('tools', 'externe', f), '--scrie'], true));
   // Chiriile Storia una cate una: azi.js estimeaza chiria din ele (~12 cereri de cautare)
-  ruleaza('node', ['tools/chirii.js'], true);
+  if (!DOAR_BROWSER) ruleaza('node', ['tools/chirii.js'], true);
   // Si chiriile de pe Publi24, lajumate, plus OLX/imobiliare/Facebook scoase azi cu browserul
   ruleaza('node', ['tools/chirii-externe.js'], true);
   // Cat de repede dispar chiriile, pe marimi: masura cererii (tools/urmarire-chirii.js)
   ruleaza('node', ['tools/urmarire-chirii.js'], true);
   // Inainte de clasament, nu dupa: altfel ajunge in el un anunt deja sters.
-  ruleaza('node', ['tools/scan.js', 'linkuri', '--scrie'], true);
+  if (!DOAR_BROWSER) ruleaza('node', ['tools/scan.js', 'linkuri', '--scrie'], true);
   ruleaza('node', ['tools/publica.js', '--scrie']);
   ruleaza('node', ['tools/curata.js', '--scrie']);
   ruleaza('node', ['tools/marcheaza-dubluri.js', '--scrie']);
@@ -113,7 +120,9 @@ function numara() {
     return;
   }
 
-  const mesaj = `Update ${AZI}: ${dupa.case_} case, ${dupa.ap} apartamente, `
+  // "Update <azi>" e semnul pe care update-zilnic.ps1 il cauta ca sa stie ca
+  // rularea completa (din cloud) s-a facut; completarea are alt titlu.
+  const mesaj = `${DOAR_BROWSER ? `Completare ${AZI} de pe laptop (imobiliare.ro, Facebook)` : `Update ${AZI}`}: ${dupa.case_} case, ${dupa.ap} apartamente, `
     + `${dupa.masini} masini, ${dupa.biciclete} biciclete\n\n`
     + `Fata de rularea anterioara: case ${inainte.case_} -> ${dupa.case_}, `
     + `apartamente ${inainte.ap} -> ${dupa.ap}.\n\n`
