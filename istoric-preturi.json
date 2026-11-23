@@ -55,7 +55,7 @@
      "p": 158000
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 165000
     }
    ]
@@ -503,7 +503,7 @@
      "p": 199990
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 185000
     }
    ]
@@ -1803,7 +1803,7 @@
      "p": 75000
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 92000
     }
    ]
@@ -3005,7 +3005,7 @@
      "p": 77000
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 110000
     }
    ]
@@ -3017,10 +3017,6 @@
     {
      "d": "2026-09-13",
      "p": 68000
-    },
-    {
-     "d": "2026-09-25",
-     "p": 55000
     },
     {
      "d": "2026-09-28",
@@ -3201,7 +3197,7 @@
      "p": 85900
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 81990
     },
     {
@@ -4457,7 +4453,7 @@
      "p": 89000
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-10-04",
      "p": 84999
     }
    ]
@@ -42681,6 +42677,46 @@
     {
      "d": "2026-11-22",
      "p": 249
+    }
+   ]
+  },
+  "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-OLX_ID7HR5HI.html": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-OLX_ID7HR5HI.html",
+   "t": "Dacia Sandero Stepway",
+   "preturi": [
+    {
+     "d": "2026-11-23",
+     "p": 10490
+    }
+   ]
+  },
+  "ID7HR5jP": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dokker-ver-1-5-blue-dci-ambiance-ID7HR5jP.html",
+   "t": "Dacia Dokker 1.5 Blue dCi Ambiance",
+   "preturi": [
+    {
+     "d": "2026-11-23",
+     "p": 10500
+    }
+   ]
+  },
+  "ID7HR5Lg": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-5-dci-comfort-ID7HR5Lg.html",
+   "t": "Dacia Duster 1.5 dCi Comfort",
+   "preturi": [
+    {
+     "d": "2026-11-23",
+     "p": 11200
+    }
+   ]
+  },
+  "ID7HR5GY": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-120-cp-6mt-2wd-highway-ID7HR5GY.html",
+   "t": "Hyundai KONA 1.0 T-GDI 120 CP 6MT 2WD Highway",
+   "preturi": [
+    {
+     "d": "2026-11-23",
+     "p": 12000
     }
    ]
   }
