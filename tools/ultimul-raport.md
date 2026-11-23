@@ -34,3 +34,14 @@ Dupa fiecare respingere am rulat `node tools/azi.js --scrie`.
 **Masini, top:** Sandero Stepway 2021, 29.763 km, Bascov, 9.999 €; Sandero Stepway 2020, 79.000 km, Selimbar, acum 6.690 € (ieri 5.990; adusa din Germania, probabil neinmatriculata in Romania); Sandero Stepway 2022, 82.000 km, Bucuresti, 9.257 €.
 
 **Ce a picat:** nimic din scripturi. update.js a urcat singur commit-ul de date (`git push` a mers fara gh). imobiliare.ro si Facebook n-au fost citite (vezi sus) si raman in ultima-rulare.json ca lipsa_browser.
+
+## Completare de pe laptop (08:35)
+
+Iesire prin Digi (nu VPN). Pasii a)-f) din browser, apoi `node tools/update.js` complet; lipsa_browser e acum gol.
+- **imobiliare.ro chirii:** 644 de anunturi, 22 de pagini.
+- **imobiliare.ro case:** 274 sub 250.000 € din 745. Din 140 necunoscute am incercat 13 descrieri; 403 dupa 2 (22 + 25 + 4 cereri in sesiune). Intrata in lista: casa cu 3 camere din Terezian, 70 mp, 71.250 € ("Black Friday"), fara descriere citita, deci curtea si cladirea sunt neverificate - https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-terezian-mobilata-3-camere-275560947
+- **Facebook case:** 1.154 de carduri cu casa/imobil/vila; 16 noi din oras, 16 din 16 cu descriere. Niciuna n-a intrat in lista.
+- **Facebook chirii:** 13 carduri, 1 cu descriere.
+- **OLX:** 90 de case (88 cu descriere) si 109 chirii, ca dimineata.
+- **Top:** neschimbat fata de dimineata (aceleasi 3 case si 3 apartamente), deci pozele nu s-au mai verificat.
+- Liste: case 417 -> 418, apartamente 567.
