@@ -131,6 +131,19 @@
    "pret": 199000,
    "zona": "Lupeni",
    "motiv": "igrasie in poze: vopsea umflata si cazuta pe perete sub geam, deasupra caloriferului, si fisuri mari in perete in dormitor (poza 13); fisuri in tavan in camera mare (poza 7, 19) (2026-11-18)"
+  },
+  {
+   "id": "IDHeWV",
+   "ce": "Piata Cluj (Terezian), Str. Infratirii 8, casa 117 mp, teren 433 mp",
+   "pret": 198000,
+   "zona": "Terezian",
+   "motiv": "cladire impartita in poze: fatada la strada are doua usi, iar geamul din dreapta e al unui birou cu afise \"ASIGURARI CASE\" si \"AUTOTURISME IN RATE FIXE\" (poza 1); regula \"singur in cladire\" (prompt-zilnic.txt) spune ca doua intrari e la fel ca o cladire comuna. Planul de amplasament (poza 8) arata o singura casa C1 pe parcela; de intrebat daca biroul e al proprietarului (2026-11-23)"
+  },
+  {
+   "id": "IDGXS9",
+   "ce": "\"Casa moderna LOW-E\", 145 mp, MAAC, 159.000 EUR promo",
+   "pret": 159000,
+   "motiv": "nu e casa de vanzare: e un model construit la comanda \"oriunde in Romania sau Europa\", iar descrierea scrie \"TERENUL NU ESTE INCLUS\"; pozele sunt randari/exemple (2026-11-23)"
   }
  ],
  "apartamente": [

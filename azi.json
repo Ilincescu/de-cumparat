@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-23 05:00",
+ "generat": "2026-11-23 05:01",
  "de_la": "2026-11-22",
  "pana_la": "2026-11-23",
  "case_noi": 0,
@@ -161,19 +161,21 @@
    "scor": 46
   },
   {
-   "pret": 198000,
-   "mpu": 117,
-   "curte": 351,
+   "pret": 129000,
+   "mpu": 55,
+   "curte": 112,
    "curte_sigura": false,
-   "teren": 433,
+   "teren": 151,
    "demisol": false,
-   "zona": "Terezian, Sibiu",
-   "creat": "2026-05-11",
+   "zona": "Centrul Civic, Sibiu",
+   "an": "1980",
+   "stare": "to_renovation",
+   "creat": "2025-12-10",
    "repostat": true,
    "alte": [],
-   "titlu": "Casa individuala zona Piata Cluj",
-   "url": "https://www.storia.ro/ro/oferta/casa-individuala-zona-piata-cluj-IDHeWV",
-   "scor": 44
+   "titlu": "Casă cu curte în Sibiu | Ultracentral | 82 mp",
+   "url": "https://www.storia.ro/ro/oferta/cas-cu-curte-n-sibiu-ultracentral-82-mp-IDFPwD",
+   "scor": 35
   }
  ],
  "masini": [
