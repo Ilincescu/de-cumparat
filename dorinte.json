@@ -1,12 +1,12 @@
 {
- "actualizat": "2026-11-22",
+ "actualizat": "2026-11-23",
  "grupuri": [
   {
    "id": "ford-verde",
    "nume": "Ford SUV verde",
    "nota": "Urmarit din 4 noiembrie (\"Ford verde, daca vezi ceva sa imi zici\"). Puma si Kuga: motoarele 1.0 si 1.5 EcoBoost au cureaua in baie de ulei.",
    "reper": null,
-   "total": 22,
+   "total": 24,
    "anunturi": [
     {
      "m": "Ford Kuga",
@@ -51,6 +51,17 @@
      "z": "Bucuresti",
      "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ID7HR0aN.html",
      "d": "2026-11-03"
+    },
+    {
+     "m": "Ford Kuga",
+     "an": 2024,
+     "km": 65832,
+     "cp": 186,
+     "f": "Benzina",
+     "p": 21296,
+     "z": "Bucuresti",
+     "u": "https://www.autovit.ro/autoturisme/anunt/ford-kuga-ID7HNl4t.html",
+     "d": "2026-10-26"
     }
    ]
   },
@@ -66,7 +77,7 @@
     "p": 14500,
     "nota": "50-60 km pe electric, motor 1.5 benzina"
    },
-   "total": 21,
+   "total": 24,
    "anunturi": [
     {
      "m": "MG EHS",

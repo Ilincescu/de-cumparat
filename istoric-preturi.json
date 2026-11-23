@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-22",
+ "actualizat": "2026-11-23",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -38383,6 +38383,10 @@
     {
      "d": "2026-11-13",
      "p": 229900
+    },
+    {
+     "d": "2026-11-23",
+     "p": 229500
     }
    ]
   },
@@ -42477,6 +42481,206 @@
     {
      "d": "2026-11-21",
      "p": 14999
+    }
+   ]
+  },
+  "IDJjHq": {
+   "u": "https://www.storia.ro/ro/oferta/casa-tip-triplex-98-mp-utili-complet-mobilata-si-utilata-IDJjHq",
+   "t": "Casa tip triplex - 98 mp utili | Complet mobilata si utilata",
+   "preturi": [
+    {
+     "d": "2026-11-23",
+     "p": 249000
+    }
+   ]
+  },
+  "IDJjHD": {
+   "u": "https://www.storia.ro/ro/oferta/casa-120-mp-cu-3-dormitoare-si-curte-250-mp-arhitectilor-IDJjHD",
+   "t": "Casa 120 mp cu 3 dormitoare si curte 250 mp - Arhitectilor",
+   "preturi": [
+    {
+     "d": "2026-11-23",
+     "p": 214000
+    }
+   ]
+  },
+  "IDJjJq": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-1-camer-de-vnzare-sibiu-central-44-mp-IDJjJq",
+   "t": "Apartament 1 cameră de vânzare | Sibiu, Central | 44 mp",
+   "preturi": [
+    {
+     "d": "2026-11-23",
+     "p": 74000
+    }
+   ]
+  },
+  "https://lajumate.ro/ad/casa-de-vanzare-tocile-17124159": {
+   "u": "https://lajumate.ro/ad/casa-de-vanzare-tocile-17124159",
+   "t": "Casă de vânzare Tocile",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 165000
+    }
+   ]
+  },
+  "ID7HR5uk": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-150-edc-extreme-ID7HR5uk.html",
+   "t": "Dacia Duster TCe 150 EDC Extreme",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 5599
+    }
+   ]
+  },
+  "ID7HR5p6": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-1-6-sce-comfort-ID7HR5p6.html",
+   "t": "Dacia Duster 1.6 SCe Comfort",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 10390
+    }
+   ]
+  },
+  "ID7HR5up": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-eco-g-100-prestige-plus-ID7HR5up.html",
+   "t": "Dacia Duster ECO-G 100 Prestige Plus",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 10890
+    }
+   ]
+  },
+  "ID7HR5n3": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-ecosport-ver-1-0-ecoboost-st-line-ID7HR5n3.html",
+   "t": "Ford EcoSport 1.0 EcoBoost ST-Line",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 11500
+    }
+   ]
+  },
+  "ID7HR51Y": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-kona-ver-1-0-t-gdi-2wd-highway-ID7HR51Y.html",
+   "t": "Hyundai KONA 1.0 T-GDI 2WD Highway",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 11500
+    }
+   ]
+  },
+  "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-OLX_ID7HR5rp.html": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-OLX_ID7HR5rp.html",
+   "t": "Dacia Sandero Stepway",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 12490
+    }
+   ]
+  },
+  "ID7HR5nn": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-130-2wd-prestige-ID7HR5nn.html",
+   "t": "Dacia Duster TCe 130 2WD Prestige",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 12750
+    }
+   ]
+  },
+  "https://www.autovit.ro/autoturisme/anunt/suzuki-sx4-s-cross-OLX_ID7HR5tY.html": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-sx4-s-cross-OLX_ID7HR5tY.html",
+   "t": "Suzuki S-Cross",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 13700
+    }
+   ]
+  },
+  "https://www.autovit.ro/autoturisme/anunt/ford-puma-OLX_ID7HR5te.html": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-OLX_ID7HR5te.html",
+   "t": "Ford Puma",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 13800
+    }
+   ]
+  },
+  "ID7HR5mF": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-1-2-puretech-130-eat8-active-pack-ID7HR5mF.html",
+   "t": "Peugeot 3008 1.2 PureTech 130 EAT8 Active Pack",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 13990
+    }
+   ]
+  },
+  "ID7HR5wP": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-extremeplus-ID7HR5wP.html",
+   "t": "Dacia Sandero Stepway ECO-G 100 MT6 Extreme+",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 14300
+    }
+   ]
+  },
+  "ID7HR0zn": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-sx4-s-cross-ver-1-4-boosterjet-mild-hybrid-allgrip-passion-ID7HR0zn.html",
+   "t": "Suzuki S-Cross 1.4 Boosterjet Mild Hybrid AllGrip Passion",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 14700
+    }
+   ]
+  },
+  "https://www.autovit.ro/autoturisme/anunt/kg-mobility-tivoli-OLX_ID7HR54o.html": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/kg-mobility-tivoli-OLX_ID7HR54o.html",
+   "t": "KGM Tivoli",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 14800
+    }
+   ]
+  },
+  "ID7HR5ql": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-5-ecoblue-titanium-ID7HR5ql.html",
+   "t": "Ford Puma 1.5 EcoBlue Titanium",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 14900
+    }
+   ]
+  },
+  "ID7HR4gS": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/skoda-kamiq-ver-1-0-tsi-dsg-ambition-ID7HR4gS.html",
+   "t": "Skoda Kamiq 1.0 TSI DSG Ambition",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 14990
+    }
+   ]
+  },
+  "https://elicitatii.anaf.ro/publicitate/produs/12600032081000000047688-autoturism-dacia-logan-an-2009": {
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600032081000000047688-autoturism-dacia-logan-an-2009",
+   "t": "Dacia Logan",
+   "preturi": [
+    {
+     "d": "2026-11-22",
+     "p": 249
     }
    ]
   }

@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-22 11:43",
+ "actualizat": "2026-11-23 06:59",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -720,7 +720,7 @@
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-mobilata-cu-4-camere-2-bai-si-garaj-in-gusterita-IDIrXe",
    "warn": "Detalii neverificate in descriere.",
    "d": "2026-11-13",
-   "alte": 16
+   "alte": 15
   },
   {
    "k": "casa",
@@ -8992,8 +8992,7 @@
    "src": "imobiliare",
    "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-central-4-camere-275466990",
    "warn": "Din imobiliare; detalii neverificate in descriere.",
-   "d": "2026-10-26",
-   "dup": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-central-4-camere-275471852"
+   "d": "2026-10-26"
   },
   {
    "k": "casa",
@@ -9253,21 +9252,6 @@
   },
   {
    "k": "ap",
-   "p": 96000,
-   "t": "Apartament decomandat de vanzare etaj intermediar lift Vasile Aaron",
-   "z": "Zona Industriala Est, Sibiu",
-   "r": 2,
-   "a": 54,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-de-vanzare-etaj-intermediar-lift-vasile-aaron-IDIZGd",
-   "warn": null,
-   "d": "2026-11-13"
-  },
-  {
-   "k": "ap",
    "p": 86500,
    "t": "Apt superb zona Henri Coanda",
    "z": "Broscarie, Sibiu",
@@ -9280,21 +9264,6 @@
    "u": "https://www.storia.ro/ro/oferta/apt-superb-zona-henri-coanda-IDIZEP",
    "warn": null,
    "d": "2026-10-30"
-  },
-  {
-   "k": "ap",
-   "p": 73000,
-   "t": "Apartament 2 camere de vânzare, 37 mp, Sibiu, zona Rahovei",
-   "z": "Hipodrom III, Sibiu",
-   "r": 2,
-   "a": 37,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vnzare-37-mp-sibiu-zona-rahovei-IDIZiM",
-   "warn": null,
-   "d": "2026-10-26"
   },
   {
    "k": "ap",
@@ -9355,21 +9324,6 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lacul-lui-binder-IDIp0J",
    "warn": null,
    "d": "2026-11-09"
-  },
-  {
-   "k": "ap",
-   "p": 110000,
-   "t": "Apartament 2 camere decomandate zona Turnisor",
-   "z": "Turnisor, Sibiu",
-   "r": 2,
-   "a": 62,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandate-zona-turnisor-IDIg2g",
-   "warn": null,
-   "d": "2026-10-26"
   },
   {
    "k": "ap",
@@ -11865,8 +11819,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-in-zona-centrala-IDI0GT",
    "warn": null,
-   "d": "2026-11-10",
-   "dup": "IDIp2T"
+   "d": "2026-11-10"
   },
   {
    "k": "casa",
@@ -14520,7 +14473,7 @@
   },
   {
    "k": "casa",
-   "p": 229900,
+   "p": 229500,
    "t": "Casa de vanzare in Sibiu - PROPRIETAR",
    "z": "Gusterita, Sibiu",
    "r": 4,
@@ -14531,8 +14484,7 @@
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/casa-de-vanzare-in-sibiu-proprietar-IDJcXI",
    "warn": null,
-   "d": "2026-11-20",
-   "dup": "IDIrXe"
+   "d": "2026-11-23"
   },
   {
    "k": "casa",
@@ -15000,6 +14952,21 @@
    "u": "https://www.storia.ro/ro/oferta/vnd-apartament-situat-la-etajul-2-din-2-ntr-o-vil-din-zona-turnior-IDJjwI",
    "warn": "Declarata de renovat in fisa tehnica.",
    "d": "2026-11-22"
+  },
+  {
+   "k": "casa",
+   "p": 249000,
+   "t": "Casa tip triplex - 98 mp utili | Complet mobilata si utilata",
+   "z": "Terezian, Sibiu",
+   "r": 4,
+   "a": 98,
+   "g": "curte libera 25 mp",
+   "gm": 25,
+   "c": "proprie",
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/casa-tip-triplex-98-mp-utili-complet-mobilata-si-utilata-IDJjHq",
+   "warn": null,
+   "d": "2026-11-23"
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
- "generat": "2026-11-22 17:58",
- "de_la": "2026-11-21",
- "pana_la": "2026-11-22",
+ "generat": "2026-11-23 05:00",
+ "de_la": "2026-11-22",
+ "pana_la": "2026-11-23",
  "case_noi": 0,
  "case_trec": 0,
  "din_rezerva": true,
@@ -10,7 +10,7 @@
  "ap_noi": 0,
  "ap_trec": 0,
  "ap_din_rezerva": false,
- "chirii_din": "2026-11-22",
+ "chirii_din": "2026-11-23",
  "apartamente": [
   {
    "alte": [
@@ -53,7 +53,7 @@
    "creat": "2024-08-22",
    "chirie": 340,
    "chirie_din": "oras",
-   "chirie_n": 58,
+   "chirie_n": 57,
    "chirie_mp": [
     31,
     41
@@ -107,9 +107,9 @@
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-11-22 09:34",
+   "cand": "2026-11-23 04:50",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1391,
+   "gasite": 1387,
    "potrivite": 238,
    "stare": "azi",
    "veche": false
@@ -117,10 +117,10 @@
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-11-22 09:35",
+   "cand": "2026-11-23 04:51",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1699,
-   "potrivite": 382,
+   "gasite": 1711,
+   "potrivite": 380,
    "stare": "azi",
    "veche": false
   }
