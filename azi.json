@@ -1,5 +1,5 @@
 {
- "generat": "2026-11-24 04:59",
+ "generat": "2026-11-24 05:00",
  "de_la": "2026-11-23",
  "pana_la": "2026-11-24",
  "case_noi": 0,
@@ -12,36 +12,6 @@
  "ap_din_rezerva": false,
  "chirii_din": "2026-11-24",
  "apartamente": [
-  {
-   "alte": [],
-   "pret": 75000,
-   "mpu": 70,
-   "zona": "Terezian, Sibiu",
-   "creat": "2025-06-16",
-   "stare": "to_renovation",
-   "chirie": 450,
-   "chirie_din": "Terezian",
-   "chirie_n": 8,
-   "chirie_mp": [
-    56,
-    84
-   ],
-   "ani": 20.4,
-   "net": 3804,
-   "luni_goale": 1,
-   "cost_total": 77700,
-   "fara_comision": false,
-   "riscuri": [
-    "parter",
-    "nu scrie de centrală proprie",
-    "necesită renovare: chiria estimată e pentru renovat"
-   ],
-   "la_casa": true,
-   "nou": false,
-   "titlu": "Apartament la casa 2 camere pivnita parcare zona Terezian",
-   "url": "https://www.storia.ro/ro/oferta/apartament-la-casa-2-camere-pivnita-parcare-zona-terezian-IDDZsA",
-   "scor": 20.425867507886434
-  },
   {
    "alte": [],
    "pret": 54000,
@@ -98,6 +68,40 @@
    "titlu": "Apartament etajul 1 la casa cu 2 camere in zona Centrala din Sibiu",
    "url": "https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIZ4M",
    "scor": 22.755046700813498
+  },
+  {
+   "alte": [
+    {
+     "pret": 65500,
+     "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-pretabil-investitie-i-lacul-lui-binder-IDB86s"
+    }
+   ],
+   "pret": 65000,
+   "mpu": 40,
+   "zona": "Tiglari, Sibiu",
+   "creat": "2026-09-02",
+   "chirie": 350,
+   "chirie_din": "oras",
+   "chirie_n": 111,
+   "chirie_mp": [
+    34,
+    46
+   ],
+   "ani": 23.3,
+   "net": 2892,
+   "luni_goale": 1,
+   "cost_total": 67340,
+   "fara_comision": false,
+   "riscuri": [
+    "zona din anunț Tiglari, pinul Storia Terezian",
+    "parter",
+    "bloc din 1977"
+   ],
+   "la_casa": false,
+   "nou": false,
+   "titlu": "Apartament 2 camere zona Lacul lui Binder",
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lacul-lui-binder-IDIp0J",
+   "scor": 23.284923928077454
   }
  ],
  "surse": [
