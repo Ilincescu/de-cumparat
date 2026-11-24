@@ -37,6 +37,7 @@
   td.n { white-space:nowrap; font-variant-numeric:tabular-nums; }
   .ce { font-size:.88rem; }
   td.c { font-variant-numeric:tabular-nums; }
+  .stamp { margin:0 0 12px; padding:6px 12px; border:1px solid var(--line); border-radius:999px; background:var(--soft); font-size:.93rem; display:inline-block; }
   .src { font-size:.85rem; color:var(--muted); }
   .src li { margin-bottom:3px; }
 </style>
@@ -45,8 +46,9 @@
 <main>
 <h1>Excursia în Asia, primăvara 2027</h1>
 <p class="sub">Mihai și Raluca · cam 4 săptămâni, între 7 februarie și începutul lui aprilie 2027 · sosire într-un oraș din Asia, întoarcere din altul · fără escală în Orientul Mijlociu · traseul nu e ales</p>
+<p class="stamp">Prețuri de zbor citite ultima dată: <b id="ultima-cautare">vezi „Cele mai ieftine date”</b></p>
 <nav>
-  <a href="#verdict">Pe scurt</a><a href="#date-ieftine">Date ieftine</a><a href="#zone">Feb–mar</a><a href="#thailanda">Thailanda</a><a href="#vietnam">Vietnam</a><a href="#srilanka">Sri Lanka</a><a href="#bali">Bali</a><a href="#date">Date de știut</a><a href="#hotarat">De hotărât</a><a href="#surse">Surse</a>
+  <a href="#verdict">Pe scurt</a><a href="#cost-total">Cost total</a><a href="#date-ieftine">Date ieftine</a><a href="#zone">Feb–mar</a><a href="#thailanda">Thailanda</a><a href="#vietnam">Vietnam</a><a href="#srilanka">Sri Lanka</a><a href="#bali">Bali</a><a href="#date">Date de știut</a><a href="#hotarat">De hotărât</a><a href="#surse">Surse</a>
 </nav>
 
 <div class="warn">
@@ -59,12 +61,41 @@
 <h2 id="verdict">Pe scurt</h2>
 <div class="card">
   <ul>
-    <li><b>Ordinea, pe vreme: Thailanda întâi, apoi Vietnamul central.</b> Pe coasta Andaman (Phuket, Krabi) plouă mai puțin în martie decât în aprilie: 74–100 mm față de 135–154. La Da Nang și Hoi An, aprilie e dată drept cea mai bună lună, iar la începutul lui martie poate fi vânt.</li>
-    <li><b>Cu zborurile căutate:</b> cel mai ieftin e sosirea în Bangkok și plecarea din Kuala Lumpur sau Singapore. Vietnamul se poate pune la mijloc, cu un zbor din Vietnam spre Malaezia sau Singapore, al cărui preț nu l-am căutat. Prețurile, recitite la două zile: <a href="#date-ieftine">Cele mai ieftine date</a>.</li>
-    <li><b>Invers, Hanoi → … → Bangkok:</b> Vietnamul în martie, Thailanda la final. Merge și așa: Da Nang are în martie 28°C și 25 mm de ploaie. Vremea din nord, la Hanoi, n-am verificat-o.</li>
-    <li><b>Thailanda dă acum doar 30 de zile fără viză</b> (din 15 septembrie 2026; înainte erau 60). Partea din Thailanda a traseului trebuie să încapă în 30 de zile.</li>
+    <li><b>Ce am căutat:</b> vreo 27 de zone: Asia de sud și de sud-est, China, India, Kenya, Mexic și Columbia. Pentru fiecare, vremea în februarie și în martie și cazarea. Zboruri din București, din Budapesta și din alte aeroporturi am căutat doar pentru o parte: nu și pentru Maldive, Costa Rica, Cuba, Republica Dominicană, Cape Town sau Zanzibar. <b>Nu am căutat în toată lumea:</b> lipsesc Brazilia, Africa de Vest, insulele din Pacific și Orientul Mijlociu (exclus de tine).</li>
+    <li><b>Ca preț total, nu doar bilet</b> (zbor, cazare, mâncare și transport local, pentru doi, 28 de zile; estimare):
+      <ul>
+        <li><b>India</b> (Mumbai, apoi Goa sau Kerala) iese cel mai ieftin: cam 3.700 €.</li>
+        <li>Apoi <b>Bali</b> (5.100 €, dar e sezon ploios) și <b>Columbia</b> (5.200 €, cu zbor cu 2 escale).</li>
+        <li><b>Vietnam, Filipine și Sri Lanka:</b> cam 5.800 €; <b>Thailanda cu Malaezia:</b> 6.600 €; <b>Kenya:</b> 9.200 €.</li>
+        <li>Calculul și limitele lui: <a href="#cost-total">Cost total</a>.</li>
+      </ul></li>
+    <li><b>Doar ca bilet de avion, de persoană, dus-întors, din București:</b> India (Mumbai) 826 €, Thailanda (Bangkok → Kuala Lumpur) 881 €, Bali 906 €. Din Budapesta, Thailanda costă 858–874 € (cifre nereverificate). Mai scumpe cu 18–25%: Mombasa 1.039 €, Cancún 1.087 €, Manila 1.102 €. Vietnam direct, 1.202 €, dar prin Bangkok iese mai ieftin: +77 € Bangkok → Hanoi și 71 € Ho Chi Minh → Kuala Lumpur.</li>
+    <li><b>Mai ieftine, dar cu escală în Golf</b> (excluse de tine): Kochi 786 €, Colombo 809 €. <b>China:</b> Hong Kong 811 € din București și 717 € din Budapesta, dar întoarcerea și vremea de acolo nu le-am verificat; Hainan și Yunnan n-au avut zbor cu o escală.</li>
+    <li><b>Pe vreme,</b> între Thailanda și Vietnam: coasta Andaman e uscată în februarie și în martie; la Da Nang, martie e bun, iar aprilie și mai bun. Vremea din nord, la Hanoi, n-am verificat-o.</li>
+    <li><b>Thailanda dă acum doar 30 de zile fără viză</b> (din 15 septembrie 2026; înainte erau 60). India cere viză electronică (25–80 $ după site-uri, neverificat).</li>
     <li><b>De evitat:</b> nordul Thailandei (Chiang Mai), din cauza fumului din martie–aprilie; Bali la începutul traseului, fiindcă pe 8 martie aeroportul e închis o zi întreagă.</li>
     <li><b>Biletele:</b> planul de pe pagina Black Friday era alertă de preț în Google Flights și cumpărare între 23 și 30 noiembrie dacă prețul scade, sau imediat dacă urcă. Black Friday e pe 27 noiembrie.</li>
+  </ul>
+</div>
+
+<h2 id="cost-total">Cât costă în total, nu doar biletul</h2>
+<p class="muted">Estimare pentru doi, 28 de zile: zborul (dus-întors, cel mai ieftin din căutările noastre, fără zboruri interne) plus cheltuielile de pe zi ale călătorilor: cazare, mâncare, transport local și vizite. Cheltuielile sunt media pe persoană de pe <a href="https://www.budgetyourtrip.com/">budgetyourtrip.com</a>, în dolari, convertită cu 1 € = 1,10 $ (<a href="https://www.exchange-rates.org/converter/eur-usd">curs din 19 noiembrie 2026</a>). Cele mai ieftine primele.</p>
+<table>
+  <tr><th>Zona</th><th>Zbor, 2 persoane</th><th>Cheltuieli, 28 de zile</th><th>Total</th></tr>
+  <tr><td>India: Mumbai → Goa sau Kerala<br><span class="ce">zbor 6 mar – 3 apr, întoarcerea neverificată; zbor intern Mumbai–Goa necăutat; 15–111 $ pe zi după stil</span></td><td class="c">1.652 €<br><span class="s">826 € de persoană</span></td><td class="c">2.036 €<br><span class="s"><a href="https://www.budgetyourtrip.com/india/trip-cost-IN">40 $</a> pe zi, de persoană</span></td><td class="c"><b>3.688 €</b></td></tr>
+  <tr><td>Bali (Indonezia)<br><span class="ce">sezon ploios în februarie–martie</span></td><td class="c">1.812 €<br><span class="s">906 € de persoană</span></td><td class="c">3.309 €<br><span class="s"><a href="https://www.budgetyourtrip.com/indonesia/trip-cost-ID">65 $</a> pe zi, de persoană</span></td><td class="c"><b>5.121 €</b></td></tr>
+  <tr><td>Columbia: Cartagena<br><span class="ce">zborul are 2 escale; nu există cu una</span></td><td class="c">1.968 €<br><span class="s">984 € de persoană</span></td><td class="c">3.207 €<br><span class="s"><a href="https://www.budgetyourtrip.com/colombia/trip-cost-CO">63 $</a> pe zi, de persoană</span></td><td class="c"><b>5.175 €</b></td></tr>
+  <tr><td>Vietnam, zbor direct la Ho Chi Minh<br><span class="ce">prin Bangkok și zbor intern ar ieși mai ieftin</span></td><td class="c">2.404 €<br><span class="s">1.202 € de persoană</span></td><td class="c">3.360 €<br><span class="s"><a href="https://www.budgetyourtrip.com/vietnam">66 $</a> pe zi, de persoană</span></td><td class="c"><b>5.764 €</b></td></tr>
+  <tr><td>Filipine: Manila → Palawan<br><span class="ce">cifra pe zi e „mid-range”; la buget 27 $ pe zi, cam 3.600 € în total</span></td><td class="c">2.204 €<br><span class="s">1.102 € de persoană</span></td><td class="c">3.564 €<br><span class="s"><a href="https://www.budgetyourtrip.com/budgetreportadv.php?amp=&amp;amp=&amp;amp=&amp;amp=&amp;amp=&amp;amp=&amp;amp=&amp;budgettype=1&amp;categoryid=0&amp;country_code=PH&amp;countrysearch=&amp;enddate=&amp;geonameid=&amp;startdate=&amp;travelerno=0&amp;triptype=0">70 $</a> pe zi, de persoană</span></td><td class="c"><b>5.768 €</b></td></tr>
+  <tr><td>Sri Lanka: Colombo<br><span class="ce">fără Golf; cu escală la Dubai zborul ar costa 809 €</span></td><td class="c">2.934 €<br><span class="s">1.467 € de persoană</span></td><td class="c">2.851 €<br><span class="s"><a href="https://www.budgetyourtrip.com/sri-lanka">56 $</a> pe zi, de persoană</span></td><td class="c"><b>5.785 €</b></td></tr>
+  <tr><td>Thailanda + Malaezia: Bangkok → Kuala Lumpur<br><span class="ce">cifra pe zi e pentru Thailanda; pentru Malaezia 104 $</span></td><td class="c">1.762 €<br><span class="s">881 € de persoană</span></td><td class="c">4.836 €<br><span class="s"><a href="https://www.budgetyourtrip.com/thailand">95 $</a> pe zi, de persoană</span></td><td class="c"><b>6.598 €</b></td></tr>
+  <tr><td>Kenya: Mombasa<br><span class="ce">media include safari</span></td><td class="c">2.078 €<br><span class="s">1.039 € de persoană</span></td><td class="c">7.076 €<br><span class="s"><a href="https://www.budgetyourtrip.com/kenya/trip-cost-KE">139 $</a> pe zi, de persoană</span></td><td class="c"><b>9.154 €</b></td></tr>
+</table>
+<div class="card">
+  <ul>
+    <li><b>Orientativ, nu exact.</b> Mediile amestecă stiluri de călătorie diferite: Thailanda atrage mai mulți turiști cu buget mediu și mare, deci media ei pe zi iese mai sus. Paginile au vârste diferite și nu toate țările au aceeași defalcare.</li>
+    <li><b>Lipsesc:</b> Mexicul (pagina dă cifre care nu se potrivesc între ele), Cambodgia (72 $ pe zi) și Laosul (22 $ pe zi), unde zborul din România are 2 escale și paginile sunt vechi de 1,5–2 ani. Se pot adăuga ieftin la o excursie prin Thailanda: Bangkok → Siem Reap 113 €, Bangkok → Luang Prabang 192 €.</li>
+    <li><b>Ce se vede:</b> zborul e doar o parte din cost: la Thailanda sunt cam 2.000 € din 6.600 €. De aceea ordinea diferă de cea din tabelul de bilete.</li>
   </ul>
 </div>
 
@@ -78,6 +109,7 @@
     <li><b>Întoarcerea până pe 31 martie.</b> Din Kuala Lumpur costa 376–392 € în martie și 549–735 € din aprilie; din Singapore, 413–448 € în martie și 479–787 € din aprilie.</li>
     <li><b>Atenție la escala de la Istanbul:</b> întoarcerile cele mai ieftine au 14–16 ore de așteptare acolo.</li>
     <li><b>Întoarcerea în Cluj, mai scurtă la același preț:</b> din Kuala Lumpur în Cluj, pe 27 martie, tot 392 €, cu Turkish prin Istanbul, dar în 18 h 20 min, nu 29 h ca spre București. <span class="s"><a href="https://www.google.com/travel/flights?q=One%20way%20flights%20to%20CLJ%20from%20KUL%20on%202027-03-27&amp;hl=en&amp;curr=EUR&amp;gl=RO">Google Flights</a></span></li>
+    <li><b>Din Budapesta</b> (căutat pe 23 noiembrie): dus Budapesta → Bangkok pe 27 februarie, 492 € (China Southern prin Guangzhou), întors din Kuala Lumpur pe 28 martie, 366 € (Turkish prin Istanbul): 858 €. Cu întoarcere pe 27 martie, 382 €: 874 €. Cifrele de 366 € și 382 € nu se mai pot reverifica din fișiere, deci se confirmă deschizând linkul. <span class="s"><a href="https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20BUD%20on%202027-02-27&amp;hl=en&amp;curr=EUR&amp;gl=RO">dus</a> · <a href="https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BUD%20from%20KUL%20on%202027-03-28&amp;hl=en&amp;curr=EUR&amp;gl=RO">întors</a></span></li>
     <li><b>Alte aeroporturi de plecare</b> (27 februarie și 6 martie): din Sibiu și din Târgu Mureș nu există zbor spre Bangkok cu o singură escală; din Cluj dusul costă 595–640 €, din Timișoara 639 €, deci mai mult decât 505 € din București. Budapesta n-a mai putut fi căutată (Google a cerut captcha).</li>
   </ul>
 </div>
@@ -96,6 +128,8 @@
 <p class="muted">Căutate o singură dată, pe 22 noiembrie, pe trei perechi de date (27 feb – 27 mar, 6 mar – 3 apr, 13 feb – 13 mar), cu aceleași condiții. Compania și escala sunt cele de la dus; întoarcerea n-a fost citită separat.</p>
 <table>
   <tr><th>Destinație</th><th>De persoană, dus-întors</th><th>Zborul</th></tr>
+  <tr><td>India, Mumbai<br><span class="s">6 mar – 3 apr</span></td><td class="n">826 €</td><td><a href="https://www.google.com/travel/flights?q=Flights%20to%20BOM%20from%20OTP%20on%202027-03-06%20through%202027-04-03&amp;hl=en&amp;curr=EUR&amp;gl=RO">SWISS</a> prin Zürich; întoarcerea neverificată</td></tr>
+  <tr><td>China, Hong Kong<br><span class="s">27 feb – 27 mar</span></td><td class="n">811 €</td><td><a href="https://www.google.com/travel/flights?q=Flights%20to%20HKG%20from%20OTP%20on%202027-02-27%20through%202027-03-27&amp;hl=en&amp;curr=EUR&amp;gl=RO">British Airways</a> prin Londra, escală de 9 h 35; întoarcerea neverificată</td></tr>
   <tr><td>Bali<br><span class="s">27 feb – 27 mar sau 6 mar – 3 apr</span></td><td class="n">906 €</td><td><a href="https://www.google.com/travel/flights?q=Flights%20to%20DPS%20from%20OTP%20on%202027-03-06%20through%202027-04-03&amp;hl=en&amp;curr=EUR&amp;gl=RO">Turkish</a> prin Istanbul; sezon ploios</td></tr>
   <tr><td>Kenya, Mombasa<br><span class="s">27 feb – 27 mar</span></td><td class="n">1.039 €</td><td><a href="https://www.google.com/travel/flights?q=Flights%20to%20MBA%20from%20OTP%20on%202027-02-27%20through%202027-03-27&amp;hl=en&amp;curr=EUR&amp;gl=RO">Turkish</a> prin Istanbul, dus 29 h</td></tr>
   <tr><td>Mexic, Cancún<br><span class="s">13 feb – 13 mar</span></td><td class="n">1.087 €</td><td><a href="https://www.google.com/travel/flights?q=Flights%20to%20CUN%20from%20OTP%20on%202027-02-13%20through%202027-03-13&amp;hl=en&amp;curr=EUR&amp;gl=RO">KLM</a> prin Amsterdam</td></tr>
@@ -217,6 +251,7 @@
 <h2 id="surse">Surse</h2>
 <p class="muted">Găsite pe 22 noiembrie 2026 și nedeschise din sesiunea în care am scris pagina: de recitit înainte de rezervare. Regulile de intrare se schimbă, iar Thailanda a schimbat-o pe a ei în septembrie 2026.</p>
 <ul class="src">
+  <li><b>Cost total:</b> cheltuielile pe zi, de pe <a href="https://www.budgetyourtrip.com/">budgetyourtrip.com</a> (paginile fiecărei țări sunt legate în tabel), cursul <a href="https://www.exchange-rates.org/converter/eur-usd">exchange-rates.org</a>, 19 noiembrie 2026</li>
   <li><b>Februarie–martie, pe zone:</b> tabelele climatice de pe Wikipedia legate la fiecare rând · prețurile de cazare de pe budgetyourtrip.com, legate la fiecare rând (cifre medii pe țară, din Kayak; paginile au vârste diferite)</li>
   <li><b>Thailanda:</b> <a href="https://en.wikipedia.org/wiki/Phuket_province">clima Phuket</a> · <a href="https://en.wikipedia.org/wiki/Geography_of_Thailand">maximele pe regiuni</a> · <a href="https://www.khaosodenglish.com/politics/2026/09/01/thailand-reduces-visa-free-stay-from-60-to-30-days/">30 de zile fără viză</a> · <a href="https://www.tatnews.org/2026/09/thailand-introduces-new-30-day-and-15-day-visa-exemption-rules-from-15-september/">anunțul TAT</a> · <a href="https://tdac.info/travel-requirements-for-romanians">TDAC</a> · <a href="https://www.officeholidays.com/holidays/thailand/songkran-festival">Songkran 2027</a> · <a href="https://openthemagazine.com/world/chiang-mai-chokes-inside-thailands-worst-air-crisis-of-2026">Chiang Mai, martie 2026</a> · <a href="https://www.iqair.com/newsroom/chiang-mai-among-top-10-most-polluted-cities-in-the-world-4-16-2026">IQAir, 16 aprilie 2026</a></li>
   <li><b>Zboruri:</b> Google Flights: căutarea pe fiecare zi din 22 noiembrie 2026, apoi recitit la două zile (<a href="zboruri-asia.json">istoricul</a>); prima căutare pe <a href="black-friday.html#zboruri">pagina Black Friday</a>, 31 octombrie – 3 noiembrie 2026</li>
@@ -225,5 +260,14 @@
   <li><b>Bali:</b> <a href="https://thehoneycombers.com/bali/bali-weather-wet-dry-season/">sezonul ploios</a> · <a href="https://holiday-weather.com/bali/averages/april">aprilie</a> · <a href="https://www.asiahighlights.com/indonesia/bali/weather-in-march">martie</a> · <a href="https://www.visaverge.com/travel/bali-travel-rules-2026-visa-all-indonesia-app-tourism-levy-explained/">viza, cardul de sosire, taxa</a> · <a href="https://whatsnewindonesia.com/bali/bali-tourism-tax-levy-guide-2026-travelers">taxa turistică</a> · <a href="https://www.baliholidaysecrets.com/nyepi/">Nyepi 2027</a> · <a href="https://www.officeholidays.com/holidays/indonesia/hari-raya-nyepi">Nyepi, data oficială</a> · <a href="https://en.antaranews.com/news/408234/bali-airport-announces-24-hour-operational-suspension-during-nyepi">aeroportul închis</a></li>
 </ul>
 </main>
+<script>
+// Data din antet se ia din "Cel mai ieftin pe <data>", pe care o actualizează sarcina programată la fiecare rulare.
+(function () {
+  try {
+    var s = document.getElementById('citit'), t = document.getElementById('ultima-cautare');
+    if (s && t && s.textContent.trim()) { t.textContent = s.textContent.trim(); }
+  } catch (e) {}
+})();
+</script>
 </body>
 </html>
