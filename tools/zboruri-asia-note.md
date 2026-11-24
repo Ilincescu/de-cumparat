@@ -25,6 +25,10 @@ care nu mai e adevărată în loc să adaugi una care o contrazice.
   4 h 5 min costă 404 € (16 h 25 min în total), iar unul de seară 432 € (14 h 25 min). Citește pentru
   fiecare zbor și durata totală, și ia și cel mai ieftin zbor cu escală de cel mult 6 ore (vezi REGULI.md).
 
+- **Același preț, mai multe zboruri (24 noiembrie):** OTP→BKK pe 27 februarie costă 505 € cu trei zboruri
+  Austrian: escală 4 h 10 min (15 h 55 min în total), 9 h 25 min și 15 h 50 min. La preț egal, ia zborul
+  cu durata totală cea mai scurtă și scrie-i escala și durata, nu primul din listă.
+
 ## Reper, 22 noiembrie 2026 (de persoană, din București)
 
 - OTP→BKK 505 € (Austrian prin Viena) pe 22–24 și 27 feb, 1–3 și 5–8 mar.
