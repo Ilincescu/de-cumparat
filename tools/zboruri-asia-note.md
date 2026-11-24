@@ -20,6 +20,11 @@ care nu mai e adevărată în loc să adaugi una care o contrazice.
   Timișoara dusul e mai scump decât din București (595–640 € față de 505 €).
 - **Întoarcerile din aprilie** au fost cu 150–350 € mai scumpe decât cele din martie.
 
+- **Escală și durată totală, 24 noiembrie:** KUL→OTP pe 30 martie, cel mai ieftin zbor (377 €) are
+  escală de 16 h 25 min la Istanbul și 28 h 40 min în total; același zbor de dimineață cu escală de
+  4 h 5 min costă 404 € (16 h 25 min în total), iar unul de seară 432 € (14 h 25 min). Citește pentru
+  fiecare zbor și durata totală, și ia și cel mai ieftin zbor cu escală de cel mult 6 ore (vezi REGULI.md).
+
 ## Reper, 22 noiembrie 2026 (de persoană, din București)
 
 - OTP→BKK 505 € (Austrian prin Viena) pe 22–24 și 27 feb, 1–3 și 5–8 mar.
