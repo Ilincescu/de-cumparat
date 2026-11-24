@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-23",
+ "actualizat": "2026-11-24",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -55,7 +55,7 @@
      "p": 158000
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 165000
     }
    ]
@@ -503,7 +503,7 @@
      "p": 199990
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 185000
     }
    ]
@@ -1803,7 +1803,7 @@
      "p": 75000
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 92000
     }
    ]
@@ -3005,7 +3005,7 @@
      "p": 77000
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 110000
     }
    ]
@@ -3017,6 +3017,10 @@
     {
      "d": "2026-09-13",
      "p": 68000
+    },
+    {
+     "d": "2026-09-25",
+     "p": 55000
     },
     {
      "d": "2026-09-28",
@@ -3197,7 +3201,7 @@
      "p": 85900
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 81990
     },
     {
@@ -3791,6 +3795,10 @@
     {
      "d": "2026-11-10",
      "p": 67900
+    },
+    {
+     "d": "2026-11-24",
+     "p": 67000
     }
    ]
   },
@@ -4111,6 +4119,10 @@
     {
      "d": "2026-09-25",
      "p": 107000
+    },
+    {
+     "d": "2026-11-24",
+     "p": 105000
     }
    ]
   },
@@ -4453,7 +4465,7 @@
      "p": 89000
     },
     {
-     "d": "2026-10-04",
+     "d": "2026-09-25",
      "p": 84999
     }
    ]
@@ -6423,6 +6435,10 @@
     {
      "d": "2026-11-13",
      "p": 229500
+    },
+    {
+     "d": "2026-11-24",
+     "p": 229400
     }
    ]
   },
@@ -12019,6 +12035,10 @@
     {
      "d": "2026-11-03",
      "p": 108799
+    },
+    {
+     "d": "2026-11-24",
+     "p": 108800
     }
    ]
   },
@@ -12363,6 +12383,10 @@
     {
      "d": "2026-10-04",
      "p": 106000
+    },
+    {
+     "d": "2026-11-24",
+     "p": 105999
     }
    ]
   },
@@ -16811,6 +16835,10 @@
     {
      "d": "2026-10-04",
      "p": 103000
+    },
+    {
+     "d": "2026-11-24",
+     "p": 102000
     }
    ]
   },
@@ -23201,6 +23229,10 @@
     {
      "d": "2026-10-09",
      "p": 250000
+    },
+    {
+     "d": "2026-11-24",
+     "p": 240000
     }
    ]
   },
@@ -24961,6 +24993,10 @@
     {
      "d": "2026-10-16",
      "p": 195000
+    },
+    {
+     "d": "2026-11-24",
+     "p": 159000
     }
    ]
   },
@@ -30639,6 +30675,10 @@
     {
      "d": "2026-11-13",
      "p": 229900
+    },
+    {
+     "d": "2026-11-24",
+     "p": 229490
     }
    ]
   },
@@ -31113,6 +31153,10 @@
     {
      "d": "2026-10-22",
      "p": 99000
+    },
+    {
+     "d": "2026-11-24",
+     "p": 98000
     }
    ]
   },
@@ -32101,6 +32145,10 @@
     {
      "d": "2026-10-26",
      "p": 99990
+    },
+    {
+     "d": "2026-11-24",
+     "p": 99500
     }
    ]
   },
@@ -35801,6 +35849,10 @@
     {
      "d": "2026-11-21",
      "p": 229500
+    },
+    {
+     "d": "2026-11-24",
+     "p": 229400
     }
    ]
   },
@@ -36183,6 +36235,10 @@
     {
      "d": "2026-11-09",
      "p": 49900
+    },
+    {
+     "d": "2026-11-24",
+     "p": 49000
     }
    ]
   },
@@ -36851,6 +36907,10 @@
     {
      "d": "2026-11-10",
      "p": 99900
+    },
+    {
+     "d": "2026-11-24",
+     "p": 99901
     }
    ]
   },
@@ -37029,6 +37089,10 @@
     {
      "d": "2026-11-10",
      "p": 99900
+    },
+    {
+     "d": "2026-11-24",
+     "p": 99500
     }
    ]
   },
@@ -37279,6 +37343,10 @@
     {
      "d": "2026-11-10",
      "p": 99500
+    },
+    {
+     "d": "2026-11-24",
+     "p": 94900
     }
    ]
   },
@@ -42717,6 +42785,246 @@
     {
      "d": "2026-11-23",
      "p": 12000
+    }
+   ]
+  },
+  "IDJk3U": {
+   "u": "https://www.storia.ro/ro/oferta/casa-triplex-de-vanzare-86mp-curte-terasa-acoperita-elimbar-sibiu-IDJk3U",
+   "t": "Casa triplex de vanzare 86mp curte terasa acoperita Șelimbar Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 189900
+    }
+   ]
+  },
+  "IDJk3x": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-4-camere-teren-300-de-mp-zona-gusterita-sibiu-IDJk3x",
+   "t": "Casa individuala 4 camere teren 300 de mp zona Gusterita Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 229900
+    }
+   ]
+  },
+  "IDJkHs": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-3-camere-in-elimbar-zona-triajului-64-2-mp-balcon-7-8-IDJkHs",
+   "t": "Apartament 3 camere in Șelimbar, zona Triajului  64,2 mp + balcon 7,8",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 106000
+    }
+   ]
+  },
+  "IDJkHh": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-in-elimbar-zona-triajului-46-2-mp-balcon-4-4-mp-eta-IDJkHh",
+   "t": "Apartament in Șelimbar, zona Triajului  46,2 mp + balcon 4,4 mp | Eta",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 85000
+    }
+   ]
+  },
+  "IDJkHb": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-in-elimbar-zona-triajului-49-8-mp-predare-la-gri-eta-IDJkHb",
+   "t": "Apartament in Șelimbar, zona Triajului  49,8 mp | Predare la gri, eta",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 91000
+    }
+   ]
+  },
+  "IDJkH6": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-in-elimbar-zona-triajului-45-7-mp-balcon-4-4-mp-eta-IDJkH6",
+   "t": "Apartament in Șelimbar, zona Triajului  45,7 mp + balcon 4,4 mp | Eta",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 88000
+    }
+   ]
+  },
+  "IDJkH2": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-in-elimbar-zona-triajului-49-8-mp-predare-la-gri-IDJkH2",
+   "t": "Apartament in Șelimbar, zona Triajului  49,8 mp | Predare la gri",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 91000
+    }
+   ]
+  },
+  "IDJkGJ": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-in-elimbar-zona-triajului-46-mp-curte-privata-de-42-m-IDJkGJ",
+   "t": "Apartament in Șelimbar, zona Triajului  46 mp + curte privata de 42 m",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 91000
+    }
+   ]
+  },
+  "IDJkGC": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-in-elimbar-zona-triajului-45-4-mp-curte-privata-de-42-IDJkGC",
+   "t": "Apartament in Șelimbar, zona Triajului  45,4 mp + curte privata de 42",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 91000
+    }
+   ]
+  },
+  "IDJkAs": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-47mp-utili-balcon-bloc-lift-mihai-viteazu-IDJkAs",
+   "t": "Apartament cu 2 camere, 47mp utili, balcon, bloc lift, Mihai Viteazu",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 91500
+    }
+   ]
+  },
+  "IDJktD": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-la-mansarda-pe-un-singur-nivel-zona-lazaret-IDJktD",
+   "t": "Apartament la mansarda pe un singur nivel zona Lazaret",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 64500
+    }
+   ]
+  },
+  "IDJkn6": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-de-vnzare-sibiu-25-mp-parter-nalt-zona-milea-IDJkn6",
+   "t": "Garsonieră de vânzare Sibiu – 25 mp, parter înalt, zona Milea",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 56000
+    }
+   ]
+  },
+  "IDJkfo": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-3-camere-2-bai-balcon-zona-terezian-IDJkfo",
+   "t": "Apartament decomandat 3 camere 2 bai balcon zona Terezian",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 110000
+    }
+   ]
+  },
+  "IDJkdN": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-3-camere-2-bai-balcon-zona-terezian-IDJkdN",
+   "t": "Apartament decomandat 3 camere 2 bai balcon zona Terezian",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 110000
+    }
+   ]
+  },
+  "IDJk52": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-etaj-1-IDJk52",
+   "t": "Apartament cu 2 camere, etaj 1",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 79900
+    }
+   ]
+  },
+  "IDJk3Q": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-cu-balcon-zona-mihai-viteazu-IDJk3Q",
+   "t": "Garsoniera cu balcon zona Mihai Viteazu",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 67000
+    }
+   ]
+  },
+  "IDJk0P": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-utilata-si-mobilata-strand-IDJk0P",
+   "t": "Garsoniera utilata si mobilata Strand",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 51900
+    }
+   ]
+  },
+  "IDJk0l": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-parter-plus-teren-zona-broscarie-sibiu-IDJk0l",
+   "t": "Apartament de vanzare 2 camere parter plus teren zona Broscarie Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 80000
+    }
+   ]
+  },
+  "IDJjYm": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-recent-renovat-19-mp-str-9-mai-sibiu-IDJjYm",
+   "t": "Garsonieră recent renovată, 19 mp, str.9 Mai, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 39000
+    }
+   ]
+  },
+  "IDJjY8": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-recent-renovat-33-mp-str-9-mai-sibiu-IDJjY8",
+   "t": "Garsonieră recent renovată, 33 mp, str.9 Mai, Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 69000
+    }
+   ]
+  },
+  "IDJjUi": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-vanzare-49-renovat-complet-rahovei-sibiu-IDJjUi",
+   "t": "Apartament 2 camere de vanzare 49 renovat complet Rahovei Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 94990
+    }
+   ]
+  },
+  "IDJjSB": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-la-cheie-curte-proprie-bloc-nou-IDJjSB",
+   "t": "Apartament 2 camere la cheie + curte proprie, bloc nou",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 94500
+    }
+   ]
+  },
+  "IDJjRi": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-et-1-mobilata-utilata-in-zona-centrala-IDJjRi",
+   "t": "Garsoniera et 1 mobilata utilata in zona Centrala",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 58000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-terezian-mobilata-3-camere-275560947": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-terezian-mobilata-3-camere-275560947",
+   "t": "Black Friday | Casă 3 camere | Terezian | 70 mp",
+   "preturi": [
+    {
+     "d": "2026-11-23",
+     "p": 71250
     }
    ]
   }

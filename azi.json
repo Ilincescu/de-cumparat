@@ -1,7 +1,7 @@
 {
- "generat": "2026-11-23 08:35",
- "de_la": "2026-11-22",
- "pana_la": "2026-11-23",
+ "generat": "2026-11-24 04:59",
+ "de_la": "2026-11-23",
+ "pana_la": "2026-11-24",
  "case_noi": 0,
  "case_trec": 0,
  "din_rezerva": true,
@@ -10,40 +10,37 @@
  "ap_noi": 0,
  "ap_trec": 0,
  "ap_din_rezerva": false,
- "chirii_din": "2026-11-23",
+ "chirii_din": "2026-11-24",
  "apartamente": [
   {
-   "alte": [
-    {
-     "pret": 49990,
-     "url": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-cu-2-camere-in-zona-tiglari-sibiu-IDED8z"
-    }
-   ],
-   "pret": 49990,
-   "mpu": 30,
-   "zona": "Tiglari, Sibiu",
-   "creat": "2026-11-13",
-   "chirie": 350,
-   "chirie_din": "oras",
-   "chirie_n": 6,
+   "alte": [],
+   "pret": 75000,
+   "mpu": 70,
+   "zona": "Terezian, Sibiu",
+   "creat": "2025-06-16",
+   "stare": "to_renovation",
+   "chirie": 450,
+   "chirie_din": "Terezian",
+   "chirie_n": 8,
    "chirie_mp": [
-    26,
-    35
+    56,
+    84
    ],
-   "ani": 19,
-   "net": 2720,
-   "luni_goale": 2,
-   "cost_total": 51790,
+   "ani": 20.4,
+   "net": 3804,
+   "luni_goale": 1,
+   "cost_total": 77700,
    "fara_comision": false,
    "riscuri": [
-    "zona din anunț Tiglari, pinul Storia Veteranilor De Razboi",
-    "parter"
+    "parter",
+    "nu scrie de centrală proprie",
+    "necesită renovare: chiria estimată e pentru renovat"
    ],
-   "la_casa": false,
+   "la_casa": true,
    "nou": false,
-   "titlu": "Apartament de vanzare cu 2 camere in zona Tiglari Sibiu",
-   "url": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-cu-2-camere-in-zona-tiglari-sibiu-IDJejJ",
-   "scor": 19.03974118598581
+   "titlu": "Apartament la casa 2 camere pivnita parcare zona Terezian",
+   "url": "https://www.storia.ro/ro/oferta/apartament-la-casa-2-camere-pivnita-parcare-zona-terezian-IDDZsA",
+   "scor": 20.425867507886434
   },
   {
    "alte": [],
@@ -53,7 +50,7 @@
    "creat": "2024-08-22",
    "chirie": 340,
    "chirie_din": "oras",
-   "chirie_n": 57,
+   "chirie_n": 58,
    "chirie_mp": [
     31,
     41
@@ -107,20 +104,20 @@
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-11-23 08:28",
+   "cand": "2026-11-24 04:50",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1387,
-   "potrivite": 238,
+   "gasite": 1336,
+   "potrivite": 224,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-11-23 08:28",
+   "cand": "2026-11-24 04:51",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1713,
-   "potrivite": 377,
+   "gasite": 1727,
+   "potrivite": 370,
    "stare": "azi",
    "veche": false
   }
@@ -161,21 +158,21 @@
    "scor": 46
   },
   {
-   "pret": 129000,
-   "mpu": 55,
-   "curte": 112,
+   "pret": 200000,
+   "mpu": 240,
+   "curte": 182,
    "curte_sigura": false,
-   "teren": 151,
+   "teren": 350,
    "demisol": false,
-   "zona": "Centrul Civic, Sibiu",
-   "an": "1980",
+   "zona": "Turnisor, Sibiu",
+   "an": "2010",
    "stare": "to_renovation",
-   "creat": "2025-12-10",
+   "creat": "2026-08-13",
    "repostat": true,
    "alte": [],
-   "titlu": "Casă cu curte în Sibiu | Ultracentral | 82 mp",
-   "url": "https://www.storia.ro/ro/oferta/cas-cu-curte-n-sibiu-ultracentral-82-mp-IDFPwD",
-   "scor": 35
+   "titlu": "Casă 5 camere de vânzare | Sibiu, Turnișor | 240 mp",
+   "url": "https://www.storia.ro/ro/oferta/cas-5-camere-de-vnzare-sibiu-turnior-240-mp-IDIcCf",
+   "scor": 34
   }
  ],
  "masini": [
@@ -191,17 +188,6 @@
    "nou": false
   },
   {
-   "pret": 6690,
-   "model": "Dacia Sandero Stepway",
-   "an": 2020,
-   "km": 79000,
-   "zona": "Selimbar",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXqa.html",
-   "scor": 43,
-   "nou": false
-  },
-  {
    "pret": 9257,
    "model": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
    "an": 2022,
@@ -209,6 +195,17 @@
    "zona": "Bucuresti",
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HM8jX.html",
+   "scor": 39,
+   "nou": false
+  },
+  {
+   "pret": 9491,
+   "model": "Dacia Sandero Stepway TCe 90 MT6 Essential",
+   "an": 2022,
+   "km": 80000,
+   "zona": "Bucuresti",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-essential-ID7HQYAv.html",
    "scor": 39,
    "nou": false
   }

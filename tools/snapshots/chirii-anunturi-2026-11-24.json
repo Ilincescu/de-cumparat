@@ -1,0 +1,2081 @@
+[
+ {
+  "id": 10804005,
+  "url": "https://www.storia.ro/ro/oferta/apartament-tip-mansarda-semaforului-IDJkC9",
+  "chirie": 320,
+  "mp": 43,
+  "etaj": "FIFTH",
+  "cartier": "Vasile Aaron",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10570490,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-pivnita-parcare-sibiu-turnisor-IDIlRM",
+  "chirie": 350,
+  "mp": 50,
+  "etaj": "THIRD",
+  "cartier": "Turnisor",
+  "postat": "2026-08-28"
+ },
+ {
+  "id": 10548367,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-parcare-sibiu-cedonia-m-viteazul-IDIg6X",
+  "chirie": 550,
+  "mp": 53,
+  "etaj": "SIXTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-08-19"
+ },
+ {
+  "id": 10803491,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-modern-curte-proprie-cu-filigorie-IDJktR",
+  "chirie": 600,
+  "mp": 45,
+  "etaj": "GROUND",
+  "cartier": "Terezian",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10803043,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-cedonia-52-mp-IDJkmD",
+  "chirie": 500,
+  "mp": 52,
+  "etaj": "FIRST",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10802950,
+  "url": "https://www.storia.ro/ro/oferta/nchiriez-apartament-de-2-camere-situat-in-cartierul-turnisor-bloc-nou-IDJkl8",
+  "chirie": 350,
+  "mp": 40,
+  "etaj": "FIRST",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10802879,
+  "url": "https://www.storia.ro/ro/oferta/inchiriez-apartament-2-camere-2locuri-de-parcare-nou-mobilat-si-utilat-IDJkjZ",
+  "chirie": 370,
+  "mp": 47,
+  "etaj": "GROUND",
+  "cartier": "Tineretului",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10802500,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-si-gradina-proprie-zona-piata-cluj-din-sibiu-IDJkdS",
+  "chirie": 599,
+  "mp": 50,
+  "etaj": "GROUND",
+  "cartier": "Terezian",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10727219,
+  "url": "https://www.storia.ro/ro/oferta/apartamentde-inchiriat-decomandat-2-camere-zona-strand-IDJ0DF",
+  "chirie": 400,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Strand I",
+  "postat": "2026-10-26"
+ },
+ {
+  "id": 9908873,
+  "url": "https://www.storia.ro/ro/oferta/apartament-modern-2-camere-mobilat-si-utilat-luminos-primitor-IDFzKx",
+  "chirie": 400,
+  "mp": 40,
+  "etaj": "SECOND",
+  "cartier": "Fara cartier",
+  "postat": "2025-11-12"
+ },
+ {
+  "id": 10802114,
+  "url": "https://www.storia.ro/ro/oferta/ap-2-cam-de-inchiriat-parter-cedonia-IDJk7E",
+  "chirie": 350,
+  "mp": 40,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10802085,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-renovat-si-utilat-in-cartierul-t-IDJk7b",
+  "chirie": 470,
+  "mp": 49,
+  "etaj": "FOURTH",
+  "cartier": "Strand II",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10801834,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-central-dioda-50-mp-IDJk38",
+  "chirie": 420,
+  "mp": 50,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10801756,
+  "url": "https://www.storia.ro/ro/oferta/inchiriez-apartament-cu-2-camere-si-terasa-in-alma-sibiu-IDJk1S",
+  "chirie": 380,
+  "mp": 48,
+  "etaj": "SECOND",
+  "cartier": "Terezian",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10801710,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-parcare-lift-dna-stanca-mega-image-IDJk18",
+  "chirie": 350,
+  "mp": 60,
+  "etaj": "FIFTH",
+  "cartier": "Hipodrom I",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10801673,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-vest-magnolia-IDJk0x",
+  "chirie": 370,
+  "mp": 48,
+  "etaj": "EIGHTH",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10801380,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandate-strand-IDJjWO",
+  "chirie": 365,
+  "mp": 64,
+  "etaj": null,
+  "cartier": "Strand I",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10801368,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-de-nchiriat-sibiu-57-mp-IDJjWC",
+  "chirie": 299,
+  "mp": 57,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom I",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10801356,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-calea-dumbrvii-57-mp-IDJjWq",
+  "chirie": 349,
+  "mp": 57,
+  "etaj": "THIRD",
+  "cartier": "Dumbravii",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10801046,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-centrala-IDJjQq",
+  "chirie": 400,
+  "mp": 43,
+  "etaj": "FOURTH",
+  "cartier": "Centrul Civic",
+  "postat": "2026-11-23"
+ },
+ {
+  "id": 10726143,
+  "url": "https://www.storia.ro/ro/oferta/inchiriez-apartament-2-camere-renovat-zona-vasile-aaron-IDJ0mj",
+  "chirie": 320,
+  "mp": 42,
+  "etaj": "FOURTH",
+  "cartier": "Vasile Aaron",
+  "postat": "2026-10-26"
+ },
+ {
+  "id": 10766551,
+  "url": "https://www.storia.ro/ro/oferta/ap-2-camere-et-2-balcon-aproape-shopping-city-IDJaS3",
+  "chirie": 300,
+  "mp": 50,
+  "etaj": "SECOND",
+  "cartier": "Vasile Aaron",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10768229,
+  "url": "https://www.storia.ro/ro/oferta/ap-2-camere-decomandate-valea-aurie-et-1-IDJbj7",
+  "chirie": 300,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Valea Aurie",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10790683,
+  "url": "https://www.storia.ro/ro/oferta/ap-2-camere-decomandate-carier-strand-et-1-IDJh9h",
+  "chirie": 350,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Strand I",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10800598,
+  "url": "https://www.storia.ro/ro/oferta/inchiriez-apartament-2-camere-IDJjJc",
+  "chirie": 300,
+  "mp": 57,
+  "etaj": null,
+  "cartier": "Strand I",
+  "postat": "2026-11-22"
+ },
+ {
+  "id": 10800487,
+  "url": "https://www.storia.ro/ro/oferta/2-camere-de-nchiriat-balcon-lift-mihai-viteazu-IDJjHp",
+  "chirie": 370,
+  "mp": 57,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-22"
+ },
+ {
+  "id": 10800482,
+  "url": "https://www.storia.ro/ro/oferta/prima-inchiriere-apartament-cu-2-camere-si-bucatarie-separata-cedon-IDJjHk",
+  "chirie": 350,
+  "mp": 36,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-22"
+ },
+ {
+  "id": 10800395,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-cu-2-camere-55-mp-si-balcon-inchis-vasile-m-IDJjFW",
+  "chirie": 370,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-22"
+ },
+ {
+  "id": 10800348,
+  "url": "https://www.storia.ro/ro/oferta/apartament-modern-cu-2-camere-decomandate-strada-ostirii-sibiu-IDJjFa",
+  "chirie": 390,
+  "mp": 45,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-22"
+ },
+ {
+  "id": 10751508,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-magnolia-residence-la-bloc-tip-vila-IDJ6Xq",
+  "chirie": 360,
+  "mp": 45,
+  "etaj": "THIRD",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-03"
+ },
+ {
+  "id": 10799682,
+  "url": "https://www.storia.ro/ro/oferta/apartament-nou-2-camere-balcon-zona-rahovei-IDJjuq",
+  "chirie": 550,
+  "mp": 60,
+  "etaj": "SEVENTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-21"
+ },
+ {
+  "id": 10799679,
+  "url": "https://www.storia.ro/ro/oferta/apartament-disponibil-imediat-3-camere-n-iorga-IDJjun",
+  "chirie": 450,
+  "mp": 65,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-21"
+ },
+ {
+  "id": 10778692,
+  "url": "https://www.storia.ro/ro/oferta/ap-cu-2-dormitoare-decomandat-etaj-1-bdul-mihai-viteaza-zona-bisericii-IDJe1S",
+  "chirie": 380,
+  "mp": 56,
+  "etaj": "FIRST",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10799461,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-52-mp-central-IDJjqR",
+  "chirie": 350,
+  "mp": 52,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-21"
+ },
+ {
+  "id": 10689314,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-parcare-turnisor-IDIQMi",
+  "chirie": 400,
+  "mp": 45,
+  "etaj": "GROUND",
+  "cartier": "Turnisor",
+  "postat": "2026-10-12"
+ },
+ {
+  "id": 10798710,
+  "url": "https://www.storia.ro/ro/oferta/apartament-nou-calea-dumbravii-utilitati-si-curatenie-incluse-in-pret-IDJjeK",
+  "chirie": 1200,
+  "mp": 60,
+  "etaj": "EIGHTH",
+  "cartier": "Centrul Civic",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10798701,
+  "url": "https://www.storia.ro/ro/oferta/apartament-generos-64-mp-2-camere-2-balcoane-bloc-nou-terezian-lidl-IDJjeB",
+  "chirie": 400,
+  "mp": 64,
+  "etaj": "SECOND",
+  "cartier": "Terezian",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10798429,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-terezian-56-mp-IDJjad",
+  "chirie": 360,
+  "mp": 56,
+  "etaj": "SECOND",
+  "cartier": "Terezian",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10759199,
+  "url": "https://www.storia.ro/ro/oferta/inchiriez-apartament-2-camere-recent-renovat-zona-mihai-viteazul-IDJ8Xt",
+  "chirie": 400,
+  "mp": 54,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-06"
+ },
+ {
+  "id": 10798150,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-sibiu-cedonia-IDJj5I",
+  "chirie": 350,
+  "mp": 50,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10798141,
+  "url": "https://www.storia.ro/ro/oferta/prima-inchiriere-apartament-modern-in-complex-evolution-selimbar-IDJj5z",
+  "chirie": 600,
+  "mp": 61,
+  "etaj": "SIXTH",
+  "cartier": "Terezian",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10798133,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-recent-renovat-zona-mihai-viteazul-IDJj5r",
+  "chirie": 400,
+  "mp": 60,
+  "etaj": "FIRST",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10798060,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-inchis-si-bucatarie-separata-zona-buna-IDJj4g",
+  "chirie": 370,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Trei Stejari",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10797949,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-recent-renovat-zona-vasile-aaron-IDJj2t",
+  "chirie": 320,
+  "mp": 38,
+  "etaj": "FOURTH",
+  "cartier": "Vasile Aaron",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10797897,
+  "url": "https://www.storia.ro/ro/oferta/apartament-decomandat-cu-2-camere-aer-conditionat-si-boxa-de-10-mp-IDJj1D",
+  "chirie": 380,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10252190,
+  "url": "https://www.storia.ro/ro/oferta/imobiliare-maxim-garsoniera-ultracentral-IDH13U",
+  "chirie": 380,
+  "mp": 33,
+  "etaj": "GROUND",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-04-20"
+ },
+ {
+  "id": 10797677,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-cu-balcon-si-parcare-in-magnolia-IDJiY5",
+  "chirie": 360,
+  "mp": 45,
+  "etaj": "THIRD",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10797596,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-terasa-mare-etaj-1-turnisor-sibiu-IDJiVM",
+  "chirie": 380,
+  "mp": 40,
+  "etaj": "FIRST",
+  "cartier": "Turnisor",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10797419,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-56mpu-mihai-viteazu-IDJiTW",
+  "chirie": 410,
+  "mp": 56,
+  "etaj": "THIRD",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 9233778,
+  "url": "https://www.storia.ro/ro/oferta/ap-2-cam-confort-1-semidec-et2-10-mihai-viteazu-IDCK7U",
+  "chirie": 350,
+  "mp": 54,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom III",
+  "postat": "2025-02-10"
+ },
+ {
+  "id": 10797165,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-in-neppendorf-sibiu-prima-inchiriere-IDJiPP",
+  "chirie": 460,
+  "mp": 54,
+  "etaj": "GROUND",
+  "cartier": "Turnisor",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10797021,
+  "url": "https://www.storia.ro/ro/oferta/ap-cu-2-camere-si-balcon-etaj-34-zona-piata-cluj-IDJiNw",
+  "chirie": 500,
+  "mp": 58,
+  "etaj": "THIRD",
+  "cartier": "Turnisor",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10797020,
+  "url": "https://www.storia.ro/ro/oferta/ap-eficient-spatios-2-camere-decomandat-2-teresa-deventer-IDJiNu",
+  "chirie": 540,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Tineretului",
+  "postat": "2026-11-20"
+ },
+ {
+  "id": 10766469,
+  "url": "https://www.storia.ro/ro/oferta/apartament-trei-stejari-2-camere-58mp-balcon-2-parcri-IDJaQJ",
+  "chirie": 420,
+  "mp": 58,
+  "etaj": "GROUND",
+  "cartier": "Trei Stejari",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10796446,
+  "url": "https://www.storia.ro/ro/oferta/apartament-prima-inchiriere-2-camere-43-mp-utili-zona-mihai-viteazul-IDJiEe",
+  "chirie": 365,
+  "mp": 43,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10796285,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-zona-strand-IDJiBD",
+  "chirie": 280,
+  "mp": 56,
+  "etaj": "THIRD",
+  "cartier": "Strand I",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10796182,
+  "url": "https://www.storia.ro/ro/oferta/ap-2-cam-nicolae-iorga-hipodrom-3-decomandat-liber-video-IDJizY",
+  "chirie": 330,
+  "mp": 45,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10796059,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-decomandat-54-mp-zona-lupeni-sibiu-IDJixZ",
+  "chirie": 380,
+  "mp": 54,
+  "etaj": "THIRD",
+  "cartier": "Lazaret",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10795225,
+  "url": "https://www.storia.ro/ro/oferta/apartament-pet-friendly-la-casa-si-taxe-incluse-zona-tilisca-sibiu-IDJikx",
+  "chirie": 390,
+  "mp": 50,
+  "etaj": "CELLAR",
+  "cartier": "Strand II",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10794885,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-de-nchiriat-cartier-trand-sibiu-IDJif3",
+  "chirie": 399,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Strand I",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10794586,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-52-mp-decomandat-balcon-strand-sibiu-IDJiae",
+  "chirie": 350,
+  "mp": 52,
+  "etaj": "FOURTH",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10794249,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-cu-2-camere-balcon-inchis-zona-vasile-milea-IDJi4N",
+  "chirie": 370,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10794158,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-rahovei-IDJi3k",
+  "chirie": 350,
+  "mp": 40,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10794038,
+  "url": "https://www.storia.ro/ro/oferta/apartament-3-camere-50-mp-pet-friendly-mihai-viteazu-sibiu-IDJi1o",
+  "chirie": 420,
+  "mp": 50,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10794005,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-si-balcon-pe-mihai-viteazu-IDJi0R",
+  "chirie": 420,
+  "mp": 56,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10793866,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-n-sibiu-zona-rahova-aproape-de-ma-IDJhYC",
+  "chirie": 400,
+  "mp": 55,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom I",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10793841,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-cedonia-mihai-viteazu-IDJhYd",
+  "chirie": 350,
+  "mp": 52,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10793803,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-cam-de-inchiriat-hipodrom-sibiu-IDJhXB",
+  "chirie": 350,
+  "mp": 55,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10793758,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-central-35-mp-IDJhVS",
+  "chirie": 300,
+  "mp": 35,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom I",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10793708,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-magnolia-parcare-IDJhV4",
+  "chirie": 340,
+  "mp": 40,
+  "etaj": "FIFTH",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10793680,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-mihai-viteazul-45-mp-IDJhWC",
+  "chirie": 329,
+  "mp": 45,
+  "etaj": "EIGHTH",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-19"
+ },
+ {
+  "id": 10792756,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-calea-dumbravii-imobil-cu-lift-bloc-nou-IDJhGI",
+  "chirie": 359,
+  "mp": 50,
+  "etaj": "SEVENTH",
+  "cartier": "Centrul Civic",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10792726,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-recent-renovat-zona-mihai-viteazul-IDJhGe",
+  "chirie": 360,
+  "mp": 42,
+  "etaj": "SEVENTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10792333,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-cu-2-camere-central-pretabil-investitie-IDJhzT",
+  "chirie": 499,
+  "mp": 50,
+  "etaj": "GROUND",
+  "cartier": "Resita",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10792324,
+  "url": "https://www.storia.ro/ro/oferta/apartament-nou-prima-inchiriere-51-mpu-si-terasa-de-55-mp-sibiu-IDJhzK",
+  "chirie": 590,
+  "mp": 51,
+  "etaj": "SEVENTH",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10792161,
+  "url": "https://www.storia.ro/ro/oferta/apartament-mobilat-de-inchiriat-65-mp-zona-piata-cluj-IDJhx7",
+  "chirie": 400,
+  "mp": 65,
+  "etaj": "FIRST",
+  "cartier": "Terezian",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10791841,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-tineretului-49-mp-IDJhrX",
+  "chirie": 400,
+  "mp": 49,
+  "etaj": "GROUND",
+  "cartier": "Tineretului",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10791620,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-1-central-IDJhoo",
+  "chirie": 400,
+  "mp": 50,
+  "etaj": null,
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10791447,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-IDJhlB",
+  "chirie": 450,
+  "mp": 67,
+  "etaj": "GROUND",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 9000062343,
+  "url": "https://www.storia.ro/ro/oferta/prima-inchiriere-apartament-modern-in-complex-evolution-selimbar-IDJj5z",
+  "chirie": 600,
+  "mp": 61,
+  "etaj": "SIXTH",
+  "cartier": "Terezian",
+  "postat": "1999-02-29"
+ },
+ {
+  "id": 10791309,
+  "url": "https://www.storia.ro/ro/oferta/apartamnet-2-camere-decomandat-55-mp-zona-deventer-pet-friendly-IDJhjn",
+  "chirie": 550,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Tineretului",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10791179,
+  "url": "https://www.storia.ro/ro/oferta/apartament-decomandat-2-camere-mobilat-si-utilat-turnisor-IDJhhh",
+  "chirie": 350,
+  "mp": 55,
+  "etaj": "GROUND",
+  "cartier": "Terezian",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10791150,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-sibiu-cedonia-IDJhgO",
+  "chirie": 350,
+  "mp": 58,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10791153,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-sibiu-city-residence-IDJhgR",
+  "chirie": 500,
+  "mp": 50,
+  "etaj": "THIRD",
+  "cartier": "Lazaret",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10791108,
+  "url": "https://www.storia.ro/ro/oferta/apartament-nou-cu-2-camere-situat-in-cartierul-magnolia-IDJhg8",
+  "chirie": 370,
+  "mp": 40,
+  "etaj": "GROUND",
+  "cartier": "Strand I",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10791041,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-si-parcare-subterana-de-inchiriat-piata-cluj-IDJhf3",
+  "chirie": 450,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Terezian",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10790862,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-cam-decomandate-lidl-prelungirea-viteazu-IDJhca",
+  "chirie": 350,
+  "mp": 55,
+  "etaj": "TENTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10790824,
+  "url": "https://www.storia.ro/ro/oferta/ap-2-camere-mihai-viteazul-catedrala-et-6-cu-lift-IDJhby",
+  "chirie": 350,
+  "mp": 50,
+  "etaj": "SIXTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10790756,
+  "url": "https://www.storia.ro/ro/oferta/ap-2-camere-et-4-cu-balcon-viteazu-aleea-turnu-rosu-IDJhas",
+  "chirie": 300,
+  "mp": 45,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10790660,
+  "url": "https://www.storia.ro/ro/oferta/penthouse-modern-2-camere-zona-deventer-IDJh8U",
+  "chirie": 520,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Tineretului",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10790627,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-etaj-2-cedonia-mihai-viteazu-IDJh8n",
+  "chirie": 350,
+  "mp": 52,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10790535,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-decomandat-langa-parc-dumbravii-sibiu-IDJh6T",
+  "chirie": 600,
+  "mp": 51,
+  "etaj": "THIRD",
+  "cartier": "Dumbravii",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10790476,
+  "url": "https://www.storia.ro/ro/oferta/ap-modern-2-camere-decomandat-2-teresa-deventer-IDJh5V",
+  "chirie": 540,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Tineretului",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10790466,
+  "url": "https://www.storia.ro/ro/oferta/apartament-mobilat-cu-2-camere-si-balcon-in-zona-rahovei-IDJh5M",
+  "chirie": 320,
+  "mp": 50,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom I",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10790386,
+  "url": "https://www.storia.ro/ro/oferta/ap-nou-2-camere-parter-irina-rosetti-arhitectilor-IDJh4u",
+  "chirie": 350,
+  "mp": 45,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom IV",
+  "postat": "2026-11-18"
+ },
+ {
+  "id": 10790131,
+  "url": "https://www.storia.ro/ro/oferta/inchiriez-apart-2-camere-zona-dedeman-IDJh0n",
+  "chirie": 360,
+  "mp": 43,
+  "etaj": "TENTH",
+  "cartier": "Centrul Civic",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10789893,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-semidecomandat-zona-vasile-aaron-IDJgVx",
+  "chirie": 320,
+  "mp": 54,
+  "etaj": "SECOND",
+  "cartier": "Vasile Aaron",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10789815,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-cu-gradina-de-nchiriat-IDJgWh",
+  "chirie": 500,
+  "mp": 50,
+  "etaj": "GROUND",
+  "cartier": "Tiglari",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10789602,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-recent-renovat-la-casa-56-mp-orasul-de-jos-IDJgRQ",
+  "chirie": 400,
+  "mp": 56,
+  "etaj": "GROUND",
+  "cartier": "Terezian",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10789143,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-52-mp-cu-gradina-parter-turnisor-IDJgKr",
+  "chirie": 350,
+  "mp": 52,
+  "etaj": "GROUND",
+  "cartier": "Turnisor",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10788136,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-cu-balcon-decomandat-de-inchiriat-zona-strand-IDJguc",
+  "chirie": 330,
+  "mp": 50,
+  "etaj": "FOURTH",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10787933,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-in-turnisor-2-camere-terasa-IDJgqW",
+  "chirie": 380,
+  "mp": 40,
+  "etaj": null,
+  "cartier": "Turnisor",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10787897,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-50-mp-2-camere-decomandat-zona-rahovei-IDJgql",
+  "chirie": 420,
+  "mp": 50,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom I",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10787597,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-tineretului-2-terase-IDJglw",
+  "chirie": 540,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Tineretului",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10787498,
+  "url": "https://www.storia.ro/ro/oferta/apartament-decomandat-2-camere-balcon-lift-prima-inchiriere-siretului-IDJgjU",
+  "chirie": 360,
+  "mp": 50,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom IV",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10787342,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-hipodrom-2-IDJgho",
+  "chirie": 450,
+  "mp": 54,
+  "etaj": "FIRST",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10787340,
+  "url": "https://www.storia.ro/ro/oferta/apartament-modern-cu-2-camere-si-parcare-in-zona-mihai-viteazu-IDJghm",
+  "chirie": 450,
+  "mp": 55,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10787208,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-centrala-gara-sibiu-37-mp-IDJgfe",
+  "chirie": 390,
+  "mp": 37,
+  "etaj": "FIRST",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10787186,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-67-mp-utili-balcon-4-mp-zona-central-IDJgeS",
+  "chirie": 450,
+  "mp": 67,
+  "etaj": "GROUND",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10786870,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-sibiu-zona-mihai-viteazul-IDJg9M",
+  "chirie": 400,
+  "mp": 50,
+  "etaj": "SIXTH",
+  "cartier": "Strand I",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10786868,
+  "url": "https://www.storia.ro/ro/oferta/penthouse-modern-2-camere-cu-2-terase-si-2-locuri-parcare-in-deventer-IDJg9K",
+  "chirie": 550,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 9774108,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-mobilat-si-utilat-zona-m-viteazul-IDF0GU",
+  "chirie": 350,
+  "mp": 40,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom III",
+  "postat": "2025-09-22"
+ },
+ {
+  "id": 10786690,
+  "url": "https://www.storia.ro/ro/oferta/inchiriez-apartament-2-camere-calea-dumbravii-dioda-IDJg6S",
+  "chirie": 420,
+  "mp": 56,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10786512,
+  "url": "https://www.storia.ro/ro/oferta/apartament-mobilat-cu-2-camere-si-balcon-in-zona-rahovei-IDJg40",
+  "chirie": 320,
+  "mp": 50,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom I",
+  "postat": "2026-11-17"
+ },
+ {
+  "id": 10785636,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-sibiu-mihai-viteazul-IDJfPS",
+  "chirie": 450,
+  "mp": 45,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10785541,
+  "url": "https://www.storia.ro/ro/oferta/apartament-modern-de-inchiriat-2-camere-sibiu-rahovei-IDJfOl",
+  "chirie": 420,
+  "mp": 48,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom I",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10785008,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-city-residence-39-mp-balcon-12-mp-loc-de-par-IDJfFK",
+  "chirie": 450,
+  "mp": 39,
+  "etaj": "THIRD",
+  "cartier": "Lazaret",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10784799,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-mobilat-utilat-centrul-istoric-sibiu-IDJfCn",
+  "chirie": 400,
+  "mp": 48,
+  "etaj": "FIRST",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10784376,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-zona-doamna-stanca-kaufland-IDJfwy",
+  "chirie": 400,
+  "mp": 44,
+  "etaj": "FIRST",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10784280,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-55-mp-IDJfu0",
+  "chirie": 349,
+  "mp": 55,
+  "etaj": "FIFTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10784035,
+  "url": "https://www.storia.ro/ro/oferta/apartament-modern-2-camere-si-balcon-zona-bdul-mihai-viteazu-IDJfq3",
+  "chirie": 450,
+  "mp": 48,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10783946,
+  "url": "https://www.storia.ro/ro/oferta/apartament-la-prima-inchiriere-2-camere-si-balcon-zona-rahovei-IDJfoC",
+  "chirie": 550,
+  "mp": 60,
+  "etaj": "SEVENTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10783943,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-i-balcon-n-trand-IDJfoz",
+  "chirie": 300,
+  "mp": 55,
+  "etaj": "FIRST",
+  "cartier": "Strand I",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10783578,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-terezian-50-mp-IDJfiG",
+  "chirie": 359,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Terezian",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10783504,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-mihai-viteazu-62-mp-IDJfhu",
+  "chirie": 350,
+  "mp": 62,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 8162644,
+  "url": "https://www.storia.ro/ro/oferta/inchiriez-apartament-modern-cu-2-camere-parter-inalt-lidl-terezian-IDyfty",
+  "chirie": 450,
+  "mp": 78,
+  "etaj": "GROUND",
+  "cartier": "Terezian",
+  "postat": "2023-11-23"
+ },
+ {
+  "id": 10783110,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cochet-cu-2-camere-si-dining-pe-calea-dumbravii-cec-bank-IDJfb8",
+  "chirie": 500,
+  "mp": 55,
+  "etaj": "FIRST",
+  "cartier": "Centrul Civic",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10783081,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-decomandat-56-mp-zona-vasile-aaron-IDJfaF",
+  "chirie": 400,
+  "mp": 56,
+  "etaj": "SIXTH",
+  "cartier": "Vasile Aaron",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10782851,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-etaj-1-balcon-garaj-turnisor-sibiu-IDJf6X",
+  "chirie": 400,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Turnisor",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10782841,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-decomandat-balcon-zona-mihai-viteazul-IDJf6N",
+  "chirie": 380,
+  "mp": 55,
+  "etaj": "THIRD",
+  "cartier": "Trei Stejari",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10782788,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-mihai-viteazul-50-mp-IDJf5V",
+  "chirie": 350,
+  "mp": 50,
+  "etaj": "SEVENTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10782548,
+  "url": "https://www.storia.ro/ro/oferta/penthouse-2-camere-2-terase-de-40-mp-deventer-sibiu-IDJf24",
+  "chirie": 580,
+  "mp": 68,
+  "etaj": "FOURTH",
+  "cartier": "Tineretului",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10782488,
+  "url": "https://www.storia.ro/ro/oferta/apartament-la-casa-de-inchiriat-2-camere-55-mp-zona-lupeni-IDJf16",
+  "chirie": 300,
+  "mp": 55,
+  "etaj": "CELLAR",
+  "cartier": "Lupeni",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10782466,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-nchiriat-2-camere-sibiu-nord-vest-magnolia-IDJf0K",
+  "chirie": 360,
+  "mp": 52,
+  "etaj": "FIRST",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10781727,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-utilat-de-lux-spatios-etaj-1-zona-str-dorului-IDJeOP",
+  "chirie": 500,
+  "mp": 55,
+  "etaj": "FIRST",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-16"
+ },
+ {
+  "id": 10781373,
+  "url": "https://www.storia.ro/ro/oferta/penthouse-cu-2-camere-decomandate-2-terase-si-2-locuri-de-parcare-IDJeJ7",
+  "chirie": 550,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-15"
+ },
+ {
+  "id": 10780401,
+  "url": "https://www.storia.ro/ro/oferta/apartament-modern-semidecomandat-de-inchiriat-cu-2-camere-zona-rahovei-IDJetr",
+  "chirie": 350,
+  "mp": 50,
+  "etaj": "FOURTH",
+  "cartier": "Trei Stejari",
+  "postat": "2026-11-14"
+ },
+ {
+  "id": 10779685,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-de-nchiriat-calea-poplcii-IDJehT",
+  "chirie": 470,
+  "mp": 64,
+  "etaj": "SECOND",
+  "cartier": "Tilisca",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10779376,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-decomandat-45-mp-magnolia-sibiu-IDJecU",
+  "chirie": 380,
+  "mp": 45,
+  "etaj": "SEVENTH",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10779264,
+  "url": "https://www.storia.ro/ro/oferta/apartament-spatios-de-inchiriat-2-camere-70-mp-zona-strand-IDJeb6",
+  "chirie": 350,
+  "mp": 70,
+  "etaj": "THIRD",
+  "cartier": "Tilisca",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10779184,
+  "url": "https://www.storia.ro/ro/oferta/ap-de-inchiriat-b-dul-mihai-viteazul-IDJe9O",
+  "chirie": 350,
+  "mp": 50,
+  "etaj": "SEVENTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10779181,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-loc-de-parcare-city-residence-mall-promenada-IDJe9L",
+  "chirie": 380,
+  "mp": 38,
+  "etaj": "GROUND",
+  "cartier": "Lazaret",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10779041,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-vasile-aaron-2-camere-mobilate-utilate-IDJe7w",
+  "chirie": 340,
+  "mp": 39,
+  "etaj": "THIRD",
+  "cartier": "Vasile Aaron",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10778977,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-si-garaj-subteran-city-residence-IDJe6t",
+  "chirie": 450,
+  "mp": 63,
+  "etaj": "SECOND",
+  "cartier": "Gusterita",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10778970,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-etaj-1-nicolae-iorga-IDJe6m",
+  "chirie": 400,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10778967,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-52-mp-utili-gradina-35-mp-alma-IDJe6j",
+  "chirie": 400,
+  "mp": 52,
+  "etaj": "GROUND",
+  "cartier": "Turnisor",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10778941,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-mobilate-utilate-zona-pietei-sadu-IDJe5T",
+  "chirie": 470,
+  "mp": 64,
+  "etaj": "SECOND",
+  "cartier": "Valea Aurie",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10778685,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-si-balcon-zona-mihai-viteazu-din-sibiu-IDJe1L",
+  "chirie": 299,
+  "mp": 37,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10778547,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-IDJdZx",
+  "chirie": 350,
+  "mp": 50,
+  "etaj": "SEVENTH",
+  "cartier": "Strand I",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10778503,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-cu-loc-de-parcare-inclus-zona-arhitectilor-sibiu-IDJdYP",
+  "chirie": 370,
+  "mp": 45,
+  "etaj": "FIRST",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10778489,
+  "url": "https://www.storia.ro/ro/oferta/ap-2-camere-dec-turnior-sibiu-cart-alma-IDJdYB",
+  "chirie": 375,
+  "mp": 57,
+  "etaj": "THIRD",
+  "cartier": "Turnisor",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10778435,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-turnior-49-mp-IDJdXJ",
+  "chirie": 400,
+  "mp": 49,
+  "etaj": "SECOND",
+  "cartier": "Turnisor",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10778083,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-calea-dumbrvii-IDJdS3",
+  "chirie": 420,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Dumbravii",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10778046,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-trand-49-mp-IDJdRs",
+  "chirie": 370,
+  "mp": 49,
+  "etaj": "SECOND",
+  "cartier": "Strand I",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10777954,
+  "url": "https://www.storia.ro/ro/oferta/apartament-lux-2-camere-de-inchiriat-turnisor-1-loc-parcare-IDJdPY",
+  "chirie": 380,
+  "mp": 40,
+  "etaj": "FIRST",
+  "cartier": "Turnisor",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10777854,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-55-mp-utili-zona-cedonia-IDJdOm",
+  "chirie": 350,
+  "mp": 55,
+  "etaj": "FIFTH",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10726734,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-zona-mihai-viteazul-sibiu-IDJ0wQ",
+  "chirie": 390,
+  "mp": 54,
+  "etaj": "NINTH",
+  "cartier": "Hipodrom I",
+  "postat": "2026-10-26"
+ },
+ {
+  "id": 10777785,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-cartier-strand-IDJdNf",
+  "chirie": 400,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Strand I",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10777357,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-turnisor-sibiu-55-mp-parcare-IDJdGl",
+  "chirie": 590,
+  "mp": 55,
+  "etaj": "THIRD",
+  "cartier": "Turnisor",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10777228,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-hipodrom-2-50-mp-IDJdEg",
+  "chirie": 420,
+  "mp": 50,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom I",
+  "postat": "2026-11-13"
+ },
+ {
+  "id": 10776692,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-mihai-viteazu-IDJdwC",
+  "chirie": 340,
+  "mp": 34,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 9000062343,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-zona-doamna-stanca-kaufland-IDJfwy",
+  "chirie": 400,
+  "mp": 44,
+  "etaj": "FIRST",
+  "cartier": "Hipodrom III",
+  "postat": "1999-02-29"
+ },
+ {
+  "id": 10776498,
+  "url": "https://www.storia.ro/ro/oferta/apartament-la-prima-inchiriere-2-camere-balcon-parcare-si-lift-sibiu-IDJdsu",
+  "chirie": 430,
+  "mp": 40,
+  "etaj": "THIRD",
+  "cartier": "Tiglari",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10776424,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-cedonia-295-e-IDJdri",
+  "chirie": 295,
+  "mp": 39,
+  "etaj": "FOURTH",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10776238,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-decomandat-55-mp-zona-sub-arini-sibiu-IDJdoi",
+  "chirie": 450,
+  "mp": 55,
+  "etaj": "SECOND",
+  "cartier": "Centrul Civic",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10775925,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-piaa-cluj-60-mp-IDJdjf",
+  "chirie": 500,
+  "mp": 60,
+  "etaj": "THIRD",
+  "cartier": "Terezian",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10775903,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-turnior-50-mp-IDJdiT",
+  "chirie": 450,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Turnisor",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10775854,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-hipodrom-1-58-mp-IDJdi6",
+  "chirie": 350,
+  "mp": 58,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10775604,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-36-mp-etaj-3-5-calea-cisnadiei-liceul-betan-IDJde4",
+  "chirie": 350,
+  "mp": 36,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10775511,
+  "url": "https://www.storia.ro/ro/oferta/ap-cu-2-camere-si-balcon-etaj-34-zona-piata-cluj-IDJdcz",
+  "chirie": 500,
+  "mp": 58,
+  "etaj": "THIRD",
+  "cartier": "Turnisor",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10775473,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-garden-city-turnior-IDJdbX",
+  "chirie": 420,
+  "mp": 46,
+  "etaj": "SECOND",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10775172,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-bloc-nou-cu-lift-parcare-mega-image-dna-stanca-IDJd76",
+  "chirie": 600,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10774836,
+  "url": "https://www.storia.ro/ro/oferta/apartament-prima-inchiriere-2-camere-43-mp-utili-zona-mihai-viteazul-IDJd1G",
+  "chirie": 365,
+  "mp": 43,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10774797,
+  "url": "https://www.storia.ro/ro/oferta/apartament-modern-cu-2-camere-decomandat-zona-lacul-lui-binder-IDJd13",
+  "chirie": 350,
+  "mp": 55,
+  "etaj": "GROUND",
+  "cartier": "Tiglari",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10774656,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-sibiu-IDJcYM",
+  "chirie": 470,
+  "mp": 60,
+  "etaj": "GROUND",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10774548,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-de-nchiriat-trand-ii-sibiu-IDJcX2",
+  "chirie": 320,
+  "mp": 48,
+  "etaj": "SECOND",
+  "cartier": "Strand II",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10774540,
+  "url": "https://www.storia.ro/ro/oferta/apartament-renovat-2-camere-50mp-decomandat-rahovei-IDJcVU",
+  "chirie": 400,
+  "mp": 50,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom I",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10774152,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-vasile-aron-IDJcQE",
+  "chirie": 350,
+  "mp": 56,
+  "etaj": "SIXTH",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10774034,
+  "url": "https://www.storia.ro/ro/oferta/apartament-modern-cu-2-camere-decomandat-zona-lacul-lui-binder-IDJcOK",
+  "chirie": 350,
+  "mp": 55,
+  "etaj": "GROUND",
+  "cartier": "Tiglari",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10773901,
+  "url": "https://www.storia.ro/ro/oferta/ap-2-cam-parter-bd-mihai-viteazu-IDJcMB",
+  "chirie": 300,
+  "mp": 42,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-12"
+ },
+ {
+  "id": 10773283,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-cartier-strand-IDJcCD",
+  "chirie": 370,
+  "mp": 49,
+  "etaj": null,
+  "cartier": "Strand I",
+  "postat": "2026-11-11"
+ },
+ {
+  "id": 10772907,
+  "url": "https://www.storia.ro/ro/oferta/apartament-mobilat-utilat-de-inchiriat-2-camere-si-balcon-vasile-aaron-IDJcvz",
+  "chirie": 400,
+  "mp": 54,
+  "etaj": "THIRD",
+  "cartier": "Zona Industriala Est",
+  "postat": "2026-11-11"
+ },
+ {
+  "id": 10772128,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-tineretului-45-mp-IDJck0",
+  "chirie": 350,
+  "mp": 45,
+  "etaj": "FIRST",
+  "cartier": "Tineretului",
+  "postat": "2026-11-11"
+ },
+ {
+  "id": 10772047,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-decomandat-langa-parc-dumbravii-sibiu-IDJciH",
+  "chirie": 600,
+  "mp": 51,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom IV",
+  "postat": "2026-11-11"
+ },
+ {
+  "id": 10771710,
+  "url": "https://www.storia.ro/ro/oferta/apartament-la-prima-inchiriere-cu-2-camere-in-zona-piata-cibin-IDJcdg",
+  "chirie": 390,
+  "mp": 44,
+  "etaj": "GROUND",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-11"
+ },
+ {
+  "id": 10770620,
+  "url": "https://www.storia.ro/ro/oferta/apartament-modern-d2-camere-43-mp-utili-balcon-7-mp-i-parcare-IDJbWG",
+  "chirie": 370,
+  "mp": 43,
+  "etaj": "EIGHTH",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-11"
+ },
+ {
+  "id": 10770411,
+  "url": "https://www.storia.ro/ro/oferta/apartament-decomandat-2-camere-si-2-balcoane-in-zona-doamna-stanca-IDJbSj",
+  "chirie": 420,
+  "mp": 57,
+  "etaj": "FIRST",
+  "cartier": "Trei Stejari",
+  "postat": "2026-11-11"
+ },
+ {
+  "id": 10770073,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-58-mp-balcon-si-2-parcari-trei-stejari-IDJbMR",
+  "chirie": 420,
+  "mp": 58,
+  "etaj": "GROUND",
+  "cartier": "Trei Stejari",
+  "postat": "2026-11-11"
+ },
+ {
+  "id": 10769818,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-magnolia-residence-sibiu-IDJbIK",
+  "chirie": 370,
+  "mp": 40,
+  "etaj": "GROUND",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-11"
+ },
+ {
+  "id": 10544519,
+  "url": "https://www.storia.ro/ro/oferta/apartament-modest-2-camere-zona-rahovei-sibiu-IDIf6T",
+  "chirie": 280,
+  "mp": 45,
+  "etaj": "FIRST",
+  "cartier": "Hipodrom III",
+  "postat": "2026-08-18"
+ },
+ {
+  "id": 10769330,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-2-camere-mobilat-modern-IDJbAS",
+  "chirie": 550,
+  "mp": 68,
+  "etaj": "GROUND",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10769303,
+  "url": "https://www.storia.ro/ro/oferta/inchiriere-2-camere-in-turnisor-52-mp-utili-si-balcon-de-10-mp-IDJbAr",
+  "chirie": 450,
+  "mp": 52,
+  "etaj": "THIRD",
+  "cartier": "Turnisor",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10769186,
+  "url": "https://www.storia.ro/ro/oferta/apartament-1-dormitor-str-ogorului-sibiu-turnior-de-nchiriat-IDJbyy",
+  "chirie": 440,
+  "mp": 37.4,
+  "etaj": "THIRD",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10769119,
+  "url": "https://www.storia.ro/ro/oferta/inchiriez-apartament-2-camere-recent-renovat-zona-centrala-IDJbxt",
+  "chirie": 450,
+  "mp": 68,
+  "etaj": "GROUND",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10769007,
+  "url": "https://www.storia.ro/ro/oferta/apartament-renovat-complet-prima-inchiriere-cedonia-IDJbwF",
+  "chirie": 350,
+  "mp": 36,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10768782,
+  "url": "https://www.storia.ro/ro/oferta/confort-i-elegan-ntr-un-apartament-modern-cu-teras-generoas-IDJbs2",
+  "chirie": 600,
+  "mp": 74,
+  "etaj": "GROUND",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10768775,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-de-nchiriat-la-parter-zona-mihai-viteazu-s-IDJbrW",
+  "chirie": 330,
+  "mp": 45,
+  "etaj": "GROUND",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10768626,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-sibiu-mihai-viteazul-IDJbpv",
+  "chirie": 400,
+  "mp": 50,
+  "etaj": "SIXTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10768212,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-loc-de-parcare-la-prima-inchiriere-IDJbiQ",
+  "chirie": 700,
+  "mp": 70,
+  "etaj": "GROUND",
+  "cartier": "Gusterita",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10768156,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-trand-50-mp-IDJbhV",
+  "chirie": 399,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Strand I",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10768014,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-trand-65-mp-IDJbfE",
+  "chirie": 299,
+  "mp": 65,
+  "etaj": "GROUND",
+  "cartier": "Strand II",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10767947,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-calea-dumbravii-IDJbez",
+  "chirie": 350,
+  "mp": 48,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom IV",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10767906,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-central-55-mp-IDJbdU",
+  "chirie": 399,
+  "mp": 55,
+  "etaj": "FIRST",
+  "cartier": "Centrul Civic",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10767616,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-recent-renovat-la-casa-56-mp-orasul-de-jos-IDJb9e",
+  "chirie": 400,
+  "mp": 56,
+  "etaj": "GROUND",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10767436,
+  "url": "https://www.storia.ro/ro/oferta/apartament-modern-cu-balcon-inchis-si-doua-locuri-de-parcare-sibiu-IDJb6k",
+  "chirie": 420,
+  "mp": 58,
+  "etaj": "GROUND",
+  "cartier": "Trei Stejari",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10767138,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-de-nchiriat-sibiu-terezian-IDJb1v",
+  "chirie": 450,
+  "mp": 58,
+  "etaj": "FIRST",
+  "cartier": "Terezian",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10766716,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-piata-rahovei-IDJaUI",
+  "chirie": 350,
+  "mp": 36,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10766581,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-si-parcare-zona-trei-stejari-IDJaSx",
+  "chirie": 420,
+  "mp": 50,
+  "etaj": "GROUND",
+  "cartier": "Trei Stejari",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10766462,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-lux-ultracentral-de-inchiriat-sibiu-IDJaQC",
+  "chirie": 450,
+  "mp": 58,
+  "etaj": "GROUND",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-10"
+ },
+ {
+  "id": 10765561,
+  "url": "https://www.storia.ro/ro/oferta/apartament-etajul-1-cu-2-camere-balcon-parcare-inclusa-magnolia-sibiu-IDJaC5",
+  "chirie": 330,
+  "mp": 39,
+  "etaj": "FIRST",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-09"
+ },
+ {
+  "id": 10765516,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-IDJaBm",
+  "chirie": 360,
+  "mp": 38,
+  "etaj": "SIXTH",
+  "cartier": "Turnisor",
+  "postat": "2026-11-09"
+ },
+ {
+  "id": 10765499,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-zona-turnisor-sibiu-70-mpu-si-balcon-IDJaB5",
+  "chirie": 390,
+  "mp": 70,
+  "etaj": "FOURTH",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-09"
+ },
+ {
+  "id": 10765318,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-mobilat-modern-pivnita-dioda-sibiu-IDJaya",
+  "chirie": 550,
+  "mp": 45,
+  "etaj": "GROUND",
+  "cartier": "Trei Stejari",
+  "postat": "2026-11-09"
+ },
+ {
+  "id": 10765167,
+  "url": "https://www.storia.ro/ro/oferta/apartament-de-inchiriat-2-camere-mobilat-utilat-centrul-istoric-sibiu-IDJawJ",
+  "chirie": 400,
+  "mp": 48,
+  "etaj": "FIRST",
+  "cartier": "Centrul Istoric",
+  "postat": "2026-11-09"
+ },
+ {
+  "id": 10765101,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-sibiu-rahovei-IDJauF",
+  "chirie": 550,
+  "mp": 63,
+  "etaj": "SEVENTH",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-09"
+ },
+ {
+  "id": 10764719,
+  "url": "https://www.storia.ro/ro/oferta/inchiriez-apartament-2-camere-nedecomandat-zona-milea-IDJaow",
+  "chirie": 250,
+  "mp": 48,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom I",
+  "postat": "2026-11-09"
+ },
+ {
+  "id": 9507801,
+  "url": "https://www.storia.ro/ro/oferta/de-inchiriat-apartament-56mp-2-camere-balcon-si-loc-parcare-sibiu-IDDTpD",
+  "chirie": 400,
+  "mp": 55.9,
+  "etaj": "GROUND",
+  "cartier": "Fara cartier",
+  "postat": "2025-06-04"
+ },
+ {
+  "id": 10764202,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-hipodrom-3-IDJaga",
+  "chirie": 330,
+  "mp": 58,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-09"
+ },
+ {
+  "id": 10763474,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-lazaret-45-mp-IDJa4q",
+  "chirie": 249,
+  "mp": 45,
+  "etaj": "FIFTH",
+  "cartier": "Zona Industriala Est",
+  "postat": "2026-11-09"
+ },
+ {
+  "id": 10653889,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandat-mihai-viteazu-sibiu-350-EUR-lun-IDIHyW",
+  "chirie": 350,
+  "mp": 50,
+  "etaj": "SECOND",
+  "cartier": "Hipodrom III",
+  "postat": "2026-09-29"
+ },
+ {
+  "id": 10745960,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-de-nchiriat-zona-mihai-viteazu-38-mp-IDJ5wV",
+  "chirie": 300,
+  "mp": 38,
+  "etaj": "GROUND",
+  "cartier": "Hipodrom II",
+  "postat": "2026-11-02"
+ },
+ {
+  "id": 10762688,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-central-45-mp-IDJ9RK",
+  "chirie": 349,
+  "mp": 45,
+  "etaj": "FOURTH",
+  "cartier": "Centrul Civic",
+  "postat": "2026-11-09"
+ },
+ {
+  "id": 10762641,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-inchiriat-decomandat-balcon-zona-mihai-viteazul-IDJ9QZ",
+  "chirie": 380,
+  "mp": 55,
+  "etaj": "THIRD",
+  "cartier": "Hipodrom III",
+  "postat": "2026-11-09"
+ },
+ {
+  "id": 10762473,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-in-cartier-neppendorf-turnisor-IDJ9Oh",
+  "chirie": 450,
+  "mp": 50,
+  "etaj": "SECOND",
+  "cartier": "Fara cartier",
+  "postat": "2026-11-09"
+ },
+ {
+  "id": 10761775,
+  "url": "https://www.storia.ro/ro/oferta/apartament-cu-doua-camere-in-centrul-orasului-sibiu-IDJ9D1",
+  "chirie": 380,
+  "mp": 46,
+  "etaj": "SECOND",
+  "cartier": "Centrul Civic",
+  "postat": "2026-11-08"
+ },
+ {
+  "id": 10761470,
+  "url": "https://www.storia.ro/ro/oferta/proprietar-inchiriez-apartament-decomandat-utilat-si-mobilat-IDJ9y6",
+  "chirie": 450,
+  "mp": 58,
+  "etaj": "FIRST",
+  "cartier": "Centrul Civic",
+  "postat": "2026-11-07"
+ },
+ {
+  "id": 10761339,
+  "url": "https://www.storia.ro/ro/oferta/apartament-modern-2-camere-decomandat-balcon-si-parcare-calea-poplacii-IDJ9wZ",
+  "chirie": 450,
+  "mp": 77,
+  "etaj": "FIRST",
+  "cartier": "Tilisca",
+  "postat": "2026-11-07"
+ },
+ {
+  "id": 10761281,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-mobilat-decomandat-cu-balcon-strand-IDJ9w3",
+  "chirie": 331,
+  "mp": 50,
+  "etaj": "FOURTH",
+  "cartier": "Strand I",
+  "postat": "2026-11-07"
+ },
+ {
+  "id": 10364910,
+  "url": "https://www.storia.ro/ro/oferta/inchiriez-apartament-lux-etaj-4-terezian-lidl-IDHunY",
+  "chirie": 450,
+  "mp": 79,
+  "etaj": "FOURTH",
+  "cartier": "Terezian",
+  "postat": "2026-06-04"
+ },
+ {
+  "id": 10761095,
+  "url": "https://www.storia.ro/ro/oferta/ap-mobilat-modern-2-camere-decomandat-2-teresa-deventer-IDJ9s3",
+  "chirie": 580,
+  "mp": 55,
+  "etaj": "FOURTH",
+  "cartier": "Tineretului",
+  "postat": "2026-11-07"
+ },
+ {
+  "id": 9000062343,
+  "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-de-nchiriat-sibiu-trand-50-mp-IDJbhV",
+  "chirie": 399,
+  "mp": 50,
+  "etaj": "FIRST",
+  "cartier": "Strand I",
+  "postat": "1999-02-29"
+ }
+]
