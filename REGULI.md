@@ -125,6 +125,8 @@ n-am rulat o comandă care recitește pagina publicată și arată valoarea nou�
 
 **Fiecare rând de tabel poartă linkul lui.** Un rând fără URL îl costă o căutare.
 
+**Paginile de excursie poartă sus ora ultimei actualizări** (2026-11-24, Mihai: „pune sus ora și data când ai updatat ultima oară”). După fiecare modificare a `weekend-nasi.html`, înainte de commit: `node tools/stampila.js weekend-nasi.html`. Stampila e în HTML-ul publicat, deci arată versiunea pe care o vede el, nu doar ce e în repo.
+
 **Răspuns scurt, verdictul primul.** Dacă întreabă a doua oară același lucru, prima
 explicație a fost prea lungă — o tai, nu o reformulez mai pe larg.
 
