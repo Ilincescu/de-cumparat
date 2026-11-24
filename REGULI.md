@@ -194,6 +194,8 @@ sau parterul unei vile, chiar cu intrare separată și curte „delimitată” �
 **Demisolul e de evitat** (frig, lumină puțină, risc de mucegai — 2026-11-22): casa
 cu demisol intră în top doar sub 150.000 €.
 
+**Mâncare, la excursii și restaurante** (2026-11-24): **Raluca e vegetariană**, iar Mihai mănâncă orice („ține minte asta”). La orice restaurant sau cazare propus scriu ce opțiuni vegetariene are sau că n-am găsit meniul; nu presupun. Vezi `weekend-nasi.html`.
+
 **Nu vrea chiriaș în curte.** A spus-o pe 3 octombrie 2026. Garsoniera din Berzelor nu
 mai e un argument.
 
