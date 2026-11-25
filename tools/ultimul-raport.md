@@ -1,36 +1,31 @@
-# Raport 24 nov 2026
+# Raport 25 nov 2026
 
 **Rulare din cloud** (sarcina programata, fara laptop). Au lipsit **imobiliare.ro** (403 din cloud) si **Facebook Marketplace** (cere login din cloud), adica pasii b), c), e) si f), case si chirii. Verificarea VPN cu ipinfo.io a fost sarita: iesirea e prin Google Cloud.
 
 **Surse citite:** Storia (case, apartamente, chirii; buildId nou luat singur de scan.js), Autovit (plus dorintele), publi24, lajumate/homezz, agentiile, licitatiile si ANAF fara browser; OLX case si OLX chirii cu Playwright (script Node). Linkurile moarte au fost verificate.
 
 **Din browser:**
-- OLX case: 90 de anunturi OLX, 88 cu descriere. 20 in oras, 8 trec filtrele, 1 noua: casa cu 3 camere si gradina de 574 mp, 110.000 € - https://www.olx.ro/d/oferta/casa-3-camere-gradina-574-mp-IDl8djS.html
-- OLX chirii: 113 (112 deschise), 76 intrate in chirii-externe.
+- OLX case: 73 de anunturi OLX, 71 cu descriere. 20 in oras, 8 trec filtrele, 0 noi.
+- OLX chirii: 114 (113 deschise), 76 intrate in chirii-externe.
 
-**Liste:** case 418 -> 420, apartamente 567 -> 552, masini 946 -> 956, biciclete 25.
-- publica.js: 28 de anunturi moarte scoase, 118 noi; curata.js a scos apoi 109 (date.json 1.081 -> 972).
-- Linkuri: date.json 659 vii, 28 moarte, 304 incerte (lasate in lista); masini.json 485 vii, 464 moarte, 7 incerte; biciclete 6 vii, 16 moarte, 3 incerte.
-- Surse fara browser: publi24 37 trec filtrele, 1 noua (casa cu 4 camere in Gusterita, 229.900 €); lajumate 28, 0 noi; agentii 16, 4 noi; licitatii si ANAF 0 case.
-- Atentie: printre cele 4 noi de la agentii e si "Casa moderna LOW-E" de pe maac.ro (159.000 €), respinsa ieri pe Storia ca IDGXS9 (fara teren). Respingerea e pe ID-ul Storia, deci copia de pe maac.ro a intrat in lista; nu e in top.
-- Dorinte: Ford SUV verde 24 de anunturi (cel mai ieftin 19.850 €), MG EHS plug-in 19 (cel mai ieftin 16.490 €).
+**Liste:** case 420 -> 430, apartamente 552 -> 578, masini 956 -> 970, biciclete 25.
+- publica.js: 11 anunturi moarte scoase, 171 noi; curata.js a scos apoi 125 (date.json 1.133 -> 1.008).
+- Linkuri: date.json 656 vii, 11 moarte, 306 incerte (lasate in lista); masini.json 502 vii, 457 moarte, 11 incerte; biciclete 7 vii, 15 moarte, 3 incerte.
+- Surse fara browser: publi24 37 trec filtrele, lajumate 28, ambele 0 noi; agentii 8, 1 noua (casa renovata cu 4 camere in Gusterita, 229.500 €, azura-estate.ro); licitatii si ANAF 0 case.
+- Dorinte: Ford SUV verde 22 de anunturi (cel mai ieftin 19.850 €), MG EHS plug-in 18 (cel mai ieftin 16.490 €).
 
-**Storia, 23 -> 24 nov:** 24 de anunturi noi, 82 disparute, 14 preturi schimbate (snapshot 1.387 -> 1.336).
-- case noi: casa cu 4 camere in Gusterita, 140 mp, 229.900 € (https://www.storia.ro/ro/oferta/casa-individuala-4-camere-teren-300-de-mp-zona-gusterita-sibiu-IDJk3x); casa D+P+pod in Tiglari, 88 mp, 179.000 € (https://www.storia.ro/ro/oferta/casa-individuala-d-p-pod-teren-252-mp-baie-cu-geam-si-curte-in-sibiu-IDHW8J). Niciuna n-a intrat in top.
-- cea mai mare scadere: casa cu 5 camere si teren de 250 mp in Gusterita, 195.000 -> 159.000 € (-36.000). Nu e in top.
-- casa din Sadu, 250.000 -> 240.000 € (in afara orasului).
+**Storia, 24 -> 25 nov:** 119 anunturi "noi", 23 disparute, 14 preturi schimbate. Snapshotul a crescut de la 1.336 la 1.476: cele mai multe "noi" sunt anunturi care lipsisera ieri din cautare si au revenit (intre ele si IDGXS9, deja respins, si casa de pe Piata Cluj IDGPlk). Scaderi mici: casa cu 3 camere in Gusterita 130.000 -> 129.000 €; apartament cu 3 camere in Mihai Viteazul 99.500 -> 91.500 €.
 
-**Respins azi: 1 apartament**
-- apartamentul la casa din Terezian, langa Parcul Terezian, 70 mp, 75.000 € (IDDZsA), intrat azi pe locul 1: tencuiala umflata si cazuta la baza peretelui in camera mare (poza 1), banda umeda la baza peretelui in dormitor (poza 2), pete si tencuiala cazuta in camera cu soba (pozele 6 si 11); tavanul bucatariei e spart (poza 3). Agentia scrie "pivnita uscata". Adaugat in tools/respinse.json, apoi am rulat `node tools/azi.js --scrie`. In locul lui a intrat IDIp0J.
+**Respinse azi: 0.** Casa cu 4 camere din Terezian (IDEqhl), pe locul 1 ieri, a fost respinsa ieri de Mihai dupa vizionare (cladire impartita cu un magazin de asigurari in fata); a iesit din top.
 
-**Poze din top:** am luat pozele din pagina HTML a fiecarui anunt (`__NEXT_DATA__`) si le-am vazut pe toate, la marime mare.
-- casa cu 4 camere din Terezian, 112 mp, 198.000 € - 6 din 6 poze (aceleasi ca ieri) - fara igrasie vizibila; nicio poza cu fatada - https://www.storia.ro/ro/oferta/casa-individuala-i-4-camere-i-acces-auto-i-curte-i-terezian-IDEqhl
-- casa cu 4 camere din Gusterita, 146 mp, 199.000 € - 9 din 9 poze (aceleasi ca ieri) - fara igrasie, fara demisol; nicio poza cu fatada; curtea din singura poza e pietris - https://www.storia.ro/ro/oferta/cas-4-camere-guteria-sibiu-146-mp-teren-326-mp-IDI2JG
-- casa cu 5 camere din Turnisor, 240 mp, teren 350 mp, 200.000 € (noua in top) - 13 din 13 poze - fara igrasie vizibila; o singura casa (parter, etaj, mansarda), din 2010, de renovat dupa agentie. Curtea e mai mult pavata, cu iarba si pomi in spate. E mult peste banda de 70-100 mp - https://www.storia.ro/ro/oferta/cas-5-camere-de-vnzare-sibiu-turnior-240-mp-IDIcCf
-- apartamentul din Lazaret, 36 mp, 54.000 € - 8 din 8 poze (aceleasi ca ieri, mici) - doua camere de locuit; neconcludent la igrasie - https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lazaret-IDBcBD
-- apartamentul la etajul 1 al unei case din Centrul Istoric, 49 mp, 72.900 € - 9 din 9 poze (aceleasi ca ieri) - curat; doua camere de locuit - https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIZ4M
-- apartamentul de la parterul unui bloc langa Lacul lui Binder (Tiglari), 40 mp, 65.000 € (nou in top) - 8 din 8 poze - fara igrasie, fara scara interioara, fara subsol; doua camere de locuit (living si dormitor), bucatarie, baie; fara releveu. Nu seamana cu celelalte doua - https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lacul-lui-binder-IDIp0J
+**Poze din top:** am luat pozele din pagina HTML a fiecarui anunt (`__NEXT_DATA__`) si le-am vazut pe toate.
+- casa cu 2 camere din Terezian (zona Marmelada), 90 mp utili, 198 mp construiti, teren 450 mp, 180.000 € (revenita in top; disparuse pe 22 nov) - 5 din 5 poze, mici - fara igrasie vizibila, dar pozele sunt putine si slabe. Dupa agentie: caramida, 1980, tigla, **incalzire cu sobe pe gaz**, pivnita sub jumatate de casa cu acces din curte, anexa si fundatie pentru o constructie de ~100 mp. Curtea din poza e pavata cu dale, cu vita de vie si o magazie in fund. Nu e aceeasi casa cu IDEqhl (alte camere, alt an), desi are tot 450 mp si tot MAAC - https://www.storia.ro/ro/oferta/cas-2-camere-de-vnzare-sibiu-terezian-90-mp-IDBsmy
+- casa cu 4 camere din Gusterita, 146 mp, 199.000 € - 9 din 9 poze (aceleasi) - fara igrasie, fara demisol; fara poza cu fatada - https://www.storia.ro/ro/oferta/cas-4-camere-guteria-sibiu-146-mp-teren-326-mp-IDI2JG
+- casa cu 2 camere ultracentral (Centrul Civic), 55 mp, 129.000 € - 7 din 7 poze (aceleasi ca pe 23 nov) - fara igrasie vizibila; subsol partial; doua usi alaturate pe fatada dinspre curte, de intrebat - https://www.storia.ro/ro/oferta/cas-cu-curte-n-sibiu-ultracentral-82-mp-IDFPwD
+- apartamentul din Lazaret, 36 mp, 54.000 € - 8 din 8 poze (aceleasi, mici) - doua camere de locuit; neconcludent la igrasie - https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lazaret-IDBcBD
+- apartamentul la etajul 1 al unei case din Centrul Istoric, 49 mp, 72.900 € - 9 din 9 poze (aceleasi) - curat - https://www.storia.ro/ro/oferta/apartament-etajul-1-la-casa-cu-2-camere-in-zona-centrala-din-sibiu-IDIZ4M
+- apartamentul de la parterul unui bloc langa Lacul lui Binder (Tiglari), 38 mp, 58.400 € (nou in top) - 6 din 6 poze - proaspat renovat, fara igrasie, fara scara interioara, fara subsol. In poze se vad o camera cu geam si o camera ingusta (cu frigider), plus nisa de bucatarie, hol si baie; agentia scrie "nedecomandat". **De verificat la vizionare** ca a doua camera e de locuit, nu o bucatarie. Aceeasi agentie si acelasi bloc ca IDIp0J de ieri (40 mp, 65.000 €), dar alt apartament (alte poze, alt cod) - https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lacul-lui-binder-IDIp0Z
 
-**Masini, top:** Sandero Stepway 2021, 29.763 km, Bascov, 9.999 €; Sandero Stepway 2022, 82.000 km, Bucuresti, 9.257 €; Sandero Stepway 2022, 80.000 km, Bucuresti, 9.491 €.
+**Masini, top:** Sandero Stepway 2021, 29.763 km, Bascov, 9.999 €; Sandero Stepway 2020, 79.000 km, Selimbar, 6.690 € (adusa din Germania); Sandero Stepway 2022, 82.000 km, Bucuresti, 9.257 €.
 
 **Ce a picat:** nimic din scripturi; update.js a urcat singur commit-ul de date. imobiliare.ro si Facebook n-au fost citite si raman in ultima-rulare.json ca lipsa_browser.
