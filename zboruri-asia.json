@@ -175,6 +175,125 @@
      "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20OTP%20from%20KUL%20on%202027-04-05&hl=en&curr=EUR&gl=RO"
     }
    }
+  },
+  {
+   "data": "2026-11-25",
+   "sursa": "Playwright (tools/zboruri-asia.js), Google Flights, hl=en, curr=EUR, gl=RO, 1 adult, economy; fara SERPAPI_KEY",
+   "sensuri": {
+    "OTP-BKK-2027-02-07": {
+     "pret": 543,
+     "companii": "Turkish Airlines and THAI",
+     "escala": "Istanbul",
+     "durata": "26 hr 45 min",
+     "escala_durata": "16 hr 25 min",
+     "rezultate_citite": 94,
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-02-07&hl=en&curr=EUR&gl=RO",
+     "incercari": 1,
+     "escala_scurta": {
+      "pret": 722,
+      "companii": "Austrian",
+      "escala": "Vienna",
+      "durata": "15 hr 20 min",
+      "escala_durata": "3 hr 35 min"
+     }
+    },
+    "OTP-BKK-2027-02-13": {
+     "pret": 543,
+     "companii": "Turkish Airlines and THAI",
+     "escala": "Istanbul",
+     "durata": "26 hr 45 min",
+     "escala_durata": "16 hr 25 min",
+     "rezultate_citite": 110,
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-02-13&hl=en&curr=EUR&gl=RO",
+     "incercari": 1,
+     "escala_scurta": {
+      "pret": 722,
+      "companii": "Austrian",
+      "escala": "Vienna",
+      "durata": "15 hr 55 min",
+      "escala_durata": "4 hr 10 min"
+     }
+    },
+    "OTP-BKK-2027-02-20": {
+     "pret": 587,
+     "companii": "Turkish Airlines and THAI",
+     "escala": "Istanbul",
+     "durata": "26 hr 45 min",
+     "escala_durata": "16 hr 25 min",
+     "rezultate_citite": 104,
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-02-20&hl=en&curr=EUR&gl=RO",
+     "incercari": 1,
+     "escala_scurta": {
+      "pret": 638,
+      "companii": "Austrian",
+      "escala": "Vienna",
+      "durata": "15 hr 55 min",
+      "escala_durata": "4 hr 10 min"
+     }
+    },
+    "OTP-BKK-2027-02-22": {
+     "pret": 505,
+     "companii": "Austrian",
+     "escala": "Vienna",
+     "durata": "27 hr 35 min",
+     "escala_durata": "15 hr 50 min",
+     "rezultate_citite": 104,
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-02-22&hl=en&curr=EUR&gl=RO",
+     "incercari": 1,
+     "escala_scurta": {
+      "pret": 570,
+      "companii": "Lufthansa City Airlines and Lufthansa",
+      "escala": "Munich",
+      "durata": "14 hr 35 min",
+      "escala_durata": "1 hr 40 min"
+     }
+    },
+    "OTP-BKK-2027-02-27": {
+     "pret": 505,
+     "companii": "Austrian",
+     "escala": "Vienna",
+     "durata": "12 hr 45 min",
+     "escala_durata": "1 hr",
+     "rezultate_citite": 102,
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-02-27&hl=en&curr=EUR&gl=RO",
+     "incercari": 1
+    },
+    "OTP-BKK-2027-03-01": {
+     "pret": 505,
+     "companii": "Austrian",
+     "escala": "Vienna",
+     "durata": "15 hr 20 min",
+     "escala_durata": "3 hr 35 min",
+     "rezultate_citite": 107,
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-03-01&hl=en&curr=EUR&gl=RO",
+     "incercari": 1
+    },
+    "OTP-BKK-2027-03-06": {
+     "pret": 505,
+     "companii": "Austrian",
+     "escala": "Vienna",
+     "durata": "12 hr 45 min",
+     "escala_durata": "1 hr",
+     "rezultate_citite": 102,
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-03-06&hl=en&curr=EUR&gl=RO",
+     "incercari": 1
+    },
+    "OTP-DPS-2027-02-07": {
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20DPS%20from%20OTP%20on%202027-02-07&hl=en&curr=EUR&gl=RO",
+     "fail": "captcha Google (pagina „unusual traffic”)",
+     "incercari": 1
+    }
+   },
+   "nota": "Oprita de captcha Google dupa 8 cautari din 63 (07:43-07:48 UTC); reluata o data la 07:59, captcha din nou la prima cautare. Doar OTP->BKK citit pe toate cele 7 date; nicio intoarcere citita.",
+   "cea_mai_buna_combinatie": {
+    "BKK-KUL": null,
+    "BKK-SIN": null,
+    "DPS-SIN": null,
+    "SIN-BKK": null,
+    "KUL-BKK": null,
+    "HAN-BKK": null,
+    "BKK-SGN": null
+   }
   }
  ]
 }

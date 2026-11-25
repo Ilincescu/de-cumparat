@@ -11,8 +11,9 @@ care nu mai e adevărată în loc să adaugi una care o contrazice.
 - **Liste parțiale:** uneori Google arată doar 10–30 de zboruri și „Other flights” nu se deschide.
   Reia căutarea cu așteptare mai lungă; dacă tot e parțială, noteaz-o cu numărul de rezultate.
 - **„Loading results”:** pagina nu e gata; așteaptă mai mult înainte de citire.
-- **Captcha și „Oops, something went wrong”** au apărut mai ales cu trei sesiuni în paralel.
-  O singură căutare odată, cu pauze între ele.
+- **Captcha și „Oops, something went wrong”** au apărut mai ales cu trei sesiuni în paralel, dar
+  pe 25 noiembrie captcha a venit și cu o singură căutare odată (pauze de 4–8 s), după 8 căutări.
+  Nu se ocolește: scriptul se oprește la primul captcha.
 - **Phnom Penh:** Google nu recunoaște codurile PNH și KTI; caută după numele orașului.
 - **Prețul sugerat de Google în antet** (ex. „de la 358 €” din Cluj) poate avea două escale sau
   escală în Golf. Nu e un rezultat valid până nu verifici escalele.
@@ -28,6 +29,16 @@ care nu mai e adevărată în loc să adaugi una care o contrazice.
 - **Același preț, mai multe zboruri (24 noiembrie):** OTP→BKK pe 27 februarie costă 505 € cu trei zboruri
   Austrian: escală 4 h 10 min (15 h 55 min în total), 9 h 25 min și 15 h 50 min. La preț egal, ia zborul
   cu durata totală cea mai scurtă și scrie-i escala și durata, nu primul din listă.
+
+## Rularea din 25 noiembrie 2026 (prima cu tools/zboruri-asia.js)
+
+- Fără SERPAPI_KEY, deci Playwright. Scriptul n-exista; l-am scris (`tools/zboruri-asia.js`, reia de
+  unde a rămas: sare cheile citite deja). O căutare ≈ 35 s, 7 din 7 au mers din prima (94–110 rezultate).
+- Captcha la a 8-a căutare (OTP→DPS, 7 feb), după 5 minute; reluat după 10 minute: captcha imediat.
+  Citit doar OTP→BKK pe toate cele 7 date (505 € din 22 feb; 543–587 € pe 7, 13, 20 feb).
+- Reparat: căutările mergeau toate dusurile, apoi toate întoarcerile, deci o rulare oprită nu dădea
+  niciun traseu complet. Acum merg pe traseu (dusurile lui, apoi întoarcerile), în ordinea din config.
+- Data viitoare: după captcha, încearcă din nou abia la rularea următoare, nu în aceeași oră.
 
 ## Reper, 22 noiembrie 2026 (de persoană, din București)
 

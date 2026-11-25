@@ -28,11 +28,14 @@ function minute(s) {
 }
 
 function cautari() {
-  const dus = [...new Set(cfg.trasee.map(t => t[0]))];
-  const intors = [...new Set(cfg.trasee.map(t => t[1]))];
-  const L = [];
-  for (const d of dus) for (const z of cfg.date_dus) L.push([cfg.plecare_din, d, z]);
-  for (const o of intors) for (const z of cfg.date_intors) L.push([o, cfg.plecare_din, z]);
+  // Pe traseu, în ordinea din config: întâi dusurile, apoi întoarcerile lui. Așa, o rulare oprită
+  // de captcha (25 noiembrie: după 8 căutări) lasă măcar primele trasee complete, nu doar dusuri.
+  const L = [], vazut = new Set();
+  const add = (f, t, z) => { const k = `${f}-${t}-${z}`; if (!vazut.has(k)) { vazut.add(k); L.push([f, t, z]); } };
+  for (const [d, o] of cfg.trasee) {
+    for (const z of cfg.date_dus) add(cfg.plecare_din, d, z);
+    for (const z of cfg.date_intors) add(o, cfg.plecare_din, z);
+  }
   return L.filter(([f, t, z]) => !only.length || only.includes(`${f}-${t}-${z}`));
 }
 
