@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-24",
+ "actualizat": "2026-11-25",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -7631,6 +7631,10 @@
     {
      "d": "2026-11-18",
      "p": 185000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 190000
     }
    ]
   },
@@ -14929,6 +14933,10 @@
     {
      "d": "2026-10-04",
      "p": 45000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 41000
     }
    ]
   },
@@ -16375,6 +16383,10 @@
     {
      "d": "2026-10-04",
      "p": 95000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 87500
     }
    ]
   },
@@ -16543,6 +16555,10 @@
     {
      "d": "2026-10-04",
      "p": 95000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 87500
     }
    ]
   },
@@ -18883,6 +18899,10 @@
     {
      "d": "2026-10-04",
      "p": 53000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 49990
     }
    ]
   },
@@ -19881,6 +19901,10 @@
     {
      "d": "2026-10-04",
      "p": 96000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 97000
     }
    ]
   },
@@ -32671,6 +32695,10 @@
     {
      "d": "2026-10-26",
      "p": 73000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 72000
     }
    ]
   },
@@ -32685,6 +32713,10 @@
     {
      "d": "2026-11-04",
      "p": 49990
+    },
+    {
+     "d": "2026-11-25",
+     "p": 49900
     }
    ]
   },
@@ -33475,6 +33507,10 @@
     {
      "d": "2026-10-28",
      "p": 68900
+    },
+    {
+     "d": "2026-11-25",
+     "p": 67900
     }
    ]
   },
@@ -35893,6 +35929,10 @@
     {
      "d": "2026-11-09",
      "p": 61990
+    },
+    {
+     "d": "2026-11-25",
+     "p": 59990
     }
    ]
   },
@@ -37253,6 +37293,10 @@
     {
      "d": "2026-11-10",
      "p": 66000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 60000
     }
    ]
   },
@@ -38615,6 +38659,10 @@
     {
      "d": "2026-11-13",
      "p": 16490
+    },
+    {
+     "d": "2026-11-25",
+     "p": 15490
     }
    ]
   },
@@ -39605,6 +39653,10 @@
     {
      "d": "2026-11-18",
      "p": 229700
+    },
+    {
+     "d": "2026-11-25",
+     "p": 229500
     }
    ]
   },
@@ -39763,6 +39815,10 @@
     {
      "d": "2026-11-17",
      "p": 99500
+    },
+    {
+     "d": "2026-11-25",
+     "p": 91500
     }
    ]
   },
@@ -39951,6 +40007,10 @@
     {
      "d": "2026-11-17",
      "p": 71000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 69500
     }
    ]
   },
@@ -40131,6 +40191,10 @@
     {
      "d": "2026-11-17",
      "p": 105000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 104900
     }
    ]
   },
@@ -40681,6 +40745,10 @@
     {
      "d": "2026-11-18",
      "p": 130000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 129000
     }
    ]
   },
@@ -41395,6 +41463,10 @@
     {
      "d": "2026-11-20",
      "p": 62000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 60000
     }
    ]
   },
@@ -42905,6 +42977,10 @@
     {
      "d": "2026-11-24",
      "p": 56000
+    },
+    {
+     "d": "2026-11-25",
+     "p": 55000
     }
    ]
   },
@@ -43025,6 +43101,296 @@
     {
      "d": "2026-11-23",
      "p": 71250
+    }
+   ]
+  },
+  "IDJlue": {
+   "u": "https://www.storia.ro/ro/oferta/2-case-deosebite-teren-1456-mp-filigorie-anexe-rui-jud-sibiu-IDJlue",
+   "t": "2 Case Deosebite | Teren 1456 MP | Filigorie | Anexe | RUȘI, jud.Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 159000
+    }
+   ]
+  },
+  "IDJkQo": {
+   "u": "https://www.storia.ro/ro/oferta/cas-individual-recent-renovat-guteria-4-camereteren-300-mp-IDJkQo",
+   "t": "Casă individuală recent renovată Gușterița 4 camereTeren 300 mp",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 229500
+    }
+   ]
+  },
+  "IDC7Lv": {
+   "u": "https://www.storia.ro/ro/oferta/casa-individuala-talmaciu-teren-470-mp-incalzire-in-pardoseala-IDC7Lv",
+   "t": "Casa individuala Talmaciu | teren 470 mp | incalzire in pardoseala",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 185000
+    }
+   ]
+  },
+  "IDJlm7": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-decomandat-de-vnzare-sibiu-cedonia-28-mp-IDJlm7",
+   "t": "Garsonieră decomandată de vânzare | Sibiu, Cedonia | 28 mp",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 60000
+    }
+   ]
+  },
+  "IDJljt": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-7-mp-mihai-viteazu-sibiu-mobilat-IDJljt",
+   "t": "Apartament 2 camere, balcon 7 mp – Mihai Viteazu Sibiu | Mobilat",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 83000
+    }
+   ]
+  },
+  "IDJleX": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-ciresica-sibiu-IDJleX",
+   "t": "Apartament 2 camere zona Ciresica Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 70000
+    }
+   ]
+  },
+  "IDJl8A": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-3-camere-2-bai-balcon-zona-terezian-IDJl8A",
+   "t": "Apartament decomandat 3 camere 2 bai balcon zona Terezian",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 110000
+    }
+   ]
+  },
+  "IDJl68": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-rahovei-renovat-53-mp-95000-e-IDJl68",
+   "t": "Apartament de vanzare - 2 camere, Rahovei, renovat, 53 mp - 95000 E",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 95000
+    }
+   ]
+  },
+  "IDJl4M": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-balcon-zona-cedonia-IDJl4M",
+   "t": "Apartament 2 camere balcon zona Cedonia",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 68000
+    }
+   ]
+  },
+  "IDJl4u": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-modern-2-camere-zona-lupeni-IDJl4u",
+   "t": "Apartament modern 2 camere zona Lupeni",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 64500
+    }
+   ]
+  },
+  "IDJkZv": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-etaj-1-ideal-investitie-zona-foarte-buna-IDJkZv",
+   "t": "Apartament cu 2 camere, etaj 1, ideal investitie, zona foarte buna",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 72000
+    }
+   ]
+  },
+  "IDJkKS": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-cu-2-camere-47mp-utili-bloc-lift-etaj-8-9-mihai-viteazu-IDJkKS",
+   "t": "Apartament cu 2 camere, 47mp utili, bloc lift, etaj 8/9, Mihai Viteazu",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 91500
+    }
+   ]
+  },
+  "IDIEfH": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vnzare-sibiu-2-camere-trand-grdin-35-mp-IDIEfH",
+   "t": "Apartament de vânzare Sibiu | 2 camere | Ștrand | grădină 35 mp",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 110000
+    }
+   ]
+  },
+  "IDHoVJ": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-premium-centru-renovata-integral-pivnita-IDHoVJ",
+   "t": "Garsoniera premium | Centru | renovata integral | pivnita",
+   "preturi": [
+    {
+     "d": "2026-11-25",
+     "p": 87500
+    }
+   ]
+  },
+  "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-4-camere-teren-300-de-mp-zona-gusterita-sibiu/410165i4hd3776hd2hi045990h65f1f6.html": {
+   "u": "https://www.publi24.ro/anunturi/imobiliare/de-vanzare/case/case-vile/anunt/casa-individuala-4-camere-teren-300-de-mp-zona-gusterita-sibiu/410165i4hd3776hd2hi045990h65f1f6.html",
+   "t": "Casa individuala 4 camere teren 300 de mp zona Gusterita Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 229900
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-2-camere-de-vanzare-ultracentral-sibiu-cp2850584/": {
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-ultracentral-sibiu-cp2850584/",
+   "t": "Casă cu curte în Sibiu | Ultracentral | 82 mp",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 129000
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-2-camere-de-vanzare-piata-cluj-sibiu-cp3005248/": {
+   "u": "https://www.maac.ro/casa-vila-2-camere-de-vanzare-piata-cluj-sibiu-cp3005248/",
+   "t": "Casa Individuala I Acces auto I Piata Cluj- Kogalniceanu",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 129900
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-4-camere-de-vanzare-periferie-sibiu-cp2969419/": {
+   "u": "https://www.maac.ro/casa-vila-4-camere-de-vanzare-periferie-sibiu-cp2969419/",
+   "t": "Casă modernă LOW-E | Independentă energetic | Construcție la comandă",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 159000
+    }
+   ]
+  },
+  "https://www.maac.ro/casa-vila-3-camere-de-vanzare-lazaret-sibiu-cp2911348/": {
+   "u": "https://www.maac.ro/casa-vila-3-camere-de-vanzare-lazaret-sibiu-cp2911348/",
+   "t": "Casa individuala | Teren 359 MP | Pivnita | Lazaret",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 199990
+    }
+   ]
+  },
+  "IDl8djS": {
+   "u": "https://www.olx.ro/d/oferta/casa-3-camere-gradina-574-mp-IDl8djS.html",
+   "t": "Casa 3 camere Gradina 574 mp",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 110000
+    }
+   ]
+  },
+  "ID7HR69e": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-150-edc-extreme-ID7HR69e.html",
+   "t": "Dacia Duster TCe 150 EDC Extreme",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 4999
+    }
+   ]
+  },
+  "ID7HR3aL": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-express-ID7HR3aL.html",
+   "t": "Renault Express",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 8500
+    }
+   ]
+  },
+  "ID7HR5Rm": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-eco-g-100-prestige-plus-ID7HR5Rm.html",
+   "t": "Dacia Duster ECO-G 100 Prestige Plus",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 10900
+    }
+   ]
+  },
+  "ID7HR5TU": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-lodgy-ver-1-5-blue-dci-stepway-ID7HR5TU.html",
+   "t": "Dacia Lodgy 1.5 Blue dCi Stepway",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 11500
+    }
+   ]
+  },
+  "ID7HR5yz": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-puretech-turbo-allure-ID7HR5yz.html",
+   "t": "Peugeot 2008 1.2 PureTech Turbo Allure",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 11990
+    }
+   ]
+  },
+  "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-OLX_ID7HR662.html": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-OLX_ID7HR662.html",
+   "t": "Dacia Sandero Stepway",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 12600
+    }
+   ]
+  },
+  "ID7HR67H": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-puretech-130-eat8-active-ID7HR67H.html",
+   "t": "Peugeot 2008 PureTech 130 EAT8 Active",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 14500
+    }
+   ]
+  },
+  "ID7HR5Vi": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-blue-dci-115-4wd-comfort-ID7HR5Vi.html",
+   "t": "Dacia Duster Blue dCi 115 4WD Comfort",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 14982
+    }
+   ]
+  },
+  "ID7HR5Qr": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/nissan-juke-ver-dig-t-117-dct-tekna-ID7HR5Qr.html",
+   "t": "Nissan Juke DIG-T 117 DCT Tekna",
+   "preturi": [
+    {
+     "d": "2026-11-24",
+     "p": 14990
     }
    ]
   }

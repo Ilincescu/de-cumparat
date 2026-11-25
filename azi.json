@@ -1,7 +1,7 @@
 {
- "generat": "2026-11-24 11:27",
- "de_la": "2026-11-23",
- "pana_la": "2026-11-24",
+ "generat": "2026-11-25 05:00",
+ "de_la": "2026-11-24",
+ "pana_la": "2026-11-25",
  "case_noi": 0,
  "case_trec": 0,
  "din_rezerva": true,
@@ -10,7 +10,7 @@
  "ap_noi": 0,
  "ap_trec": 0,
  "ap_din_rezerva": false,
- "chirii_din": "2026-11-24",
+ "chirii_din": "2026-11-25",
  "apartamente": [
   {
    "alte": [],
@@ -20,7 +20,7 @@
    "creat": "2024-08-22",
    "chirie": 340,
    "chirie_din": "oras",
-   "chirie_n": 58,
+   "chirie_n": 59,
    "chirie_mp": [
     31,
     41
@@ -70,27 +70,22 @@
    "scor": 22.755046700813498
   },
   {
-   "alte": [
-    {
-     "pret": 65500,
-     "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-i-pretabil-investitie-i-lacul-lui-binder-IDB86s"
-    }
-   ],
-   "pret": 65000,
-   "mpu": 40,
+   "alte": [],
+   "pret": 58400,
+   "mpu": 38,
    "zona": "Tiglari, Sibiu",
    "creat": "2026-09-02",
    "chirie": 350,
    "chirie_din": "oras",
-   "chirie_n": 111,
+   "chirie_n": 74,
    "chirie_mp": [
-    34,
-    46
+    32,
+    44
    ],
-   "ani": 23.3,
-   "net": 2892,
-   "luni_goale": 1,
-   "cost_total": 67340,
+   "ani": 23,
+   "net": 2636,
+   "luni_goale": 2,
+   "cost_total": 60502,
    "fara_comision": false,
    "riscuri": [
     "zona din anunț Tiglari, pinul Storia Terezian",
@@ -100,33 +95,50 @@
    "la_casa": false,
    "nou": false,
    "titlu": "Apartament 2 camere zona Lacul lui Binder",
-   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lacul-lui-binder-IDIp0J",
-   "scor": 23.284923928077454
+   "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lacul-lui-binder-IDIp0Z",
+   "scor": 22.952200303490137
   }
  ],
  "surse": [
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-11-24 04:50",
+   "cand": "2026-11-25 04:51",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1336,
-   "potrivite": 224,
+   "gasite": 1476,
+   "potrivite": 256,
    "stare": "azi",
    "veche": false
   },
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-11-24 04:51",
+   "cand": "2026-11-25 04:52",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1727,
-   "potrivite": 370,
+   "gasite": 1765,
+   "potrivite": 373,
    "stare": "azi",
    "veche": false
   }
  ],
  "case": [
+  {
+   "pret": 180000,
+   "mpu": 90,
+   "curte": 387,
+   "curte_sigura": false,
+   "teren": 450,
+   "demisol": false,
+   "zona": "Marmelada, Sibiu",
+   "an": "1980",
+   "stare": "ready_to_use",
+   "creat": "2024-09-19",
+   "repostat": false,
+   "alte": [],
+   "titlu": "Casă 2 camere de vânzare | Sibiu, Terezian | 90 mp",
+   "url": "https://www.storia.ro/ro/oferta/cas-2-camere-de-vnzare-sibiu-terezian-90-mp-IDBsmy",
+   "scor": 80
+  },
   {
    "pret": 199000,
    "mpu": 146,
@@ -145,37 +157,21 @@
    "scor": 46
   },
   {
-   "pret": 200000,
-   "mpu": 240,
-   "curte": 182,
+   "pret": 129000,
+   "mpu": 55,
+   "curte": 112,
    "curte_sigura": false,
-   "teren": 350,
+   "teren": 151,
    "demisol": false,
-   "zona": "Turnisor, Sibiu",
-   "an": "2010",
+   "zona": "Centrul Civic, Sibiu",
+   "an": "1980",
    "stare": "to_renovation",
-   "creat": "2026-08-13",
-   "repostat": true,
+   "creat": "2025-12-10",
+   "repostat": false,
    "alte": [],
-   "titlu": "Casă 5 camere de vânzare | Sibiu, Turnișor | 240 mp",
-   "url": "https://www.storia.ro/ro/oferta/cas-5-camere-de-vnzare-sibiu-turnior-240-mp-IDIcCf",
-   "scor": 34
-  },
-  {
-   "pret": 149999,
-   "mpu": 60,
-   "curte": 107,
-   "curte_sigura": false,
-   "teren": 149,
-   "demisol": false,
-   "zona": "Terezian, Sibiu",
-   "an": "1990",
-   "creat": "2026-09-11",
-   "repostat": true,
-   "alte": [],
-   "titlu": "Casă 2 camere de vânzare | Sibiu, Piața Cluj | curte",
-   "url": "https://www.storia.ro/ro/oferta/cas-2-camere-de-vnzare-sibiu-piaa-cluj-curte-IDIwji",
-   "scor": 32
+   "titlu": "Casă cu curte în Sibiu | Ultracentral | 82 mp",
+   "url": "https://www.storia.ro/ro/oferta/cas-cu-curte-n-sibiu-ultracentral-82-mp-IDFPwD",
+   "scor": 35
   }
  ],
  "masini": [
@@ -191,6 +187,17 @@
    "nou": false
   },
   {
+   "pret": 6690,
+   "model": "Dacia Sandero Stepway",
+   "an": 2020,
+   "km": 79000,
+   "zona": "Selimbar",
+   "warn": null,
+   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ID7HQXqa.html",
+   "scor": 43,
+   "nou": false
+  },
+  {
    "pret": 9257,
    "model": "Dacia Sandero Stepway TCe 90 MT6 Comfort",
    "an": 2022,
@@ -198,17 +205,6 @@
    "zona": "Bucuresti",
    "warn": null,
    "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-comfort-ID7HM8jX.html",
-   "scor": 39,
-   "nou": false
-  },
-  {
-   "pret": 9491,
-   "model": "Dacia Sandero Stepway TCe 90 MT6 Essential",
-   "an": 2022,
-   "km": 80000,
-   "zona": "Bucuresti",
-   "warn": null,
-   "url": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-essential-ID7HQYAv.html",
    "scor": 39,
    "nou": false
   }
