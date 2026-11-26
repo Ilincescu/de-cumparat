@@ -34,7 +34,19 @@ git fetch --quiet origin 2>&1 | Out-File -Append -Encoding utf8 $log
 git rebase --quiet origin/main 2>&1 | Out-File -Append -Encoding utf8 $log
 if ($LASTEXITCODE -ne 0) {
   git rebase --abort 2>&1 | Out-File -Append -Encoding utf8 $log
-  "rebase pe origin/main a dat conflict, l-am anulat; push-ul din update.js va fi respins" | Out-File -Append -Encoding utf8 $log
+  # Un commit de date nepublicat ("Completare <zi>" / "Update <zi>") intra in
+  # conflict cu ce a publicat cloud-ul; update.js il reface din tools/externe/
+  # (care nu e in git), deci se poate arunca. 2026-11-24 si 2026-11-25: completarea
+  # de pe laptop nu s-a putut publica doua zile la rand din cauza unui astfel de commit.
+  $locale = @(git log origin/main..HEAD --format=%s)
+  $modificate = git status --porcelain --untracked-files=no
+  $doarDate = $locale.Count -gt 0 -and -not $modificate -and -not ($locale | Where-Object { $_ -notmatch '^(Completare|Update) \d{4}-\d{2}-\d{2}' })
+  if ($doarDate) {
+    git reset --hard origin/main 2>&1 | Out-File -Append -Encoding utf8 $log
+    "rebase pe origin/main a dat conflict; commiturile locale erau doar de date ($($locale -join ' / ')), le-am aruncat si am pornit de la origin/main" | Out-File -Append -Encoding utf8 $log
+  } else {
+    "rebase pe origin/main a dat conflict, l-am anulat; push-ul din update.js va fi respins" | Out-File -Append -Encoding utf8 $log
+  }
 }
 
 $prompt = Get-Content (Join-Path $repo 'tools\prompt-zilnic.txt') -Raw -Encoding UTF8

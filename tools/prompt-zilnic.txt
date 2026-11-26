@@ -43,8 +43,8 @@ singur pe cele salvate azi:
     .props.sections - ia sectiunea cu cel mai lung text din
     data.blocks[].segments[].value. Dupa 22+24 de cereri mai incap doar ~25
     deschideri (2026-11-09: 403 dupa 21+24+27): alege intai casele din oras, fara curte comuna/duplex/doua
-    corpuri, cele mai ieftine. 2026-11-20: 403 deja dupa 22+25+2 -
-    limita variaza, deci salveaza cardurile cu filename INAINTE de
+    corpuri, cele mai ieftine. 2026-11-20 si 2026-11-25: 403 deja dupa
+    22+25+2 - nu conta pe mai mult de 2 deschideri; limita variaza, deci salveaza cardurile cu filename INAINTE de
     deschideri (window.__im) si scrie-le iar dupa. Pentru restul ajunge cardul:
     surse-case.js scoate oricum casele pe care Storia le-a exclus (acelasi pret
     si teren).
@@ -62,7 +62,17 @@ singur pe cele salvate azi:
     deja luate de update.js, cu pret convertit REAL in lei, cu zecimale).
     Liniile de pret pot fi doua (pret nou + pret vechi): p = prima linie de
     pret, t = prima linie care NU e pret si nu e "Listat ...".
-    Descrierea: fetch pe pagina anuntului NU merge fara cont (2026-10-26:
+    Descrierea, CU CONT (titlul paginii e "(1) Facebook", apar Notificari):
+    browser_run_code_unsafe cu p = await page.context().newPage(), p.goto pe
+    fiecare /marketplace/item/<id>/, click pe "Vezi mai mult", innerText
+    taiat inainte de "Detaliile vanzatorului", de la ultimul "Descriere"
+    (sau "Detalii"); apoi p.close() si scrie rezultatele in window.__fb cu
+    page.evaluate. Tab-ul de cautare ramane neatins. 2026-11-25: 13 din 13
+    descrieri in ~1 minut, iar click-ul pe card dadea 0 (lista se reordona
+    si cardul nu mai aparea). La browser_run_code_unsafe, filename INCARCA
+    codul din fisier, nu salveaza rezultatul - salveaza cu browser_evaluate.
+    Tot asa merge si f).
+    FARA CONT, fetch pe pagina anuntului NU merge (2026-10-26:
     pagina goala, fara og:description). Merge doar click pe card in pagina
     de cautare: asteapta "Descriere", apasa "Mai mult", ia textul dintre
     "Descriere" si "Vezi mai multe", apoi history.back(). Unele anunturi
