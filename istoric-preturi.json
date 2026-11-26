@@ -43851,6 +43851,56 @@
      "p": 14990
     }
    ]
+  },
+  "https://www.facebook.com/marketplace/item/2099801427253186/": {
+   "u": "https://www.facebook.com/marketplace/item/2099801427253186/",
+   "t": "Casa 5 camere / sau schimb",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 250000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-tiglari-mobilata-3-camere-1-275767795": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-tiglari-mobilata-3-camere-1-275767795",
+   "t": "Casa individuala D+P+Pod teren 252 mp baie cu geam si curte in Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 179000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-gusterita-4-camere-276251684": {
+   "u": "https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-gusterita-4-camere-276251684",
+   "t": "Casa de vanzare 4 camere Sibiu Gusterita",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 229500
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276244071": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276244071",
+   "t": "Casă individuală recent renovată Gușterița 4 camereTeren 300 mp",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 229500
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276239997": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276239997",
+   "t": "Casa individuala 4 camere teren 300 de mp zona Gusterita Sibiu",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 229900
+    }
+   ]
   }
  }
 }
