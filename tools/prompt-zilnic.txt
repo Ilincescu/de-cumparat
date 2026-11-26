@@ -31,6 +31,9 @@ singur pe cele salvate azi:
     apoi browser_evaluate (cu filename): fetch pe ?page=2,3... (NU ?pagina=,
     care intoarce mereu prima pagina) pana nu mai apar anunturi noi; din fiecare
     <article>: {u, t, p: textul pretului, camere, mp, desc: textul cardului}.
+    camere si mp se iau din blocul de DUPA pret ("4 camere 120 mp 300 mp
+    teren"), nu primul "N mp" din text: titlul are des "Teren 300 mp"
+    (2026-11-26: trei case intrate cu terenul pe post de mp utili).
     Pastreaza doar cele cu pret pana in 250.000 €. NU deschide toate
     anunturile: dupa ~100 de cereri imobiliare.ro da 403 si pe pagina din
     browser. Fa pasul e) (chiriile imobiliare.ro, ~22 de cereri) INAINTE de

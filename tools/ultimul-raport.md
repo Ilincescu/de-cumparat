@@ -32,3 +32,28 @@
 **Masini, top:** Sandero Stepway 2021, 29.763 km, Bascov, 9.999 €; Sandero Stepway 2020, 79.000 km, Selimbar, 6.690 € (adusa din Germania); Logan Stepway 2020, 24.240 km, Bucuresti, 8.500 € (nou pe locul 3).
 
 **Ce a picat:** nimic din scripturi; update.js a urcat singur commit-ul de date. imobiliare.ro si Facebook n-au fost citite si raman in ultima-rulare.json ca lipsa_browser.
+
+## Completare de pe laptop
+
+Iesire prin Digi (nu VPN). Pasii a)-f) facuti toti.
+
+**Din browser:**
+- imobiliare.ro chirii: 640 (22 de pagini).
+- imobiliare.ro case: 748 carduri, 277 pana in 250.000 €. Deschiderea anunturilor a dat 403 de la prima cerere, deci 0 descrieri; au ramas cardurile.
+- OLX case: 72 (70 cu descriere). OLX chirii: 113.
+- Facebook case (cu cont): 1.339 carduri, 958 cu titlu de casa; 25 de descrieri luate pentru casele noi din oras.
+- Facebook chirii: 91 de anunturi, toate cu descriere.
+
+**Liste:** case 429 -> 435, apartamente 578 -> 578.
+- casa cu 4 camere din Gusterita, 110 mp, 229.500 € - https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-gusterita-4-camere-276251684
+- casa renovata cu 4 camere din Gusterita, 120 mp, teren 300 mp, 229.500 € (aceeasi casa ca IDIrXe de pe Storia) - https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276244071
+- aceeasi casa din Gusterita, alt anunt, 229.900 € - https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276239997
+- casa din Tiglari, strada Lutului, 88 mp, 179.000 € (republicare, legata de anuntul vechi) - https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-tiglari-mobilata-3-camere-1-275767795
+- Facebook: "Ap casa 9 mai", 100.000 (apartament la casa, nu casa) - https://www.facebook.com/marketplace/item/1436290586227602/
+- Facebook: casa cu 5 camere "sau schimb", 250.000 - https://www.facebook.com/marketplace/item/2099801427253186/
+
+**Capcana prinsa:** la cardurile imobiliare.ro am luat intai primul "N mp" din text, care la trei case era terenul din titlu (300 mp in loc de 120). Corectat in date.json si in regula din prompt.
+
+**Poze:** topul de case si de apartamente e identic cu cel de dimineata, deci nu am poze noi de verificat.
+
+**Push:** ramura locala avea doua commituri de date nepublicate (24 si 26 nov.), iar reparatia din update-zilnic.ps1 care le arunca nu era commit-uita; chiar ea, ca modificare locala, bloca resetarea. Am commit-uit-o si am refacut ramura pe origin/main.
