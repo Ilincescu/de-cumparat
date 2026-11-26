@@ -47,7 +47,8 @@
     37,
     50,
     64,
-    12
+    12,
+    6
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null
@@ -857,7 +858,8 @@
     76,
     77,
     89,
-    31
+    31,
+    26
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null
@@ -1056,7 +1058,7 @@
     450
    ],
    "vazut_ultima": "2026-11-26",
-   "disparut": null
+   "disparut": "2026-11-26"
   },
   "IDl2c0O": {
    "u": "https://www.olx.ro/d/oferta/inchiriez-apartament-2-camere-IDl2c0O.html",
@@ -1235,7 +1237,8 @@
     39,
     58,
     28,
-    27
+    27,
+    19
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null
@@ -1730,7 +1733,8 @@
     16,
     29,
     76,
-    75
+    75,
+    70
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null
@@ -1833,7 +1837,8 @@
     76,
     77,
     89,
-    31
+    31,
+    26
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null
@@ -2093,7 +2098,8 @@
     38,
     39,
     49,
-    86
+    86,
+    82
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null
@@ -2243,7 +2249,8 @@
     37,
     38,
     40,
-    45
+    45,
+    44
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null
@@ -2477,7 +2484,8 @@
     16,
     29,
     76,
-    75
+    75,
+    70
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null
@@ -2523,7 +2531,8 @@
     6,
     8,
     10,
-    17
+    17,
+    16
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null
@@ -2764,7 +2773,8 @@
     38,
     39,
     49,
-    86
+    86,
+    82
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null
@@ -2835,7 +2845,8 @@
    "preturi": [
     85,
     99,
-    48
+    48,
+    42
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null
@@ -2914,7 +2925,8 @@
    "vazut_prima": "2026-11-24",
    "preturi": [
     49,
-    86
+    86,
+    82
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null
@@ -3057,7 +3069,8 @@
    "postat": "2026-11-25",
    "vazut_prima": "2026-11-26",
    "preturi": [
-    48
+    48,
+    42
    ],
    "vazut_ultima": "2026-11-26",
    "disparut": null

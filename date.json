@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-26 06:58",
+ "actualizat": "2026-11-26 08:22",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -306,7 +306,7 @@
    "src": "imobiliare",
    "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-tiglari-mobilata-3-camere-275767795",
    "warn": "Acelasi imobil ca IDHW8J si IDIcpW de pe Storia - vezi acolo descrierea completa.",
-   "alte": 3
+   "alte": 4
   },
   {
    "k": "casa",
@@ -719,7 +719,7 @@
    "u": "https://www.storia.ro/ro/oferta/casa-individuala-mobilata-cu-4-camere-2-bai-si-garaj-in-gusterita-IDIrXe",
    "warn": "Detalii neverificate in descriere.",
    "d": "2026-11-26",
-   "alte": 18
+   "alte": 20
   },
   {
    "k": "casa",
@@ -15326,6 +15326,99 @@
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-renovat-complect-IDJ0Ff",
    "warn": null,
    "d": "2026-11-26"
+  },
+  {
+   "k": "casa",
+   "p": 100000,
+   "t": "Ap casa 9 mai",
+   "z": "Sibiu",
+   "r": null,
+   "a": null,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "facebook",
+   "u": "https://www.facebook.com/marketplace/item/1436290586227602/",
+   "warn": "Din facebook; detalii neverificate in descriere.",
+   "d": "2026-11-26"
+  },
+  {
+   "k": "casa",
+   "p": 250000,
+   "t": "Casa 5 camere / sau schimb",
+   "z": "Sibiu",
+   "r": 5,
+   "a": null,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "facebook",
+   "u": "https://www.facebook.com/marketplace/item/2099801427253186/",
+   "warn": "Din facebook; detalii neverificate in descriere.",
+   "d": "2026-11-26"
+  },
+  {
+   "k": "casa",
+   "p": 179000,
+   "t": "Casa individuala D+P+Pod teren 252 mp baie cu geam si curte in Sibiu",
+   "z": "Tiglari",
+   "r": "3",
+   "a": "252",
+   "g": "teren 252 mp",
+   "gm": null,
+   "c": null,
+   "src": "imobiliare",
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-tiglari-mobilata-3-camere-1-275767795",
+   "warn": "Din imobiliare; detalii neverificate in descriere.",
+   "d": "2026-11-26",
+   "dup": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-tiglari-mobilata-3-camere-275767795"
+  },
+  {
+   "k": "casa",
+   "p": 229500,
+   "t": "Casa de vanzare 4 camere Sibiu Gusterita",
+   "z": "Gusterita",
+   "r": "4",
+   "a": "110",
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "imobiliare",
+   "u": "https://www.imobiliare.ro/oferta/casa-de-vanzare-sibiu-gusterita-4-camere-276251684",
+   "warn": "Din imobiliare; detalii neverificate in descriere.",
+   "d": "2026-11-26"
+  },
+  {
+   "k": "casa",
+   "p": 229500,
+   "t": "Casă individuală recent renovată Gușterița 4 camereTeren 300 mp",
+   "z": "Gusterita",
+   "r": "4",
+   "a": "300",
+   "g": "teren 300 mp",
+   "gm": null,
+   "c": null,
+   "src": "imobiliare",
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276244071",
+   "warn": "Din imobiliare; detalii neverificate in descriere.",
+   "d": "2026-11-26",
+   "dup": "IDIrXe"
+  },
+  {
+   "k": "casa",
+   "p": 229900,
+   "t": "Casa individuala 4 camere teren 300 de mp zona Gusterita Sibiu",
+   "z": "Gusterita",
+   "r": "4",
+   "a": "300",
+   "g": "teren 300 mp",
+   "gm": null,
+   "c": null,
+   "src": "imobiliare",
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-gusterita-mobilata-4-camere-276239997",
+   "warn": "Din imobiliare; detalii neverificate in descriere.",
+   "d": "2026-11-26",
+   "dup": "IDIrXe"
   }
  ]
 }

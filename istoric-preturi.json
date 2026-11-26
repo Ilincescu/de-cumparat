@@ -55,7 +55,7 @@
      "p": 158000
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 165000
     }
    ]
@@ -503,7 +503,7 @@
      "p": 199990
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 185000
     }
    ]
@@ -1803,7 +1803,7 @@
      "p": 75000
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 92000
     }
    ]
@@ -3005,7 +3005,7 @@
      "p": 77000
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 110000
     }
    ]
@@ -3017,10 +3017,6 @@
     {
      "d": "2026-09-13",
      "p": 68000
-    },
-    {
-     "d": "2026-09-25",
-     "p": 55000
     },
     {
      "d": "2026-09-28",
@@ -3201,7 +3197,7 @@
      "p": 85900
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 81990
     },
     {
@@ -4465,7 +4461,7 @@
      "p": 89000
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-10-04",
      "p": 84999
     }
    ]
@@ -43743,6 +43739,116 @@
     {
      "d": "2026-11-25",
      "p": 15000
+    }
+   ]
+  },
+  "ID7HR6uP": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dacia-logan-stepway-ver-tce-100-ID7HR6uP.html",
+   "t": "Dacia Logan Stepway TCe 100",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 7999
+    }
+   ]
+  },
+  "https://www.autovit.ro/autoturisme/anunt/dacia-dacia-logan-stepway-OLX_ID7HR6x0.html": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-dacia-logan-stepway-OLX_ID7HR6x0.html",
+   "t": "Dacia Logan Stepway",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 8500
+    }
+   ]
+  },
+  "ID7HR6Md": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-90-zen-ID7HR6Md.html",
+   "t": "Renault Captur TCe 90 Zen",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 11150
+    }
+   ]
+  },
+  "https://www.autovit.ro/autoturisme/anunt/dacia-duster-OLX_ID7HR6zj.html": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-OLX_ID7HR6zj.html",
+   "t": "Dacia Duster",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 12500
+    }
+   ]
+  },
+  "ID7HR6jV": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-5-bluehdi-bvm6-stt-allure-ID7HR6jV.html",
+   "t": "Peugeot 2008 1.5 BlueHDI BVM6 STT Allure",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 12500
+    }
+   ]
+  },
+  "ID7HR6CJ": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-2008-ver-1-2-puretech-eat8-stt-allure-pack-ID7HR6CJ.html",
+   "t": "Peugeot 2008 1.2 PureTech EAT8 STT Allure Pack",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 12897
+    }
+   ]
+  },
+  "ID7HR6zz": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-duster-ver-tce-150-2wd-gpf-prestige-ID7HR6zz.html",
+   "t": "Dacia Duster TCe 150 2WD GPF Prestige",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 12990
+    }
+   ]
+  },
+  "ID7HR6Cx": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/citroen-berlingo-ver-1-2-puretech-110-s-s-bvm6-feel-ID7HR6Cx.html",
+   "t": "Citroën Berlingo 1.2 PureTech 110 S&S BVM6 Feel",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 13990
+    }
+   ]
+  },
+  "ID7HR6BB": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/skoda-kamiq-ver-1-0-tsi-dsg-ambition-ID7HR6BB.html",
+   "t": "Skoda Kamiq 1.0 TSI DSG Ambition",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 13999
+    }
+   ]
+  },
+  "ID7HR4EF": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/ford-puma-ver-1-0-ecoboost-mhev-st-line-x-ID7HR4EF.html",
+   "t": "Ford Puma 1.0 EcoBoost MHEV ST Line X",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 14950
+    }
+   ]
+  },
+  "ID7HR4yy": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/hyundai-tucson-ver-1-6-gdi-2wd-6mt-comfort-ID7HR4yy.html",
+   "t": "Hyundai Tucson 1.6 GDI 2WD 6MT Comfort",
+   "preturi": [
+    {
+     "d": "2026-11-26",
+     "p": 14990
     }
    ]
   }
