@@ -125,6 +125,8 @@ n-am rulat o comandă care recitește pagina publicată și arată valoarea nou�
 
 **Fiecare rând de tabel poartă linkul lui.** Un rând fără URL îl costă o căutare.
 
+**Linkul duce la produsul sau anunțul găsit, niciodată la o căutare sau la o pagină de categorie.** (de 2 ori: 2026-11-22 „linkurile sunt de la căutări, nu de la produsele găsite”; 2026-11-26 „nu mi-ai pus linkurile la produse”, când am dat pagina de căutare eMAG pentru Goxawee G5319, categoria Flanco pentru Baseus A3 și prima pagină Dedeman pentru Paxton A-081.) Aplicația și site-ul se citesc pe telefon: un link de căutare îl pune să caute din nou ce am găsit deja eu. Dacă nu am un link direct, scriu „fără link direct” lângă produs și spun ce am în loc (de exemplu pagina mărcii), nu pun o căutare ca și cum ar fi produsul. Linkul direct îl iau din rezultatul căutării sau al paginii, nu îl construiesc din titlu.
+
 **Paginile de excursie poartă sus ora ultimei actualizări** (2026-11-24, Mihai: „pune sus ora și data când ai updatat ultima oară”). După fiecare modificare a `weekend-nasi.html`, înainte de commit: `node tools/stampila.js weekend-nasi.html`. Stampila e în HTML-ul publicat, deci arată versiunea pe care o vede el, nu doar ce e în repo.
 
 **Răspuns scurt, verdictul primul.** Dacă întreabă a doua oară același lucru, prima
