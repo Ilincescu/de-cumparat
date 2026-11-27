@@ -1,7 +1,7 @@
 {
- "generat": "2026-11-26 08:26",
- "de_la": "2026-11-25",
- "pana_la": "2026-11-26",
+ "generat": "2026-11-27 04:57",
+ "de_la": "2026-11-26",
+ "pana_la": "2026-11-27",
  "case_noi": 0,
  "case_trec": 0,
  "din_rezerva": true,
@@ -10,7 +10,7 @@
  "ap_noi": 0,
  "ap_trec": 0,
  "ap_din_rezerva": false,
- "chirii_din": "2026-11-26",
+ "chirii_din": "2026-11-27",
  "apartamente": [
   {
    "alte": [],
@@ -18,15 +18,15 @@
    "mpu": 36,
    "zona": "Lazaret, Sibiu",
    "creat": "2024-08-22",
-   "chirie": 340,
+   "chirie": 350,
    "chirie_din": "oras",
-   "chirie_n": 58,
+   "chirie_n": 45,
    "chirie_mp": [
     31,
     41
    ],
-   "ani": 21.6,
-   "net": 2588,
+   "ani": 20.9,
+   "net": 2680,
    "luni_goale": 2,
    "cost_total": 55944,
    "fara_comision": false,
@@ -38,7 +38,7 @@
    "nou": false,
    "titlu": "Apartament 2 camere zona Lazaret",
    "url": "https://www.storia.ro/ro/oferta/apartament-2-camere-zona-lazaret-IDBcBD",
-   "scor": 21.616692426584233
+   "scor": 20.87462686567164
   },
   {
    "alte": [],
@@ -49,7 +49,7 @@
    "stare": "ready_to_use",
    "chirie": 400,
    "chirie_din": "Centrul Istoric",
-   "chirie_n": 21,
+   "chirie_n": 15,
    "chirie_mp": [
     39,
     59
@@ -77,7 +77,7 @@
    "creat": "2026-09-02",
    "chirie": 350,
    "chirie_din": "oras",
-   "chirie_n": 73,
+   "chirie_n": 58,
    "chirie_mp": [
     32,
     44
@@ -103,9 +103,9 @@
   {
    "nume": "Storia",
    "pentru": "case",
-   "cand": "2026-11-26 04:50",
+   "cand": "2026-11-27 04:49",
    "ce": "case și apartamente în orașul Sibiu, sub 250.000 €",
-   "gasite": 1488,
+   "gasite": 1493,
    "potrivite": 256,
    "stare": "azi",
    "veche": false
@@ -113,10 +113,10 @@
   {
    "nume": "Autovit",
    "pentru": "mașini",
-   "cand": "2026-11-26 04:51",
+   "cand": "2026-11-27 04:50",
    "ce": "2020+, sub 15000 €, sub 100000 km, toată țara",
-   "gasite": 1774,
-   "potrivite": 375,
+   "gasite": 1776,
+   "potrivite": 368,
    "stare": "azi",
    "veche": false
   }
