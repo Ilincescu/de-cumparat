@@ -32,3 +32,21 @@
 **Masini, top:** neschimbat: Sandero Stepway 2021 (Bascov, 9.999 €), Sandero Stepway 2020 (Selimbar, 6.690 €), Logan Stepway 2020 (Bucuresti, 8.500 €).
 
 **Ce a picat:** niciun script nu s-a oprit cu eroare; update.js a urcat singur commit-ul de date. OLX a dat de doua-patru ori mai putine anunturi (vezi sus). imobiliare.ro si Facebook n-au fost citite si raman in ultima-rulare.json ca lipsa_browser.
+
+## Completare de pe laptop (27 nov., ~09:00, iesire prin Digi)
+
+**imobiliare.ro case:** 722 de anunturi in 25 de pagini, 264 pana in 250.000 €. Una noua in lista: casa cu comision 0 din Lazaret/Lupeni, 100 mp, 249.900 € - e aceeasi casa cu cea de pe Storia si novaimob.ro de azi dimineata - https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-lazaret-4-camere-275773912 . Am deschis doar 2 anunturi (limita de 403): casa de 80 mp din Turnisor (85.000 €) si casa renovata de 60 mp din Piata Cluj (99.500 €). Amandoua au curte comuna, deci ies.
+
+**imobiliare.ro chirii:** 636 de anunturi cu 2 camere (ieri 640).
+
+**Facebook case:** cautarea a dat azi doar 29 de anunturi (lista se termina, nu se mai incarca altele); 1 de la partener, sarit. 25 de descrieri luate cu cont. Niciuna noua in lista: cele din oras sunt deja in date.json sau sunt la Cristian, Cisnadie, Daia, Mandra.
+
+**Facebook chirii: n-a mers.** Scriptul a stat 30 de minute fara raspuns si l-am oprit. facebook-chirii.json ramane cel de ieri si e in ultima-rulare.json ca lipsa_browser.
+
+**OLX, reluat de pe laptop - scaderea de dimineata era o eroare de citire, nu o schimbare pe OLX:**
+- OLX chirii: 88 de anunturi (dimineata 27). Pagina 7 n-are niciun anunt OLX (doar copii Storia), dar pagina 8 are 6, iar paginile pana la 26 mai au cate 3-6. Citirea se oprea la prima pagina fara anunturi noi. Am corectat regula in tools/prompt-zilnic.txt: se opreste abia dupa 4 pagini la rand fara anunturi noi sau la o pagina repetata. Scriptul din cloud trebuie corectat la fel; el nu e in repo.
+- OLX case: 41 (ca dimineata), 39 cu descriere; 0 noi.
+
+**Liste dupa completare:** case 437 -> 438, apartamente 579, masini 991, biciclete 25.
+
+**Top:** neschimbat fata de dimineata (case, apartamente si masini), deci n-au fost poze noi de verificat.

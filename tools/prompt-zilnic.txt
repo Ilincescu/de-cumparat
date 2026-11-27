@@ -98,8 +98,12 @@ singur pe cele salvate azi:
  d) OLX chirii 2 camere -> tools/externe/olx-chirii.json
     browser_navigate la
     https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/2-camere/sibiu/?currency=EUR
-    browser_evaluate (cu filename): ia paginile &page=1,2... pana nu mai apar
-    linkuri /d/oferta/ noi; din fiecare card {u fara ?query, t, p, ld: textul
+    browser_evaluate (cu filename): ia paginile &page=1,2... pana cand pagina
+    n-are carduri sau e identica cu cea dinainte (OLX repeta ultima pagina,
+    ~27). NU te opri la o pagina fara linkuri /d/oferta/ noi: 2026-11-27
+    pagina 7 avea 0 anunturi OLX si pagina 8 avea 6; oprirea la 7 a dat 27 de
+    chirii in loc de 88 (si in cloud). Opreste-te abia dupa 4 pagini la rand
+    fara noi. Din fiecare card {u fara ?query, t, p, ld: textul
     din [data-testid="location-date"]}; apoi fetch pe fiecare anunt, cate 6,
     si adauga mp (din [data-testid="ad-parameters-container"] p, "Suprafata
     utila: N") si z (cartierul gasit in titlu sau in primele 400 de caractere
