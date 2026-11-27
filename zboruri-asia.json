@@ -294,6 +294,105 @@
     "HAN-BKK": null,
     "BKK-SGN": null
    }
+  },
+  {
+   "data": "2026-11-27",
+   "sursa": "Playwright (tools/zboruri-asia.js), Google Flights, hl=en, curr=EUR, gl=RO, 1 adult, economy; fara SERPAPI_KEY",
+   "sensuri": {
+    "OTP-BKK-2027-02-07": {
+     "pret": 542,
+     "companii": "Turkish Airlines and THAI",
+     "escala": "Istanbul",
+     "durata": "26 hr 45 min",
+     "escala_durata": "16 hr 25 min",
+     "rezultate_citite": 103,
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-02-07&hl=en&curr=EUR&gl=RO",
+     "incercari": 2,
+     "escala_scurta": {
+      "pret": 710,
+      "companii": "Austrian",
+      "escala": "Vienna",
+      "durata": "15 hr 20 min",
+      "escala_durata": "3 hr 35 min"
+     }
+    },
+    "OTP-BKK-2027-02-13": {
+     "pret": 542,
+     "companii": "Turkish Airlines and THAI",
+     "escala": "Istanbul",
+     "durata": "26 hr 45 min",
+     "escala_durata": "16 hr 25 min",
+     "rezultate_citite": 114,
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-02-13&hl=en&curr=EUR&gl=RO",
+     "incercari": 1,
+     "escala_scurta": {
+      "pret": 768,
+      "companii": "KLM",
+      "escala": "Amsterdam",
+      "durata": "15 hr 5 min",
+      "escala_durata": "1 hr"
+     }
+    },
+    "OTP-BKK-2027-02-20": {
+     "pret": 586,
+     "companii": "Turkish Airlines and THAI",
+     "escala": "Istanbul",
+     "durata": "26 hr 45 min",
+     "escala_durata": "16 hr 25 min",
+     "rezultate_citite": 107,
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-02-20&hl=en&curr=EUR&gl=RO",
+     "incercari": 1,
+     "escala_scurta": {
+      "pret": 722,
+      "companii": "Austrian",
+      "escala": "Vienna",
+      "durata": "15 hr 55 min",
+      "escala_durata": "4 hr 10 min"
+     }
+    },
+    "OTP-BKK-2027-02-22": {
+     "pret": 505,
+     "companii": "Austrian",
+     "escala": "Vienna",
+     "durata": "27 hr 35 min",
+     "escala_durata": "15 hr 50 min",
+     "rezultate_citite": 108,
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-02-22&hl=en&curr=EUR&gl=RO",
+     "incercari": 1,
+     "escala_scurta": {
+      "pret": 571,
+      "companii": "Lufthansa City Airlines and Lufthansa",
+      "escala": "Munich",
+      "durata": "14 hr 35 min",
+      "escala_durata": "1 hr 40 min"
+     }
+    },
+    "OTP-BKK-2027-02-27": {
+     "pret": 505,
+     "companii": "Austrian",
+     "escala": "Vienna",
+     "durata": "12 hr 45 min",
+     "escala_durata": "1 hr",
+     "rezultate_citite": 97,
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-02-27&hl=en&curr=EUR&gl=RO",
+     "incercari": 1
+    },
+    "OTP-BKK-2027-03-01": {
+     "url": "https://www.google.com/travel/flights?q=One%20way%20flights%20to%20BKK%20from%20OTP%20on%202027-03-01&hl=en&curr=EUR&gl=RO",
+     "fail": "captcha Google (pagina „unusual traffic”)",
+     "incercari": 1
+    }
+   },
+   "nota": "Oprita de captcha Google dupa 6 cautari din 63 (07:42-07:47 UTC), fara reluare in aceeasi ora (lectia din 25 nov). Citit doar OTP->BKK pe 5 date; nicio intoarcere.",
+   "cea_mai_buna_combinatie": {
+    "BKK-KUL": null,
+    "BKK-SIN": null,
+    "DPS-SIN": null,
+    "SIN-BKK": null,
+    "KUL-BKK": null,
+    "HAN-BKK": null,
+    "BKK-SGN": null
+   }
   }
  ]
 }

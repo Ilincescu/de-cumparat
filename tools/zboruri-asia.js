@@ -36,7 +36,18 @@ function cautari() {
     for (const z of cfg.date_dus) add(cfg.plecare_din, d, z);
     for (const z of cfg.date_intors) add(o, cfg.plecare_din, z);
   }
-  return L.filter(([f, t, z]) => !only.length || only.includes(`${f}-${t}-${z}`));
+  // 27 noiembrie: Google cere captcha după 6–8 căutări pe rulare, din 63. Ca rulările să se completeze
+  // una pe alta, și nu să citească mereu aceleași dusuri spre Bangkok, merg întâi cheile necitite, apoi
+  // cele citite cel mai demult (după zboruri-asia.json); la egalitate, ordinea pe traseu de mai sus.
+  const ultima = {};
+  try {
+    const ist = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'zboruri-asia.json'), 'utf8'));
+    for (const r of ist.rulari || []) for (const [k, v] of Object.entries(r.sensuri || {}))
+      if (!v.fail && v.pret != null && (!ultima[k] || ultima[k] < r.data)) ultima[k] = r.data;
+  } catch {}
+  const ord = L.map((x, i) => [x, i]);
+  ord.sort((a, b) => (ultima[a[0].join('-')] || '').localeCompare(ultima[b[0].join('-')] || '') || a[1] - b[1]);
+  return ord.map(x => x[0]).filter(([f, t, z]) => !only.length || only.includes(`${f}-${t}-${z}`));
 }
 
 function zboruri(labels) {
@@ -94,6 +105,7 @@ async function citeste(page, url) {
 (async () => {
   const rez = fs.existsSync(out) ? JSON.parse(fs.readFileSync(out, 'utf8')) : {};
   const L = cautari();
+  if (process.env.DRY) { console.log(L.map(x => x.join('-')).join('\n')); return; } // DRY=1: doar ordinea
   const b = await chromium.launch();
   const t0 = Date.now();
   for (const [f, t, z] of L) {

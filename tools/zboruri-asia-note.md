@@ -40,6 +40,15 @@ care nu mai e adevărată în loc să adaugi una care o contrazice.
   niciun traseu complet. Acum merg pe traseu (dusurile lui, apoi întoarcerile), în ordinea din config.
 - Data viitoare: după captcha, încearcă din nou abia la rularea următoare, nu în aceeași oră.
 
+## Rularea din 27 noiembrie 2026
+
+- 4 min 22 s, captcha la a 6-a căutare (OTP→BKK, 1 mar); 4 din 5 au mers din prima, niciuna parțială.
+  Citit iar doar OTP→BKK: 505 € pe 22 și 27 feb, 542 € pe 7 și 13 feb, 586 € pe 20 feb (ca pe 25).
+- Limita reală e 6–8 căutări pe rulare, din 63: o rulare nu termină niciodată tot. Reparat în script:
+  întâi cheile necitite, apoi cele citite cel mai demult (din zboruri-asia.json). Verifici cu `DRY=1`.
+- La combinare, ia pentru fiecare sens ultima citire din zboruri-asia.json din ultimele 4 zile, și
+  scrie pe rând data citirii fiecărui sens. Altfel niciun traseu nu se completează.
+
 ## Reper, 22 noiembrie 2026 (de persoană, din București)
 
 - OTP→BKK 505 € (Austrian prin Viena) pe 22–24 și 27 feb, 1–3 și 5–8 mar.
