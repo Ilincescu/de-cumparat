@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-27 06:57",
+ "actualizat": "2026-11-27 09:03",
  "buget_total": 250000,
  "note": "Editeaza fisierul asta ca sa adaugi/stergi anunturi. Campuri: k = casa|ap, p = pret EUR, t = titlu, z = zona, r = camere, a = mp utili (null daca nu se stie), g = curte/teren (null daca nu se stie), c = proprie|comuna|null, af = true daca e in afara orasului Sibiu, src = storia|olx|facebook|publi24, u = link, d = data la care anuntul a fost vazut ultima oara. Criterii fixe: casa cu curte proprie si minim 50 mp utili; apartament de 2 camere, fara mansarda, fara apartamente de la dezvoltator (ansambluri noi, la alb, Magnolia/Residence si similare).",
  "observatii_casa": [
@@ -12116,21 +12116,6 @@
   },
   {
    "k": "ap",
-   "p": 102000,
-   "t": "Apartament decomandat 2 camere etaj 1 zona Cedonia",
-   "z": "Hipodrom III, Sibiu",
-   "r": 2,
-   "a": 52,
-   "g": null,
-   "gm": null,
-   "c": null,
-   "src": "storia",
-   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-2-camere-etaj-1-zona-cedonia-IDJcWy",
-   "warn": null,
-   "d": "2026-11-13"
-  },
-  {
-   "k": "ap",
    "p": 110000,
    "t": "Apartament 2 camere decomandat Vasile Aaron",
    "z": "Vasile Aaron, Sibiu",
@@ -15466,6 +15451,36 @@
    "c": null,
    "src": "storia",
    "u": "https://www.storia.ro/ro/oferta/apartament-2-camere-decomandate-etaj-1-zona-ultracentrala-IDJ0Lx",
+   "warn": null,
+   "d": "2026-11-27"
+  },
+  {
+   "k": "casa",
+   "p": 249900,
+   "t": "Casa individuala de vanzare cu COMISION 0, Zona Lazaret / Lupeni",
+   "z": "Lazaret",
+   "r": "4",
+   "a": "100",
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "imobiliare",
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-lazaret-4-camere-275773912",
+   "warn": "Din imobiliare; detalii neverificate in descriere.",
+   "d": "2026-11-27"
+  },
+  {
+   "k": "ap",
+   "p": 102000,
+   "t": "Apartament decomandat 2 camere etaj 1 zona Cedonia",
+   "z": "Hipodrom III, Sibiu",
+   "r": 2,
+   "a": 52,
+   "g": null,
+   "gm": null,
+   "c": null,
+   "src": "storia",
+   "u": "https://www.storia.ro/ro/oferta/apartament-decomandat-2-camere-etaj-1-zona-cedonia-IDJcWy",
    "warn": null,
    "d": "2026-11-27"
   }

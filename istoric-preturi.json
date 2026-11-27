@@ -55,7 +55,7 @@
      "p": 158000
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 165000
     }
    ]
@@ -507,7 +507,7 @@
      "p": 199990
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 185000
     }
    ]
@@ -1807,7 +1807,7 @@
      "p": 75000
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 92000
     }
    ]
@@ -3009,7 +3009,7 @@
      "p": 77000
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 110000
     }
    ]
@@ -3021,10 +3021,6 @@
     {
      "d": "2026-09-13",
      "p": 68000
-    },
-    {
-     "d": "2026-09-25",
-     "p": 55000
     },
     {
      "d": "2026-09-28",
@@ -3205,7 +3201,7 @@
      "p": 85900
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-09-28",
      "p": 81990
     },
     {
@@ -4469,7 +4465,7 @@
      "p": 89000
     },
     {
-     "d": "2026-09-25",
+     "d": "2026-10-04",
      "p": 84999
     }
    ]
@@ -44181,6 +44177,106 @@
     {
      "d": "2026-11-27",
      "p": 63500
+    }
+   ]
+  },
+  "https://www.novaimob.ro/casa-vila-4-camere-de-vanzare-lazaret-sibiu-cp3238577/": {
+   "u": "https://www.novaimob.ro/casa-vila-4-camere-de-vanzare-lazaret-sibiu-cp3238577/",
+   "t": "Casa individuala de vanzare cu COMISION 0, Zona Lazaret / Lupeni",
+   "preturi": [
+    {
+     "d": "2026-11-27",
+     "p": 249900
+    }
+   ]
+  },
+  "ID7HR72l": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-extreme-ID7HR72l.html",
+   "t": "Dacia Sandero Stepway TCe 90 MT6 Extreme",
+   "preturi": [
+    {
+     "d": "2026-11-27",
+     "p": 9300
+    }
+   ]
+  },
+  "ID7HR77f": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-tce-90-mt6-expression-ID7HR77f.html",
+   "t": "Dacia Sandero Stepway TCe 90 MT6 Expression",
+   "preturi": [
+    {
+     "d": "2026-11-27",
+     "p": 10300
+    }
+   ]
+  },
+  "ID7HR6Vk": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/peugeot-3008-ver-puretech-130-stop-start-active-ID7HR6Vk.html",
+   "t": "Peugeot 3008 PureTech 130 Stop & Start Active",
+   "preturi": [
+    {
+     "d": "2026-11-27",
+     "p": 12490
+    }
+   ]
+  },
+  "ID7HR6Vp": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/dacia-sandero-stepway-ver-eco-g-100-mt6-extreme-ID7HR6Vp.html",
+   "t": "Dacia Sandero Stepway ECO-G 100 MT6 Extreme",
+   "preturi": [
+    {
+     "d": "2026-11-27",
+     "p": 12600
+    }
+   ]
+  },
+  "ID7HR6To": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/opel-crossland-x-ver-1-2-start-stop-gs-ID7HR6To.html",
+   "t": "Opel Crossland X 1.2 Start/Stop GS",
+   "preturi": [
+    {
+     "d": "2026-11-27",
+     "p": 12705
+    }
+   ]
+  },
+  "ID7HR6YK": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/suzuki-vitara-ver-1-4-boosterjet-mhev-passion-ID7HR6YK.html",
+   "t": "Suzuki Vitara 1.4 Boosterjet MHEV Passion",
+   "preturi": [
+    {
+     "d": "2026-11-27",
+     "p": 12990
+    }
+   ]
+  },
+  "ID7HR5Hg": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/renault-captur-ver-tce-90-zen-ID7HR5Hg.html",
+   "t": "Renault Captur TCe 90 Zen",
+   "preturi": [
+    {
+     "d": "2026-11-27",
+     "p": 14999
+    }
+   ]
+  },
+  "ID7HR3Fe": {
+   "u": "https://www.autovit.ro/autoturisme/anunt/mazda-cx-30-ver-e-skyactiv-x186-mhev-gtplus-ID7HR3Fe.html",
+   "t": "Mazda CX-30 e-Skyactiv X186 MHEV GT+",
+   "preturi": [
+    {
+     "d": "2026-11-27",
+     "p": 15000
+    }
+   ]
+  },
+  "https://elicitatii.anaf.ro/publicitate/produs/12600039044000000048193-autoturism-marca-ford-focus-turnier-dnw-bhda1": {
+   "u": "https://elicitatii.anaf.ro/publicitate/produs/12600039044000000048193-autoturism-marca-ford-focus-turnier-dnw-bhda1",
+   "t": "FORD FOCUS TURNIER",
+   "preturi": [
+    {
+     "d": "2026-11-27",
+     "p": 1239
     }
    ]
   }
