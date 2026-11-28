@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-27",
+ "actualizat": "2026-11-28",
  "grupuri": [
   {
    "id": "ford-verde",
@@ -77,7 +77,7 @@
     "p": 14500,
     "nota": "50-60 km pe electric, motor 1.5 benzina"
    },
-   "total": 19,
+   "total": 22,
    "anunturi": [
     {
      "m": "MG EHS",
@@ -104,6 +104,17 @@
     {
      "m": "MG EHS 1.5T-GDI Luxury",
      "an": 2021,
+     "km": 92701,
+     "cp": 258,
+     "f": "Hibrid Plug-In",
+     "p": 16990,
+     "z": "Satu Mare",
+     "u": "https://www.autovit.ro/autoturisme/anunt/mg-ehs-ver-1-5t-gdi-luxury-ID7HQZs5.html",
+     "d": "2026-11-01"
+    },
+    {
+     "m": "MG EHS 1.5T-GDI Luxury",
+     "an": 2021,
      "km": 66117,
      "cp": 258,
      "f": "Hibrid Plug-In",
@@ -113,26 +124,15 @@
      "d": "2026-11-18"
     },
     {
-     "m": "MG EHS 1.5T-GDI Comfort",
-     "an": 2023,
-     "km": 85000,
+     "m": "MG HS",
+     "an": 2021,
+     "km": 90000,
      "cp": 258,
      "f": "Hibrid Plug-In",
-     "p": 17900,
-     "z": "Satu Mare",
-     "u": "https://www.autovit.ro/autoturisme/anunt/mg-ehs-ver-1-5t-gdi-comfort-ID7HR6nQ.html",
-     "d": "2026-11-24"
-    },
-    {
-     "m": "MG EHS",
-     "an": 2022,
-     "km": 60000,
-     "cp": 258,
-     "f": "Hibrid Plug-In",
-     "p": 17999,
-     "z": "Brasov",
-     "u": "https://www.autovit.ro/autoturisme/anunt/mg-ehs-ID7HQg4x.html",
-     "d": "2026-10-29"
+     "p": 17300,
+     "z": "Constanta",
+     "u": "https://www.autovit.ro/autoturisme/anunt/mg-hs-ID7HR3AR.html",
+     "d": "2026-11-16"
     }
    ]
   }

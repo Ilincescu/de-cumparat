@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-27",
+ "actualizat": "2026-11-28",
  "note": "Istoric de preturi. Cheia e ID-ul de la capatul linkului. Fiecare intrare are linkul, titlul si lista de preturi observate, cu data. Se scrie o valoare noua doar cand pretul se schimba.",
  "anunturi": {
   "IDIFiL": {
@@ -55,7 +55,7 @@
      "p": 158000
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 165000
     }
    ]
@@ -507,7 +507,7 @@
      "p": 199990
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 185000
     }
    ]
@@ -1807,7 +1807,7 @@
      "p": 75000
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 92000
     }
    ]
@@ -3009,7 +3009,7 @@
      "p": 77000
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 110000
     }
    ]
@@ -3021,6 +3021,10 @@
     {
      "d": "2026-09-13",
      "p": 68000
+    },
+    {
+     "d": "2026-09-25",
+     "p": 55000
     },
     {
      "d": "2026-09-28",
@@ -3201,7 +3205,7 @@
      "p": 85900
     },
     {
-     "d": "2026-09-28",
+     "d": "2026-09-25",
      "p": 81990
     },
     {
@@ -4465,7 +4469,7 @@
      "p": 89000
     },
     {
-     "d": "2026-10-04",
+     "d": "2026-09-25",
      "p": 84999
     }
    ]
@@ -4601,6 +4605,10 @@
     {
      "d": "2026-10-04",
      "p": 99000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 107500
     }
    ]
   },
@@ -5115,6 +5123,10 @@
     {
      "d": "2026-09-21",
      "p": 205000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 195000
     }
    ]
   },
@@ -5613,6 +5625,10 @@
     {
      "d": "2026-09-15",
      "p": 74900
+    },
+    {
+     "d": "2026-11-28",
+     "p": 73900
     }
    ]
   },
@@ -11291,6 +11307,10 @@
     {
      "d": "2026-09-30",
      "p": 215000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 189900
     }
    ]
   },
@@ -11931,6 +11951,10 @@
     {
      "d": "2026-10-04",
      "p": 86000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 84000
     }
    ]
   },
@@ -13999,6 +14023,10 @@
     {
      "d": "2026-10-04",
      "p": 39000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 39900
     }
    ]
   },
@@ -25367,6 +25395,10 @@
     {
      "d": "2026-10-16",
      "p": 71990
+    },
+    {
+     "d": "2026-11-28",
+     "p": 69000
     }
    ]
   },
@@ -32475,6 +32507,10 @@
     {
      "d": "2026-10-26",
      "p": 78000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 89500
     }
    ]
   },
@@ -33103,6 +33139,10 @@
     {
      "d": "2026-10-26",
      "p": 95000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 92999
     }
    ]
   },
@@ -34197,6 +34237,10 @@
     {
      "d": "2026-10-30",
      "p": 67000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 65000
     }
    ]
   },
@@ -35167,6 +35211,10 @@
     {
      "d": "2026-11-03",
      "p": 45000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 39000
     }
    ]
   },
@@ -35325,6 +35373,10 @@
     {
      "d": "2026-11-03",
      "p": 77000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 76990
     }
    ]
   },
@@ -36053,6 +36105,10 @@
     {
      "d": "2026-11-09",
      "p": 99500
+    },
+    {
+     "d": "2026-11-28",
+     "p": 98900
     }
    ]
   },
@@ -36197,6 +36253,10 @@
     {
      "d": "2026-11-09",
      "p": 90000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 110000
     }
    ]
   },
@@ -38807,6 +38867,10 @@
     {
      "d": "2026-11-13",
      "p": 110000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 102000
     }
    ]
   },
@@ -38979,6 +39043,10 @@
     {
      "d": "2026-11-17",
      "p": 110000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 102000
     }
    ]
   },
@@ -39977,6 +40045,10 @@
     {
      "d": "2026-11-17",
      "p": 51500
+    },
+    {
+     "d": "2026-11-28",
+     "p": 49900
     }
    ]
   },
@@ -40977,6 +41049,10 @@
     {
      "d": "2026-11-18",
      "p": 78000
+    },
+    {
+     "d": "2026-11-28",
+     "p": 89000
     }
    ]
   },
@@ -44277,6 +44353,126 @@
     {
      "d": "2026-11-27",
      "p": 1239
+    }
+   ]
+  },
+  "IDJnIZ": {
+   "u": "https://www.storia.ro/ro/oferta/casa-3-camere-renovata-complet-cu-pivnita-si-terasa-IDJnIZ",
+   "t": "Casa 3 camere renovata complet cu pivnita si terasa",
+   "preturi": [
+    {
+     "d": "2026-11-28",
+     "p": 107499
+    }
+   ]
+  },
+  "IDJo5t": {
+   "u": "https://www.storia.ro/ro/oferta/ap-nou-2-cam-et-1-lift-40-mp-intabulat-lacul-binder-IDJo5t",
+   "t": "Ap NOU 2 cam. Et.1, Lift,  40 mp, intabulat, Lacul Binder",
+   "preturi": [
+    {
+     "d": "2026-11-28",
+     "p": 82000
+    }
+   ]
+  },
+  "IDJo5m": {
+   "u": "https://www.storia.ro/ro/oferta/ap-modern-2-camere-nou-43mp-lift-tiglari-comision-0-IDJo5m",
+   "t": "AP. modern 2 camere NOU, 43mp, lift, Tiglari. COMISION 0%",
+   "preturi": [
+    {
+     "d": "2026-11-28",
+     "p": 86000
+    }
+   ]
+  },
+  "IDJo4a": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-de-vnzare-sibiu-mihai-viteazul-30-mp-IDJo4a",
+   "t": "Garsonieră de vânzare | Sibiu, Mihai Viteazul | 30 mp",
+   "preturi": [
+    {
+     "d": "2026-11-28",
+     "p": 67000
+    }
+   ]
+  },
+  "IDJo1l": {
+   "u": "https://www.storia.ro/ro/oferta/garsonier-de-vnzare-sibiu-25-mp-balcon-etaj-1-IDJo1l",
+   "t": "Garsonieră de vânzare | Sibiu | 25 mp | balcon | etaj 1",
+   "preturi": [
+    {
+     "d": "2026-11-28",
+     "p": 62500
+    }
+   ]
+  },
+  "IDJnZQ": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-decomandate-pe-strada-semaforului-IDJnZQ",
+   "t": "Apartament de vanzare 2 camere decomandate pe strada Semaforului",
+   "preturi": [
+    {
+     "d": "2026-11-28",
+     "p": 102000
+    }
+   ]
+  },
+  "IDJnQa": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-elimbar-zona-centrala-IDJnQa",
+   "t": "Apartament de vanzare Șelimbar zona Centrala",
+   "preturi": [
+    {
+     "d": "2026-11-28",
+     "p": 104500
+    }
+   ]
+  },
+  "IDJnFF": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-balcon-sibiu-ciresica-IDJnFF",
+   "t": "Apartament de vanzare 2 camere balcon Sibiu Ciresica",
+   "preturi": [
+    {
+     "d": "2026-11-28",
+     "p": 68000
+    }
+   ]
+  },
+  "IDJnFf": {
+   "u": "https://www.storia.ro/ro/oferta/apartament-de-vanzare-2-camere-sibiu-vasile-aaron-IDJnFf",
+   "t": "Apartament de vanzare 2 camere Sibiu Vasile Aaron",
+   "preturi": [
+    {
+     "d": "2026-11-28",
+     "p": 68990
+    }
+   ]
+  },
+  "IDJnFe": {
+   "u": "https://www.storia.ro/ro/oferta/garsoniera-decomandata-de-vanzare-sibiu-piata-rahovei-IDJnFe",
+   "t": "Garsoniera decomandata de vanzare Sibiu piata Rahovei",
+   "preturi": [
+    {
+     "d": "2026-11-28",
+     "p": 59990
+    }
+   ]
+  },
+  "IDJnbj": {
+   "u": "https://www.storia.ro/ro/oferta/ap-cu-2-camere-recent-renovat-zona-rahovei-IDJnbj",
+   "t": "Ap cu 2 camere, recent renovat, Zona Rahovei",
+   "preturi": [
+    {
+     "d": "2026-11-28",
+     "p": 95000
+    }
+   ]
+  },
+  "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-lazaret-4-camere-275773912": {
+   "u": "https://www.imobiliare.ro/oferta/casa-individuala-de-vanzare-sibiu-lazaret-4-camere-275773912",
+   "t": "Casa individuala de vanzare cu COMISION 0, Zona Lazaret / Lupeni",
+   "preturi": [
+    {
+     "d": "2026-11-27",
+     "p": 249900
     }
    ]
   }
